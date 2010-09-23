@@ -1,0 +1,14 @@
+#summary Próximos passos do desenvolvimento.
+
+= Próximos Passos =
+
+  # Quando Aula lida do bando-de-dados, Modificado <- .F.
+  # Ao gravar no bando-de-dados:
+    * Somente se Modificado == .V.
+    * Se existir AulaN@IdTurma,
+    *    Substituir
+    * Senão
+    *    Acrescentar
+  # Ao atualizar o bando-de-dados:
+    * Remover os registros indicados por RegistrosAExcluir@IdTurma.
+    * Remover itens de RegistrosAExcluir
