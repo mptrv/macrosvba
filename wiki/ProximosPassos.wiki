@@ -13,4 +13,7 @@
   - Ao atualizar o bando-de-dados:
     * Remover os registros indicados por RegistrosAExcluir@IdTurma.
     * Remover itens de RegistrosAExcluir
+
+  - Executar a criação da planilha sob o evento \click\ do botão "Aceitar" da janela
+    de propriedades da grade horária, ao invés da "Definir Turma".
 }}}
