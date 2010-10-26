@@ -3,14 +3,5 @@
 = Próximos Passos =
 
 {{{
-  - Quando Aula lida do bando-de-dados, Modificado <- .F.
 
-  - Retirar o parâmetro "Ano" das funções "ExisteDado...", pois
-    IdTurma já contém o ano agora.
-
-  - Passar os dados da turma exibidos na planilha de "colunas" para
-    "linhas" (transpor).
-
-  - Colocar os botões "Nova Aula..." e "Salvar" no trecho congelado da
-    planilha. 
 }}}
