@@ -2,10 +2,10 @@
 
 setlocal
 
-if [%1] == [] (
+set /p Revisao=Digite a revisao desejada (deixar em branco para ultima revisao): 
+
+if [%Revisao%] == [] (
 	set Revisao=head
-) ELSE (
-	set Revisao=%1
 )
 
 svn co -r %Revisao% http://macrosvba.googlecode.com/svn/trunk/metodos-automaticos/bases/oficial/ .  && (
@@ -15,3 +15,6 @@ svn co -r %Revisao% http://macrosvba.googlecode.com/svn/trunk/metodos-automatico
 	echo.
 	echo *** Houve erro! ***
 )
+
+echo.
+pause
