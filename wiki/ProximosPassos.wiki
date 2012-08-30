@@ -1,7 +1,0 @@
-#summary Próximos passos do desenvolvimento.
-
-= Próximos Passos =
-
-{{{
-
-}}}
