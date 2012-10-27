@@ -1,0 +1,17 @@
+#summary Passos para gerar a versão de distribuição de Métodos Automáticos.
+#labels Featured
+
+== Descrição ==
+
+Relação dos passos que devem ser realizados para a geração de uma versão de distruição, alocada em '/tags'.
+
+== Passos ==
+
+   # Atualizar a numeração da versão dos programas nos programas.
+   # Atualizar a numeração da versão dos programas na tabela de versões do Servidor.
+   # Fazer _commit_.
+   # Gerar cópia de trabalho (_working copy_) no subdiretório `.../distribuicoes/` com base na versão anterior em `.../tags/`; neste momento, deverá ser criado o subdiretório `.../distribuicoes/metodos-automaticos-<versão>/`.
+   # Preparar o conteúdo dos subdiretórios. Em especial, copiar as macros de interesse para o subdiretório correspondente.
+   # Renomear os arquivos de extensão `.accdb` para `.accdr`.
+   # Compactar o conteúdo todo em formato `.7z` e `.zip`.
+   # Enviar a cópia de trabalho para a correspondente _tag_, em `.../tags/metodos-automaticos-<versão>/`
