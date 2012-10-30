@@ -17,4 +17,6 @@ Relação dos passos que devem ser realizados para a geração de uma versão de
    # Alterar atributo de arquivo para oculto de `construcao-grade_horaria.bloqueio`.
    # Renomear os arquivos de extensão `.accdb` para `.accdr`.
    # Compactar o conteúdo todo em formato `.7z` e `.zip`.
+   # Pode-se excluir o conteúdo previamente compactado.
+   # Adicionar os arquivos compactados ao controle de versão.
    # Enviar a cópia de trabalho para a correspondente _tag_, em `.../tags/metodos-automaticos-<versão>/`
