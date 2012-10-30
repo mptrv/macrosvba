@@ -13,6 +13,8 @@ Relação dos passos que devem ser realizados para a geração de uma versão de
    # Gerar cópia de trabalho (_working copy_) no subdiretório `.../distribuicoes/` com base na versão anterior em `.../tags/`; neste momento, deverá ser criado o subdiretório `.../distribuicoes/metodos-automaticos-<versão>/`.
    # Preparar o conteúdo dos subdiretórios. Em especial, copiar as macros de interesse para o subdiretório correspondente.
    # Alterar a referência de banco de dados para o remoto oficial, em todos os programas.
+   # Salvar o programa CGH, gerando o arquivo `construcao-grade_horaria.bloqueio`.
+   # Alterar atributo de arquivo para oculto de `construcao-grade_horaria.bloqueio`.
    # Renomear os arquivos de extensão `.accdb` para `.accdr`.
    # Compactar o conteúdo todo em formato `.7z` e `.zip`.
    # Enviar a cópia de trabalho para a correspondente _tag_, em `.../tags/metodos-automaticos-<versão>/`
