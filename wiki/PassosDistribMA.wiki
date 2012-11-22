@@ -1,5 +1,5 @@
 #summary Passos para gerar a versão de distribuição de Métodos Automáticos.
-#labels Featured,Phase-Release
+#labels Featured,Phase-Release,Doc-Tecnico
 
 == Descrição ==
 
