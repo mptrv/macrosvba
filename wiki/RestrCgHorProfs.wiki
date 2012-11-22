@@ -1,5 +1,5 @@
 #summary Relação de restrições de carga horária para professores.
-#labels Featured,Doc-Especificacoes
+#labels Featured,Doc-Diretrizes
 
 = Restrições de Carga Horária para Professores =
 
