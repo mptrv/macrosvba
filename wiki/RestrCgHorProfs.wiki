@@ -1,0 +1,15 @@
+#summary Relação de restrições de carga horária para professores.
+
+= Restrições de Carga Horária para Professores =
+
+De acordo com a _Lei_ e com os _Acordos Coletivos_, as restrições para a carga horária dos professores são:
+
+  # Não pode-se ministrar mais de 8 horas-aula por dia, considerando-se todos os períodos.
+  # Ao ministrar mais de 6 horas-aula num dia, deve haver um intervalo mínimo de 1 hora após um máximo de 6 horas-aula consecutivas.
+  # Entre dias consecutivos, deve haver um mínimo de 11 horas de descanso.
+  # Professores em regime de _Tempo Integral_ (TI) deverão possuir uma carga total exatamente igual a 40 horas-aula, incluindo-se as atividades didáticas^1^ e as outras atividades.
+  # Professores TI não poderão assumir mais de 20 horas-aula de atividades didáticas.
+  # 
+
+----
+^1^ As atividades didáticas incluem as aulas ministradas e os trabalhos de conclusão de curso.
