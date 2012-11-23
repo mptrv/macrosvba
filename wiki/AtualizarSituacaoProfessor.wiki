@@ -1,0 +1,30 @@
+#summary Atualização da Situação do Professor - Procedimentos
+#labels Featured,Doc-Usuario
+
+= Atualização da Situação do Professor =
+
+Para atualizar a situação do professor no Instituto, deve-se tomar o cuidado de alimentar os dados para os correspondentes eventos:
+
+  # Atividades outras
+  # Atendimento a alunos
+  # Atividades na Pós-Graduação
+  # Orientações de Trabalhos de Conclusão de Curso (TCC)
+  # Pedidos de licença e afastamento
+
+Todas as *novas situações* deverão ser acrescentadas ao *final das tabelas* de seus eventos, num novo registro. Os nomes destas tabelas terminam com um texto muito semelhante aos eventos, sendo fácil a identificação. Na ordem:
+
+  # `<...>_Atividades_Outras`
+  # `<...>_Atendimento`
+  # `<...>_Atividades_PG`
+  # `<...>_TG`^1^
+  # `<...>_Licenca_Afastamento`
+
+Nestas tabelas, há a data inicial e final do período vigente do evento.
+
+  === _Portanto, deve-se sempre observar as mudanças e os comunicados internos para manter os dados atualizados ao longo do ano letivo._ ===
+
+Note-se que *entradas anteriores não deverão ser apagadas ou modificadas*, salvo sob erro de digitação. Desta maneira, será possível consultar a situação de um determinado professor em qualquer momento do passado.
+
+----
+
+^1^ "TG" significa "Trabalho de Graduação", o que agora, oficialmente, conforme desginado pelo MEC, chama-se "Trabalho de Conclusão de Curso" (TCC). Contudo, o programa mantém o nome da tabela interna com a sigla "TG".
