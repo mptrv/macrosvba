@@ -11,10 +11,12 @@ De acordo com a _Lei_ e com os _Acordos Coletivos_, as restrições para a carga
   # Entre dias consecutivos, deve haver um mínimo de 11 horas de descanso.
   # Professores em regime^1^ de _Tempo Integral_ (TI) deverão possuir uma carga total exatamente igual a 40 horas-aula por semana, incluindo-se as atividades didáticas^2^ e as outras atividades.
   # Professores TI não poderão assumir mais de 20 horas-aula por semana de atividades didáticas.
-  # Professores em regime de _Tempo Parcial_ (TP) e _Horista_ (HR) não poderão possuir mais de 38 horas-aula por semana, incluindo as atividades didáticas e as outras atividades.
+  # Professores em regime de _Tempo Parcial_ (TP) e _Horista_ (HR) não poderão possuir mais de 38^3^ horas-aula por semana, incluindo as atividades didáticas e as outras atividades.
   # Não deverão haver "_janelas_", isto é, aulas não consecutivas, numa determinada parte do período (manhã, tarde ou noite).
 
 ----
 ^1^ Veja [CriterioDefRegime aqui] os critérios para definição dos regimes de trabalho.
 
 ^2^ As atividades didáticas incluem as aulas ministradas e os trabalhos de conclusão de curso.
+
+^3^ Esta quantidade pode variar de acordo com a Instituição.
