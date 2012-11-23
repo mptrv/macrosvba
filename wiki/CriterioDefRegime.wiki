@@ -14,3 +14,5 @@ Os professores em regime TI são expressamente contratados pela Instituição pa
 Já os professores em regime TP e HR são definidos conforme as atividades que lhes são atribuídas.
 
 Toda Instituição de Ensino Superior deve ter um mínimo de 20% do total do corpo docente em regime de trabalho TI.
+
+As restrições para as atribuições de carga horária aos professores estão relacionadas [RestrCgHorProfs aqui].
