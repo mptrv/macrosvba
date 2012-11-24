@@ -13,6 +13,7 @@ De acordo com a _Lei_ e com os _Acordos Coletivos_, as restrições para a carga
   # Professores TI não poderão assumir mais de 20 horas-aula por semana de atividades didáticas.
   # Professores em regime de _Tempo Parcial_ (TP) e _Horista_ (HR) não poderão possuir mais de 38^4^ horas-aula por semana, incluindo as atividades didáticas e as outras atividades.
   # Não deverão haver "_janelas_", isto é, aulas não consecutivas, numa determinada parte do período (manhã, tarde ou noite).
+  # Entre dois anos consecutivos, não deverá haver redução de carga horária.^5^
 
 ----
 ^1^ A última aula do período Diurno e a primeira do período Noturno, atualmente, não são consideradas consecutivas pelo programa.
@@ -22,3 +23,5 @@ De acordo com a _Lei_ e com os _Acordos Coletivos_, as restrições para a carga
 ^3^ As atividades didáticas incluem as aulas ministradas e os trabalhos de conclusão de curso.
 
 ^4^ Esta quantidade pode variar de acordo com a Instituição.
+
+^5^ Ao menos, não uma redução significativa.
