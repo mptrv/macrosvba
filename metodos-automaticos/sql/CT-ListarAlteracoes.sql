@@ -15,7 +15,7 @@ declare @id_tabela int
 set @id_tabela = 0
 
 -- Seleção da versão. Para valores, rodar 'CT-ListarVersoes.sql'.
-set @sv = 106401
+set @sv = 129144
 
 /***** Fim Escolhas do usuário *****/
 
