@@ -9,16 +9,16 @@ Relação dos passos que devem ser realizados para a geração de uma versão de
 
    # Atualizar a numeração da versão dos programas nos programas.
    # Atualizar a numeração da versão dos programas na tabela de versões do Servidor.
-   # Fazer _commit_.
-   # Gerar cópia de trabalho (_working copy_) no subdiretório `.../distribuicoes/` com base na versão anterior em `.../tags/`; neste momento, deverá ser criado o subdiretório `.../distribuicoes/metodos-automaticos-<versão>/`.
-   # Descompactar um dos arquivos compactados.
-   # Remover do controle de versão ambos os arquivos compactados.
+   # Fazer _commit_ (com `svn ci`).
+   # Gerar cópia de trabalho (_working copy_, com `svn co`) no subdiretório `.../distribuicoes/` com base na versão anterior em `.../tags/`; neste momento, deverá ser criado o subdiretório `.../distribuicoes/metodos-automaticos-<versão>/`.
+   # Descompactar o arquivo compactado.
+   # Remover do controle de versão o arquivo compactado (com `svn rm`).
    # Preparar o conteúdo dos subdiretórios. Em especial, copiar as macros de interesse para o subdiretório correspondente.
    # Alterar a referência de banco de dados para o remoto oficial, em todos os programas.
    # Salvar o programa CGH, gerando o arquivo `construcao-grade_horaria.bloqueio`.
-   # Alterar atributo de arquivo para oculto de `construcao-grade_horaria.bloqueio`.
+   # Alterar atributo de arquivo para oculto de `construcao-grade_horaria.bloqueio` e de `servidor-sistema-horarios-oficial.dsn`.
    # Renomear os arquivos de extensão `.accdb` para `.accdr`.
-   # Compactar o conteúdo todo em formato `.7z` e `.zip`.
+   # Compactar o conteúdo todo em formato `.7z`.
    # Pode-se excluir o conteúdo previamente compactado.
-   # Adicionar os arquivos compactados ao controle de versão.
-   # Enviar a cópia de trabalho para a correspondente _tag_, em `.../tags/metodos-automaticos-<versão>/`
+   # Adicionar o arquivo compactado ao controle de versão (com `svn add`).
+   # Enviar a cópia de trabalho para a correspondente _tag_, em `.../tags/metodos-automaticos-<versão>/` (com `svn copy`).
