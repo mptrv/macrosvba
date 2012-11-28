@@ -1,0 +1,15 @@
+#summary Verificação da consistência da grade horária.
+#labels Featured,Doc-Usuario
+
+= Verificação da Consistência da Grade Horária =
+
+Sequencias e orientações para verificar a consistência da grade horária lançada.
+
+Devem ser realizadas as seguintes etapas, _na ordem_:
+
+  # Verificar as _superposições_:
+    # De aulas
+    # De professores
+    # De salas
+  # Verificar as _violações das restrições_:
+    # 
