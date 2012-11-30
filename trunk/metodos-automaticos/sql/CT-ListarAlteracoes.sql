@@ -15,7 +15,7 @@ declare @id_tabela int
 set @id_tabela = 0
 
 -- Seleção da versão. Para valores, rodar 'CT-ListarVersoes.sql'.
-set @sv = 154280
+set @sv = 169857
 
 /***** Fim Escolhas do usuário *****/
 
@@ -41,7 +41,7 @@ select @min_sv as 'Versão Mínima Válida', @atual_sv as 'Versão Corrente', @sv as
 if @id_tabela = 0 /* Tabela_Horarios */
 	select ct.Id_Turma, ct.Nome_Aula, ct.sys_change_operation, ct.sys_change_columns, ct.sys_change_context
 		from changetable(changes Tabela_Horarios, @sv) as ct
-		--where ct.sys_change_operation like '%'
+		where ct.sys_change_operation like '%'
 			--and ct.Id_Turma like '%4%D%'
 		order by ct.Id_Turma, Nome_Aula
 else if @id_tabela = 1 /* Divisao */
