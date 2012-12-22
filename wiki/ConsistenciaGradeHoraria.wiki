@@ -8,8 +8,8 @@ Sequencias e orientações para verificar a consistência da grade horária lan�
 Devem ser realizadas as seguintes etapas, _na ordem_:
 
   # Verificar as _superposições_:
-    # De aulas
-    # De professores
-    # De salas
+    # de aulas;
+    # de professores;
+    # de salas.
   # Verificar as _violações das restrições_:
-    # 
+    # ...
