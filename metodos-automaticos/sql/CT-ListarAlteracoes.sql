@@ -15,7 +15,7 @@ declare @id_tabela int
 set @id_tabela = 0
 
 -- Seleção da versão. Para valores, rodar 'CT-ListarVersoes.sql'.
-set @sv = 260182
+set @sv = 301423
 
 /***** Fim Escolhas do usuário *****/
 
@@ -49,4 +49,4 @@ else if @id_tabela = 1 /* Divisao */
 		from changetable(changes Divisao, @sv) as ct
 		--where ct.sys_change_operation like '%'
 			--and ct.Id_Turma like '%4%D%'
-		order by ct.Id_Turma
+		--order by ct.Id_Turma
