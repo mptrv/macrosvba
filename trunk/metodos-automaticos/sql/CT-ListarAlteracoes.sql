@@ -12,10 +12,10 @@ declare @id_tabela int
 /***** Escolhas do usuário. *****/
 
 -- Escolha da tabela.
-set @id_tabela = 0
+set @id_tabela = 2
 
 -- Seleção da versão. Para valores, rodar 'CT-ListarVersoes.sql'.
-set @sv = 301423
+set @sv = 260182
 
 /***** Fim Escolhas do usuário *****/
 
@@ -25,6 +25,7 @@ set @tabela =
 	case @id_tabela
 		when 0 then 'Tabela_Horarios'
 		when 1 then 'Divisoes'
+		when 2 then 'Professores'
 	end;
 
 -- Versão mínima válida.
@@ -50,3 +51,6 @@ else if @id_tabela = 1 /* Divisao */
 		--where ct.sys_change_operation like '%'
 			--and ct.Id_Turma like '%4%D%'
 		--order by ct.Id_Turma
+else if @id_tabela = 2 /* Professores */
+	select ct.RF, ct.sys_change_operation, ct.sys_change_columns, ct.sys_change_context
+		from changetable(changes Professores, @sv) as ct
