@@ -1,0 +1,495 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Treinamento
+\begin_inset Newline newline
+\end_inset
+
+Construção Grade Horária
+\begin_inset Newline newline
+\end_inset
+
+Consulta Sistema Horários
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\emph on
+Orientações
+\begin_inset space ~
+\end_inset
+
+gerais:
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+toda cópia impressa deverá ser arquivada para posterior apresentação ao
+ responsável pelo treinamento;
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+todo arquivo gerado deverá ser arquivado de forma organizada em alguma pasta
+ pessoal;
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+neste tipo de trabalho, data e horário de extração dos dados são sempre
+ importantes.
+\end_layout
+
+\begin_layout Section
+Construção Grade Horária
+\end_layout
+
+\begin_layout Subsection
+Criação de Grade Horária
+\end_layout
+
+\begin_layout Enumerate
+Trabalhar com os dados do primeiro semestre de 2013.
+\end_layout
+
+\begin_layout Enumerate
+Abrir uma turma
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Note-se, adiante, o duplo significado dado à palavra 
+\begin_inset Quotes eld
+\end_inset
+
+turma
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ do segundo ano (a sua própria, por exemplo).
+\end_layout
+
+\begin_layout Enumerate
+Gerar a correspondente planilha em PDF.
+\end_layout
+
+\begin_layout Enumerate
+Imprimir esta planilha.
+\end_layout
+
+\begin_layout Enumerate
+Excluir a turma.
+\end_layout
+
+\begin_layout Enumerate
+Atualizar o banco de dados.
+\end_layout
+
+\begin_layout Enumerate
+Fechar o programa.
+\end_layout
+
+\begin_layout Enumerate
+Reabrir o programa.
+\end_layout
+
+\begin_layout Enumerate
+Recarregar os dados do mesmo semestre e ano.
+\end_layout
+
+\begin_layout Enumerate
+Procurar pela turma excluída, observando se, de fato, fôra excluída.
+\end_layout
+
+\begin_layout Enumerate
+Recriar a turma, exatamente como era antes, e atualizar o banco de dados.
+\end_layout
+
+\begin_layout Enumerate
+Fechar o programa e reabri-lo.
+\end_layout
+
+\begin_layout Enumerate
+Verificar a existência da turma recém-recriada e reabri-la.
+\end_layout
+
+\begin_layout Enumerate
+Gerar uma cópia impressa da versão para publicação em PDF.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:CopiaImpressaPDF"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Comparar a versão original com esta nova versão e verificar se existe alguma
+ divergência.
+\end_layout
+
+\begin_layout Enumerate
+Se existir alguma divergência, providenciar as correções, atualizar o BD
+ e gerar novamente a cópia impressa da versão para publicação em PDF.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:CorrecoesSeDivergencia"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Repetir os passos de 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:CopiaImpressaPDF"
+
+\end_inset
+
+ a 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:CorrecoesSeDivergencia"
+
+\end_inset
+
+, até que esteja tudo correto -- contudo, 
+\emph on
+utilizando a menor quantidade possível de papel
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Alteração de Grade Horária
+\end_layout
+
+\begin_layout Subsubsection
+Aumento das subdivisões de uma turma
+\end_layout
+
+\begin_layout Enumerate
+Adicionar, à turma referenciada na seção anterior, 1 grupo, 2 turmas
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Note-se, aqui, o outro sentido da palavra 
+\begin_inset Quotes eld
+\end_inset
+
+turma
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ e 4 laboratórios.
+\end_layout
+
+\begin_layout Enumerate
+Para estas novas subdivisões, criar as mesmas aulas existentes para os grupos,
+ turmas e laboratórios originais.
+ Utilizar os mesmos professores e salas.
+ Evitar a superposição de aulas, salas e professores, considerando-se apenas
+ a turma em questão.
+\end_layout
+
+\begin_layout Enumerate
+Após realizar as alterações, deve-se sempre atualizar o banco de dados,
+ para evitar perda dos dados editados.
+\end_layout
+
+\begin_layout Enumerate
+Confirmar os dados inseridos, verificando se existe alguma superposição
+ e se todas as aulas estão adequamente lançadas.
+\end_layout
+
+\begin_layout Enumerate
+Gerar uma cópia impressa da versão para publicação em PDF e fazer mais uma
+ verificação.
+\end_layout
+
+\begin_layout Subsubsection
+Diminuição das subdivisões de uma turma
+\end_layout
+
+\begin_layout Enumerate
+À mesma turma, alterar suas subdivisões de forma a possuir 1 grupo, 1 turma
+ e 2 laboratórios.
+\end_layout
+
+\begin_layout Enumerate
+Anotar, numa planilha eletrônica, a carga reduzida de cada professor envolvido,
+ em 
+\emph on
+horas-aula
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Na mesma planilha, em outra aba (ou seja, na mesma pasta de trabalho de
+ planilhas eletrônicas, em outra planilha), anotar a redução de carga horária
+ das disciplinas envolvidas.
+\end_layout
+
+\begin_layout Enumerate
+Repetir o mesmo procedimento, elencando os dias e horários disponibilizados
+ nas salas envolvidas.
+\end_layout
+
+\begin_layout Enumerate
+Excluir as aulas não necessárias.
+\end_layout
+
+\begin_layout Enumerate
+Atualizar o banco de dados e gerar uma cópia impressa da versão para publicação
+ em PDF.
+\end_layout
+
+\begin_layout Enumerate
+Realizar formatações visuais nas planilhas eletrônicas, a fim de que os
+ dados sejam apresentados de forma 
+\emph on
+simples, clara e limpa
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Imprimir as três planilhas.
+\end_layout
+
+\begin_layout Subsection
+Outras Funcionalidades
+\end_layout
+
+\begin_layout Enumerate
+Na planilha da grade horária de alguma turma, verificar a função dos botões
+\emph on
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Editar Cor
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Planilha Geral
+\begin_inset Quotes erd
+\end_inset
+
+;
+\emph default
+ e
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Fechar
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Na 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Planilha Geral
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, verificar a função dos botões:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Atualizar Banco de Dados...
+\begin_inset Quotes erd
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Desenhar Grades
+\begin_inset Quotes erd
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Transformar em...
+\begin_inset Quotes erd
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Gerar PDFs...
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+;
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Sobre...
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Consulta Sistema Horários
+\end_layout
+
+\end_body
+\end_document
