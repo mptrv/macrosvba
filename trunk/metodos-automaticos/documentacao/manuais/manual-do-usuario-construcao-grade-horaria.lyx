@@ -92,6 +92,21 @@ Fábio Costa Portásio
 Marcelo Porto Trevizan
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Mariane, retirar o negrito dos textos normais.
+ Retirei de alguns.
+ Para tanto, basta selecionar o texto e pressionar Ctrl+B.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Apresentação
 \end_layout
@@ -106,10 +121,155 @@ Acesso ao sistema
 
 \begin_layout Subsection
 Ler banco de dados
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Ler-banco-de"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Ao acessar o sistema é necessário ler o banco de dados com o qual se deseja
+ trabalhar, para tal deve-se clicar no botão 'Ler Banco de Dados...', caso
+ essa seja a primeira operação ao se abrir o programa deve-se continuar
+ caso contrário leia a seção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Gravação"
+
+\end_inset
+
+.
+ Deve-se selecionar o período de interesse do banco de dados para que as
+ planilhas sejam importadas, ao se clicar em aceitar, já é possível visualizar
+ os horários disponíveis.
 \end_layout
 
 \begin_layout Subsection
 Selecionar turma
+\end_layout
+
+\begin_layout Subsubsection
+Identificação da turma 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Identificação-da-turma"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+As turmas possuem a seguinte identificação:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+1S2TR.QM-D@2013
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+O primeiro algarismo junto com a letra 'S' representa o semestre que a turma
+ está cursando;
+\end_layout
+
+\begin_layout Enumerate
+O terceiro algarismo é a série, o ano, que os alunos matriculados em tal
+ turma estão cursando nesse exemplo o segundo;
+\end_layout
+
+\begin_layout Enumerate
+As letras a seguir e antes do hífen (-), representam a habilitação da turma
+ em questão, por exemplo:
+\end_layout
+
+\begin_layout Itemize
+TR.QM: Tronco química;
+\end_layout
+
+\begin_layout Itemize
+QM: Química
+\end_layout
+
+\begin_layout Itemize
+CV: Civil
+\end_layout
+
+\begin_layout Itemize
+DG: Design
+\end_layout
+
+\begin_layout Itemize
+DP.EL: Dependências de Engenhara Elétrica
+\end_layout
+
+\begin_layout Standard
+Entre outros;
+\end_layout
+
+\begin_layout Enumerate
+Após o hífen segue o período da turma em questão:
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Não sei como numerar corretamente esses itens
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+D: Diurno
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Que tal assim? Se era isto que imaginava, basta aumentar o recuo, pelo botão
+ acima ou Alt+Shift+Seta para direita.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+N: Noturno;
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+E por último após o '@' o ano da corrente turma, como ao se ler o banco
+ de dados foi filtrado apenas um período de um ano todas as planilhas importadas
+ devem possuir essa última parte igual.
+\end_layout
+
+\begin_layout Subsubsection
+Seleção da turma
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Para se selecionar uma turma basta procura-la na lista, seleciona-la então
+ clicar em 'Ir', ou então digitar sua identificação completa 
+\series default
+no campo de busca e clicar em 'Ir'.
 \end_layout
 
 \begin_layout Section
@@ -120,12 +280,125 @@ Criação
 De Grade horária
 \end_layout
 
+\begin_layout Paragraph
+Para criar uma nova grade horária deve-se clicar no botão no botão 'Nova
+ Grade Horária...', uma janela para seleção das propriedades da turma irá aparecer,
+ atente que as opções aqui selecionadas irão determinar a identificação
+ da sua nova grade conforme a subseção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Identificação-da-turma"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Automaticamente uma planilha será criada obecendo os horários e subdivisões
+ de turma selecionados.
+\end_layout
+
 \begin_layout Subsection
 De Aula
 \end_layout
 
+\begin_layout Paragraph
+Para a criação de uma nova aula deve-se já na planilha em que ela deve ser
+ adicionada, clicar no botão 'Nova Aula...', você verá o aparecimento de um
+ quadro em cinza no canto do horário com os dizeres 
+\begin_inset Quotes eld
+\end_inset
+
+clique aqui para definir a aula
+\begin_inset Quotes erd
+\end_inset
+
+, intuitivamente clique sobre esse quadro e uma nova janela irá aparecer.
+\end_layout
+
+\begin_layout Paragraph
+Primeiramente deve-se definir o horário no qual essa aula irá ocorrer, como
+ por exemplo segunda-feira, ás 7:40h, com duração de 2 horas-aula.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Deve-se notar que devido ao adiamento de 10 minutos no início das aulas
+ nessa opção aparecem os horários antigos, mas na planilha a ser gerada
+ o horário aparecerá corretamente, portanto ao se desejar que uma aula inicie
+ as 7:40h selecione 7:30h.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Também vale lembrar que uma aula-hora corresponde a 50 minutos.
+\end_layout
+
+\begin_layout Paragraph
+Definindo o horário da aula, deve-se selecionar a que turma, grupo ou laboratóri
+o a aula corresponde, grupos estão associados a aulas de teoria, turmas
+ a aulas de exercício e laboratório a laboratórios, mas é possível alterar
+ essa opção.
+\end_layout
+
+\begin_layout Paragraph
+Clicando em 'Propriedades' se altera as especificações da aula em questão:
+ disciplina, professor, sala...
+ Pode-se preencher os campo selecionando da caixa de opções ou então escrevendo
+ o código da disciplina, a abreviação do nome do professor e a própria sala.
+ Neste último item vale notar que ao lado da opção de sala aparece uma campo
+ 
+\begin_inset Quotes eld
+\end_inset
+
+disponível
+\begin_inset Quotes erd
+\end_inset
+
+ caso a sala escolhida esteja ocupada ele não será preenchido caso contrário
+ ele ficará marcado, a capacidade das salas também são disponibilizadas.
+\end_layout
+
+\begin_layout Subsection
+De Aula Compartilhada
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Acrescentei mais este tópico.
+ No treinamento, ele não foi abordado.
+ Talvez eu tenha que dar algumas orientações adicionais.
+ Mas pode deixar para escrever por último este tópico.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Transformação de grade horária
+\end_layout
+
+\begin_layout Paragraph
+A opção do botão 'Transformar em...' que existe na planilha principal, ou seja,
+ na janela inicial do programa, transforma todos os dados importados do
+ banco de dados, ou aqueles que passaram pelo filtro definido ao se importar
+ o banco de dados (veja seção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Ler-banco-de"
+
+\end_inset
+
+) , e logo pertencem a um ano e semestre específico pré-escolhido para um
+ novo período (ano ou semestre).
+ Por exemplo pode-se copiar todos os horários já definidos para o primeiro
+ semestre de 2013 para o segundo semestre de 2014 caso eles se mantenham
+ inalterados.
+ Uma vez feita a transformação todas as funções são disponíveis para essas
+ novas grades horárias geradas.
 \end_layout
 
 \begin_layout Section
@@ -136,16 +409,68 @@ Alteração
 De aulas
 \end_layout
 
+\begin_layout Paragraph
+Para alterar uma aula que já consta no horário em que se está trabalhando,
+ deve-se clicar sobre a mesa as mesmas janelas que aparecem ao se definir
+ a aula pela primeira vez irão aparecer, todas as propriedades podem ser
+ alteradas.
+\end_layout
+
+\begin_layout Subsubsection
+Exclusão
+\end_layout
+
+\begin_layout Paragraph
+Deve-se proceder da mesma maneira caso seja necessário excluir uma aula
+ existente, para tal clique no botão 'Deletar...' e em seguida confirme a opção.
+\end_layout
+
+\begin_layout Paragraph
+Outra alternativa a se excluir a aula é move-la para o canto, clique nessa
+ opção e ela aparecerá sobre a planilha ao se gerar um relatório ela não
+ irá constar mas caso ela precise ser resgatada não será necessário cria-la
+ de novo apenas definir seu horário.
+\end_layout
+
 \begin_layout Subsection
 De subdivisões
+\end_layout
+
+\begin_layout Paragraph
+Para alterar as subdivisões de uma turma deve-se clicar no botão 'Editar
+ Turma...'e logo em seguida em 'Alterar Divisões' a janela que apareceu na
+ criação da turma para seleção das divisões aparecerá novamente.
+ Note que caso a alteração diminua a turma em questão as aulas que ficarem
+ excedentes serão movidas para o canto.
 \end_layout
 
 \begin_layout Subsection
 De cores
 \end_layout
 
+\begin_layout Paragraph
+A cor da aula na planilha pode estar na função automática assim a cada disciplin
+a será atribuida uma cor diferente automaticamente e na repetição da mesma
+ disciplina todas as vezes que aparecer será no mesmo tom ou então pode-se
+ fazer a opção de cor manualmente, escolhendo aula a aula a cor desejada.
+ Essa opção está dicponível nas propiedades da aula (mesma janela que se
+ escolhe a disciplina, professor e sala).
+\end_layout
+
 \begin_layout Section
 Gravação
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Gravação"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Após terminar a criação ou alteração de alguma grade horária é necessário
+ salvar no banco de dados o que foi feito.
 \end_layout
 
 \begin_layout Subsection
@@ -162,24 +487,127 @@ Talvez não seja necessário explicitar este tópico.
 
 \end_layout
 
+\begin_layout Paragraph
+No construção grade horária a opção 
+\begin_inset Quotes eld
+\end_inset
+
+salvar, gravar, guardar...
+\begin_inset Quotes erd
+\end_inset
+
+ corresponde ao botão 'Atualizar Banco de Dados...' na planilha geral, ou 'Atualiza
+r BD...' quando se está na planilha de algum horário específico, é indiferente
+ qual desses botões se seleciona para executar essa ação, desde que se lembre
+ de executa-la para evitar perda de informações.
+\end_layout
+
 \begin_layout Section
 Relatórios
+\end_layout
+
+\begin_layout Paragraph
+Um relatório é a geração de um arquivo pdf da(s) planilha(s) com que se
+ está trabalhando.
 \end_layout
 
 \begin_layout Subsection
 Uma turma
 \end_layout
 
+\begin_layout Paragraph
+Para gerar o relatório de uma turma específica, abra o horário da correspondente
+ turma e clique sobre o botão 'Gerar PDF', o arquivo será gerado e se encontrará
+ na pasta 
+\begin_inset Quotes eld
+\end_inset
+
+relatorios
+\begin_inset Quotes erd
+\end_inset
+
+ localizada junto aos arquivos do programa.
+\end_layout
+
 \begin_layout Subsection
 Todas as turmas
+\end_layout
+
+\begin_layout Paragraph
+Para gerar o relatório de todas as turmas importadas ao programa, ou seja,
+ todos os horários que passaram pelo filtro ao se iniciar a execução, ou
+ ainda, todas as planilhas que podem ser encontradas na caixa de busca pela
+ sua identificação.
+ Na planilha geral (tela inicial do programa), clique em 'Gerar PDF's' os
+ relatórios gerados se localizarão na mesma pasta 
+\begin_inset Quotes eld
+\end_inset
+
+relatorios
+\begin_inset Quotes erd
+\end_inset
+
+ localizada junto aos arquivos do programa.
 \end_layout
 
 \begin_layout Section
 Finalização
 \end_layout
 
+\begin_layout Subsection
+De Grade Horária
+\end_layout
+
+\begin_layout Paragraph
+Ao terminar de mexer na grade horária da turma desejada feche a janela pelo
+ botão 'Fechar' junto das opções da planilha.
+\end_layout
+
+\begin_layout Paragraph
+Atenção: não feche pelo botão do próprio excel! Isso irá gerar um erro e
+ irá travar o programa.
+\end_layout
+
+\begin_layout Subsection
+Do Construção Grade Horária
+\end_layout
+
+\begin_layout Paragraph
+Ao terminar de utilizar o programa encerre clicando no botão 'Sair' na planilha
+ principal, assim o banco de dados será atualizado antes de encerrar o programa
+ e poderá se garantir que não houve perda de nenhum dado.
+\end_layout
+
 \begin_layout Section
 Sobre
+\end_layout
+
+\begin_layout Paragraph
+Construtor de Grade-Horária
+\end_layout
+
+\begin_layout Paragraph
+Versão de depuração 0.1.8
+\end_layout
+
+\begin_layout Paragraph
+Copyright (C) 2010-2012 Marcelo Porto Trevizan, Jorge Kawamura
+\end_layout
+
+\begin_layout Paragraph
+Este programa é distribuído sob NENHUMA GARANTIA; para detalhes, veja licença
+ GPLv3.txt que acompanha esta distribuição ou no endereço <http:/www.gnu.org/licens
+es/>.
+\end_layout
+
+\begin_layout Paragraph
+Este é um programa livre e você é convidado a redistribuí-lo sob os termos
+ desta mesma licença.
+\end_layout
+
+\begin_layout Paragraph
+Para exibição de tais informações pelo próprio programa clique no botão
+ 'Sobre' localizdo na planilha principal.
 \end_layout
 
 \begin_layout Section
@@ -193,6 +621,18 @@ Falhas (
 bugs
 \emph default
 ) conhecidas no programa
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+A planilha principal só exibe até o penúltimo arquivo gerado pelo programa,
+ a última grade horária salva no banco de dados, não aparece na listagem
+ exibida ao se importar todas as planilhas, porém o erro é apenas de exibição
+ se o banco de dados foi atualizado corretamente a planilha está salva e
+ é possível trabalhar com ela.
+ Portanto para abrir a última planilha criada deve-se digitar sua identificação
+ completa no campo de busca e clicar em 'Ir'.
 \end_layout
 
 \end_body
