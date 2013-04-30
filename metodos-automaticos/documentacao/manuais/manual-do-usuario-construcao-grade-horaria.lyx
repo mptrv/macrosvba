@@ -51,11 +51,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 361707368 "Marcelo" 
 \end_header
 
 \begin_body
@@ -92,14 +93,216 @@ Fábio Costa Portásio
 Marcelo Porto Trevizan
 \end_layout
 
+\begin_layout Section
+Apresentação
+\end_layout
+
 \begin_layout Standard
+
+\change_inserted 361707368 1367281668
+O 
+\emph on
+Sistema Horários
+\emph default
+ é um sistema que permite a inserção de dados relativos à grade horária
+ das aulas e à extração de diversos relatórios, tanto para fins operacionais,
+ quanto para administrativos.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+O módulo 
+\change_deleted 361707368 1367281712
+
+\emph on
+c
+\change_inserted 361707368 1367281712
+C
+\change_unchanged
+ontrução 
+\change_deleted 361707368 1367281714
+g
+\change_inserted 361707368 1367281715
+G
+\change_unchanged
+rade 
+\change_deleted 361707368 1367281716
+h
+\change_inserted 361707368 1367281717
+H
+\change_unchanged
+orária
+\emph default
+ tem como objetivo a construção de grades horárias das turmas do Instituto
+ Mauá de Tecnologia
+\change_inserted 361707368 1367281438
+.
+\change_deleted 361707368 1367281492
+,
+\change_inserted 361707368 1367281494
+
+\end_layout
+
+\begin_layout Paragraph
+
+\change_deleted 361707368 1367281508
+
+\series medium
+ c
+\change_inserted 361707368 1367281509
+C
+\change_unchanged
+om seu uso
+\change_inserted 361707368 1367281517
+,
+\change_unchanged
+ a construção dessas 
+\change_deleted 361707368 1367281529
+planilhas
+\change_inserted 361707368 1367281530
+grades
+\change_unchanged
+ é facilitada e
+\change_inserted 361707368 1367281551
+,
+\change_unchanged
+ ao mesmo tempo
+\change_inserted 361707368 1367281553
+,
+\change_unchanged
+ padronizada, agilizando todo o processo que deve ser realizado ao início
+ de cada 
+\change_inserted 361707368 1367281781
+semestre ou 
+\change_unchanged
+ano letivo.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Em conjunto com 
+\change_inserted 361707368 1367281805
+este
+\change_deleted 361707368 1367281805
+o
+\change_unchanged
+ módulo
+\change_inserted 361707368 1367281808
+,
+\change_unchanged
+ 
+\change_inserted 361707368 1367281855
+há o 
+\emph on
+Consulta Sistema Horários, 
+\change_deleted 361707368 1367281859
+
+\emph default
+sistema horários
+\change_inserted 361707368 1367281860
+que
+\change_unchanged
+ permite 
+\change_deleted 361707368 1367281903
+também 
+\change_inserted 361707368 1367281996
+a extração dos relatórios com fins operacionais ou administrativos, como,
+ por exemplo, 
+\change_deleted 361707368 1367281952
+a 
+\change_unchanged
+verificação de 
+\change_deleted 361707368 1367282006
+diversos 
+\change_unchanged
+aspectos previstos em lei, 
+\change_deleted 361707368 1367282024
+como 
+\change_inserted 361707368 1367282028
+citando-se a 
+\change_unchanged
+carga horária
+\change_inserted 361707368 1367282035
+ máxima
+\change_unchanged
+ e 
+\change_inserted 361707368 1367282040
+o 
+\change_unchanged
+período de descanço dos professores, ou 
+\change_deleted 361707368 1367282067
+até outros aspectos administrativos como 
+\change_inserted 361707368 1367282069
+a 
+\change_unchanged
+disponibilidade de salas de aula, listas de presença
+\change_inserted 361707368 1367282086
+,
+\change_deleted 361707368 1367282087
+ e
+\change_unchanged
+ superposições de aulas
+\change_inserted 361707368 1367282113
+, professores e salas e estatísticas
+\change_unchanged
+.
+\end_layout
+
+\begin_layout Paragraph
+
+\change_inserted 361707368 1367282145
+
+\series medium
+Assim, 
+\change_deleted 361707368 1367282146
+O
+\change_inserted 361707368 1367282147
+o
+\change_unchanged
+ 
+\change_inserted 361707368 1367282148
+
+\emph on
+S
+\change_deleted 361707368 1367282149
+s
+\change_unchanged
+istema 
+\change_inserted 361707368 1367282151
+H
+\change_deleted 361707368 1367282151
+h
+\change_unchanged
+orários
+\emph default
+ permite 
+\change_deleted 361707368 1367282172
+então 
+\change_unchanged
+uma facilidade no gereciamento e planejamento dos horários da 
+\change_deleted 361707368 1367282181
+faculdade
+\change_inserted 361707368 1367282184
+Instituição
+\change_unchanged
+, com rapidez, controle e precisão não obtidos anteriormente por outros
+ métodos.
+ 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Mariane, retirar o negrito dos textos normais.
- Retirei de alguns.
- Para tanto, basta selecionar o texto e pressionar Ctrl+B.
+
+\series medium
+Era essa a intenção da apresentação?
+\change_inserted 361707368 1367282292
+ Sim.
+ Proponho as alterações assinaladas.
+ Veja o que acha.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -108,15 +311,291 @@ Mariane, retirar o negrito dos textos normais.
 \end_layout
 
 \begin_layout Section
-Apresentação
-\end_layout
-
-\begin_layout Section
 Início
 \end_layout
 
 \begin_layout Subsection
-Acesso ao sistema
+Acesso ao 
+\change_deleted 361707368 1367282342
+sistema
+\change_inserted 361707368 1367283159
+módulo
+\change_unchanged
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Para acessar o módulo de trabalho
+\change_inserted 361707368 1367282351
+,
+\change_unchanged
+ deve-se acessar o arquivo 
+\change_deleted 361707368 1367282372
+'
+\change_unchanged
+
+\family sans
+construcao-grade_horaria.xlsm
+\change_deleted 361707368 1367282375
+
+\family default
+'
+\change_unchanged
+, 
+\change_deleted 361707368 1367282576
+provavelmente
+\change_inserted 361707368 1367282578
+normalmente
+\change_unchanged
+ localizado 
+\change_inserted 361707368 1367282623
+na pasta
+\change_deleted 361707368 1367282624
+em
+\change_unchanged
+ 
+\change_deleted 361707368 1367282600
+'
+\change_unchanged
+
+\family sans
+Métodos Automáticos/Macros
+\change_inserted 361707368 1367282629
+
+\family default
+/
+\change_deleted 361707368 1367282676
+'
+\change_inserted 361707368 1367282726
+, dentro de 
+\family sans
+Documentos.
+
+\change_deleted 361707368 1367282722
+
+\family default
+ junto aos arquivos do programa (deve-se saber aonde os seus arquivos foram
+ instalados no computador).
+
+\change_unchanged
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Não sei se é necessário fazer a referência assim a localização do arquivo.
+
+\change_inserted 361707368 1367282775
+ É uma boa ideia.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Na primeira vez 
+\change_inserted 361707368 1367282790
+em 
+\change_unchanged
+que o programa for utilizado 
+\change_deleted 361707368 1367282804
+é
+\change_inserted 361707368 1367282805
+será
+\change_unchanged
+ necessário, antes de qualquer 
+\change_inserted 361707368 1367282821
+atividade
+\change_deleted 361707368 1367282823
+coisa
+\change_unchanged
+, ativar uma opção do Excel em suas configurações, que pode ser acessada
+ pelo caminho:
+\end_layout
+
+\begin_layout Subparagraph
+
+\change_deleted 361707368 1367282997
+
+\family sans
+\series medium
+'
+\change_unchanged
+
+\emph on
+Arquivo
+\change_deleted 361707368 1367283000
+'
+\change_unchanged
+ 
+\emph default
+>
+\emph on
+ 
+\change_deleted 361707368 1367283002
+'
+\change_unchanged
+Opções
+\change_deleted 361707368 1367283004
+'
+\change_unchanged
+ 
+\emph default
+>
+\emph on
+ 
+\change_deleted 361707368 1367283005
+'
+\change_unchanged
+Central de Confiabilidade
+\change_deleted 361707368 1367283008
+'
+\change_unchanged
+ 
+\emph default
+>
+\emph on
+ 
+\change_deleted 361707368 1367283009
+'
+\change_unchanged
+Configurações da Central de Confiabilidade
+\change_deleted 361707368 1367283011
+'
+\change_unchanged
+ 
+\emph default
+>
+\emph on
+ 
+\change_deleted 361707368 1367283012
+'
+\change_unchanged
+Configurações de Macro
+\change_deleted 361707368 1367283015
+'
+\change_unchanged
+ 
+\emph default
+>
+\emph on
+ 
+\change_deleted 361707368 1367283016
+'
+\change_inserted 361707368 1367283055
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\change_unchanged
+Confiar no acesso ao modelo de objeto do projeto do VBA
+\change_inserted 361707368 1367283059
+
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\change_deleted 361707368 1367283025
+'.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Certifique-se que este último esteja selecionado e confirme a opção.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Em seguida deve-se fechar o Excel e reabrir o arquivo.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Após esse procedimento deve-se habilitar 
+\change_inserted 361707368 1367283080
+a
+\change_deleted 361707368 1367283084
+o
+\change_unchanged
+s macros, por meio do botão 
+\change_deleted 361707368 1367283112
+'
+\change_unchanged
+
+\family sans
+\emph on
+Habilitar conteúdo
+\change_deleted 361707368 1367283110
+
+\family default
+\emph default
+'
+\change_unchanged
+.
+\end_layout
+
+\begin_layout Paragraph
+
+\change_inserted 361707368 1367283127
+
+\series medium
+Agora, 
+\change_deleted 361707368 1367283128
+O
+\change_inserted 361707368 1367283128
+o
+\change_unchanged
+ programa está pronto para o uso!
+\change_inserted 361707368 1367283217
+
+\end_layout
+
+\begin_layout Subsection
+
+\change_inserted 361707368 1367283344
+Identificação do usuário 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 361707368 1367283252
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361707368 1367283376
+Mariane, lembrei-me deste tópico também.
+ Basicamente, o usuário deverá digitar o nome de seu usuário e a senha.
+ Depois, posso mostrar-lhe como é a tela para melhor você descrevê-la.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -133,20 +612,150 @@ name "sub:Ler-banco-de"
 \begin_layout Paragraph
 
 \series medium
-Ao acessar o sistema é necessário ler o banco de dados com o qual se deseja
- trabalhar, para tal deve-se clicar no botão 'Ler Banco de Dados...', caso
- essa seja a primeira operação ao se abrir o programa deve-se continuar
- caso contrário leia a seção 
+Ao acessar o 
+\change_deleted 361707368 1367283168
+sistema
+\change_inserted 361707368 1367283465
+módulo,
+\change_unchanged
+ é necessário ler o banco de dados 
+\change_deleted 361707368 1367283496
+com
+\change_inserted 361707368 1367283501
+para carregar os dados
+\change_unchanged
+ 
+\change_inserted 361707368 1367283506
+com 
+\change_unchanged
+o
+\change_inserted 361707368 1367283506
+s
+\change_unchanged
+ qua
+\change_deleted 361707368 1367283508
+l
+\change_inserted 361707368 1367283508
+is
+\change_unchanged
+ se deseja trabalhar
+\change_deleted 361707368 1367283511
+,
+\change_inserted 361707368 1367283512
+.
+
+\change_unchanged
+ 
+\change_inserted 361707368 1367283533
+
+\end_layout
+
+\begin_layout Paragraph
+
+\change_deleted 361707368 1367283513
+
+\series medium
+p
+\change_inserted 361707368 1367283514
+P
+\change_unchanged
+ara tal
+\change_inserted 361707368 1367283517
+,
+\change_unchanged
+ deve-se clicar no botão 
+\change_deleted 361707368 1367283436
+'
+\change_unchanged
+
+\family sans
+\emph on
+Ler Banco de Dados
+\change_inserted 361707368 1367283443
+\SpecialChar \ldots{}
+
+\change_deleted 361707368 1367283544
+
+\family default
+...
+\emph default
+',
+\change_inserted 361707368 1367283545
+.
+
+\change_unchanged
+ 
+\change_deleted 361707368 1367283547
+c
+\change_inserted 361707368 1367283548
+C
+\change_unchanged
+aso essa seja a primeira operação ao se abrir o programa
+\change_inserted 361707368 1367283556
+,
+\change_unchanged
+ 
+\change_inserted 361707368 1367283571
+basta simplesmente
+\change_deleted 361707368 1367283565
+deve-se 
+\change_unchanged
+continuar
+\change_inserted 361707368 1367283575
+;
+\change_unchanged
+ caso contrário
+\change_inserted 361707368 1367283578
+,
+\change_unchanged
+ leia a seção
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sec:Gravação"
 
 \end_inset
 
 .
- Deve-se selecionar o período de interesse do banco de dados para que as
- planilhas sejam importadas, ao se clicar em aceitar, já é possível visualizar
- os horários disponíveis.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+A seguir
+\change_inserted 361707368 1367283782
+,
+\change_unchanged
+ é preciso selecionar o período de interesse 
+\change_deleted 361707368 1367283798
+do banco de dados
+\change_unchanged
+ para que as planilhas correspondentes sejam importadas
+\change_deleted 361707368 1367283806
+,
+\change_unchanged
+ e
+\change_inserted 361707368 1367283808
+,
+\change_unchanged
+ ao se clicar em 
+\change_deleted 361707368 1367283822
+
+\family sans
+\emph on
+a
+\change_inserted 361707368 1367283822
+A
+\change_unchanged
+ceitar
+\family default
+\emph default
+, já será possível visualizar a lista dos arquivos das planilhas em vigor
+ em tal período.
 \end_layout
 
 \begin_layout Subsection
@@ -165,7 +774,26 @@ name "sub:Identificação-da-turma"
 \end_layout
 
 \begin_layout Paragraph
-As turmas possuem a seguinte identificação:
+
+\series medium
+As turmas possuem 
+\change_inserted 361707368 1367283880
+um
+\change_unchanged
+a 
+\change_deleted 361707368 1367283884
+seguinte 
+\change_unchanged
+identificação padronizada
+\change_inserted 361707368 1367283888
+.
+ 
+\change_deleted 361707368 1367283891
+, s
+\change_inserted 361707368 1367283892
+S
+\change_unchanged
+egue um exemplo:
 \end_layout
 
 \begin_layout Standard
@@ -180,51 +808,144 @@ As turmas possuem a seguinte identificação:
 \end_layout
 
 \begin_layout Enumerate
-O primeiro algarismo junto com a letra 'S' representa o semestre que a turma
- está cursando;
+O primeiro algarismo 
+\change_deleted 361707368 1367283915
+junto com 
+\change_inserted 361707368 1367283916
+antes d
+\change_unchanged
+a letra 'S' representa o semestre 
+\change_inserted 361707368 1367283931
+em 
+\change_unchanged
+que a turma está cursando.
+\change_inserted 361707368 1367284258
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series medium
+Como o Instituto Mauá de Tecnologia trabalha com turmas anuais, muitos horários
+ são tratados como primeiro semestre mas são também válidos para o segundo,
+ constando apenas em uma das opções, é necessário obter um maior conhecimento
+ do funcionamento dessas disciplinas para identifica-las.
+\change_unchanged
+
+\end_layout
+
+\begin_deeper
+\begin_layout Subparagraph
+
+\series medium
+Como o Instituto Mauá de Tecnologia trabalha com turmas anuais, muitos horários
+ são tratados como primeiro semestre mas são também válidos para o segundo,
+ constando apenas em uma das opções, é necessário obter um maior conhecimento
+ do funcionamento dessas disciplinas para identifica-las.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Não se é necessário mencionar esse detalhe
+\change_inserted 361707368 1367284110
+.
+ Lembre-se, Mariane, que há algumas disciplinas de Engenharia que são semestrais
+ e há cursos, como o de Design, que são também semestrais.
+ Assim, que quiser fazer um comentário neste sentido, parece-me pertinente.
+ Precisará, contudo, redigir este trecho.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Esse paragráfo não é exibido no pdf, não consegui identificar o problema
+\change_inserted 361707368 1367284279
+.
+ Veja se é este o efeito que pretendia dar...
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+O terceiro algarismo é a série, 
+\change_inserted 361707368 1367284311
+d
+\change_unchanged
+o ano, que os alunos matriculados em tal turma estão cursando
+\change_inserted 361707368 1367284326
+.
+
+\change_unchanged
+ 
+\change_deleted 361707368 1367284327
+n
+\change_inserted 361707368 1367284329
+N
+\change_unchanged
+esse exemplo
+\change_inserted 361707368 1367284332
+,
+\change_unchanged
+ o segundo ano de tal curso.
 \end_layout
 
 \begin_layout Enumerate
-O terceiro algarismo é a série, o ano, que os alunos matriculados em tal
- turma estão cursando nesse exemplo o segundo;
+As letras a seguir e antes do hífen
+\begin_inset space ~
+\end_inset
+
+(-), representam a habilitação da turma em questão, por exemplo:
 \end_layout
 
-\begin_layout Enumerate
-As letras a seguir e antes do hífen (-), representam a habilitação da turma
- em questão, por exemplo:
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 TR.QM: Tronco química;
 \end_layout
 
 \begin_layout Itemize
-QM: Química
+QM: Engenharia Química;
 \end_layout
 
 \begin_layout Itemize
-CV: Civil
+CV: Engenharia Civil;
 \end_layout
 
 \begin_layout Itemize
-DG: Design
+DG: Design do produto;
 \end_layout
 
 \begin_layout Itemize
-DP.EL: Dependências de Engenhara Elétrica
+DP.EL: Dependências de Engenhara Elétrica;
 \end_layout
 
-\begin_layout Standard
-Entre outros;
+\begin_layout Itemize
+Entre outros.
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 Após o hífen segue o período da turma em questão:
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Não sei como numerar corretamente esses itens
+Obrigada!
 \end_layout
 
 \end_inset
@@ -233,14 +954,49 @@ Não sei como numerar corretamente esses itens
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+D: Diurno;
+\end_layout
+
+\begin_layout Itemize
+N: Noturno.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
-D: Diurno
+E por último após o
+\begin_inset space ~
+\end_inset
+
+'@' o ano da corrente turma, ou o ano que o a grade horária está, esteve
+ ou estará em vigor.
+\end_layout
+
+\begin_deeper
+\begin_layout Subparagraph
+
+\series medium
+Como ao se ler o banco de dados foi filtrado apenas um período de um ano
+ específico todas as planilhas importadas exibirão essa última parte igual.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Que tal assim? Se era isto que imaginava, basta aumentar o recuo, pelo botão
- acima ou Alt+Shift+Seta para direita.
+
+\series medium
+Não sei se é necessário falar disso.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Esse paragráfo não é exibido no pdf, não consegui identificar o problema
 \end_layout
 
 \end_inset
@@ -248,15 +1004,13 @@ Que tal assim? Se era isto que imaginava, basta aumentar o recuo, pelo botão
 
 \end_layout
 
-\begin_layout Enumerate
-N: Noturno;
-\end_layout
-
 \end_deeper
-\begin_layout Enumerate
-E por último após o '@' o ano da corrente turma, como ao se ler o banco
- de dados foi filtrado apenas um período de um ano todas as planilhas importadas
- devem possuir essa última parte igual.
+\begin_layout Paragraph
+
+\series medium
+Portanto a identificação citada no exemplo representa a grade horária dos
+ alunos do segundo ano diurno do tronco química no primeiro semestre de
+ 2013 (ou do ano de 2013).
 \end_layout
 
 \begin_layout Subsubsection
@@ -266,10 +1020,17 @@ Seleção da turma
 \begin_layout Paragraph
 
 \series medium
-Para se selecionar uma turma basta procura-la na lista, seleciona-la então
- clicar em 'Ir', ou então digitar sua identificação completa 
-\series default
-no campo de busca e clicar em 'Ir'.
+Para se selecionar uma turma basta procura-la na lista, seleciona-la e então
+ clicar em 'Ir', ou então digitar sua identificação completa no campo de
+ busca e clicar em 'Ir'.
+ Consulte o apêndice 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Comportamento-do-módulo"
+
+\end_inset
+
+ para informações de possíveis erros.
 \end_layout
 
 \begin_layout Section
@@ -281,12 +1042,18 @@ De Grade horária
 \end_layout
 
 \begin_layout Paragraph
-Para criar uma nova grade horária deve-se clicar no botão no botão 'Nova
- Grade Horária...', uma janela para seleção das propriedades da turma irá aparecer,
- atente que as opções aqui selecionadas irão determinar a identificação
- da sua nova grade conforme a subseção 
+
+\series medium
+Para criar uma nova grade horária deve-se clicar no botão 'Nova Grade Horária...',
+ uma janela para seleção das propriedades da turma irá aparecer, atente
+ que as opções aqui selecionadas irão determinar a identificação da sua
+ nova grade conforme a subseção
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sub:Identificação-da-turma"
 
 \end_inset
@@ -295,15 +1062,26 @@ reference "sub:Identificação-da-turma"
 \end_layout
 
 \begin_layout Paragraph
-Automaticamente uma planilha será criada obecendo os horários e subdivisões
+
+\series medium
+Automaticamente uma planilha será criada obecendo aos horários e subdivisões
  de turma selecionados.
 \end_layout
 
 \begin_layout Subsection
 De Aula
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:De-Aula"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Para a criação de uma nova aula deve-se já na planilha em que ela deve ser
  adicionada, clicar no botão 'Nova Aula...', você verá o aparecimento de um
  quadro em cinza no canto do horário com os dizeres 
@@ -318,12 +1096,16 @@ clique aqui para definir a aula
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Primeiramente deve-se definir o horário no qual essa aula irá ocorrer, como
  por exemplo segunda-feira, ás 7:40h, com duração de 2 horas-aula.
  
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Deve-se notar que devido ao adiamento de 10 minutos no início das aulas
  nessa opção aparecem os horários antigos, mas na planilha a ser gerada
  o horário aparecerá corretamente, portanto ao se desejar que uma aula inicie
@@ -332,22 +1114,42 @@ Deve-se notar que devido ao adiamento de 10 minutos no início das aulas
 \end_layout
 
 \begin_layout Paragraph
-Também vale lembrar que uma aula-hora corresponde a 50 minutos.
+
+\series medium
+Também vale lembrar que uma aula-hora corresponde a 50 minutos, não é necessário
+ especificar o horário de término da aula, essa opção já realiza essa definição.
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Definindo o horário da aula, deve-se selecionar a que turma, grupo ou laboratóri
-o a aula corresponde, grupos estão associados a aulas de teoria, turmas
- a aulas de exercício e laboratório a laboratórios, mas é possível alterar
- essa opção.
+o a aula pertence, assim como qual o tipo de aula que ela corresponde.
+ Grupos estão associados a aulas de teoria, turmas a aulas de exercício
+ e laboratório a laboratórios, mas é possível alterar essa opção, na mesma
+ janela.
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Clicando em 'Propriedades' se altera as especificações da aula em questão:
  disciplina, professor, sala...
- Pode-se preencher os campo selecionando da caixa de opções ou então escrevendo
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Pode-se preencher os campos selecionando da caixa de opções ou então escrevendo
  o código da disciplina, a abreviação do nome do professor e a própria sala.
- Neste último item vale notar que ao lado da opção de sala aparece uma campo
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Neste último item vale notar que ao lado da opção de sala aparece uma campo
  
 \begin_inset Quotes eld
 \end_inset
@@ -357,7 +1159,7 @@ disponível
 \end_inset
 
  caso a sala escolhida esteja ocupada ele não será preenchido caso contrário
- ele ficará marcado, a capacidade das salas também são disponibilizadas.
+ ele ficará marcado, a capacidade das salas também são exibidas.
 \end_layout
 
 \begin_layout Subsection
@@ -366,15 +1168,49 @@ De Aula Compartilhada
 status open
 
 \begin_layout Plain Layout
-Acrescentei mais este tópico.
- No treinamento, ele não foi abordado.
- Talvez eu tenha que dar algumas orientações adicionais.
- Mas pode deixar para escrever por último este tópico.
+Procurei entender o funcionameto dessa função, talvez faltem ainda detalhes
+ a ser discutidos.
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Em alguns casos turmas diferentes compartilham aulas iguais, para essas
+ situações essa função é disponibilizada.
+ Para compartilhar uma aula entre duas grades horárias, ou seja manter sempre
+ nas duas planilhas as mesmas alterações de uma aula específica, proceda
+ da mesma forma da seção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:De-Aula"
+
+\end_inset
+
+ acessando a janela das propriedades da aula, a seguir selecione a opção
+ 'Compartilhar com:', em seguida na lista de opções selecione as turmas
+ com que a determinada aula será dividida, confirme as alterações e logo
+ em seguida se poderá verificar em qualquer uma das planilhas a existência
+ dessa aula.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Note que é necessário compartilhar a mesma aula, disciplina, professor,
+ sala e horário, ou seja as duas turmas assistirão juntas a essa disciplina.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Note também que no momento em que o compartilhamento for feito as duas grades
+ horárias já devem existir! E preste atenção para não criar superposição
+ de aulas.
 \end_layout
 
 \begin_layout Subsection
@@ -382,23 +1218,49 @@ Transformação de grade horária
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 A opção do botão 'Transformar em...' que existe na planilha principal, ou seja,
  na janela inicial do programa, transforma todos os dados importados do
  banco de dados, ou aqueles que passaram pelo filtro definido ao se importar
- o banco de dados (veja seção 
+ o banco de dados (veja seção
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sub:Ler-banco-de"
 
 \end_inset
 
-) , e logo pertencem a um ano e semestre específico pré-escolhido para um
+) ,logo pertencem a um ano e semestre específico pré-escolhido, para um
  novo período (ano ou semestre).
  Por exemplo pode-se copiar todos os horários já definidos para o primeiro
  semestre de 2013 para o segundo semestre de 2014 caso eles se mantenham
  inalterados.
  Uma vez feita a transformação todas as funções são disponíveis para essas
  novas grades horárias geradas.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Essa parte não sei se ainda está muito confusa.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Essa função é muito útil caso no início de um ano letivo se desejar manter
+ os horários já trabalhados no ano anterior, por exemplo.
 \end_layout
 
 \begin_layout Section
@@ -410,10 +1272,24 @@ De aulas
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Para alterar uma aula que já consta no horário em que se está trabalhando,
- deve-se clicar sobre a mesa as mesmas janelas que aparecem ao se definir
- a aula pela primeira vez irão aparecer, todas as propriedades podem ser
- alteradas.
+ deve-se clicar sobre a mesma.
+ As mesmas janelas que aparecem para se definir a aula na sua criação irão
+ aparecer, e então todas as propriedades podem ser modificadas da mesma
+ forma, qualquer dúvida consulte a subseção
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:De-Aula"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -421,15 +1297,39 @@ Exclusão
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Deve-se proceder da mesma maneira caso seja necessário excluir uma aula
- existente, para tal clique no botão 'Deletar...' e em seguida confirme a opção.
+ existente, para tal clique sobre ela e em seguida no botão 'Deletar...' na
+ janela de definições de aula e em seguida confirme a opção.
+\end_layout
+
+\begin_layout Standard
+Alguns erros são conhecidos nessa etapa para tal verifique o apêndice
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Exclusão-de-aulas"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Mover para o canto
 \end_layout
 
 \begin_layout Paragraph
-Outra alternativa a se excluir a aula é move-la para o canto, clique nessa
- opção e ela aparecerá sobre a planilha ao se gerar um relatório ela não
- irá constar mas caso ela precise ser resgatada não será necessário cria-la
- de novo apenas definir seu horário.
+
+\series medium
+Outra alternativa a se excluir a aula é movê-la para o canto, clique nessa
+ opção localizada ao lado do botão 'Deletar...' e ela aparecerá sobre a planilha,
+ ao se gerar um relatório ela não irá constar mas caso ela precise ser resgatada
+ não será necessário criá-la de novo apenas definir seu horário.
 \end_layout
 
 \begin_layout Subsection
@@ -437,11 +1337,14 @@ De subdivisões
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Para alterar as subdivisões de uma turma deve-se clicar no botão 'Editar
- Turma...'e logo em seguida em 'Alterar Divisões' a janela que apareceu na
- criação da turma para seleção das divisões aparecerá novamente.
- Note que caso a alteração diminua a turma em questão as aulas que ficarem
- excedentes serão movidas para o canto.
+ Turma...' e logo em seguida em 'Alterar Divisões' a janela que apareceu na
+ criação da turma para escolha das suas subdivisões aparecerá novamente.
+ Note que caso a alteração diminua a turma em questão, as aulas que ficarem
+ excedentes serão movidas para o canto para serem realocadas ou excluídas
+ manualmente.
 \end_layout
 
 \begin_layout Subsection
@@ -449,11 +1352,20 @@ De cores
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 A cor da aula na planilha pode estar na função automática assim a cada disciplin
 a será atribuida uma cor diferente automaticamente e na repetição da mesma
- disciplina todas as vezes que aparecer será no mesmo tom ou então pode-se
- fazer a opção de cor manualmente, escolhendo aula a aula a cor desejada.
- Essa opção está dicponível nas propiedades da aula (mesma janela que se
+ disciplina na grade horária o mesmo tom será mantido.
+ Ou então, pode-se fazer a opção de cor manualmente, escolhendo aula a aula
+ a cor desejada.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Essa opção está dicponível nas propriedades da aula (mesma janela que se
  escolhe a disciplina, professor e sala).
 \end_layout
 
@@ -469,25 +1381,19 @@ name "sec:Gravação"
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Após terminar a criação ou alteração de alguma grade horária é necessário
  salvar no banco de dados o que foi feito.
 \end_layout
 
 \begin_layout Subsection
 Atualizar do banco de dados
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Talvez não seja necessário explicitar este tópico.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 No construção grade horária a opção 
 \begin_inset Quotes eld
 \end_inset
@@ -499,7 +1405,16 @@ salvar, gravar, guardar...
  corresponde ao botão 'Atualizar Banco de Dados...' na planilha geral, ou 'Atualiza
 r BD...' quando se está na planilha de algum horário específico, é indiferente
  qual desses botões se seleciona para executar essa ação, desde que se lembre
- de executa-la para evitar perda de informações.
+ de executá-la para evitar perda de informações.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Após a atualização do banco de dados é recomendável que se faça uma nova
+ leitura do mesmo, através do botão 'Ler banco de dados...' na planilha geral,
+ possibilitando assim possíveis alterações na listagem das grades horárias
+ exibidas.
 \end_layout
 
 \begin_layout Section
@@ -507,6 +1422,8 @@ Relatórios
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Um relatório é a geração de um arquivo pdf da(s) planilha(s) com que se
  está trabalhando.
 \end_layout
@@ -516,6 +1433,8 @@ Uma turma
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Para gerar o relatório de uma turma específica, abra o horário da correspondente
  turma e clique sobre o botão 'Gerar PDF', o arquivo será gerado e se encontrará
  na pasta 
@@ -526,7 +1445,7 @@ relatorios
 \begin_inset Quotes erd
 \end_inset
 
- localizada junto aos arquivos do programa.
+ localizada junto aos arquivos do programa no seu computador.
 \end_layout
 
 \begin_layout Subsection
@@ -534,12 +1453,19 @@ Todas as turmas
 \end_layout
 
 \begin_layout Paragraph
-Para gerar o relatório de todas as turmas importadas ao programa, ou seja,
- todos os horários que passaram pelo filtro ao se iniciar a execução, ou
- ainda, todas as planilhas que podem ser encontradas na caixa de busca pela
- sua identificação.
- Na planilha geral (tela inicial do programa), clique em 'Gerar PDF's' os
- relatórios gerados se localizarão na mesma pasta 
+
+\series medium
+É possível gerar o relatório de todas as turmas importadas ao programa,
+ ou seja, todos os horários que passaram pelo filtro ao se iniciar a execução,
+ ou ainda, todas as planilhas que podem ser encontradas na caixa de busca
+ pela sua identificação, de uma só vez.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Para tal na planilha geral (tela inicial do programa), clique em 'Gerar
+ PDF's' os relatórios gerados se localizarão na mesma pasta 
 \begin_inset Quotes eld
 \end_inset
 
@@ -559,12 +1485,16 @@ De Grade Horária
 \end_layout
 
 \begin_layout Paragraph
-Ao terminar de mexer na grade horária da turma desejada feche a janela pelo
- botão 'Fechar' junto das opções da planilha.
+
+\series medium
+Ao terminar de mexer na grade horária de uma turma qualquer, feche a janela
+ pelo botão 'Fechar' junto das opções da planilha.
 \end_layout
 
 \begin_layout Paragraph
-Atenção: não feche pelo botão do próprio excel! Isso irá gerar um erro e
+
+\series medium
+Atenção: não feche pelo botão do próprio Excel! Isso irá gerar um erro e
  irá travar o programa.
 \end_layout
 
@@ -573,6 +1503,8 @@ Do Construção Grade Horária
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
 Ao terminar de utilizar o programa encerre clicando no botão 'Sair' na planilha
  principal, assim o banco de dados será atualizado antes de encerrar o programa
  e poderá se garantir que não houve perda de nenhum dado.
@@ -583,44 +1515,55 @@ Sobre
 \end_layout
 
 \begin_layout Paragraph
+
+\series medium
+Para exibição de tais informações pelo próprio programa clique no botão
+ 'Sobre' localizdo na planilha principal.
+\end_layout
+
+\begin_layout Subparagraph
+
+\series medium
 Construtor de Grade-Horária
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
+
+\series medium
 Versão de depuração 0.1.8
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
+
+\series medium
 Copyright (C) 2010-2012 Marcelo Porto Trevizan, Jorge Kawamura
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
+
+\series medium
 Este programa é distribuído sob NENHUMA GARANTIA; para detalhes, veja licença
  GPLv3.txt que acompanha esta distribuição ou no endereço <http:/www.gnu.org/licens
 es/>.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subparagraph
+
+\series medium
 Este é um programa livre e você é convidado a redistribuí-lo sob os termos
  desta mesma licença.
-\end_layout
-
-\begin_layout Paragraph
-Para exibição de tais informações pelo próprio programa clique no botão
- 'Sobre' localizdo na planilha principal.
 \end_layout
 
 \begin_layout Section
 \start_of_appendix
 Comportamento do módulo frente aos novos horários de aula
-\end_layout
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Comportamento-do-módulo"
 
-\begin_layout Section
-Falhas (
-\emph on
-bugs
-\emph default
-) conhecidas no programa
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -633,6 +1576,36 @@ A planilha principal só exibe até o penúltimo arquivo gerado pelo programa,
  é possível trabalhar com ela.
  Portanto para abrir a última planilha criada deve-se digitar sua identificação
  completa no campo de busca e clicar em 'Ir'.
+\end_layout
+
+\begin_layout Section
+Falhas (
+\emph on
+bugs
+\emph default
+) conhecidas no programa
+\end_layout
+
+\begin_layout Subsection
+Exclusão de aulas
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Exclusão-de-aulas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Ao se excluir a única aula de uma turma, ou seja, quando ao se excluir uma
+ determinada aula o horário irá ficar em branco, uma mensagem de erro será
+ exibida e o programa não funcionará mais corretamente portanto certifique-se
+ de adicionar as aulas desejadas antes de excluir tudo.
+ Utilize a opção 'Mover para o canto' nessa etapa, para facilitar e evitar
+ superposições.
 \end_layout
 
 \end_body
