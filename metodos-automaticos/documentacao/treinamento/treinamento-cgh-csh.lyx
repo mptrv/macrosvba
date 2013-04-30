@@ -491,5 +491,261 @@ Sobre...
 Consulta Sistema Horários
 \end_layout
 
+\begin_layout Standard
+
+\emph on
+Orientação complementar: registrar, de algum modo, de forma organizada,
+ todas as verificações realizadas.
+\end_layout
+
+\begin_layout Subsection
+Tela Inicial
+\end_layout
+
+\begin_layout Enumerate
+Observar as informações apresentadas.
+\end_layout
+
+\begin_layout Enumerate
+Verificar a função dos botões.
+\end_layout
+
+\begin_layout Enumerate
+Verificar se é possível sair do programa clicando no botão de fechar a janela
+ do 
+\emph on
+Access
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Por meios convencionais, qual é a única forma de sair do programa?
+\end_layout
+
+\begin_layout Subsection
+Gerenciador Principal
+\end_layout
+
+\begin_layout Subsubsection
+Dados de Referência
+\end_layout
+
+\begin_layout Enumerate
+Verificar quais dados podem ser definidos nas diferentes abas, inclusive
+ a faixa de valores permitidos, quando aplicável.
+\end_layout
+
+\begin_layout Enumerate
+Na aba 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Outros
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, dar duplo clique sobre o período e observar o que acontece.
+\end_layout
+
+\begin_layout Enumerate
+Na aba 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Data
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, escolher uma data de sábado e verificar o efeito consequente na aba 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Outros
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Selecionar uma data de segunda a sexta-feira e o período diurno.
+ Em seguida, selecionar uma data de sábado e observar o período.
+ Voltar para uma data de semana.
+ Observar o período.
+ Selecionar o período noturno.
+ Selecionar data de sábado e observar, novamente, o período.
+ Voltar, mais uma vez para uma data de semana e observar o período.
+\end_layout
+
+\begin_layout Enumerate
+O que significa o campo 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Máx.
+ h.a.
+ TP e HR
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+?
+\end_layout
+
+\begin_layout Enumerate
+O que siginifca cada uma das opções na frente de atuação?
+\end_layout
+
+\begin_layout Subsubsection
+Relatórios Rápidos
+\end_layout
+
+\begin_layout Enumerate
+Qual a função desta área?
+\end_layout
+
+\begin_layout Subsubsection
+Consultas
+\end_layout
+
+\begin_layout Enumerate
+Quais as abas e que tipo de informações correlacionadas se obtêm em cada
+ uma delas?
+\end_layout
+
+\begin_layout Enumerate
+Qual a função da região logo abaixo da região 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Consultas
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+?
+\end_layout
+
+\begin_layout Enumerate
+Nesta última região, qual a função do 
+\begin_inset Quotes eld
+\end_inset
+
+X
+\begin_inset Quotes erd
+\end_inset
+
+ no canto direito superior e qual a tecla de atalho?
+\end_layout
+
+\begin_layout Enumerate
+Na aba 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Professores
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Lista de Presença
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Ao gerar uma Lista de Presença, que resposta dar à pergunta 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+É de Atraso?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+À pergunta citada, o que acontece se pressionado o botão 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Cancelar
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+?
+\end_layout
+
+\begin_layout Enumerate
+Como solucionar o problema de forma simples, sem a necessidade de fechar
+ e reiniciar o programa?
+\end_layout
+
+\begin_layout Enumerate
+Gerada uma lista, como fazer para fechá-la?
+\end_layout
+
+\begin_layout Enumerate
+O que acontece quando pede-se para gerar uma nova lista sem fechar a anterior?
+\end_layout
+
+\begin_layout Enumerate
+Quantos leiautes distintos podem-se perceber para esta função de gerar Lista
+ de Presença?
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se imprimir a Lista de Presença de segunda-feira a sábado, para ambos
+ os períodos, de ambos os 
+\emph on
+campi
+\emph default
+, com excessão das turmas de pós-graduação.
+ Como proceder?
+\end_layout
+
+\begin_layout Enumerate
+O que acontece se tentar extrair a Lista de Presença para o 
+\emph on
+campus
+\emph default
+ de São Paulo, no período diurno? Qual a melhor recomendação nesta situação?
+\end_layout
+
+\end_deeper
+\end_deeper
 \end_body
 \end_document
