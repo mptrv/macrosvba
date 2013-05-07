@@ -52,13 +52,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
 \author 239966243 "mptrev" 
-\author 361707368 "Marcelo" 
 \author 361918690 "Mariane" 
 \author 2089257718 "Jose" 
 \end_header
@@ -372,24 +371,6 @@ name "fig:Janela-de-boas-vindas."
 
 \begin_layout Subsection
 Identificação do usuário
-\change_inserted 361707368 1367283252
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\change_inserted 361707368 1367283376
-Mariane, lembrei-me deste tópico também.
- Basicamente, o usuário deverá digitar o nome de seu usuário e a senha.
- Depois, posso mostrar-lhe como é a tela para melhor você descrevê-la.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \change_inserted 361918690 1367837582
 
 \end_layout
@@ -537,21 +518,7 @@ name "fig:Informação-de-erro"
 \begin_layout Paragraph
 
 \series medium
-Se o número de tentativas ultrapassar o permitido 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1367845146
-Quantas?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-, a janela vista na
+Se o número de tentativas ultrapassar o permitido, a janela vista na
 \change_inserted 361918690 1367930828
  figura
 \change_unchanged
@@ -568,20 +535,6 @@ reference "fig:Informação-de-tentativas"
 
 \change_unchanged
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1367845163
-O que acontece?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \change_inserted 361918690 1367838130
 
 \end_layout
@@ -1418,24 +1371,6 @@ Criação
 
 \begin_layout Subsection
 De Grade horária
-\change_inserted 361918690 1367838923
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1367838933
-Acrescentei algumas coisas
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Paragraph
@@ -1920,73 +1855,36 @@ Disponível
  caso a sala escolhida esteja ocupada ele não será preenchido, caso contrário,
  ele ficará marcado.
  A capacidade das salas também é exibida.
+ 
+\change_inserted 361918690 1367964608
+O campo chave indica a necessidade ou não de retirada da chave da sala,
+ para seu uso.
 
 \change_inserted 239966243 1367539316
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 239966243 1367539328
-Citar a indicação de chave.
-
-\change_inserted 361918690 1367839839
- Qual o significado dessa indicação?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \change_inserted 361918690 1367839938
 
 \end_layout
 
 \begin_layout Paragraph
 
-\change_inserted 361918690 1367841351
+\change_inserted 361918690 1367964722
 
 \series medium
-As disciplinas podem ter a duração semestral ou anual, 
-\begin_inset Note Note
-status open
+As disciplinas podem ter a duração semestral ou anual, ou ainda serem eletivas
+ (El.) semestrais ou anuais.
+ Essa informação é dada apenas com caráter informativo uma vez que ela não
+ pode ser alterada mas é exibida automaticamente.
 
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1367840022
-Qual o significado das outras duas opções?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
- essa seleção é feita automaticamente de acordo com a disciplina definida.
-\change_inserted 239966243 1367539175
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 239966243 1367539157
-Falar sobre o tipo de disciplina: anual, semestral...
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted 361918690 1367840071
+\change_deleted 361918690 1367964658
+ 
+\change_inserted 361918690 1367964660
 
 \end_layout
 
 \begin_layout Paragraph
 
-\change_inserted 361918690 1367841572
+\change_inserted 361918690 1367964902
 
 \series medium
 Caso a aula não seja semanal, sua freqüencia também deve ser indicada, as
@@ -1999,42 +1897,26 @@ Qz
 Dp
 \emph default
 ).
- Para as aulas quinzenais deve-se definir um segundo professor, que irá
- intercalar com o primeiro quinzenalmente.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1367840240
-É essa a função desse segundo professor?
-\change_unchanged
-
+ Para as aulas quinzenais pode-se definir um segundo professor, e a carga
+ horária dos professores selecionados será contada apenas como metade da
+ regular, uma vez que, a aula só será ministrada a cada 15 dias.
 \end_layout
+
+\begin_layout Paragraph
+
+\change_inserted 361918690 1367964989
+
+\series medium
+Veja o apêndice 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Professores-e-Salas"
 
 \end_inset
 
-
-\change_inserted 239966243 1367539178
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\change_inserted 239966243 1367539240
-Falar sobre as aulas quinzenais (opção 'Qz') e de dependências (opção 'Dp').
- Para as aulas quinzenais, falar sobre o professor 2.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted 361918690 1367840256
-
+, para informações a respeito de situações específicas com salas e professores
+ especiais, como por exemplo, casos de professores indefinidos ou introdução
+ a engenharia.
 \end_layout
 
 \begin_layout Paragraph
@@ -2043,27 +1925,6 @@ Falar sobre as aulas quinzenais (opção 'Qz') e de dependências (opção 'Dp')
 Atente ao selecionar o professor ao número total de aulas hora que ele estará
  ministrando, exibido ao lado do campo de seu nome, uma vez que existem
  regulamentações a esse respeito.
-\end_layout
-
-\begin_layout Paragraph
-
-\change_inserted 239966243 1367539416
-
-\series medium
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\change_inserted 239966243 1367539409
-Falar sobre a informação de total de hora-aula ao lado do professor.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \change_inserted 361918690 1367840366
 
 \end_layout
@@ -2087,57 +1948,6 @@ reference "sub:De-cores"
 \end_layout
 
 \begin_layout Paragraph
-
-\change_inserted 239966243 1367540046
-
-\series medium
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\change_inserted 239966243 1367540071
-Descrever o comportamento das cores disponíveis e qual a ideia delas.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted 361918690 1367841873
-
-\end_layout
-
-\begin_layout Paragraph
-
-\change_inserted 239966243 1367540049
-
-\series medium
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 239966243 1367540096
-Citar os professores e salas especiais, fazendo-se chamada ao 
-\begin_inset Quotes eld
-\end_inset
-
-Manual de Orientações
-\begin_inset Quotes erd
-\end_inset
-
-.
-
-\change_inserted 361918690 1367841869
- O que seriam esse professores e salas?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
 
 \change_inserted 2089257718 1367861116
 
@@ -4556,8 +4366,15 @@ name "chap:Manual-de-Orientações"
 
 \begin_layout Section
 
-\change_inserted 361918690 1367846643
+\change_inserted 361918690 1367964884
 Professores e Salas Especiais
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Professores-e-Salas"
+
+\end_inset
+
+
 \change_inserted 239966243 1367540014
 
 \end_layout
