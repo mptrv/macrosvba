@@ -64,13 +64,56 @@
 
 \begin_body
 
+\begin_layout Standard
+
+\change_inserted 239966243 1368052154
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1368052139
+Mariane, às vezes cita-se 
+\begin_inset Quotes eld
+\end_inset
+
+usuário
+\begin_inset Quotes erd
+\end_inset
+
+, às vezes, 
+\begin_inset Quotes eld
+\end_inset
+
+utilizador
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Sugiro adotar 
+\begin_inset Quotes eld
+\end_inset
+
+usuário
+\begin_inset Quotes erd
+\end_inset
+
+ como padrão.
+ O que acha?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 Manual do Usuário
 \begin_inset VSpace bigskip
 \end_inset
 
-
-\change_inserted 361918690 1367837276
 
 \family typewriter
 \emph on
@@ -78,8 +121,6 @@ Manual do Usuário
 \begin_inset Newline newline
 \end_inset
 
-
-\change_unchanged
 Sistema Horários
 \begin_inset Newline newline
 \end_inset
@@ -292,14 +333,8 @@ Habilitar Conteúdo
 
 \begin_layout Paragraph
 
-\change_deleted 361918690 1367928856
-
 \series medium
-Agora, o programa está pronto para o uso!
-\change_inserted 361918690 1367928884
 O programa então, estará pronto para o uso.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsection
