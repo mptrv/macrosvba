@@ -60,6 +60,187 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Macros para formatação padrão de textos.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+mg}[1]{
+\backslash
+textit{``#1''}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Mensagem.
+ Inclui pergunta.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+bt}[1]{
+\backslash
+textit
+\backslash
+textsf{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Botão.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+jn}[1]{
+\backslash
+textit{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Janela.
+ Inclui região e aba.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+nm}[1]{
+\backslash
+textbf{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Nome.
+ Inclui, p.e., nome de relatório.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+cp}[1]{
+\backslash
+textit{``#1''}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Campo.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Fim das macros para formatação padrão de textos.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 Treinamento
 \begin_inset Newline newline
@@ -540,11 +721,17 @@ Verificar quais dados podem ser definidos nas diferentes abas, inclusive
 Na aba 
 \emph on
 
-\begin_inset Quotes eld
-\end_inset
+\begin_inset ERT
+status open
 
-Outros
-\begin_inset Quotes erd
+\begin_layout Plain Layout
+
+\emph on
+
+\backslash
+jn{Outros}
+\end_layout
+
 \end_inset
 
 
@@ -556,11 +743,17 @@ Outros
 Na aba 
 \emph on
 
-\begin_inset Quotes eld
-\end_inset
+\begin_inset ERT
+status open
 
-Data
-\begin_inset Quotes erd
+\begin_layout Plain Layout
+
+\emph on
+
+\backslash
+jn{Data}
+\end_layout
+
 \end_inset
 
 
@@ -568,11 +761,17 @@ Data
 , escolher uma data de sábado e verificar o efeito consequente na aba 
 \emph on
 
-\begin_inset Quotes eld
-\end_inset
+\begin_inset ERT
+status open
 
-Outros
-\begin_inset Quotes erd
+\begin_layout Plain Layout
+
+\emph on
+
+\backslash
+jn{Outros}
+\end_layout
+
 \end_inset
 
 
@@ -594,13 +793,19 @@ Selecionar uma data de segunda a sexta-feira e o período diurno.
 O que significa o campo 
 \emph on
 
-\begin_inset Quotes eld
-\end_inset
+\begin_inset ERT
+status open
 
-Máx.
+\begin_layout Plain Layout
+
+\emph on
+
+\backslash
+cp{Máx.
  h.a.
- TP e HR
-\begin_inset Quotes erd
+ TP e HR}
+\end_layout
+
 \end_inset
 
 
@@ -631,27 +836,33 @@ Quais as abas e que tipo de informações correlacionadas se obtêm em cada
 
 \begin_layout Enumerate
 Qual a função da região logo abaixo da região 
-\emph on
+\begin_inset ERT
+status open
 
-\begin_inset Quotes eld
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Consultas}
+\end_layout
+
 \end_inset
 
-Consultas
-\begin_inset Quotes erd
-\end_inset
-
-
-\emph default
 ?
 \end_layout
 
 \begin_layout Enumerate
 Nesta última região, qual a função do 
-\begin_inset Quotes eld
-\end_inset
+\begin_inset ERT
+status open
 
-X
-\begin_inset Quotes erd
+\begin_layout Plain Layout
+
+
+\backslash
+nm{X}
+\end_layout
+
 \end_inset
 
  no canto direito superior e qual a tecla de atalho?
@@ -661,11 +872,17 @@ X
 Na aba 
 \emph on
 
-\begin_inset Quotes eld
-\end_inset
+\begin_inset ERT
+status open
 
-Professores
-\begin_inset Quotes erd
+\begin_layout Plain Layout
+
+\emph on
+
+\backslash
+jn{Professores}
+\end_layout
+
 \end_inset
 
 
@@ -675,43 +892,72 @@ Professores
 
 \begin_deeper
 \begin_layout Enumerate
-Lista de Presença
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-Ao gerar uma Lista de Presença, que resposta dar à pergunta 
-\emph on
+Ao gerar uma 
+\begin_inset ERT
+status open
 
-\begin_inset Quotes eld
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
 \end_inset
 
-É de Atraso?
-\begin_inset Quotes erd
+, que respostas dar à pergunta 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mg{É de Atraso?}
+\end_layout
+
 \end_inset
 
-
+? Qual o significado de cada resposta?
 \end_layout
 
 \begin_layout Enumerate
 À pergunta citada, o que acontece se pressionado o botão 
-\emph on
+\begin_inset ERT
+status open
 
-\begin_inset Quotes eld
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Cancelar}
+\end_layout
+
 \end_inset
 
-Cancelar
-\begin_inset Quotes erd
-\end_inset
-
-
-\emph default
 ?
 \end_layout
 
 \begin_layout Enumerate
-Como solucionar o problema de forma simples, sem a necessidade de fechar
- e reiniciar o programa?
+Como solucionar o problema do item anterior de forma simples, sem a necessidade
+ de fechar e reiniciar o programa?
 \end_layout
 
 \begin_layout Enumerate
@@ -723,13 +969,37 @@ O que acontece quando pede-se para gerar uma nova lista sem fechar a anterior?
 \end_layout
 
 \begin_layout Enumerate
-Quantos leiautes distintos podem-se perceber para esta função de gerar Lista
- de Presença?
+Quantos leiautes distintos podem-se perceber para esta função de gerar 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+?
 \end_layout
 
 \begin_layout Enumerate
-Deseja-se imprimir a Lista de Presença de segunda-feira a sábado, para ambos
- os períodos, de ambos os 
+Deseja-se imprimir a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+ de segunda-feira a sábado, para ambos os períodos, de ambos os 
 \emph on
 campi
 \emph default
@@ -738,11 +1008,93 @@ campi
 \end_layout
 
 \begin_layout Enumerate
-O que acontece se tentar extrair a Lista de Presença para o 
+O que acontece se tentar extrair a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+ para o 
 \emph on
 campus
 \emph default
  de São Paulo, no período diurno? Qual a melhor recomendação nesta situação?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista Dia}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Quais as informações apresentadas no relatório 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista Dia Completa}
+\end_layout
+
+\end_inset
+
+? E o que significa cada uma das cores que destacam algumas das linhas?
+\end_layout
+
+\begin_layout Enumerate
+Quais as informações apresentadas no relatório 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Dias em Que o Professor Está na Escola}
+\end_layout
+
+\end_inset
+
+? Há algum destaque especial? Se sim, qual o significado?
+\end_layout
+
+\begin_layout Enumerate
+Quais as informações apresentadas no relatório 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Horários dos Dias em Quais o Professor Está em Aula}
+\end_layout
+
+\end_inset
+
+? Há algum destaque especial? Se sim, qual o significado?
 \end_layout
 
 \end_deeper
