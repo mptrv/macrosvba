@@ -726,7 +726,6 @@ status open
 
 \begin_layout Plain Layout
 
-\emph on
 
 \backslash
 jn{Outros}
@@ -748,7 +747,6 @@ status open
 
 \begin_layout Plain Layout
 
-\emph on
 
 \backslash
 jn{Data}
@@ -766,7 +764,6 @@ status open
 
 \begin_layout Plain Layout
 
-\emph on
 
 \backslash
 jn{Outros}
@@ -798,7 +795,6 @@ status open
 
 \begin_layout Plain Layout
 
-\emph on
 
 \backslash
 cp{Máx.
@@ -877,7 +873,6 @@ status open
 
 \begin_layout Plain Layout
 
-\emph on
 
 \backslash
 jn{Professores}
@@ -908,6 +903,41 @@ nm{Lista de Presença}
 \end_layout
 
 \begin_deeper
+\begin_layout Enumerate
+O que significa a sequência de texto no canto superior direito que se observa
+ na janela 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Lista de Presença}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+De quais campos dos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Dados de Referência}
+\end_layout
+
+\end_inset
+
+ esta consulta depende?
+\end_layout
+
 \begin_layout Enumerate
 Ao gerar uma 
 \begin_inset ERT
@@ -1047,6 +1077,23 @@ nm{Lista Dia}
 
 \begin_deeper
 \begin_layout Enumerate
+De quais campos dos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Dados de Referência}
+\end_layout
+
+\end_inset
+
+ esta consulta depende?
+\end_layout
+
+\begin_layout Enumerate
 Quais as informações apresentadas no relatório 
 \begin_inset ERT
 status open
@@ -1097,6 +1144,396 @@ nm{Horários dos Dias em Quais o Professor Está em Aula}
 ? Há algum destaque especial? Se sim, qual o significado?
 \end_layout
 
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{PPC}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+O que significa a sigla 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{PPC}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+De quais campos dos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Dados de Referência}
+\end_layout
+
+\end_inset
+
+ esta consulta depende?
+\end_layout
+
+\begin_layout Enumerate
+Quais as informações retornadas pela tabela de referência cruzada para o
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{PPC}
+\end_layout
+
+\end_inset
+
+? Qual o significado de cada uma?
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se o relatório com a referência cruzada para o 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{PPC}
+\end_layout
+
+\end_inset
+
+ do curso de Engenharia Eletrônica Diurno, incluindo-se as disciplinas do
+ Ciclo Básico do 1º e 2º ano, excluindo-se as aulas de dependências, para
+ o corrente ano e semestre.
+ Como proceder? Gerar uma versão impressa da primeira página.
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se o mesmo relatório, mas para o curso de Engenharia de Produção
+ Noturno, excluindo-se as disciplinas do Ciclo Básico, incluindo-se as aulas
+ de dependências e exportando o resultado para uma planilha do 
+\emph on
+Excel
+\emph default
+.
+ Como proceder? Gerar uma versão impressa da primeira página.
+\end_layout
+
+\begin_layout Enumerate
+Idem, para o curso de Engenharia Química Dirno e Noturno, simultaneamente,
+ incluindo-se as disciplinas do Ciclo Básico ministradas no 2º ano, excluindo-se
+ as do 1º ano, incluindo as aulas de dependências e exportando o resultado
+ para uma planilha do 
+\emph on
+Excel
+\emph default
+.
+ Gerar uma versão impressa da primeira página.
+\end_layout
+
+\begin_layout Enumerate
+É possível gerar um relatório semelhante para o curso de 
+\emph on
+Design
+\emph default
+ Diurno? O que acontece? E se for para o curso 
+\emph on
+Design
+\emph default
+ Diurno e Noturno?
+\end_layout
+
+\begin_layout Enumerate
+Quais são as possibilidades de relatório para o curso de Administração,
+ quanto ao 
+\emph on
+campus
+\emph default
+ e ao período?
+\end_layout
+
+\begin_layout Enumerate
+Quais os cursos de Gestão contemplados por tal relatório? E quando ao 
+\emph on
+campus
+\emph default
+ e período, quais são as possibilidades?
+\end_layout
+
+\begin_layout Enumerate
+Como fazer para extrair um relatório, de algum curso, para o ano de 2011,
+ segundo semestre?
+\end_layout
+
+\begin_layout Enumerate
+O que significam os botões com cores diferentes do padrão normal adotado?
+\end_layout
+
+\begin_layout Enumerate
+Para uma habilitação qualquer, é possível incluir o 1º ano do Ciclo Básico
+ sem incluir o 2º ano? Por quê?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Cargas Horárias}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais campos dos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Dados de Referência}
+\end_layout
+
+\end_inset
+
+ esta consulta depende?
+\end_layout
+
+\begin_layout Enumerate
+Em termos gerais, quais as consultas disponibilizadas? Qual a função de
+ cada uma?
+\end_layout
+
+\begin_layout Enumerate
+Em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Consulta de Aula}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Como identificar o ano e o semestre para os quais a consulta será aplicada?
+\end_layout
+
+\begin_layout Enumerate
+Nos campos de pesquisa, pode-se digitar quaisquer caracteres, com ou sem
+ acentuação?
+\end_layout
+
+\begin_layout Enumerate
+O que significam os campos de pesquisa em cinza?
+\end_layout
+
+\begin_layout Enumerate
+Quais os tipos de filtro? Qual a diferença entre eles?
+\end_layout
+
+\begin_layout Enumerate
+Quais as possibilidades para disparar a execução da consulta e exibição
+ dos resultados?
+\end_layout
+
+\begin_layout Enumerate
+Em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Resultados da consulta}
+\end_layout
+
+\end_inset
+
+, quais as informações apresentadas?
+\end_layout
+
+\begin_layout Enumerate
+O que significa a linha 
+\series bold
+Total
+\series default
+? Na ocasião de haver aulas compartilhadas, o valor retornado por ela será
+ coerente?
+\end_layout
+
+\begin_layout Enumerate
+Ainda quanto à linha 
+\series bold
+Total
+\series default
+, na ocasião de haver aulas quinzenais, o valor retornado por ela será coerente?
+\end_layout
+
+\begin_layout Enumerate
+Ao resultado da consulta, é possível aplicar 
+\begin_inset Quotes eld
+\end_inset
+
+subconsultas
+\begin_inset Quotes erd
+\end_inset
+
+? Como?
+\end_layout
+
+\begin_layout Enumerate
+Qual uma forma fácil de saber quantos resultados, isto é, linhas de resultado,
+ foram retornados?
+\end_layout
+
+\begin_layout Enumerate
+Como deve-se proceder para gerar a grade horária de um professor?
+\end_layout
+
+\begin_layout Enumerate
+Como deve-se proceder para gerar a grade horária de todos os professores
+ envolvidos em uma disciplina específica?
+\end_layout
+
+\begin_layout Enumerate
+Como fazer para listar todos os professores de nome 
+\emph on
+Luiz
+\emph default
+ ou 
+\emph on
+Luis
+\emph default
+ da disciplina 
+\emph on
+EFB201
+\emph default
+ do primeiro semestre de 2013?
+\end_layout
+
+\begin_layout Enumerate
+É possível exportar os dados do resultado da consulta para o 
+\emph on
+Excel
+\emph default
+? Se sim, como?
+\end_layout
+
+\begin_layout Enumerate
+Como proceder para gerar a grade horária de todos os professores?
+\end_layout
+
+\begin_layout Enumerate
+Qual a utilidade do campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Data específica da grade}
+\end_layout
+
+\end_inset
+
+ que aparece quando pede-se para gerar a grade horária dos professores?
+ Que valores podem ser fornecidos?
+\end_layout
+
+\begin_layout Enumerate
+Qual a utilidade e quais as respostas possíveis à pergunta 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mg{É oficial?}
+\end_layout
+
+\end_inset
+
+ que aparece logo em seguida?
+\end_layout
+
+\begin_layout Enumerate
+Qual o significado de cada um dos grupos de informações na grade horária
+ do professor?
+\end_layout
+
+\begin_layout Enumerate
+Como fazer para fechar o relatório da grade horária?
+\end_layout
+
+\begin_layout Enumerate
+O que acontece se for gerada outra grade horária sem fechar a anterior?
+\end_layout
+
+\begin_layout Enumerate
+Quais são as opções para fechar esta janela, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Consulta de Aula}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_deeper
 \end_body
