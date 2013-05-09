@@ -364,7 +364,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename //H211C-01/Documentação CGH/imagens/cgh-boas-vindas.png
+	filename imagens/cgh-boas-vindas.png
 	height 3cm
 
 \end_inset
@@ -438,7 +438,7 @@ status open
 
 \change_inserted 361918690 1367958496
 \begin_inset Graphics
-	filename //H211C-01/Documentação CGH/imagens/cgh-acesso.png
+	filename imagens/cgh-acesso.png
 	height 3cm
 
 \end_inset
@@ -517,7 +517,7 @@ status open
 
 \change_inserted 361918690 1367958534
 \begin_inset Graphics
-	filename //H211C-01/Documentação CGH/imagens/cgh-acesso-erro.png
+	filename imagens/cgh-acesso-erro.png
 	height 4cm
 
 \end_inset
@@ -597,7 +597,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename //H211C-01/Documentação CGH/imagens/cgh-acesso-tentativas-esgotadas.png
+	filename imagens/cgh-acesso-tentativas-esgotadas.png
 	height 3cm
 
 \end_inset
