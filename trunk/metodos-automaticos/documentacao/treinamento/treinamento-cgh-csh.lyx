@@ -1534,6 +1534,488 @@ jn{Consulta de Aula}
 \end_layout
 
 \end_deeper
+\begin_layout Enumerate
+Em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Consultar CEUN-IMT}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Quais as informações apresentadas e o significado de cada uma delas?
+\end_layout
+
+\begin_layout Enumerate
+De quais formas pode-se saber se um professor listado está ativo ou não?
+\end_layout
+
+\begin_layout Enumerate
+Se, por exemplo, um professor possuir horas-aula em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{TotHaIMT}
+\end_layout
+
+\end_inset
+
+ e constar que ele encontra-se de licença, esta informação está correta?
+ Há algum caso assim? Como fazer o rastreamento das informações para esclarecer
+ o fato?
+\end_layout
+
+\begin_layout Enumerate
+Como interpretar o dado apresentado no campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{TotHaPG}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Como interpretar o relacionamento matemático entre as colunas numéricas?
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se encontrar os professores em regime TI que possuem orientação a
+ algum trabalho de conclusão de curso.
+ Como proceder para encontrar esta informação?
+\end_layout
+
+\begin_layout Enumerate
+Uma vez que percebe-se, em 2013, o campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{TotHaATDPago}
+\end_layout
+
+\end_inset
+
+ em vazio para todos os professores e sabendo-se que há horas-aula de atendiment
+o pagas atribuídas a alguns professores, onde deverão estar inclusas tais
+ horas-aula?
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se encontrar a quantidade atual de professores doutores, mestres
+ e especialistas.
+ Como fazer?
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se encontrar a quantidade atual de professores em regime TI, TP e
+ HR.
+ Como fazer?
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se encontrar quais são os professores em regime TI, em categoria
+ Pleno e que são doutores.
+ Como fazer? Gerar uma versão impressa da relação, contendo apenas um título
+ (título da relação) e o nome dos professores.
+\end_layout
+
+\begin_layout Enumerate
+É possível encontrar a quantidade de professores doutores, mestres e especialist
+as em dezembro de 2011? Se não, por quê?
+\end_layout
+
+\begin_layout Enumerate
+É possível encontrar a quantidade de professores em regime TI, TP e HR em
+ dezembro de 2011? Se não, por quê?
+\end_layout
+
+\begin_layout Enumerate
+Alguns dados no campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{RF}
+\end_layout
+
+\end_inset
+
+ possuem valores menores que 100.
+ O que isto significa?
+\end_layout
+
+\begin_layout Enumerate
+Desejando-se obter a presente relação para a data de referência 05/08/2012,
+ por exemplo, quais são as informações que, de fato, correspodem a tal data
+ e quais não correspondem?
+\end_layout
+
+\begin_layout Enumerate
+Como fechar a janela?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Atividades Outras}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Qual a finalidade desta interface?
+\end_layout
+
+\begin_layout Enumerate
+Qual o significado dos dados que podem ser inseridos?
+\end_layout
+
+\begin_layout Enumerate
+Quais dados são obrigatórios e quais são opcionais?
+\end_layout
+
+\begin_layout Enumerate
+Quais são as restrições para a entrada de cada data?
+\end_layout
+
+\begin_layout Enumerate
+Qual o formato de entrada das datas?
+\end_layout
+
+\begin_layout Enumerate
+Como escolher o ano de lançamento?
+\end_layout
+
+\begin_layout Enumerate
+Como fechar a janela?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Trabalhos de Conclusão de Curso}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Qual a finalidade desta interface?
+\end_layout
+
+\begin_layout Enumerate
+Qual o significado dos dados que podem ser inseridos?
+\end_layout
+
+\begin_layout Enumerate
+Quais dados são obrigatórios e quais são opcionais?
+\end_layout
+
+\begin_layout Enumerate
+Quais são as restrições para a entrada de cada campo?
+\end_layout
+
+\begin_layout Enumerate
+Como fechar a janela?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Licenças}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+Quais os tipos de consultas e quais informações são retornadas por cada
+ uma delas?
+\end_layout
+
+\begin_layout Enumerate
+Em especial, qual o significado do campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Remunerado}
+\end_layout
+
+\end_inset
+
+? Em geral, esta opção é assinalada como verdadeiro ou falso?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Outras Relações de Professores}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+De forma sucinta, quais são as subconsultas disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+Que informações são retornadas pelas subconsultas? Qual o significado dos
+ campos ainda não descritos anteriormente?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{As Graduações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Com Mais de Uma Graduação}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{As Pós-Graduações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{A Pós-Graduação Maior}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Disciplinas Ministradas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Habilitações dos Professores}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Professores das Habilitações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Atualizar TP e HR}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+De forma sucinta, quais são as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+Quais as informações são retornadas por 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Verificar as Atualizações}
+\end_layout
+
+\end_inset
+
+? Elas envolvem quais regimes de trabalho?
+\end_layout
+
+\begin_layout Enumerate
+O que significa a função 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Executar as Atualizações}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
 \end_deeper
 \end_deeper
 \end_body
