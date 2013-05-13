@@ -64,51 +64,6 @@
 
 \begin_body
 
-\begin_layout Standard
-
-\change_inserted 239966243 1368052154
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 239966243 1368052139
-Mariane, às vezes cita-se 
-\begin_inset Quotes eld
-\end_inset
-
-usuário
-\begin_inset Quotes erd
-\end_inset
-
-, às vezes, 
-\begin_inset Quotes eld
-\end_inset
-
-utilizador
-\begin_inset Quotes erd
-\end_inset
-
-.
- Sugiro adotar 
-\begin_inset Quotes eld
-\end_inset
-
-usuário
-\begin_inset Quotes erd
-\end_inset
-
- como padrão.
- O que acha?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Title
 Manual do Usuário
 \begin_inset VSpace bigskip
@@ -343,7 +298,11 @@ Janela de boas-vindas
 
 \begin_layout Standard
 Logo ao iniciar o programa, será apresentada a janela de boas-vindas, conforme
- vê-se na 
+ vê-se na
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Janela-de-boas-vindas."
@@ -359,7 +318,7 @@ reference "fig:Janela-de-boas-vindas."
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -376,13 +335,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela de boas
-\change_inserted 361918690 1367930800
- 
-\change_deleted 361918690 1367930798
--
-\change_unchanged
-vindas.
+Janela de boas vindas.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Janela-de-boas-vindas."
@@ -400,21 +353,21 @@ name "fig:Janela-de-boas-vindas."
 \end_inset
 
 
-\change_inserted 239966243 1367516168
-
 \end_layout
 
 \begin_layout Subsection
 Identificação do usuário
-\change_inserted 361918690 1367837582
-
 \end_layout
 
 \begin_layout Paragraph
 
 \series medium
 O usuário deverá identificar-se por meio de um usuário e senha pré cadastrado,
- através da janela exibida na 
+ através da janela exibida na
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Janela-para-identificação"
@@ -425,18 +378,14 @@ reference "fig:Janela-para-identificação"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 361918690 1367958496
 \begin_inset Float figure
 placement !h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
-
-\change_inserted 361918690 1367958496
 \begin_inset Graphics
 	filename imagens/cgh-acesso.png
 	height 3.5cm
@@ -447,13 +396,9 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1367958496
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1367958496
 Janela para identificação do usuário.
  
 \begin_inset CommandInset label
@@ -473,23 +418,27 @@ name "fig:Janela-para-identificação"
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Paragraph
 
 \series medium
 Caso o usuário e senha se mostrem incorretos, uma mensagem de erro será
- mostrada, e 
-\change_inserted 361918690 1368103249
-se
-\change_deleted 361918690 1368103248
-o utilizador
+ mostrada, e
+\change_deleted 361918690 1368447737
+ o utilizador
 \change_unchanged
- deverá tentar novamente
-\change_inserted 361918690 1368103357
- (figura 
+ deverá 
+\change_inserted 361918690 1368451746
+ser feita uma nova tentativa
+\change_deleted 361918690 1368447756
+tentar novamente
+\change_inserted 361918690 1368451753
+ (figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Informação-de-erro"
@@ -504,8 +453,6 @@ reference "fig:Informação-de-erro"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 361918690 1367958534
 \begin_inset Float figure
 placement h
 wide false
@@ -514,8 +461,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\change_inserted 361918690 1367958534
 \begin_inset Graphics
 	filename imagens/cgh-acesso-erro.png
 	height 5.5cm
@@ -526,13 +471,9 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1367958534
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1367958534
 Informação de erro de autenticação.
  
 \begin_inset CommandInset label
@@ -552,39 +493,25 @@ name "fig:Informação-de-erro"
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Paragraph
 
 \series medium
-Se o 
-\change_deleted 361918690 1368097686
-número de tentativas ultrapassar o permitido
-\change_inserted 361918690 1368097703
-usuário realizar mais de três tentativas
-\change_unchanged
-, a janela vista na
-\change_inserted 361918690 1367930828
- figura
-\change_unchanged
- 
+Se o usuário realizar mais de três tentativas, a janela vista na figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Informação-de-tentativas"
 
 \end_inset
 
- poderá ser vista e então
-\change_inserted 361918690 1368103310
- o acesso ao sistema será negado, o programa fechará automaticamente e deverá
- ser reaberto.
-
-\change_unchanged
+ poderá ser vista e então o acesso ao sistema será negado, o programa fechará
+ automaticamente e deverá ser reaberto.
  
-\change_inserted 361918690 1367838130
-
 \end_layout
 
 \begin_layout Standard
@@ -652,7 +579,11 @@ Planilha
 \emph on
 Geral
 \emph default
-, vista na figura 
+, vista na figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Planilha-geral"
@@ -679,20 +610,12 @@ Ler Banco de Dados
 \family default
 \emph default
 \SpecialChar \ldots{}
-.
+.Basta simplesmente então continuar, confirmando as opções mostradas nas
+ figuras
+\begin_inset space ~
+\end_inset
 
-\change_deleted 361918690 1368103441
- Caso essa seja a primeira operação ao se abrir o programa, 
-\change_inserted 361918690 1368103442
-B
-\change_deleted 361918690 1368103441
-b
-\change_unchanged
-asta simplesmente
-\change_inserted 361918690 1368103452
- então
-\change_unchanged
- continuar, confirmando as opções mostradas nas figuras 
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Aviso-ao-ler"
@@ -700,42 +623,32 @@ reference "fig:Aviso-ao-ler"
 \end_inset
 
 ,
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Aviso-dados-serão"
 
 \end_inset
 
- e 
+
+\begin_inset space ~
+\end_inset
+
+e
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:aviso-dados-exportados"
 
 \end_inset
 
-
-\change_inserted 361918690 1368097799
 .
-\change_deleted 361918690 1368097798
-; caso contrário, leia a seção
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "sec:Gravação"
-
-\end_inset
-
-
-\change_unchanged
-.
-
-\change_deleted 361918690 1368097793
- 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -762,17 +675,7 @@ status open
 \begin_layout Plain Layout
 
 \emph on
-Planilha 
-\change_inserted 361918690 1367930927
-G
-\change_deleted 361918690 1367930927
-g
-\change_unchanged
-eral
-\change_inserted 361918690 1368097762
-.
-
-\change_unchanged
+Planilha Geral.
 
 \emph default
  
@@ -799,7 +702,7 @@ name "fig:Planilha-geral"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -813,11 +716,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Aviso ao ler banco de dados
-\change_inserted 361918690 1368097808
-.
-\change_unchanged
-
+Aviso ao ler banco de dados.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Aviso-ao-ler"
@@ -858,21 +757,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Aviso
-\change_inserted 361918690 1367930958
- de que
-\change_unchanged
- dados serão exporta
-\change_inserted 361918690 1367930955
-d
-\change_deleted 361918690 1367930955
-t
-\change_unchanged
-os
-\change_inserted 361918690 1368097816
-.
-\change_unchanged
-
+Aviso de que os dados serão exportados.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Aviso-dados-serão"
@@ -913,17 +798,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1367930966
-A
-\change_deleted 361918690 1367930966
-a
-\change_unchanged
-viso
-\change_inserted 361918690 1367930971
- de
-\change_unchanged
- dados exportados com sucesso
+Aviso de dados exportados com sucesso.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:aviso-dados-exportados"
@@ -947,34 +822,18 @@ name "fig:aviso-dados-exportados"
 
 \series medium
 A seguir, é preciso selecionar o semestre e ano de interesse para que os
- dados correspondentes sejam importados
-\change_inserted 361918690 1367930989
-,
-\change_unchanged
- conforme
-\change_inserted 361918690 1367931003
- pode ser visto
-\change_unchanged
- 
-\change_inserted 361918690 1367931005
-n
-\change_unchanged
-a imagem 
+ dados correspondentes sejam importados, conforme pode ser visto na imagem
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Filtro-para-leitura"
 
 \end_inset
 
-
-\change_inserted 361918690 1367931012
-,
-\change_unchanged
- e
-\change_inserted 361918690 1368097855
-,
-\change_unchanged
- ao se clicar em 
+, e, ao se clicar em 
 \family sans
 \emph on
 Aceitar
@@ -982,14 +841,26 @@ Aceitar
 \emph default
 , já será possível visualizar a lista das grades horárias em vigor em tal
  período.
- Conforme podemos ver nas figuras 
+ Conforme podemos ver nas figuras
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Informação-leitura-concluída"
 
 \end_inset
 
- e 
+
+\begin_inset space ~
+\end_inset
+
+e
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Planilha-geral-ápos"
@@ -997,11 +868,8 @@ reference "fig:Planilha-geral-ápos"
 \end_inset
 
 .
-\change_deleted 361918690 1367930721
+\series default
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1022,11 +890,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Filtro para leitura do banco de dados
-\change_inserted 361918690 1368097874
-.
-\change_unchanged
-
+Filtro para leitura do banco de dados.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Filtro-para-leitura"
@@ -1067,19 +931,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Informação
-\change_inserted 361918690 1368097887
- de
-\change_unchanged
- leitura
-\change_inserted 361918690 1367931069
- do banco de dados
-\change_unchanged
- concluída
-\change_inserted 361918690 1368097880
-.
-\change_unchanged
-
+Informação de leitura do banco de dados concluída.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Informação-leitura-concluída"
@@ -1124,11 +976,7 @@ status open
 \emph on
 Planilha geral
 \emph default
- ápos leitura do banco de dados
-\change_inserted 361918690 1368097895
-.
-\change_unchanged
-
+ ápos leitura do banco de dados.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Planilha-geral-ápos"
@@ -1183,15 +1031,23 @@ As turmas possuem uma identificação padronizada.
 
 \begin_layout Enumerate
 O primeiro algarismo antes da letra 'S', de semestre, representa o semestre
- em que a turma está cursando.
+ que a turma está cursando.
 \end_layout
 
 \begin_layout Enumerate
-O terceiro algarismo é a série
-\change_deleted 361918690 1367931159
- em
+O terceiro algarismo é a série em que os alunos
+\change_deleted 361918690 1368447998
+ matriculados 
 \change_unchanged
- que os alunos matriculados em tal turma estão cursando.
+em tal turma estão
+\change_deleted 361918690 1368448006
+ 
+\change_inserted 361918690 1368448006
+ matriculados
+\change_deleted 361918690 1368448009
+cursando
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Enumerate
@@ -1229,14 +1085,18 @@ DP.EL: Dependências de Engenhara Elétrica.
 
 \begin_layout Standard
 A listagem completa com todas as siglas das habilitações encontra-se no
- apêndice 
+ apêndice
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "sec:Listagem-das-siglas"
 
 \end_inset
 
-
+.
 \end_layout
 
 \end_deeper
@@ -1266,22 +1126,7 @@ E, por último, após o
 
 \series medium
 Portanto, a identificação citada no exemplo representa a grade horária dos
- alunos do primeiro semestre
-\change_inserted 361918690 1367930033
-,
-\change_unchanged
- do segundo ano
-\change_inserted 361918690 1367930038
-,
-\change_unchanged
- do tronco química
-\change_inserted 361918690 1367930041
-,
-\change_unchanged
- diurno
-\change_inserted 361918690 1367930046
-,
-\change_unchanged
+ alunos do primeiro semestre, do segundo ano, do tronco química, diurno,
  em 2013.
 \end_layout
 
@@ -1293,24 +1138,21 @@ Seleção da turma
 
 \series medium
 Para selecionar uma turma, basta procurá-la na lista mostrada na figura
- 
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Lista-de-turmas"
 
 \end_inset
 
-,
-\change_inserted 361918690 1367930103
- exibida na 
+, exibida na 
 \emph on
 Planilha Geral
 \emph default
-, 
-\change_deleted 361918690 1367930099
- 
-\change_unchanged
-selecioná-la e então clicar em 
+, selecioná-la e então clicar em 
 \family sans
 \emph on
 Ir
@@ -1324,16 +1166,18 @@ Ir
 \family default
 \emph default
 .
- Consulte o apêndice 
+ Consulte o apêndice
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "sub:Seleção-de-grade"
 
 \end_inset
 
- para informações de possíveis falhas.
-\change_inserted 2089257718 1367862351
-
+ para informações de possíveis falhas nesse procedimento.
 \end_layout
 
 \begin_layout Standard
@@ -1357,15 +1201,11 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Lista de turmas
-\change_inserted 361918690 1368098024
-, exibida na 
+Lista de turmas, exibida na 
 \emph on
 Planilha Geral
 \emph default
 .
-
-\change_unchanged
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -1390,13 +1230,11 @@ name "fig:Lista-de-turmas"
 
 \series medium
 Após a seleção da turma, uma nova planilha será aberta, seguindo o padrão
- 
-\change_inserted 361918690 1367931262
-d
-\change_deleted 361918690 1367931262
-n
-\change_unchanged
-a figura 
+ da figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Planilha-carga-horária"
@@ -1433,25 +1271,9 @@ status open
 \begin_layout Plain Layout
 
 \emph on
-Planilha 
-\change_inserted 361918690 1367931282
-Grade
-\change_deleted 361918690 1367931279
-carga
-\change_unchanged
- 
-\change_inserted 361918690 1367931286
-H
-\change_deleted 361918690 1367931285
-h
-\change_unchanged
-orária
+Planilha Grade Horária
 \emph default
- da turma selecionada
-\change_inserted 361918690 1368098044
-.
-\change_unchanged
-
+ da turma selecionada.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Planilha-carga-horária"
@@ -1493,7 +1315,11 @@ Nova Grade Horária
 \family default
 \emph default
 \SpecialChar \ldots{}
-, exibido na figura 
+, exibido na figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-nova-grade"
@@ -1503,7 +1329,11 @@ reference "fig:Botão-nova-grade"
 .
  Uma janela para seleção das propriedades da turma irá aparecer, na qual
  se poderá definir semestre, série, período, ano, habilitação e campus,
- conforme a imagem 
+ conforme a imagem
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Janela-propriedade-da"
@@ -1536,7 +1366,10 @@ reference "sub:Identificação-da-turma"
 \series medium
 Feita essa seleção, uma nova janela será exibida, e a quantidade de grupos,
  turmas e laboratórios deverá ser especificada, como é mostrado na figura
- 
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Janela-propriedades-da"
@@ -1577,8 +1410,6 @@ Aceitar,
 Planilha Grade Horária
 \emph default
 .
-\change_inserted 2089257718 1367865189
-
 \end_layout
 
 \begin_layout Standard
@@ -1603,33 +1434,11 @@ status open
 
 \begin_layout Plain Layout
 Botão 
-\change_inserted 361918690 1367931565
-
 \family sans
-N
-\change_deleted 361918690 1367931565
-n
-\change_unchanged
-ova 
-\change_inserted 361918690 1367931568
-G
-\change_deleted 361918690 1367931568
-g
-\change_unchanged
-rade 
-\change_inserted 361918690 1367931571
-H
-\change_deleted 361918690 1367931570
-h
-\change_unchanged
-orária
-\change_inserted 361918690 1368098080
-\SpecialChar \ldots{}
+Nova Grade Horária\SpecialChar \ldots{}
 
 \family default
 .
-\change_unchanged
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-nova-grade"
@@ -1670,19 +1479,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela
-\change_inserted 361918690 1367932275
- de
-\change_unchanged
- propriedade
-\change_inserted 361918690 1367932269
-s
-\change_unchanged
- da turma
-\change_inserted 361918690 1368098092
-.
-\change_unchanged
-
+Janela de propriedades da turma.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Janela-propriedade-da"
@@ -1723,27 +1520,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela
-\change_inserted 361918690 1367932294
- de
-\change_unchanged
- propriedades da 
-\change_inserted 361918690 1367932288
-Grade
-\change_deleted 361918690 1367932286
-carga
-\change_unchanged
- 
-\change_inserted 361918690 1367932290
-H
-\change_deleted 361918690 1367932290
-h
-\change_unchanged
-orária
-\change_inserted 361918690 1368098119
-.
-\change_unchanged
-
+Janela de propriedades da Grade Horária.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Janela-propriedades-da"
@@ -1785,11 +1562,7 @@ Nova Aula\SpecialChar \ldots{}
 
 \family default
 \emph default
- e
-\change_deleted 361918690 1367932321
- você verá
-\change_unchanged
- o aparecimento de um quadro em cinza sobre a grade horária com os dizeres
+ e o aparecimento de um quadro em cinza sobre a grade horária com os dizeres
  
 \emph on
 
@@ -1803,13 +1576,8 @@ Clique aqui para definir a aula
 \begin_inset Quotes erd
 \end_inset
 
-
-\change_inserted 361918690 1367932330
- poderá ser visto
-\change_unchanged
-.
+ poderá ser visto.
  Intuitivamente, clique sobre esse quadro e uma nova janela irá aparecer
-\change_inserted 361918690 1367932382
  (figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1817,9 +1585,7 @@ reference "fig:Botão-nova-aula"
 
 \end_inset
 
-)
-\change_unchanged
-.
+).
 \end_layout
 
 \begin_layout Standard
@@ -1885,12 +1651,8 @@ Seleciona-se primeiramente o dia da semana que a aula ocorre, no exemplo
  
 \emph on
 SEG
-\change_inserted 361918690 1367932400
-
 \emph default
- (segunda-feira)
-\change_unchanged
-, o seu horário e sua duração em horas-aula.
+ (segunda-feira), o seu horário e sua duração em horas-aula.
 \end_layout
 
 \begin_layout Paragraph
@@ -1925,45 +1687,9 @@ Definido o horário da aula, deve-se selecionar a que turma, grupo ou laboratór
 \begin_layout Paragraph
 
 \series medium
-Note que 
-\change_deleted 361918690 1368103828
-apenas 
-\change_unchanged
-as opções 
-\change_deleted 361918690 1367932493
-permitidas
-\change_unchanged
- de subdivisões se
-\change_deleted 361918690 1367932497
-rão exibidas
-\change_inserted 361918690 1367932513
- ajustam automaticamente as características da turma
-\change_unchanged
-, logo todas as opções de grupo, turma e laboratório são válidas para seleção.
-\change_inserted 361918690 1367842028
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 361918690 1367841322
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 239966243 1367538857
-Apresentar a caixa de seleção do número da subdivisão, salientando que apenas
- os valores permitidos para cada subdivisão são exibidos.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
+Note que as opções de subdivisões se ajustam automaticamente as características
+ da turma, logo todas as opções de grupo, turma e laboratório são válidas
+ para seleção.
 \end_layout
 
 \begin_layout Paragraph
@@ -2104,36 +1830,21 @@ Disponível
  caso a sala escolhida esteja ocupada ele não será preenchido, caso contrário,
  ele ficará marcado.
  A capacidade das salas também é exibida.
- 
-\change_inserted 361918690 1367964608
-O campo chave indica a necessidade ou não de retirada da chave da sala,
+ O campo chave indica a necessidade ou não de retirada da chave da sala,
  para seu uso.
-
-\change_inserted 239966243 1367539316
  
-\change_inserted 361918690 1367839938
-
 \end_layout
 
 \begin_layout Paragraph
-
-\change_inserted 361918690 1367964722
 
 \series medium
 As disciplinas podem ter a duração semestral ou anual, ou ainda serem eletivas
  (El.) semestrais ou anuais.
  Essa informação é dada apenas com caráter informativo uma vez que ela não
  pode ser alterada mas é exibida automaticamente.
-
-\change_deleted 361918690 1367964658
- 
-\change_inserted 361918690 1367964660
-
 \end_layout
 
 \begin_layout Paragraph
-
-\change_inserted 361918690 1367964902
 
 \series medium
 Caso a aula não seja semanal, sua freqüencia também deve ser indicada, as
@@ -2146,14 +1857,14 @@ Qz
 Dp
 \emph default
 ).
- Para as aulas quinzenais pode-se definir um segundo professor, e a carga
+ 
+\change_inserted 361918690 1367964902
+Para as aulas quinzenais pode-se definir um segundo professor, e a carga
  horária dos professores selecionados será contada apenas como metade da
  regular, uma vez que, a aula só será ministrada a cada 15 dias.
 \end_layout
 
 \begin_layout Paragraph
-
-\change_inserted 361918690 1367964989
 
 \series medium
 Veja o apêndice 
@@ -2174,8 +1885,6 @@ reference "sec:Professores-e-Salas"
 Atente ao selecionar o professor ao número total de aulas hora que ele estará
  ministrando, exibido ao lado do campo de seu nome, uma vez que existem
  regulamentações a esse respeito.
-\change_inserted 361918690 1367840366
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2192,8 +1901,6 @@ reference "sub:De-cores"
  A grade horária é construída de maneira que cada disciplina apresente uma
  cor diferente, assim visualmente é possível observar a carga horária e
  duração das aulas e facilitar a localização e identificação das mesmas.
-\change_inserted 239966243 1367539416
-
 \end_layout
 
 \begin_layout Subsection
@@ -2211,16 +1918,8 @@ Em alguns casos, turmas diferentes compartilham aulas iguais e o sistema
 
 \series medium
 Para compartilhar uma aula entre duas ou mais grades horárias, ou seja,
- manter sempre nas duas 
-\change_deleted 361918690 1367933087
-(
-\change_unchanged
-ou mais
-\change_deleted 361918690 1367933085
-)
-\change_unchanged
- planilhas as mesmas alterações de uma aula específica, proceda da mesma
- forma como na seção 
+ manter sempre nas duas ou mais planilhas as mesmas alterações de uma aula
+ específica, proceda da mesma forma como na seção 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:De-Aula"
@@ -2241,11 +1940,8 @@ reference "fig:Janela-propriedade-das"
 Compartilhar com:
 \family default
 \emph default
- e, em seguida, na lista de opções, selecione as turmas com as quais
-\change_inserted 361918690 1367933104
- 
-\change_unchanged
-a determinada aula será compartilhada.
+ e, em seguida, na lista de opções, selecione as turmas com as quais a determina
+da aula será compartilhada.
  Para selecionar mais de uma, basta pressionar a tecla 
 \family typewriter
 Ctrl
@@ -2253,8 +1949,6 @@ Ctrl
  e clicar na identificação das turmas desejadas.
  Concluída a seleção e confirmadas as alterações, será possível verificar
  em qualquer uma das grades a existência dessa mesma aula.
-\change_inserted 239966243 1367541679
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2271,23 +1965,15 @@ Note que, para realizar o compartilhamento, é necessário que disciplina,
 Note também que, no momento em que o compartilhamento for feito, as duas
  grades horárias já devem existir.
  E preste atenção para não criar sobreposição de aulas!
-\change_inserted 361918690 1367933233
-
 \end_layout
 
 \begin_layout Paragraph
-
-\change_inserted 361918690 1368098927
 
 \series medium
 Existem duas opções para o descompartilhamento de aulas:
-\change_unchanged
-
 \end_layout
 
 \begin_layout Paragraph
-
-\change_inserted 361918690 1368104151
 
 \series medium
 A primeira é tirando a seleção da opção 
@@ -2304,17 +1990,16 @@ Compartilhar com
 
 \begin_layout Paragraph
 
-\change_inserted 361918690 1368099091
-
 \series medium
-Na segunda opção, em qualquer uma das grades compartilhadas, aperte Ctrl
+Na segunda opção, em qualquer uma das grades compartilhadas, aperte 
+\family typewriter
+Ctrl
+\family default
  e clique na identificação da(s) turma(s) que devem ser tiradas do compartilhame
 nto, ela(s) perderá(ão) a identificação de seleção.
  Uma mensagem de que ela(s) será(ão) excluída(s) irá aparecer, prossiga
  com o processo, e então a aula só será mantida nas grades que se manterem
  selecionadas.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsection
@@ -2336,11 +2021,9 @@ Transformar em\SpecialChar \ldots{}
 \family default
 \emph default
  (figura
-\emph on
- 
-\change_inserted 361918690 1368104312
+\begin_inset space ~
+\end_inset
 
-\emph default
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2348,13 +2031,8 @@ reference "fig:Botão-transformar-em"
 
 \end_inset
 
-
-\change_unchanged
-), cuja função é transformar todos os dados importados do banco de dados
-\change_deleted 361918690 1367958180
- 
-\change_unchanged
-, que pertencem a um ano e semestre específico , para um novo ano e/ou semestre.
+), cuja função é transformar todos os dados importados do banco de dados,
+ que pertencem a um ano e semestre específico , para um novo ano e/ou semestre.
  Portanto, ele copia os dados existentes para um novo período.
 \end_layout
 
@@ -2362,36 +2040,34 @@ reference "fig:Botão-transformar-em"
 
 \series medium
 Por exemplo, pode-se copiar todos os horários já definidos do segundo semestre
- de 2013 para o primeiro semestre de 2014, 
-\change_deleted 361918690 1367933885
-como mostra o exemplo d
-\change_inserted 361918690 1367935872
- através da janela mostrada n
-\change_unchanged
-a figura 
+ de 2013 para o primeiro semestre de 2014, através da janela mostrada na
+ figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Janela-transformar-em"
 
 \end_inset
 
-, seguida pela confirmação do processo
-\change_inserted 361918690 1368099144
-, exibido
-\change_unchanged
- na figura 
+, seguida pela confirmação do processo, exibido na figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Janela-confirmar-transformação"
 
 \end_inset
 
+, e pelo aviso de que o banco é exportado antes da transformação, figura
+\begin_inset space ~
+\end_inset
 
-\change_inserted 361918690 1368099147
-,
-\change_unchanged
- e pelo aviso de que o banco é exportado antes da transformação, figura
- 
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Informação-dados-serão"
@@ -2399,8 +2075,6 @@ reference "fig:Informação-dados-serão"
 \end_inset
 
 .
-\change_inserted 361918690 1368099306
-
 \end_layout
 
 \begin_layout Standard
@@ -2578,9 +2252,6 @@ name "fig:Informação-dados-serão"
 
 \series medium
 Uma vez feita a transformação, todas as funções já apresentadas encontram-se
-\change_deleted 361918690 1367842172
- 
-\change_unchanged
  disponíveis para essas novas grades horárias geradas, independentemente
  das grades originais.
 \end_layout
@@ -2594,14 +2265,10 @@ Essa função é muito útil no início de um ano letivo ou de um novo semestre,
  Bastará, então, remanejar algumas aulas e computar os dados que sofreram
  alteração, para que toda a nova grade horária seja registrada no banco
  de dados do sistema, de forma bastante eficiente.
-\change_inserted 2089257718 1367865088
-
 \end_layout
 
 \begin_layout Section
 Alteração
-\change_inserted 239966243 1367544652
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2611,7 +2278,11 @@ As alterações descritas nesta seção são acessíveis por meio da
 \emph on
 Planilha Grade Horária
 \emph default
-, que exibe os botões vistos na figura 
+, que exibe os botões vistos na figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botões-de-alteração"
@@ -2619,8 +2290,6 @@ reference "fig:Botões-de-alteração"
 \end_inset
 
 .
-\change_inserted 2089257718 1367862722
-
 \end_layout
 
 \begin_layout Standard
@@ -2644,13 +2313,9 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Botões d
-\change_inserted 361918690 1368099558
-e alteração da 
+Botões de alteração da 
 \emph on
 Planilha Grade Horária.
-
-\change_unchanged
 
 \emph default
  
@@ -2705,30 +2370,21 @@ Exclusão
 \begin_layout Paragraph
 
 \series medium
-Deve-se proceder da mesma maneira, como na seção anterior
-\change_inserted 361918690 1367842306
-,
-\change_unchanged
- caso seja necessário excluir uma aula existente.
- Para tal, clique sobre a aula que deve ser excluída e em seguida no botão
- 
+Deve-se proceder da mesma maneira, como na seção anterior, caso seja necessário
+ excluir uma aula existente.
+ Para tal, clique sobre a aula que deve ser excluída.
+ E em seguida no botão 
 \family sans
 \emph on
 Deletar\SpecialChar \ldots{}
 
-\change_inserted 361918690 1368099620
-
 \family default
 \emph default
- ,na janela das definições de aula
-\change_unchanged
-, confirmando 
-\change_deleted 361918690 1367935007
-a pergunta exibida
-\change_inserted 361918690 1367935008
-opção
-\change_unchanged
- (figura 
+ ,na janela das definições de aula, confirmando a opção (figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-deletar-aula"
@@ -2740,11 +2396,7 @@ reference "fig:Botão-deletar-aula"
 
 \begin_layout Standard
 Algumas falhas são conhecidas nessa etapa.
- Veja
-\change_inserted 361918690 1368099627
- 
-\change_unchanged
-o apêndice
+ Veja o apêndice
 \begin_inset space ~
 \end_inset
 
@@ -2756,8 +2408,6 @@ reference "sub:Exclusão-de-aulas"
 \end_inset
 
 .
-\change_inserted 2089257718 1367865364
-
 \end_layout
 
 \begin_layout Standard
@@ -2782,16 +2432,10 @@ status open
 
 \begin_layout Plain Layout
 Botão 
-\change_deleted 361918690 1367935027
-deletar aula
-\change_inserted 361918690 1368099637
-
 \family sans
 \emph on
 Deletar\SpecialChar \ldots{}
 .
-
-\change_unchanged
 
 \family default
 \emph default
@@ -2836,27 +2480,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela
-\change_inserted 361918690 1368099661
- de
-\change_unchanged
- confi
-\change_inserted 361918690 1367935050
-r
-\change_unchanged
-ma
-\change_inserted 361918690 1368099670
-çao
-\change_deleted 361918690 1368099664
-r
-\change_inserted 361918690 1368099674
- de
-\change_unchanged
- remoção de aula
-\change_inserted 361918690 1368099679
-.
-\change_unchanged
-
+Janela de confirmação de remoção de aula.
 \end_layout
 
 \end_inset
@@ -2892,16 +2516,10 @@ Deletar\SpecialChar \ldots{}
 , 
 \family default
 \emph default
-na
-\change_inserted 361918690 1368099772
- janela de
-\change_deleted 361918690 1368099768
-s
-\change_unchanged
- definições da aula, e aceite, conforme figura
-\emph on
- 
-\emph default
+na janela de definições da aula, e aceite, conforme figura
+\begin_inset space ~
+\end_inset
+
 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2910,24 +2528,12 @@ reference "fig:Opção-mover-para"
 \end_inset
 
 .
- Ela
-\change_inserted 361918690 1367842376
- 
-\change_unchanged
-aparecerá sobre a planilha, na região denominada 
+ Ela aparecerá sobre a planilha, na região denominada 
 \emph on
 Canto
 \emph default
 .
- Ao se gerar
-\change_inserted 361918690 1367842408
- 
-\change_unchanged
-um relatório PDF de publicação ao
-\change_inserted 361918690 1367842413
-s
-\change_unchanged
- alunos
+ Ao se gerar um relatório PDF de publicação aos alunos
 \begin_inset Foot
 status open
 
@@ -2950,41 +2556,9 @@ reference "sec:Relatórios"
 
 \end_inset
 
-
-\change_inserted 361918690 1368104632
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1368104660
-Esse rodapé aparece em outra página no meio do texto no pdf
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-, esta aula
-\change_inserted 361918690 1367842387
- 
-\change_unchanged
-não irá aparecer.
- Caso ela precise ser realocada, não será necessário criá-la 
-\change_inserted 361918690 1367842431
-novamente
-\change_deleted 361918690 1367842427
-de novo
-\change_unchanged
-, apenas redefinir seu horário.
-
-\change_deleted 361918690 1368099744
- 
-\change_inserted 361918690 1368099744
-
+, esta aula não irá aparecer.
+ Mas, caso ela precise ser realocada, não será necessário criá-la novamente,
+ apenas redefinir seu horário.
 \end_layout
 
 \begin_layout Paragraph
@@ -2994,8 +2568,6 @@ Contudo, as aulas do canto continuam a reservar recursos, como salas e professor
 es.
  Se for decidido que uma determinada, de fato, não mais será necessária,
  ela deverá ser excluída.
-\change_inserted 2089257718 1367865490
-
 \end_layout
 
 \begin_layout Standard
@@ -3020,22 +2592,12 @@ status open
 
 \begin_layout Plain Layout
 Opção 
-\change_inserted 361918690 1367935136
-
 \family sans
 \emph on
-M
-\change_deleted 361918690 1367935136
-m
-\change_unchanged
-over para CANTO
-\change_inserted 361918690 1368099755
-
+Mover para CANTO
 \family default
 \emph default
 .
-\change_unchanged
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Opção-mover-para"
@@ -3069,7 +2631,11 @@ Editar Turma\SpecialChar \ldots{}
 
 \family default
 \emph default
- (figura 
+ (figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-editar-turma"
@@ -3082,7 +2648,11 @@ reference "fig:Botão-editar-turma"
 Alterar Divisões
 \family default
 \emph default
- (figura 
+ (figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-alterar-subdivisões"
@@ -3090,54 +2660,32 @@ reference "fig:Botão-alterar-subdivisões"
 \end_inset
 
 ).
+ A janela que apareceu na criação da turma para escolha das suas subdivisões
+ aparecerá novamente (figura
+\begin_inset space ~
+\end_inset
 
-\change_inserted 361918690 1367935188
- 
-\change_unchanged
-A janela que apareceu na criação da turma para escolha das suas subdivisões
- aparecerá novamente
-\change_inserted 361918690 1367927073
- (figura 
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Janela-aletrar-subdivisões"
 
 \end_inset
 
-)
-\change_unchanged
-.
+).
 \end_layout
 
 \begin_layout Paragraph
 
 \series medium
 Note que caso a alteração diminua as subdivisões da turma em questão, as
- aulas
-\change_deleted 361918690 1368099868
- que ficarem
-\change_unchanged
- excedentes serão movidas para o canto, a fim de que
-\change_inserted 361918690 1367927083
- 
-\change_unchanged
-sejam realocadas ou excluídas manualmente;
-\change_inserted 361918690 1367927088
- 
-\change_unchanged
-caso a turma aumente, existirá um espaço em branco n
-\change_inserted 361918690 1368099898
-a 
+ aulas excedentes serão movidas para o canto, a fim de que sejam realocadas
+ ou excluídas manualmente; caso a turma aumente, existirá um espaço em branco
+ na 
 \emph on
 Planilha Grade Horária
-\change_deleted 361918690 1368099890
-
 \emph default
-o horário
-\change_unchanged
 , no qual deverão ser adicionadas as devidas aulas.
-\change_inserted 2089257718 1367865456
-
 \end_layout
 
 \begin_layout Standard
@@ -3166,13 +2714,9 @@ Botão
 \emph on
 Editar Turma\SpecialChar \ldots{}
 
-\change_inserted 361918690 1368099795
-
 \family default
 \emph default
 .
-\change_unchanged
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-editar-turma"
@@ -3214,10 +2758,6 @@ status open
 
 \begin_layout Plain Layout
 Botão 
-\change_deleted 361918690 1367935201
-alterar subdivisões
-\change_inserted 361918690 1368099802
-
 \family sans
 \emph on
 Alterar Divisões\SpecialChar \ldots{}
@@ -3225,8 +2765,6 @@ Alterar Divisões\SpecialChar \ldots{}
 \family default
 \emph default
 .
-\change_unchanged
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-alterar-subdivisões"
@@ -3267,13 +2805,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela 
-\change_deleted 361918690 1368099835
-alterar subdivisões
-\change_inserted 361918690 1368099844
-de propriedades da grade horária.
-\change_unchanged
-
+Janela de propriedades da grade horária.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Janela-aletrar-subdivisões"
@@ -3295,8 +2827,6 @@ name "fig:Janela-aletrar-subdivisões"
 
 \begin_layout Subsection
 De cores
-\change_inserted 361918690 1367840531
-
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:De-cores"
@@ -3304,20 +2834,14 @@ name "sub:De-cores"
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Paragraph
 
 \series medium
-A cor da aula na planilha pode estar na função automática
-\change_inserted 361918690 1367935368
-,
-\change_unchanged
- assim a cada disciplina será atribuída uma cor diferente automaticamente
- e, na repetição da mesma disciplina na grade horária, o mesmo tom será
- mantido.
+A cor da aula na planilha pode estar na função automática, assim a cada
+ disciplina será atribuída uma cor diferente automaticamente e, na repetição
+ da mesma disciplina na grade horária, o mesmo tom será mantido.
  Ou então, pode-se fazer a opção de cor manualmente, escolhendo aula a aula
  a cor desejada.
  
@@ -3326,35 +2850,27 @@ A cor da aula na planilha pode estar na função automática
 \begin_layout Paragraph
 
 \series medium
-Essa opção está disponível nas propriedades da aula
-\change_inserted 361918690 1367927184
-, exibida na figura 
+Essa opção está disponível nas propriedades da aula, exibida na figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:Janela-propriedade-da"
 
 \end_inset
 
-,
-\change_unchanged
- 
-\change_deleted 361918690 1367927157
-(mesma janela que se escolhe a disciplina, professor e sala)
-\change_unchanged
- identificada por 
+, identificada por 
 \family sans
 \emph on
 Cor:
 \family default
 \emph default
  e uma caixa de opções.
-\change_inserted 361918690 1367840749
-
 \end_layout
 
 \begin_layout Paragraph
-
-\change_inserted 361918690 1367935624
 
 \series medium
 Caso se deseje alterar a opção de cor automática de uma determinada disciplina,
@@ -3367,14 +2883,22 @@ Caso se deseje alterar a opção de cor automática de uma determinada disciplin
 \emph on
 Planilha Grade Horária
 \emph default
- (figura 
+ (figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-editar-cor"
 
 \end_inset
 
-), e faça essa definição através da janela exibida na figura 
+), e faça essa definição através da janela exibida na figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Janela-editar-cor"
@@ -3382,8 +2906,11 @@ reference "fig:Janela-editar-cor"
 \end_inset
 
 .
- Todas as aulas futuramente adicionadas dessa mesma disciplina, seguirão
- essa definição.
+ 
+\change_inserted 361918690 1368450539
+As aulas futuramente adicionadas dessa mesma disciplina, nessa mesma grade
+ horária, seguirão essa definição, porém ao mudar de grade ou reiniciar
+ o progrma será necessário definir a cor novamente.
 \change_inserted 239966243 1367544909
 
 \end_layout
@@ -3410,10 +2937,6 @@ status open
 
 \begin_layout Plain Layout
 Botão 
-\change_deleted 361918690 1367935660
-editar cor
-\change_inserted 361918690 1368100080
-
 \family sans
 \emph on
 Editar Cor\SpecialChar \ldots{}
@@ -3427,8 +2950,6 @@ name "fig:Botão-editar-cor"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -3463,21 +2984,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela
-\change_inserted 361918690 1368100090
- para
-\change_unchanged
- editar cor
-\change_inserted 361918690 1368100097
- automática.
+Janela para editar cor automática.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Janela-editar-cor"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -3558,22 +3071,13 @@ Atualizar BD\SpecialChar \ldots{}
 \family default
 lanilha Grade Horária
 \emph default
- de algum
-\change_deleted 361918690 1368100123
- horário
-\change_inserted 361918690 1368100126
-a turma
-\change_unchanged
- específic
-\change_inserted 361918690 1368100130
-a
-\change_deleted 361918690 1368100129
-o
-\change_unchanged
-.
- É indiferente qual desses botões se seleciona para executar essa ação
-\change_inserted 361918690 1367927466
-, esses botões podem ser vistos na figura 
+ de alguma turma específica.
+ É indiferente qual desses botões se seleciona para executar essa ação,
+ esses botões podem ser vistos na figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botões-atualizar-banco"
@@ -3581,25 +3085,29 @@ reference "fig:Botões-atualizar-banco"
 \end_inset
 
 , após o clique em qualquer um deles as mensagens para prosseguir e de confirmaç
-ão da operação serão exibidas, como nas figuras 
+ão da operação serão exibidas, como nas figuras
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Aviso-dados-serão-1"
 
 \end_inset
 
- e 
+ e
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Aviso-dados-exportados"
 
 \end_inset
 
-
-\change_unchanged
 .
-\change_inserted 2089257718 1367866033
-
 \end_layout
 
 \begin_layout Standard
@@ -3630,13 +3138,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Botões 
-\change_inserted 361918690 1367935789
-para 
-\change_unchanged
-atualizar banco de dados
-\change_inserted 361918690 1368100184
-, a esquerda é exibido na 
+Botões para atualizar banco de dados, a esquerda é exibido na 
 \emph on
 Planilha Geral
 \emph default
@@ -3651,8 +3153,6 @@ name "fig:Botões-atualizar-banco"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -3687,25 +3187,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Aviso
-\change_inserted 361918690 1367935818
- de que os
-\change_unchanged
- dados serão expo
-\change_inserted 361918690 1367927424
-r
-\change_unchanged
-tados
-\change_inserted 361918690 1368100269
-.
+Aviso de que os dados serão exportados.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Aviso-dados-serão-1"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -3740,25 +3228,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Aviso
-\change_inserted 361918690 1367935826
- de
-\change_unchanged
- dados 
-\change_inserted 361918690 1368100292
-foram 
-\change_unchanged
-exportados com sucesso
-\change_inserted 361918690 1368100286
-.
+Aviso de dados foram exportados com sucesso.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Aviso-dados-exportados"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -3805,20 +3281,20 @@ Planilha Grade Horária
 \family sans
 \emph on
 Gerar PDF
-\change_inserted 361918690 1367927523
-
 \family default
 \emph default
- (figura 
+ (figura
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-gerar-PDF"
 
 \end_inset
 
-)
-\change_unchanged
-.
+).
  O arquivo gerado se encontrará na pasta 
 \family sans
 relatorios
@@ -3832,21 +3308,23 @@ status open
 \begin_layout Plain Layout
 
 \series medium
-Ver a subseção 
+Ver a subseção
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "sub:Acesso-ao-módulo"
 
 \end_inset
 
- para mais informações sobre a localização do programa.
+ para mais referências sobre a localização do programa.
 \end_layout
 
 \end_inset
 
 .
-\change_inserted 2089257718 1367866305
-
 \end_layout
 
 \begin_layout Standard
@@ -3871,17 +3349,9 @@ status open
 
 \begin_layout Plain Layout
 Botão 
-\change_inserted 361918690 1367927539
-
 \family sans
 \emph on
-G
-\change_deleted 361918690 1367927538
-g
-\change_unchanged
-erar PDF
-\change_inserted 361918690 1368100420
-
+Gerar PDF
 \family default
 \emph default
 .
@@ -3891,8 +3361,6 @@ name "fig:Botão-gerar-PDF"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -3929,30 +3397,36 @@ Planilha Geral
 \family sans
 \emph on
 Gerar PDFs
-\change_inserted 361918690 1367927609
-
 \family default
 \emph default
- e confirme a opção (figuras 
+ e confirme a opção (figuras
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-gerar-PDFs"
 
 \end_inset
 
- e 
+
+\begin_inset space ~
+\end_inset
+
+e
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Janela-publicação-de"
 
 \end_inset
 
-) 
-\change_unchanged
-.
+) .
  Os relatórios gerados se localizarão na mesma pasta citada acima.
-\change_inserted 2089257718 1367866372
-
 \end_layout
 
 \begin_layout Standard
@@ -3977,17 +3451,9 @@ status open
 
 \begin_layout Plain Layout
 Botão 
-\change_inserted 361918690 1368100406
-
 \family sans
 \emph on
-G
-\change_deleted 361918690 1368100405
-g
-\change_unchanged
-erar PDFs
-\change_inserted 361918690 1368100401
-
+Gerar PDFs
 \family default
 \emph default
 .
@@ -3997,8 +3463,6 @@ name "fig:Botão-gerar-PDFs"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -4033,25 +3497,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela 
-\change_inserted 361918690 1368100447
-de confirmação da 
-\change_unchanged
-publicação de
-\change_inserted 361918690 1368100458
- todos os
-\change_unchanged
- PDFs
-\change_inserted 361918690 1368100433
-.
+Janela de confirmação da publicação de todos os PDFs.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Janela-publicação-de"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -4071,17 +3523,6 @@ Finalização
 
 \begin_layout Subsection
 De Grade Horária
-\change_inserted 361918690 1367927700
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Botão-fechar-planilha"
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Paragraph
@@ -4099,19 +3540,20 @@ Fechar
 \family default
 \emph default
  na própria 
-\change_inserted 361918690 1367927658
-
 \emph on
-P
-\change_deleted 361918690 1367927657
-p
-\change_unchanged
-lanilha
-\change_inserted 361918690 1367927675
- Grade Horária
+Planilha Grade Horária
 \emph default
 , exibido na figura
-\change_unchanged
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Botão-fechar-planilha"
+
+\end_inset
+
 .
 \end_layout
 
@@ -4145,42 +3587,12 @@ status open
 
 \begin_layout Plain Layout
 Botão 
-\change_inserted 361918690 1367927718
-
 \family sans
-F
-\change_deleted 361918690 1367927717
-f
-\change_unchanged
-echar
-\change_inserted 361918690 1368100508
- 
+Fechar 
 \family default
-da
-\change_unchanged
- 
-\change_inserted 361918690 1367927740
-
+da 
 \emph on
-P
-\change_deleted 361918690 1367927740
-p
-\change_unchanged
-lanilha g
-\change_inserted 361918690 1367927729
-ra
-\change_deleted 361918690 1367927727
-ar
-\change_unchanged
-de hor
-\change_inserted 361918690 1367927732
-á
-\change_deleted 361918690 1367927732
-a
-\change_unchanged
-ria
-\change_inserted 361918690 1368100520
-
+Planilha grade horária
 \emph default
 .
 \begin_inset CommandInset label
@@ -4189,8 +3601,6 @@ name "fig:Botão-fechar-planilha"
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -4220,8 +3630,6 @@ Sair
  na 
 \emph on
 Planilha Geral
-\change_inserted 361918690 1367927844
-
 \emph default
 , exibido na figura 
 \begin_inset CommandInset ref
@@ -4230,29 +3638,17 @@ reference "fig:Botão-Ssair"
 
 \end_inset
 
-
-\change_unchanged
 .
  Assim, os procedimentos internos de finalização poderão ser executados,
- incluindo a segurança de atualizar o banco de dados
-\change_deleted 361918690 1367843234
- 
-\change_unchanged
- antes de encerrar o programa, garantindo que não houve perda de nenhum
- dado.
+ incluindo a segurança de atualizar o banco de dados antes de encerrar o
+ programa, garantindo que não houve perda de nenhum dado.
 \end_layout
 
 \begin_layout Paragraph
 
 \series medium
 Após essa operação, é seguro fechar, pelo próprio Excel, a planilha em branco
- que rest
-\change_inserted 361918690 1367843239
-ará
-\change_deleted 361918690 1367843237
-ou
-\change_unchanged
- aberta.
+ que restará aberta.
 \end_layout
 
 \begin_layout Standard
@@ -4277,25 +3673,8 @@ status open
 
 \begin_layout Plain Layout
 Botão 
-\change_inserted 361918690 1367927775
-
 \family sans
-S
-\change_deleted 361918690 1367927774
-s
-\change_unchanged
-air
-\change_inserted 361918690 1368100540
-.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Botão-Ssair"
-
-\end_inset
-
-
-\change_unchanged
-
+sair
 \end_layout
 
 \end_inset
@@ -4324,29 +3703,37 @@ Sobre,
  localizado na 
 \emph on
 Planilha Geral
-\change_inserted 361918690 1367928523
-
 \family sans
  
 \family default
 \emph default
-(figuras 
+(figuras
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-sobre"
 
 \end_inset
 
- e 
+
+\begin_inset space ~
+\end_inset
+
+e
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Informação-sobre"
 
 \end_inset
 
-)
-\change_unchanged
-.
+).
  Informações semelhantes às seguintes deverão ser exibidas.
 \end_layout
 
@@ -4375,12 +3762,8 @@ Botão
 \family sans
 Sobre\SpecialChar \ldots{}
 
-\change_inserted 361918690 1368100598
-
 \family default
 .
-\change_unchanged
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-sobre"
@@ -4421,17 +3804,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Informaç
-\change_inserted 361918690 1368100622
-ões
-\change_deleted 361918690 1368100620
-ão
-\change_unchanged
- sobre 
-\change_inserted 361918690 1368100628
-o programa.
-\change_unchanged
-
+Informações sobre o programa.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Informação-sobre"
@@ -4467,13 +3840,9 @@ name "chap:Manual-de-Orientações"
 \end_inset
 
 
-\change_inserted 361918690 1367846631
-
 \end_layout
 
 \begin_layout Section
-
-\change_inserted 361918690 1368100648
 Professores e Salas Especiais
 \begin_inset CommandInset label
 LatexCommand label
@@ -4486,8 +3855,6 @@ name "sec:Professores-e-Salas"
 
 \begin_layout Paragraph
 
-\change_inserted 361918690 1368100701
-
 \series medium
 Casos especiais quanto a salas e professores são previstos no programa,
  e portanto, existem opções na hora de escolha dos mesmo.
@@ -4495,10 +3862,10 @@ Casos especiais quanto a salas e professores são previstos no programa,
 
 \begin_layout Paragraph
 
-\change_inserted 361918690 1368100723
-
 \series medium
 Opções disponibilizadas para professor:
+\change_inserted 361918690 1368100723
+
 \end_layout
 
 \begin_layout Description
@@ -4536,14 +3903,14 @@ EXT Professor Externo, ocorre em aulas ministradas por professores sem vínculos
 
 \begin_layout Description
 
-\change_inserted 361918690 1368101160
+\change_inserted 361918690 1368451136
 PROF
 \begin_inset space ~
 \end_inset
 
-INDEF Professor Indefinido, durante a definição das grades muitas vezes
- os professores são definidos posteriormente, essa opção garante a criação
- da aula e depois com sua alteração especifica-se o professor.
+INDEF Professor Indefinido, durante a definição dos horários de aulas muitas
+ vezes os professores são definidos posteriormente, essa opção garante a
+ criação da aula e depois com sua alteração especifica-se essa propriedade.
 \end_layout
 
 \begin_layout Description
@@ -4597,7 +3964,7 @@ reference "sec:Introdução-a-Engenharia"
 
 \begin_layout Section
 
-\change_inserted 361918690 1368101192
+\change_inserted 361918690 1368451170
 Introdução a Engenharia
 \begin_inset CommandInset label
 LatexCommand label
@@ -4608,11 +3975,45 @@ name "sec:Introdução-a-Engenharia"
 
 \end_layout
 
+\begin_layout Paragraph
+
+\change_inserted 361918690 1368451472
+
+\series medium
+A disciplina de introdução a engenharia é tratada de maneira particular
+ em relação as outras aulas.
+ Devido a diversas aulas serem ministradas ao mesmo tempo, sob o mesmo nome,
+ cabendo aos alunos a escolha do que assistir.
+\end_layout
+
+\begin_layout Paragraph
+
+\change_inserted 361918690 1368451540
+
+\series medium
+Par resolver essa particularidade foi definido que nas grades horárias normais
+ de aula, a disciplina constará como introdução a engenharia, com professores
+ e salas especiais anteriormente mencionados (PROF INTENG e SLIE) e novas
+ grades horárias serão criadas para especificar o funcionamento e o horário
+ das aulas em si.
+ Essas grades podem ser encontradas sob o prefixo IE antes da habilitação
+ de que se tratam, como pode-se obsevar no apêndice
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Listagem-das-siglas"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Chapter
 \start_of_appendix
 Referências de Comportamento e Siglas
-\change_inserted 239966243 1367539935
-
 \end_layout
 
 \begin_layout Section
@@ -4641,37 +4042,15 @@ name "sec:Listagem-das-siglas"
 \end_inset
 
 
-\change_inserted 361918690 1368105319
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1368105328
-A tabela aparece cortada no pdf
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 361918690 1368101366
 \begin_inset Float table
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101413
 \begin_inset Tabular
 <lyxtabular version="3" rows="56" columns="2">
 <features tabularvalignment="middle">
@@ -4682,11 +4061,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101423
 Siglas
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4695,11 +4070,7 @@ Siglas
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101430
 Habilitação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4710,11 +4081,7 @@ Habilitação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101432
 ADM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4723,11 +4090,7 @@ ADM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101437
 Administração
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4738,11 +4101,7 @@ Administração
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101442
 DP.ADM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4751,11 +4110,7 @@ DP.ADM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101463
 Administração - Dependências
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4766,11 +4121,7 @@ Administração - Dependências
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101468
 ADMSP
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4779,8 +4130,6 @@ ADMSP
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101489
 Administração (
 \begin_inset Quotes eld
 \end_inset
@@ -4790,8 +4139,6 @@ campus
 \end_inset
 
  São Paulo)
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4802,11 +4149,7 @@ campus
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101496
 DP.AS
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4815,8 +4158,6 @@ DP.AS
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101520
 Administração (
 \begin_inset Quotes eld
 \end_inset
@@ -4826,8 +4167,6 @@ campus
 \end_inset
 
  São Paulo) - Dependências
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4838,11 +4177,7 @@ campus
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101527
 PEA
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4851,11 +4186,7 @@ PEA
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101543
 Curso de Aperfeiçoamento em Engenharia Automotiva
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4866,11 +4197,7 @@ Curso de Aperfeiçoamento em Engenharia Automotiva
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101556
 PCV
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4879,11 +4206,7 @@ PCV
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101563
 Curso de Aperfeiçoamento em Engenharia Civil
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4894,11 +4217,7 @@ Curso de Aperfeiçoamento em Engenharia Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101566
 PAL
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4907,11 +4226,7 @@ PAL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101573
 Curso de Aperfeiçoamento em Engenharia de Alimentos
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4922,11 +4237,7 @@ Curso de Aperfeiçoamento em Engenharia de Alimentos
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101576
 PAC
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4935,11 +4246,7 @@ PAC
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101592
 Curso de Aperfeiçoamento em Engenharia de Automação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4950,11 +4257,7 @@ Curso de Aperfeiçoamento em Engenharia de Automação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101605
 PEE
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4963,11 +4266,7 @@ PEE
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101612
 Curso de Aperfeiçoamento em Engenharia de Embalagens
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4978,11 +4277,7 @@ Curso de Aperfeiçoamento em Engenharia de Embalagens
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101621
 DP.DG
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -4991,11 +4286,7 @@ DP.DG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101633
 Design - Dependências
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5006,11 +4297,7 @@ Design - Dependências
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101635
 DSG
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5019,11 +4306,7 @@ DSG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101640
 Design do Produto
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5034,11 +4317,7 @@ Design do Produto
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101645
 FB
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5047,11 +4326,7 @@ FB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101654
 Engenharia - Ciclo Básico
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5062,11 +4337,7 @@ Engenharia - Ciclo Básico
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101666
 IE.AL
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5075,11 +4346,7 @@ IE.AL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101682
 Engenharia - Ciclo Básico - Introdução a Engenharia de Alimentos
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5090,11 +4357,7 @@ Engenharia - Ciclo Básico - Introdução a Engenharia de Alimentos
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101702
 IE.CV
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5103,11 +4366,7 @@ IE.CV
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101706
 Engenharia - Ciclo Básico - Introdução a Engenharia Civil
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5118,11 +4377,7 @@ Engenharia - Ciclo Básico - Introdução a Engenharia Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101711
 IE.EL
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5131,11 +4386,7 @@ IE.EL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101717
 Engenharia - Ciclo Básico - Introdução a Engenharia Elétrica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5146,11 +4397,7 @@ Engenharia - Ciclo Básico - Introdução a Engenharia Elétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101725
 IE.MC
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5159,11 +4406,7 @@ IE.MC
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101732
 Engenharia - Ciclo Básico - Introdução a Engenharia Mecânica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5174,11 +4417,7 @@ Engenharia - Ciclo Básico - Introdução a Engenharia Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101738
 IE.CA
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5187,11 +4426,7 @@ IE.CA
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101751
 Engenharia - Ciclo Básico - Introdução a Engenharia de Controle e Automação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5202,11 +4437,7 @@ Engenharia - Ciclo Básico - Introdução a Engenharia de Controle e Automação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101758
 IE.PM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5215,11 +4446,7 @@ IE.PM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101772
 Engenharia - Ciclo Básico - Introdução a Engenharia de Produção
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5230,11 +4457,7 @@ Engenharia - Ciclo Básico - Introdução a Engenharia de Produção
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101783
 IE.QM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5243,11 +4466,7 @@ IE.QM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101788
 Engenharia - Ciclo Básico - Introdução a Engenharia Química
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5258,11 +4477,7 @@ Engenharia - Ciclo Básico - Introdução a Engenharia Química
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101792
 IE.CM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5271,11 +4486,7 @@ IE.CM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101800
 Engenharia - Ciclo Básico - Introdução a Engenharia da Computação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5286,11 +4497,7 @@ Engenharia - Ciclo Básico - Introdução a Engenharia da Computação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101818
 DP.CV
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5299,11 +4506,7 @@ DP.CV
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101842
 Engenharia - Dependências de Engenharia Civil
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5314,11 +4517,7 @@ Engenharia - Dependências de Engenharia Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101854
 DP.CM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5327,11 +4526,7 @@ DP.CM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101862
 Engenharia - Dependências de Engenharia da Computação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5342,11 +4537,7 @@ Engenharia - Dependências de Engenharia da Computação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101883
 DP.AL
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5355,11 +4546,7 @@ DP.AL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101889
 Engenharia - Dependências de Engenharia de Alimentos
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5370,11 +4557,7 @@ Engenharia - Dependências de Engenharia de Alimentos
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101893
 DP.CA
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5383,11 +4566,7 @@ DP.CA
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101905
 Engenharia - Dependências de Engenharia de Controle e Automação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5398,11 +4577,7 @@ Engenharia - Dependências de Engenharia de Controle e Automação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101913
 DP.PM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5411,11 +4586,7 @@ DP.PM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101920
 Engenharia - Dependências de Engenharia de Produção
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5426,11 +4597,7 @@ Engenharia - Dependências de Engenharia de Produção
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101924
 DP.EL
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5439,11 +4606,7 @@ DP.EL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101932
 Engenharia - Dependências de Engenharia Elétrica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5454,11 +4617,7 @@ Engenharia - Dependências de Engenharia Elétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101937
 DP.ET
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5467,11 +4626,7 @@ DP.ET
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101958
 Engenharia - Dependências de Engenharia Elétrica (Eletrotécnica)
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5482,11 +4637,7 @@ Engenharia - Dependências de Engenharia Elétrica (Eletrotécnica)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101968
 DP.EN
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5495,11 +4646,7 @@ DP.EN
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101978
 Engenharia - Dependências de Engenharia Eletrônica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5510,11 +4657,7 @@ Engenharia - Dependências de Engenharia Eletrônica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101987
 DP.MC
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5523,11 +4666,7 @@ DP.MC
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101995
 Engenharia - Dependências de Engenharia Mecânica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5538,11 +4677,7 @@ Engenharia - Dependências de Engenharia Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102005
 DP.QM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5551,11 +4686,7 @@ DP.QM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102020
 Engenharia - Dependências de Engenharia Química
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5566,11 +4697,7 @@ Engenharia - Dependências de Engenharia Química
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102033
 DP.TC
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5579,11 +4706,7 @@ DP.TC
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102048
 Engenharia - Dependências de Engenharia Tronco Civil
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5594,11 +4717,7 @@ Engenharia - Dependências de Engenharia Tronco Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102085
 DP.TE
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5607,11 +4726,7 @@ DP.TE
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102099
 Engenharia - Dependências de Engenharia Tronco Eleétrica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5622,11 +4737,7 @@ Engenharia - Dependências de Engenharia Tronco Eleétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102112
 DP.TM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5635,11 +4746,7 @@ DP.TM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102129
 Engenharia - Dependências de Engenharia Tronco Mecânica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5650,11 +4757,7 @@ Engenharia - Dependências de Engenharia Tronco Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102137
 DP.TQ
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5663,11 +4766,7 @@ DP.TQ
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102153
 Engenharia - Dependências de Engenharia Tronco Química
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5678,11 +4777,7 @@ Engenharia - Dependências de Engenharia Tronco Química
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102159
 DP.FB
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5691,11 +4786,7 @@ DP.FB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102171
 Engenharia - Dependências do Ciclo Básico
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5706,11 +4797,7 @@ Engenharia - Dependências do Ciclo Básico
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102178
 TR.CV
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5719,11 +4806,7 @@ TR.CV
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102202
 Engenharia - Tronco Civil
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5734,11 +4817,7 @@ Engenharia - Tronco Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102209
 TR.EL
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5747,11 +4826,7 @@ TR.EL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102221
 Engenharia - Tronco Elétrica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5762,11 +4837,7 @@ Engenharia - Tronco Elétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102226
 TR.MC
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5775,11 +4846,7 @@ TR.MC
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102236
 Engenharia - Tronco Mecânica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5790,11 +4857,7 @@ Engenharia - Tronco Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102243
 TR.QM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5803,11 +4866,7 @@ TR.QM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102249
 Engenharia - Tronco Química
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5818,11 +4877,7 @@ Engenharia - Tronco Química
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102258
 CV
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5831,11 +4886,7 @@ CV
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102271
 Engenharia Civil
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5846,11 +4897,7 @@ Engenharia Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102274
 CM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5859,11 +4906,7 @@ CM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102284
 Engenharia da Computação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5874,11 +4917,7 @@ Engenharia da Computação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102289
 AL
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5887,11 +4926,7 @@ AL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102295
 Engenharia de Alimentos
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5902,11 +4937,7 @@ Engenharia de Alimentos
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102298
 CA
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5915,11 +4946,7 @@ CA
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102308
 Engenharia de Controle e Automação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5930,11 +4957,7 @@ Engenharia de Controle e Automação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102314
 PM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5943,11 +4966,7 @@ PM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102322
 Engenharia de Preodução
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5958,11 +4977,7 @@ Engenharia de Preodução
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102333
 TC
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5971,11 +4986,7 @@ TC
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102341
 Engenharia de Telecomunicações
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5986,11 +4997,7 @@ Engenharia de Telecomunicações
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102345
 ET
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -5999,11 +5006,7 @@ ET
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102355
 Engenharia Elétrica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6014,11 +5017,7 @@ Engenharia Elétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102361
 EN
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6027,11 +5026,7 @@ EN
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102369
 Engenharia Eletrônica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6042,11 +5037,7 @@ Engenharia Eletrônica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102380
 MC
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6055,11 +5046,7 @@ MC
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102387
 Engenharia Mecânica
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6070,11 +5057,7 @@ Engenharia Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102390
 QM
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6083,11 +5066,7 @@ QM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102400
 Engenharia Engenharia Química
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6098,11 +5077,7 @@ Engenharia Engenharia Química
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102404
 GAB
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6111,11 +5086,7 @@ GAB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102414
 Gestão Ambiental
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6126,11 +5097,7 @@ Gestão Ambiental
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102424
 DP.GB
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6139,11 +5106,7 @@ DP.GB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102440
 Gestão Ambiental - Dependências
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -6154,8 +5117,6 @@ Gestão Ambiental - Dependências
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102462
 GTI
 \end_layout
 
@@ -6165,8 +5126,6 @@ GTI
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102478
 Gestão de Tecnologia da Informação
 \end_layout
 
@@ -6178,8 +5137,6 @@ Gestão de Tecnologia da Informação
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102483
 DP.GI
 \end_layout
 
@@ -6189,8 +5146,6 @@ DP.GI
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102500
 Gestão de Tecnologia da Informação - Dependências
 \end_layout
 
@@ -6202,8 +5157,6 @@ Gestão de Tecnologia da Informação - Dependências
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102505
 EPI
 \end_layout
 
@@ -6213,8 +5166,6 @@ EPI
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102528
 Mestrado em Engenharia de Processos Químicos e Bioquímicos
 \end_layout
 
@@ -6226,8 +5177,6 @@ Mestrado em Engenharia de Processos Químicos e Bioquímicos
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102531
 PRG
 \end_layout
 
@@ -6237,8 +5186,6 @@ PRG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368102542
 Processos Gerenciais
 \end_layout
 
@@ -6250,36 +5197,24 @@ Processos Gerenciais
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101366
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\change_inserted 361918690 1368101376
 Siglas e Habilitações
-\change_unchanged
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \end_inset
 
 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
+\change_inserted 361918690 1368101366
 
 \end_layout
 
@@ -6305,12 +5240,9 @@ name "sub:Exclusão-de-aulas"
 \begin_layout Paragraph
 
 \series medium
-Na exclusão da única aula de uma turma, ou seja, quando
-\change_deleted 361918690 1367846812
- 
-\change_unchanged
- se excluir uma determinada aula o horário ficar em branco, uma mensagem
- de erro será exibida e o programa não funcionará mais corretamente.
+Na exclusão da única aula de uma turma, ou seja, quando se excluir uma determina
+da aula o horário ficar em branco, uma mensagem de erro será exibida e o
+ programa não funcionará mais corretamente.
  Portanto, certifique-se de adicionar algumas aulas antes de excluir tudo
  que não é de interesse.
  Utilize a opção 
@@ -6338,15 +5270,7 @@ name "sub:Seleção-de-grade"
 \series medium
 A planilha geral só exibe até o penúltimo arquivo gerado pelo programa.
  Portanto, a última grade horária salva no banco de dados não aparece na
- listagem exibida após a
-\change_inserted 361918690 1367928623
- sua
-\change_unchanged
- importação
-\change_deleted 361918690 1367928618
- do banco de dados
-\change_unchanged
-.
+ listagem exibida após a sua importação.
  Porém o erro é apenas de exibição, pois, se o banco de dados foi atualizado
  corretamente, a planilha está salva e é possível trabalhar com ela.
  Para abri-la, deve-se digitar sua identificação completa no campo de busca
