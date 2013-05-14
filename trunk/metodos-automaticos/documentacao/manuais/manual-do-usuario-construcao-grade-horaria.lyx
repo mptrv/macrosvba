@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass report
+\begin_preamble
+\renewcommand{\bottomfraction}{0.5}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language brazilian
@@ -52,7 +55,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -389,7 +392,7 @@ reference "fig:Janela-para-identificação"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement !bh
+placement b
 wide false
 sideways false
 status open
@@ -1203,7 +1206,7 @@ reference "sub:Seleção-de-grade"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement b
+placement bh
 wide false
 sideways false
 status open
@@ -2009,24 +2012,6 @@ reference "sub:De-cores"
 
 \begin_layout Subsection
 De Aula Compartilhada
-\change_inserted 361918690 1368535887
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1368535896
-Faltam imagens dessa parte
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Paragraph
@@ -2049,14 +2034,7 @@ reference "sub:De-Aula"
 \end_inset
 
 , para criar a aula.
- Contudo, na janela das propriedades da aula (figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Janela-propriedade-das"
-
-\end_inset
-
-), selecione a opção 
+ Contudo, na janela das propriedades da aula, selecione a opção 
 \family sans
 \emph on
 Compartilhar com:
@@ -2068,9 +2046,88 @@ da aula será compartilhada.
 \family typewriter
 Ctrl
 \family default
- e clicar na identificação das turmas desejadas.
+ e clicar na identificação das turmas desejadas
+\change_inserted 361918690 1368566566
+, conforme a figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Propriedade-Compartilhar-com:"
+
+\end_inset
+
+
+\change_unchanged
+.
  Concluída a seleção e confirmadas as alterações, será possível verificar
  em qualquer uma das grades a existência dessa mesma aula.
+\change_inserted 361918690 1368565590
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 361918690 1368565811
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-aula-compartilhada.png
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368565719
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368566527
+Propriedade 
+\family sans
+\size small
+\emph on
+Compartilhar com:
+\family default
+\size default
+\emph default
+ selecionada.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Propriedade-Compartilhar-com:"
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Paragraph
@@ -2221,9 +2278,10 @@ reference "fig:Informação-dados-serão"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2269,9 +2327,10 @@ name "fig:Botão-transformar-em"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2310,9 +2369,10 @@ name "fig:Janela-transformar-em"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2353,7 +2413,7 @@ name "fig:Janela-confirmar-transformação"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4152,28 +4212,74 @@ name "sec:Listagem-das-siglas"
 \end_inset
 
 
+\change_inserted 361918690 1368563380
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="56" columns="2">
 <features islongtable="true" longtabularalignment="center">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="middle" width="10cm">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="10cm">
+<row endhead="true" caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368563928
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368563935
+Siglas e Habilitações
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" mroffset="12cm" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
 <row endhead="true" endfirsthead="true">
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\change_inserted 361918690 1368563584
+
+\size small
 Siglas
 \end_layout
 
 \end_inset
 </cell>
-<cell multirow="3" mroffset="12cm" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\change_inserted 361918690 1368563590
+
+\size small
 Habilitação
 \end_layout
 
@@ -4185,6 +4291,8 @@ Habilitação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 ADM
 \end_layout
 
@@ -4194,35 +4302,9 @@ ADM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Administração
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row endhead="true" caption="true">
-<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Siglas e habilitações
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -4233,6 +4315,8 @@ Siglas e habilitações
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 ADMSP
 \end_layout
 
@@ -4242,6 +4326,8 @@ ADMSP
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Administração (
 \begin_inset Quotes eld
 \end_inset
@@ -4261,6 +4347,8 @@ campus
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.AS
 \end_layout
 
@@ -4270,6 +4358,8 @@ DP.AS
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Administração (
 \begin_inset Quotes eld
 \end_inset
@@ -4289,6 +4379,8 @@ campus
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 PEA
 \end_layout
 
@@ -4298,6 +4390,8 @@ PEA
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Curso de Aperfeiçoamento em Engenharia Automotiva
 \end_layout
 
@@ -4309,6 +4403,8 @@ Curso de Aperfeiçoamento em Engenharia Automotiva
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 PCV
 \end_layout
 
@@ -4318,6 +4414,8 @@ PCV
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Curso de Aperfeiçoamento em Engenharia Civil
 \end_layout
 
@@ -4329,6 +4427,8 @@ Curso de Aperfeiçoamento em Engenharia Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 PAL
 \end_layout
 
@@ -4338,6 +4438,8 @@ PAL
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Curso de Aperfeiçoamento em Engenharia de Alimentos
 \end_layout
 
@@ -4349,6 +4451,8 @@ Curso de Aperfeiçoamento em Engenharia de Alimentos
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 PAC
 \end_layout
 
@@ -4358,6 +4462,8 @@ PAC
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Curso de Aperfeiçoamento em Engenharia de Automação
 \end_layout
 
@@ -4369,6 +4475,8 @@ Curso de Aperfeiçoamento em Engenharia de Automação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 PEE
 \end_layout
 
@@ -4378,6 +4486,8 @@ PEE
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Curso de Aperfeiçoamento em Engenharia de Embalagens
 \end_layout
 
@@ -4389,6 +4499,8 @@ Curso de Aperfeiçoamento em Engenharia de Embalagens
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.DG
 \end_layout
 
@@ -4398,6 +4510,8 @@ DP.DG
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Design - Dependências
 \end_layout
 
@@ -4409,6 +4523,8 @@ Design - Dependências
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DSG
 \end_layout
 
@@ -4418,6 +4534,8 @@ DSG
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Design do Produto
 \end_layout
 
@@ -4429,6 +4547,8 @@ Design do Produto
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 FB
 \end_layout
 
@@ -4438,6 +4558,8 @@ FB
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico
 \end_layout
 
@@ -4449,6 +4571,8 @@ Engenharia - Ciclo Básico
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 IE.AL
 \end_layout
 
@@ -4458,6 +4582,8 @@ IE.AL
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico - Introdução a Engenharia de Alimentos
 \end_layout
 
@@ -4469,6 +4595,8 @@ Engenharia - Ciclo Básico - Introdução a Engenharia de Alimentos
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 IE.CV
 \end_layout
 
@@ -4478,6 +4606,8 @@ IE.CV
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico - Introdução a Engenharia Civil
 \end_layout
 
@@ -4489,6 +4619,8 @@ Engenharia - Ciclo Básico - Introdução a Engenharia Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 IE.EL
 \end_layout
 
@@ -4498,6 +4630,8 @@ IE.EL
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico - Introdução a Engenharia Elétrica
 \end_layout
 
@@ -4509,6 +4643,8 @@ Engenharia - Ciclo Básico - Introdução a Engenharia Elétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 IE.MC
 \end_layout
 
@@ -4518,6 +4654,8 @@ IE.MC
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico - Introdução a Engenharia Mecânica
 \end_layout
 
@@ -4529,6 +4667,8 @@ Engenharia - Ciclo Básico - Introdução a Engenharia Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 IE.CA
 \end_layout
 
@@ -4538,6 +4678,8 @@ IE.CA
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico - Introdução a Engenharia de Controle e Automação
 \end_layout
 
@@ -4549,6 +4691,8 @@ Engenharia - Ciclo Básico - Introdução a Engenharia de Controle e Automação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 IE.PM
 \end_layout
 
@@ -4558,6 +4702,8 @@ IE.PM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico - Introdução a Engenharia de Produção
 \end_layout
 
@@ -4569,6 +4715,8 @@ Engenharia - Ciclo Básico - Introdução a Engenharia de Produção
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 IE.QM
 \end_layout
 
@@ -4578,6 +4726,8 @@ IE.QM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico - Introdução a Engenharia Química
 \end_layout
 
@@ -4589,6 +4739,8 @@ Engenharia - Ciclo Básico - Introdução a Engenharia Química
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 IE.CM
 \end_layout
 
@@ -4598,6 +4750,8 @@ IE.CM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Ciclo Básico - Introdução a Engenharia da Computação
 \end_layout
 
@@ -4609,6 +4763,8 @@ Engenharia - Ciclo Básico - Introdução a Engenharia da Computação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.CV
 \end_layout
 
@@ -4618,6 +4774,8 @@ DP.CV
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Civil
 \end_layout
 
@@ -4629,6 +4787,8 @@ Engenharia - Dependências de Engenharia Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.CM
 \end_layout
 
@@ -4638,6 +4798,8 @@ DP.CM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia da Computação
 \end_layout
 
@@ -4649,6 +4811,8 @@ Engenharia - Dependências de Engenharia da Computação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.AL
 \end_layout
 
@@ -4658,6 +4822,8 @@ DP.AL
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia de Alimentos
 \end_layout
 
@@ -4669,6 +4835,8 @@ Engenharia - Dependências de Engenharia de Alimentos
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.CA
 \end_layout
 
@@ -4678,6 +4846,8 @@ DP.CA
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia de Controle e Automação
 \end_layout
 
@@ -4689,6 +4859,8 @@ Engenharia - Dependências de Engenharia de Controle e Automação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.PM
 \end_layout
 
@@ -4698,6 +4870,8 @@ DP.PM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia de Produção
 \end_layout
 
@@ -4709,6 +4883,8 @@ Engenharia - Dependências de Engenharia de Produção
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.EL
 \end_layout
 
@@ -4718,6 +4894,8 @@ DP.EL
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Elétrica
 \end_layout
 
@@ -4729,6 +4907,8 @@ Engenharia - Dependências de Engenharia Elétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.ET
 \end_layout
 
@@ -4738,6 +4918,8 @@ DP.ET
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Elétrica (Eletrotécnica)
 \end_layout
 
@@ -4749,6 +4931,8 @@ Engenharia - Dependências de Engenharia Elétrica (Eletrotécnica)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.EN
 \end_layout
 
@@ -4758,6 +4942,8 @@ DP.EN
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Eletrônica
 \end_layout
 
@@ -4769,6 +4955,8 @@ Engenharia - Dependências de Engenharia Eletrônica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.MC
 \end_layout
 
@@ -4778,6 +4966,8 @@ DP.MC
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Mecânica
 \end_layout
 
@@ -4789,6 +4979,8 @@ Engenharia - Dependências de Engenharia Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.QM
 \end_layout
 
@@ -4798,6 +4990,8 @@ DP.QM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Química
 \end_layout
 
@@ -4809,6 +5003,8 @@ Engenharia - Dependências de Engenharia Química
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.TC
 \end_layout
 
@@ -4818,6 +5014,8 @@ DP.TC
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Tronco Civil
 \end_layout
 
@@ -4829,6 +5027,8 @@ Engenharia - Dependências de Engenharia Tronco Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.TE
 \end_layout
 
@@ -4838,6 +5038,8 @@ DP.TE
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Tronco Eleétrica
 \end_layout
 
@@ -4849,6 +5051,8 @@ Engenharia - Dependências de Engenharia Tronco Eleétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.TM
 \end_layout
 
@@ -4858,6 +5062,8 @@ DP.TM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Tronco Mecânica
 \end_layout
 
@@ -4869,6 +5075,8 @@ Engenharia - Dependências de Engenharia Tronco Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.TQ
 \end_layout
 
@@ -4878,6 +5086,8 @@ DP.TQ
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências de Engenharia Tronco Química
 \end_layout
 
@@ -4889,6 +5099,8 @@ Engenharia - Dependências de Engenharia Tronco Química
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.FB
 \end_layout
 
@@ -4898,6 +5110,8 @@ DP.FB
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Dependências do Ciclo Básico
 \end_layout
 
@@ -4909,6 +5123,8 @@ Engenharia - Dependências do Ciclo Básico
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 TR.CV
 \end_layout
 
@@ -4918,6 +5134,8 @@ TR.CV
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Tronco Civil
 \end_layout
 
@@ -4929,6 +5147,8 @@ Engenharia - Tronco Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 TR.EL
 \end_layout
 
@@ -4938,6 +5158,8 @@ TR.EL
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Tronco Elétrica
 \end_layout
 
@@ -4949,6 +5171,8 @@ Engenharia - Tronco Elétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 TR.MC
 \end_layout
 
@@ -4958,6 +5182,8 @@ TR.MC
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Tronco Mecânica
 \end_layout
 
@@ -4969,6 +5195,8 @@ Engenharia - Tronco Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 TR.QM
 \end_layout
 
@@ -4978,6 +5206,8 @@ TR.QM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia - Tronco Química
 \end_layout
 
@@ -4989,6 +5219,8 @@ Engenharia - Tronco Química
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 CV
 \end_layout
 
@@ -4998,6 +5230,8 @@ CV
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia Civil
 \end_layout
 
@@ -5009,6 +5243,8 @@ Engenharia Civil
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 CM
 \end_layout
 
@@ -5018,6 +5254,8 @@ CM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia da Computação
 \end_layout
 
@@ -5029,6 +5267,8 @@ Engenharia da Computação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 AL
 \end_layout
 
@@ -5038,6 +5278,8 @@ AL
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia de Alimentos
 \end_layout
 
@@ -5049,6 +5291,8 @@ Engenharia de Alimentos
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 CA
 \end_layout
 
@@ -5058,6 +5302,8 @@ CA
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia de Controle e Automação
 \end_layout
 
@@ -5069,6 +5315,8 @@ Engenharia de Controle e Automação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 PM
 \end_layout
 
@@ -5078,6 +5326,8 @@ PM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia de Preodução
 \end_layout
 
@@ -5089,6 +5339,8 @@ Engenharia de Preodução
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 TC
 \end_layout
 
@@ -5098,6 +5350,8 @@ TC
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia de Telecomunicações
 \end_layout
 
@@ -5109,6 +5363,8 @@ Engenharia de Telecomunicações
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 ET
 \end_layout
 
@@ -5118,6 +5374,8 @@ ET
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia Elétrica
 \end_layout
 
@@ -5129,6 +5387,8 @@ Engenharia Elétrica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 EN
 \end_layout
 
@@ -5138,6 +5398,8 @@ EN
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia Eletrônica
 \end_layout
 
@@ -5149,6 +5411,8 @@ Engenharia Eletrônica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 MC
 \end_layout
 
@@ -5158,6 +5422,8 @@ MC
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia Mecânica
 \end_layout
 
@@ -5169,6 +5435,8 @@ Engenharia Mecânica
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 QM
 \end_layout
 
@@ -5178,6 +5446,8 @@ QM
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Engenharia Engenharia Química
 \end_layout
 
@@ -5189,6 +5459,8 @@ Engenharia Engenharia Química
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 GAB
 \end_layout
 
@@ -5198,6 +5470,8 @@ GAB
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Gestão Ambiental
 \end_layout
 
@@ -5209,6 +5483,8 @@ Gestão Ambiental
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.GB
 \end_layout
 
@@ -5218,6 +5494,8 @@ DP.GB
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Gestão Ambiental - Dependências
 \end_layout
 
@@ -5229,6 +5507,8 @@ Gestão Ambiental - Dependências
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 GTI
 \end_layout
 
@@ -5238,6 +5518,8 @@ GTI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Gestão de Tecnologia da Informação
 \end_layout
 
@@ -5249,6 +5531,8 @@ Gestão de Tecnologia da Informação
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 DP.GI
 \end_layout
 
@@ -5258,6 +5542,8 @@ DP.GI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Gestão de Tecnologia da Informação - Dependências
 \end_layout
 
@@ -5269,6 +5555,8 @@ Gestão de Tecnologia da Informação - Dependências
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 EPI
 \end_layout
 
@@ -5278,6 +5566,8 @@ EPI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Mestrado em Engenharia de Processos Químicos e Bioquímicos
 \end_layout
 
@@ -5289,6 +5579,8 @@ Mestrado em Engenharia de Processos Químicos e Bioquímicos
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 PRG
 \end_layout
 
@@ -5298,6 +5590,8 @@ PRG
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Processos Gerenciais
 \end_layout
 
