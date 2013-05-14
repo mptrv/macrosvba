@@ -2018,5 +2018,800 @@ bt{Executar as Atualizações}
 
 \end_deeper
 \end_deeper
+\begin_layout Enumerate
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Disciplinas}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Na atual versão, o que há aqui?
+\end_layout
+
+\begin_layout Enumerate
+Qual a ideia desta aba?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Salas}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Ocupação das Salas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+De forma sucinta, quais são as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+O campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tipo de Aula}
+\end_layout
+
+\end_inset
+
+ influenciará apenas a qual consulta? E quais são suas opções e os correspondent
+es significados?
+\end_layout
+
+\begin_layout Enumerate
+Que tipo de relação traz o 
+botão 
+\lang brazilian
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Qual a função do 
+\emph on
+checkbox
+\emph default
+ à esquerda do botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação}
+\end_layout
+
+\end_inset
+
+? E quais as vantagens da função oferecida?
+\end_layout
+
+\begin_layout Enumerate
+Como navegar pelo relatório de 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação das Salas}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Que tipo de relação traz o botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação Modificado - Blocos de A a H}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Qual o significado das informações relacionadas em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de A a H}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Que tipo de relação traz o botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação Modificado - Blocos de I a U}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Qual o significado das informações relacionadas em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de I a U}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Que tipo de relação traz o botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação Modificado - Salas de Teoria}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Qual o significado das informações relacionadas em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação Modificado de Todas as Salas - Salas de Teoria}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Nestes mapas de ocupação, qual o significado das letras apresentadas nas
+ células?
+\end_layout
+
+\begin_layout Enumerate
+E quanto ao botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Taxa de Ocupação}
+\end_layout
+
+\end_inset
+
+? Quais as informações apresentadas e seus significados?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Disponibilidades das Salas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerá a consulta?
+\end_layout
+
+\begin_layout Enumerate
+Qual a função disponibilizada?
+\end_layout
+
+\begin_layout Enumerate
+Na janela 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Disponibilidades das Salas}
+\end_layout
+
+\end_inset
+
+, quais campos têm-se para entrada dos dados da consulta e qual o formato
+ destes dados?
+\end_layout
+
+\begin_layout Enumerate
+Como disparar a consulta?
+\end_layout
+
+\begin_layout Enumerate
+Para que serve e em que situação é útil o botão de atualizar?
+\end_layout
+
+\begin_layout Enumerate
+O que significa a opção 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lista U/B}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Em que momentos torna-se interessante o uso da consulta de disponibilidades
+ das salas?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Horários de Aula}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+Qual a importância da área identificada como 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Auxílio para Elaboração}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Encontrar Superposições}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+O que são as superposições por aula, professor e sala?
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Superposições de Aula}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Que informações são apresentadas e como fazer a interpretação dos dados?
+\end_layout
+
+\begin_layout Enumerate
+Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
+nto entre as linhas? Quais informações poderiam ser filtradas?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Superposições de Professor}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Que informações são apresentadas e como fazer a interpretação dos dados?
+\end_layout
+
+\begin_layout Enumerate
+Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
+nto entre as linhas? Quais informações poderiam ser filtradas?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Superposições de Sala}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Que informações são apresentadas e como fazer a interpretação dos dados?
+\end_layout
+
+\begin_layout Enumerate
+Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
+nto entre as linhas? Quais informações poderiam ser filtradas?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Restrições de Carga}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+O que são as restrições de carga (carga horária dos professores)?
+\end_layout
+
+\begin_layout Enumerate
+Qual a função disponibilizada?
+\end_layout
+
+\begin_layout Enumerate
+Relacionar:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+todas as violações de restrições atualmente verificadas pelo programa;
+\end_layout
+
+\begin_layout Enumerate
+as informações retornadas por cada uma delas;
+\end_layout
+
+\begin_layout Enumerate
+a forma adequada de se analisar os dados de cada uma delas;
+\end_layout
+
+\begin_layout Enumerate
+como obter mais informações, pelo próprio programa, sobre o contexto de
+ algum professor relacionado -- apontar, no mínimo, duas possibilidades;
+\end_layout
+
+\begin_layout Enumerate
+a quem compete a solução de cada violação encontrada.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Indefinições}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+O que são as indefinições?
+\end_layout
+
+\begin_layout Enumerate
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+Quais as informações apresentadas por cada função e como interpretá-las?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Tabela de Horários de Aula}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+Qual o significado e a interpretação do resultado apresentado por cada uma?
+\end_layout
+
+\begin_layout Enumerate
+Fazer um comparativo entre estas funções e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Consulta de Aulas}
+\end_layout
+
+\end_inset
+
+, da aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Professores}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Publicações aos Alunos}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Qual a ideia do propósito deste recurso?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{CEUN}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De forma suscinta, qual o recurso disponibilizado?
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Estatísticas para CEUN}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+Como fazer a interpretação dos dados retornados, quanto aos seguintes aspectos:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+em cada linha;
+\end_layout
+
+\begin_layout Enumerate
+em cada coluna;
+\end_layout
+
+\begin_layout Enumerate
+totais em cada linha;
+\end_layout
+
+\begin_layout Enumerate
+totais em cada coluna.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Pelos dados apresentados, qual curso apresenta o maior custo? E qual apresenta
+ o menor?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{CPA}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De forma suscinta, qual o recurso disponibilizado?
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Estatísticas para CPA}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+Quais as informações retornadas pela função? Como interpretá-las?
+\end_layout
+
+\end_deeper
+\end_deeper
 \end_body
 \end_document
