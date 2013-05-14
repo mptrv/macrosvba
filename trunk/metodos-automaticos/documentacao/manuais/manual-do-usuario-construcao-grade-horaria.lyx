@@ -24,7 +24,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\float_placement bph
+\float_placement ph
 \paperfontsize 12
 \spacing single
 \use_hyperref false
@@ -57,9 +57,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author 239966243 "mptrev" 
 \author 361918690 "Mariane" 
-\author 2089257718 "Jose" 
 \end_header
 
 \begin_body
@@ -154,11 +152,23 @@ Em conjunto com este módulo, há o
 \emph on
 Consulta Sistema Horários, 
 \emph default
-que permite a extração dos relatórios com fins operacionais ou administrativos,
- como, por exemplo, verificação de aspectos previstos em lei, citando-se
+que permite a extração dos relatórios 
+\change_inserted 361918690 1368532229
+para diversos
+\change_deleted 361918690 1368532225
+com
+\change_unchanged
+ fins
+\change_deleted 361918690 1368532222
+ operacionais ou administrativos
+\change_unchanged
+, como, por exemplo, verificação de aspectos previstos em lei, citando-se
  a carga horária máxima e o período de descanso dos professores, ou a disponibil
-idade de salas de aula, listas de presença, superposições de aulas, professores
- e salas e estatísticas.
+idade de salas de aula, listas de presença, superposições 
+\change_deleted 361918690 1368537888
+de aulas, professores e salas 
+\change_unchanged
+e estatísticas.
 \end_layout
 
 \begin_layout Paragraph
@@ -379,10 +389,10 @@ reference "fig:Janela-para-identificação"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement !h
+placement !bh
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -433,7 +443,7 @@ Caso o usuário e senha se mostrem incorretos, uma mensagem de erro será
 ser feita uma nova tentativa
 \change_deleted 361918690 1368447756
 tentar novamente
-\change_inserted 361918690 1368451753
+\change_unchanged
  (figura
 \begin_inset space ~
 \end_inset
@@ -445,11 +455,7 @@ reference "fig:Informação-de-erro"
 
 \end_inset
 
-)
-\change_unchanged
-.
-\change_inserted 361918690 1367958533
-
+).
 \end_layout
 
 \begin_layout Standard
@@ -655,6 +661,7 @@ reference "fig:aviso-dados-exportados"
 
 \series medium
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -700,9 +707,10 @@ name "fig:Planilha-geral"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -738,6 +746,7 @@ name "fig:Aviso-ao-ler"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -779,6 +788,7 @@ name "fig:Aviso-dados-serão"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -818,7 +828,7 @@ name "fig:aviso-dados-exportados"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 A seguir, é preciso selecionar o semestre e ano de interesse para que os
@@ -871,6 +881,7 @@ reference "fig:Planilha-geral-ápos"
 \series default
 
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -912,6 +923,7 @@ name "fig:Filtro-para-leitura"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -953,6 +965,7 @@ name "fig:Informação-leitura-concluída"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -1038,8 +1051,16 @@ O primeiro algarismo antes da letra 'S', de semestre, representa o semestre
 O terceiro algarismo é a série em que os alunos
 \change_deleted 361918690 1368447998
  matriculados 
+\change_inserted 361918690 1368532568
+, de
+\change_deleted 361918690 1368532567
+em
 \change_unchanged
-em tal turma estão
+ tal turma
+\change_inserted 361918690 1368532564
+,
+\change_unchanged
+ estão
 \change_deleted 361918690 1368448006
  
 \change_inserted 361918690 1368448006
@@ -1182,6 +1203,7 @@ reference "sub:Seleção-de-grade"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement b
 wide false
 sideways false
 status open
@@ -1249,6 +1271,7 @@ Planilha Grade Horária.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1290,6 +1313,14 @@ name "fig:Planilha-carga-horária"
 
 \end_inset
 
+
+\change_inserted 361918690 1368535044
+
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -1414,6 +1445,7 @@ Planilha Grade Horária
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -1460,6 +1492,7 @@ name "fig:Botão-nova-grade"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -1501,6 +1534,7 @@ name "fig:Janela-propriedade-da"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -1537,6 +1571,14 @@ name "fig:Janela-propriedades-da"
 
 \end_inset
 
+
+\change_inserted 361918690 1368535188
+
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -1690,6 +1732,26 @@ Definido o horário da aula, deve-se selecionar a que turma, grupo ou laboratór
 Note que as opções de subdivisões se ajustam automaticamente as características
  da turma, logo todas as opções de grupo, turma e laboratório são válidas
  para seleção.
+\change_inserted 361918690 1368535580
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368535589
+
+\series medium
+É necessário mencionar isso?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Paragraph
@@ -1787,7 +1849,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela de propriedade da aula.
+Janela de propriedades da aula.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Janela-propriedade-das"
@@ -1818,9 +1880,14 @@ Pode-se preencher os campos selecionando o dado na caixa de seleção ou então
 
 \begin_layout Paragraph
 
+\change_deleted 361918690 1368535671
+
 \series medium
-Neste último item, salienta-se que, ao lado da opção de sala, aparece um
- campo 
+Neste último item, s
+\change_inserted 361918690 1368535671
+S
+\change_unchanged
+alienta-se que, ao lado da opção de sala, aparece um campo 
 \family sans
 \emph on
 Disponível
@@ -1831,8 +1898,31 @@ Disponível
  ele ficará marcado.
  A capacidade das salas também é exibida.
  O campo chave indica a necessidade ou não de retirada da chave da sala,
+\change_inserted 361918690 1368535720
+ na secretaria,
+\change_unchanged
  para seu uso.
  
+\change_inserted 361918690 1368538102
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368538103
+
+\series medium
+?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Paragraph
@@ -1858,10 +1948,24 @@ Dp
 \emph default
 ).
  
-\change_inserted 361918690 1367964902
+\change_inserted 361918690 1368538094
 Para as aulas quinzenais pode-se definir um segundo professor, e a carga
  horária dos professores selecionados será contada apenas como metade da
  regular, uma vez que, a aula só será ministrada a cada 15 dias.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368535803
+Está bom esse parágrafo?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -1892,7 +1996,7 @@ Atente ao selecionar o professor ao número total de aulas hora que ele estará
 \series medium
 As cores serão escolhidas de acordo com a seção 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sub:De-cores"
 
 \end_inset
@@ -1905,6 +2009,24 @@ reference "sub:De-cores"
 
 \begin_layout Subsection
 De Aula Compartilhada
+\change_inserted 361918690 1368535887
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368535896
+Faltam imagens dessa parte
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Paragraph
@@ -2000,6 +2122,26 @@ nto, ela(s) perderá(ão) a identificação de seleção.
  Uma mensagem de que ela(s) será(ão) excluída(s) irá aparecer, prossiga
  com o processo, e então a aula só será mantida nas grades que se manterem
  selecionadas.
+\change_inserted 361918690 1368536499
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1368536510
+
+\series medium
+Existe necessidade dos (s)?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -2081,7 +2223,7 @@ reference "fig:Informação-dados-serão"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2129,7 +2271,7 @@ name "fig:Botão-transformar-em"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2170,7 +2312,7 @@ name "fig:Janela-transformar-em"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2211,7 +2353,7 @@ name "fig:Janela-confirmar-transformação"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2491,8 +2633,6 @@ Janela de confirmação de remoção de aula.
 \end_inset
 
 
-\change_inserted 2089257718 1367862901
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -2668,7 +2808,7 @@ reference "fig:Botão-alterar-subdivisões"
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Janela-aletrar-subdivisões"
+reference "fig:Janela-propriedades-da"
 
 \end_inset
 
@@ -2690,9 +2830,10 @@ Planilha Grade Horária
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2738,9 +2879,10 @@ name "fig:Botão-editar-turma"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2782,44 +2924,7 @@ name "fig:Botão-alterar-subdivisões"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/cgh-janela alterar divisões.png
-	height 4.5cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Janela de propriedades da grade horária.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Janela-aletrar-subdivisões"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
+\begin_inset Newpage clearpage
 \end_inset
 
 
@@ -2874,7 +2979,11 @@ Cor:
 
 \series medium
 Caso se deseje alterar a opção de cor automática de uma determinada disciplina,
- logo após criá-la, com a opção de cor automática, clique no botão
+ logo após criá-la
+\change_deleted 361918690 1368538179
+,
+\change_unchanged
+ com a opção de cor automática, clique no botão
 \family sans
  Editar cor\SpecialChar \ldots{}
 
@@ -2907,11 +3016,11 @@ reference "fig:Janela-editar-cor"
 
 .
  
-\change_inserted 361918690 1368450539
+\change_inserted 361918690 1368538197
 As aulas futuramente adicionadas dessa mesma disciplina, nessa mesma grade
- horária, seguirão essa definição, porém ao mudar de grade ou reiniciar
+ horária, seguirão essa definição, porém, ao mudar de grade ou reiniciar
  o progrma será necessário definir a cor novamente.
-\change_inserted 239966243 1367544909
+\change_unchanged
 
 \end_layout
 
@@ -2965,6 +3074,7 @@ name "fig:Botão-editar-cor"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement ph
 wide false
 sideways false
 status open
@@ -4045,18 +4155,12 @@ name "sec:Listagem-das-siglas"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="56" columns="2">
-<features tabularvalignment="middle">
+<features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
+<column alignment="center" valignment="middle" width="10cm">
+<row endhead="true" endfirsthead="true">
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -4066,7 +4170,7 @@ Siglas
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" mroffset="12cm" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4096,21 +4200,29 @@ Administração
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row endhead="true" caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-DP.ADM
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Siglas e habilitações
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Administração - Dependências
+
 \end_layout
 
 \end_inset
@@ -4502,7 +4614,7 @@ DP.CV
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell mroffset="12cm" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4552,7 +4664,7 @@ Engenharia - Dependências de Engenharia de Alimentos
 \end_inset
 </cell>
 </row>
-<row>
+<row endhead="true">
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -5193,23 +5305,6 @@ Processos Gerenciais
 </cell>
 </row>
 </lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Siglas e Habilitações
-\end_layout
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
