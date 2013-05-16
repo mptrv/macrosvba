@@ -55,7 +55,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -1448,7 +1448,7 @@ Planilha Grade Horária
 
 \begin_layout Standard
 \begin_inset Float figure
-placement ph
+placement bph
 wide false
 sideways false
 status open
@@ -1495,7 +1495,7 @@ name "fig:Botão-nova-grade"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement ph
+placement tbph
 wide false
 sideways false
 status open
@@ -1537,7 +1537,7 @@ name "fig:Janela-propriedade-da"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement ph
+placement tbph
 wide false
 sideways false
 status open
@@ -1575,13 +1575,14 @@ name "fig:Janela-propriedades-da"
 \end_inset
 
 
-\change_inserted 361918690 1368535188
+\end_layout
 
+\begin_layout Standard
+
+\change_inserted 361918690 1368706503
 \begin_inset Newpage clearpage
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -1621,9 +1622,7 @@ Clique aqui para definir a aula
 \begin_inset Quotes erd
 \end_inset
 
- poderá ser visto.
- Intuitivamente, clique sobre esse quadro e uma nova janela irá aparecer
- (figura 
+ poderá ser visto (figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-nova-aula"
@@ -1631,6 +1630,7 @@ reference "fig:Botão-nova-aula"
 \end_inset
 
 ).
+ Intuitivamente, clique sobre esse quadro e uma nova janela irá aparecer.
 \end_layout
 
 \begin_layout Standard
@@ -1960,8 +1960,8 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 361918690 1368535803
-Está bom esse parágrafo?
+\change_inserted 361918690 1368702844
+Era isso que deveria ser dito?
 \change_unchanged
 
 \end_layout
@@ -1974,7 +1974,15 @@ Está bom esse parágrafo?
 \begin_layout Paragraph
 
 \series medium
-Veja o apêndice 
+Veja 
+\change_deleted 361918690 1368702883
+o apêndic
+\change_inserted 361918690 1368702887
+a seção 
+\change_deleted 361918690 1368702894
+e 
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "sec:Professores-e-Salas"
@@ -2276,6 +2284,25 @@ reference "fig:Informação-dados-serão"
 .
 \end_layout
 
+\begin_layout Paragraph
+
+\series medium
+Uma vez feita a transformação, todas as funções já apresentadas encontram-se
+ disponíveis para essas novas grades horárias geradas, independentemente
+ das grades originais.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Essa função é muito útil no início de um ano letivo ou de um novo semestre,
+ porque uma considerável parte dos relacionamentos das aulas, como professores
+ e salas para uma determinada disciplina, não se alteram.
+ Bastará, então, remanejar algumas aulas e computar os dados que sofreram
+ alteração, para que toda a nova grade horária seja registrada no banco
+ de dados do sistema, de forma bastante eficiente.
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 placement ph
@@ -2448,25 +2475,10 @@ name "fig:Informação-dados-serão"
 \end_inset
 
 
-\end_layout
+\begin_inset Newpage clearpage
+\end_inset
 
-\begin_layout Paragraph
 
-\series medium
-Uma vez feita a transformação, todas as funções já apresentadas encontram-se
- disponíveis para essas novas grades horárias geradas, independentemente
- das grades originais.
-\end_layout
-
-\begin_layout Paragraph
-
-\series medium
-Essa função é muito útil no início de um ano letivo ou de um novo semestre,
- porque uma considerável parte dos relacionamentos das aulas, como professores
- e salas para uma determinada disciplina, não se alteram.
- Bastará, então, remanejar algumas aulas e computar os dados que sofreram
- alteração, para que toda a nova grade horária seja registrada no banco
- de dados do sistema, de forma bastante eficiente.
 \end_layout
 
 \begin_layout Section
@@ -2551,7 +2563,13 @@ Para alterar uma aula que já consta no horário em que se está trabalhando,
  deve-se clicar sobre a mesma.
  As mesmas janelas para definição da aula na sua criação irão aparecer,
  e então todas as propriedades podem ser modificadas da mesma forma.
- Para mais detalhes, consulte a subseção
+ Para mais detalhes, 
+\change_inserted 361918690 1368703375
+volte a seção
+\change_deleted 361918690 1368703377
+consulte a subseção
+\change_unchanged
+
 \begin_inset space ~
 \end_inset
 
@@ -2593,6 +2611,25 @@ reference "fig:Botão-deletar-aula"
 
 \end_inset
 
+
+\change_inserted 361918690 1368705920
+
+\begin_inset space ~
+\end_inset
+
+e
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Janela-de-confirmação"
+
+\end_inset
+
+
+\change_unchanged
 ).
 \end_layout
 
@@ -2682,7 +2719,24 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela de confirmação de remoção de aula.
+Janela de confirmação de 
+\change_deleted 361918690 1368703515
+remoção
+\change_inserted 361918690 1368703521
+exclusão
+\change_unchanged
+ de aula.
+\change_inserted 361918690 1368705888
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Janela-de-confirmação"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -2690,6 +2744,15 @@ Janela de confirmação de remoção de aula.
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 361918690 1368703474
+\begin_inset Newpage clearpage
 \end_inset
 
 
@@ -2893,7 +2956,7 @@ Planilha Grade Horária
 placement ph
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2942,7 +3005,7 @@ name "fig:Botão-editar-turma"
 placement ph
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2981,10 +3044,6 @@ name "fig:Botão-alterar-subdivisões"
 
 \end_layout
 
-\end_inset
-
-
-\begin_inset Newpage clearpage
 \end_inset
 
 
@@ -3039,11 +3098,7 @@ Cor:
 
 \series medium
 Caso se deseje alterar a opção de cor automática de uma determinada disciplina,
- logo após criá-la
-\change_deleted 361918690 1368538179
-,
-\change_unchanged
- com a opção de cor automática, clique no botão
+ logo após criá-la, com a opção de cor automática, clique no botão
 \family sans
  Editar cor\SpecialChar \ldots{}
 
@@ -3086,6 +3141,7 @@ As aulas futuramente adicionadas dessa mesma disciplina, nessa mesma grade
 
 \begin_layout Standard
 \begin_inset Float figure
+placement bp
 wide false
 sideways false
 status open
@@ -3134,7 +3190,7 @@ name "fig:Botão-editar-cor"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement ph
+placement tbh
 wide false
 sideways false
 status open
@@ -3243,7 +3299,13 @@ lanilha Grade Horária
 \emph default
  de alguma turma específica.
  É indiferente qual desses botões se seleciona para executar essa ação,
- esses botões podem ser vistos na figura
+ 
+\change_inserted 361918690 1368704048
+eles
+\change_deleted 361918690 1368704042
+esses botões 
+\change_unchanged
+podem ser vistos na figura
 \begin_inset space ~
 \end_inset
 
@@ -3282,6 +3344,7 @@ reference "fig:Aviso-dados-exportados"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement tbph
 wide false
 sideways false
 status open
@@ -3338,6 +3401,7 @@ name "fig:Botões-atualizar-banco"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement tbph
 wide false
 sideways false
 status open
@@ -3379,6 +3443,7 @@ name "fig:Aviso-dados-serão-1"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement tbph
 wide false
 sideways false
 status open
@@ -3387,7 +3452,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aviso banco de dados atualizado com sucesso .png
-	height 4cm
+	height 3cm
 
 \end_inset
 
@@ -3413,6 +3478,15 @@ name "fig:Aviso-dados-exportados"
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 361918690 1368703987
+\begin_inset Newpage clearpage
 \end_inset
 
 
@@ -3499,6 +3573,7 @@ reference "sub:Acesso-ao-módulo"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement bh
 wide false
 sideways false
 status open
@@ -3804,7 +3879,7 @@ Planilha Geral
 , exibido na figura 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Botão-Ssair"
+reference "fig:Botão-Ssair."
 
 \end_inset
 
@@ -3823,6 +3898,7 @@ Após essa operação, é seguro fechar, pelo próprio Excel, a planilha em bran
 
 \begin_layout Standard
 \begin_inset Float figure
+placement th
 wide false
 sideways false
 status open
@@ -3843,8 +3919,25 @@ status open
 
 \begin_layout Plain Layout
 Botão 
+\change_inserted 361918690 1368705038
+
 \family sans
-sair
+S
+\change_deleted 361918690 1368705035
+s
+\change_unchanged
+air
+\change_inserted 361918690 1368705046
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Botão-Ssair."
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -3877,7 +3970,11 @@ Planilha Geral
  
 \family default
 \emph default
-(figuras
+(figura
+\change_deleted 361918690 1368705285
+s
+\change_unchanged
+
 \begin_inset space ~
 \end_inset
 
@@ -3888,6 +3985,8 @@ reference "fig:Botão-sobre"
 
 \end_inset
 
+
+\change_deleted 361918690 1368705281
 
 \begin_inset space ~
 \end_inset
@@ -3903,12 +4002,28 @@ reference "fig:Informação-sobre"
 
 \end_inset
 
+
+\change_unchanged
 ).
- Informações semelhantes às seguintes deverão ser exibidas.
+ Informações semelhantes às 
+\change_deleted 361918690 1368705292
+seguintes
+\change_inserted 361918690 1368705305
+da figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Informação-sobre"
+
+\end_inset
+
+
+\change_unchanged
+ deverão ser exibidas.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement tbph
 wide false
 sideways false
 status open
@@ -3955,6 +4070,7 @@ name "fig:Botão-sobre"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement tbph
 wide false
 sideways false
 status open
@@ -3998,7 +4114,37 @@ name "fig:Informação-sobre"
 
 \series medium
 Salienta-se que, conforme os dizeres, este programa é disponibilizado gratuitame
-nte e com código-fonte aberto, segundo a licença GNU GPL versão 3.
+nte e com código-fonte aberto, segundo a licença GNU
+\change_inserted 361918690 1368705145
+
+\begin_inset space ~
+\end_inset
+
+
+\change_deleted 361918690 1368705146
+ 
+\change_unchanged
+GPL
+\change_deleted 361918690 1368705148
+ 
+\change_inserted 361918690 1368705148
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+versão
+\change_deleted 361918690 1368705139
+ 
+\change_inserted 361918690 1368705139
+
+\begin_inset space ~
+\end_inset
+
+
+\change_unchanged
+3.
 \end_layout
 
 \begin_layout Chapter
@@ -4040,23 +4186,23 @@ Opções disponibilizadas para professor:
 
 \begin_layout Description
 
-\change_inserted 361918690 1368100952
+\change_inserted 361918690 1368705404
 PROF
 \begin_inset space ~
 \end_inset
 
-ATVCOMPL Professor de atividade complementar;
+ATVCOMPL Professor de atividade complementar, como, por exemplo, libras;
 \end_layout
 
 \begin_layout Description
 
-\change_inserted 361918690 1368101067
+\change_inserted 361918690 1368705451
 PROF
 \begin_inset space ~
 \end_inset
 
 CADAST Professor a cadastrar no sistema, ocorre no caso da admissão de novos
- professores na instituição e antes da inclusão do mesmo no sistema deve-se
+ professores na instituição, e antes da inclusão do mesmo no sistema, deve-se
  usar essa opção temporariamente;
 \end_layout
 
