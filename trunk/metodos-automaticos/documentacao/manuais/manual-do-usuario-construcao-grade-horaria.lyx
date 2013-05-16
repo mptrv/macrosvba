@@ -60,7 +60,6 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author 239966243 "mptrev" 
 \author 361918690 "Mariane" 
 \end_header
 
@@ -389,8 +388,6 @@ reference "fig:Janela-para-identificação"
 \end_inset
 
 , logo após a janela de boas-vindas.
-\change_inserted 239966243 1368561980
-
 \end_layout
 
 \begin_layout Standard
@@ -475,25 +472,10 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-acesso-erro.png
-	width 50text%
+	height 5.5cm
 
 \end_inset
 
-
-\change_inserted 239966243 1368562207
-
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset Graphics
-	filename imagens/cgh-acesso-tentativas-esgotadas.png
-	width 40text%
-
-\end_inset
-
-
-\change_unchanged
 
 \end_layout
 
