@@ -5,9 +5,12 @@
 \textclass report
 \begin_preamble
 \renewcommand{\bottomfraction}{0.5}
+\setlength{\parindent}{15pt}
 \end_preamble
-\options openright
 \use_default_options true
+\begin_modules
+hanging
+\end_modules
 \maintain_unincluded_children false
 \language brazilian
 \language_package default
@@ -30,8 +33,17 @@
 \index_command default
 \float_placement bph
 \paperfontsize 12
-\spacing single
-\use_hyperref false
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize a4paper
 \use_geometry true
 \use_amsmath 1
@@ -53,8 +65,8 @@
 \bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -206,7 +218,7 @@ Sistema Horários
  quanto para administrativos.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 O módulo 
@@ -220,7 +232,7 @@ Construção Grade Horária
  início de cada semestre ou ano letivo.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Em conjunto com este módulo, há o 
@@ -233,7 +245,7 @@ que permite a extração dos relatórios para diversos fins, como, por exemplo,
  de aula, listas de presença, superposições e estatísticas.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Assim, o 
@@ -243,6 +255,26 @@ Sistema Horários
  agrega diversas possibilidades ao planejamento e gerenciamento dos horários
  da Instituição, com rapidez, controle e precisão não obtidos anteriormente
  por outros métodos.
+\end_layout
+
+\begin_layout Chapter*
+Notas sobre as Versões
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Notas sobre as Versões}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -264,7 +296,7 @@ name "sub:Acesso-ao-módulo"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para acessar o módulo de trabalho, deve-se acessar o arquivo 
@@ -287,7 +319,7 @@ Windows
 .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Na primeira vez em que o programa for utilizado, será necessário, antes
@@ -295,33 +327,45 @@ Na primeira vez em que o programa for utilizado, será necessário, antes
  acessada pelo caminho:
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
 
 \family sans
 \series medium
 \emph on
-Arquivo 
+Arquivo
 \emph default
->
+ \SpecialChar \menuseparator
+
 \emph on
- Opções 
+ Opções
 \emph default
->
+ \SpecialChar \menuseparator
+
 \emph on
- Central de Confiabilidade 
+ Central de Confiabilidade
 \emph default
->
+ \SpecialChar \menuseparator
+
 \emph on
  Configurações da Central de Confiabilidade 
 \emph default
->
+\SpecialChar \menuseparator
+
 \emph on
  Configurações de Macro 
 \emph default
->
+\SpecialChar \menuseparator
+
 \emph on
  
-\begin_inset Quotes erd
+\begin_inset Quotes eld
 \end_inset
 
 Confiar no acesso ao modelo de objeto do projeto do VBA
@@ -331,22 +375,26 @@ Confiar no acesso ao modelo de objeto do projeto do VBA
 \end_inset
 
 
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Certifique-se que este último esteja selecionado e confirme a opção.
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Em seguida deve-se fechar o Excel e reabrir o arquivo.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Após esse procedimento, deve-se habilitar as macros, por meio do botão 
@@ -358,14 +406,18 @@ Habilitar Conteúdo
 , caso ele seja exibido pelo Excel.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 O programa então, estará pronto para o uso.
 \end_layout
 
 \begin_layout Subsection
-Janela de Boas-vindas
+Janela de Boas-
+\begin_inset space \negthinspace{}
+\end_inset
+
+Vindas
 \end_layout
 
 \begin_layout Standard
@@ -388,6 +440,7 @@ reference "fig:Janela-de-boas-vindas."
 
 \begin_layout Standard
 \begin_inset Float figure
+placement tbh
 wide false
 sideways false
 status collapsed
@@ -431,7 +484,7 @@ name "fig:Janela-de-boas-vindas."
 Identificação do Usuário
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 O usuário deverá identificar-se por meio de um usuário e senha pré cadastrado,
@@ -492,7 +545,7 @@ name "fig:Janela-para-identificação"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Caso o usuário e senha se mostrem incorretos, uma mensagem de erro será
@@ -553,7 +606,7 @@ name "fig:Informação-de-erro"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Se o usuário realizar mais de três tentativas, a janela vista na figura
@@ -626,7 +679,7 @@ name "sub:Ler-banco-de"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Após o acesso ao módulo, tem-se visível a 
@@ -658,7 +711,7 @@ A partir dela, é possível ler o banco de dados para carregar as informações
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para tal, deve-se clicar no botão 
@@ -1076,7 +1129,7 @@ name "sub:Identificação-da-turma"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 As turmas possuem uma identificação padronizada.
@@ -1176,7 +1229,7 @@ E, por último, após o
 '@', o ano que a grade horária está, esteve ou estará em vigor.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Portanto, a identificação citada no exemplo representa a grade horária dos
@@ -1188,7 +1241,7 @@ Portanto, a identificação citada no exemplo representa a grade horária dos
 Seleção da Turma
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para selecionar uma turma, basta procurá-la na lista mostrada na figura
@@ -1281,7 +1334,7 @@ name "fig:Lista-de-turmas"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Após a seleção da turma, uma nova planilha será aberta, seguindo o padrão
@@ -1361,7 +1414,7 @@ Criação
 De Grade Horária
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para criar uma nova grade horária, na 
@@ -1403,7 +1456,7 @@ reference "fig:Janela-propriedade-da"
 .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Nota-se que as opções aqui selecionadas, irão determinar a identificação
@@ -1421,7 +1474,7 @@ reference "sub:Identificação-da-turma"
 .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Feita essa seleção, uma nova janela será exibida, e a quantidade de grupos,
@@ -1440,21 +1493,21 @@ reference "fig:Janela-propriedades-da"
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Lembre-se que laboratórios são subdivisões de turmas, que por sua vez, são
  subdivisões de grupos.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 É possível selecionar a partir da caixa de seleções ou escrevendo o início
  da opção a ser selecionada, em todas as etapas acima descritas.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Após clicar em 
@@ -1621,7 +1674,7 @@ name "sub:De-Aula"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para a criação de uma nova aula, já na planilha em que ela será adicionada,
@@ -1706,14 +1759,14 @@ name "fig:Botão-nova-aula"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Primeiramente, deve-se definir o horário no qual essa aula irá ocorrer,
  como, por exemplo, segunda-feira, às 07h40, com duração de 2 horas-aula.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Seleciona-se primeiramente o dia da semana que a aula ocorre, no exemplo
@@ -1724,7 +1777,7 @@ SEG
  (segunda-feira), o seu horário e sua duração em horas-aula.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Deve-se notar que, devido ao adiamento de 10 minutos no início das aulas
@@ -1734,7 +1787,7 @@ Deve-se notar que, devido ao adiamento de 10 minutos no início das aulas
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Também é conveniente lembrar que uma hora-aula corresponde a 50 minutos
@@ -1742,7 +1795,7 @@ Também é conveniente lembrar que uma hora-aula corresponde a 50 minutos
  sistema o gera a partir de sua duração.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Definido o horário da aula, deve-se selecionar a que turma, grupo ou laboratório
@@ -1753,7 +1806,7 @@ Definido o horário da aula, deve-se selecionar a que turma, grupo ou laboratór
  essa opção, na mesma janela, assim como inserir a opção de aula de projeto.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Note que os números das subdivisões se ajustam automaticamente às característica
@@ -1761,7 +1814,7 @@ s da turma e, portanto, são apresentados apenas os valores válidos para
  seleção.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Essas opções se apresentam como na figura 
@@ -1815,7 +1868,7 @@ name "fig:Janela-definir-aula"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Clicando-se em 
@@ -1876,7 +1929,7 @@ name "fig:Janela-propriedade-das"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Pode-se preencher os campos selecionando o dado na caixa de seleção ou então
@@ -1885,7 +1938,7 @@ Pode-se preencher os campos selecionando o dado na caixa de seleção ou então
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Salienta-se que, ao lado da opção de sala, aparece um campo 
@@ -1908,7 +1961,7 @@ Chave
  para seu uso.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 As disciplinas podem ter a duração semestral ou anual, ou ainda serem eletivas
@@ -1917,7 +1970,7 @@ As disciplinas podem ter a duração semestral ou anual, ou ainda serem eletivas
  pode ser alterada mas é exibida automaticamente.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Caso a aula não seja semanal, ela será quinzenal.
@@ -1930,7 +1983,7 @@ Qz
  aula só será ministrada a cada 15 dias.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para aulas especiais de dependências, deve-se selecionar a opção 
@@ -1951,7 +2004,7 @@ reference "chap:Manual-de-Orientações"
  para as adequadas formas de lançamento destes tipos de aula.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Veja a seção 
@@ -1966,7 +2019,7 @@ reference "sec:Professores-e-Salas"
  a engenharia.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Atente ao selecionar o professor ao número total de aulas hora que ele estará
@@ -1974,7 +2027,7 @@ Atente ao selecionar o professor ao número total de aulas hora que ele estará
  regulamentações a esse respeito.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 As cores serão escolhidas de acordo com a seção 
@@ -1994,14 +2047,14 @@ reference "sub:De-cores"
 De Aula Compartilhada
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Em alguns casos, turmas diferentes compartilham aulas iguais e o sistema
  está preparado para tratar estas situações.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para compartilhar uma aula entre duas ou mais grades horárias, ou seja,
@@ -2092,7 +2145,7 @@ name "fig:Propriedade-Compartilhar-com:"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Note que, para realizar o compartilhamento, é necessário que disciplina,
@@ -2100,7 +2153,7 @@ Note que, para realizar o compartilhamento, é necessário que disciplina,
  juntas a essa disciplina.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Note também que, no momento em que o compartilhamento for feito, as duas
@@ -2108,13 +2161,13 @@ Note também que, no momento em que o compartilhamento for feito, as duas
  E preste atenção para não criar sobreposição de aulas!
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Existem duas opções para o descompartilhamento de aulas:
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 A primeira é tirando a seleção da opção 
@@ -2129,7 +2182,7 @@ Compartilhar com
  nas demais grades.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Na segunda opção, em qualquer uma das grades compartilhadas, aperte 
@@ -2142,11 +2195,251 @@ Ctrl
  e então a aula só será mantida nas grades que se mantiverem selecionadas.
 \end_layout
 
+\begin_layout Section
+Alteração
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+As alterações descritas nesta seção são acessíveis por meio da 
+\emph on
+Planilha Grade Horária
+\emph default
+, que exibe os botões vistos na figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Botões-de-alteração"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-botões de edição de turma.png
+	height 7.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Botões de alteração da 
+\emph on
+Planilha Grade Horária.
+
+\emph default
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Botões-de-alteração"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
+De Grade Horária
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Para alterar as subdivisões de uma turma, deve-se clicar no botão 
+\family sans
+\emph on
+Editar Turma\SpecialChar \ldots{}
+
+\family default
+\emph default
+ (figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Botão-editar-turma"
+
+\end_inset
+
+) e, logo após, em 
+\family sans
+\emph on
+Alterar Divisões
+\family default
+\emph default
+ (figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Botão-alterar-subdivisões"
+
+\end_inset
+
+).
+ A janela que apareceu na criação da turma para escolha das suas subdivisões
+ aparecerá novamente (figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Janela-propriedades-da"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Note que caso a alteração diminua as subdivisões da turma em questão, as
+ aulas excedentes serão movidas para o canto, a fim de que sejam realocadas
+ ou excluídas manualmente; caso a turma aumente, existirá um espaço em branco
+ na 
+\emph on
+Planilha Grade Horária
+\emph default
+, no qual deverão ser adicionadas as devidas aulas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement ph
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-botões de edição de turma-editar turma.png
+	height 7.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Botão 
+\family sans
+\emph on
+Editar Turma\SpecialChar \ldots{}
+
+\family default
+\emph default
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Botão-editar-turma"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement ph
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-botão alterar divisões.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Botão 
+\family sans
+\emph on
+Alterar Divisões\SpecialChar \ldots{}
+
+\family default
+\emph default
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Botão-alterar-subdivisões"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Transformação de Grade Horária
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Referindo-se à 
@@ -2176,7 +2469,7 @@ reference "fig:Botão-transformar-em"
  Portanto, ele copia os dados existentes para um novo período.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Por exemplo, pode-se copiar todos os horários já definidos do segundo semestre
@@ -2217,7 +2510,7 @@ reference "fig:Informação-dados-serão"
 .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Uma vez feita a transformação, todas as funções já apresentadas encontram-se
@@ -2225,7 +2518,7 @@ Uma vez feita a transformação, todas as funções já apresentadas encontram-s
  das grades originais.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Essa função é muito útil no início de um ano letivo ou de um novo semestre,
@@ -2414,82 +2707,11 @@ name "fig:Informação-dados-serão"
 
 \end_layout
 
-\begin_layout Section
-Alteração
-\end_layout
-
-\begin_layout Paragraph
-
-\series medium
-As alterações descritas nesta seção são acessíveis por meio da 
-\emph on
-Planilha Grade Horária
-\emph default
-, que exibe os botões vistos na figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Botões-de-alteração"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/cgh-botões de edição de turma.png
-	height 7.5cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Botões de alteração da 
-\emph on
-Planilha Grade Horária.
-
-\emph default
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Botões-de-alteração"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 De Aulas
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para alterar uma aula que já consta no horário em que se está trabalhando,
@@ -2514,7 +2736,7 @@ reference "sub:De-Aula"
 Exclusão
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Deve-se proceder da mesma maneira, como na seção anterior, caso seja necessário
@@ -2673,7 +2895,7 @@ name "fig:Janela-de-confirmação"
 Mover para o Canto
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Outro recurso disponível é o de mover uma aula para o canto.
@@ -2735,7 +2957,7 @@ reference "sec:Relatórios"
  apenas redefinir seu horário.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Contudo, as aulas do canto continuam a reservar recursos, como salas e professor
@@ -2792,175 +3014,6 @@ name "fig:Opção-mover-para"
 \end_layout
 
 \begin_layout Subsection
-De Subdivisões
-\end_layout
-
-\begin_layout Paragraph
-
-\series medium
-Para alterar as subdivisões de uma turma, deve-se clicar no botão 
-\family sans
-\emph on
-Editar Turma\SpecialChar \ldots{}
-
-\family default
-\emph default
- (figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Botão-editar-turma"
-
-\end_inset
-
-) e, logo após, em 
-\family sans
-\emph on
-Alterar Divisões
-\family default
-\emph default
- (figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Botão-alterar-subdivisões"
-
-\end_inset
-
-).
- A janela que apareceu na criação da turma para escolha das suas subdivisões
- aparecerá novamente (figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Janela-propriedades-da"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Paragraph
-
-\series medium
-Note que caso a alteração diminua as subdivisões da turma em questão, as
- aulas excedentes serão movidas para o canto, a fim de que sejam realocadas
- ou excluídas manualmente; caso a turma aumente, existirá um espaço em branco
- na 
-\emph on
-Planilha Grade Horária
-\emph default
-, no qual deverão ser adicionadas as devidas aulas.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement ph
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/cgh-botões de edição de turma-editar turma.png
-	height 7.5cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Botão 
-\family sans
-\emph on
-Editar Turma\SpecialChar \ldots{}
-
-\family default
-\emph default
-.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Botão-editar-turma"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement ph
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/cgh-botão alterar divisões.png
-	height 4cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Botão 
-\family sans
-\emph on
-Alterar Divisões\SpecialChar \ldots{}
-
-\family default
-\emph default
-.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Botão-alterar-subdivisões"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
 De Cores
 \begin_inset CommandInset label
 LatexCommand label
@@ -2971,7 +3024,7 @@ name "sub:De-cores"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 A cor da aula na planilha pode estar na função automática, assim a cada
@@ -2982,7 +3035,7 @@ A cor da aula na planilha pode estar na função automática, assim a cada
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Essa opção está disponível nas propriedades da aula, exibida na figura
@@ -3005,7 +3058,7 @@ Cor:
  e uma caixa de opções.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Caso se deseje alterar a opção de cor automática de uma determinada disciplina,
@@ -3148,7 +3201,7 @@ name "sec:Gravação"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Após terminar a criação ou alteração de alguma grade horária é necessário
@@ -3159,7 +3212,7 @@ Após terminar a criação ou alteração de alguma grade horária é necessári
 Atualização do Banco de Dados
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 No 
@@ -3402,7 +3455,7 @@ name "sec:Relatórios"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Um relatório, neste módulo, é a geração de um arquivo PDF da grade horária
@@ -3413,7 +3466,7 @@ Um relatório, neste módulo, é a geração de um arquivo PDF da grade horária
 De Uma Turma
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para gerar o relatório de uma turma específica, abra a 
@@ -3522,7 +3575,7 @@ name "fig:Botão-gerar-PDF"
 De Todas as Turmas
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 É possível gerar o relatório de todas as grades horárias importadas ao programa,
@@ -3530,7 +3583,7 @@ De Todas as Turmas
  pela sua identificação, de uma só vez.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para tal, na 
@@ -3669,7 +3722,7 @@ Finalização
 De Grade Horária
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Ao terminar de alterar uma determinada grade horária de uma turma qualquer,
@@ -3762,7 +3815,7 @@ name "fig:Botão-fechar-planilha"
 Do Construção Grade Horária
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Ao terminar de utilizar o programa, encerre-o clicando no botão 
@@ -3788,7 +3841,7 @@ reference "fig:Botão-Ssair."
  programa, garantindo que não houve perda de nenhum dado.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Após essa operação, é seguro fechar, pelo próprio Excel, a planilha em branco
@@ -3843,7 +3896,7 @@ name "fig:Botão-Ssair."
 Sobre
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Para exibição de informações sobre o programa, clique no botão 
@@ -3970,7 +4023,7 @@ name "fig:Informação-sobre"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Salienta-se que, conforme observado pelos dizeres, este programa é disponibiliza
@@ -4015,14 +4068,14 @@ name "sec:Professores-e-Salas"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Casos especiais quanto a salas e professores são previstos no programa,
  e portanto, existem opções na hora de escolha dos mesmo.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Opções disponibilizadas para professor:
@@ -4081,7 +4134,7 @@ reference "sec:Introdução-a-Engenharia"
 .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Também existem salas especiais disponibilizadas para organização das grades
@@ -4117,7 +4170,7 @@ name "sec:Introdução-a-Engenharia"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 A disciplina de introdução a engenharia é tratada de maneira particular
@@ -4126,7 +4179,7 @@ A disciplina de introdução a engenharia é tratada de maneira particular
  cabendo aos alunos a escolha do que assistir.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Par resolver essa particularidade foi definido que nas grades horárias normais
@@ -4158,7 +4211,7 @@ Referências de Comportamento e Siglas
 Comportamento do Módulo Frente aos Novos Horários de Aula
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Devido ao adiamento de 10 minutos no início das aulas do 
@@ -5578,7 +5631,7 @@ name "sub:Exclusão-de-aulas"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 Na exclusão da única aula de uma turma, ou seja, quando se excluir uma determina
@@ -5606,7 +5659,7 @@ name "sub:Seleção-de-grade"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series medium
 A planilha geral só exibe até o penúltimo arquivo gerado pelo programa.
