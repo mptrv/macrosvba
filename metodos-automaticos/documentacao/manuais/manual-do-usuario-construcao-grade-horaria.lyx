@@ -490,7 +490,7 @@ reference "fig:Janela-de-boas-vindas."
 placement tbh
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -907,7 +907,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aviso dados serão exportados.png
-	height 3.8cm
+	height 3.9cm
 
 \end_inset
 
@@ -1386,7 +1386,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-lista de turmas depois de ler o banco de dados.png
-	height 9cm
+	height 8cm
 
 \end_inset
 
@@ -1624,7 +1624,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-nova grade horaria.png
-	height 9cm
+	height 8cm
 
 \end_inset
 
@@ -1671,7 +1671,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela ao clicar em nova grade horaria 1.png
-	height 5cm
+	height 4.7cm
 
 \end_inset
 
@@ -1713,7 +1713,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela ao clicar em nova grade horaria 2.png
-	height 4.5cm
+	height 4.3cm
 
 \end_inset
 
@@ -1925,7 +1925,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela definir nova aula.png
-	height 5.5cm
+	height 6.5cm
 
 \end_inset
 
@@ -1986,7 +1986,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela propriedades da aula.png
-	height 8cm
+	height 7cm
 
 \end_inset
 
@@ -2194,7 +2194,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aula-compartilhada.png
-	height 8cm
+	height 7.5cm
 
 \end_inset
 
@@ -2318,7 +2318,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma.png
-	height 7.5cm
+	height 6.5cm
 
 \end_inset
 
@@ -2436,7 +2436,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-editar turma.png
-	height 7.5cm
+	height 6.5cm
 
 \end_inset
 
@@ -2485,7 +2485,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botão alterar divisões.png
-	height 4cm
+	height 3cm
 
 \end_inset
 
@@ -2628,7 +2628,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-transformar em.png
-	height 9cm
+	height 8cm
 
 \end_inset
 
@@ -2677,7 +2677,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela transformar em 1.png
-	height 9cm
+	height 6.5cm
 
 \end_inset
 
@@ -2760,7 +2760,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aviso ao transformar em.png
-	height 4cm
+	height 3.7cm
 
 \end_inset
 
@@ -2941,7 +2941,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela confirmar remoção da aula.png
-	height 4cm
+	height 3.8cm
 
 \end_inset
 
@@ -3064,7 +3064,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botão mover CANTO.png
-	height 6.5cm
+	height 7cm
 
 \end_inset
 
@@ -3198,7 +3198,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-editar cor.png
-	height 7.5cm
+	height 6.5cm
 
 \end_inset
 
@@ -3247,7 +3247,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela editar cor.png
-	height 4.5cm
+	height 4.6cm
 
 \end_inset
 
@@ -3395,14 +3395,14 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-atualizar banco de dadod.png
-	height 9cm
+	height 8cm
 
 \end_inset
 
 
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-atualizar banco de dados.png
-	height 7.5cm
+	height 6.5cm
 
 \end_inset
 
@@ -3452,7 +3452,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aviso dados serão exportados.png
-	height 4cm
+	height 3.8cm
 
 \end_inset
 
@@ -3494,7 +3494,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aviso banco de dados atualizado com sucesso .png
-	height 3cm
+	height 3.5cm
 
 \end_inset
 
@@ -3622,7 +3622,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-gerar PDF.png
-	height 7.5cm
+	height 6.5cm
 
 \end_inset
 
@@ -3724,7 +3724,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-gerar PDFS.png
-	height 9cm
+	height 8cm
 
 \end_inset
 
@@ -3771,7 +3771,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela gerar PDF's.png
-	height 4cm
+	height 3.2cm
 
 \end_inset
 
@@ -3860,7 +3860,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-fechar.png
-	height 7.5cm
+	height 6.5cm
 
 \end_inset
 
@@ -3947,7 +3947,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-sair.png
-	height 9cm
+	height 8cm
 
 \end_inset
 
@@ -4033,7 +4033,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-sobre.png
-	height 9cm
+	height 8cm
 
 \end_inset
 
@@ -4080,7 +4080,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-mensagem botão sobre.png
-	height 9cm
+	height 6.8cm
 
 \end_inset
 
