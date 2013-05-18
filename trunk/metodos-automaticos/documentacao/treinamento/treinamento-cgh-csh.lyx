@@ -1031,9 +1031,9 @@ nm{Lista de Presença}
 
  de segunda-feira a sábado, para ambos os períodos, de ambos os 
 \emph on
-campi
+camp
 \emph default
-, com excessão das turmas de pós-graduação.
+i, com excessão das turmas de pós-graduação.
  Como proceder?
 \end_layout
 
@@ -1246,7 +1246,7 @@ Excel
 \end_layout
 
 \begin_layout Enumerate
-Idem, para o curso de Engenharia Química Dirno e Noturno, simultaneamente,
+Idem, para o curso de Engenharia Química Diurno e Noturno, simultaneamente,
  incluindo-se as disciplinas do Ciclo Básico ministradas no 2º ano, excluindo-se
  as do 1º ano, incluindo as aulas de dependências e exportando o resultado
  para uma planilha do 
@@ -2107,10 +2107,7 @@ es significados?
 \end_layout
 
 \begin_layout Enumerate
-Que tipo de relação traz o 
-botão 
-\lang brazilian
-
+Que tipo de relação traz o botão 
 \begin_inset ERT
 status open
 
@@ -2679,7 +2676,11 @@ nm{Publicações aos Alunos}
 
 \begin_deeper
 \begin_layout Enumerate
-Qual a ideia do propósito deste recurso?
+Qual 
+\color red
+a ideia do propósito deste
+\color inherit
+ recurso?
 \end_layout
 
 \end_deeper
