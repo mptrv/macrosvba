@@ -1211,10 +1211,21 @@ As letras a seguir e antes do hífen
 \end_inset
 
 (
-\emph on
--
-\emph default
--), representam a 
+\family sans
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+
+\family default
+), representam a 
 \emph on
 habilitação
 \emph default
@@ -1353,8 +1364,16 @@ Planilha Geral
 Ir
 \family default
 \emph default
-, ou dar um duplo clique sobre ela, ou então digitar sua identificação completa
- no campo de busca e clicar em 
+, ou dar um duplo clique sobre ela.
+ Alternativamente, pode-se digitar sua identificação completa ou parcial
+ no campo de busca e pressionar 
+\family typewriter
+\series default
+Enter
+\family default
+ ou clicar
+\series medium
+ em 
 \family sans
 \emph on
 Ir
@@ -1386,7 +1405,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-lista de turmas depois de ler o banco de dados.png
-	height 8cm
+	height 9cm
 
 \end_inset
 
@@ -1454,7 +1473,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-garde horaria.png
-	height 90theight%
+	height 98theight%
 	rotateAngle 90
 
 \end_inset
