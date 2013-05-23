@@ -76,6 +76,7 @@ hanging
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 239966243 "mptrev" 
 \end_header
 
 \begin_body
@@ -621,7 +622,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-acesso-erro.png
-	height 5.5cm
+	width 8cm
 
 \end_inset
 
@@ -680,7 +681,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-acesso-tentativas-esgotadas.png
-	height 3.8cm
+	width 8cm
 
 \end_inset
 
@@ -1859,7 +1860,7 @@ Nova Aula\SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Clique aqui para definir a aula
+Clique para definir a aula
 \emph default
 \SpecialChar \ldots{}
 
@@ -1874,7 +1875,19 @@ reference "fig:Botão-nova-aula"
 \end_inset
 
 ).
- Intuitivamente, clique sobre esse quadro e uma nova janela irá aparecer.
+ Intuitivamente, clique sobre esse quadro e uma nova janela irá aparecer
+ (figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Janela-definir-aula"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -1926,74 +1939,6 @@ name "fig:Botão-nova-aula"
 \end_layout
 
 \begin_layout Standard
-
-\series medium
-Primeiramente, deve-se definir o horário no qual essa aula irá ocorrer,
- como, por exemplo, segunda-feira, às 07h40, com duração de 2 horas-aula.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Seleciona-se primeiramente o dia da semana que a aula ocorre, no exemplo
- 
-\emph on
-SEG
-\emph default
- (segunda-feira), o seu horário e sua duração em horas-aula.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Deve-se notar que, devido ao adiamento de 10 minutos no início das aulas
- do período diurno, nessa opção aparecem os horários antigos, mas na planilha
- a ser gerada o horário aparecerá corretamente; portanto, ao se desejar
- que uma aula inicie as 07h40, seleciona-se 07h30.
- 
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Também é conveniente lembrar que uma hora-aula corresponde a 50 minutos
- e não é necessário definir o horário de término da aula, uma vez que o
- sistema o gera a partir de sua duração.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Definido o horário da aula, deve-se selecionar a que turma, grupo ou laboratório
- a aula pertence, assim como a qual tipo de aula ela corresponde: teoria,
- exercício, laboratório ou projeto.
- A princípio, os grupos estão associados a aulas de teoria, turmas a aulas
- de exercício e laboratórios a aulas de laboratório, mas é possível alterar
- essa opção, na mesma janela, assim como inserir a opção de aula de projeto.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Note que os números das subdivisões se ajustam automaticamente às característica
-s da turma e, portanto, são apresentados apenas os valores válidos para
- seleção.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Essas opções se apresentam como na figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Janela-definir-aula"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2037,6 +1982,60 @@ name "fig:Janela-definir-aula"
 \begin_layout Standard
 
 \series medium
+Primeiramente, deve-se definir o horário no qual essa aula irá ocorrer,
+ como, por exemplo, segunda-feira, às 07h40, com duração de 2 horas-aula.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Seleciona-se então o dia da semana em que a aula ocorre, no exemplo, 
+\emph on
+SEG
+\emph default
+ (segunda-feira), o seu horário e sua duração em horas-aula.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Deve-se notar que, devido ao adiamento de 10 minutos no início das aulas
+ do período diurno, nessa opção aparecem os horários antigos, mas na planilha
+ a ser gerada o horário aparecerá corretamente; portanto, ao se desejar
+ que uma aula inicie às 07h40, seleciona-se 07h30.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Também é conveniente lembrar que uma hora-aula corresponde a 50 minutos
+ e não é necessário definir o horário de término da aula, uma vez que o
+ sistema o calcula a partir de sua duração.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Definido o horário da aula, deve-se selecionar a que grupo, turma ou laboratório
+ a aula pertence, assim como a qual tipo de aula ela corresponde: teoria,
+ exercício, laboratório ou projeto.
+ A princípio, os grupos estão associados a aulas de teoria, turmas, a aulas
+ de exercício e laboratórios, a aulas de laboratório, mas é possível alterar
+ essa opção, na mesma janela, assim como inserir a opção de aula de projeto.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Note que os números das subdivisões se ajustam automaticamente às característica
+s da turma e, portanto, são apresentados apenas os valores válidos para
+ seleção.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
 Clicando-se em 
 \family sans
 \emph on
@@ -2051,7 +2050,8 @@ reference "fig:Janela-propriedade-das"
 \end_inset
 
 , que permite alterar as propriedades da aula em questão, ou seja, a disciplina,
- duração, frequência, professor, sala, cor e compartilhamento.
+ frequência (semanal ou quinzenal), tipo de aula (regular ou dependência),
+ professor, compartilhamento, sala e cor.
 \end_layout
 
 \begin_layout Standard
@@ -2107,7 +2107,16 @@ Pode-se preencher os campos selecionando o dado na caixa de seleção ou então
 \begin_layout Standard
 
 \series medium
-Salienta-se que, ao lado da opção de sala, aparece um campo 
+As disciplinas podem ter a duração semestral ou anual, ou ainda serem eletivas
+ (El.) semestrais ou anuais.
+ Essa informação é apresentada apenas com caráter informativo, uma vez que
+ ela é obtida automaticamente e não pode ser alterada.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Ao lado da opção de sala, aparece um campo 
 \family sans
 \emph on
 Disponível
@@ -2130,23 +2139,15 @@ Chave
 \begin_layout Standard
 
 \series medium
-As disciplinas podem ter a duração semestral ou anual, ou ainda serem eletivas
- (El.) semestrais ou anuais.
- Essa informação é dada apenas com caráter informativo uma vez que ela não
- pode ser alterada mas é exibida automaticamente.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
 Caso a aula não seja semanal, ela será quinzenal.
- Neste caso, por meio da seleção da opção 
+ Neste caso, seleciona-se a opção 
 \emph on
 Qz
 \emph default
-, pode-se definir um segundo professor, e a carga horária dos professores
- selecionados será contada apenas como metade da regular, uma vez que a
- aula só será ministrada a cada 15 dias.
+.
+ Adicionalmente, pode-se definir um segundo professor, e a carga horária
+ dos professores selecionados será contada apenas como metade da regular,
+ uma vez que a aula só será ministrada a cada 2 semanas.
 \end_layout
 
 \begin_layout Standard
@@ -2181,32 +2182,43 @@ reference "sec:Professores-e-Salas"
 \end_inset
 
 , para informações a respeito de situações específicas com salas e professores
- especiais, como por exemplo, casos de professores indefinidos ou introdução
- a engenharia.
+ especiais, como por exemplo, casos de professores indefinidos ou de introdução
+ à engenharia.
 \end_layout
 
 \begin_layout Standard
 
 \series medium
-Atente ao selecionar o professor ao número total de aulas hora que ele estará
- ministrando, exibido ao lado do campo de seu nome, uma vez que existem
- regulamentações a esse respeito.
+Atente, logo após selecionar um professor, ao número total de horas-aula
+ que ele já possui, exibido à direita do campo de seu nome, uma vez que
+ existem regulamentações a esse respeito.
 \end_layout
 
 \begin_layout Standard
 
 \series medium
-As cores serão escolhidas de acordo com a seção 
+As cores podem ser escolhidas conforme exposto na seção
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "sub:De-cores"
 
 \end_inset
 
-, a opção automática é predefinida.
- A grade horária é construída de maneira que cada disciplina apresente uma
- cor diferente, assim visualmente é possível observar a carga horária e
- duração das aulas e facilitar a localização e identificação das mesmas.
+.
+ Com a opção predefinida 
+\series default
+\emph on
+-Automática-
+\series medium
+\emph default
+, a grade horária é construída de maneira que cada disciplina apresente
+ uma cor diferente, mas uma mesma disciplina possuirá sempre a mesma cor.
+ Assim, visualmente, facilita-se a observação da carga horária e duração
+ das aulas e suas localizações e identificações.
 \end_layout
 
 \begin_layout Subsection
@@ -2224,8 +2236,8 @@ Em alguns casos, turmas diferentes compartilham aulas iguais e o sistema
 
 \series medium
 Para compartilhar uma aula entre duas ou mais grades horárias, ou seja,
- manter sempre nas duas ou mais planilhas as mesmas alterações de uma aula
- específica, proceda da mesma forma como na seção 
+ manter sempre nas duas ou mais planilhas as mesmas características de uma
+ aula específica, proceda da mesma forma como na seção 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:De-Aula"
@@ -2258,7 +2270,7 @@ reference "fig:Propriedade-Compartilhar-com:"
 
 .
  Concluída a seleção e confirmadas as alterações, será possível verificar
- em qualquer uma das grades a existência dessa mesma aula.
+ em qualquer uma das grades envolvidas a existência dessa mesma aula.
 \end_layout
 
 \begin_layout Standard
@@ -2324,41 +2336,65 @@ Note que, para realizar o compartilhamento, é necessário que disciplina,
 \series medium
 Note também que, no momento em que o compartilhamento for feito, as duas
  grades horárias já devem existir.
- E preste atenção para não criar sobreposição de aulas!
+ 
+\series default
+\emph on
+E preste atenção para não criar sobreposição de aulas!
 \end_layout
 
 \begin_layout Standard
 
 \series medium
-Existem duas opções para o descompartilhamento de aulas:
+Se o objetivo for o oposto, isto é, descompartilhar aulas, têm-se duas alternati
+vas.
 \end_layout
 
 \begin_layout Standard
 
 \series medium
-A primeira é tirando a seleção da opção 
+A primeira consiste em retirar a seleção da opção 
 \family sans
 \emph on
 Compartilhar com
+\series default
+:
 \family default
+\series medium
 \emph default
-: da grade a ser excluída do compartilhamento.
- A aula se tornará independente das demais turmas.
- É possível então excluí-la ou alterá-la conforme desejar sem interferir
- nas demais grades.
+ da aula a ser excluída do compartilhamento.
+ Ela se tornará independente das demais grades e será possível então excluí-la
+ ou alterá-la conforme desejar sem interferir nestas outras grades.
 \end_layout
 
 \begin_layout Standard
 
 \series medium
-Na segunda opção, em qualquer uma das grades compartilhadas, aperte 
+A segunda consiste em retirar o compartilhamento de uma aula de outra grade
+ a partir de uma qualquer das grades compartilhadas.
+ Para tanto, na região 
+\family sans
+\emph on
+Compartilhar com
+\series default
+:
+\family default
+\series medium
+\emph default
+, aperte 
 \family typewriter
 Ctrl
 \family default
- e clique na identificação das turmas que devem ser tiradas do compartilhamento;
- assim, elas perderão a identificação de seleção.
- Uma mensagem de que serão excluídas irá aparecer, prossiga com o processo
- e então a aula só será mantida nas grades que se mantiverem selecionadas.
+ e clique na identificação das turmas que devem ser retiradas do compartilhament
+o.
+ Assim, elas perderão a identificação de seleção e, ao clicar em 
+\family sans
+\series default
+Aceitar
+\family default
+, u
+\series medium
+ma mensagem de que serão excluídas irá aparecer; prossiga com o processo
+ e a aula só será mantida nas grades que permaneceram selecionadas.
 \end_layout
 
 \begin_layout Section
@@ -2368,29 +2404,28 @@ Alteração
 \begin_layout Standard
 
 \series medium
-As alterações descritas nesta seção são acessíveis por meio da 
+As alterações descritas nesta seção, referentes às aulas ou às subdivisões
+ de uma grade horária, são acessíveis por meio da 
 \emph on
 Planilha Grade Horária
 \emph default
-, que exibe os botões vistos na figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Botões-de-alteração"
-
-\end_inset
-
+.
+ Já para a migração de um semestre e ano para outro, a opção é disponibilizada
+ na 
+\series default
+\emph on
+Planilha Geral
+\emph default
 .
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 239966243 1369336132
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2429,6 +2464,8 @@ name "fig:Botões-de-alteração"
 
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -2493,14 +2530,14 @@ reference "fig:Janela-propriedades-da"
 \begin_layout Standard
 
 \series medium
-Note que caso a alteração diminua as subdivisões da turma em questão, as
+Note que, caso a alteração diminua as subdivisões da turma em questão, as
  aulas excedentes serão movidas para o canto, a fim de que sejam realocadas
- ou excluídas manualmente; caso a turma aumente, existirá um espaço em branco
+ ou excluídas manualmente; caso a turma aumente, existirá um espaço adicional
  na 
 \emph on
 Planilha Grade Horária
 \emph default
-, no qual deverão ser adicionadas as devidas aulas.
+, no qual deverão ser alocadas as devidas aulas.
 \end_layout
 
 \begin_layout Standard
@@ -2514,7 +2551,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-editar turma.png
-	height 6.5cm
+	width 6.5cm
 
 \end_inset
 
@@ -2563,7 +2600,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botão alterar divisões.png
-	height 3cm
+	width 6.5cm
 
 \end_inset
 
