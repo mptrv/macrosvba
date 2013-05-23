@@ -1678,7 +1678,7 @@ Botão
 Nova Grade Horária\SpecialChar \ldots{}
 
 \family default
-.
+
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-nova-grade"
@@ -2569,7 +2569,7 @@ Editar Turma\SpecialChar \ldots{}
 
 \family default
 \emph default
-.
+
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-editar-turma"
@@ -2618,7 +2618,7 @@ Alterar Divisões\SpecialChar \ldots{}
 
 \family default
 \emph default
-.
+
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-alterar-subdivisões"
@@ -2654,9 +2654,15 @@ Planilha Geral,
 \emph on
 Transformar em\SpecialChar \ldots{}
 
+
+\begin_inset space ~
+\end_inset
+
+
 \family default
 \emph default
- (figura
+\lang brazilian
+(figura
 \begin_inset space ~
 \end_inset
 
@@ -2668,7 +2674,7 @@ reference "fig:Botão-transformar-em"
 \end_inset
 
 ), cuja função é transformar todos os dados importados do banco de dados,
- que pertencem a um ano e semestre específico , para um novo ano e/ou semestre.
+ que pertencem a um ano e semestre específico, para um novo ano e semestre.
  Portanto, ele copia os dados existentes para um novo período.
 \end_layout
 
@@ -2676,8 +2682,8 @@ reference "fig:Botão-transformar-em"
 
 \series medium
 Por exemplo, pode-se copiar todos os horários já definidos do segundo semestre
- de 2013 para o primeiro semestre de 2014, através da janela mostrada na
- figura
+ de 2013 para o primeiro semestre de 2014, através da janela mostrada à
+ esquerda da figura
 \begin_inset space ~
 \end_inset
 
@@ -2688,18 +2694,9 @@ reference "fig:Janela-transformar-em"
 
 \end_inset
 
-, seguida pela confirmação do processo, exibido na figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Janela-confirmar-transformação"
-
-\end_inset
-
-, e pelo aviso de que o banco é exportado antes da transformação, figura
+, seguida pela confirmação do processo, exibida à direita da mesma, e pelo
+ aviso de que o banco será exportado antes da transformação, conforme a
+ figura
 \begin_inset space ~
 \end_inset
 
@@ -2743,7 +2740,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-transformar em.png
-	height 8cm
+	height 5.75cm
 
 \end_inset
 
@@ -2761,7 +2758,7 @@ Transformar em\SpecialChar \ldots{}
 
 \family default
 \emph default
-.
+
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-transformar-em"
@@ -2792,7 +2789,18 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela transformar em 1.png
-	height 6.5cm
+	height 5.75cm
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/cgh-janela transformar em 2.png
+	height 5.75cm
 
 \end_inset
 
@@ -2803,7 +2811,8 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela de transformação de grade horária.
+À esquerda, janela de transformação de grade horária.
+ À direita, janela de confirmação da transformação.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Janela-transformar-em"
@@ -2825,48 +2834,7 @@ name "fig:Janela-transformar-em"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement ph
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/cgh-janela transformar em 2.png
-	height 6cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Janela de confirmação da transformação.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Janela-confirmar-transformação"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
+placement t
 wide false
 sideways false
 status open
@@ -2904,10 +2872,6 @@ name "fig:Informação-dados-serão"
 \end_inset
 
 
-\begin_inset Newpage clearpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -2942,17 +2906,30 @@ Exclusão
 \begin_layout Standard
 
 \series medium
-Deve-se proceder da mesma maneira, como na seção anterior, caso seja necessário
- excluir uma aula existente.
- Para tal, clique sobre a aula que deve ser excluída.
- E em seguida no botão 
-\family sans
-\emph on
-Deletar\SpecialChar \ldots{}
+Para excluir uma aula existente, clique sobre a aula e, em seguida, no botão
+ 
+\series default
 
-\family default
-\emph default
- , na janela das definições de aula, confirmando a opção (figuras
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+\series medium
+\emph on
+
+\backslash
+mbox{Deletar
+\backslash
+ldots{}}
+\end_layout
+
+\end_inset
+
+
+\series medium
+, na janela das definições de aula, confirmando a pergunta feita (figura
 \begin_inset space ~
 \end_inset
 
@@ -2960,21 +2937,6 @@ Deletar\SpecialChar \ldots{}
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-deletar-aula"
-
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-e
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Janela-de-confirmação"
 
 \end_inset
 
@@ -3012,21 +2974,57 @@ status open
 \end_inset
 
 
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 1
+use_makebox 0
+width "7cm"
+special "none"
+height "7cm"
+height_special "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-janela confirmar remoção da aula.png
+	width 7cm
+	BoundingBox 0bp 0bp 310bp 250bp
+	clip
+
+\end_inset
+
+
+\begin_inset VSpace 1.1cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Botão 
+À esquerda, o botão 
 \family sans
 \emph on
 Deletar\SpecialChar \ldots{}
-.
 
 \family default
 \emph default
- 
+ À direita, janela de confirmação de exclusão de aula.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Botão-deletar-aula"
@@ -3041,54 +3039,6 @@ name "fig:Botão-deletar-aula"
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/cgh-janela confirmar remoção da aula.png
-	height 3.8cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Janela de confirmação de exclusão de aula.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Janela-de-confirmação"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage clearpage
 \end_inset
 
 
@@ -3328,7 +3278,7 @@ Botão
 \family sans
 \emph on
 Editar Cor\SpecialChar \ldots{}
-.
+
 \family default
 \emph default
 
