@@ -2654,14 +2654,12 @@ Planilha Geral,
 \emph on
 Transformar em\SpecialChar \ldots{}
 
-
 \begin_inset space ~
 \end_inset
 
 
 \family default
 \emph default
-\lang brazilian
 (figura
 \begin_inset space ~
 \end_inset
@@ -2915,9 +2913,6 @@ status open
 
 \begin_layout Plain Layout
 
-\family sans
-\series medium
-\emph on
 
 \backslash
 mbox{Deletar
@@ -2982,8 +2977,8 @@ status open
 position "b"
 hor_pos "c"
 has_inner_box 1
-inner_pos "b"
-use_parbox 1
+inner_pos "c"
+use_parbox 0
 use_makebox 0
 width "7cm"
 special "none"
@@ -3002,7 +2997,7 @@ status open
 \end_inset
 
 
-\begin_inset VSpace 1.1cm
+\begin_inset VSpace 1.7cm
 \end_inset
 
 
@@ -3107,15 +3102,14 @@ reference "sec:Relatórios"
 
 , esta aula não irá aparecer.
  Mas, caso ela precise ser realocada, não será necessário criá-la novamente,
- apenas redefinir seu horário.
+ apenas redefinir seu dia e horário.
 \end_layout
 
 \begin_layout Standard
 
 \series medium
-Contudo, as aulas do canto continuam a reservar recursos, como salas e professor
-es.
- Se for decidido que uma determinada, de fato, não mais será necessária,
+As aulas do canto continuam a reservar recursos, como salas e professores.
+ Se for decidido que uma determinada, de fato, não mais será utilizada,
  ela deverá ser excluída.
 \end_layout
 
@@ -3214,8 +3208,9 @@ Cor:
 \begin_layout Standard
 
 \series medium
-Caso se deseje alterar a opção de cor automática de uma determinada disciplina,
- logo após criá-la, com a opção de cor automática, clique no botão
+Caso se deseje alterar o padrão de cor automática de um determinado grupo
+ de disciplinas, definido pela três letras do código da disciplina, deve-se,
+ após a criação das aulas com a opção de cor automática, clicar no botão
 \family sans
  Editar cor\SpecialChar \ldots{}
 
@@ -3224,7 +3219,8 @@ Caso se deseje alterar a opção de cor automática de uma determinada disciplin
 \emph on
 Planilha Grade Horária
 \emph default
- (figura
+, e fazer a definição do novo padrão através da janela exibida logo em seguida,
+ conforme vê-se na figura
 \begin_inset space ~
 \end_inset
 
@@ -3235,21 +3231,13 @@ reference "fig:Botão-editar-cor"
 
 \end_inset
 
-), e faça essa definição através da janela exibida na figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Janela-editar-cor"
-
-\end_inset
-
 .
- As aulas futuramente adicionadas dessa mesma disciplina, nessa mesma grade
- horária, seguirão essa definição, porém, ao mudar de grade ou reiniciar
- o programa será necessário definir a cor novamente.
+ As aulas futuramente adicionadas desse mesmo grupo de disciplina, nessa
+ mesma grade horária, seguirão essa definição, porém, ao mudar de grade
+ ou reiniciar o programa será necessário definir o padrão de cor personalizado
+ novamente.
+ Ainda, note-se que essa alteração não se refletirá no relatório PDF de
+ publicação aos alunos.
 \end_layout
 
 \begin_layout Standard
@@ -3263,53 +3251,15 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-editar cor.png
-	height 6.5cm
+	height 4.6cm
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Botão 
-\family sans
-\emph on
-Editar Cor\SpecialChar \ldots{}
-
-\family default
-\emph default
-
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Botão-editar-cor"
-
+\begin_inset space \quad{}
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement tbh
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
 \begin_inset Graphics
 	filename imagens/cgh-janela editar cor.png
 	height 4.6cm
@@ -3323,10 +3273,17 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela para editar cor automática.
+À esquerda, Botão 
+\family sans
+\emph on
+Editar Cor\SpecialChar \ldots{}
+
+\family default
+\emph default
+ À direita, janela para editar cor automática.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Janela-editar-cor"
+name "fig:Botão-editar-cor"
 
 \end_inset
 
@@ -3423,8 +3380,9 @@ reference "fig:Botões-atualizar-banco"
 
 \end_inset
 
-, após o clique em qualquer um deles as mensagens para prosseguir e de confirmaç
-ão da operação serão exibidas, como nas figuras
+.
+ Após o clique em qualquer um deles as mensagens para prosseguir e de confirmaçã
+o da operação serão exibidas, como visto nas figuras
 \begin_inset space ~
 \end_inset
 
@@ -3460,14 +3418,18 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-atualizar banco de dadod.png
-	height 8cm
+	height 5.75cm
 
+\end_inset
+
+
+\begin_inset space \quad{}
 \end_inset
 
 
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-atualizar banco de dados.png
-	height 6.5cm
+	height 5.75cm
 
 \end_inset
 
@@ -3478,11 +3440,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Botões para atualizar banco de dados, a esquerda é exibido na 
+Botões para atualizar banco de dados.
+ À esquerda, exibido na 
 \emph on
-Planilha Geral
+Planilha Geral.
+ 
 \emph default
- e a direita na 
+À direita, na 
 \emph on
 Planilha Grade Horária
 \emph default
@@ -3517,7 +3481,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aviso dados serão exportados.png
-	height 3.8cm
+	width 10.6cm
 
 \end_inset
 
@@ -3559,7 +3523,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aviso banco de dados atualizado com sucesso .png
-	height 3.5cm
+	width 10.6cm
 
 \end_inset
 
@@ -3590,13 +3554,6 @@ name "fig:Aviso-dados-exportados"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage clearpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Relatórios
 \begin_inset CommandInset label
@@ -3612,7 +3569,7 @@ name "sec:Relatórios"
 
 \series medium
 Um relatório, neste módulo, é a geração de um arquivo PDF da grade horária
- trabalhada.
+ trabalhada, cujo objetivo principal é o de publicação aos alunos.
 \end_layout
 
 \begin_layout Subsection
@@ -3650,14 +3607,7 @@ relatorios
 \backslash
 publicacao-pdf
 \family default
- localizada junto à pasta de instalação do programa
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\series medium
-Ver a subseção
+ localizada junto à pasta de instalação do programa.Ver a subseção
 \begin_inset space ~
 \end_inset
 
@@ -3668,12 +3618,7 @@ reference "sub:Acesso-ao-módulo"
 
 \end_inset
 
- para mais referências sobre a localização do programa.
-\end_layout
-
-\end_inset
-
-.
+ para referências sobre a localização da instalação do programa.
 \end_layout
 
 \begin_layout Standard
@@ -3687,7 +3632,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-gerar PDF.png
-	height 6.5cm
+	height 5cm
 
 \end_inset
 
@@ -3749,7 +3694,7 @@ Planilha Geral
 Gerar PDFs
 \family default
 \emph default
- e confirme a opção (figuras
+ e confirme a opção (ver figura
 \begin_inset space ~
 \end_inset
 
@@ -3760,27 +3705,14 @@ reference "fig:Botão-gerar-PDFs"
 
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-e
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Janela-publicação-de"
-
-\end_inset
-
 ) .
- Os relatórios gerados se localizarão na mesma pasta citada acima.
+ Os relatórios gerados se localizarão na mesma pasta citada na subseção
+ acima.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -3789,54 +3721,38 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-gerar PDFS.png
-	height 8cm
+	height 5.75cm
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Botão 
-\family sans
-\emph on
-Gerar PDFs
-\family default
-\emph default
-.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Botão-gerar-PDFs"
-
+\begin_inset space \quad{}
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "6cm"
+special "none"
+height "5.75cm"
+height_special "none"
 status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela gerar PDF's.png
-	height 3.2cm
+	width 6cm
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -3847,10 +3763,17 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Janela de confirmação da publicação de todos os PDFs.
+À esquerda, botão 
+\family sans
+\emph on
+Gerar PDFs
+\family default
+\emph default
+.
+ À direita, janela de confirmação da publicação de todos os PDFs.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Janela-publicação-de"
+name "fig:Botão-gerar-PDFs"
 
 \end_inset
 
@@ -3871,6 +3794,11 @@ name "fig:Janela-publicação-de"
 Finalização
 \end_layout
 
+\begin_layout Standard
+A finalização aqui refere-se ao processo de fechar uma planilha de grade
+ horária ou ao de encerrar o programa.
+\end_layout
+
 \begin_layout Subsection
 Da Grade Horária
 \end_layout
@@ -3879,11 +3807,7 @@ Da Grade Horária
 
 \series medium
 Ao terminar de alterar uma determinada grade horária de uma turma qualquer,
- feche a 
-\emph on
-Planilha Grade Horária
-\emph default
- pelo botão 
+ feche-a pelo botão 
 \family sans
 \emph on
 Fechar
@@ -3925,7 +3849,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-fechar.png
-	height 6.5cm
+	height 5cm
 
 \end_inset
 
@@ -3942,7 +3866,7 @@ Fechar
 \family default
 da 
 \emph on
-Planilha grade horária
+Planilha Grade Horária
 \emph default
 .
 \begin_inset CommandInset label
@@ -3977,11 +3901,11 @@ Ao terminar de utilizar o programa, encerre-o clicando no botão
 Sair
 \family default
 \emph default
- na 
+ da 
 \emph on
 Planilha Geral
 \emph default
-, exibido na figura 
+, exibido à esquerda da figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Botão-Ssair."
@@ -4001,50 +3925,6 @@ Após essa operação, é seguro fechar, pelo próprio Excel, a planilha em bran
  que restará aberta.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-placement th
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/cgh-botões da area principal-sair.png
-	height 8cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Botão 
-\family sans
-Sair.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Botão-Ssair."
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Sobre
 \end_layout
@@ -4061,22 +3941,25 @@ Sobre,
  localizado na 
 \emph on
 Planilha Geral
-\family sans
- 
-\family default
+\series default
 \emph default
-(figura
+, conforme visto
+\series medium
+\emph on
+ 
+\emph default
+à direita da figura
 \begin_inset space ~
 \end_inset
 
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Botão-sobre"
+reference "fig:Botão-Ssair."
 
 \end_inset
 
-).
+.
  Informações semelhantes às da figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4084,12 +3967,12 @@ reference "fig:Informação-sobre"
 
 \end_inset
 
- deverão ser exibidas.
+ serão exibidas.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement tbph
+placement tbh
 wide false
 sideways false
 status open
@@ -4097,8 +3980,19 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
+	filename imagens/cgh-botões da area principal-sair.png
+	height 7cm
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Graphics
 	filename imagens/cgh-botões da area principal-sobre.png
-	height 8cm
+	height 7cm
 
 \end_inset
 
@@ -4109,15 +4003,18 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Botão 
+À esquerda, o botão 
+\family sans
+Sair.
+
+\family default
+ À direita, o botão 
 \family sans
 Sobre\SpecialChar \ldots{}
 
-\family default
-.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Botão-sobre"
+name "fig:Botão-Ssair."
 
 \end_inset
 
@@ -4145,7 +4042,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-mensagem botão sobre.png
-	height 6.8cm
+	height 5.75cm
 
 \end_inset
 
@@ -4182,6 +4079,8 @@ name "fig:Informação-sobre"
 Salienta-se que, conforme observado pelos dizeres, este programa é disponibiliza
 do gratuitamente e com código-fonte aberto, segundo a licença 
 \family typewriter
+\series default
+\emph on
 GNU
 \begin_inset space ~
 \end_inset
@@ -4196,6 +4095,8 @@ versão
 
 3
 \family default
+\series medium
+\emph default
 .
 \end_layout
 
@@ -4204,7 +4105,8 @@ Tutorial
 \end_layout
 
 \begin_layout Standard
-Acompanha esse documento um tutorial em vídeo, disponível para 
+Acompanha esse manual de operação um tutorial em vídeo, disponível para
+ 
 \emph on
 download
 \emph default
@@ -4212,8 +4114,10 @@ download
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -4234,6 +4138,15 @@ name "chap:Manual-de-Orientações"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\emph on
+*** Este Manual de Orientações ainda encontra-se em edição.
+ ***
 \end_layout
 
 \begin_layout Section
