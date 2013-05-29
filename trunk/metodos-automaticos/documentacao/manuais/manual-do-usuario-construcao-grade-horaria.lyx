@@ -431,9 +431,9 @@ O
 \emph on
 Sistema Horários
 \emph default
- é um sistema que permite a inserção de dados relativos à grade horária
- das aulas e a extração de diversos relatórios, tanto para fins operacionais,
- quanto para administrativos.
+ permite a inserção de dados relativos à grade horária das aulas e a extração
+ de diversos relatórios, tanto para fins operacionais, quanto para administrativ
+os.
 \end_layout
 
 \begin_layout Standard
@@ -443,8 +443,8 @@ O módulo
 \emph on
 Construção Grade Horária
 \emph default
- tem como objetivo a construção de grades horárias das turmas do Instituto
- Mauá de Tecnologia.
+ tem como objetivo a construção de grades horárias das turmas dos diversos
+ cursos oferecidos pelo Instituto Mauá de Tecnologia.
  A partir de seu uso, a construção dessas grades é facilitada e, ao mesmo
  tempo, padronizada, agilizando todo o processo realizado ao início de cada
  semestre ou ano letivo.
@@ -457,10 +457,11 @@ Em conjunto com este módulo, há o
 \emph on
 Consulta Sistema Horários, 
 \emph default
-que permite a extração de relatórios para diversos fins, como, por exemplo,
- verificação de aspectos previstos em lei, citando-se a carga horária máxima
- e o período de descanso dos professores, ou a extração de listas de presença,
- consulta de disponibilidade de salas de aula, conflitos de aula e estatísticas.
+que permite a extração de relatórios para fins de gerenciamento e dados
+ estatísticos, como, por exemplo, verificação de aspectos previstos em lei,
+ citando-se a carga horária máxima e o período de descanso dos professores,
+ ou a extração de listas de presença, consulta de disponibilidade de salas
+ de aula, conflitos de aula e estatísticas.
 \end_layout
 
 \begin_layout Standard
@@ -505,10 +506,10 @@ Sistema Horário
 Construção Grade Horária
 \emph default
 , encontra-se em constante desenvolvimento e atualização.
- Por este motivo, as imagens aqui contidas, ou contidas em algum material
- externo referenciado, poderão exibir informações de versão diferente da
- última versão existente dos módulos, ou mesmo, indicar que é uma versão
- de depuração ao invés de oficial.
+ Por este motivo, as imagens contidas aqui ou em algum material externo
+ referenciado, poderão exibir informações de versão diferente da última
+ versão existente dos módulos, ou mesmo, indicar que é uma versão de depuração
+ ao invés de oficial.
  Contudo, essas diferenças de versão não há de acarretar em prejuízo para
  o entendimento da operação dos módulos.
 \end_layout
@@ -1332,6 +1333,7 @@ status open
 Planilha geral
 \emph default
  após leitura do banco de dados.
+ Note-se a caixa de listagem preenchida com as identificações das turmas.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Planilha-geral-ápos"
@@ -1372,11 +1374,8 @@ turma
 \emph on
 turma 
 \emph default
-das subdivisões possíveis para uma certa grade horária: grupo, 
-\emph on
-turma
-\emph default
- ou laboratório.
+das subdivisões possíveis para uma certa grade horária: grupo, turma ou
+ laboratório.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1414,7 +1413,14 @@ S
 \emph on
 semestre
 \emph default
-, representa o semestre que a turma está cursando.
+, representa o semestre que a turma está cursando; no caso, o primeiro semestre.
+
+\family sans
+ (
+\series bold
+1
+\series default
+S2TR.QM--D@2013)
 \end_layout
 
 \begin_layout Enumerate
@@ -1422,7 +1428,15 @@ O terceiro algarismo é a
 \emph on
 série
 \emph default
- em que os alunos, de tal turma, estão matriculados.
+ em que os alunos, de tal turma, estão matriculados; para o exemplo, a segunda
+ série.
+ 
+\family sans
+(1S
+\series bold
+2
+\series default
+TR.QM--D@2013)
 \end_layout
 
 \begin_layout Enumerate
@@ -1432,18 +1446,7 @@ As letras a seguir e antes do hífen
 
 (
 \family sans
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \family default
 ), representam a 
 \emph on
@@ -1513,6 +1516,17 @@ reference "sec:Listagem-das-siglas"
 .
 \end_layout
 
+\begin_layout Standard
+No caso, tem-se o Tronco Química.
+ 
+\family sans
+(1S2
+\series bold
+TR.QM
+\series default
+--D@2013)
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 Após o hífen, segue o período da turma:
@@ -1535,6 +1549,17 @@ N
 : Noturno.
 \end_layout
 
+\begin_layout Standard
+Para o exemplo, o período é diurno.
+ 
+\family sans
+(1S2TR.QM--
+\series bold
+D
+\series default
+@2013)
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 E, por último, após o
@@ -1545,7 +1570,15 @@ E, por último, após o
 \family sans
 @
 \family default
-, o ano em que a grade horária está, esteve ou estará em vigor.
+, o ano em que a grade horária está, esteve ou estará em vigor; no exemplo,
+ o ano 2013.
+ 
+\family sans
+(1S2TR.QM--D@
+\series bold
+2013
+\series default
+)
 \end_layout
 
 \begin_layout Standard
@@ -1788,89 +1821,6 @@ reference "fig:Janela-propriedade-da"
 \end_layout
 
 \begin_layout Standard
-
-\series medium
-Nota-se que as opções aqui selecionadas, irão determinar a identificação
- da nova grade horária, conforme descrito na seção
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "sub:Identificação-da-turma"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Feita essa seleção, uma nova janela será exibida, e a quantidade de grupos,
- turmas e laboratórios deverá ser especificada, como é mostrado na figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Janela-propriedades-da"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Lembre-se que laboratórios são subdivisões de turmas, que por sua vez, são
- subdivisões de grupos.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Em todas as etapas acima descritas, é possível selecionar uma opção a partir
- da caixa de seleções ou escrevê-la na caixa de entrada correspondente.
- Caso alguma entrada não esteja presente na lista da caixa de seleções,
- uma mensagem de erro semelhante à da figura
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Aviso-de-dados-inválidos"
-
-\end_inset
-
- será exibida.
- Para continuar, deve-se corrigir o dado.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Após clicar em 
-\family sans
-\emph on
-Aceitar,
-\family default
-\emph default
- automaticamente, uma planilha será criada obedecendo aos horários e subdivisões
- de turma selecionados.
- Essa planilha é conhecida como 
-\emph on
-Planilha Grade Horária
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement bph
 wide false
@@ -1960,6 +1910,82 @@ name "fig:Janela-propriedade-da"
 \end_layout
 
 \begin_layout Standard
+
+\series medium
+Um dado válido para cada campo poderá ser selecionado a partir das opções
+ disponibilizadas nas caixas de seleções, como vê-se no exemplo apresentado
+ na figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Seleção-de-opção"
+
+\end_inset
+
+.
+ Alternativamente, pode-se escrevê-lo na caixa de entrada correspondente,
+ mas, caso alguma entrada não esteja presente na lista da caixa de seleções,
+ uma mensagem de erro semelhante à da figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aviso-de-dados-inválidos"
+
+\end_inset
+
+ será exibida.
+ Para continuar, deve-se corrigir o dado.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-janela-propriedades-turma-selecionar-habilitacao.png
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Seleção de opção a partir de uma caixa de opções.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Seleção-de-opção"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1999,6 +2025,43 @@ name "fig:Aviso-de-dados-inválidos"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Note-se que as opções aqui selecionadas, irão determinar a identificação
+ da nova grade horária, conforme descrito na seção
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Identificação-da-turma"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Feita essa seleção, uma nova janela será exibida, e a quantidade de grupos,
+ turmas e laboratórios deverá ser especificada, como é mostrado na figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Janela-propriedades-da"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2044,10 +2107,28 @@ name "fig:Janela-propriedades-da"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage clearpage
-\end_inset
 
+\series medium
+Lembre-se que laboratórios são subdivisões de turmas, que por sua vez, são
+ subdivisões de grupos.
+\end_layout
 
+\begin_layout Standard
+
+\series medium
+Após clicar em 
+\family sans
+\emph on
+Aceitar,
+\family default
+\emph default
+ automaticamente, uma planilha será criada obedecendo aos horários e subdivisões
+ de turma selecionados.
+ Essa planilha é conhecida como 
+\emph on
+Planilha Grade Horária
+\emph default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -2241,7 +2322,8 @@ Definido o horário da aula, deve-se selecionar a que grupo, turma ou laboratór
  exercício, laboratório ou projeto.
  A princípio, os grupos estão associados a aulas de teoria, turmas, a aulas
  de exercício e laboratórios, a aulas de laboratório, mas é possível alterar
- essa opção, na mesma janela, assim como inserir a opção de aula de projeto.
+ essa correspondência na mesma janela, assim como definir o tipo de aula
+ como projeto.
 \end_layout
 
 \begin_layout Standard
@@ -2283,7 +2365,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-janela propriedades da aula.png
-	height 7cm
+	height 5cm
 
 \end_inset
 
@@ -2359,14 +2441,14 @@ Chave
 
 \series medium
 Caso a aula não seja semanal, ela será quinzenal.
- Neste caso, seleciona-se a opção 
+ Nesta situação, seleciona-se a opção 
 \emph on
 Qz
 \emph default
-.
- Adicionalmente, pode-se definir um segundo professor, e a carga horária
- dos professores selecionados será contada apenas como metade da regular,
- uma vez que a aula só será ministrada a cada 2 semanas.
+ e, adicionalmente, pode-se definir um segundo professor.
+ Em consequência, a carga horária dos professores selecionados será contada
+ apenas como metade da regular para tal aula, uma vez que esta só será ministrad
+a a cada 2 semanas.
 \end_layout
 
 \begin_layout Standard
@@ -2380,29 +2462,22 @@ Dp
 \end_layout
 
 \begin_layout Standard
-Aconselha-se a consulta do capítulo 
+Para as adequadas formas de lançamento destes tipos de aula e
+\series medium
+ para informações a respeito de salas e professores especiais, a
+\series default
+conselha-se a consulta do capítulo
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "chap:Manual-de-Orientações"
 
 \end_inset
 
- para as adequadas formas de lançamento destes tipos de aula.
-\end_layout
-
-\begin_layout Standard
-
-\series medium
-Veja a seção 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "sec:Professores-e-Salas"
-
-\end_inset
-
-, para informações a respeito de situações específicas com salas e professores
- especiais, como por exemplo, casos de professores indefinidos ou de introdução
- à engenharia.
+.
 \end_layout
 
 \begin_layout Standard
@@ -2503,7 +2578,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aula-compartilhada.png
-	height 7.5cm
+	height 5cm
 
 \end_inset
 
@@ -2523,6 +2598,8 @@ Compartilhar com:
 \size default
 \emph default
  selecionada.
+ Neste exemplo, a aula será compartilhada com o segundo ano do diurno do
+ Tronco Elétrica e do Tronco Mecânica.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Propriedade-Compartilhar-com:"
@@ -2583,13 +2660,74 @@ Compartilhar com
  da aula a ser excluída do compartilhamento.
  Ela se tornará independente das demais grades e será possível então excluí-la
  ou alterá-la conforme desejar sem interferir nestas outras grades.
+ Veja a figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Descompartilhamento-pelo-primeir"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-compartilhar-aula-descompartilhar1.png
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Descompartilhamento pelo primeiro método.
+ Neste caso, a aula torna-se independente das demais anteriormente compartilhada
+s com ela.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Descompartilhamento-pelo-primeir"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
 \series medium
 A segunda consiste em retirar o compartilhamento de uma aula de outra grade
- a partir de uma qualquer das grades compartilhadas.
+ a partir de qualquer uma das grades compartilhadas.
  Para tanto, na região 
 \family sans
 \emph on
@@ -2604,7 +2742,18 @@ Compartilhar com
 Ctrl
 \family default
  e clique na identificação das turmas que devem ser retiradas do compartilhament
-o.
+o, como vê-se na figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Descompartilhamento-de-aula-segundo"
+
+\end_inset
+
+.
  Assim, elas perderão a identificação de seleção e, ao clicar em 
 \family sans
 \series default
@@ -2612,8 +2761,118 @@ Aceitar
 \family default
 , u
 \series medium
-ma mensagem de que serão excluídas irá aparecer; prossiga com o processo
- e a aula só será mantida nas grades que permaneceram selecionadas.
+ma mensagem de que serão excluídas irá aparecer (ver figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Confirmação-exibida-após-descompartilhar"
+
+\end_inset
+
+); prossiga com o processo e a aula só será mantida nas grades que permaneceram
+ selecionadas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement th
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-compartilhar-aula-descompartilhar2.png
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Descompartilhamento de aula pelo segundo método.
+ No exemplo, a corrente aula deixará de ser compartilhada com o segundo
+ ano do diurno do Tronco Elétrica.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Descompartilhamento-de-aula-segundo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !tbh
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-compartilhar-aula-descompartilhar2-confirmacao.png
+	height 3.75cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Confirmação exibida após descompartilhar a corrente aula com uma turma e
+ clicado no botão 
+\family sans
+Aceitar.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Confirmação-exibida-após-descompartilhar"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -4579,6 +4838,10 @@ Aulas Quinzenais
 Compartilhamento de Aulas
 \end_layout
 
+\begin_layout Section
+Aulas de Projeto
+\end_layout
+
 \begin_layout Chapter
 Manual de Treinamento
 \end_layout
@@ -5142,9 +5405,6 @@ status open
 
 \begin_layout Plain Layout
 
-\series bold
-\size small
-\emph on
 
 \backslash
 chrulefill{}
@@ -5166,9 +5426,6 @@ status open
 
 \begin_layout Plain Layout
 
-\series bold
-\size small
-\emph on
 
 \backslash
 chrulefill{}
