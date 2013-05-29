@@ -514,8 +514,33 @@ Construção Grade Horária
  o entendimento da operação dos módulos.
 \end_layout
 
+\begin_layout Chapter*
+Sobre Este Manual
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(No capítulo\SpecialChar \ldots{}
+)
+\end_layout
+
 \begin_layout Chapter
 Manual de Operação
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Manual-de-Operação"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(Introdução a este capítulo\SpecialChar \ldots{}
+)
 \end_layout
 
 \begin_layout Section
@@ -3414,6 +3439,10 @@ reference "fig:Botão-deletar-aula"
 \end_inset
 
 ).
+ 
+\series default
+\emph on
+Lembre-se de atualizar o banco de dados para efetivar a exclusão.
 \end_layout
 
 \begin_layout Standard
@@ -3538,7 +3567,7 @@ Deletar\SpecialChar \ldots{}
 , 
 \family default
 \emph default
-na janela de definições da aula, e aceite, conforme figura
+na janela de definições da aula (ver figura
 \begin_inset space ~
 \end_inset
 
@@ -3549,12 +3578,23 @@ reference "fig:Opção-mover-para"
 
 \end_inset
 
-.
+) e aceite.
  Ela aparecerá sobre a planilha, na região denominada 
 \emph on
 Canto
 \emph default
-.
+ (ver figura
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A-região-Canto"
+
+\end_inset
+
+).
  Ao se gerar um relatório PDF de publicação aos alunos
 \begin_inset Foot
 status open
@@ -3630,6 +3670,54 @@ name "fig:Opção-mover-para"
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename imagens/cgh-canto.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+A região 
+\emph on
+Canto
+\emph default
+ em destaque.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A-região-Canto"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -4404,7 +4492,7 @@ Após essa operação, é seguro fechar, pelo próprio Excel, a planilha em bran
 \end_layout
 
 \begin_layout Section
-Sobre
+Informações Sobre o Programa
 \end_layout
 
 \begin_layout Standard
@@ -4608,7 +4696,7 @@ http://...
 \end_layout
 
 \begin_layout Chapter
-Manual de Orientações 
+Manual de Orientações
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:Manual-de-Orientações"
@@ -4616,6 +4704,13 @@ name "chap:Manual-de-Orientações"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(Introdução a este capítulo\SpecialChar \ldots{}
+)
 \end_layout
 
 \begin_layout Standard
@@ -4844,6 +4939,20 @@ Aulas de Projeto
 
 \begin_layout Chapter
 Manual de Treinamento
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Manual-de-Treinamento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(Introdução a este capítulo\SpecialChar \ldots{}
+)
 \end_layout
 
 \begin_layout Labeling
@@ -5260,6 +5369,20 @@ Sobre...
 \begin_layout Chapter
 \start_of_appendix
 Referências de Comportamento e Siglas
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Referências-de-Comportamento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(Introdução a este capítulo\SpecialChar \ldots{}
+)
 \end_layout
 
 \begin_layout Section
@@ -7516,19 +7639,22 @@ name "sub:Exclusão-de-aulas"
 
 \begin_layout Standard
 
+\series bold
+Até a versão 0.1.8
 \series medium
-Na exclusão da única aula de uma turma, ou seja, quando se excluir uma determina
-da aula o horário ficar em branco, uma mensagem de erro será exibida e o
- programa não funcionará mais corretamente.
+, na exclusão da única aula de uma turma, ou seja, quando se excluir uma
+ determinada aula o horário ficar em branco, uma mensagem de erro será exibida
+ e o programa não funcionará mais corretamente.
  Portanto, certifique-se de adicionar algumas aulas antes de excluir tudo
  que não é de interesse.
- Utilize a opção 
-\family sans
-\emph on
-Mover para o canto
-\family default
-\emph default
- nessa etapa, para facilitar e evitar superposições.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+A partir da versão 0.1.9
+\series default
+, este erro não mais ocorre.
 \end_layout
 
 \begin_layout Subsection
