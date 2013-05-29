@@ -289,6 +289,36 @@ neste tipo de trabalho, data e horário de extração dos dados são sempre
 Construção Grade Horária
 \end_layout
 
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\emph on
+\bar under
+Nota
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\emph on
+Este capítulo tornou-se obsoleto, uma vez que o
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\emph on
+material agora faz parte do manual do CGH.
+\end_layout
+
 \begin_layout Subsection
 Criação de Grade Horária
 \end_layout
