@@ -129,8 +129,8 @@ Ajuste de Impressão
 
 \begin_layout Standard
 Realizar ajuste de impressão, se necessário, aplicando um fator de ampliação
- ou redução, no próprio aplicativo leito de PDF ou nas propriedades da impressor
-a, de tal forma que a linha abaixo possua 10 cm de comprimento.
+ ou redução, no próprio aplicativo leitor de PDF ou nas propriedades da
+ impressora, de tal forma que a linha abaixo possua 10 cm de comprimento.
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -698,13 +698,13 @@ width "88bp"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename ../../logos/cc-by-sa-88x31.png
+	filename imagens/cc-by-sa-88x31.png
 
 \end_inset
 
