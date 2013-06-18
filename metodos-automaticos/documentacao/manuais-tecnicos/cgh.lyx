@@ -59,23 +59,6 @@
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Valores por referencia tem alguma simbologia diferente?
-\end_layout
-
-\begin_layout Plain Layout
-Void, para procedimentos?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Módulo 
 \begin_inset Quotes eld
@@ -123,18 +106,6 @@ Atributos
 
 \emph on
 Não existem.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-p...??
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -149,19 +120,6 @@ Propriedades
 
 \emph on
 Não existem.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-Get/ Let??
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -203,7 +161,10 @@ Acesso_Divisao (registro: ADODB.Recordset, FiltroAno: string, FiltroSemestre:
 
 \emph on
 Acessa a divisão (definição) das turmas.
- Se o banco for local sua identificação é ligeiramente diferente de quando
+\begin_inset Newline newline
+\end_inset
+
+Se o banco for local sua identificação é ligeiramente diferente de quando
  remoto.
 \end_layout
 
@@ -283,7 +244,7 @@ status open
 \begin_layout Plain Layout
 
 \emph on
-tabela horarios?? (planilha horaria?)
+??
 \end_layout
 
 \end_inset
@@ -646,7 +607,7 @@ BotaoAula_TrataClique (NomeAula: String): Void
 \begin_layout Standard
 
 \emph on
-Ao se pressionar um botão de aula, abre a caixa de diálogo para entrar com
+Ao se pressionar um botão de aula, abre a caixa de diálogo para acessar
  suas definições.
 \end_layout
 
@@ -830,13 +791,11 @@ LTexto (Texto: String, NomeFonte: String, TamanhoFonte: Long): Long
 
 \emph on
 Calcula a largura de um texto, com base na fonte.
- Usa o auxílio de um rótulo em '
+ Usa o auxílio de um rótulo em 
 \family typewriter
-\emph default
 FormAuxiliar
 \family default
-\emph on
-'.
+.
 \end_layout
 
 \end_deeper
@@ -889,25 +848,13 @@ Enumerações
 eDiaSem:
 \family default
  DOM, SEG, TER, QUA, QUI, SEX, SAB
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\series medium
-?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
 
 \emph on
-Enumerações referentes aos dias da semana.
+Enumeração referente aos dias da semana.
 \end_layout
 
 \end_deeper
@@ -1035,8 +982,8 @@ CalcHorFim (HorIni: String, QtdHa: Integer): String
 \begin_layout Standard
 
 \emph on
-Cálculo do horário final de uma aula, com base em seu horário inicial e
- duração e em horas-aula.
+Faz o cálculo do horário final de uma aula, com base em seu horário inicial
+ e duração em horas-aula.
 \end_layout
 
 \end_deeper
@@ -1135,7 +1082,7 @@ Hors (i: Integer): String
 
 \emph on
 Define horários de início e fim das aulas.
- Correção da exibição na planilha para os novos horários.
+ Faz a correção da exibição na planilha para os novos horários.
 \end_layout
 
 \end_deeper
@@ -1204,18 +1151,6 @@ IndGtl (GtlTxt: String): Integer
 \emph on
 Retorna o índice do grupo, turma, laboratório.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-?
-\end_layout
-
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1223,7 +1158,7 @@ status open
 \begin_inset Quotes eld
 \end_inset
 
-T
+G
 \begin_inset Quotes erd
 \end_inset
 
@@ -1235,7 +1170,7 @@ T
 \begin_inset Quotes eld
 \end_inset
 
-E
+T
 \begin_inset Quotes erd
 \end_inset
 
@@ -1357,13 +1292,11 @@ Nz (Valor: Variant, [ValorSeNulo: Variant =
 \begin_layout Standard
 
 \emph on
-Emula parcialmente a função '
+Emula parcialmente a função 
 \family typewriter
-\emph default
 Nz()
 \family default
-\emph on
-' do 
+ do 
 \family typewriter
 \emph default
 Access
@@ -1397,7 +1330,7 @@ TextoAbrTelp (i: Integer): String
 \begin_layout Standard
 
 \emph on
-Texto descritivo abreviado sobre teoria, exercício e laboratório.
+Texto descritivo abreviado sobre teoria, exercício, laboratório e projeto.
 \end_layout
 
 \end_deeper
@@ -1411,7 +1344,7 @@ TextoTelp (i: Integer): String
 \begin_layout Standard
 
 \emph on
-Texto descritivo sobre teoria, exercício e laboratório).
+Texto descritivo sobre teoria, exercício, laboratório e projeto.
 \end_layout
 
 \end_deeper
@@ -1426,25 +1359,7 @@ txtConexao (Usuario: String, Senha: String, [NovaSenha: String =
 \begin_inset Quotes erd
 \end_inset
 
-] 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-= 
-\begin_inset Quotes eld
-\end_inset
-
- 
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-): String
+]): String
 \end_layout
 
 \begin_deeper
@@ -1454,13 +1369,11 @@ status open
 Texto de definição de conexão.
  Deverá ser fornecido usuário e senha.
  Para gerar um texto de conexão próprio para a alteração da senha, deve-se
- fornecer o terceiro parâmetro '
+ fornecer o terceiro parâmetro 
 \family typewriter
-\emph default
 Nova Senha
 \family default
-\emph on
-' com uma literal não nula.
+ com uma literal não nula.
 \end_layout
 
 \end_deeper
@@ -2233,11 +2146,11 @@ A_PlanGrdHor (IdTurma: String): Worksheet
 
 \emph on
 Retorna uma referência a planilha da grade horária de uma turma.
- Se a referência para a turma não for encontrada, retorna '
+ Se a referência para a turma não for encontrada, retorna 
 \family typewriter
 Nothing
 \family default
-'.
+.
 \end_layout
 
 \end_deeper
@@ -2512,11 +2425,11 @@ FormatarBotaoAula (PlanGrdHor: Worksheet, Aula: clsAula, ProfSala: Boolean,
 Formatação visual do botão aula.
  Pode-se acrescentar ou não informaçoes de professor e sala.
  Se for aula nova, o texto será diferente das informações de aula.
- Se for para '
+ Se for para 
 \family typewriter
-pdf
+PDF
 \family default
-' a fonte será sempre 
+ a fonte será sempre 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2529,19 +2442,6 @@ Arial Narrow
 \end_inset
 
 .
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-textos em typewriter?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -2758,16 +2658,6 @@ AplicarDefinicoesAula (Aula: clsAula, DiaSem: String, HorIni: String, QtdHa:
  Boolean = False]): Void
 \family default
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-=??
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -2985,7 +2875,11 @@ rmas: Integer, QtdLabs: Integer) clsTurma
 \emph on
 Cria uma nova turma com os dados especificados.
  Se a mesma turma foi previamente excluída e o banco e dados ainda não foi
- atualizado, não permite a criação e retorna nothing.
+ atualizado, não permite a criação e retorna 
+\family typewriter
+Nothing
+\family default
+.
  Caso contrário, retorna uma referência à turma criada.
  
 \end_layout
@@ -3030,11 +2924,11 @@ DesenharGrades ([QualTurma: clsTurma = Nothing]): Void
 
 \emph on
 Desenha os objetos visuais das turmas.
- Se '
+ Se 
 \family typewriter
 QualTurma = Nothing
 \family default
-', todas as turmas carregadas serão desenhadas.
+, todas as turmas carregadas serão desenhadas.
  Caso contrário, apenas a especificada.
  Se ela já estiver sido carregada nada será feito.
 \end_layout
@@ -3062,7 +2956,7 @@ Desenha grades horárias para a geração de PDF.
 \begin_inset Newline newline
 \end_inset
 
-Se 'QualIdTurma' for 
+Se QualIdTurma for 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3072,7 +2966,7 @@ Se 'QualIdTurma' for
 
 , todas serão geradas.
  Caso contrário, apenas a da turma especificada.
- Será utilizado o 'LivroPDF' e, em cada planilha, haverá apenas um grupo.
+ Será utilizado o LivroPDF e, em cada planilha, haverá apenas um grupo.
  O arquivo PDF já será gerado.
 \end_layout
 
@@ -3253,15 +3147,15 @@ Reconstrói uma aula, a partir dos dados fornecidos.
 \begin_inset Newline newline
 \end_inset
 
-O atributo '
+O atributo 
 \family typewriter
 Modificado
 \family default
-' de aula assumirá o valor 
+ de aula assumirá o valor 
 \family typewriter
 .F.
 \family default
-, se '
+, se 
 \family typewriter
 NomeAula <> 
 \begin_inset Quotes eld
@@ -3273,13 +3167,13 @@ NomeAula <>
 
 
 \family default
-'.
+.
 \begin_inset Newline newline
 \end_inset
 
-'
+
 \family typewriter
-NomeAula' poderá ser 
+NomeAula poderá ser 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3289,7 +3183,7 @@ NomeAula' poderá ser
 
 
 \family default
-', o que indicará a criação de nova aula.
+, o que indicará a criação de nova aula.
  Neste caso, '
 \family typewriter
 Modificado
@@ -3302,31 +3196,17 @@ Modificado
 \begin_inset Newline newline
 \end_inset
 
-A '
+A 
 \family typewriter
 IdsAulasCompartilhadas
 \family default
-' será acresecentado um item tipo matriz de 3 linhas com informações do
- tipo texto a respeito das aulas compartilhadas, se a aula corrente for
- compartilhada; o índice 0, será a aula corrente; o 1, a anterior; e o 2,
- a seguinte.
+ será acresecentado um item tipo matriz de 3 linhas com informações do tipo
+ texto a respeito das aulas compartilhadas, se a aula corrente for compartilhada
+; o índice 0, será a aula corrente; o 1, a anterior; e o 2, a seguinte.
 \begin_inset Newline newline
 \end_inset
 
 Será retornado o ponteiro para a aula criada.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-Typewriter?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -3361,26 +3241,14 @@ Reformata a exibição de todas as aulas da turma.
 \begin_layout Description
 
 \family typewriter
-{ReDefinirAulas ()}
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\family typewriter
-??
-\end_layout
-
-\end_inset
-
-
+TransformarEm (AnoDestino: Integer, Semest
 \end_layout
 
 \begin_layout Description
 
 \family typewriter
-TransformarEm (AnoDestino: Integer, SemestreDestino: Integer, [IdsTurmasNaoTrans
-formadas: Collection = Nothing]): Void
+reDestino: Integer, [IdsTurmasNaoTransformadas: Collection = Nothing]):
+ Void
 \end_layout
 
 \begin_deeper
@@ -3394,11 +3262,11 @@ Tranforma os dados correntes de um ano e semestre para outro ano e semestre.
 É inclusa a alteração dos nomes das planilhas e das chaves das coleções
  de turmas e registros a excluir.
  Se acaso já existir a turma de destino, não será realizada a transformação
- para tal turma e sua identificação será acrescentada na coleção '
+ para tal turma e sua identificação será acrescentada na coleção 
 \family typewriter
 IdsTurmasNaoTransformadas
 \family default
-', se fornecida, e será exibida em uma mensagem de erro.
+, se fornecida, e será exibida em uma mensagem de erro.
 \end_layout
 
 \end_deeper
@@ -3689,11 +3557,11 @@ O tipo
 \family typewriter
 Variant
 \family default
- resolveu 'Erros' do tipo '
+ resolveu erros do tipo 
 \family typewriter
 ADODB.Errors
 \family default
-', que geravam erros em algumas instalações do Excel (máquinas com Excel).
+, que eram gerados em algumas instalações do Excel (máquinas com Excel).
 \end_layout
 
 \end_deeper
