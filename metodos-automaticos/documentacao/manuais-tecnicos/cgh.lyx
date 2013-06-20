@@ -64,11 +64,30 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 AcessaBanco
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+T
+\emph default
+ypewriter também no título? já que todas as palavras que também constam
+ no código estão assim indicadas?
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -236,20 +255,8 @@ Acesso_TabHorarios (registro: ADODB.Recordset, FiltroAno: string, FiltroSemestre
 \begin_layout Standard
 
 \emph on
-Localiza e acessa tabela de horários no banco de dados, a partr de dados
- de filtro fornecidos pelo usuário.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-??
-\end_layout
-
-\end_inset
-
-
+Filtra informações do banco de dados, e monta a tabela horários com as turmas
+ especificadas.
 \end_layout
 
 \end_deeper
@@ -267,19 +274,6 @@ AtualizarDados_Divisao (ID_Turma: Variant, Ano: Integer, Habilitacao: Variant,
 
 \emph on
 Atualiza dados de divisão de turmas.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-Conforme InserirDados_Divisao
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -298,20 +292,7 @@ tilhadaAnterior, AulaCompartilhadaSeguinte): Void
 \begin_layout Standard
 
 \emph on
-Atualiza dados Planilha Horária.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-?
-\end_layout
-
-\end_inset
-
-
+Atualiza dados da planilha horária, relativos as aulas.
 \end_layout
 
 \end_deeper
@@ -339,8 +320,7 @@ ExisteDado_Divisao (IdTurma: Variant): Boolean
 \begin_layout Standard
 
 \emph on
-Verifica existência de dados de divisão relativos a turma definida como
- parâmetro de entrada.
+Verifica existência da turma definida como parâmetro de entrada.
 \end_layout
 
 \end_deeper
@@ -354,8 +334,8 @@ ExisteDado_TabHorario (NomeAula: Variant, IdTurma: Variant): Boolean
 \begin_layout Standard
 
 \emph on
-Verifica existência de dados da tabela horária, relativos a turma definida
- como parâmetro de entrada.
+Verifica existência de dados de aula na Planilha Horária, relativos a turma
+ e a aula definidas como parâmetros de entrada.
 \end_layout
 
 \end_deeper
@@ -386,16 +366,7 @@ InserirDados_Divisao (ID_Turma: Variant, Ano: Integer, Habilitacao: Variant,
 \begin_layout Standard
 
 \emph on
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-???
-\end_layout
-
-\end_inset
-
-Acessa e define propriedades de turma.
+Importa dados de divisão e propriedades de turma.
 \end_layout
 
 \end_deeper
@@ -414,20 +385,7 @@ tilhadaAnterior: Variant, AulaCompartilhadaSeguinte: Variant): Void
 \begin_layout Standard
 
 \emph on
-Insere dados na Planilha Horária.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-?
-\end_layout
-
-\end_inset
-
-
+Importa dados da planilha horária relativas as aulas.
 \end_layout
 
 \end_deeper
@@ -447,7 +405,7 @@ Deleta divisão de turma.
 status open
 
 \begin_layout Plain Layout
-???
+deleta caracteristicas da turma ou ela inteira do banco de dados?
 \end_layout
 
 \end_inset
@@ -466,17 +424,7 @@ RemoverDados_TabHorario (NomeAula: Variant, IdTurma: Variant): Void
 \begin_layout Standard
 
 \emph on
-Remove Dados na Planilha Horária.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-?
-\end_layout
-
-\end_inset
-
-
+Remove aula da Planilha Horária.
 \end_layout
 
 \end_deeper
@@ -512,7 +460,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 Cod_PlanGrdHor
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -520,7 +472,7 @@ Cod_PlanGrdHor
 \end_layout
 
 \begin_layout Standard
-Rotinas para tratamento de enventos dos controles das planilhas de grade
+Rotinas para tratamento de eventos dos controles das planilhas de grade
  horária.
  Em tempo de execução o código para clique de cada botão de aula será acrescenta
 do.
@@ -901,20 +853,6 @@ Públicos
 \begin_layout Description
 
 \family typewriter
-Inicializacoes (): Void
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\emph on
-Executa diversos procedimentos de inicialização.
-\end_layout
-
-\end_deeper
-\begin_layout Description
-
-\family typewriter
 BaseDeslHors (Periodo: String): tBaseDesl
 \end_layout
 
@@ -1277,6 +1215,20 @@ Outros valores: -1
 \begin_layout Description
 
 \family typewriter
+Inicializacoes (): Void
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Executa diversos procedimentos de inicialização.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
 Nz (Valor: Variant, [ValorSeNulo: Variant = 
 \begin_inset Quotes eld
 \end_inset
@@ -1477,6 +1429,7 @@ CelRefGrade (Plan: Worksheet): Range
 
 \emph on
 Define células de renferência de grade.
+ Somente leitura.
 \end_layout
 
 \end_deeper
@@ -1490,19 +1443,8 @@ CelRefCab (Plan: Worksheet): Range
 \begin_layout Standard
 
 \emph on
-Define referência de 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-...
-\end_layout
-
-\end_inset
-
-
+Define referência de cabeçalho.
+ Somente leitura.
 \end_layout
 
 \end_deeper
@@ -1983,6 +1925,7 @@ LerFiltroAno (): String
 
 \emph on
 Obtém filtro para ano.
+ Somente leitura.
 \end_layout
 
 \end_deeper
@@ -1997,6 +1940,7 @@ LerFiltroSemestre (): String
 
 \emph on
 Obtém filtro para semestre.
+ Somente leitura.
 \end_layout
 
 \end_deeper
@@ -2132,6 +2076,7 @@ A_PlanPDF (IdTurma: String): Worksheet
 \emph on
 Retorna uma referência à planilha para gerar o arquivo PDF da grade horária
  de uma turma.
+ Somente leitura.
 \end_layout
 
 \end_deeper
@@ -2151,6 +2096,7 @@ Retorna uma referência a planilha da grade horária de uma turma.
 Nothing
 \family default
 .
+ Somente leitura.
 \end_layout
 
 \end_deeper
@@ -2165,6 +2111,7 @@ LivroGrade ([QualLivro: eLivros = cghLivroGrdHor]): Workbook
 
 \emph on
 Retorna uma referência a um ods livros de grade horária.
+ Somente leitura.
 \end_layout
 
 \end_deeper
@@ -3059,16 +3006,6 @@ Gera os arquivos das publicações em PDF.
 Identifica (IdAula: String, NomeAula: String, IdTurma: String): Void
 \family default
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Function??
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
@@ -3594,6 +3531,84 @@ modColorFunctions
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Deve-se definir esse módulo função a função?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rotinas de controle de cores na planilha.
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+modColorFunctions
+\end_layout
+
+\begin_layout Plain Layout
+
+By Chip Pearson, chip@cpearson.com
+\end_layout
+
+\begin_layout Plain Layout
+
+www.cpearson.com 
+\end_layout
+
+\begin_layout Plain Layout
+
+This module described at www.cpearson.com/Excel/Colors.aspx
+\end_layout
+
+\begin_layout Plain Layout
+
+Date: 24-January-2008.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ou
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By Chip Pearson, chip@cpearson.com
+\end_layout
+
+\begin_layout Standard
+www.cpearson.com
+\end_layout
+
+\begin_layout Standard
+This module described at www.cpearson.com/Excel/Colors.aspx
+\end_layout
+
+\begin_layout Standard
+Date: 24-January-2008.
 \end_layout
 
 \begin_layout Description
@@ -3602,12 +3617,14 @@ modColorFunctions
 Enumerações
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 
 \emph on
 Não existem.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 
 \size large
@@ -3684,18 +3701,24 @@ modExtras
 
 \end_layout
 
+\begin_layout Standard
+Módulos extras.
+\end_layout
+
 \begin_layout Description
 
 \size large
 Enumerações
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 
 \emph on
 Não existem.
 \end_layout
 
+\end_deeper
 \begin_layout Description
 
 \size large
@@ -3810,17 +3833,7 @@ http://www.microsoftexcel.com.br/index.php/excel-dicas-microsoft-excel-vba/169-e
 \begin_layout Description
 
 \family typewriter
-Pause (NumberOfSeconds: Variant): 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-function?
-\end_layout
-
-\end_inset
-
-
+Pause (NumberOfSeconds: Variant): Void
 \end_layout
 
 \begin_deeper
@@ -3828,7 +3841,11 @@ function?
 
 \emph on
 Gera uma pausa, permitindo atualizações visuais no Access.
- Segundo o autor do código, 'Sleep()' não tem o mesmo efeito.
+ Segundo o autor do código, 
+\family typewriter
+Sleep()
+\family default
+ não tem o mesmo efeito.
 \begin_inset Newline newline
 \end_inset
 
@@ -3869,7 +3886,7 @@ status open
 \begin_layout Plain Layout
 
 \emph on
-?
+Não sei se é realmente essa a função desta rotina.
 \end_layout
 
 \end_inset
