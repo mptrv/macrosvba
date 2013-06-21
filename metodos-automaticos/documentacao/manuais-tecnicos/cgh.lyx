@@ -50,11 +50,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 239966243 "mptrev" 
 \end_header
 
 \begin_body
@@ -83,6 +84,10 @@ T
 \emph default
 ypewriter também no título? já que todas as palavras que também constam
  no código estão assim indicadas?
+\change_inserted 239966243 1371774964
+ Sim.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -406,6 +411,11 @@ status open
 
 \begin_layout Plain Layout
 deleta caracteristicas da turma ou ela inteira do banco de dados?
+\change_inserted 239966243 1371775080
+ Ela inteira, pois cada turma é representada em um registro (uma linha)
+ da tabela do banco de dados.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -3536,6 +3546,10 @@ status open
 
 \begin_layout Plain Layout
 Deve-se definir esse módulo função a função?
+\change_inserted 239966243 1371775253
+ Sim, um breve descritivo de cada uma delas.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -3568,6 +3582,7 @@ www.cpearson.com
 \end_layout
 
 \begin_layout Plain Layout
+\align left
 
 This module described at www.cpearson.com/Excel/Colors.aspx
 \end_layout
@@ -3588,6 +3603,11 @@ status open
 
 \begin_layout Plain Layout
 ou
+\change_inserted 239966243 1371775372
+ -- A princípio, o de cima.
+ Todavia, um texto de introdução se faz necessário.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -3887,6 +3907,12 @@ status open
 
 \emph on
 Não sei se é realmente essa a função desta rotina.
+
+\change_inserted 239966243 1371775578
+ Esta rotina apenas exibe o nome do usuário e do computador numa caixa de
+ mensagem, com a finalidade apenas para teste.
+\change_unchanged
+
 \end_layout
 
 \end_inset
