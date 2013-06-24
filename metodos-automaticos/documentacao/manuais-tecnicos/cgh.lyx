@@ -50,7 +50,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -74,25 +74,6 @@ AcessaBanco
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-T
-\emph default
-ypewriter também no título? já que todas as palavras que também constam
- no código estão assim indicadas?
-\change_inserted 239966243 1371774964
- Sim.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
- 
 \end_layout
 
 \begin_layout Standard
@@ -404,7 +385,7 @@ RemoverDados_Divisao (IdTurma: Variant): Void
 \begin_layout Standard
 
 \emph on
-Deleta divisão de turma.
+Deleta turma do banco de dados.
  
 \begin_inset Note Note
 status open
@@ -677,7 +658,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 FuncoesParaControles
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -785,7 +770,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 Geral
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -1381,7 +1370,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 Gerar PDFs
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -1630,7 +1623,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 GerenciaBanco
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -1864,7 +1861,15 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 GerenciaFiltros
+\family default
+
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -2021,7 +2026,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 GerenciaPlanGrdHor
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -2515,7 +2524,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 GerenciaTurmas
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -3241,7 +3254,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 GerenciaUsuario
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -3536,29 +3553,19 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 modColorFunctions
+\family default
+
 \begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Deve-se definir esse módulo função a função?
-\change_inserted 239966243 1371775253
- Sim, um breve descritivo de cada uma delas.
-\change_unchanged
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Rotinas de controle de cores na planilha.
+Rotinas de tratamento de cores no Excel, obtidas em:
 \end_layout
 
 \begin_layout Standard
@@ -3598,37 +3605,9 @@ Date: 24-January-2008.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-ou
-\change_inserted 239966243 1371775372
- -- A princípio, o de cima.
- Todavia, um texto de introdução se faz necessário.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-By Chip Pearson, chip@cpearson.com
-\end_layout
-
-\begin_layout Standard
-www.cpearson.com
-\end_layout
-
-\begin_layout Standard
-This module described at www.cpearson.com/Excel/Colors.aspx
-\end_layout
-
-\begin_layout Standard
-Date: 24-January-2008.
+Para todas as funções ColorIndex representa uma valor de 1 a 56 ou xlColorIndexN
+one ou xlColorIndexAutomatic.
+ 
 \end_layout
 
 \begin_layout Description
@@ -3684,12 +3663,395 @@ Públicos
 \end_layout
 
 \begin_deeper
+\begin_layout Description
+
+\family typewriter
+ChooseColorDialog (DefaultColor: Long): Long
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 
 \emph on
-Não existem.
+Exibe uma caixa de diálogo padrão para escolha de cor, e retorna a que foi
+ selecionada.
 \end_layout
 
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+ColorIndexOfOneCell (Cell: Range, OfText: Boolean, DefaultColorIndex: Long):
+ Long
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna o 
+\family typewriter
+ColorIndex
+\family default
+ de uma célula.
+ O 
+\family typewriter
+ColorIndex
+\family default
+ é uma propriedade 
+\family typewriter
+Font
+\family default
+ ou então a propriedade 
+\family typewriter
+Interior
+\family default
+ é atribuida.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+ColorIndexOfRange (InRange: Range, [OfText: Boolean = False], [DefaultColorIndex
+: Long = -1]): Variant
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna um arranjo dos valores de 
+\family typewriter
+ColorIndex
+\family default
+ de uma 
+\family typewriter
+Range
+\family default
+.
+ O 
+\family typewriter
+ColorIndex
+\family default
+ é uma propriedade 
+\family typewriter
+Font
+\family default
+ ou uma propriedade 
+\family typewriter
+Interior
+\family default
+ é atribuida.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+ColorIndexOfRGBLong (RGBLong: Long): Long
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna a identificação da cor (
+\family typewriter
+ColorIndex
+\family default
+) associada ao valor da mesma em RGB.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+ColorName (RGBLong: Long): String
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna o nome de uma cor RGB específica em inglês americano (
+\emph default
+US-English
+\emph on
+), a cor precisa constar na palheta padrão do Excel.
+ Se nenhum resultado é encontrado retorna 
+\family typewriter
+vbNullString
+\family default
+, se a cor não possui um nome retorna 
+\family typewriter
+UNNAMED
+\family default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+ColorNameOfRGB (RGBLong: Long): String
+\end_layout
+
+\begin_layout Description
+
+\family typewriter
+CountColor (InRange: Range, ColorIndex: Long, [OfText: Boolean = False]):
+ Long
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Conta o número de células que possuem um determinado ColorIndex.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+DefaultColorPallet (): Variant
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna um arranjo de cores padrão.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+DefaultColorNames (): Variant
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna um arranjo do nome das cores em inglês ameriano (
+\emph default
+US-English
+\emph on
+), feito de tal forma que seu valor de 
+\family typewriter
+ColorIndex
+\family default
+ pode ser usado como 
+\family typewriter
+Index
+\family default
+ do 
+\family typewriter
+Array
+\family default
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+IsColorIndexDefault (ColorIndex: Long): Boolean
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna se a cor corresponde pertence as cores padrão do Excel.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+IsColorPalletDefault: ([Workbook: Workbook = Nothing]): Boolean
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna se a palheta de cores especificada para o 
+\family typewriter
+Workbook
+\family default
+ foi modificada.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+IsValidColorIndex (ColorIndex: Long): Boolean
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Indica se o valor é um 
+\family typewriter
+ColorIndex
+\family default
+ válido.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+IsValidRGBLong (RGBLong: Long): Boolean
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Indica se uma 
+\family typewriter
+Long Integer
+\family default
+ é uma cor RGB válida.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+RangeOfColors (TestRange: Range, ColorIndex: Long, [OfText: Boolean = False]):
+ Range
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna uma 
+\family typewriter
+Range 
+\family default
+contendo as células individuais que a 
+\family typewriter
+Font
+\family default
+ ou o 
+\family typewriter
+Interior
+\family default
+ possuem determinado 
+\family typewriter
+ColorIndex
+\family default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+RGBComponentsFromRGBLong (RGBLong: Long): Long
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna um arranjo contendo os componentes vermelho, verde e azul de uma
+ cor RGB.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+RGBComponentsFromRGBLongToVariables (RGBLong: Long, Red: Long, Green: Long,
+ Blue: Long): Boolean
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Define variáveis aos componentes de uma cor RGB, o componente é definido
+ como -1 caso ele não seja válido e então retorna 
+\family typewriter
+False
+\family default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+RGBLong (Red: Long, Green: Long, Blue: Long): Long
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna uma representação 
+\family typewriter
+Long Integer
+\family default
+ da cor definida por valores de vermelho (red), verde (green) e azul (blue).
+ Retora -1 se algum dos parâmetros não estiver no intervalo 0 < 255.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+RGBLongFromColorIndex (ColorIndex: Long): Long
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna a cor em RGB correspondente a um 
+\family typewriter
+ColorIndex
+\family default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+SumColor (TestRange: Range, SumRange: Range, ColorIndex: Long, [OfText:
+ Boolean = False]): Variant
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SOMA?
+\end_layout
+
+\end_inset
+
+Soma as células que possuem um ColorIndex específica.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Description
 
@@ -3714,7 +4076,11 @@ Módulo
 \begin_inset Quotes eld
 \end_inset
 
+
+\family typewriter
 modExtras
+\family default
+
 \begin_inset Quotes erd
 \end_inset
 
