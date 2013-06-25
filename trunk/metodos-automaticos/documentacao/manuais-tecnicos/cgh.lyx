@@ -60,6 +60,66 @@
 
 \begin_body
 
+\begin_layout Title
+Manual do usuário
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+\emph on
+(edição preliminar)
+\size default
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+ 
+\family typewriter
+\emph on
+Sistema Horários
+\begin_inset Newline newline
+\end_inset
+
+Módulo Construção Grade Horária
+\begin_inset Newline newline
+\end_inset
+
+Versão 0.1.8
+\end_layout
+
+\begin_layout Author
+Mariane Tonon Lorenzetti
+\begin_inset Newline newline
+\end_inset
+
+José Governo Pais Neto
+\begin_inset Newline newline
+\end_inset
+
+Fábio Costa Portásio
+\begin_inset Newline newline
+\end_inset
+
+Marcelo Porto Trevizan
+\end_layout
+
+\begin_layout Date
+Junho de 2013
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Módulo 
 \begin_inset Quotes eld
