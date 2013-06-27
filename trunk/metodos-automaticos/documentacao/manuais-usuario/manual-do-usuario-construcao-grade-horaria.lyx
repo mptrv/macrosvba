@@ -5367,19 +5367,17 @@ name "chap:Manual-de-Orientações"
 \end_layout
 
 \begin_layout Standard
-
+Neste capítulo, apresentam-se as orientações a serem seguidas para o lançamento
+ das aulas ou de suas propriedades, quando estas possuírem aspectos não
+ comuns à grande maioria das demais aulas.
+ Como exemplo de tal situação, citam-se as aulas de 
 \emph on
-(Introdução a este capítulo\SpecialChar \ldots{}
-)
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-
-\emph on
-*** Este Manual de Orientações ainda encontra-se em edição.
- ***
+Introdução à Engenharia
+\emph default
+, as quinzenais e as de dependência, ou as aulas que ainda não possuem professor
+ específico.
+ Nas seções deste capítulo, também encontram-se simulações para diversos
+ casos, a fim de que possam ser utilizadas como referência.
 \end_layout
 
 \begin_layout Section
@@ -5397,7 +5395,7 @@ name "sec:Professores-e-Salas"
 
 \series medium
 Casos especiais quanto a salas e professores são previstos no programa e,
- portanto, existem opções na hora de escolha dos mesmos.
+ portanto, existem opções especiais de escolha dos mesmos.
 \end_layout
 
 \begin_layout Standard
@@ -5412,7 +5410,11 @@ PROF
 \end_inset
 
 ATVCOMPL Professor de Atividade Complementar -- como, por exemplo, para
- a disciplina Libras;
+ a disciplina 
+\emph on
+Libras
+\emph default
+;
 \end_layout
 
 \begin_layout Description
@@ -5439,10 +5441,10 @@ PROF
 \begin_inset space ~
 \end_inset
 
-INDEF Professor Indefinido -- durante a definição dos horários de aulas
+INDEF Professor Indefinido -- durante a definição dos horários de aulas,
  muitas vezes os professores são definidos posteriormente; essa opção garante
  a criação da aula e depois, com sua alteração, especifica-se o nome do
- professor definido;
+ professor por fim definido;
 \end_layout
 
 \begin_layout Description
@@ -5465,14 +5467,14 @@ reference "sec:Introdução-a-Engenharia"
 
 \series medium
 Também existem salas especiais disponibilizadas para organização das grades
- horárias, são elas:
+ horárias.
+ São elas:
 \end_layout
 
 \begin_layout Description
-IND Sala Indeterminada -- do mesmo modo que professores são determinados
- posteriormente à criação das grades horárias, o mesmo acontece com as salas;
- com tal finalidade, essa opção pode ser selecionada e posteriormente deverá
- ser modificada;
+IND Sala Indeterminada -- assim como professores são determinados posteriormente
+ à criação das grades horárias, o mesmo acontece com as salas; com tal finalidad
+e, essa opção pode ser selecionada e posteriormente deverá ser modificada;
 \end_layout
 
 \begin_layout Description
@@ -5484,6 +5486,154 @@ reference "sec:Introdução-a-Engenharia"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Subsection
+Simulações
+\end_layout
+
+\begin_layout Enumerate
+Suponha que uma aula de uma determinada turma já possua dia e horário definidos.
+ Contudo, ainda não se sabe qual o professor irá ministrá-la e nem a sala
+ que será alocada.
+ Portanto, o professor deverá ser atribuído a 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+INDEF 
+\series default
+e a sala a
+\series bold
+ IND
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Considere que é sabido que um professor será contratado para dar aulas de
+ Física, em determinado dia e horário já estabelecidos.
+ Neste caso, o professor deverá ser atribuído a 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+CADAST
+\series default
+, pois ele ainda não foi contratado pela instituição e ainda não possui
+ os dados cadastrados no sistema.
+\end_layout
+
+\begin_layout Enumerate
+Considere que a aula de 
+\emph on
+Libras
+\emph default
+ será lançada.
+ Como tal disciplina não é associada a nenhuma habilitação, mas a instituição
+ é obrigada a oferecer, trata-se de uma 
+\emph on
+atividade complementar
+\emph default
+.
+ Portanto, na planilha de grade horária das atividades complementares, esta
+ aula deverá ser lançada.
+ Ao atribuir o professor, tem-se duas possibilidades: caso o professor pertença
+ à instituição, bastará atribuir seu nome à aula; caso o professor não pertença
+ à instituição, então atribui-se 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+ATVCOMPL
+\series default
+ ao nome do professor.
+\end_layout
+
+\begin_layout Enumerate
+Se uma determinada disciplina não fizer parte das atividades complementares
+ e o professor que a ministrará não pertencer à instituição, então este
+ professor é um professor externo e deverá ser atribuído 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+EXT 
+\series default
+ao nome do professor da aula.
+ Atenção para o fato de que professores da categoria 
+\begin_inset Quotes eld
+\end_inset
+
+convidado
+\begin_inset Quotes erd
+\end_inset
+
+ são professores pertencentes à instituição e, por isso, não devem ser lançados
+ como professor externo.
+\end_layout
+
+\begin_layout Enumerate
+Simulações para a disciplina 
+\emph on
+Introdução à Engenharia
+\emph default
+ encontram-se na seção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Simulações-inteng"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Observações
+\end_layout
+
+\begin_layout Enumerate
+Não atribua 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+CADAST
+\series default
+ quando, de fato, se teria um 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+INDEF
+\series default
+, ou vice-versa.
+ Embora o efeito em termos de alocação de aula seja semelhante, ao se atribuir
+ adequadamente 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+CADAST
+\series default
+ e 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+INDEF 
+\series default
+permitirá um rastreamento de quais aulas ainda possuem professores pendentes
+ de contratação ou quais apenas esperam a definição por parte da Coordenação.
+ Esta informação pode ser importante aos gestores administrativos.
 \end_layout
 
 \begin_layout Section
@@ -5500,8 +5650,14 @@ name "sec:Introdução-a-Engenharia"
 \begin_layout Standard
 
 \series medium
-A disciplina Introdução à Engenharia é tratada de maneira particular em
- relação às outras, devido a diversas aulas de 
+A disciplina 
+\series default
+\emph on
+Introdução à Engenharia
+\series medium
+\emph default
+ é tratada de maneira particular em relação às outras, devido a diversas
+ aulas de 
 \series default
 \emph on
 laboratório
@@ -5515,15 +5671,26 @@ laboratório
 
 \series medium
 Para resolver essa particularidade, definiu-se que nas grades horárias normais
- de aula, a disciplina será lançada, 
+ de aula a disciplina será lançada, 
 \series default
 \emph on
 para as aulas de laboratório
 \emph default
-,
+, 
 \series medium
- como Introdução à Engenharia, com professores e salas especiais, conforme
- anteriormente mencionados (PROF INTENG e SLIE).
+com professores e salas especiais, conforme anteriormente mencionados (
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+INTENG
+\series medium
+ e 
+\series bold
+SLIE
+\series medium
+).
  Em seguida, novas grades horárias deverão ser criadas para especificar
  os professores e as salas das aulas em si.
  Essas grades são 
@@ -5558,7 +5725,7 @@ e aula.
 \emph on
 pseudo-habilitações
 \emph default
- disponíveis estão listados
+ disponíveis estão listadas
 \series medium
  no apêndice
 \begin_inset space ~
@@ -5581,12 +5748,438 @@ exercício
 , este lançamento especial não se faz necessário.
 \end_layout
 
+\begin_layout Subsection
+Simulações
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Simulações-inteng"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Suponha que a 
+\bar under
+aula de exercícios
+\bar default
+ de 
+\emph on
+Introdução à Engenharia 
+\emph default
+deva ser lançada na turma da primeira série do diurno, do primeiro semestre
+ de 2013.
+ Portanto, na planilha de grade horária 
+\family sans
+1S1FB-D@2013
+\family default
+, considerada como sendo a 
+\begin_inset Quotes eld
+\end_inset
+
+grade horária normal
+\begin_inset Quotes erd
+\end_inset
+
+, a aula deve ser lançada normalmente, com a correspondente atribuição à
+ disciplina, ao nome professor e à sala onde será ministrada.
+ Isto porque não haverá qualquer subdivisão entre os alunos para participarem
+ desta aula.
+ Salienta-se que o tipo da aula deverá ser 
+\emph on
+exercício
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Agora, suponha que a 
+\bar under
+aula de laboratório
+\bar default
+ de 
+\emph on
+Introdução à Engenharia 
+\emph default
+deva ser lançada na turma da primeira série do diurno, do primeiro semestre
+ de 2013.
+ Portanto, na planilha de grade horária 
+\family sans
+1S1FB-D@2013
+\family default
+, considerada como sendo a 
+\begin_inset Quotes eld
+\end_inset
+
+grade horária normal
+\begin_inset Quotes erd
+\end_inset
+
+, lança-se a aula com atribuição à disciplina, mas com o nome do professor
+ atribuído a 
+\series bold
+PROF
+\begin_inset space ~
+\end_inset
+
+INTENG
+\series default
+ e a sala atribuída a 
+\series bold
+SLIE
+\series default
+.
+ Em seguida, devem ser criadas as grades especiais de 
+\emph on
+Introdução à Engenharia
+\emph default
+, uma para cada habilitação atendida por ela, conforme listado na tabela
+ presente no apêndice
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Listagem-das-siglas"
+
+\end_inset
+
+ (
+\family sans
+1S1IE.AL-D@2013
+\family default
+,
+\family sans
+ 1S1IE.CV-D@2013
+\family default
+, \SpecialChar \ldots{}
+).
+ Por fim, em cada uma destas grades, deve-se criar a nova aula, atribuída
+ à disciplina e com o correspondente nome do professor e sala.
+ O horário, evidentemente, será o mesmo lançado na grade normal.
+ Ainda, salienta-se que o tipo de aula deverá ser 
+\emph on
+laboratório
+\emph default
+ e que a subdivisão exibida nesta grade especial não possui qualquer significado.
+\end_layout
+
 \begin_layout Section
 Dependências
 \end_layout
 
+\begin_layout Standard
+As aulas de dependência, até 2012, eram lançadas na própria grade horária
+ das turmas.
+ A partir de 2013, estas aulas são lançadas em grade horária específica,
+ correspondente à turma que a possuirá.
+ As 
+\emph on
+pseudo-habilitações
+\emph default
+ existentes para a criação das grades específicas de dependência encontram-se
+ listadas na tabela do apêndice
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Listagem-das-siglas"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Caso haja mais de uma aula de dependência para uma mesma turma, num mesmo
+ horário, estas deverão ser lançadas em paralelo.
+ Para tal, criam-se, na grade especial de dependência, tantos grupos, turmas
+ e laboratórios quantas aulas em paralelo existirem.
+ As subdivisões nestas grades não possuem qualquer associação com as subdivisões
+ dos alunos.
+\end_layout
+
+\begin_layout Subsection
+Simulações
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se lançar uma turma de dependência de disciplina (do Ciclo Básico)
+ ministrada na 
+\bar under
+primeira série
+\bar default
+, período noturno, no primeiro semestre de 2013.
+ Para tanto, deve-se criar a turma de dependência 
+\family sans
+1S1DP.FB-D@2013
+\family default
+, com 1 grupo, 1 turma e 1 laboratório.
+ Em seguida, bastará lançar a aula no devido horário.
+ O tipo da aula também deverá ser atribuído adequadamente, entre teoria,
+ exercício ou laboratório.
+\end_layout
+
+\begin_layout Enumerate
+Deseja-se lançar uma turma de dependência de disciplina do Ciclo Básico
+ ministrada na 
+\bar under
+segunda série
+\bar default
+, período noturno, no primeiro semestre de 2013.
+ Como na segunda série as disciplinas são associadas às suas correspondentes
+ habilitações, mesmo sendo disciplina do Ciclo Básico, a turma de dependência
+ em questão deverá ser lançada para uma habilitação em específico.
+ Contudo, como as disciplinas do Ciclo Básico da segunda série são ministradas
+ em todas as habilitações e como os alunos dependentes de todas elas podem
+ participar da mesma aula, então a 
+\emph on
+aula deverá ser criada para uma habilitação em específico e compartilhada
+ com as demais
+\emph default
+.
+ Ainda, salienta-se que, na segunda série, as habilitações são divididas
+ em troncos.
+ Desta forma, as turmas de dependências também devem ser criadas conforme
+ os troncos.
+ Em tal sentido, consultando-se a listagem na tabela da seção
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Listagem-das-siglas"
+
+\end_inset
+
+, tem-se as seguintes 
+\emph on
+pseudo-habilitações 
+\emph default
+possíveis de serem utilizadas:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\family sans
+DP.TC
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+DP.TE
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+DP.TM
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+DP.TQ
+\end_layout
+
+\begin_layout Standard
+Assim, as seguintes turmas de dependências deverão ser criadas, para a situação
+ proposta:
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+1S2DP.TC-N@2013
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+1S2DP.TE-N@2013
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+1S2DP.TM-N@2013
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+1S2DP.TQ-N@2013
+\end_layout
+
+\begin_layout Standard
+E a aula da referida disciplina do Ciclo Básico deverá ser compartilhada
+ entre todas estas turmas.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suponha que deseja-se lançar duas aulas de dependência, tipo teoria, para
+ o período noturno, às 18h00, para o 4ª série de Engenharia Elétrica (Eletrotécn
+ica).
+ Para tanto, deve-se criar a turma 
+\family sans
+1S4ET-N@2013 
+\family default
+com 
+\bar under
+2 grupos, 2 turmas e 2 laboratórios
+\bar default
+.
+ Em seguida, criam-se as aulas, lançando uma no grupo 1 e outra no grupo
+ 2 --- no grupo, pois são aulas de teoria.
+\end_layout
+
+\begin_layout Subsection
+Observações
+\end_layout
+
+\begin_layout Enumerate
+Uma especial atenção deve ser dada às turmas de dependência da Engenharia
+ Elétrica e Eletrônica.
+ Notem-se as 
+\emph on
+pseudo-habilitações 
+\emph default
+disponíveis para ambas:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\family sans
+DP.TE 
+\family default
+--- Dependências de Engenharia Tronco Elétrica
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+DP.EL
+\family default
+ --- Dependências de Engenharia Elétrica
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+DP.ET
+\family default
+ --- Dependências de Engenharia Elétrica (Eletrotécnica)
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+DP.EN
+
+\family default
+--- Dependências de Engenharia Eletrônica
+\end_layout
+
+\begin_layout Standard
+A descrição sobre a correta forma de utilizá-las, segue-se:
+\end_layout
+
+\begin_layout Description
+
+\family sans
+DP.TE: 
+\family default
+dependências para o Tronco Elétrica, que envolve os alunos matriculados
+ no curso de Engenharia Elétrica e Eletrônica; o Tronco Elétrica está presente
+ na segunda e terceira séries.
+\end_layout
+
+\begin_layout Description
+
+\family sans
+DP.EL: 
+\family default
+dependências para Engenharia Elétrica (em sua interpretação mais ampla),
+ que envolve alunos de Engenharia Elétrica propriamente dita (antiga Eletrotécni
+ca) e de Engenharia Eletrônica; esta opção é útil para as disciplinas ministrada
+s para ambas as habilitações, sob o mesmo código (e, normalmente, com os
+ alunos participando das aulas juntos), contudo em série após o 3ª série;
+ a princípio, 
+\bar under
+esta opção deve ser evitada
+\bar default
+ e substituída por 
+\family sans
+DP.ET
+\family default
+ e 
+\family sans
+DP.EN
+\family default
+, criando aulas compartilhadas entre elas.
+\end_layout
+
+\begin_layout Description
+
+\family sans
+DP.ET: 
+\family default
+dependências para Engenharia Elétrica especificamente (antiga Eletrotécnica);
+ estas dependências normalmente irão se referir a aulas do 4ª série em diante.
+\end_layout
+
+\begin_layout Description
+
+\family sans
+DP.EN: 
+\family default
+dependências para Engenharia Eletrônica especificamente; estas dependências
+ normalmente irão se referir a aulas do 4ª série em diante.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Outro detalhe importante a ser observado é quanto à série da turma de dependênci
+a e, porconseguinte, das aulas nela alocadas.
+ 
+\emph on
+A série deve ser a mesma em que a disciplina é oferecida
+\emph default
+.
+ Assim, se uma disciplina oferecida na quarta série possuir uma turma especial
+ de dependência, embora os alunos possam estar cursando a quinta série,
+ a disciplina deverá ser lançada na grade horária da turma de dependência
+ da quarta série.
+ Outro exemplo, se a disciplina for do Ciclo Básico, ministrada na segunda
+ série, então ela deverá ser lançada na grade de dependências da segunda
+ série e não da primeira.
+\end_layout
+
+\begin_layout Enumerate
+Uma ressalva quanto ao exposto no item anterio revere-se ao caso em que
+ a disciplina sofreu alteração de série.
+ Dada tal ocorrência, turma de dependência da disciplina deverá ser lançada
+ em grade de dependências correspondente à série em que a disciplina estava,
+ durante o ano em que houve a mudança; nos anos seguintes, ela deverá ser
+ lançada na nova série para a qual foi a disciplina.
+\end_layout
+
 \begin_layout Section
 Aulas Quinzenais
+\end_layout
+
+\begin_layout Standard
+A princípio, o programa prevê aulas quinzenais apenas para professores\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Section
@@ -6782,7 +7375,7 @@ ET
 \begin_layout Plain Layout
 
 \size small
-Engenharia Elétrica
+Engenharia Elétrica (Eletrotécnica)
 \end_layout
 
 \end_inset
@@ -7549,7 +8142,7 @@ DP.FB
 \begin_layout Plain Layout
 
 \size small
-Engenharia - Dependências do Ciclo Básico
+Engenharia - Dependências do Ciclo Básico (primeiro ano)
 \end_layout
 
 \end_inset

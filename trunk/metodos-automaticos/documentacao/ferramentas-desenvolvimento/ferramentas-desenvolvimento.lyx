@@ -355,7 +355,7 @@ Planner
 
 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -421,5 +421,149 @@ http://technet.microsoft.com/pt-br/evalcenter/hh973401.aspx
 
 \end_layout
 
+\begin_layout Section
+Áudio e Vídeo
+\end_layout
+
+\begin_layout Description
+FFmpeg: Gratuito, multiplataforma.
+ Bastante completo.
+ Opera por linha de comando.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://ffmpeg.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Notas e Dicas
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notas, observações e dicas de uso ou outros detalhes sobre os programas
+ relacionados.
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+FFmpeg
+\end_layout
+
+\begin_layout Subsection
+Cortar e Redimensionar
+\end_layout
+
+\begin_layout Itemize
+Imagem original: 1920 x 1080
+\end_layout
+
+\begin_layout Itemize
+Imagem de saída:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+852 x 480
+\end_layout
+
+\begin_layout Enumerate
+1280 x 720
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Comandos:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+ffmpeg	-i <video_entra.mp4> 
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	-filter:v "crop=w=iw:h=ih-<tam>:x=0:y=0" 
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	-s <res> -c:a copy <video_sai.mp4>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em que 
+\family typewriter
+<res> 
+\family default
+será igual a:
+\end_layout
+
+\begin_layout Enumerate
+
+\family typewriter
+hd480
+\end_layout
+
+\begin_layout Enumerate
+
+\family typewriter
+hd720
+\end_layout
+
+\begin_layout Standard
+E 
+\family typewriter
+<tam>
+\family default
+ é a quantidade de pixels a remover, obtido ao se extrair 1 quadro e medir
+ a quantidade de pixels pelo 
+\emph on
+Gimp
+\emph default
+.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
