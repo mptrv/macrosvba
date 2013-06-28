@@ -3,9 +3,13 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+% Distância para indentação dos parágrafos.
+\setlength{\parindent}{15pt}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language brazilian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +29,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -118,6 +123,78 @@ Junho de 2013
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Apresentação
+\end_layout
+
+\begin_layout Standard
+O 
+\emph on
+Sistema Horários
+\emph default
+ permite a inserção de dados relativos à grade horária das aulas e a extração
+ de diversos relatórios, tanto para fins operacionais, quanto para administrativ
+os.
+\end_layout
+
+\begin_layout Standard
+O módulo 
+\emph on
+Construção Grade Horária
+\emph default
+ tem como objetivo a construção de grades horárias das turmas dos diversos
+ cursos oferecidos pelo Instituto Mauá de Tecnologia.
+ A partir de seu uso, a construção dessas grades é facilitada e, ao mesmo
+ tempo, padronizada, agilizando todo o processo realizado ao início de cada
+ semestre ou ano letivo.
+\end_layout
+
+\begin_layout Standard
+Em conjunto com este módulo, há o 
+\emph on
+Consulta Sistema Horários, 
+\emph default
+que permite a extração de relatórios para fins de gerenciamento e dados
+ estatísticos, como, por exemplo, verificação de aspectos previstos em lei,
+ citando-se a carga horária máxima e o período de descanso dos professores,
+ ou a extração de listas de presença, consulta de disponibilidade de salas
+ de aula, conflitos de aula e estatísticas.
+\end_layout
+
+\begin_layout Standard
+Assim, o 
+\emph on
+Sistema Horários
+\emph default
+ agrega diversas possibilidades ao planejamento e gerenciamento dos horários
+ da Instituição, com rapidez, controle e precisão não obtidos anteriormente
+ por outros métodos.
+\end_layout
+
+\begin_layout Section*
+Sobre Este Manual
+\end_layout
+
+\begin_layout Section*
+Sobre a Filosofia do Programa
 \end_layout
 
 \begin_layout Section
