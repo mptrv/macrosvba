@@ -29,10 +29,10 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -43,14 +43,21 @@
 \paperorientation portrait
 \suppress_date false
 \use_refstyle 1
+\branch Ajuste de Impressão
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\topmargin 2.5cm
+\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -133,7 +140,23 @@ status open
 
 
 \backslash
+newpage
+\backslash
+null
+\backslash
 thispagestyle{empty}
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Insere página em branco
 \end_layout
 
 \end_inset
@@ -150,6 +173,16 @@ status open
 
 \backslash
 pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Numeração de página romana
 \end_layout
 
 \end_inset
@@ -196,7 +229,7 @@ pagenumbering{arabic}
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Chapter*
 Apresentação
 \end_layout
 
@@ -244,12 +277,360 @@ Sistema Horários
  por outros métodos.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Chapter*
 Sobre Este Manual
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Sobre Este Manual}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Adiciona tópico ao índice
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este manual procura definir as diversas rotinas presentes do programa.
+ Assim sendo para cada módulo, são definidos suas enumerações, atributos,
+ propriedades, métodos públicos e privados, fornecendo-se também uma descrição
+ resumida de suas funções.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "88bp"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename C:/Users/Mariane/Documents/Projetos/ma-documentacao/manuais-usuario/imagens/cc-by-sa-88x31.png
+
+\end_inset
+
+
+\begin_inset VSpace 1.25ex
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "70col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Este manual é licenciado sob a 
+\emph on
+Licença Creative Commons Atribuição -- Compartilha Igual 3.0 Não Adaptada,
+ 
+\emph default
+cuja descrição poderá ser acessada em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
 Sobre a Filosofia do Programa
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Sobre a Filosofia do Programa}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Adiciona tópico ao índice
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O programa trabalha a partir de dois módulos: 
+\emph on
+Construção Grade Horário
+\emph default
+ e 
+\emph on
+Consulta Sistema Horários
+\emph default
+, definimos aqui o primeiro.
+\end_layout
+
+\begin_layout Standard
+Esse módulo tem por objetivo construir e consultar as grades horárias de
+ aulas da faculdade.
+\end_layout
+
+\begin_layout Standard
+O processamento de dados, se dá de maneira que os mesmos são carregados
+ do banco de dados, após a definição de um filtro de período, e armazenados
+ nos seus respectivos objetos (aulas na classe 
+\family typewriter
+clsAula
+\family default
+, salas na 
+\family typewriter
+clsSala
+\family default
+\SpecialChar \ldots{}
+), eles são então trabalhados de maneira que a cada alteração dos mesmos
+ uma identificaçãode exclusão, alteração ou inclusão é feita, e quando se
+ atualiza o banco de dados essas mudanças são transferidas para o mesmo.
+\end_layout
+
+\begin_layout Standard
+Este módulo, é um programa que opera sob o 
+\emph on
+Microsoft Excel
+\emph default
+, utilizando como linguagem de programação o VBA (
+\emph on
+\lang english
+Visual Basic for Application
+\emph default
+\lang brazilian
+) e faz uso como interface de usuário, das próprias planilhas do aplicativo
+ e formulários internos, para manipulação dos dados.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Falta descrição do tratamento de cores.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Simulações de Funcionamento
+\end_layout
+
+\begin_layout Subsection
+Criação de Grade Horária
+\end_layout
+
+\begin_layout Itemize
+Informações de período, habilitação e campus fornecidas pelo usuário;
+\end_layout
+
+\begin_layout Itemize
+Verificação dos dados;
+\end_layout
+
+\begin_layout Itemize
+Grupo, turma e laboratório fornecidos pelo usuário;
+\end_layout
+
+\begin_layout Itemize
+Verificação dos dados;
+\end_layout
+
+\begin_layout Itemize
+Acrescenta planilha no 
+\family typewriter
+Workbook
+\family default
+;
+\end_layout
+
+\begin_layout Itemize
+Desenha canto e cabeçalho;
+\end_layout
+
+\begin_layout Itemize
+Desenha botões de ferramentas;
+\end_layout
+
+\begin_layout Itemize
+Formata planilha.
+\end_layout
+
+\begin_layout Subsection
+Leitura de Grade Horária
+\end_layout
+
+\begin_layout Itemize
+Grade é escolhida pelo usuário;
+\end_layout
+
+\begin_layout Itemize
+Acrescenta planilha no 
+\family typewriter
+Workbook
+\family default
+;
+\end_layout
+
+\begin_layout Itemize
+Desenha canto e cabeçalho;
+\end_layout
+
+\begin_layout Itemize
+Desenha botões de ferramentas;
+\end_layout
+
+\begin_layout Itemize
+Formata planilha;
+\end_layout
+
+\begin_layout Itemize
+Carrega as aulas;
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cria botões;
+\end_layout
+
+\begin_layout Itemize
+Define textos;
+\end_layout
+
+\begin_layout Itemize
+Define cores;
+\end_layout
+
+\begin_layout Itemize
+Define posições.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Criação e Alteração de aula
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Essa simulação é necesária? Existe ainda alguma outra interessante de ser
+ acrescentada?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cria botão no canto;
+\end_layout
+
+\begin_layout Itemize
+Usuário fornece dados;
+\end_layout
+
+\begin_layout Itemize
+Define textos;
+\end_layout
+
+\begin_layout Itemize
+Define cor;
+\end_layout
+
+\begin_layout Itemize
+Define posição.
+\end_layout
+
+\begin_layout Chapter
+Manual Técnico
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Outro título talvez fique melhor, uma vez que não só essa parte é o manual.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
