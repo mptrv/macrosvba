@@ -30,7 +30,16 @@
 \index_command default
 \paperfontsize default
 \spacing onehalf
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry true
 \use_amsmath 1
@@ -73,7 +82,11 @@
 \begin_body
 
 \begin_layout Title
-Manual do usuário
+
+\size huge
+Manual Técnico
+\size default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -188,6 +201,18 @@ Numeração de página romana
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+O primeiro parágrafo não apresenta recuo, já os outros sim, devo procurar
+ uma maneira de padronizar também o primeiro ou ele deve mesmo ser assim?
+ O manual do usuário encontra-se da mesma maneira.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -204,6 +229,10 @@ LatexCommand tableofcontents
 \end_inset
 
 
+\end_layout
+
+\begin_layout Chapter*
+Apresentação
 \end_layout
 
 \begin_layout Standard
@@ -227,10 +256,6 @@ pagenumbering{arabic}
 \end_inset
 
 
-\end_layout
-
-\begin_layout Chapter*
-Apresentação
 \end_layout
 
 \begin_layout Standard
@@ -308,10 +333,15 @@ Adiciona tópico ao índice
 \end_layout
 
 \begin_layout Standard
-Este manual procura definir as diversas rotinas presentes do programa.
- Assim sendo para cada módulo, são definidos suas enumerações, atributos,
- propriedades, métodos públicos e privados, fornecendo-se também uma descrição
- resumida de suas funções.
+Este manual procura definir as diversas rotinas presentes do programa, assim
+ como também sua filosofia de programação.
+\end_layout
+
+\begin_layout Standard
+Assim sendo define-se primeiro sua filosofia de maneira geral, e algumas
+ simulações de funcionamento.
+ E logo após, segue para cada módulo, definições mais específicas de suas
+ enumerações, atributos, propriedades, métodos públicos e privados.
 \end_layout
 
 \begin_layout Standard
@@ -378,7 +408,7 @@ Este manual é licenciado sob a
 Licença Creative Commons Atribuição -- Compartilha Igual 3.0 Não Adaptada,
  
 \emph default
-cuja descrição poderá ser acessada em
+cuja descrição poderá ser acessada em:
 \end_layout
 
 \end_inset
@@ -429,6 +459,18 @@ Adiciona tópico ao índice
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurei expressar da maneira que julguei mais compreensível, e que consegui
+ expressar o que deveria ser dito, não sei se deveria ser usada uma linguagem
+ mais técnica, e se está tudo correto.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -450,8 +492,8 @@ Esse módulo tem por objetivo construir e consultar as grades horárias de
 
 \begin_layout Standard
 O processamento de dados, se dá de maneira que os mesmos são carregados
- do banco de dados, após a definição de um filtro de período, e armazenados
- nos seus respectivos objetos (aulas na classe 
+ do banco de dados, após a definição de um filtro de período (ano e semestre),
+ e armazenados em seus respectivos objetos (aulas na classe 
 \family typewriter
 clsAula
 \family default
@@ -462,7 +504,15 @@ clsSala
 \SpecialChar \ldots{}
 ), eles são então trabalhados de maneira que a cada alteração dos mesmos
  uma identificaçãode exclusão, alteração ou inclusão é feita, e quando se
- atualiza o banco de dados essas mudanças são transferidas para o mesmo.
+ atualiza o banco de dados essas mudanças são transferidas.
+\end_layout
+
+\begin_layout Standard
+No caso de alteração ou inclusão, o objeto é marcado como alterado, e então
+ quando o banco é atualizado esses objetos são exportados.
+ No caso de exclusão existe a identificação dessa alteração e quando o banco
+ é atualizado existe antes uma verificação se antes ele existia (já havia
+ sido salvo), para então realizar-se a exclusão.
 \end_layout
 
 \begin_layout Standard
@@ -478,11 +528,243 @@ Visual Basic for Application
 \lang brazilian
 ) e faz uso como interface de usuário, das próprias planilhas do aplicativo
  e formulários internos, para manipulação dos dados.
+ Aproveitando então a própria interface gráfica e estrutura em tabelas do
+ aplicativo, para criação de formulários de entrada, alteração e exibição
+ de dados.
+\end_layout
+
+\begin_layout Standard
+O tratamento das cores automáticas de aulas na planilha, se dá através da
+ aplicação de fórmulas relacionando o código da disciplina e o modo de tratament
+o HSV, a cor é então convertida e salva em RGB.
+ Com essa maneira de cálculo a cor escolhida não varia entre planilhas para
+ uma mesma disciplina, uma vez que o seu código é padrão e nunca é alterado.
+ A cor também pode ser escolhida manualmente, porém a cada nova planilha
+ ela deverá ser alterada, caso se deseje mantê-la para a mesma disciplina.
+ Após esse processamento se converte a cor para escala de cinzas e então
+ é definido a cor do escrito no botão entre preto ou branco.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fórmulas de obtenção de cor, a partir dos números do código da disciplina:
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Falta descrição do tratamento de cores.
+São essas as fórmulas que deveriam ser mencionadas?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily},tabsize=6"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+S1 = NumCod 
+\backslash
+ 100 
+\end_layout
+
+\begin_layout Plain Layout
+
+NumCod = NumCod Mod 100 
+\end_layout
+
+\begin_layout Plain Layout
+
+S2 = NumCod 
+\backslash
+ 10 
+\end_layout
+
+\begin_layout Plain Layout
+
+S3 = NumCod Mod 10
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+If Descricao = "-Automática-" Then 
+\end_layout
+
+\begin_layout Plain Layout
+
+                
+\end_layout
+
+\begin_layout Plain Layout
+
+	H = H + 40 * (S1 - 1)         
+\end_layout
+
+\begin_layout Plain Layout
+
+		If H > 360# Then             
+\end_layout
+
+\begin_layout Plain Layout
+
+		H = H Mod 360         
+\end_layout
+
+\begin_layout Plain Layout
+
+		End If  
+\end_layout
+
+\begin_layout Plain Layout
+
+               
+\end_layout
+
+\begin_layout Plain Layout
+
+	S = S + (27 / (Log(5) / Log(10#))) * (S3 ^ (1 / 3)) * Log(S3 + 1) / Log(10#)
+ + 5 * S2         
+\end_layout
+
+\begin_layout Plain Layout
+
+		If S > 100 Then             
+\end_layout
+
+\begin_layout Plain Layout
+
+		S = S Mod 85         
+\end_layout
+
+\begin_layout Plain Layout
+
+		End If    
+\end_layout
+
+\begin_layout Plain Layout
+
+             
+\end_layout
+
+\begin_layout Plain Layout
+
+	V = V - (48 / Exp(3)) * (Exp(1.15 * Sqr(S2)) - 1) - 5 * S3         
+\end_layout
+
+\begin_layout Plain Layout
+
+		If V > 100 Then             
+\end_layout
+
+\begin_layout Plain Layout
+
+		V = V Mod 100         
+\end_layout
+
+\begin_layout Plain Layout
+
+		End If         
+\end_layout
+
+\begin_layout Plain Layout
+
+		If V < 25 Then            
+\end_layout
+
+\begin_layout Plain Layout
+
+		V = 100 - (25 - V)         
+\end_layout
+
+\begin_layout Plain Layout
+
+		End If             
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+End If
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Decisão da cor de frente (cor de fonte):
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+pCodCorFrente = IIf(RGBCinza(R, G, B, R, G, B) < 40, RGB(255, 255, 255),
+ RGB(0, 0, 0))
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Simulações de Funcionamento 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Acrescentei as que discutimos e mais duas, ainda falta alguma interessante
+ de ser mencionada?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Simulações de Funcionamento}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Adiciona tópico ao índice
 \end_layout
 
 \end_inset
@@ -491,10 +773,6 @@ Falta descrição do tratamento de cores.
 \end_layout
 
 \begin_layout Section
-Simulações de Funcionamento
-\end_layout
-
-\begin_layout Subsection
 Criação de Grade Horária
 \end_layout
 
@@ -534,7 +812,7 @@ Desenha botões de ferramentas;
 Formata planilha.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Leitura de Grade Horária
 \end_layout
 
@@ -584,7 +862,7 @@ Define posições.
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
+\begin_layout Section
 Criação e Alteração de aula
 \begin_inset Note Note
 status open
@@ -619,18 +897,40 @@ Define cor;
 Define posição.
 \end_layout
 
-\begin_layout Chapter
-Manual Técnico
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Outro título talvez fique melhor, uma vez que não só essa parte é o manual.
+\begin_layout Section
+Criação de relatório PDF
 \end_layout
 
-\end_inset
+\begin_layout Itemize
+Calcula quantidade de grupos, turmas e laboratórios;
+\end_layout
 
+\begin_layout Itemize
+Cria arquivo, no diretório definido;
+\end_layout
 
+\begin_layout Itemize
+Cria a planilha para os grupos;
+\end_layout
+
+\begin_layout Itemize
+Desenha cabeçalho;
+\end_layout
+
+\begin_layout Itemize
+Desenha grade e horários;
+\end_layout
+
+\begin_layout Itemize
+Desenha aulas correspondentes;
+\end_layout
+
+\begin_layout Itemize
+Formatação da página.
+\end_layout
+
+\begin_layout Chapter
+Documentação Técnica
 \end_layout
 
 \begin_layout Section
@@ -655,8 +955,8 @@ Operações no banco de dados.
 \end_layout
 
 \begin_layout Standard
-TODO: Nas rotinas de inclusão e alteração, acrescentar, incondicionalmente,
- a gravação do usuário e da data com horário da alteração.
+Nas rotinas de inclusão e alteração, acrescentar, incondicionalmente, a
+ gravação do usuário e da data com horário da alteração.
 \end_layout
 
 \begin_layout Description
@@ -757,7 +1057,7 @@ Acesso_Disciplina (registro: ADODB.Recordset): Void
 \begin_layout Standard
 
 \emph on
-Acessa dados de habilitações e as ordena pelos seus códigos.
+Acessa dados de habilitações e as ordena como objetos pelos seus códigos.
 \end_layout
 
 \end_deeper
@@ -771,7 +1071,7 @@ Acesso_Habilitacoes (registro: ADODB.Recordset): Void
 \begin_layout Standard
 
 \emph on
-Acessa dados de habilitações e as ordena pelas suas siglas.
+Acessa dados de habilitações e as ordena como objetos pelas suas siglas.
 \end_layout
 
 \end_deeper
@@ -785,7 +1085,8 @@ Acesso_Professor (registro: ADODB.Recordset): Void
 \begin_layout Standard
 
 \emph on
-Acessa dados de professores no banco de dados, e os ordena por apelido.
+Acessa dados de professores no banco de dados, e os ordena como objetos
+ por apelido.
 \end_layout
 
 \end_deeper
@@ -799,7 +1100,8 @@ Acesso_Sala (registro: ADODB.Recordset): Void
 \begin_layout Standard
 
 \emph on
-Acessa dados de salas no banco de dados, e as ordena pelo seu nome.
+Acessa dados de salas no banco de dados, e as ordena como objetos pelo seu
+ nome.
 \end_layout
 
 \end_deeper
@@ -832,7 +1134,8 @@ AtualizarDados_Divisao (ID_Turma: Variant, Ano: Integer, Habilitacao: Variant,
 \begin_layout Standard
 
 \emph on
-Atualiza dados de divisão de turmas.
+Exporta dados de divisão de turma, ao banco de dados, o atualizando.
+ Salvando também o horário e usuário que realiza essa tarefa.
 \end_layout
 
 \end_deeper
@@ -851,7 +1154,9 @@ tilhadaAnterior, AulaCompartilhadaSeguinte): Void
 \begin_layout Standard
 
 \emph on
-Atualiza dados da planilha horária, relativos as aulas.
+Exporta dados da planilha horária, relativos as aulas, ao banco de dados,
+ o atualizando.
+ Salvando também o horário e usuário que realiza essa tarefa.
 \end_layout
 
 \end_deeper
@@ -879,7 +1184,7 @@ ExisteDado_Divisao (IdTurma: Variant): Boolean
 \begin_layout Standard
 
 \emph on
-Verifica existência da turma definida como parâmetro de entrada.
+Verifica existência da turma definida.
 \end_layout
 
 \end_deeper
@@ -944,7 +1249,7 @@ tilhadaAnterior: Variant, AulaCompartilhadaSeguinte: Variant): Void
 \begin_layout Standard
 
 \emph on
-Importa dados da planilha horária relativas as aulas.
+Importa dados da planilha horária relativos as aulas.
 \end_layout
 
 \end_deeper
@@ -959,22 +1264,6 @@ RemoverDados_Divisao (IdTurma: Variant): Void
 
 \emph on
 Deleta turma do banco de dados.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-deleta caracteristicas da turma ou ela inteira do banco de dados?
-\change_inserted 239966243 1371775080
- Ela inteira, pois cada turma é representada em um registro (uma linha)
- da tabela do banco de dados.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -1038,8 +1327,12 @@ Cod_PlanGrdHor
 \begin_layout Standard
 Rotinas para tratamento de eventos dos controles das planilhas de grade
  horária.
- Em tempo de execução o código para clique de cada botão de aula será acrescenta
-do.
+ 
+\end_layout
+
+\begin_layout Standard
+Em tempo de execução o código para clique de cada botão de aula será acrescentad
+o.
 \end_layout
 
 \begin_layout Description
@@ -1226,6 +1519,7 @@ Ativa a planilha de gerenciamento, no livro de gerenciamento.
 \end_layout
 
 \end_deeper
+\end_deeper
 \begin_layout Section
 Módulo 
 \begin_inset Quotes eld
@@ -1242,7 +1536,6 @@ FuncoesParaControles
 
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 Funções adicionais para controles.
 \end_layout
@@ -4616,7 +4909,7 @@ SumColor (TestRange: Range, SumRange: Range, ColorIndex: Long, [OfText:
 status open
 
 \begin_layout Plain Layout
-SOMA?
+Soma? Indica quantas células usam essa cor? Não entendi direito a função.
 \end_layout
 
 \end_inset
