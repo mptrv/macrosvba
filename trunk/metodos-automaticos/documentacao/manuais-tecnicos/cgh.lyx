@@ -76,7 +76,6 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author 239966243 "mptrev" 
 \end_header
 
 \begin_body
@@ -863,7 +862,7 @@ Define posições.
 
 \end_deeper
 \begin_layout Section
-Criação e Alteração de aula
+Criação e alteração de aula
 \begin_inset Note Note
 status open
 
@@ -877,8 +876,32 @@ Essa simulação é necesária? Existe ainda alguma outra interessante de ser
 
 \end_layout
 
+\begin_layout Subsection
+Criação de aula nova
+\end_layout
+
 \begin_layout Itemize
 Cria botão no canto;
+\end_layout
+
+\begin_layout Itemize
+Adiciona ao canto;
+\end_layout
+
+\begin_layout Itemize
+Formatação visual inicial;
+\end_layout
+
+\begin_layout Itemize
+Código de clique;
+\end_layout
+
+\begin_layout Itemize
+Arruma botões do canto.
+\end_layout
+
+\begin_layout Subsection
+Alteração de aula existente
 \end_layout
 
 \begin_layout Itemize
@@ -886,15 +909,19 @@ Usuário fornece dados;
 \end_layout
 
 \begin_layout Itemize
-Define textos;
+Calcula posição;
 \end_layout
 
 \begin_layout Itemize
-Define cor;
+Cria botão na posição;
 \end_layout
 
 \begin_layout Itemize
-Define posição.
+Formatação visual;
+\end_layout
+
+\begin_layout Itemize
+Código de clique.
 \end_layout
 
 \begin_layout Section
@@ -1030,6 +1057,20 @@ Abre a conexão e pede usuário e senha, se necessário.
 \begin_layout Description
 
 \family typewriter
+Acesso_Disciplina (registro: ADODB.Recordset): Void
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Acessa dados de habilitações e as ordena como objetos pelos seus códigos.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
 Acesso_Divisao (registro: ADODB.Recordset, FiltroAno: string, FiltroSemestre:
  string): Void
 \end_layout
@@ -1044,20 +1085,6 @@ Acessa a divisão (definição) das turmas.
 
 Se o banco for local sua identificação é ligeiramente diferente de quando
  remoto.
-\end_layout
-
-\end_deeper
-\begin_layout Description
-
-\family typewriter
-Acesso_Disciplina (registro: ADODB.Recordset): Void
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\emph on
-Acessa dados de habilitações e as ordena como objetos pelos seus códigos.
 \end_layout
 
 \end_deeper
@@ -1146,8 +1173,11 @@ AtualizarDados_TabHorario (Cod_Disc: Variant, Tipo_De_Aula: Variant, Apelido_Pro
 f: Variant, Sala: Variant, Horario_Inicial: Variant, Dia_Semana: Variant,
  Num_Grupo: Integer, Num_Turma: Integer, Num_Lab: Integer, QtdHa: Integer,
  Gtl: Variant, NGTL: Integer, Cor: Variant, Canto: Boolean, Nome_Aula: Variant,
- ID_Turma: Variant, Dp: Boolean, Qz: Boolean, Apelido_Prof2: Variant, AulaCompar
-tilhadaAnterior, AulaCompartilhadaSeguinte): Void
+ ID_Turma: Variant, Dp: Boolean, Qz: Boolean, Apelido_Prof2: Variant, 
+\begin_inset Newline newline
+\end_inset
+
+AulaCompartilhadaAnterior, AulaCompartilhadaSeguinte): Void
 \end_layout
 
 \begin_deeper
@@ -1199,7 +1229,7 @@ ExisteDado_TabHorario (NomeAula: Variant, IdTurma: Variant): Boolean
 
 \emph on
 Verifica existência de dados de aula na Planilha Horária, relativos a turma
- e a aula definidas como parâmetros de entrada.
+ e a aula definidas.
 \end_layout
 
 \end_deeper
@@ -1241,8 +1271,12 @@ InserirDados_TabHorario (Cod_Disc: Variant, Tipo_De_Aula: Variant, Apelido_Prof:
  Variant, Sala: Variant, Horario_Inicial: Variant, Dia_Semana: Variant,
  Num_Grupo: Integer, Num_Turma: Integer, Num_Lab: Integer, QtdHa: Integer,
  Gtl: Variant, NGTL: Integer, Cor: Variant, Canto: Boolean, Nome_Aula: Variant,
- ID_Turma: Variant, Dp: Boolean, Qz: Boolean, Apelido_Prof2: Variant, AulaCompar
-tilhadaAnterior: Variant, AulaCompartilhadaSeguinte: Variant): Void
+ ID_Turma: Variant, Dp: Boolean, Qz: Boolean, Apelido_Prof2: Variant,
+\begin_inset Newline newline
+\end_inset
+
+AulaCompartilhadaAnterior: Variant, AulaCompartilhadaSeguinte: Variant):
+ Void
 \end_layout
 
 \begin_deeper
@@ -1664,7 +1698,7 @@ Enumerações
 \series medium
 eDiaSem:
 \family default
- DOM, SEG, TER, QUA, QUI, SEX, SAB
+ DOM = 1, SEG, TER, QUA, QUI, SEX, SAB
 \end_layout
 
 \begin_deeper
@@ -2689,7 +2723,7 @@ CarregarAulas (): Void
 \begin_layout Standard
 
 \emph on
-Carrega as aulas do banco de dados.
+Carrega as aulas de cada turma do banco de dados.
 \end_layout
 
 \end_deeper
@@ -2918,9 +2952,21 @@ Enumerações
 \begin_layout Description
 
 \family typewriter
-eLivros: cghLivroGrdHor, cghLivroPDF
+eLivros: cghLivroGrdHor = 0, cghLivroPDF
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Enumeração dos livros do 
+\emph default
+Construção Grade Horária
+\emph on
+.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Description
 
@@ -2935,12 +2981,31 @@ Atributos
 pLivroGrdHor: Workbook
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Define livro das grades horárias.
+\end_layout
+
+\end_deeper
 \begin_layout Description
 
 \family typewriter
 pLivroPDF: Workbook
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+
+\series medium
+\emph on
+Define 
+\series default
+livro dos relatórios PDF.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Description
 
@@ -2995,7 +3060,7 @@ LivroGrade ([QualLivro: eLivros = cghLivroGrdHor]): Workbook
 \begin_layout Standard
 
 \emph on
-Retorna uma referência a um ods livros de grade horária.
+Retorna uma referência a um dos livros de grade horária.
  Somente leitura.
 \end_layout
 
@@ -3038,7 +3103,7 @@ ApagarCabecalho (PlanGrdHor: Worksheet, Turma: clsTurma): Void
 
 \emph on
 Apaga o cabeçalho da planilha de grade horária de uma turma.
- Útil, em especial, quando altera-se as subdivisões da turma.
+ Útil, em especial, quando altera-se as divisões da turma.
 \end_layout
 
 \end_deeper
@@ -3246,6 +3311,20 @@ a planilha de grade horária de uma turma.
 \begin_layout Description
 
 \family typewriter
+FecharLivroGrdHor (QualLivro: eLivros): Void
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Fecha um livro de grade horária.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
 FormatarBotaoAula (PlanGrdHor: Worksheet, Aula: clsAula, ProfSala: Boolean,
  AulaNova: Boolean, [Pdf: Boolean]): Void
 \end_layout
@@ -3262,32 +3341,10 @@ Formatação visual do botão aula.
 PDF
 \family default
  a fonte será sempre 
-\begin_inset Quotes eld
-\end_inset
-
-
 \family sans
 Arial Narrow
 \family default
-
-\begin_inset Quotes erd
-\end_inset
-
 .
-\end_layout
-
-\end_deeper
-\begin_layout Description
-
-\family typewriter
-FecharLivroGrdHor (QualLivro: eLivros): Void
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-
-\emph on
-Fecha um livro de grade horária.
 \end_layout
 
 \end_deeper
@@ -3302,8 +3359,11 @@ ReposicionarBotaoAula (PlanGrdHor: Worsheet, Aula: clsAula): Range
 
 \emph on
 Reposiciona o botão de uma aula numa determinada planilha.
- Retorna um objeto Range que aponta para a célula de referência da nova
- posição.
+ Retorna um objeto 
+\family typewriter
+Range
+\family default
+ que aponta para a célula de referência da nova posição.
 \end_layout
 
 \end_deeper
@@ -3372,7 +3432,6 @@ Cria os botões de ferramentas.
 \begin_layout Description
 
 \family typewriter
-\emph on
 CriarDesenho (PlanGradeHoraria: Worksheet, Turma: clsTurma): Void
 \end_layout
 
@@ -3380,7 +3439,7 @@ CriarDesenho (PlanGradeHoraria: Worksheet, Turma: clsTurma): Void
 \begin_layout Standard
 
 \emph on
-Cria a estrutura esquemática da planilha.
+Cria a estrutura esquemática da planilha, a formatação da mesma.
 \end_layout
 
 \end_deeper
@@ -3500,7 +3559,7 @@ AplicarDefinicoesAula (Aula: clsAula, DiaSem: String, HorIni: String, QtdHa:
 \begin_layout Standard
 
 \emph on
-Aplica as definições da aula.
+Aplica as definições da aula estabelecidas.
 \end_layout
 
 \end_deeper
@@ -3582,6 +3641,23 @@ IdsAulasCompartilhadas
 \begin_layout Description
 
 \family typewriter
+\series bold
+AtualizarBanco 
+\series default
+(): Void
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Confirma a opção de atualização e atualiza o banco de dados.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
 A_Turma (IdTurma: String): clsTurma
 \end_layout
 
@@ -3590,15 +3666,15 @@ A_Turma (IdTurma: String): clsTurma
 
 \emph on
 Retorna o objeto de uma turma específica.
- Se '
+ Se 
 \family typewriter
 IdTurma
 \family default
-' não corresponder a nenhuma turma existente, será retornado '
+ não corresponder a nenhuma turma existente, será retornado 
 \family typewriter
 Nothing
 \family default
-'.
+.
 \end_layout
 
 \end_deeper
@@ -3632,7 +3708,7 @@ ConfirmarERemoverTurma (Turma: clsTurma): Void
 \begin_layout Standard
 
 \emph on
-Remoção da turma.
+Remoção de turma.
 \end_layout
 
 \end_deeper
@@ -3667,7 +3743,7 @@ CriarAula (IdTurma: String, [PlanGrdHor: Worksheet = nothing], [NomeAula:
 \begin_inset Quotes eld
 \end_inset
 
-
+ 
 \begin_inset Quotes erd
 \end_inset
 
@@ -3686,7 +3762,7 @@ NomeAula =
 \begin_inset Quotes eld
 \end_inset
 
-
+ 
 \begin_inset Quotes erd
 \end_inset
 
@@ -3792,17 +3868,29 @@ Desenha grades horárias para a geração de PDF.
 \begin_inset Newline newline
 \end_inset
 
-Se QualIdTurma for 
+Se 
+\family typewriter
+QualIdTurma
+\family default
+ for 
+\family typewriter
+
 \begin_inset Quotes eld
 \end_inset
 
-
+ 
 \begin_inset Quotes erd
 \end_inset
 
+
+\family default
 , todas serão geradas.
  Caso contrário, apenas a da turma especificada.
- Será utilizado o LivroPDF e, em cada planilha, haverá apenas um grupo.
+ Será utilizado o 
+\family typewriter
+LivroPDF
+\family default
+ e, em cada planilha, haverá apenas um grupo.
  O arquivo PDF já será gerado.
 \end_layout
 
@@ -3892,7 +3980,7 @@ Gera os arquivos das publicações em PDF.
 \begin_layout Description
 
 \family typewriter
-Identifica (IdAula: String, NomeAula: String, IdTurma: String): Void
+Identifica (ByVal IdAula: String, NomeAula: String, IdTurma: String): Void
 \family default
  
 \end_layout
@@ -3901,7 +3989,7 @@ Identifica (IdAula: String, NomeAula: String, IdTurma: String): Void
 \begin_layout Standard
 
 \emph on
-Identificação do nome de aula e do Id da turma.
+Identificação do nome de aula e da turma.
 \end_layout
 
 \end_deeper
@@ -3915,7 +4003,8 @@ InicializarObjetosAuxiliares (): Void
 \begin_layout Standard
 
 \emph on
-Inicialização dos objetos auxiliares.
+Inicialização dos objetos auxiliares (habilitações, disciplinas, professores
+ e salas).
 \end_layout
 
 \end_deeper
@@ -3943,11 +4032,11 @@ MarcaExclusaoTurma (Turma: clsTurma): Void
 \begin_layout Standard
 
 \emph on
-Acrescentar '
+Acrescenta 
 \family typewriter
 IdTurma
 \family default
-' para posterior exclusão no banco de dados.
+ para posterior exclusão no banco de dados.
 \end_layout
 
 \end_deeper
@@ -3987,7 +4076,7 @@ NomeAula <>
 \begin_inset Quotes eld
 \end_inset
 
-
+ 
 \begin_inset Quotes erd
 \end_inset
 
@@ -4003,18 +4092,18 @@ NomeAula poderá ser
 \begin_inset Quotes eld
 \end_inset
 
-
+ 
 \begin_inset Quotes erd
 \end_inset
 
 
 \family default
 , o que indicará a criação de nova aula.
- Neste caso, '
+ Neste caso, 
 \family typewriter
 Modificado
 \family default
-' assumirá 
+ assumirá 
 \family typewriter
 .V.
 \family default
@@ -4028,7 +4117,8 @@ IdsAulasCompartilhadas
 \family default
  será acresecentado um item tipo matriz de 3 linhas com informações do tipo
  texto a respeito das aulas compartilhadas, se a aula corrente for compartilhada
-; o índice 0, será a aula corrente; o 1, a anterior; e o 2, a seguinte.
+; o índice 0, será a aula corrente; o 1, a anterior; e o 2, a seguinte,
+ indicando assim as turmas em que compartilham a mesma.
 \begin_inset Newline newline
 \end_inset
 
@@ -4046,7 +4136,7 @@ ReDivTurma (Turma: clsTurma): Boolean
 \begin_layout Standard
 
 \emph on
-Redivisão da turma.
+Redivisão de turma.
 \end_layout
 
 \end_deeper
@@ -4067,14 +4157,8 @@ Reformata a exibição de todas as aulas da turma.
 \begin_layout Description
 
 \family typewriter
-TransformarEm (AnoDestino: Integer, Semest
-\end_layout
-
-\begin_layout Description
-
-\family typewriter
-reDestino: Integer, [IdsTurmasNaoTransformadas: Collection = Nothing]):
- Void
+TransformarEm (AnoDestino: Integer, SemestreDestino: Integer, [IdsTurmasNaoTrans
+formadas: Collection = Nothing]): Void
 \end_layout
 
 \begin_deeper
@@ -4092,7 +4176,8 @@ Tranforma os dados correntes de um ano e semestre para outro ano e semestre.
 \family typewriter
 IdsTurmasNaoTransformadas
 \family default
-, se fornecida, e será exibida em uma mensagem de erro.
+, se fornecida, e será exibida em uma mensagem de erro, indicando as turmas
+ dessa coleção.
 \end_layout
 
 \end_deeper
@@ -4162,7 +4247,7 @@ pUsuario: String
 \begin_layout Standard
 
 \emph on
-Usuário.
+Define usuário.
 \end_layout
 
 \end_deeper
@@ -4176,7 +4261,7 @@ pSenha: String
 \begin_layout Standard
 
 \emph on
-Senha.
+Define senha.
 \end_layout
 
 \end_deeper
@@ -4190,7 +4275,35 @@ pSenhaNova: String
 \begin_layout Standard
 
 \emph on
-Senha nova.
+Define senha nova.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+pCont: Integer
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Define contador de tentativas.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
+pTentativas: Integer
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Define quantidade máxima de tentativas.
 \end_layout
 
 \end_deeper
@@ -4212,7 +4325,7 @@ Senha (QualSenha: String)
 \begin_layout Standard
 
 \emph on
-Definir senha.
+Define senha.
 \end_layout
 
 \end_deeper
@@ -4240,7 +4353,7 @@ SenhaNova (QualSenha: String)
 \begin_layout Standard
 
 \emph on
-Definir senha nova.
+Define senha nova.
 \end_layout
 
 \end_deeper
@@ -4316,7 +4429,7 @@ Públicos
 \begin_layout Description
 
 \family typewriter
-InfsErros ([Erros: Variant]: String
+InfsErros ([Erros: Variant]): String
 \end_layout
 
 \begin_deeper
@@ -4339,11 +4452,11 @@ PedirAlterarSenha ([Erros: Variant = Nothing], [ExibirInfs: Boolean = True]):
 
 \emph on
 Pede para o usuário trocar a senha.
- Se a nova senha e sua confirmação forem iguais, pressionando '
+ Se a nova senha e sua confirmação forem iguais, pressionando 
 \family typewriter
 Aceitar
 \family default
-' retorna .
+ retorna .
 \family typewriter
 V
 \family default
@@ -4367,11 +4480,11 @@ PedirUsuarioSenha ([Erros: Variant = Nothing], [ExibirInfs: Boolean = True]):
 
 \emph on
 Pede o usuário e senha.
- Se pressionado '
+ Se pressionado 
 \family typewriter
 Aceitar
 \family default
-' e a quantidade de tentativas não tiver sido excedida, retorna .
+ e a quantidade de tentativas não tiver sido excedida, retorna .
 \family typewriter
 V
 \family default
@@ -4391,7 +4504,15 @@ Variant
 \family typewriter
 ADODB.Errors
 \family default
-, que eram gerados em algumas instalações do Excel (máquinas com Excel).
+, que eram gerados em algumas instalações do 
+\emph default
+Excel
+\emph on
+ (máquinas com 
+\emph default
+Excel
+\emph on
+).
 \end_layout
 
 \end_deeper
@@ -4431,11 +4552,12 @@ modColorFunctions
 \end_layout
 
 \begin_layout Standard
-Rotinas de tratamento de cores no Excel, obtidas em:
+Rotinas de tratamento de cores no Excel, obtidas através de:
 \end_layout
 
 \begin_layout Standard
 \begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
 inline false
 status open
 
@@ -4463,6 +4585,24 @@ This module described at www.cpearson.com/Excel/Colors.aspx
 \begin_layout Plain Layout
 
 Date: 24-January-2008.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Módulo descrito em:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+www.cpearson.com/Excel/Colors.aspx
 \end_layout
 
 \end_inset
@@ -4539,8 +4679,11 @@ ChooseColorDialog (DefaultColor: Long): Long
 \begin_layout Standard
 
 \emph on
-Exibe uma caixa de diálogo padrão para escolha de cor, e retorna a que foi
- selecionada.
+Exibe uma caixa de diálogo padrão para escolha de cor, e retorna a 
+\family typewriter
+RGB Long
+\family default
+ que foi selecionada.
 \end_layout
 
 \end_deeper
@@ -4560,19 +4703,28 @@ Retorna o
 ColorIndex
 \family default
  de uma célula.
- O 
+ Se 
 \family typewriter
-ColorIndex
+OfText
+\begin_inset space ~
+\end_inset
+
+=
+\begin_inset space ~
+\end_inset
+
+True
 \family default
- é uma propriedade 
+ a cor da propriedade 
 \family typewriter
 Font
 \family default
- ou então a propriedade 
+ é retornada, caso contrário da propriedade 
 \family typewriter
 Interior
 \family default
- é atribuida.
+.
+ 
 \end_layout
 
 \end_deeper
@@ -4595,20 +4747,29 @@ ColorIndex
 \family typewriter
 Range
 \family default
-.
- O 
+ de células.
+ Se 
 \family typewriter
-ColorIndex
+OfText
+\begin_inset space ~
+\end_inset
+
+=
+\begin_inset space ~
+\end_inset
+
+True
 \family default
- é uma propriedade 
+ a cor da propriedade 
 \family typewriter
 Font
 \family default
- ou uma propriedade 
+ é retornada, caso contrário da propriedade 
 \family typewriter
 Interior
 \family default
- é atribuida.
+.
+ 
 \end_layout
 
 \end_deeper
@@ -4626,7 +4787,38 @@ Retorna a identificação da cor (
 \family typewriter
 ColorIndex
 \family default
-) associada ao valor da mesma em RGB.
+) na paleta, associada ao valor em 
+\family typewriter
+RGB
+\family default
+.
+ Retorna -1 se a 
+\family typewriter
+RGBLong
+\family default
+ não é encontrada ou se 
+\family typewriter
+RGBLong
+\begin_inset space ~
+\end_inset
+
+<
+\begin_inset space ~
+\end_inset
+
+C_RGB_BLACK
+\family default
+ ou 
+\family typewriter
+RGBLong
+\begin_inset space ~
+\end_inset
+
+>
+\begin_inset space ~
+\end_inset
+
+C_RGB_WHITE.
 \end_layout
 
 \end_deeper
@@ -4663,6 +4855,22 @@ UNNAMED
 ColorNameOfRGB (RGBLong: Long): String
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna o nome da cor especificada na 
+\family typewriter
+RGBLong
+\family default
+, se pertencer a paleta padrão, caso contrário retorna 
+\family typewriter
+vbNullString
+\family default
+.
+\end_layout
+
+\end_deeper
 \begin_layout Description
 
 \family typewriter
@@ -4675,20 +4883,37 @@ CountColor (InRange: Range, ColorIndex: Long, [OfText: Boolean = False]):
 
 \emph on
 Conta o número de células que possuem um determinado ColorIndex.
-\end_layout
-
-\end_deeper
-\begin_layout Description
-
+ Se 
 \family typewriter
-DefaultColorPallet (): Variant
-\end_layout
+OfText
+\begin_inset space ~
+\end_inset
 
-\begin_deeper
-\begin_layout Standard
+=
+\begin_inset space ~
+\end_inset
 
-\emph on
-Retorna um arranjo de cores padrão.
+True
+\family default
+ a cor da propriedade 
+\family typewriter
+Font
+\family default
+ é testada, caso contrário da propriedade 
+\family typewriter
+Interior
+\family default
+.
+ Se o 
+\family typewriter
+ColorIndex
+\family default
+ não for válido retorna 0.
+\begin_inset Newline newline
+\end_inset
+
+A propriedade permite o usuário utilizar o valor 0 para indicar que nenhuma
+ cor deve ser utilizada em determinada região.
 \end_layout
 
 \end_deeper
@@ -4726,6 +4951,24 @@ Array
 \begin_layout Description
 
 \family typewriter
+DefaultColorPallet (): Variant
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Retorna o arranjo de cores padrão no 
+\emph default
+Excel 2003
+\emph on
+, existe mais de uma opção de utilização da rotina.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+
+\family typewriter
 IsColorIndexDefault (ColorIndex: Long): Boolean
 \end_layout
 
@@ -4733,7 +4976,11 @@ IsColorIndexDefault (ColorIndex: Long): Boolean
 \begin_layout Standard
 
 \emph on
-Retorna se a cor corresponde pertence as cores padrão do Excel.
+Retorna se a cor correspondente pertence a paleta de cores padrão do 
+\emph default
+Excel
+\emph on
+.
 \end_layout
 
 \end_deeper
@@ -4751,7 +4998,15 @@ Retorna se a palheta de cores especificada para o
 \family typewriter
 Workbook
 \family default
- foi modificada.
+ foi modificada ou não possui todas as cores padrão, se o parâmetro 
+\family typewriter
+Workbook
+\family default
+ não for especificado testa o 
+\family typewriter
+ActiveWorkbook
+\family default
+.
 \end_layout
 
 \end_deeper
@@ -4770,6 +5025,27 @@ Indica se o valor é um
 ColorIndex
 \family default
  válido.
+ Retorna 
+\family typewriter
+True 
+\family default
+se o 
+\family typewriter
+ColorIndex 
+\family default
+estiver entre 1 e 56 ou for igual a 
+\family typewriter
+xlColorIndexNone
+\family default
+ ou 
+\family typewriter
+xlColorIndexAutomatic
+\family default
+, caso contrário retorna 
+\family typewriter
+False
+\family default
+.
 \end_layout
 
 \end_deeper
@@ -4787,14 +5063,18 @@ Indica se uma
 \family typewriter
 Long Integer
 \family default
- é uma cor RGB válida.
+ é uma cor 
+\family typewriter
+RGB
+\family default
+ válida.
 \end_layout
 
 \end_deeper
 \begin_layout Description
 
 \family typewriter
-RangeOfColors (TestRange: Range, ColorIndex: Long, [OfText: Boolean = False]):
+RangeOfColor (TestRange: Range, ColorIndex: Long, [OfText: Boolean = False]):
  Range
 \end_layout
 
@@ -4802,21 +5082,47 @@ RangeOfColors (TestRange: Range, ColorIndex: Long, [OfText: Boolean = False]):
 \begin_layout Standard
 
 \emph on
-Retorna uma 
+Retorna uma objeto 
 \family typewriter
 Range 
 \family default
-contendo as células individuais que a 
+contendo as células individuais possuem determinado 
+\family typewriter
+ColorIndex
+\family default
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Se 
+\family typewriter
+OfText
+\begin_inset space ~
+\end_inset
+
+=
+\begin_inset space ~
+\end_inset
+
+True
+\family default
+ a cor da propriedade 
 \family typewriter
 Font
 \family default
- ou o 
+ é retornada, caso contrário da propriedade 
 \family typewriter
 Interior
 \family default
- possuem determinado 
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+A função pode retornar 
 \family typewriter
-ColorIndex
+Nothing
 \family default
 .
 \end_layout
@@ -4825,15 +5131,27 @@ ColorIndex
 \begin_layout Description
 
 \family typewriter
-RGBComponentsFromRGBLong (RGBLong: Long): Long
+RGBComponentsFromRGBLong (RGBLong: Long): Long ()
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
 
 \emph on
-Retorna um arranjo contendo os componentes vermelho, verde e azul de uma
- cor RGB.
+Retorna um arranjo de três elementos contendo os componentes vermelho, verde
+ e azul de uma cor 
+\family typewriter
+RGB
+\family default
+, se a 
+\family typewriter
+RGBLong
+\family default
+ não for uma cor 
+\family typewriter
+RGB 
+\family default
+válida os elementos serão -1.
 \end_layout
 
 \end_deeper
@@ -4871,8 +5189,12 @@ Retorna uma representação
 \family typewriter
 Long Integer
 \family default
- da cor definida por valores de vermelho (red), verde (green) e azul (blue).
- Retora -1 se algum dos parâmetros não estiver no intervalo 0 < 255.
+ da cor definida por valores de vermelho, verde e azul.
+ Retorna -1 se algum dos parâmetros não estiver no intervalo 0 < 
+\family typewriter
+V
+\family default
+ < 255.
 \end_layout
 
 \end_deeper
@@ -4886,11 +5208,19 @@ RGBLongFromColorIndex (ColorIndex: Long): Long
 \begin_layout Standard
 
 \emph on
-Retorna a cor em RGB correspondente a um 
+Retorna a cor em 
+\family typewriter
+RGB
+\family default
+ correspondente a um 
 \family typewriter
 ColorIndex
 \family default
-.
+, retorna -1 se o 
+\family typewriter
+ColorIndex
+\family default
+ não estiver entre 1 e 56.
 \end_layout
 
 \end_deeper
@@ -5101,7 +5431,11 @@ Sleep()
 \begin_inset Newline newline
 \end_inset
 
-Código por 'ghudson', publicado em:
+Código por 
+\emph default
+Ghudson
+\emph on
+, publicado em:
 \begin_inset Newline newline
 \end_inset
 
@@ -5130,26 +5464,8 @@ Teste_Usuario_host (): Void
 \begin_layout Standard
 
 \emph on
-Registro de usuário e computador.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-Não sei se é realmente essa a função desta rotina.
-
-\change_inserted 239966243 1371775578
- Esta rotina apenas exibe o nome do usuário e do computador numa caixa de
- mensagem, com a finalidade apenas para teste.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
+Exibe o nome de usuário e do computador em uma caixa d mensagem, tem apenas
+ função de teste.
 \end_layout
 
 \end_deeper
