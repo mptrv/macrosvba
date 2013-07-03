@@ -6177,8 +6177,790 @@ Aulas Quinzenais
 \end_layout
 
 \begin_layout Standard
-A princípio, o programa prevê aulas quinzenais apenas para professores\SpecialChar \ldots{}
+O tratamento de aulas quinzenais requer atenção especial, pois existem muitas
+ possibilidades.
+\end_layout
 
+\begin_layout Standard
+Recomenda-se, enfaticamente, seguir as soluções apresentadas aqui, pois
+ irão garantir em consistências diversas no momento de extração de dados
+ para atidades administrativas ou de pesquisas.
+\end_layout
+
+\begin_layout Standard
+Por exemplo, seguindo estas soluções, garante-se que os alunos que tenham
+ aulas quinzenais intercaladas entre duas disciplinas, com dois professores
+ distintos, recebam o questionário de avaliação com o nome de ambos os professor
+es.
+ Se outra solução for adotada, existe a probabilidade dos alunos não receberem
+ o questionário relativo a um destes professores.
+\end_layout
+
+\begin_layout Standard
+Outro exemplo a citar, refere-se ao processamento para encontrar superposição
+ de professores.
+ Adotando as soluções apresentadas, não haverá superposição por nenhuma
+ aula quinzenal, simplificando a análise das superposições.
+\end_layout
+
+\begin_layout Standard
+Para melhor compreensão, na subseção abaixo apresentam-se as definições
+ do significado de 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+aulas quinzenais
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, as quais, na realidade, se retratam por meio de professor, aluno ou disciplina
+ quinzenal.
+\end_layout
+
+\begin_layout Standard
+Em seguida, nas próximas subseções, são apresentadas as possibilidades de
+ aulas quinzenais e diversas simulações --- uma situação por página, de
+ forma que a consulta seja simples e prática no momento de elaboração das
+ grades horárias.
+\end_layout
+
+\begin_layout Subsection
+Definições
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Definições"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conforme citado anteriormente, as 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+aulas quinzenais
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ são retratadas por 
+\emph on
+professor quinzenal
+\emph default
+, 
+\emph on
+aluno quinzenal
+\emph default
+ e 
+\emph on
+disciplina quinzenal
+\emph default
+, com as seguintes definições:
+\end_layout
+
+\begin_layout Description
+Professor
+\begin_inset space ~
+\end_inset
+
+quinzenal: quando o professor, num determinado dia da semana e horário,
+ ministra aula uma semana sim, uma semana não.
+\end_layout
+
+\begin_layout Description
+Aluno
+\begin_inset space ~
+\end_inset
+
+quinzenal: quando o aluno, de uma determinada subdivisão e em determinado
+ dia da semana e horário, possui aula uma semana sim, uma semana não.
+\end_layout
+
+\begin_layout Description
+Disciplina
+\begin_inset space ~
+\end_inset
+
+quinzenal: quando a disciplina for ministrada a uma determinada subdivisão,
+ em determinado dia da semana e horário, uma semana sim, uma semana não.
+\end_layout
+
+\begin_layout Subsection
+Possibilidades de Aulas Quinzenais
+\end_layout
+
+\begin_layout Standard
+Considerando-se as definições acima, as combinações da tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Combinações-possíveis-para-aula-qz"
+
+\end_inset
+
+ podem ocorrer para compor uma aula quinzenal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top" width="5em">
+<column alignment="center" valignment="top" width="5em">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Situação
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Quinzenal
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\emph on
+Pág.
+ ref.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Disciplina
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Professor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Aluno
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sub:Situação-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sub:Situação-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sub:Situação-3"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sub:Situação-4"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+sim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sub:Situação-5"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Combinações possíveis para composição de aula quinzenal.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Combinações-possíveis-para-aula-qz"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Simulações
+\end_layout
+
+\begin_layout Standard
+Nas páginas seguintes, encontram-se as simulações das situações para as
+ aulas quinzenais.
+\end_layout
+
+\begin_layout Standard
+No item 
+\emph on
+Situação
+\emph default
+, tem-se um esboço do que realmente ocorre em uma semana e na semana consecutiva
+, aqui chamadas de 
+\emph on
+Semana 1
+\emph default
+ e 
+\emph on
+Semana 2
+\emph default
+.
+ A sigla 
+\emph on
+GTL
+\emph default
+ representa uma subdivisão qualquer, seja de grupo, turma ou laboratório,
+ equanto que 
+\emph on
+m 
+\emph default
+e
+\emph on
+ n
+\emph default
+ correspondem a números quaisquer desta subdivisão.
+ 
+\emph on
+Disciplina 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\emph default
+e
+\emph on
+ Disciplina 
+\begin_inset Formula $\beta$
+\end_inset
+
+ 
+\emph default
+referem-se a duas disciplinas distintas e 
+\emph on
+Professor X
+\emph default
+, 
+\emph on
+Professor Y
+\emph default
+, 
+\emph on
+Professor Z
+\emph default
+ e 
+\emph on
+Professor W
+\emph default
+ são quatro professores distintos.
+\end_layout
+
+\begin_layout Standard
+Já no item 
+\emph on
+Solução
+\emph default
+, tem-se o esboço do lançamento a ser realizado na grade horária, considerando-s
+e aulas quinzenais com 2 horas-aula de duração.
+ Por isso, há de se notar nos desenhos, a indicação de 1 hora-aula em cada
+ linha da grade.
+\end_layout
+
+\begin_layout Standard
+Salienta-se que, para a adequada compreensão das situações, é muito importante
+ a leitura da seção 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:Definições"
+
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "sub:Definições"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Situação 1 --- Professor, Disciplina e Aluno Quinzenais
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Situação-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Situação 2 --- Apenas Professor Quinzenal
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Situação-2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Situação 3 --- Disciplina e Aluno Quinzenais
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Situação-3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Situação 4 --- Apenas Disciplina Quinzenal
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Situação-4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Situação 5 --- Disciplina e Professor Quinzenais
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Situação-5"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Observações
 \end_layout
 
 \begin_layout Section
