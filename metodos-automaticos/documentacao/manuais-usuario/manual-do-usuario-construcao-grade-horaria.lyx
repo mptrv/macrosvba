@@ -7109,8 +7109,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset ERT
@@ -7118,7 +7116,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-\size larger
 
 \backslash
 es
@@ -7141,8 +7138,6 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset Formula $\nicefrac{Disc.\,\alpha}{Prof.\, X}$
@@ -7183,8 +7178,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset ERT
@@ -7192,7 +7185,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-\size larger
 
 \backslash
 es
@@ -7215,8 +7207,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset Formula $\nicefrac{Disc.\,\alpha}{Prof.\, Y}$
@@ -7295,7 +7285,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-\size larger
 
 \backslash
 es
@@ -7318,8 +7307,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset Phantom Phantom
@@ -7378,7 +7365,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-\size larger
 
 \backslash
 es
@@ -7401,8 +7387,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset Phantom Phantom
@@ -7622,8 +7606,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset ERT
@@ -7631,7 +7613,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-\size larger
 
 \backslash
 es
@@ -7654,8 +7635,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset Formula $\nicefrac{Disc.\,\alpha}{Prof.\, X}$
@@ -7696,8 +7675,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset ERT
@@ -7705,7 +7682,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-\size larger
 
 \backslash
 es
@@ -7728,8 +7704,6 @@ height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
-\align center
 
 \size larger
 \begin_inset Formula $\nicefrac{Disc.\,\alpha}{Prof.\, Y}$
