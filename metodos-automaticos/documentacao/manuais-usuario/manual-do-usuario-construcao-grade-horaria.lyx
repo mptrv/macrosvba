@@ -102,7 +102,7 @@ hanging
 status open
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
@@ -166,7 +166,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
@@ -335,7 +335,7 @@ Campo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
@@ -810,8 +810,8 @@ Microsoft Excel
 Visual Basic for Application
 \emph default
 \lang brazilian
-) e como interface de usuário, as próprias planilhas do aplicativo e formulários
- internos.
+) e, como interface de usuário, as próprias planilhas do aplicativo e formulário
+s internos.
 \end_layout
 
 \begin_layout Standard
@@ -824,6 +824,30 @@ Excel
  Na versão 2007, alguns recursos poderão não operar corretamente ou não
  se apresentarem disponíveis.
  Em versões anteriores à de 2007, não espera-se que o programa funcione.
+ Em versões posteriores, espera-se que funcione, mas não de forma garantida.
+\end_layout
+
+\begin_layout Standard
+Em resumo:
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+A operação do programa dá-se sob o 
+\emph default
+Microsoft Excel 2010
+\emph on
+, no qual diversos testes são realizados e garante-se o adequado funcionamento.
+ Em versões anteriores ou posteriores, não são realizados testes e, por
+ isso, não garante-se o correto funcionamento.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1045,7 +1069,7 @@ reference "fig:Janela-para-identificação"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement b
+placement h
 wide false
 sideways false
 status open
@@ -1434,7 +1458,7 @@ name "fig:Aviso-dados-serão"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement ph
+placement h
 wide false
 sideways false
 status open
@@ -1443,7 +1467,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-aviso banco de dados atualizado com sucesso .png
-	height 3.5cm
+	height 3.25cm
 
 \end_inset
 
@@ -1637,7 +1661,7 @@ Etapas durante a leitura do banco de dados: (a) filtro para escolha do ano
 
 \begin_layout Standard
 \begin_inset Float figure
-placement ph
+placement H
 wide false
 sideways false
 status open
@@ -1646,7 +1670,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-pagina principal 2.png
-	height 10cm
+	height 8cm
 
 \end_inset
 
@@ -1691,6 +1715,13 @@ name "fig:Planilha-geral-ápos"
 
 \begin_layout Subsection
 Selecionar Turma
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Selecionar-Turma"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4750,7 +4781,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões de edição de turma-gerar PDF.png
-	height 5cm
+	height 5.75cm
 
 \end_inset
 
@@ -4969,6 +5000,41 @@ name "fig:Geração-de-relatórios-pdfs"
 \end_layout
 
 \begin_layout Section
+Impressão
+\end_layout
+
+\begin_layout Standard
+Para realizar a impressão da Grade Horária de uma turma, há dois métodos:
+\end_layout
+
+\begin_layout Enumerate
+selecionar a opção de "imprimir" do próprio Excel, como de costume, para
+ a turma visualizada --- nenhum ajuste especial será realizado pelo programa;
+ ou
+\end_layout
+
+\begin_layout Enumerate
+gerar os arquivos para publicação, em PDF, e depois proceder com a impressão
+ de arquivos PDF como de costume --- o programa fará a paginação do material
+ antes de convertê-lo para PDF; para mais informações sobre publicação em
+ PDF, consulte a seção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Relatórios"
+
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Relatórios"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
 Finalização
 \end_layout
 
@@ -5019,6 +5085,7 @@ Atenção! Não feche pelo botão de fechar padrão do Excel! Isso irá gerar
 
 \begin_layout Standard
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status open
@@ -5105,10 +5172,10 @@ Após essa operação, é seguro fechar, pelo próprio Excel, a planilha em bran
 
 \begin_layout Standard
 \begin_inset Float figure
-placement tbh
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -5121,7 +5188,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-sair.png
-	height 7cm
+	height 6cm
 
 \end_inset
 
@@ -5158,7 +5225,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-botões da area principal-sobre.png
-	height 7cm
+	height 5.75cm
 
 \end_inset
 
@@ -5300,7 +5367,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/cgh-mensagem botão sobre.png
-	width 90text%
+	width 80text%
 
 \end_inset
 
@@ -11660,13 +11727,32 @@ Compartilhamento de Aulas
 \end_layout
 
 \begin_layout Standard
-O compartilhamento de aulas possui sentido apenas quando alunos de turmas
- distintas participam da mesma aula simultaneamente.
+Quando as aulas são compartilhadas, a princípio, o número do grupo deve
+ ser o mesmo entre as turmas
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ver os significados da palavra turma na seção 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:Selecionar-Turma"
+
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "sub:Selecionar-Turma"
+
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-Quando as aulas são compartilhadas, a princípio, o número do grupo deve
- ser o mesmo entre as turmas.
+\end_inset
+
+.
  Na maior parte das situações, as aulas compartilhadas são definidas entre
  turmas com um único grupo e, portanto, não há nenhuma ressalva.
  A definição da aula e seu compartilhamento poderá ser realizado em qualquer
@@ -11693,32 +11779,247 @@ Contudo, pode existir a necessidade de compartilhar um dos grupos de uma
 Simulações
 \end_layout
 
+\begin_layout Enumerate
+Tem-se a 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+A
+\emph default
+ com 3 grupos, 6 turmas e 12 laboratórios.
+ Tem-se a 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+B
+\emph default
+ com 1 grupo, 1 turma e 3 laboratórios.
+ Deseja-se compartilhar uma aula do 
+\bar under
+Grupo
+\begin_inset space ~
+\end_inset
+
+1 da 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+A
+\emph default
+\bar default
+ com o Grupo
+\begin_inset space ~
+\end_inset
+
+1 (único existente) da 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+B
+\emph default
+.
+ Como solução, deve-se abrir qualquer uma das turmas, criar a aula e compartilhá
+-la com a outra turma.
+\end_layout
+
+\begin_layout Enumerate
+Numa situação semelhante ao do item anterior, tem-se a 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+A
+\emph default
+ com 3 grupos, 6 turmas e 12 laboratórios e a 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+B
+\emph default
+ com 1 grupo, 1 turma e 3 laboratórios.
+ Deseja-se compartilhar uma aula do 
+\bar under
+Grupo
+\begin_inset space ~
+\end_inset
+
+3 da 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+A
+\emph default
+\bar default
+ com o Grupo
+\begin_inset space ~
+\end_inset
+
+1 (único existente) da 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+B
+\emph default
+.
+ Neste caso, a solução mais simples consiste em carregar a 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+A
+\emph default
+ (que é a turma maior), criar a aula e compartilhá-la com a 
+\emph on
+Turma
+\begin_inset space ~
+\end_inset
+
+B
+\emph default
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:compartilhar-3-com-1"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Observações
 \end_layout
 
 \begin_layout Enumerate
+O compartilhamento de aulas possui sentido apenas quando alunos de turmas
+ distintas participam da mesma aula simultaneamente.
+\end_layout
+
+\begin_layout Enumerate
 No caso de compartilhamento de aula entre uma turma grande e outra pequena,
- se o número do grupo for maior de 1 na grande e se for realizada alguma
- alteração na aula por meio da turma pequena, a aula será movida para o
- Grupo 1 na grande.
- Pode-se, então, abrir a turma grande e reposicionar a aula ao correspondente
- grupo, sem influenciar as definições da pequena.
- Alternativamente, numa ocasião como esta, pode-se realizar as alterações
- já na aula presente na turma grande, sendo, então, refletida na turma pequena
- sem qualquer efeito indesejado.
+ se o número do grupo for maior que 1 na grande e se for realizada alguma
+ alteração na aula por meio da turma pequena, na grande a aula será movida
+ para o Grupo 1.
+ Aconselha-se que esta situação seja evitada, para diminuir as probabilidades
+ de conflitos inesperados, caso se esqueça de fazer a correção.
+ Se executado tal procedimento, a correção consiste em abrir a turma grande
+ e reposicionar a aula ao correspondente grupo, tarefa esta que não influencia
+ as definições da aula na turma pequena.
+ Alternativamente, numa ocasião de alteração como esta, aconselha-se realizar
+ as modificações na aula da turma grande, as quais serão, então, refletidas
+ na turma pequena sem qualquer efeito indesejado.
+ Note-se que este procedimento é semelhante ao citado acima, quanto à criação
+ de aula compartilhada.
+\end_layout
+
+\begin_layout Enumerate
+Não é possível compartilhar aulas dentro de uma mesma turma.
+ Por exemplo, não é possível compartilhar aulas do Grupo
+\begin_inset space ~
+\end_inset
+
+1 e do Grupo
+\begin_inset space ~
+\end_inset
+
+3 de uma determinada turma.
+ Adicionalmente, salienta-se que, para o futuro, este recurso 
+\emph on
+não
+\emph default
+ será implementado, pois existe outra solução possível, mais conveniente
+ e que torna os dados dos lançamentos mais consistentes (refere-se à redivisão
+ da turma).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Estudar as situações de redivisão de turmas e estabelecer critérios e orientaçõe
+s.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 Aulas de Projeto
 \end_layout
 
-\begin_layout Subsection
-Simulações
+\begin_layout Standard
+As aulas de projeto, a princípio, relacionam-se com as aulas de 
+\emph on
+Introdução à Engenharia
+\emph default
+.
+ As aulas de laboratório desta disciplina seriam, de fato, projetos a serem
+ executados pelos alunos.
+ Contudo, tal tipo de aula não necessita que esteja associada apenas à 
+\emph on
+Introdução à Engenharia
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Em geral, não há necessidade de especificar que a aula é de projeto, uma
+ vez que ela ocupa uma posição bem definida na grade horária de uma turma,
+ seja como 
+\emph on
+grupo
+\emph default
+, 
+\emph on
+turma 
+\emph default
+ou 
+\emph on
+laboratório
+\emph default
+.
+ Disponibiliza-se a função para caso se deseje explicitar que tal aula será,
+ 
+\bar under
+exclusivamente
+\bar default
+, de projeto.
+ Esta decisão deverá ser manifestada pelo coordenador de curso e, para os
+ lançamentos serem consistentes, todas as ocorrências semelhantes de tal
+ aula deverão ser ajustadas com o tipo 
+\emph on
+projeto
+\emph default
+.
 \end_layout
 
 \begin_layout Subsection
 Observações
+\end_layout
+
+\begin_layout Enumerate
+Em 2011 e 2012, há lançamentos de aulas com tipo 
+\emph on
+projeto
+\emph default
+.
+ Em 2013, até o momento de escrita deste manual, não há, nenhuma.
 \end_layout
 
 \begin_layout Chapter
@@ -12007,8 +12308,83 @@ Compartilhamento de Aulas
 Criação de Aulas Compartilhadas
 \end_layout
 
+\begin_layout Enumerate
+Procurar três turmas que possuem, no máximo, um grupo, em um mesmo período,
+ e abri-las.
+\end_layout
+
+\begin_layout Enumerate
+Criar uma nova aula em uma delas.
+\end_layout
+
+\begin_layout Enumerate
+Compartilhar a aula recém-criada com as outras duas turmas.
+\end_layout
+
+\begin_layout Enumerate
+Procurar uma outra turma, no mesmo período, que possua três ou mais grupos.
+\end_layout
+
+\begin_layout Enumerate
+Criar uma nova aula no Grupo 3.
+\end_layout
+
+\begin_layout Enumerate
+Compartilhar esta aula com uma das turmas anteriores, que possuem apenas
+ um grupo.
+\end_layout
+
+\begin_layout Enumerate
+Abrir esta turma que recebeu a aula compartilhada.
+\end_layout
+
+\begin_layout Enumerate
+Alterar algum dado (sala, por exemplo) da aula recém-compartilhada e aceitar.
+\end_layout
+
+\begin_layout Enumerate
+Voltar à turma anterior e verificar o que ocorreu.
+\end_layout
+
+\begin_layout Enumerate
+Providenciar a correção e verificar o que ocorre com a outra turma.
+\end_layout
+
 \begin_layout Subsection
 Exclusão do Compartilhamento entre Aulas
+\end_layout
+
+\begin_layout Enumerate
+Em relação à subseção anterior, excluir o compartilhamento da aula de apenas
+ uma turma das três que foram envolvidas com a aula compartilhada, de forma
+ que no procedimento o programa exclua a aula descompartilhada.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:exclusao-compartilhamento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Recompartilhar a aula anterior com as turmas envolvidas.
+\end_layout
+
+\begin_layout Enumerate
+Repetir o item 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:exclusao-compartilhamento"
+
+\end_inset
+
+, contudo sem que o programa exclua a aula ao descompartilhar.
+\end_layout
+
+\begin_layout Enumerate
+Alterar dados desta aula recém-descompartilhada e verificar se houve algum
+ reflexo nas demais anteriormente compartilhadas com ela.
 \end_layout
 
 \begin_layout Section
