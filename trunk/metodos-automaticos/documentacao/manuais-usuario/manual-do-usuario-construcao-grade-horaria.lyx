@@ -5009,13 +5009,13 @@ Para realizar a impressão da Grade Horária de uma turma, há dois métodos:
 
 \begin_layout Enumerate
 selecionar a opção de "imprimir" do próprio Excel, como de costume, para
- a turma visualizada --- nenhum ajuste especial será realizado pelo programa;
+ a turma visualizada -- nenhum ajuste especial será realizado pelo programa;
  ou
 \end_layout
 
 \begin_layout Enumerate
 gerar os arquivos para publicação, em PDF, e depois proceder com a impressão
- de arquivos PDF como de costume --- o programa fará a paginação do material
+ de arquivos PDF como de costume -- o programa fará a paginação do material
  antes de convertê-lo para PDF; para mais informações sobre publicação em
  PDF, consulte a seção 
 \begin_inset CommandInset ref
@@ -5481,12 +5481,12 @@ PROF
 \begin_inset space ~
 \end_inset
 
-ATVCOMPL Professor de Atividade Complementar -- como, por exemplo, para
- a disciplina 
+ATVCOMPL Professor de Atividade Complementar -- como, por exemplo, o professor
+ que ministra a disciplina 
 \emph on
 Libras
 \emph default
-;
+, quando este não ministra nenhuma outra disciplina regular no instituto;
 \end_layout
 
 \begin_layout Description
@@ -5516,7 +5516,8 @@ PROF
 INDEF Professor Indefinido -- durante a definição dos horários de aulas,
  muitas vezes os professores são definidos posteriormente; essa opção garante
  a criação da aula e depois, com sua alteração, especifica-se o nome do
- professor por fim definido;
+ professor por fim definido; por conseguinte, deve-se usar essa opção temporaria
+mente;
 \end_layout
 
 \begin_layout Description
@@ -5538,15 +5539,14 @@ reference "sec:Introdução-a-Engenharia"
 \begin_layout Standard
 
 \series medium
-Também existem salas especiais disponibilizadas para organização das grades
- horárias.
- São elas:
+Também existem salas especiais disponibilizadas:
 \end_layout
 
 \begin_layout Description
-IND Sala Indeterminada -- assim como professores são determinados posteriormente
- à criação das grades horárias, o mesmo acontece com as salas; com tal finalidad
-e, essa opção pode ser selecionada e posteriormente deverá ser modificada;
+IND Sala Indeterminada -- assim como alguns professores são determinados
+ posteriormente à criação das grades horárias, o mesmo acontece com as salas;
+ com tal finalidade, essa opção pode ser selecionada e posteriormente deverá
+ ser modificada;
 \end_layout
 
 \begin_layout Description
@@ -5584,8 +5584,8 @@ e a sala a
 \end_layout
 
 \begin_layout Enumerate
-Considere que é sabido que um professor será contratado para dar aulas de
- Física, em determinado dia e horário já estabelecidos.
+Considere sabido que um professor será contratado para dar aulas de Física,
+ em determinado dia e horário já estabelecidos.
  Neste caso, o professor deverá ser atribuído a 
 \series bold
 PROF
@@ -5605,13 +5605,13 @@ Libras
 \emph default
  será lançada.
  Como tal disciplina não é associada a nenhuma habilitação, mas a instituição
- é obrigada a oferecer, trata-se de uma 
+ é obrigada a oferecê-la, trata-se de uma 
 \emph on
 atividade complementar
 \emph default
 .
- Portanto, na planilha de grade horária das atividades complementares, esta
- aula deverá ser lançada.
+ Portanto, esta aula deverá ser lançada na planilha de grade horária das
+ atividades complementares.
  Ao atribuir o professor, tem-se duas possibilidades: caso o professor pertença
  à instituição, bastará atribuir seu nome à aula; caso o professor não pertença
  à instituição, então atribui-se 
@@ -5703,8 +5703,8 @@ PROF
 
 INDEF 
 \series default
-permitirá um rastreamento de quais aulas ainda possuem professores pendentes
- de contratação ou quais apenas esperam a definição por parte da Coordenação.
+permitirá um rastreamento de quais aulas ainda possuem professores com pendência
+s de contratação ou quais apenas esperam a definição por parte da Coordenação.
  Esta informação pode ser importante aos gestores administrativos.
 \end_layout
 
@@ -5735,22 +5735,21 @@ Introdução à Engenharia
 laboratório
 \series medium
 \emph default
- serem ministradas ao mesmo tempo e sob o mesmo nome, cabendo aos alunos
- a escolha dos módulos a participar.
+ serem ministradas ao mesmo tempo e sob o mesmo nome, para uma determinada
+ subdivisão, cabendo aos alunos a escolha dos módulos a participar.
 \end_layout
 
 \begin_layout Standard
 
 \series medium
-Para resolver essa particularidade, definiu-se que nas grades horárias normais
- de aula a disciplina será lançada, 
+Para resolver essa particularidade, as 
 \series default
 \emph on
-para as aulas de laboratório
-\emph default
-, 
+aulas de laboratório
 \series medium
-com professores e salas especiais, conforme anteriormente mencionados (
+\emph default
+ serão lançadas nas grades horárias normais de aula com professores e salas
+ especiais, conforme anteriormente mencionados (
 \series bold
 PROF
 \begin_inset space ~
@@ -5855,7 +5854,7 @@ grade horária normal
 \end_inset
 
 , a aula deve ser lançada normalmente, com a correspondente atribuição à
- disciplina, ao nome professor e à sala onde será ministrada.
+ disciplina, ao nome do professor e à sala onde será ministrada.
  Isto porque não haverá qualquer subdivisão entre os alunos para participarem
  desta aula.
  Salienta-se que o tipo da aula deverá ser 
@@ -5920,16 +5919,24 @@ reference "sec:Listagem-das-siglas"
 
  (
 \family sans
-1S1IE.AL-D@2013
+1S1
+\series bold
+IE.AL
+\series default
+-D@2013
 \family default
 ,
 \family sans
- 1S1IE.CV-D@2013
+ 1S1
+\series bold
+IE.CV
+\series default
+-D@2013
 \family default
 , \SpecialChar \ldots{}
 ).
  Por fim, em cada uma destas grades, deve-se criar a nova aula, atribuída
- à disciplina e com o correspondente nome do professor e sala.
+ à disciplina e ao correspondente nome do professor e sala.
  O horário, evidentemente, será o mesmo lançado na grade normal.
  Ainda, salienta-se que o tipo de aula deverá ser 
 \emph on
@@ -5980,7 +5987,7 @@ Simulações
 \end_layout
 
 \begin_layout Enumerate
-Deseja-se lançar uma turma de dependência de disciplina (do Ciclo Básico)
+Deseja-se lançar uma turma de dependência de disciplina do Ciclo Básico
  ministrada na 
 \bar under
 primeira série
@@ -5988,11 +5995,27 @@ primeira série
 , período noturno, no primeiro semestre de 2013.
  Para tanto, deve-se criar a turma de dependência 
 \family sans
-1S1DP.FB-D@2013
+1S1
+\series bold
+DP.FB
+\series default
+-D@2013
 \family default
-, com 1 grupo, 1 turma e 1 laboratório.
+, com 1
+\begin_inset space ~
+\end_inset
+
+grupo, 1
+\begin_inset space ~
+\end_inset
+
+turma e 1
+\begin_inset space ~
+\end_inset
+
+laboratório.
  Em seguida, bastará lançar a aula no devido horário.
- O tipo da aula também deverá ser atribuído adequadamente, entre teoria,
+ O tipo da aula também deverá ser atribuído adequadamente, dentre teoria,
  exercício ou laboratório.
 \end_layout
 
@@ -6033,7 +6056,7 @@ reference "sec:Listagem-das-siglas"
 \emph on
 pseudo-habilitações 
 \emph default
-possíveis de serem utilizadas:
+que devem ser utilizadas:
 \end_layout
 
 \begin_deeper
@@ -6062,32 +6085,48 @@ DP.TQ
 \end_layout
 
 \begin_layout Standard
-Assim, as seguintes turmas de dependências deverão ser criadas, para a situação
+Assim, as seguintes turmas de dependências deverão ser criadas para a situação
  proposta:
 \end_layout
 
 \begin_layout Enumerate
 
 \family sans
-1S2DP.TC-N@2013
+1S2
+\series bold
+DP.TC
+\series default
+-N@2013
 \end_layout
 
 \begin_layout Enumerate
 
 \family sans
-1S2DP.TE-N@2013
+1S2
+\series bold
+DP.TE
+\series default
+-N@2013
 \end_layout
 
 \begin_layout Enumerate
 
 \family sans
-1S2DP.TM-N@2013
+1S2
+\series bold
+DP.TM
+\series default
+-N@2013
 \end_layout
 
 \begin_layout Enumerate
 
 \family sans
-1S2DP.TQ-N@2013
+1S2
+\series bold
+DP.TQ
+\series default
+-N@2013
 \end_layout
 
 \begin_layout Standard
@@ -6098,19 +6137,30 @@ E a aula da referida disciplina do Ciclo Básico deverá ser compartilhada
 \end_deeper
 \begin_layout Enumerate
 Suponha que deseja-se lançar duas aulas de dependência, tipo teoria, para
- o período noturno, às 18h00, para o 4ª série de Engenharia Elétrica (Eletrotécn
+ o período noturno, às 18h00, para a 4ª série de Engenharia Elétrica (Eletrotécn
 ica).
  Para tanto, deve-se criar a turma 
 \family sans
-1S4ET-N@2013 
+1S4
+\series bold
+DP.ET
+\series default
+-N@2013 
 \family default
 com 
 \bar under
 2 grupos, 2 turmas e 2 laboratórios
 \bar default
 .
- Em seguida, criam-se as aulas, lançando uma no grupo 1 e outra no grupo
- 2 --- no grupo, pois são aulas de teoria.
+ Em seguida, criam-se as aulas, lançando uma no Grupo
+\begin_inset space ~
+\end_inset
+
+1 e outra no Grupo
+\begin_inset space ~
+\end_inset
+
+2 -- no grupo, pois são aulas de teoria.
 \end_layout
 
 \begin_layout Subsection
@@ -6118,8 +6168,11 @@ Observações
 \end_layout
 
 \begin_layout Enumerate
-Uma especial atenção deve ser dada às turmas de dependência da Engenharia
- Elétrica e Eletrônica.
+Uma especial atenção deve ser dada às turmas de 
+\series bold
+dependência da Engenharia Elétrica e Eletrônica
+\series default
+.
  Notem-se as 
 \emph on
 pseudo-habilitações 
@@ -6128,40 +6181,44 @@ disponíveis para ambas:
 \end_layout
 
 \begin_deeper
-\begin_layout Enumerate
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 
 \family sans
-DP.TE 
+DP.TE: 
 \family default
---- Dependências de Engenharia Tronco Elétrica
+Dependências de Engenharia Tronco Elétrica
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 
 \family sans
-DP.EL
+DP.EL:
 \family default
- --- Dependências de Engenharia Elétrica
+ Dependências de Engenharia Elétrica
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 
 \family sans
-DP.ET
+DP.ET:
 \family default
- --- Dependências de Engenharia Elétrica (Eletrotécnica)
+ Dependências de Engenharia Elétrica (Eletrotécnica)
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 
 \family sans
-DP.EN
+DP.EN:
 \family default
---- Dependências de Engenharia Eletrônica
+ Dependências de Engenharia Eletrônica
 \end_layout
 
 \begin_layout Standard
-A descrição sobre a correta forma de utilizá-las, segue-se:
+A descrição sobre a correta forma de utilizá-las segue-se:
 \end_layout
 
 \begin_layout Description
@@ -6169,7 +6226,7 @@ A descrição sobre a correta forma de utilizá-las, segue-se:
 \family sans
 DP.TE: 
 \family default
-dependências para o Tronco Elétrica, que envolve os alunos matriculados
+dependências para o Tronco Elétrica, que envolvem os alunos matriculados
  no curso de Engenharia Elétrica e Eletrônica; o Tronco Elétrica está presente
  na segunda e terceira séries.
 \end_layout
@@ -6180,11 +6237,11 @@ dependências para o Tronco Elétrica, que envolve os alunos matriculados
 DP.EL: 
 \family default
 dependências para Engenharia Elétrica (em sua interpretação mais ampla),
- que envolve alunos de Engenharia Elétrica propriamente dita (antiga Eletrotécni
-ca) e de Engenharia Eletrônica; esta opção é útil para as disciplinas ministrada
-s para ambas as habilitações, sob o mesmo código (e, normalmente, com os
- alunos participando das aulas juntos), contudo em série após o 3ª série;
- a princípio, 
+ que envolvem alunos de Engenharia Elétrica propriamente dita (antiga Eletrotécn
+ica) e de Engenharia Eletrônica; esta opção é útil para as disciplinas ministrad
+as para ambas as habilitações, sob o mesmo código (e, normalmente, com os
+ alunos participando das aulas juntos), contudo após a 3ª série; a princípio,
+ 
 \bar under
 esta opção deve ser evitada
 \bar default
@@ -6196,7 +6253,8 @@ DP.ET
 \family sans
 DP.EN
 \family default
-, criando aulas compartilhadas entre elas.
+, criando aulas compartilhadas entre elas -- nas versões seguintes do programa,
+ esta opção poderá ser descontinuada.
 \end_layout
 
 \begin_layout Description
@@ -6205,7 +6263,7 @@ DP.EN
 DP.ET: 
 \family default
 dependências para Engenharia Elétrica especificamente (antiga Eletrotécnica);
- estas dependências normalmente irão se referir a aulas do 4ª série em diante.
+ estas dependências normalmente irão se referir a aulas da 4ª série em diante.
 \end_layout
 
 \begin_layout Description
@@ -6213,8 +6271,8 @@ dependências para Engenharia Elétrica especificamente (antiga Eletrotécnica);
 \family sans
 DP.EN: 
 \family default
-dependências para Engenharia Eletrônica especificamente; estas dependências
- normalmente irão se referir a aulas do 4ª série em diante.
+dependências para Engenharia Eletrônica especificamente; igualmente, estas
+ dependências normalmente irão se referir a aulas da 4ª série em diante.
 \end_layout
 
 \end_deeper
@@ -6231,14 +6289,14 @@ A série deve ser a mesma em que a disciplina é oferecida
  a disciplina deverá ser lançada na grade horária da turma de dependência
  da quarta série.
  Outro exemplo, se a disciplina for do Ciclo Básico, ministrada na segunda
- série, então ela deverá ser lançada na grade de dependências da segunda
- série e não da primeira.
+ série, então ela deverá ser lançada nas grades de dependências das segundas
+ séries dos troncos das habilitações e não na da primeira.
 \end_layout
 
 \begin_layout Enumerate
-Uma ressalva quanto ao exposto no item anterio revere-se ao caso em que
+Uma ressalva quanto ao exposto no item anterior refere-se ao caso em que
  a disciplina sofreu alteração de série.
- Dada tal ocorrência, turma de dependência da disciplina deverá ser lançada
+ Dada tal ocorrência, a turma de dependência da disciplina deverá ser lançada
  em grade de dependências correspondente à série em que a disciplina estava,
  durante o ano em que houve a mudança; nos anos seguintes, ela deverá ser
  lançada na nova série para a qual foi a disciplina.
@@ -6255,8 +6313,8 @@ O tratamento de aulas quinzenais requer atenção especial, pois existem muitas
 
 \begin_layout Standard
 Recomenda-se, enfaticamente, seguir as soluções apresentadas aqui, pois
- irão garantir em consistências diversas no momento de extração de dados
- para atidades administrativas ou de pesquisas.
+ irão garantir consistências diversas no momento de extração de dados para
+ atividades administrativas ou de pesquisas.
 \end_layout
 
 \begin_layout Standard
@@ -6289,15 +6347,15 @@ aulas quinzenais
 
 
 \emph default
-, as quais, na realidade, se retratam por meio de professor, aluno ou disciplina
- quinzenal.
+, as quais, na realidade, se retratam por meio de disciplina, professor
+ ou aluno quinzenal.
 \end_layout
 
 \begin_layout Standard
 Em seguida, nas próximas subseções, são apresentadas as possibilidades de
- aulas quinzenais e diversas simulações --- uma situação por página, de
- forma que a consulta seja simples e prática no momento de elaboração das
- grades horárias.
+ aulas quinzenais e diversas simulações -- uma situação por página, de forma
+ que a consulta seja simples e prática no momento de elaboração das grades
+ horárias.
 \end_layout
 
 \begin_layout Subsection
@@ -6326,17 +6384,26 @@ aulas quinzenais
 \emph default
  são retratadas por 
 \emph on
-professor quinzenal
+disciplina quinzenal
 \emph default
-, 
+,
+\emph on
+ professor quinzenal
+\emph default
+ ou 
 \emph on
 aluno quinzenal
 \emph default
- e 
-\emph on
-disciplina quinzenal
-\emph default
 , com as seguintes definições:
+\end_layout
+
+\begin_layout Description
+Disciplina
+\begin_inset space ~
+\end_inset
+
+quinzenal: quando a disciplina for ministrada a uma determinada subdivisão,
+ em determinado dia da semana e horário, uma semana sim, uma semana não.
 \end_layout
 
 \begin_layout Description
@@ -6355,15 +6422,6 @@ Aluno
 
 quinzenal: quando o aluno, de uma determinada subdivisão e em determinado
  dia da semana e horário, possui aula uma semana sim, uma semana não.
-\end_layout
-
-\begin_layout Description
-Disciplina
-\begin_inset space ~
-\end_inset
-
-quinzenal: quando a disciplina for ministrada a uma determinada subdivisão,
- em determinado dia da semana e horário, uma semana sim, uma semana não.
 \end_layout
 
 \begin_layout Subsection
@@ -6860,7 +6918,7 @@ Semana 2
 GTL
 \emph default
  representa uma subdivisão qualquer, seja de grupo, turma ou laboratório,
- equanto que 
+ enquanto que 
 \emph on
 m 
 \emph default
@@ -6912,18 +6970,22 @@ Solução
 , tem-se o esboço do lançamento a ser realizado na grade horária, considerando-s
 e aulas quinzenais com 2 horas-aula de duração.
  Por isso, há de se notar nos desenhos, a indicação de 1 hora-aula em cada
- linha da grade.
+ linha da grade, ou um total de 2 horas-aula.
 \end_layout
 
 \begin_layout Standard
 Salienta-se que, para a adequada compreensão das situações, é muito importante
  a leitura da seção 
+\emph on
+
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "sub:Definições"
 
 \end_inset
 
+
+\emph default
  
 \begin_inset CommandInset ref
 LatexCommand vpageref
@@ -6975,7 +7037,7 @@ rule[-1.9ex]{0pt}{5ex}}
 \end_layout
 
 \begin_layout Subsubsection
-Situação 1 --- Professor, Disciplina e Aluno Quinzenais
+Situação 1 -- Professor, Disciplina e Aluno Quinzenais
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Situação-1"
@@ -7507,11 +7569,15 @@ marcando-se a opção
 \emph on
 Qz
 \emph default
-, sem lançar o 
+ e lançando-se o 
 \emph on
 Professor 2
-\series default
 \emph default
+ como 
+\family sans
+PROF INDEF
+\family default
+\series default
 .
 \begin_inset VSpace medskip
 \end_inset
@@ -7814,7 +7880,7 @@ status collapsed
 \end_layout
 
 \begin_layout Subsubsection
-Situação 2 --- Apenas Professor Quinzenal
+Situação 2 -- Apenas Professor Quinzenal
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Situação-2"
@@ -8675,7 +8741,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Situação 3 --- Disciplina e Aluno Quinzenais
+Situação 3 -- Disciplina e Aluno Quinzenais
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Situação-3"
@@ -9710,7 +9776,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Situação 4 --- Apenas Disciplina Quinzenal
+Situação 4 -- Apenas Disciplina Quinzenal
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Situação-4"
@@ -9746,7 +9812,8 @@ neste dia e horário, as disciplina são oferecidas aos alunos de determinada
 \end_layout
 
 \begin_layout Itemize
-neste dia e horário, os professores ministram a disciplina em todas as semanas;
+neste dia e horário, os professores ministram sua correspondente disciplina
+ em todas as semanas;
 \end_layout
 
 \begin_layout Itemize
@@ -10706,7 +10773,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Situação 5 --- Disciplina e Professor Quinzenais
+Situação 5 -- Disciplina e Professor Quinzenais
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Situação-5"
@@ -10729,8 +10796,8 @@ Os alunos de determinada subdivisão possuem aula em determinado dia e horário
  semana, de outra disciplina.
  Cada disciplina é ministrada por um professor diferente e o professor,
  por sua vez, ministra a correspondente disciplina uma semana sim, uma não.
- Consequentemente, alunos de outra subdivisão possuem aulas com outros professor
-es.
+ Consequentemente, alunos de outra subdivisão possuem aulas das mesmas disciplin
+as, mas com outros professores.
  Note-se que há o envolvimento de duas disciplinas e quatro professores
  nesta situação proposta.
 \end_layout
@@ -11017,7 +11084,7 @@ status open
 \begin_layout Plain Layout
 
 \size larger
-\begin_inset Formula $\nicefrac{Disc.\,\beta}{Prof.\, Z}$
+\begin_inset Formula $\nicefrac{Disc.\,\alpha}{Prof.\, Z}$
 \end_inset
 
 
@@ -11186,7 +11253,7 @@ status open
 \begin_layout Plain Layout
 
 \size larger
-\begin_inset Formula $\nicefrac{Disc.\,\alpha}{Prof.\, W}$
+\begin_inset Formula $\nicefrac{Disc.\,\beta}{Prof.\, W}$
 \end_inset
 
 
@@ -11227,11 +11294,7 @@ sem marcar a opção
 Qz
 \emph default
  e atribuindo metade da carga horária em cada subdivisão, com início na
- primeira e na segunda metade do horário da aula, respectivamente,
-\series default
- 
-\series bold
-e de forma intercalada entre as subdivisões
+ primeira e na segunda metade do horário da aula, respectivamente
 \series default
 .
  Aqui, subentende-se que os próprios professores hão de fornecer as orientações
@@ -11429,7 +11492,7 @@ width "3.3cm"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -11498,12 +11561,12 @@ width "3.3cm"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
 \size larger
-\begin_inset Formula $\nicefrac{Disc.\,\beta}{Prof.\, Z}$
+\begin_inset Formula $\nicefrac{Disc.\,\alpha}{Prof.\, Z}$
 \end_inset
 
 
@@ -11672,7 +11735,7 @@ status open
 \begin_layout Plain Layout
 
 \size larger
-\begin_inset Formula $\nicefrac{Disc.\,\alpha}{Prof.\, W}$
+\begin_inset Formula $\nicefrac{Disc.\,\beta}{Prof.\, W}$
 \end_inset
 
 
@@ -11712,9 +11775,10 @@ Observações
 \begin_layout Enumerate
 Todas as combinações possíveis para a ocorrência de aulas quinzenais foram
  apresentadas.
- Se sugir alguma nova combinação, pede-se a gentileza de entrar em contato
- com o departamento de tecnologia da informação e avisar o fato; desta forma,
- este manual poderá ser completado.
+ Contudo, se ainda sugir alguma nova combinação, pede-se a gentileza de
+ entrar em contato com o departamento de tecnologia da informação e avisar
+ o fato; desta forma, será possível fornecer orientação para o correto lançament
+o e este manual poderá ser completado.
 \end_layout
 
 \begin_layout Enumerate
