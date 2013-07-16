@@ -9277,6 +9277,14 @@ Qz
  Aqui, subentende-se que os próprios professores hão de fornecer as orientações
  complementares, quanto à quinzenalidade, aos alunos.
  
+\series bold
+\emph on
+Adicional e exclusivamente para esta situação, deve-se acrescentar informações
+ complementares ao PDF gerado, conforme explicado no tópico seguinte.
+
+\series default
+\emph default
+ 
 \begin_inset VSpace medskip
 \end_inset
 
@@ -9441,7 +9449,7 @@ width "3.5cm"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -9510,7 +9518,7 @@ width "3.5cm"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -9621,7 +9629,7 @@ width "3.5cm"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -9701,7 +9709,7 @@ width "3.5cm"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -9759,6 +9767,197 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Informação Adicional no PDF
+\end_layout
+
+\begin_layout Standard
+Com o objetivo de deixar claro aos alunos envolvidos, nesta situação de
+ aula quinzenal, que eles deverão assistir aula juntos na primeira semana
+ de aula, para todos receberem as mesmas orientações, deve-se acrescentar
+ uma informação adicional ao arquivo PDF que será publicado aos alunos.
+\end_layout
+
+\begin_layout Standard
+Para tanto, após gerar o PDF, deve-se usar o 
+\emph on
+Adobe Acrobat Reader
+\emph default
+ para abrir o arquivo.
+ Em seguida, bastará seguir as instruções abaixo, observando o esquema apresenta
+do na figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Instruções-para-acrescentar-inf-pdf"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/cgh-informacoes-adicionais-pdf.png
+	height 50theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Instruções para acrescentar as informações adicionais no PDF a ser publicado
+ aos alunos.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Instruções-para-acrescentar-inf-pdf"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De acordo com a numeração apresentada na figura, seguem-se os passos abaixo:
+\end_layout
+
+\begin_layout Enumerate
+clicar em 
+\family sans
+\series bold
+Comentário
+\family default
+\series default
+;
+\end_layout
+
+\begin_layout Enumerate
+clicar na ferramenta para inserir texto (
+\begin_inset Graphics
+	filename imagens/pdf-ferramenta-texto.png
+	scale 50
+
+\end_inset
+
+);
+\end_layout
+
+\begin_layout Enumerate
+clicar em alguma parte da janela e definir a cor
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset Graphics
+	filename imagens/pdf-ferramenta-cor-texto.png
+	scale 50
+
+\end_inset
+
+) e o tamanho do texto
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset Graphics
+	filename imagens/pdf-ferramenta-tamanho-texto.png
+	scale 50
+
+\end_inset
+
+);
+\end_layout
+
+\begin_layout Enumerate
+clicar e inserir os dizeres 
+\series bold
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Ver observações
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series default
+\emph default
+nos locais correspondente à outra metade da aula onde houver aula quinzenal
+ 
+\bar under
+deste tipo
+\bar default
+;
+\end_layout
+
+\begin_layout Enumerate
+clicar e inserir os dizeres da observação 
+\series bold
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Observações: Na primeira semana de aula, todos os alunos destas subdivisões
+ deverão assistir aula às \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\series default
+\emph default
+,
+\series bold
+\emph on
+ 
+\series default
+\emph default
+completando as reticências com a devida informação de horário; aconselha-se
+ que este texto seja posicionado à direita da grade, sempre que possível,
+ conforme pode-se notar na figura.
+\end_layout
+
+\begin_layout Enumerate
+por meio do menu 
+\family sans
+\series bold
+Arquivo
+\family default
+\series default
+, salvar o arquivo PDF, sobrescrevendo-se o arquivo original.
 \end_layout
 
 \begin_layout Standard
