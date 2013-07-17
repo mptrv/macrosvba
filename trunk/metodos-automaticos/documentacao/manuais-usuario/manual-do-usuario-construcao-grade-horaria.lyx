@@ -4,6 +4,9 @@
 \begin_header
 \textclass report
 \begin_preamble
+% Cabeçalhos personalizados.
+\usepackage{fancyhdr}
+
 % Fração do total da altura do texto para alocação de flutuantes na parte inferior da página.
 \renewcommand{\bottomfraction}{0.5}
 
@@ -87,7 +90,7 @@ hanging
 \quotes_language english
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle fancy
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -400,6 +403,9 @@ Marcelo Porto Trevizan
 
 \begin_layout Date
 Julho de 2013
+\end_layout
+
+\begin_layout Date
 \begin_inset Newpage newpage
 \end_inset
 
@@ -768,6 +774,33 @@ Manual de Operação
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:Manual-de-Operação"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{Um teste}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ajuste de cabeçalho...
+ A terminar.
+\end_layout
 
 \end_inset
 
@@ -9279,8 +9312,9 @@ Qz
  
 \series bold
 \emph on
-Adicional e exclusivamente para esta situação, deve-se acrescentar informações
- complementares ao PDF gerado, conforme explicado no tópico seguinte.
+Adicional e exclusivamente para esta situação, devem-se acrescentar informações
+ complementares ao PDF gerado para publicação, conforme explicado no tópico
+ seguinte.
 
 \series default
 \emph default
@@ -9782,13 +9816,19 @@ Informação Adicional no PDF
 
 \begin_layout Standard
 Com o objetivo de deixar claro aos alunos envolvidos, nesta situação de
- aula quinzenal, que eles deverão assistir aula juntos na primeira semana
- de aula, para todos receberem as mesmas orientações, deve-se acrescentar
- uma informação adicional ao arquivo PDF que será publicado aos alunos.
+ aula quinzenal, que eles deverão assistir aula juntos na
+\emph on
+ primeira semana de aula
+\emph default
+, para todos receberem as mesmas orientações, necessita-se acrescentar uma
+ informação adicional ao arquivo PDF que será publicado a eles.
+ Com esse propósito, a informação deverá dizer para os alunos participarem
+ da aula com início na primeira metade de seu período efetivo (e não na
+ segunda metade como retratado pela grade horária).
 \end_layout
 
 \begin_layout Standard
-Para tanto, após gerar o PDF, deve-se usar o 
+Para tanto, após gerar o PDF, usa-se o 
 \emph on
 Adobe Acrobat Reader
 \emph default
@@ -9806,17 +9846,14 @@ reference "fig:Instruções-para-acrescentar-inf-pdf"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-\noindent
-\align center
 \begin_inset Graphics
 	filename imagens/cgh-informacoes-adicionais-pdf.png
-	height 50theight%
+	height 90theight%
 
 \end_inset
 
@@ -9849,16 +9886,17 @@ name "fig:Instruções-para-acrescentar-inf-pdf"
 \end_layout
 
 \begin_layout Standard
-De acordo com a numeração apresentada na figura, seguem-se os passos abaixo:
+De acordo com a numeração apresentada na figura, seguem-se os passos para
+ acrescentar a informação adicional:
 \end_layout
 
 \begin_layout Enumerate
 clicar em 
 \family sans
-\series bold
+\emph on
 Comentário
 \family default
-\series default
+\emph default
 ;
 \end_layout
 
@@ -9914,12 +9952,20 @@ Ver observações
  
 \series default
 \emph default
-nos locais correspondente à outra metade da aula onde houver aula quinzenal
+nos locais correspondentes à outra metade da aula onde houver aula quinzenal
  
 \bar under
-deste tipo
+nessa situação
 \bar default
-;
+ (
+\emph on
+Situação
+\begin_inset space ~
+\end_inset
+
+3
+\emph default
+);
 \end_layout
 
 \begin_layout Enumerate
@@ -9953,11 +9999,25 @@ completando as reticências com a devida informação de horário; aconselha-se
 \begin_layout Enumerate
 por meio do menu 
 \family sans
-\series bold
+\emph on
 Arquivo
 \family default
-\series default
-, salvar o arquivo PDF, sobrescrevendo-se o arquivo original.
+\emph default
+, salvar o arquivo PDF, sobrescrevendo-se o original; alternativamente,
+ pode-se clicar no botão 
+\family sans
+\emph on
+Salvar
+\family default
+\emph default
+ (
+\begin_inset Graphics
+	filename imagens/pdf-ferramenta-salvar.png
+	scale 50
+
+\end_inset
+
+) presente na barra de ferramentas.
 \end_layout
 
 \begin_layout Standard
