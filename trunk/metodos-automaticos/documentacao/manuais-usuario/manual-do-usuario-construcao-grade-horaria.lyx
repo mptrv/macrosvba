@@ -69,7 +69,7 @@ hanging
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \use_refstyle 1
 \notefontcolor #9e9e9e
 \branch Ajuste de Impressão
@@ -127,6 +127,22 @@ Ajuste de Impressão
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 \align center
 
@@ -173,6 +189,8 @@ height "1pt"
 status open
 
 \begin_layout Plain Layout
+
+\color magenta
 Macros para formatação padrão de textos para os manuais de treinamento (a
  princípio, apenas para CSH).
 \end_layout
@@ -342,6 +360,8 @@ Campo.
 status open
 
 \begin_layout Plain Layout
+
+\color magenta
 Fim das macros para formatação padrão de textos para os manuais de treinamento
  (a princípio, apenas para CSH).
 \end_layout
@@ -349,6 +369,202 @@ Fim das macros para formatação padrão de textos para os manuais de treinament
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color green
+Definição do cabeçalho personalizado.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+ttfamily
+\backslash
+itshape CEUN--IMT}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+chead{
+\backslash
+ttfamily
+\backslash
+itshape}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rhead{
+\backslash
+ttfamily
+\backslash
+itshape Construção Grade Horária}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color green
+Fim da definição do cabeçalho personalizado.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size largest
+Manual do Usuário
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace 5em
+\end_inset
+
+
+\family typewriter
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size largest
+Sistema Horários
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\family typewriter
+\size largest
+\emph on
+Módulo Construção Grade Horária
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\family typewriter
+\size largest
+\emph on
+versão 0.0.9
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+CEUN--IMT
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+CEUN--IMT
 \end_layout
 
 \begin_layout Title
@@ -399,10 +615,54 @@ Fábio Costa Portásio
 \end_inset
 
 Marcelo Porto Trevizan
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Date
+
+\begin_inset Newline newline
+\end_inset
+
 Julho de 2013
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+CEUN--IMT
 \end_layout
 
 \begin_layout Date
@@ -774,33 +1034,6 @@ Manual de Operação
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:Manual-de-Operação"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-lhead{Um teste}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ajuste de cabeçalho...
- A terminar.
-\end_layout
 
 \end_inset
 
