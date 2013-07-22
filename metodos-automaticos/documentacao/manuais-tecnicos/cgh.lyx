@@ -200,18 +200,6 @@ Numeração de página romana
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-O primeiro parágrafo não apresenta recuo, já os outros sim, devo procurar
- uma maneira de padronizar também o primeiro ou ele deve mesmo ser assim?
- O manual do usuário encontra-se da mesma maneira.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -458,18 +446,6 @@ Adiciona tópico ao índice
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Procurei expressar da maneira que julguei mais compreensível, e que consegui
- expressar o que deveria ser dito, não sei se deveria ser usada uma linguagem
- mais técnica, e se está tudo correto.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -481,7 +457,7 @@ Construção Grade Horário
 \emph on
 Consulta Sistema Horários
 \emph default
-, definimos aqui o primeiro.
+, neste manual o primeiro é definido.
 \end_layout
 
 \begin_layout Standard
@@ -510,8 +486,8 @@ clsSala
 No caso de alteração ou inclusão, o objeto é marcado como alterado, e então
  quando o banco é atualizado esses objetos são exportados.
  No caso de exclusão existe a identificação dessa alteração e quando o banco
- é atualizado existe antes uma verificação se antes ele existia (já havia
- sido salvo), para então realizar-se a exclusão.
+ é atualizado existe antes uma verificação se antes o objeto já existia
+ (já havia sido salvo), para então realizar-se a exclusão.
 \end_layout
 
 \begin_layout Standard
@@ -551,178 +527,112 @@ o HSV, a cor é então convertida e salva em RGB.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 Fórmulas de obtenção de cor, a partir dos números do código da disciplina:
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-São essas as fórmulas que deveriam ser mencionadas?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-\begin_inset listings
-lstparams "basicstyle={\footnotesize\ttfamily},tabsize=6"
-inline false
-status open
-
-\begin_layout Plain Layout
-
-S1 = NumCod 
-\backslash
- 100 
+Se a opção de cor for automática então as seguintes fórmulas são aplicadas:
 \end_layout
 
-\begin_layout Plain Layout
-
-NumCod = NumCod Mod 100 
+\begin_layout Enumerate
+Definição dos parâmetros iniciais:
 \end_layout
 
-\begin_layout Plain Layout
-
-S2 = NumCod 
-\backslash
- 10 
-\end_layout
-
-\begin_layout Plain Layout
-
-S3 = NumCod Mod 10
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-If Descricao = "-Automática-" Then 
-\end_layout
-
-\begin_layout Plain Layout
-
-                
-\end_layout
-
-\begin_layout Plain Layout
-
-	H = H + 40 * (S1 - 1)         
-\end_layout
-
-\begin_layout Plain Layout
-
-		If H > 360# Then             
-\end_layout
-
-\begin_layout Plain Layout
-
-		H = H Mod 360         
-\end_layout
-
-\begin_layout Plain Layout
-
-		End If  
-\end_layout
-
-\begin_layout Plain Layout
-
-               
-\end_layout
-
-\begin_layout Plain Layout
-
-	S = S + (27 / (Log(5) / Log(10#))) * (S3 ^ (1 / 3)) * Log(S3 + 1) / Log(10#)
- + 5 * S2         
-\end_layout
-
-\begin_layout Plain Layout
-
-		If S > 100 Then             
-\end_layout
-
-\begin_layout Plain Layout
-
-		S = S Mod 85         
-\end_layout
-
-\begin_layout Plain Layout
-
-		End If    
-\end_layout
-
-\begin_layout Plain Layout
-
-             
-\end_layout
-
-\begin_layout Plain Layout
-
-	V = V - (48 / Exp(3)) * (Exp(1.15 * Sqr(S2)) - 1) - 5 * S3         
-\end_layout
-
-\begin_layout Plain Layout
-
-		If V > 100 Then             
-\end_layout
-
-\begin_layout Plain Layout
-
-		V = V Mod 100         
-\end_layout
-
-\begin_layout Plain Layout
-
-		End If         
-\end_layout
-
-\begin_layout Plain Layout
-
-		If V < 25 Then            
-\end_layout
-
-\begin_layout Plain Layout
-
-		V = 100 - (25 - V)         
-\end_layout
-
-\begin_layout Plain Layout
-
-		End If             
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-End If
-\end_layout
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+S_{1} & = & NumCod/100\\
+NumCod & = & NumCod\, Mod\,100\\
+S_{2} & = & NumCod/10\\
+S_{3} & = & NumCod\, Mod\,10
+\end{eqnarray*}
 
 \end_inset
 
 
 \end_layout
 
+\end_deeper
+\begin_layout Enumerate
+Definição de H:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+H & = & H+40*(S_{1}-1)\\
+Se & H>360 & então\\
+H & = & H\, Mod\,360
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Definição de S:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+S & = & S+\frac{27}{\frac{log5}{log10}}*\sqrt[3]{S_{3}}*\frac{log(S_{3}+1)}{log10}+5*S_{2}\\
+Se & S>100 & então\\
+S & = & S\, Mod\,85
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Definição de V:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+V & = & V-\frac{48}{\exp3}*\exp(1.15*S_{2}^{2}-1)-5*S_{3}\\
+Se & V>100 & então\\
+V & = & V\, Mod\,100
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 Decisão da cor de frente (cor de fonte):
 \end_layout
 
+\begin_layout Enumerate
+Definição do parâmetro inicial:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Converte-se a cor para escala de cinzas usando a função RGBCinza.
+\end_layout
+
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\footnotesize\ttfamily}"
 inline false
 status open
 
 \begin_layout Plain Layout
 
-pCodCorFrente = IIf(RGBCinza(R, G, B, R, G, B) < 40, RGB(255, 255, 255),
- RGB(0, 0, 0))
+RGBCinza(R,G,B,R,G,B)= S
 \end_layout
 
 \end_inset
@@ -730,7 +640,50 @@ pCodCorFrente = IIf(RGBCinza(R, G, B, R, G, B) < 40, RGB(255, 255, 255),
 
 \end_layout
 
-\begin_layout Chapter*
+\end_deeper
+\begin_layout Enumerate
+Se S<40 então
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+RGB(255,255,255)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se S>40 ou S=40
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+RGB(0,0,0)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Chapter
 Simulações de Funcionamento 
 \begin_inset Note Note
 status open
@@ -738,32 +691,6 @@ status open
 \begin_layout Plain Layout
 Acrescentei as que discutimos e mais duas, ainda falta alguma interessante
  de ser mencionada?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{chapter}{Simulações de Funcionamento}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-Adiciona tópico ao índice
 \end_layout
 
 \end_inset
