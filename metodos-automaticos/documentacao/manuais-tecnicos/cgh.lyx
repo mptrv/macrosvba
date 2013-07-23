@@ -531,21 +531,55 @@ o HSV, a cor é então convertida e salva em RGB.
 Fórmulas de obtenção de cor, a partir dos números do código da disciplina:
 \end_layout
 
+\begin_layout Enumerate
+Decisão da cor de fundo (cor de célula):
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 Se a opção de cor for automática então as seguintes fórmulas são aplicadas:
 \end_layout
 
 \begin_layout Enumerate
 Definição dos parâmetros iniciais:
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Definimos que 
+\family typewriter
+NumCod
+\family default
+ é o número do código da disciplina.
+ Exemplo: Para EFB101, o número 101 será utilizado nos cálculos.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+A operação 
+\family typewriter
+Mod
+\family default
+ retorna o resto da divisão entre dois números inteiros.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
 \begin_inset Formula 
 \begin{eqnarray*}
-S_{1} & = & NumCod/100\\
+S_{1} & = & \frac{NumCod}{100}\\
 NumCod & = & NumCod\, Mod\,100\\
-S_{2} & = & NumCod/10\\
+S_{2} & = & \frac{NumCod}{10}\\
 S_{3} & = & NumCod\, Mod\,10
 \end{eqnarray*}
 
@@ -582,7 +616,7 @@ Definição de S:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{eqnarray*}
-S & = & S+\frac{27}{\frac{log5}{log10}}*\sqrt[3]{S_{3}}*\frac{log(S_{3}+1)}{log10}+5*S_{2}\\
+S & = & S+\frac{27}{\nicefrac{log5}{log10}}*\sqrt[3]{S_{3}}*\frac{log(S_{3}+1)}{log10}+5*S_{2}\\
 Se & S>100 & então\\
 S & = & S\, Mod\,85
 \end{eqnarray*}
@@ -603,7 +637,9 @@ Definição de V:
 \begin{eqnarray*}
 V & = & V-\frac{48}{\exp3}*\exp(1.15*S_{2}^{2}-1)-5*S_{3}\\
 Se & V>100 & então\\
-V & = & V\, Mod\,100
+V & = & V\, Mod\,100\\
+Se & V<25 & então\\
+V & = & 100-(25-V)
 \end{eqnarray*}
 
 \end_inset
@@ -612,10 +648,12 @@ V & = & V\, Mod\,100
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\end_deeper
+\begin_layout Enumerate
 Decisão da cor de frente (cor de fonte):
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 Definição do parâmetro inicial:
 \end_layout
@@ -683,19 +721,9 @@ RGB(0,0,0)
 \end_layout
 
 \end_deeper
+\end_deeper
 \begin_layout Chapter
 Simulações de Funcionamento 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Acrescentei as que discutimos e mais duas, ainda falta alguma interessante
- de ser mencionada?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -790,17 +818,6 @@ Define posições.
 \end_deeper
 \begin_layout Section
 Criação e alteração de aula
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Essa simulação é necesária? Existe ainda alguma outra interessante de ser
- acrescentada?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -809,10 +826,6 @@ Criação de aula nova
 
 \begin_layout Itemize
 Cria botão no canto;
-\end_layout
-
-\begin_layout Itemize
-Adiciona ao canto;
 \end_layout
 
 \begin_layout Itemize
@@ -881,6 +894,14 @@ Desenha aulas correspondentes;
 
 \begin_layout Itemize
 Formatação da página.
+\end_layout
+
+\begin_layout Section
+Carregar dados do banco de dados
+\end_layout
+
+\begin_layout Section
+Gravar dados no banco de dados
 \end_layout
 
 \begin_layout Chapter
@@ -5162,16 +5183,32 @@ SumColor (TestRange: Range, SumRange: Range, ColorIndex: Long, [OfText:
 \begin_layout Standard
 
 \emph on
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Soma? Indica quantas células usam essa cor? Não entendi direito a função.
-\end_layout
-
+Soma as células que possuem uma mesma 
+\family typewriter
+ColorIndex
+\family default
+ especificada, a propriedade de 
+\family typewriter
+Font
+\family default
+ ou 
+\family typewriter
+Interior
+\family default
+ pode ser testada.
+ 
+\begin_inset Newline newline
 \end_inset
 
-Soma as células que possuem um ColorIndex específica.
+Caso o 
+\family typewriter
+ColorIndex
+\family default
+ fornecido seja 0 (zero), será testada 
+\family typewriter
+xlColorIndexNone
+\family default
+, ou seja, as células que não possuírem cores atribuídas serão somadas.
 \end_layout
 
 \end_deeper
