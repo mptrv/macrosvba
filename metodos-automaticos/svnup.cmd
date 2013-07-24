@@ -1,5 +1,3 @@
-@echo off
-echo Atualizando...
+@ echo off
 svn up
-7z e macros\consulta-sistema-horarios-oficial.7z -omacros\
 pause

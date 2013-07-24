@@ -80,6 +80,259 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset Branch Ajuste de Impressão
+status open
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Página para ajuste de impressão.
+ Para imprimir esta página, deve-se ativar o ramo 
+\begin_inset Quotes eld
+\end_inset
+
+Ajuste de Impressão
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+Ajuste de Impressão
+\end_layout
+
+\begin_layout Standard
+Realizar ajuste de impressão, se necessário, aplicando um fator de ampliação
+ ou redução, no próprio aplicativo leitor de PDF ou nas propriedades da
+ impressora, de tal forma que a linha abaixo possua 10 cm de comprimento.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset CommandInset line
+LatexCommand rule
+offset "1ex"
+width "10cm"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Não consegui inserir o cabeçalho, quando os insiro nesse documento um erro
+ é gerado.
+ É preciso habilitar alguma opção?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size largest
+Manual Técnico
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace 5em
+\end_inset
+
+
+\family typewriter
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size largest
+Sistema Horários
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\family typewriter
+\size largest
+\emph on
+Módulo Construção Grade Horária
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\family typewriter
+\size largest
+\emph on
+versão 0.1.8
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+CEUN--IMT
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\backslash
+null
+\backslash
+thispagestyle{empty}
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Insere página em branco
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 
 \size huge
@@ -138,6 +391,21 @@ Junho de 2013
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Algo está ocorrendo que os autores não aparecem no PDF, também não consigo
+ inserir a identificação da Mauá, uma vez que, quando a coloco novos erros
+ são gerados.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -900,8 +1168,96 @@ Formatação da página.
 Carregar dados do banco de dados
 \end_layout
 
+\begin_layout Itemize
+Identificação do usuário;
+\end_layout
+
+\begin_layout Itemize
+Abre conexão com o banco de dados;
+\end_layout
+
+\begin_layout Itemize
+Carrega dados de professor para objetos internos;
+\end_layout
+
+\begin_layout Itemize
+Carrega dados de disciplina para objetos internos;
+\end_layout
+
+\begin_layout Itemize
+Carrega dados de sala para objetos internos;
+\end_layout
+
+\begin_layout Itemize
+Carrega dados de habilitação para objetos internos;
+\end_layout
+
+\begin_layout Itemize
+Usário fornece filtro de ano e semestre;
+\end_layout
+
+\begin_layout Itemize
+Acessa turmas especificadas;
+\end_layout
+
+\begin_layout Itemize
+Carrega dados de turmas aos objetos internos;
+\end_layout
+
+\begin_layout Itemize
+Monta 
+\emph on
+Tabela Horários
+\emph default
+;
+\end_layout
+
+\begin_layout Itemize
+Fecha conexão com o banco de dados.
+\end_layout
+
 \begin_layout Section
 Gravar dados no banco de dados
+\end_layout
+
+\begin_layout Itemize
+Verifica se existe pelo menos uma turma inicializada e prossegue apenas
+ em caso positivo;
+\end_layout
+
+\begin_layout Itemize
+Abre conexão com o banco de dados;
+\end_layout
+
+\begin_layout Itemize
+Faz varredura das turmas;
+\end_layout
+
+\begin_layout Itemize
+Atualiza turmas ou insere não existentes;
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Insere ou atualiza aula caso todas suas propriedades estejam definidas,
+ caso contrário, a remove;
+\end_layout
+
+\begin_layout Itemize
+Exclui aulas deletadas;
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Registra usuário e horário de gravação;
+\end_layout
+
+\begin_layout Itemize
+Fecha conexão;
+\end_layout
+
+\begin_layout Itemize
+Indica sucesso da operação.
 \end_layout
 
 \begin_layout Chapter
