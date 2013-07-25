@@ -105,6 +105,8 @@ GNU Impress
  Gratuito, multiplaforma.
  Possui um conjunto bastante completo de ferramentas para edição de imagens,
  a princípio, do tipo fotografia.
+ Não é muito adequado para desenhos com formas bem definidas, como blocos
+ e setas.
 \begin_inset Newline newline
 \end_inset
 
@@ -130,6 +132,8 @@ Gimp
 \emph default
 , permite a criação de imagens baseadas em vetores, com ferramentas próprias
  para tal.
+ Permite o desenho de formas bem definidas, como blocos e setas.
+ Não é muito adequado para edição de imagens do tipo fotografia.
 \begin_inset Newline newline
 \end_inset
 
@@ -145,6 +149,253 @@ inkscape.org
 \end_inset
 
 
+\end_layout
+
+\begin_layout Description
+LibreOffice
+\begin_inset space ~
+\end_inset
+
+Draw: Gratuito, multiplataforma.
+ Ferramenta integrante do pacote 
+\emph on
+LibreOffice
+\emph default
+, permite desenhos com formas bem definidas, como blocos, setas, fluxogramas
+ e, inclusive, tabelas.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.libreoffice.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Áudio e Vídeo
+\end_layout
+
+\begin_layout Description
+FFmpeg: Gratuito, multiplataforma.
+ Ferramenta bastante completa para gravar, converter e criar fluxos de áudio
+ e vídeo.
+ Opera por linha de comando.
+ Há de ser substituído pelo 
+\emph on
+Avconv
+\emph default
+ em algumas distribuições de sistema operacional, como no 
+\emph on
+Ubuntu
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://ffmpeg.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Avconv: Gratuito, multiplataforma.
+ Ferramenta bastante completa para gravar, converter (em alta velocidade)
+ e criar fluxos de áudio e vídeo.
+ Opera por linha de comando.
+ Há de ser o substituto do 
+\emph on
+FFmpeg
+\emph default
+ em algumas distribuições de sistema operacional, como no 
+\emph on
+Ubuntu
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://libav.org/avconv.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+AviSynth: Gratuito, multiplataforma.
+ Ferramenta bastante completa para editar e processar vídeos, em fase de
+ pós-produção.
+ Baseia-se em 
+\emph on
+scripts
+\emph default
+, garantindo flexibilidade e potencialidade nas edições.
+ Não há GUI intrínseca (o 
+\emph on
+Avanti
+\emph default
+ é uma GUI que pode ser utilizada).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://avisynth.nl/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Avanti: Gratuito, multiplataforma.
+ GUI para 
+\emph on
+FFmpeg
+\emph default
+ e 
+\emph on
+AviSynth
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://avanti.arrozcru.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+MovieMaker: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Ferramenta consideravelmente completa para edição de vídeo, inclusive do
+ áudio associado.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://windows.microsoft.com/pt-br/windows/get-movie-maker-download
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Avidemux: Gratuito, multiplataforma.
+ Permite tarefas simples de corte, filtragem e codificação de vídeo.
+ A manipulação sobre o áudio associado é bastante limitada.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://fixounet.free.fr/avidemux/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Audacity: Gratuito, multiplataforma.
+ Ferramenta bastante completa para gravar e editar áudio, incluindo inúmeros
+ filtros e possibilidade de mixagem.
+ Há componentes adicionais que podem ser instalados para aumentar os recursos
+ do programa -- entre eles, citam-se o FFmpeg for Audacity e o Lame.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://audacity.sourceforge.net/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Notas e Dicas
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notas, observações e dicas de uso ou outros detalhes sobre os programas
+ relacionados.
 \end_layout
 
 \begin_layout Section
@@ -422,57 +673,16 @@ http://technet.microsoft.com/pt-br/evalcenter/hh973401.aspx
 \end_layout
 
 \begin_layout Section
-Áudio e Vídeo
-\end_layout
-
-\begin_layout Description
-FFmpeg: Gratuito, multiplataforma.
- Bastante completo.
- Opera por linha de comando.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://ffmpeg.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size larger
-Notas e Dicas
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Notas, observações e dicas de uso ou outros detalhes sobre os programas
- relacionados.
-\end_layout
-
-\begin_layout Section
 \start_of_appendix
 FFmpeg
+\end_layout
+
+\begin_layout Standard
+As dicas presentes aqui também podem se aplicar ao 
+\emph on
+Avconv
+\emph default
+.
 \end_layout
 
 \begin_layout Subsection
