@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Métodos Automáticos - Conclusão de Pendências" company="" webLink="macrosvba.googlecode.com" view-date="2013-06-28" view-index="0" gantt-divider-location="581" resource-divider-location="300" version="2.0" locale="pt_BR">
+<project name="Métodos Automáticos - Conclusão de Pendências" company="" webLink="macrosvba.googlecode.com" view-date="2013-06-26" view-index="0" gantt-divider-location="581" resource-divider-location="300" version="2.0" locale="pt_BR">
     <description><![CDATA[Tarefas pendentes a serem concluídas antes de iniciar o projeto de integração com o Sistema Acadêmico. Alguns entornos extras também serão relacionados, uma vez que estes influenciam no prazo de conclusão.]]></description>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd7" name="Concluído" width="4" order="0"/>
@@ -99,7 +99,7 @@ Quanto à instalação de máquina real, o processo de boot não encontra o Grub
 O 'ping -n' com nome fica normal.]]></notes>
             <depend id="54" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="20" name="Relacionamento de ferramentas de desenvolvimento" color="#8cb6ce" meeting="false" start="2013-07-18" duration="1" complete="0" expand="true">
+        <task id="20" name="Relacionamento de ferramentas de desenvolvimento" color="#8cb6ce" meeting="false" start="2013-07-18" duration="1" complete="50" expand="true">
             <depend id="18" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="18" name="Implementações complementares em MA" color="#8cb6ce" meeting="false" start="2013-07-19" duration="6" complete="100" expand="true">
