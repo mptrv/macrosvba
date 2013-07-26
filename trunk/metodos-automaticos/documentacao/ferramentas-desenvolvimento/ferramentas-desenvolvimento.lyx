@@ -26,7 +26,19 @@
 \index_command default
 \paperfontsize 11
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_title "Ferramentas de Desenvolvimento"
+\pdf_author "Marcelo Porto Trevizan"
+\pdf_subject "Conjunto de ferramentas de desenvolvimento"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize a4paper
 \use_geometry false
 \use_amsmath 1
@@ -64,6 +76,10 @@
 Ferramentas de Desenvolvimento
 \end_layout
 
+\begin_layout Author
+Marcelo Porto Trevizan
+\end_layout
+
 \begin_layout Standard
 Nesta nota técnica, encontram-se relacionadas as ferramentas de desenvolvimento
  utilizadas para o projeto 
@@ -92,12 +108,132 @@ Os títulos das seções seguintes procuram relacionar, suscintamente, a área
  de aplicação das ferramentas.
 \end_layout
 
+\begin_layout Standard
+\begin_inset VSpace bigskip*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "88bp"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../manuais-usuario/imagens/cc-by-sa-88x31.png
+
+\end_inset
+
+
+\begin_inset VSpace 0.25ex
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "70col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Esta nota técnica é licenciada sob a 
+\emph on
+Licença Creative Commons Atribuição -- Compartilha Igual 3.0 Não Adaptada,
+ 
+\emph default
+cuja descrição poderá ser acessada em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Imagem
 \end_layout
 
 \begin_layout Description
-Gimp: 
+Gimp
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Gimp
+\end_layout
+
+\end_inset
+
+: 
 \emph on
 GNU Impress
 \emph default
@@ -125,7 +261,17 @@ www.gimp.org
 \end_layout
 
 \begin_layout Description
-Inkscape: Gratuito, multiplataforma.
+Inkscape
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Inkscape
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Complementar ao 
 \emph on
 Gimp
@@ -156,7 +302,21 @@ LibreOffice
 \begin_inset space ~
 \end_inset
 
-Draw: Gratuito, multiplataforma.
+Draw
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+LibreOffice
+\begin_inset space ~
+\end_inset
+
+Draw
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Ferramenta integrante do pacote 
 \emph on
 LibreOffice
@@ -185,7 +345,17 @@ https://www.libreoffice.org/
 \end_layout
 
 \begin_layout Description
-FFmpeg: Gratuito, multiplataforma.
+FFmpeg
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+FFmpeg
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Ferramenta bastante completa para gravar, converter e criar fluxos de áudio
  e vídeo.
  Opera por linha de comando.
@@ -198,6 +368,21 @@ Avconv
 Ubuntu
 \emph default
 .
+ No apêndice 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:FFmpeg"
+
+\end_inset
+
+ na página 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sec:FFmpeg"
+
+\end_inset
+
+, podem ser encontradas dicas.
 \begin_inset Newline newline
 \end_inset
 
@@ -216,7 +401,17 @@ http://ffmpeg.org/
 \end_layout
 
 \begin_layout Description
-Avconv: Gratuito, multiplataforma.
+Avconv
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Avconv
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Ferramenta bastante completa para gravar, converter (em alta velocidade)
  e criar fluxos de áudio e vídeo.
  Opera por linha de comando.
@@ -247,7 +442,17 @@ http://libav.org/avconv.html
 \end_layout
 
 \begin_layout Description
-AviSynth: Gratuito, multiplataforma.
+AviSynth
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+AviSynth
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Ferramenta bastante completa para editar e processar vídeos, em fase de
  pós-produção.
  Baseia-se em 
@@ -278,7 +483,17 @@ http://avisynth.nl/
 \end_layout
 
 \begin_layout Description
-Avanti: Gratuito, multiplataforma.
+Avanti
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Avanti
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  GUI para 
 \emph on
 FFmpeg
@@ -306,7 +521,17 @@ http://avanti.arrozcru.org/
 \end_layout
 
 \begin_layout Description
-MovieMaker: Gratuito, para 
+MovieMaker
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+MovieMaker
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
 \emph on
 Windows
 \emph default
@@ -331,7 +556,17 @@ http://windows.microsoft.com/pt-br/windows/get-movie-maker-download
 \end_layout
 
 \begin_layout Description
-Avidemux: Gratuito, multiplataforma.
+Avidemux
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Avidemux
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Permite tarefas simples de corte, filtragem e codificação de vídeo.
  A manipulação sobre o áudio associado é bastante limitada.
 \begin_inset Newline newline
@@ -352,7 +587,17 @@ http://fixounet.free.fr/avidemux/
 \end_layout
 
 \begin_layout Description
-Audacity: Gratuito, multiplataforma.
+Audacity
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Audacity
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Ferramenta bastante completa para gravar e editar áudio, incluindo inúmeros
  filtros e possibilidade de mixagem.
  Há componentes adicionais que podem ser instalados para aumentar os recursos
@@ -374,30 +619,6 @@ http://audacity.sourceforge.net/
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size larger
-Notas e Dicas
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Notas, observações e dicas de uso ou outros detalhes sobre os programas
- relacionados.
-\end_layout
-
 \begin_layout Section
 UML
 \end_layout
@@ -415,7 +636,29 @@ for
 \begin_inset space ~
 \end_inset
 
-UML: Gratuito, com restrições mínimas, multiplataforma.
+UML
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Visual
+\begin_inset space ~
+\end_inset
+
+Paradigm
+\begin_inset space ~
+\end_inset
+
+for
+\begin_inset space ~
+\end_inset
+
+UML
+\end_layout
+
+\end_inset
+
+: Gratuito, com restrições mínimas, multiplataforma.
  É capaz de desenhar os 13 diagramas do padrão UML 2.0, além de possuir algumas
  ferramentas de modelagem adicionais.
 \begin_inset Newline newline
@@ -452,13 +695,43 @@ Data
 \begin_inset space ~
 \end_inset
 
-Modeler: Gratuito, multiplataforma.
+Modeler
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SQL
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Data
+\begin_inset space ~
+\end_inset
+
+Modeler
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Desenvolvido pela 
 \emph on
 Oracle
 \emph default
 .
  Ferramenta bastante completa para modelagem de banco de dados.
+ Para instalação, ver dicas no apêndice 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:SQLDeveloperDataModeler"
+
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -481,7 +754,21 @@ SQL
 \begin_inset space ~
 \end_inset
 
-Developer: Gratuito, multiplataforma.
+Developer
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SQL
+\begin_inset space ~
+\end_inset
+
+Developer
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Desenvolvido pela 
 \emph on
 Oracle
@@ -515,7 +802,21 @@ MySQL
 \begin_inset space ~
 \end_inset
 
-Workbench: Gratuito, multiplataforma.
+Workbench
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+MySQL
+\begin_inset space ~
+\end_inset
+
+Workbench
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Desenvolvido pela 
 \emph on
 Oracle
@@ -540,12 +841,78 @@ http://www.oracle.com/us/products/mysql/mysql-workbench-066221.html
 
 \end_layout
 
+\begin_layout Description
+Oracle
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Day
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Oracle
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Day
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Virtual Box
+\emph default
+.
+ Máquina virtual com banco de dados 
+\emph on
+Oracle
+\emph default
+ e ferramentas de desenvolvimentos previamente instaladas, cujo objetivo
+ é o de fornecer um ambiente de treinamento e desenvolvimento.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-16
+1299.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Documentação
 \end_layout
 
 \begin_layout Description
-TexLive: Gratuito, multiplataforma.
+TeXLive
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+TexLive
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Distribuição do formatador de texto LaTeX, com inúmeros pacotes associados.
 \begin_inset Newline newline
 \end_inset
@@ -565,9 +932,42 @@ http://www.tug.org/texlive
 \end_layout
 
 \begin_layout Description
-LyX: Gratuito, multiplataforma.
+LyX
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+LyX
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Ambiente gráfico de edição de texto integrado ao LaTeX, ou outros formatadores
  baseados em TeX.
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+Na entrada do índice, LyX digitado por código TeX para evitar erro, pois
+ é definido o comando 
+\backslash
+LyX pelo LyX.
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -590,7 +990,17 @@ Escritório
 \end_layout
 
 \begin_layout Description
-LibreOffice: Gratuito, multiplataforma.
+LibreOffice
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+LibreOffice
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Conjunto completo de soluções para escritório, consistindo de editor de
  texto, planilha eletrônica, apresentação, desenho, editor de fórmulas matemátic
 as e banco de dados.
@@ -621,7 +1031,21 @@ Microsoft
 \begin_inset space ~
 \end_inset
 
-Office: Comercial, para 
+Office
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Microsoft
+\begin_inset space ~
+\end_inset
+
+Office
+\end_layout
+
+\end_inset
+
+: Comercial, para 
 \emph on
 Windows
 \emph default
@@ -653,7 +1077,17 @@ Controle de Versão
 \end_layout
 
 \begin_layout Description
-Svn: Gratuito, nativo para compilação em 
+Svn
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Svn
+\end_layout
+
+\end_inset
+
+: Gratuito, nativo para compilação em 
 \emph on
 Linux
 \emph default
@@ -687,7 +1121,17 @@ http://subversion.apache.org/
 \end_layout
 
 \begin_layout Description
-SlikSVN: Gratuito, para 
+SlikSVN
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SlikSVN
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
 \emph on
 Windows
 \emph default
@@ -728,7 +1172,21 @@ Gantt
 \begin_inset space ~
 \end_inset
 
-Project: Gratuito, multiplataforma.
+Project
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Gantt
+\begin_inset space ~
+\end_inset
+
+Project
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Ferramenta simples e eficaz, interface amigável.
  Assemelha-se ao 
 \emph on
@@ -753,13 +1211,24 @@ http://www.ganttproject.biz/
 \end_layout
 
 \begin_layout Description
-Planner: Gratuito, multiplataforma.
+Planner
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Planner
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
  Simples e eficaz.
  Contudo, a versão para 
 \emph on
 Windows
 \emph default
  não funciona corretamente.
+ Atualmente (julho de 2013), seu desenvolvimento está descontinuado.
 \begin_inset Newline newline
 \end_inset
 
@@ -782,7 +1251,21 @@ Microsoft
 \begin_inset space ~
 \end_inset
 
-Project: Comercial, para 
+Project
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Microsoft
+\begin_inset space ~
+\end_inset
+
+Project
+\end_layout
+
+\end_inset
+
+: Comercial, para 
 \emph on
 Windows
 \emph default
@@ -815,7 +1298,21 @@ Infra
 \begin_inset space ~
 \end_inset
 
-Recorder: Gratuito, para 
+Recorder
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Infra
+\begin_inset space ~
+\end_inset
+
+Recorder
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
 \emph on
 Windows
 \emph default
@@ -839,7 +1336,17 @@ http://infrarecorder.org/
 \end_layout
 
 \begin_layout Description
-K3b: Gratuito, para 
+K3b
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+K3b
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
 \emph on
 Linux
 \emph default
@@ -869,7 +1376,17 @@ Download
 \end_layout
 
 \begin_layout Description
-Wget: Gratuito, para 
+Wget
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Wget
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
 \emph on
 Linux
 \emph default
@@ -906,7 +1423,25 @@ Wget
 \begin_inset space ~
 \end_inset
 
-GnuWin32): Gratuito, para 
+GnuWin32)
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Wget
+\begin_inset space ~
+\end_inset
+
+(por
+\begin_inset space ~
+\end_inset
+
+GnuWin32)
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
 \emph on
 Windows
 \emph default
@@ -955,7 +1490,25 @@ Download
 \begin_inset space ~
 \end_inset
 
-Manager: Gratuito, para 
+Manager
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Free
+\begin_inset space ~
+\end_inset
+
+Download
+\begin_inset space ~
+\end_inset
+
+Manager
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
 \emph on
 Windows
 \emph default
@@ -987,13 +1540,207 @@ http://www.freedownloadmanager.org/
 Manipulação de Arquivos
 \end_layout
 
-\begin_layout Standard
+\begin_layout Description
+7zip
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+7zip
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Compactador de arquivos com suporte a diversos formatos e, entre eles,
+ o 
+\family sans
+Zip
+\family default
+.
+ O formato nativo, 
+\family sans
+7z
+\family default
+, apresenta taxas de compressão consideravelmente superiores ao formato
+ 
+\family sans
+Zip
+\family default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.7-zip.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+P7zip
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+P7zip
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Linux.
+ 
+\emph default
+É o 
+\emph on
+7zip
+\emph default
+ transcrito para 
+\emph on
+Linux
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://sourceforge.net/projects/p7zip/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Free
+\begin_inset space ~
+\end_inset
+
+Commander
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Free
+\begin_inset space ~
+\end_inset
+
+Commander
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Gerenciador de arquivos com dois painéis e diversas funcionalidades facilmente
+ acessíveis.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.freecommander.com/
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Section
+PDF
+\end_layout
+
+\begin_layout Description
+Evince
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Evince
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Leitor de arquivos em formato 
+\family sans
+PDF
+\family default
+.
+ Reconhece comentários do 
+\emph on
+Adobe Acrobat Reader
+\emph default
+, mas não permite modificá-lo ou inserir novos.
+ Ao recarregar um documento alterado, exibe a página anteriormente visualizada,
+ tornando-o muito proprício para a etapa de finalização da diagramação de
+ um documento (ao desenvolvê-lo, por exemplo, com o Lyx).
+\end_layout
+
+\begin_layout Standard
 \start_of_appendix
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Notas e Dicas sobre os Programas
+\end_layout
+
+\begin_layout Standard
+Notas, observações e dicas de instalação, uso ou outros detalhes sobre os
+ programas relacionados.
+\end_layout
+
+\begin_layout Subsection
 FFmpeg
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+FFmpeg
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:FFmpeg"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1004,7 +1751,7 @@ Avconv
 .
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection*
 Cortar e Redimensionar
 \end_layout
 
@@ -1094,5 +1841,177 @@ Gimp
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+SQL
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Data
+\begin_inset space ~
+\end_inset
+
+Modeler
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SQL
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Data
+\begin_inset space ~
+\end_inset
+
+Modeler
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:SQLDeveloperDataModeler"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para instalá-lo no 
+\emph on
+Windows
+\emph default
+, aconselham-se os seguintes passos:
+\end_layout
+
+\begin_layout Enumerate
+Descompactar o arquivo num diretório comum de usuário.
+\end_layout
+
+\begin_layout Enumerate
+Instalar o 
+\emph on
+kit
+\emph default
+ de desenvolvimento 
+\emph on
+Java 
+\emph default
+JDK6.
+\end_layout
+
+\begin_layout Enumerate
+Executar o 
+\emph on
+Data Modeler.
+\end_layout
+
+\begin_layout Enumerate
+Quando ele pedir para apontar o executável do 
+\emph on
+Java
+\emph default
+ (
+\family sans
+java.exe
+\family default
+), navegar nos diretórios e selecioná-lo.
+ Se existir o 
+\family sans
+java.exe
+\family default
+ do JRE, deve-se tomar o cuidado de selecionar o do JDK e não o do JRE.
+\end_layout
+
+\begin_layout Enumerate
+Mover todo o diretório previamente descompactado para 
+\family sans
+Arquivos
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+Programas
+\family default
+ ou 
+\family sans
+Arquivos
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+Programas
+\begin_inset space ~
+\end_inset
+
+(x86)
+\family default
+, conforme o interesse da versão a utilizar (64 ou 32 bits).
+\end_layout
+
+\begin_layout Enumerate
+Criar um atalho ou adicionar uma entrada ao 
+\family sans
+Menu
+\begin_inset space ~
+\end_inset
+
+Iniciar
+\family default
+ para executar o 
+\emph on
+Data Modeler
+\emph default
+ diretamente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Observação
+\series default
+: se o diretório descompactado for copiado para 
+\family sans
+Arquivos
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+Programas 
+\family default
+antes da atribuição do executável, o programa poderá não conseguir salvar
+ as alterações e, consequentemente, não reconhecerá o local do executável.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
