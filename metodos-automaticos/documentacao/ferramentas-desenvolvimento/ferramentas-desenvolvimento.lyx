@@ -586,6 +586,140 @@ http://www.lyx.org/
 \end_layout
 
 \begin_layout Section
+Escritório
+\end_layout
+
+\begin_layout Description
+LibreOffice: Gratuito, multiplataforma.
+ Conjunto completo de soluções para escritório, consistindo de editor de
+ texto, planilha eletrônica, apresentação, desenho, editor de fórmulas matemátic
+as e banco de dados.
+ É derivado do 
+\emph on
+OpenOffice
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.libreoffice.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Microsoft
+\begin_inset space ~
+\end_inset
+
+Office: Comercial, para 
+\emph on
+Windows
+\emph default
+.
+ Conjunto completo de soluções para escritório, consistindo de editor de
+ texto, planilha eletrônica, apresentação, editor de fórmulas matemáticas,
+ banco de dados, construtor de diagramas, gerenciador de projetos, leitor
+ de correio eletrônico, entre outros recursos.
+ Alguns destes recursos necessitam instalação separada.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://office.microsoft.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Controle de Versão
+\end_layout
+
+\begin_layout Description
+Svn: Gratuito, nativo para compilação em 
+\emph on
+Linux
+\emph default
+, mas pode ser compilado em outras plataformas -- há pacotes pré-compilados
+ para diversas distribuições 
+\emph on
+Linux
+\emph default
+.
+ É o 
+\emph on
+Subversion
+\emph default
+.
+ As funções são acessíveis por linha de comando.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://subversion.apache.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+SlikSVN: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ É o 
+\emph on
+Subversion
+\emph default
+ compilado para 
+\emph on
+Windows
+\emph default
+.
+ As funções são acessíveis por linha de comando.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.sliksvn.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Planejamento
 \end_layout
 
@@ -669,6 +803,191 @@ http://technet.microsoft.com/pt-br/evalcenter/hh973401.aspx
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Section
+CD/DVD
+\end_layout
+
+\begin_layout Description
+Infra
+\begin_inset space ~
+\end_inset
+
+Recorder: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Conjunto completo de ferramentas para leitura e gravação de CD e DVD.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://infrarecorder.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+K3b: Gratuito, para 
+\emph on
+Linux
+\emph default
+.
+ Conjunto completo de ferramentas para leitura gravação de CD e DVD.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.k3b.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\emph on
+Download
+\end_layout
+
+\begin_layout Description
+Wget: Gratuito, para 
+\emph on
+Linux
+\emph default
+.
+ Ferramenta para 
+\emph on
+download
+\emph default
+ de arquivos, com capacidade de retomada.
+ Funções acessíveis por linha de comando.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.gnu.org/software/wget/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Wget
+\begin_inset space ~
+\end_inset
+
+(por
+\begin_inset space ~
+\end_inset
+
+GnuWin32): Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ É o 
+\emph on
+Wget
+\emph default
+ compilado para 
+\emph on
+Windows
+\emph default
+.
+ Faz parte do projeto 
+\emph on
+GnuWin32
+\emph default
+ alocado no 
+\emph on
+Sourceforge
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://gnuwin32.sourceforge.net/packages/wget.htm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Free
+\begin_inset space ~
+\end_inset
+
+Download
+\begin_inset space ~
+\end_inset
+
+Manager: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Ferramenta para 
+\emph on
+download
+\emph default
+ de arquivos, com capacidade de retomada.
+ Há GUI e possibilidade de integrar-se com navegadores.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.freedownloadmanager.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Manipulação de Arquivos
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
