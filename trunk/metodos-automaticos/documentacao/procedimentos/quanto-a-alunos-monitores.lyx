@@ -88,8 +88,41 @@ Sistema Horários
 Ao Ingressar Novo Aluno
 \end_layout
 
+\begin_layout Enumerate
+Emitir autorização para acesso ao local de trabalho.
+\end_layout
+
+\begin_layout Enumerate
+Criar usuário no computador de trabalho.
+\end_layout
+
+\begin_layout Enumerate
+Adicionar ao grupo de correio eletrônico.
+\end_layout
+
+\begin_layout Enumerate
+Adicionar ao grupo de desenvolvedores na página do projeto.
+\end_layout
+
 \begin_layout Section
 Ao Cessar a Participação do Aluno
+\end_layout
+
+\begin_layout Enumerate
+Emitir cancelamento de autorização para acesso ao local de trabalho.
+\end_layout
+
+\begin_layout Enumerate
+Remover usuário do computador de trabalho, salvando os arquivos de interesse
+ para o projeto.
+\end_layout
+
+\begin_layout Enumerate
+Remover do grupo de correio eletrônico.
+\end_layout
+
+\begin_layout Enumerate
+Remover do grupo de desenvolvedores na página do projeto.
 \end_layout
 
 \end_body

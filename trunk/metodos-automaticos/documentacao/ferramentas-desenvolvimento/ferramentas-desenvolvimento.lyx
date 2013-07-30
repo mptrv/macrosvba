@@ -897,6 +897,70 @@ http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-
 
 \end_layout
 
+\begin_layout Description
+SQL
+\begin_inset space ~
+\end_inset
+
+Management
+\begin_inset space ~
+\end_inset
+
+Studio
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SQL Management Studio
+\end_layout
+
+\end_inset
+
+: Gratuito (a versão 
+\emph on
+Express
+\emph default
+), para 
+\emph on
+Windows
+\emph default
+.
+ Permite o gerenciamento do servidor de banco de dados 
+\emph on
+Microsoft SQL Server
+\emph default
+.
+ Entre as versões, há a 
+\emph on
+2008 R2 RTM Express
+\emph default
+, ou 
+\emph on
+2008 Express
+\emph default
+.
+ O endereço a seguir refere-se à 
+\emph on
+2008 R2 RTM
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.microsoft.com/pt-br/download/details.aspx?id=22985
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Documentação
 \end_layout
@@ -1338,7 +1402,7 @@ http://infrarecorder.org/
 \begin_layout Description
 K3b
 \begin_inset Index idx
-status open
+status collapsed
 
 \begin_layout Plain Layout
 K3b
@@ -1703,6 +1767,224 @@ Adobe Acrobat Reader
  Ao recarregar um documento alterado, exibe a página anteriormente visualizada,
  tornando-o muito proprício para a etapa de finalização da diagramação de
  um documento (ao desenvolvê-lo, por exemplo, com o Lyx).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://projects.gnome.org/evince/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Okular
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Okular
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Linux
+\emph default
+.
+ Leitor de arquivos em formato 
+\family sans
+PDF
+\family default
+.
+ Reconhece comentários do 
+\emph on
+Adobe Acrobat Reader
+\emph default
+, embora haja ressalvas de compatibilidade, e permite acrescentar outros
+ comentários.
+ Há a função de histórico de navegação.
+ Semelhantemente ao 
+\emph on
+Evince
+\emph default
+, exibe a página anteriormente visualizada ao recarregar um documento.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://okular.kde.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Okular
+\begin_inset space ~
+\end_inset
+
+Standalone
+\begin_inset space ~
+\end_inset
+
+4
+\begin_inset space ~
+\end_inset
+
+Windows
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Okular Standalone 4 Windows
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Leitor de arquivos em formato 
+\family sans
+PDF
+\family default
+.
+ É o 
+\emph on
+Okular
+\emph default
+, compilado para 
+\emph on
+Windows
+\emph default
+, sem a necessidade de instalar o 
+\emph on
+KDE
+\emph default
+ 
+\emph on
+para Windows
+\emph default
+.
+ Até o momento, a última versão é de março de 2012, para o 
+\emph on
+Okular
+\emph default
+ 
+\emph on
+4.7
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://sourceforge.net/projects/okularinst4win/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Quotes eld
+\end_inset
+
+PDFreaders.org
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+PDFreaders.org
+\end_layout
+
+\end_inset
+
+: Relação de diversos leitores gratuitos de arquivos em formato PDF.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://pdfreaders.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Virtualização
+\end_layout
+
+\begin_layout Description
+VirtualBox
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+VirtualBox
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Ambiente que permite a criação de máquinas virtuais.
+ Desenvolvido pela 
+\emph on
+Oracle
+\emph default
+.
+ Há pacotes de extensão que acrescentam outros recursos, como acesso à USB
+ 2.0.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.virtualbox.org/
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
