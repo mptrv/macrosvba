@@ -74,6 +74,13 @@
 
 \begin_layout Title
 Ferramentas de Desenvolvimento
+\begin_inset Newline newline
+\end_inset
+
+
+\size normal
+v.
+ 0.0.0
 \end_layout
 
 \begin_layout Author
@@ -104,8 +111,10 @@ internet,
 \end_layout
 
 \begin_layout Standard
-Os títulos das seções seguintes procuram relacionar, suscintamente, a área
- de aplicação das ferramentas.
+Os títulos das seções seguintes procuram relacionar, sucintamente, a área
+ de aplicação das ferramentas, enquanto que o índice remissivo, ao final
+ do documento, indica em quais páginas se encontram informações sobre um
+ programa específico.
 \end_layout
 
 \begin_layout Standard
@@ -219,6 +228,781 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
+Planejamento
+\end_layout
+
+\begin_layout Description
+Gantt
+\begin_inset space ~
+\end_inset
+
+Project
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Gantt
+\begin_inset space ~
+\end_inset
+
+Project
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Ferramenta simples e eficaz, interface amigável.
+ Assemelha-se ao 
+\emph on
+Planner
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.ganttproject.biz/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Planner
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Planner
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Simples e eficaz.
+ Contudo, a versão para 
+\emph on
+Windows
+\emph default
+ não funciona corretamente.
+ Atualmente (julho de 2013), seu desenvolvimento está descontinuado.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://live.gnome.org/Planner
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Microsoft
+\begin_inset space ~
+\end_inset
+
+Project
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Microsoft
+\begin_inset space ~
+\end_inset
+
+Project
+\end_layout
+
+\end_inset
+
+: Comercial, para 
+\emph on
+Windows
+\emph default
+.
+ Ferramenta bastante completa, mas de operação não muito elementar quanto
+ a alguns aspectos de definição de tarefas.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://technet.microsoft.com/pt-br/evalcenter/hh973401.aspx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+UML
+\end_layout
+
+\begin_layout Description
+Visual
+\begin_inset space ~
+\end_inset
+
+Paradigm
+\begin_inset space ~
+\end_inset
+
+for
+\begin_inset space ~
+\end_inset
+
+UML
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Visual
+\begin_inset space ~
+\end_inset
+
+Paradigm
+\begin_inset space ~
+\end_inset
+
+for
+\begin_inset space ~
+\end_inset
+
+UML
+\end_layout
+
+\end_inset
+
+: Gratuito, com restrições mínimas, multiplataforma.
+ É capaz de desenhar os 13 diagramas do padrão UML 2.0, além de possuir algumas
+ ferramentas de modelagem adicionais.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.visual-paradigm.com/product/vpuml
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Documentação
+\end_layout
+
+\begin_layout Description
+TeXLive
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+TexLive
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Distribuição do formatador de texto LaTeX, com inúmeros pacotes associados.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.tug.org/texlive
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+LyX
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+LyX
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Ambiente gráfico de edição de texto integrado ao LaTeX, ou outros formatadores
+ baseados em TeX.
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+Na entrada do índice, LyX digitado por código TeX para evitar erro, pois
+ é definido o comando 
+\backslash
+LyX pelo LyX.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.lyx.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Escritório
+\end_layout
+
+\begin_layout Description
+LibreOffice
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+LibreOffice
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Conjunto completo de soluções para escritório, consistindo de editor de
+ texto, planilha eletrônica, apresentação, desenho, editor de fórmulas matemátic
+as e banco de dados.
+ É derivado do 
+\emph on
+OpenOffice
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.libreoffice.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Microsoft
+\begin_inset space ~
+\end_inset
+
+Office
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Microsoft
+\begin_inset space ~
+\end_inset
+
+Office
+\end_layout
+
+\end_inset
+
+: Comercial, para 
+\emph on
+Windows
+\emph default
+.
+ Conjunto completo de soluções para escritório, consistindo de editor de
+ texto, planilha eletrônica, apresentação, editor de fórmulas matemáticas,
+ banco de dados, construtor de diagramas, gerenciador de projetos, leitor
+ de correio eletrônico, entre outros recursos.
+ Alguns destes recursos necessitam instalação separada.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://office.microsoft.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Banco de Dados
+\end_layout
+
+\begin_layout Description
+SQL
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Data
+\begin_inset space ~
+\end_inset
+
+Modeler
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SQL
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Data
+\begin_inset space ~
+\end_inset
+
+Modeler
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Desenvolvido pela 
+\emph on
+Oracle
+\emph default
+.
+ Ferramenta bastante completa para modelagem de banco de dados.
+ Para instalação, ver dicas no apêndice 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:SQLDeveloperDataModeler"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.oracle.com/technetwork/developer-tools/datamodeler/overview/index.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+SQL
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SQL
+\begin_inset space ~
+\end_inset
+
+Developer
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Desenvolvido pela 
+\emph on
+Oracle
+\emph default
+.
+ Ferramenta bastante completa para gerenciamento de banco de dados da própria
+ 
+\emph on
+Oracle
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+MySQL
+\begin_inset space ~
+\end_inset
+
+Workbench
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+MySQL
+\begin_inset space ~
+\end_inset
+
+Workbench
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Desenvolvido pela 
+\emph on
+Oracle
+\emph default
+.
+ Ferramenta simples, mas consideravelmente completa, para modelagem, gerenciamen
+to e administração de banco de dados.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.oracle.com/us/products/mysql/mysql-workbench-066221.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Oracle
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Day
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Oracle
+\begin_inset space ~
+\end_inset
+
+Developer
+\begin_inset space ~
+\end_inset
+
+Day
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Virtual Box
+\emph default
+.
+ Máquina virtual com banco de dados 
+\emph on
+Oracle
+\emph default
+ e ferramentas de desenvolvimentos previamente instaladas, cujo objetivo
+ é o de fornecer um ambiente de treinamento e desenvolvimento.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-16
+1299.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+SQL
+\begin_inset space ~
+\end_inset
+
+Management
+\begin_inset space ~
+\end_inset
+
+Studio
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SQL Management Studio
+\end_layout
+
+\end_inset
+
+: Gratuito (a versão 
+\emph on
+Express
+\emph default
+), para 
+\emph on
+Windows
+\emph default
+.
+ Permite o gerenciamento do servidor de banco de dados 
+\emph on
+Microsoft SQL Server
+\emph default
+.
+ Entre as versões, há a 
+\emph on
+2008 R2 RTM Express
+\emph default
+, ou 
+\emph on
+2008 Express
+\emph default
+.
+ O endereço a seguir refere-se à 
+\emph on
+2008 R2 RTM
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.microsoft.com/pt-br/download/details.aspx?id=22985
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Controle de Versão
+\end_layout
+
+\begin_layout Description
+Svn
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Svn
+\end_layout
+
+\end_inset
+
+: Gratuito, nativo para compilação em 
+\emph on
+Linux
+\emph default
+, mas pode ser compilado em outras plataformas -- há pacotes pré-compilados
+ para diversas distribuições 
+\emph on
+Linux
+\emph default
+.
+ É o 
+\emph on
+Subversion
+\emph default
+.
+ As funções são acessíveis por linha de comando.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://subversion.apache.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+SlikSVN
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+SlikSVN
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ É o 
+\emph on
+Subversion
+\emph default
+ compilado para 
+\emph on
+Windows
+\emph default
+.
+ As funções são acessíveis por linha de comando.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.sliksvn.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Virtualização
+\end_layout
+
+\begin_layout Description
+VirtualBox
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+VirtualBox
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Ambiente que permite a criação de máquinas virtuais.
+ Desenvolvido pela 
+\emph on
+Oracle
+\emph default
+.
+ Há pacotes de extensão que acrescentam outros recursos, como acesso à USB
+ 2.0.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.virtualbox.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Imagem
 \end_layout
 
@@ -238,7 +1022,7 @@ Gimp
 GNU Impress
 \emph default
 .
- Gratuito, multiplaforma.
+ Gratuito, multiplataforma.
  Possui um conjunto bastante completo de ferramentas para edição de imagens,
  a princípio, do tipo fotografia.
  Não é muito adequado para desenhos com formas bem definidas, como blocos
@@ -601,7 +1385,15 @@ Audacity
  Ferramenta bastante completa para gravar e editar áudio, incluindo inúmeros
  filtros e possibilidade de mixagem.
  Há componentes adicionais que podem ser instalados para aumentar os recursos
- do programa -- entre eles, citam-se o FFmpeg for Audacity e o Lame.
+ do programa -- entre eles, citam-se o 
+\emph on
+FFmpeg for Audacity
+\emph default
+ e o 
+\emph on
+Lame
+\emph default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -620,47 +1412,34 @@ http://audacity.sourceforge.net/
 \end_layout
 
 \begin_layout Section
-UML
+PDF
 \end_layout
 
 \begin_layout Description
-Visual
-\begin_inset space ~
-\end_inset
-
-Paradigm
-\begin_inset space ~
-\end_inset
-
-for
-\begin_inset space ~
-\end_inset
-
-UML
+Evince
 \begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
-Visual
-\begin_inset space ~
-\end_inset
-
-Paradigm
-\begin_inset space ~
-\end_inset
-
-for
-\begin_inset space ~
-\end_inset
-
-UML
+Evince
 \end_layout
 
 \end_inset
 
-: Gratuito, com restrições mínimas, multiplataforma.
- É capaz de desenhar os 13 diagramas do padrão UML 2.0, além de possuir algumas
- ferramentas de modelagem adicionais.
+: Gratuito, multiplataforma.
+ Leitor de arquivos em formato 
+\family sans
+PDF
+\family default
+.
+ Reconhece comentários do 
+\emph on
+Adobe Acrobat Reader
+\emph default
+, mas não permite modificá-lo ou inserir novos.
+ Ao recarregar um documento alterado, exibe a página anteriormente visualizada,
+ tornando-o muito propício para a etapa de finalização da diagramação de
+ um documento (ao desenvolvê-lo, por exemplo, com o LyX).
 \begin_inset Newline newline
 \end_inset
 
@@ -670,68 +1449,47 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://www.visual-paradigm.com/product/vpuml
+https://projects.gnome.org/evince/
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Banco de Dados
 \end_layout
 
 \begin_layout Description
-SQL
-\begin_inset space ~
-\end_inset
-
-Developer
-\begin_inset space ~
-\end_inset
-
-Data
-\begin_inset space ~
-\end_inset
-
-Modeler
+Okular
 \begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
-SQL
-\begin_inset space ~
-\end_inset
-
-Developer
-\begin_inset space ~
-\end_inset
-
-Data
-\begin_inset space ~
-\end_inset
-
-Modeler
+Okular
 \end_layout
 
 \end_inset
 
-: Gratuito, multiplataforma.
- Desenvolvido pela 
+: Gratuito, para 
 \emph on
-Oracle
+Linux
 \emph default
 .
- Ferramenta bastante completa para modelagem de banco de dados.
- Para instalação, ver dicas no apêndice 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "sec:SQLDeveloperDataModeler"
-
-\end_inset
-
-
+ Leitor de arquivos em formato 
+\family sans
+PDF
+\family default
+.
+ Reconhece comentários do 
+\emph on
+Adobe Acrobat Reader
+\emph default
+, embora haja ressalvas de compatibilidade, e permite acrescentar outros
+ comentários.
+ Há a função de histórico de navegação.
+ Semelhantemente ao 
+\emph on
+Evince
+\emph default
+, exibe a página anteriormente visualizada ao recarregar um documento.
 \begin_inset Newline newline
 \end_inset
 
@@ -741,7 +1499,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://www.oracle.com/technetwork/developer-tools/datamodeler/overview/index.html
+http://okular.kde.org/
 \end_layout
 
 \end_inset
@@ -750,34 +1508,62 @@ http://www.oracle.com/technetwork/developer-tools/datamodeler/overview/index.htm
 \end_layout
 
 \begin_layout Description
-SQL
+Okular
 \begin_inset space ~
 \end_inset
 
-Developer
+Standalone
+\begin_inset space ~
+\end_inset
+
+4
+\begin_inset space ~
+\end_inset
+
+Windows
 \begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
-SQL
-\begin_inset space ~
-\end_inset
-
-Developer
+Okular Standalone 4 Windows
 \end_layout
 
 \end_inset
 
-: Gratuito, multiplataforma.
- Desenvolvido pela 
+: Gratuito, para 
 \emph on
-Oracle
+Windows
 \emph default
 .
- Ferramenta bastante completa para gerenciamento de banco de dados da própria
+ Leitor de arquivos em formato 
+\family sans
+PDF
+\family default
+.
+ É o 
+\emph on
+Okular
+\emph default
+, compilado para 
+\emph on
+Windows
+\emph default
+, sem a necessidade de instalar o 
+\emph on
+KDE
+\emph default
  
 \emph on
-Oracle
+para Windows
+\emph default
+.
+ Até o momento, a última versão é de março de 2012, para o 
+\emph on
+Okular
+\emph default
+ 
+\emph on
+4.7
 \emph default
 .
 \begin_inset Newline newline
@@ -789,7 +1575,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html
+http://sourceforge.net/projects/okularinst4win/
 \end_layout
 
 \end_inset
@@ -798,32 +1584,24 @@ http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.h
 \end_layout
 
 \begin_layout Description
-MySQL
-\begin_inset space ~
+\begin_inset Quotes eld
 \end_inset
 
-Workbench
+PDFreaders.org
+\begin_inset Quotes erd
+\end_inset
+
+
 \begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
-MySQL
-\begin_inset space ~
-\end_inset
-
-Workbench
+PDFreaders.org
 \end_layout
 
 \end_inset
 
-: Gratuito, multiplataforma.
- Desenvolvido pela 
-\emph on
-Oracle
-\emph default
-.
- Ferramenta simples, mas consideravelmente completa, para modelagem, gerenciamen
-to e administração de banco de dados.
+: Relação de diversos leitores gratuitos de arquivos em formato PDF.
 \begin_inset Newline newline
 \end_inset
 
@@ -833,7 +1611,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://www.oracle.com/us/products/mysql/mysql-workbench-066221.html
+http://pdfreaders.org/
 \end_layout
 
 \end_inset
@@ -842,355 +1620,16 @@ http://www.oracle.com/us/products/mysql/mysql-workbench-066221.html
 \end_layout
 
 \begin_layout Description
-Oracle
+Acrobat
 \begin_inset space ~
 \end_inset
 
-Developer
-\begin_inset space ~
-\end_inset
-
-Day
+Reader
 \begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
-Oracle
-\begin_inset space ~
-\end_inset
-
-Developer
-\begin_inset space ~
-\end_inset
-
-Day
-\end_layout
-
-\end_inset
-
-: Gratuito, para 
-\emph on
-Virtual Box
-\emph default
-.
- Máquina virtual com banco de dados 
-\emph on
-Oracle
-\emph default
- e ferramentas de desenvolvimentos previamente instaladas, cujo objetivo
- é o de fornecer um ambiente de treinamento e desenvolvimento.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-16
-1299.html
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-SQL
-\begin_inset space ~
-\end_inset
-
-Management
-\begin_inset space ~
-\end_inset
-
-Studio
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-SQL Management Studio
-\end_layout
-
-\end_inset
-
-: Gratuito (a versão 
-\emph on
-Express
-\emph default
-), para 
-\emph on
-Windows
-\emph default
-.
- Permite o gerenciamento do servidor de banco de dados 
-\emph on
-Microsoft SQL Server
-\emph default
-.
- Entre as versões, há a 
-\emph on
-2008 R2 RTM Express
-\emph default
-, ou 
-\emph on
-2008 Express
-\emph default
-.
- O endereço a seguir refere-se à 
-\emph on
-2008 R2 RTM
-\emph default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.microsoft.com/pt-br/download/details.aspx?id=22985
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Documentação
-\end_layout
-
-\begin_layout Description
-TeXLive
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-TexLive
-\end_layout
-
-\end_inset
-
-: Gratuito, multiplataforma.
- Distribuição do formatador de texto LaTeX, com inúmeros pacotes associados.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.tug.org/texlive
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-LyX
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-LyX
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-: Gratuito, multiplataforma.
- Ambiente gráfico de edição de texto integrado ao LaTeX, ou outros formatadores
- baseados em TeX.
-\begin_inset Note Comment
-status collapsed
-
-\begin_layout Plain Layout
-Na entrada do índice, LyX digitado por código TeX para evitar erro, pois
- é definido o comando 
-\backslash
-LyX pelo LyX.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.lyx.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Escritório
-\end_layout
-
-\begin_layout Description
-LibreOffice
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-LibreOffice
-\end_layout
-
-\end_inset
-
-: Gratuito, multiplataforma.
- Conjunto completo de soluções para escritório, consistindo de editor de
- texto, planilha eletrônica, apresentação, desenho, editor de fórmulas matemátic
-as e banco de dados.
- É derivado do 
-\emph on
-OpenOffice
-\emph default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.libreoffice.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Microsoft
-\begin_inset space ~
-\end_inset
-
-Office
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Microsoft
-\begin_inset space ~
-\end_inset
-
-Office
-\end_layout
-
-\end_inset
-
-: Comercial, para 
-\emph on
-Windows
-\emph default
-.
- Conjunto completo de soluções para escritório, consistindo de editor de
- texto, planilha eletrônica, apresentação, editor de fórmulas matemáticas,
- banco de dados, construtor de diagramas, gerenciador de projetos, leitor
- de correio eletrônico, entre outros recursos.
- Alguns destes recursos necessitam instalação separada.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://office.microsoft.com/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Controle de Versão
-\end_layout
-
-\begin_layout Description
-Svn
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Svn
-\end_layout
-
-\end_inset
-
-: Gratuito, nativo para compilação em 
-\emph on
-Linux
-\emph default
-, mas pode ser compilado em outras plataformas -- há pacotes pré-compilados
- para diversas distribuições 
-\emph on
-Linux
-\emph default
-.
- É o 
-\emph on
-Subversion
-\emph default
-.
- As funções são acessíveis por linha de comando.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://subversion.apache.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-SlikSVN
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-SlikSVN
+Acrobat Reader
 \end_layout
 
 \end_inset
@@ -1200,16 +1639,8 @@ SlikSVN
 Windows
 \emph default
 .
- É o 
-\emph on
-Subversion
-\emph default
- compilado para 
-\emph on
-Windows
-\emph default
-.
- As funções são acessíveis por linha de comando.
+ Leitor de arquivos em formato PDF.
+ Permite a inserção de comentários e há recursos adicionais.
 \begin_inset Newline newline
 \end_inset
 
@@ -1219,7 +1650,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://www.sliksvn.com/
+http://get.adobe.com/br/reader/
 \end_layout
 
 \end_inset
@@ -1228,33 +1659,81 @@ http://www.sliksvn.com/
 \end_layout
 
 \begin_layout Section
-Planejamento
+Manipulação de Arquivos
 \end_layout
 
 \begin_layout Description
-Gantt
-\begin_inset space ~
-\end_inset
-
-Project
+7zip
 \begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
-Gantt
-\begin_inset space ~
-\end_inset
-
-Project
+7zip
 \end_layout
 
 \end_inset
 
-: Gratuito, multiplataforma.
- Ferramenta simples e eficaz, interface amigável.
- Assemelha-se ao 
+: Gratuito, para 
 \emph on
-Planner
+Windows
+\emph default
+.
+ Compactador de arquivos com suporte a diversos formatos e, entre eles,
+ o 
+\family sans
+Zip
+\family default
+.
+ O formato nativo, 
+\family sans
+7z
+\family default
+, apresenta taxas de compressão consideravelmente superiores ao formato
+ 
+\family sans
+Zip
+\family default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.7-zip.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+P7zip
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+P7zip
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Linux.
+ 
+\emph default
+É o 
+\emph on
+7zip
+\emph default
+ transcrito para 
+\emph on
+Linux
 \emph default
 .
 \begin_inset Newline newline
@@ -1266,7 +1745,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://www.ganttproject.biz/
+http://sourceforge.net/projects/p7zip/
 \end_layout
 
 \end_inset
@@ -1275,67 +1754,31 @@ http://www.ganttproject.biz/
 \end_layout
 
 \begin_layout Description
-Planner
+Free
+\begin_inset space ~
+\end_inset
+
+Commander
 \begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
-Planner
-\end_layout
-
-\end_inset
-
-: Gratuito, multiplataforma.
- Simples e eficaz.
- Contudo, a versão para 
-\emph on
-Windows
-\emph default
- não funciona corretamente.
- Atualmente (julho de 2013), seu desenvolvimento está descontinuado.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-https://live.gnome.org/Planner
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Microsoft
+Free
 \begin_inset space ~
 \end_inset
 
-Project
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Microsoft
-\begin_inset space ~
-\end_inset
-
-Project
+Commander
 \end_layout
 
 \end_inset
 
-: Comercial, para 
+: Gratuito, para 
 \emph on
 Windows
 \emph default
 .
- Ferramenta bastante completa, mas de operação não muito elementar quanto
- a alguns aspectos de definição de tarefas.
+ Gerenciador de arquivos com dois painéis e diversas funcionalidades facilmente
+ acessíveis.
 \begin_inset Newline newline
 \end_inset
 
@@ -1345,7 +1788,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://technet.microsoft.com/pt-br/evalcenter/hh973401.aspx
+http://www.freecommander.com/
 \end_layout
 
 \end_inset
@@ -1600,393 +2043,6 @@ http://www.freedownloadmanager.org/
 
 \end_layout
 
-\begin_layout Section
-Manipulação de Arquivos
-\end_layout
-
-\begin_layout Description
-7zip
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-7zip
-\end_layout
-
-\end_inset
-
-: Gratuito, para 
-\emph on
-Windows
-\emph default
-.
- Compactador de arquivos com suporte a diversos formatos e, entre eles,
- o 
-\family sans
-Zip
-\family default
-.
- O formato nativo, 
-\family sans
-7z
-\family default
-, apresenta taxas de compressão consideravelmente superiores ao formato
- 
-\family sans
-Zip
-\family default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.7-zip.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-P7zip
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-P7zip
-\end_layout
-
-\end_inset
-
-: Gratuito, para 
-\emph on
-Linux.
- 
-\emph default
-É o 
-\emph on
-7zip
-\emph default
- transcrito para 
-\emph on
-Linux
-\emph default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://sourceforge.net/projects/p7zip/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Free
-\begin_inset space ~
-\end_inset
-
-Commander
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Free
-\begin_inset space ~
-\end_inset
-
-Commander
-\end_layout
-
-\end_inset
-
-: Gratuito, para 
-\emph on
-Windows
-\emph default
-.
- Gerenciador de arquivos com dois painéis e diversas funcionalidades facilmente
- acessíveis.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.freecommander.com/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-PDF
-\end_layout
-
-\begin_layout Description
-Evince
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Evince
-\end_layout
-
-\end_inset
-
-: Gratuito, multiplataforma.
- Leitor de arquivos em formato 
-\family sans
-PDF
-\family default
-.
- Reconhece comentários do 
-\emph on
-Adobe Acrobat Reader
-\emph default
-, mas não permite modificá-lo ou inserir novos.
- Ao recarregar um documento alterado, exibe a página anteriormente visualizada,
- tornando-o muito proprício para a etapa de finalização da diagramação de
- um documento (ao desenvolvê-lo, por exemplo, com o Lyx).
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-https://projects.gnome.org/evince/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Okular
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Okular
-\end_layout
-
-\end_inset
-
-: Gratuito, para 
-\emph on
-Linux
-\emph default
-.
- Leitor de arquivos em formato 
-\family sans
-PDF
-\family default
-.
- Reconhece comentários do 
-\emph on
-Adobe Acrobat Reader
-\emph default
-, embora haja ressalvas de compatibilidade, e permite acrescentar outros
- comentários.
- Há a função de histórico de navegação.
- Semelhantemente ao 
-\emph on
-Evince
-\emph default
-, exibe a página anteriormente visualizada ao recarregar um documento.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://okular.kde.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Okular
-\begin_inset space ~
-\end_inset
-
-Standalone
-\begin_inset space ~
-\end_inset
-
-4
-\begin_inset space ~
-\end_inset
-
-Windows
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Okular Standalone 4 Windows
-\end_layout
-
-\end_inset
-
-: Gratuito, para 
-\emph on
-Windows
-\emph default
-.
- Leitor de arquivos em formato 
-\family sans
-PDF
-\family default
-.
- É o 
-\emph on
-Okular
-\emph default
-, compilado para 
-\emph on
-Windows
-\emph default
-, sem a necessidade de instalar o 
-\emph on
-KDE
-\emph default
- 
-\emph on
-para Windows
-\emph default
-.
- Até o momento, a última versão é de março de 2012, para o 
-\emph on
-Okular
-\emph default
- 
-\emph on
-4.7
-\emph default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://sourceforge.net/projects/okularinst4win/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-\begin_inset Quotes eld
-\end_inset
-
-PDFreaders.org
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-PDFreaders.org
-\end_layout
-
-\end_inset
-
-: Relação de diversos leitores gratuitos de arquivos em formato PDF.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://pdfreaders.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Virtualização
-\end_layout
-
-\begin_layout Description
-VirtualBox
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-VirtualBox
-\end_layout
-
-\end_inset
-
-: Gratuito, multiplataforma.
- Ambiente que permite a criação de máquinas virtuais.
- Desenvolvido pela 
-\emph on
-Oracle
-\emph default
-.
- Há pacotes de extensão que acrescentam outros recursos, como acesso à USB
- 2.0.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-https://www.virtualbox.org/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \start_of_appendix
 \begin_inset Newpage newpage
@@ -2114,8 +2170,8 @@ E
 \family typewriter
 <tam>
 \family default
- é a quantidade de pixels a remover, obtido ao se extrair 1 quadro e medir
- a quantidade de pixels pelo 
+ é a quantidade de pixeis a remover, obtido ao se extrair 1 quadro e medir
+ a quantidade de pixeis pelo 
 \emph on
 Gimp
 \emph default

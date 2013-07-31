@@ -81,128 +81,6 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset Branch Ajuste de Impressão
-status open
-
-\begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-Página para ajuste de impressão.
- Para imprimir esta página, deve-se ativar o ramo 
-\begin_inset Quotes eld
-\end_inset
-
-Ajuste de Impressão
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-
-\series bold
-\size larger
-Ajuste de Impressão
-\end_layout
-
-\begin_layout Standard
-Realizar ajuste de impressão, se necessário, aplicando um fator de ampliação
- ou redução, no próprio aplicativo leitor de PDF ou nas propriedades da
- impressora, de tal forma que a linha abaixo possua 10 cm de comprimento.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset CommandInset line
-LatexCommand rule
-offset "1ex"
-width "10cm"
-height "1pt"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-a
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -241,9 +119,28 @@ Não consegui inserir o cabeçalho, quando os insiro nesse documento um erro
 \noindent
 \align center
 
-\size largest
+\size huge
 Manual Técnico
 \size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size normal
+v.
+ 0.0.0-alfa
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+\emph on
+(edição preliminar)
+\size default
+\emph default
 
 \begin_inset Newline newline
 \end_inset
@@ -343,6 +240,15 @@ Manual Técnico
 \end_inset
 
 
+\size normal
+v.
+ 0.0.0-alfa
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
 \size large
 \emph on
 (edição preliminar)
@@ -375,14 +281,6 @@ Mariane Tonon Lorenzetti
 \begin_inset Newline newline
 \end_inset
 
-José Governo Pais Neto
-\begin_inset Newline newline
-\end_inset
-
-Fábio Costa Portásio
-\begin_inset Newline newline
-\end_inset
-
 Marcelo Porto Trevizan
 \end_layout
 
@@ -407,6 +305,120 @@ Algo está ocorrendo que os autores não aparecem no PDF, também não consigo
 
 \begin_layout Author
 \begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Ajuste de Impressão
+status open
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Página para ajuste de impressão.
+ Para imprimir esta página, deve-se ativar o ramo 
+\begin_inset Quotes eld
+\end_inset
+
+Ajuste de Impressão
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+Ajuste de Impressão
+\end_layout
+
+\begin_layout Standard
+Realizar ajuste de impressão, se necessário, aplicando um fator de ampliação
+ ou redução, no próprio aplicativo leitor de PDF ou nas propriedades da
+ impressora, de tal forma que a linha abaixo possua 10 cm de comprimento.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset CommandInset line
+LatexCommand rule
+offset "1ex"
+width "10cm"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -474,13 +486,6 @@ Numeração de página romana
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -991,7 +996,7 @@ RGB(0,0,0)
 \end_deeper
 \end_deeper
 \begin_layout Chapter
-Simulações de Funcionamento 
+Algoritmos de Funcionamento 
 \end_layout
 
 \begin_layout Section
@@ -1137,11 +1142,7 @@ Criação de relatório PDF
 \end_layout
 
 \begin_layout Itemize
-Calcula quantidade de grupos, turmas e laboratórios;
-\end_layout
-
-\begin_layout Itemize
-Cria arquivo, no diretório definido;
+Calcula razão entre grupos, turmas e laboratórios;
 \end_layout
 
 \begin_layout Itemize
@@ -1161,7 +1162,11 @@ Desenha aulas correspondentes;
 \end_layout
 
 \begin_layout Itemize
-Formatação da página.
+Formatação da página;
+\end_layout
+
+\begin_layout Itemize
+Cria arquivo, no diretório predefinido.
 \end_layout
 
 \begin_layout Section
@@ -1261,7 +1266,7 @@ Indica sucesso da operação.
 \end_layout
 
 \begin_layout Chapter
-Documentação Técnica
+Descrição dos Módulos
 \end_layout
 
 \begin_layout Section
