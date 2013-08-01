@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Métodos Automáticos - Conclusão de Pendências" company="" webLink="macrosvba.googlecode.com" view-date="2013-06-26" view-index="0" gantt-divider-location="581" resource-divider-location="300" version="2.0" locale="pt_BR">
+<project name="Métodos Automáticos - Conclusão de Pendências" company="" webLink="macrosvba.googlecode.com" view-date="2013-06-27" view-index="0" gantt-divider-location="581" resource-divider-location="300" version="2.0" locale="pt_BR">
     <description><![CDATA[Tarefas pendentes a serem concluídas antes de iniciar o projeto de integração com o Sistema Acadêmico. Alguns entornos extras também serão relacionados, uma vez que estes influenciam no prazo de conclusão.]]></description>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd7" name="Concluído" width="4" order="0"/>
