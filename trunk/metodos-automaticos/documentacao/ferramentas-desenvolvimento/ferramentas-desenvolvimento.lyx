@@ -2319,13 +2319,17 @@ Data Modeler
  diretamente.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \series bold
 \emph on
-Observação
-\series default
-: se o diretório descompactado for copiado para 
+Observação:
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Se o diretório descompactado for copiado para 
 \family sans
 Arquivos
 \begin_inset space ~
@@ -2339,6 +2343,26 @@ Programas
 \family default
 antes da atribuição do executável, o programa poderá não conseguir salvar
  as alterações e, consequentemente, não reconhecerá o local do executável.
+\end_layout
+
+\begin_layout Standard
+Após a instalação, ao subdiretório 
+\family sans
+datamodeler
+\family default
+, atribuir direitos de escrita para o grupo 
+\family sans
+\emph on
+Usuários
+\family default
+\emph default
+, a fim de que o 
+\emph on
+Data Modeler
+\emph default
+ possa gravar algumas informações em seu diretório de instalação.
+ Adicionalmente -- ainda não foi testado -- com este procedimento, o fato
+ citado pela observação acima poderá não ocorrer.
 \end_layout
 
 \begin_layout Standard
