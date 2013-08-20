@@ -80,7 +80,7 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.0.0
+ 0.0.0+
 \end_layout
 
 \begin_layout Author
@@ -2224,6 +2224,12 @@ name "sec:SQLDeveloperDataModeler"
 
 \end_layout
 
+\begin_layout Subsubsection
+Instalação no 
+\emph on
+Windows
+\end_layout
+
 \begin_layout Standard
 Para instalá-lo no 
 \emph on
@@ -2243,9 +2249,20 @@ kit
 \emph default
  de desenvolvimento 
 \emph on
-Java 
+\bar under
+Java JDK6
+\bar default
+ 
 \emph default
-JDK6.
+-- atenção! o 
+\emph on
+Data Modeler
+\emph default
+ não funciona com o 
+\emph on
+JDK7
+\emph default
+.
 \end_layout
 
 \begin_layout Enumerate
@@ -2323,7 +2340,7 @@ Data Modeler
 
 \series bold
 \emph on
-Observação:
+Observação 1:
 \end_layout
 
 \begin_layout Quote
@@ -2345,24 +2362,153 @@ antes da atribuição do executável, o programa poderá não conseguir salvar
  as alterações e, consequentemente, não reconhecerá o local do executável.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
+
+\series bold
+\emph on
+Observação 2:
+\end_layout
+
+\begin_layout Quote
+
+\emph on
 Após a instalação, ao subdiretório 
 \family sans
 datamodeler
 \family default
 , atribuir direitos de escrita para o grupo 
 \family sans
-\emph on
+\emph default
 Usuários
 \family default
-\emph default
+\emph on
 , a fim de que o 
+\emph default
+Data Modeler
+\emph on
+ possa gravar algumas informações em seu diretório de instalação.
+ 
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+Observação 3:
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Adicionalmente -- ainda não foi testado -- com o procedimento da 
+\series bold
+Observação 2
+\series default
+, o fato citado pela 
+\series bold
+Observação 1
+\series default
+ poderá não ocorrer.
+ Assim, poder-se-ía já copiar o Data Modeler para 
+\family sans
+Arquivos
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+Programas
+\family default
+ antes de apontar o 
+\family sans
+\emph default
+java.exe
+\family default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Conexão Via TNS no 
+\emph on
+Windows
+\end_layout
+
+\begin_layout Standard
+A fim de que o 
 \emph on
 Data Modeler
 \emph default
- possa gravar algumas informações em seu diretório de instalação.
- Adicionalmente -- ainda não foi testado -- com este procedimento, o fato
- citado pela observação acima poderá não ocorrer.
+ possa reconher os nomes de banco de dados definidos por meio de arquivo
+ TNS (
+\family sans
+tnsnames.ora
+\family default
+), devem-se executar os seguintes passos:
+\end_layout
+
+\begin_layout Enumerate
+Identificar o diretório de instalação do cliente do 
+\emph on
+Banco de Dados
+\emph default
+ 
+\emph on
+Oracle
+\emph default
+.
+ A identificação deste diretório será algo semelhante a:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align block
+
+\family sans
+C:
+\backslash
+oracle
+\backslash
+product
+\backslash
+10.2.0
+\backslash
+client_1
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Editar a variável de ambiente do sistema 
+\family sans
+\emph on
+ORACLE_HOME
+\family default
+\emph default
+, atribuindo o diretório acima.
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+Nota:
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+O arquivo 
+\family sans
+\emph default
+tnsnames.ora
+\family default
+\emph on
+ encontra-se no subdiretório 
+\family sans
+network/ADMIN/
+\family default
+ do diretório de instalação do cliente do Banco de Dados Oracle.
 \end_layout
 
 \begin_layout Standard
