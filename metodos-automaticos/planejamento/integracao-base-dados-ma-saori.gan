@@ -12,7 +12,7 @@
     </view>
     <view id="resource-table">
         <field id="0" name="Nome" width="50" order="0"/>
-        <field id="1" name="Função" width="49" order="1"/>
+        <field id="1" name="Função" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -74,7 +74,7 @@
             </task>
             <task id="9" name="Diagrama de Sequência" color="#8cb6ce" meeting="false" start="2013-09-13" duration="16" complete="0" expand="true"/>
         </task>
-        <task id="49" name="Estudo do SQL Developer Data Modeler" color="#8cb6ce" meeting="false" start="2013-08-02" duration="8" complete="51" expand="true">
+        <task id="49" name="Estudo do SQL Developer Data Modeler" color="#8cb6ce" meeting="false" start="2013-08-02" duration="8" complete="85" expand="true">
             <depend id="0" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="22" name="Remodelagem do Sistema Horários" color="#8cb6ce" meeting="false" start="2013-08-16" duration="37" complete="0" expand="true">
