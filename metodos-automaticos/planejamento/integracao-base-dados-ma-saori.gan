@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2013-07-29" view-index="0" gantt-divider-location="628" resource-divider-location="300" version="2.0" locale="pt_BR">
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2013-10-07" view-index="0" gantt-divider-location="628" resource-divider-location="300" version="2.0" locale="pt_BR">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd7" name="Concluído" width="6" order="0"/>
@@ -74,7 +74,7 @@
             </task>
             <task id="9" name="Diagrama de Sequência" color="#8cb6ce" meeting="false" start="2013-09-13" duration="16" complete="0" expand="true"/>
         </task>
-        <task id="49" name="Estudo do SQL Developer Data Modeler" color="#8cb6ce" meeting="false" start="2013-08-02" duration="8" complete="85" expand="true">
+        <task id="49" name="Estudo do SQL Developer Data Modeler" color="#8cb6ce" meeting="false" start="2013-08-02" duration="8" complete="100" expand="true">
             <depend id="0" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="22" name="Remodelagem do Sistema Horários" color="#8cb6ce" meeting="false" start="2013-08-16" duration="37" complete="0" expand="true">
@@ -95,9 +95,12 @@
                 <notes><![CDATA[Inclui aprendizado de ferramenta própria para tal tarefa, da Oracle (SQL Data Modeler).]]></notes>
             </task>
         </task>
-        <task id="35" name="Banco de Dados Oracle" color="#8cb6ce" meeting="false" start="2013-09-06" duration="9" complete="0" expand="true">
+        <task id="35" name="Banco de Dados Oracle" color="#8cb6ce" meeting="false" start="2013-09-06" duration="9" complete="15" expand="true">
             <depend id="23" type="2" difference="0" hardness="Strong"/>
-            <task id="26" name="Estudo elementar e conexão ao Excel e Access" color="#8cb6ce" meeting="false" start="2013-09-06" duration="9" complete="0" expand="true"/>
+            <task id="26" name="Estudo elementar e conexão ao Excel e Access" color="#8cb6ce" meeting="false" start="2013-09-06" duration="9" complete="15" expand="true">
+                <notes><![CDATA[23.08.2013
+Concluído estudo dos tipos de dados do BD Oracle 11g.]]></notes>
+            </task>
         </task>
         <task id="50" name="Conclusão da remodelagem e início da integração" color="#ccff00" meeting="true" start="2013-10-22" duration="0" complete="0" expand="true">
             <depend id="38" type="2" difference="0" hardness="Strong"/>
@@ -130,9 +133,26 @@
         </task>
         <task id="48" name="Desativação do SQL Server" color="#0033cc" meeting="true" start="2014-01-16" duration="0" complete="0" expand="true"/>
     </tasks>
-    <resources/>
-    <allocations/>
-    <vacations/>
+    <resources>
+        <resource id="0" name="Marcelo" function="SoftwareDevelopment:8" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="49" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="0" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2014-01-02" end="2014-01-22" resourceid="0"/>
+    </vacations>
     <taskdisplaycolumns>
         <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
