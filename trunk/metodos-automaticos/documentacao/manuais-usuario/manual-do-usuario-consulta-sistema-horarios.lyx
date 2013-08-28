@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass report
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -59,9 +60,2576 @@
 
 \begin_body
 
-\begin_layout Standard
-fdfd
+\begin_layout Title
+Manual do Usuário 
+\begin_inset Quotes eld
+\end_inset
+
+Consulta Sistema Horários
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
+\begin_layout Chapter
+
+\lang brazilian
+Consulta Sistema Horários
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\lang brazilian
+Orientação complementar: registrar, de algum modo, de forma organizada,
+ todas as verificações realizadas.
+\end_layout
+
+\begin_layout Section
+
+\lang brazilian
+Tela Inicial
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Observar as informações apresentadas.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Verificar a função dos botões.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Verificar se é possível sair do programa clicando no botão de fechar a janela
+ do 
+\emph on
+Access
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Por meios convencionais, qual é a única forma de sair do programa?
+\end_layout
+
+\begin_layout Subsection
+
+\lang brazilian
+Gerenciador Principal
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang brazilian
+Dados de Referência
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Verificar quais dados podem ser definidos nas diferentes abas, inclusive
+ a faixa de valores permitidos, quando aplicável.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Na aba 
+\emph on
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Outros}
+\end_layout
+
+\end_inset
+
+
+\emph default
+, dar duplo clique sobre o período e observar o que acontece.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Na aba 
+\emph on
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Data}
+\end_layout
+
+\end_inset
+
+
+\emph default
+, escolher uma data de sábado e verificar o efeito consequente na aba 
+\emph on
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Outros}
+\end_layout
+
+\end_inset
+
+
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Selecionar uma data de segunda a sexta-feira e o período diurno.
+ Em seguida, selecionar uma data de sábado e observar o período.
+ Voltar para uma data de semana.
+ Observar o período.
+ Selecionar o período noturno.
+ Selecionar data de sábado e observar, novamente, o período.
+ Voltar, mais uma vez para uma data de semana e observar o período.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que significa o campo 
+\emph on
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx.
+ h.a.
+ TP e HR}
+\end_layout
+
+\end_inset
+
+
+\emph default
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que siginifca cada uma das opções na frente de atuação?
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang brazilian
+Relatórios Rápidos
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a função desta área?
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang brazilian
+Consultas
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as abas e que tipo de informações correlacionadas se obtêm em cada
+ uma delas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a função da região logo abaixo da região 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Consultas}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Nesta última região, qual a função do 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{X}
+\end_layout
+
+\end_inset
+
+ no canto direito superior e qual a tecla de atalho?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Na aba 
+\emph on
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Professores}
+\end_layout
+
+\end_inset
+
+
+\emph default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+O que significa a sequência de texto no canto superior direito que se observa
+ na janela 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Lista de Presença}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+De quais campos dos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Dados de Referência}
+\end_layout
+
+\end_inset
+
+ esta consulta depende?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Ao gerar uma 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+, que respostas dar à pergunta 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mg{É de Atraso?}
+\end_layout
+
+\end_inset
+
+? Qual o significado de cada resposta?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+À pergunta citada, o que acontece se pressionado o botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Cancelar}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como solucionar o problema do item anterior de forma simples, sem a necessidade
+ de fechar e reiniciar o programa?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Gerada uma lista, como fazer para fechá-la?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que acontece quando pede-se para gerar uma nova lista sem fechar a anterior?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quantos leiautes distintos podem-se perceber para esta função de gerar 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Deseja-se imprimir a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+ de segunda-feira a sábado, para ambos os períodos, de ambos os 
+\emph on
+camp
+\emph default
+i, com excessão das turmas de pós-graduação.
+ Como proceder?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que acontece se tentar extrair a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista de Presença}
+\end_layout
+
+\end_inset
+
+ para o 
+\emph on
+campus
+\emph default
+ de São Paulo, no período diurno? Qual a melhor recomendação nesta situação?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista Dia}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais campos dos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Dados de Referência}
+\end_layout
+
+\end_inset
+
+ esta consulta depende?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as informações apresentadas no relatório 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Lista Dia Completa}
+\end_layout
+
+\end_inset
+
+? E o que significa cada uma das cores que destacam algumas das linhas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as informações apresentadas no relatório 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Dias em Que o Professor Está na Escola}
+\end_layout
+
+\end_inset
+
+? Há algum destaque especial? Se sim, qual o significado?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as informações apresentadas no relatório 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Horários dos Dias em Quais o Professor Está em Aula}
+\end_layout
+
+\end_inset
+
+? Há algum destaque especial? Se sim, qual o significado?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{PPC}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+O que significa a sigla 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{PPC}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+De quais campos dos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Dados de Referência}
+\end_layout
+
+\end_inset
+
+ esta consulta depende?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as informações retornadas pela tabela de referência cruzada para o
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{PPC}
+\end_layout
+
+\end_inset
+
+? Qual o significado de cada uma?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Deseja-se o relatório com a referência cruzada para o 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{PPC}
+\end_layout
+
+\end_inset
+
+ do curso de Engenharia Eletrônica Diurno, incluindo-se as disciplinas do
+ Ciclo Básico do 1º e 2º ano, excluindo-se as aulas de dependências, para
+ o corrente ano e semestre.
+ Como proceder? Gerar uma versão impressa da primeira página.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Deseja-se o mesmo relatório, mas para o curso de Engenharia de Produção
+ Noturno, excluindo-se as disciplinas do Ciclo Básico, incluindo-se as aulas
+ de dependências e exportando o resultado para uma planilha do 
+\emph on
+Excel
+\emph default
+.
+ Como proceder? Gerar uma versão impressa da primeira página.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Idem, para o curso de Engenharia Química Diurno e Noturno, simultaneamente,
+ incluindo-se as disciplinas do Ciclo Básico ministradas no 2º ano, excluindo-se
+ as do 1º ano, incluindo as aulas de dependências e exportando o resultado
+ para uma planilha do 
+\emph on
+Excel
+\emph default
+.
+ Gerar uma versão impressa da primeira página.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+É possível gerar um relatório semelhante para o curso de 
+\emph on
+Design
+\emph default
+ Diurno? O que acontece? E se for para o curso 
+\emph on
+Design
+\emph default
+ Diurno e Noturno?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais são as possibilidades de relatório para o curso de Administração,
+ quanto ao 
+\emph on
+campus
+\emph default
+ e ao período?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais os cursos de Gestão contemplados por tal relatório? E quando ao 
+\emph on
+campus
+\emph default
+ e período, quais são as possibilidades?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como fazer para extrair um relatório, de algum curso, para o ano de 2011,
+ segundo semestre?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que significam os botões com cores diferentes do padrão normal adotado?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Para uma habilitação qualquer, é possível incluir o 1º ano do Ciclo Básico
+ sem incluir o 2º ano? Por quê?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Cargas Horárias}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais campos dos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Dados de Referência}
+\end_layout
+
+\end_inset
+
+ esta consulta depende?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Em termos gerais, quais as consultas disponibilizadas? Qual a função de
+ cada uma?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Consulta de Aula}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Como identificar o ano e o semestre para os quais a consulta será aplicada?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Nos campos de pesquisa, pode-se digitar quaisquer caracteres, com ou sem
+ acentuação?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que significam os campos de pesquisa em cinza?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais os tipos de filtro? Qual a diferença entre eles?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as possibilidades para disparar a execução da consulta e exibição
+ dos resultados?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Resultados da consulta}
+\end_layout
+
+\end_inset
+
+, quais as informações apresentadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que significa a linha 
+\series bold
+Total
+\series default
+? Na ocasião de haver aulas compartilhadas, o valor retornado por ela será
+ coerente?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Ainda quanto à linha 
+\series bold
+Total
+\series default
+, na ocasião de haver aulas quinzenais, o valor retornado por ela será coerente?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Ao resultado da consulta, é possível aplicar 
+\begin_inset Quotes eld
+\end_inset
+
+subconsultas
+\begin_inset Quotes erd
+\end_inset
+
+? Como?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual uma forma fácil de saber quantos resultados, isto é, linhas de resultado,
+ foram retornados?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como deve-se proceder para gerar a grade horária de um professor?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como deve-se proceder para gerar a grade horária de todos os professores
+ envolvidos em uma disciplina específica?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como fazer para listar todos os professores de nome 
+\emph on
+Luiz
+\emph default
+ ou 
+\emph on
+Luis
+\emph default
+ da disciplina 
+\emph on
+EFB201
+\emph default
+ do primeiro semestre de 2013?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+É possível exportar os dados do resultado da consulta para o 
+\emph on
+Excel
+\emph default
+? Se sim, como?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como proceder para gerar a grade horária de todos os professores?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a utilidade do campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Data específica da grade}
+\end_layout
+
+\end_inset
+
+ que aparece quando pede-se para gerar a grade horária dos professores?
+ Que valores podem ser fornecidos?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a utilidade e quais as respostas possíveis à pergunta 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mg{É oficial?}
+\end_layout
+
+\end_inset
+
+ que aparece logo em seguida?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual o significado de cada um dos grupos de informações na grade horária
+ do professor?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como fazer para fechar o relatório da grade horária?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que acontece se for gerada outra grade horária sem fechar a anterior?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais são as opções para fechar esta janela, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Consulta de Aula}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Consultar CEUN-IMT}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as informações apresentadas e o significado de cada uma delas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+De quais formas pode-se saber se um professor listado está ativo ou não?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Se, por exemplo, um professor possuir horas-aula em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{TotHaIMT}
+\end_layout
+
+\end_inset
+
+ e constar que ele encontra-se de licença, esta informação está correta?
+ Há algum caso assim? Como fazer o rastreamento das informações para esclarecer
+ o fato?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como interpretar o dado apresentado no campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{TotHaPG}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como interpretar o relacionamento matemático entre as colunas numéricas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Deseja-se encontrar os professores em regime TI que possuem orientação a
+ algum trabalho de conclusão de curso.
+ Como proceder para encontrar esta informação?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Uma vez que percebe-se, em 2013, o campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{TotHaATDPago}
+\end_layout
+
+\end_inset
+
+ em vazio para todos os professores e sabendo-se que há horas-aula de atendiment
+o pagas atribuídas a alguns professores, onde deverão estar inclusas tais
+ horas-aula?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Deseja-se encontrar a quantidade atual de professores doutores, mestres
+ e especialistas.
+ Como fazer?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Deseja-se encontrar a quantidade atual de professores em regime TI, TP e
+ HR.
+ Como fazer?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Deseja-se encontrar quais são os professores em regime TI, em categoria
+ Pleno e que são doutores.
+ Como fazer? Gerar uma versão impressa da relação, contendo apenas um título
+ (título da relação) e o nome dos professores.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+É possível encontrar a quantidade de professores doutores, mestres e especialist
+as em dezembro de 2011? Se não, por quê?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+É possível encontrar a quantidade de professores em regime TI, TP e HR em
+ dezembro de 2011? Se não, por quê?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Alguns dados no campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{RF}
+\end_layout
+
+\end_inset
+
+ possuem valores menores que 100.
+ O que isto significa?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Desejando-se obter a presente relação para a data de referência 05/08/2012,
+ por exemplo, quais são as informações que, de fato, correspodem a tal data
+ e quais não correspondem?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como fechar a janela?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Atividades Outras}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a finalidade desta interface?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual o significado dos dados que podem ser inseridos?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais dados são obrigatórios e quais são opcionais?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais são as restrições para a entrada de cada data?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual o formato de entrada das datas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como escolher o ano de lançamento?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como fechar a janela?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Trabalhos de Conclusão de Curso}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a finalidade desta interface?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual o significado dos dados que podem ser inseridos?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais dados são obrigatórios e quais são opcionais?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais são as restrições para a entrada de cada campo?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como fechar a janela?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Licenças}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais os tipos de consultas e quais informações são retornadas por cada
+ uma delas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Em especial, qual o significado do campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Remunerado}
+\end_layout
+
+\end_inset
+
+? Em geral, esta opção é assinalada como verdadeiro ou falso?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Outras Relações de Professores}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+De forma sucinta, quais são as subconsultas disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Que informações são retornadas pelas subconsultas? Qual o significado dos
+ campos ainda não descritos anteriormente?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{As Graduações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Com Mais de Uma Graduação}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{As Pós-Graduações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{A Pós-Graduação Maior}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Disciplinas Ministradas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Habilitações dos Professores}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Professores das Habilitações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Atualizar TP e HR}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+De forma sucinta, quais são as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as informações são retornadas por 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Verificar as Atualizações}
+\end_layout
+
+\end_inset
+
+? Elas envolvem quais regimes de trabalho?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que significa a função 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Executar as Atualizações}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Disciplinas}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Na atual versão, o que há aqui?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a ideia desta aba?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Salas}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Ocupação das Salas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+De forma sucinta, quais são as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tipo de Aula}
+\end_layout
+
+\end_inset
+
+ influenciará apenas a qual consulta? E quais são suas opções e os correspondent
+es significados?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Que tipo de relação traz o botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a função do 
+\emph on
+checkbox
+\emph default
+ à esquerda do botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação}
+\end_layout
+
+\end_inset
+
+? E quais as vantagens da função oferecida?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como navegar pelo relatório de 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação das Salas}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Que tipo de relação traz o botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação Modificado - Blocos de A a H}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual o significado das informações relacionadas em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de A a H}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Que tipo de relação traz o botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação Modificado - Blocos de I a U}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual o significado das informações relacionadas em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de I a U}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Que tipo de relação traz o botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Mapa de Ocupação Modificado - Salas de Teoria}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual o significado das informações relacionadas em 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação Modificado de Todas as Salas - Salas de Teoria}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Nestes mapas de ocupação, qual o significado das letras apresentadas nas
+ células?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+E quanto ao botão 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bt{Taxa de Ocupação}
+\end_layout
+
+\end_inset
+
+? Quais as informações apresentadas e seus significados?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Disponibilidades das Salas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerá a consulta?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a função disponibilizada?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Na janela 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Disponibilidades das Salas}
+\end_layout
+
+\end_inset
+
+, quais campos têm-se para entrada dos dados da consulta e qual o formato
+ destes dados?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como disparar a consulta?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Para que serve e em que situação é útil o botão de atualizar?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que significa a opção 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lista U/B}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Em que momentos torna-se interessante o uso da consulta de disponibilidades
+ das salas?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Horários de Aula}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a importância da área identificada como 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Auxílio para Elaboração}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Encontrar Superposições}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que são as superposições por aula, professor e sala?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Superposições de Aula}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Que informações são apresentadas e como fazer a interpretação dos dados?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
+nto entre as linhas? Quais informações poderiam ser filtradas?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Superposições de Professor}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Que informações são apresentadas e como fazer a interpretação dos dados?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
+nto entre as linhas? Quais informações poderiam ser filtradas?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Superposições de Sala}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Que informações são apresentadas e como fazer a interpretação dos dados?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
+nto entre as linhas? Quais informações poderiam ser filtradas?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Restrições de Carga}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que são as restrições de carga (carga horária dos professores)?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual a função disponibilizada?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Relacionar:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+todas as violações de restrições atualmente verificadas pelo programa;
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+as informações retornadas por cada uma delas;
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+a forma adequada de se analisar os dados de cada uma delas;
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+como obter mais informações, pelo próprio programa, sobre o contexto de
+ algum professor relacionado -- apontar, no mínimo, duas possibilidades;
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+a quem compete a solução de cada violação encontrada.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Indefinições}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+O que são as indefinições?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as informações apresentadas por cada função e como interpretá-las?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Tabela de Horários de Aula}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Qual o significado e a interpretação do resultado apresentado por cada uma?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Fazer um comparativo entre estas funções e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Consulta de Aulas}
+\end_layout
+
+\end_inset
+
+, da aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Professores}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Publicações aos Alunos}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Qual 
+\color black
+a ideia do propósito deste
+\color inherit
+ recurso?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{CEUN}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De forma suscinta, qual o recurso disponibilizado?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Estatísticas para CEUN}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Como fazer a interpretação dos dados retornados, quanto aos seguintes aspectos:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+em cada linha;
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+em cada coluna;
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+totais em cada linha;
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+totais em cada coluna.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Pelos dados apresentados, qual curso apresenta o maior custo? E qual apresenta
+ o menor?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Na aba 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{CPA}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De forma suscinta, qual o recurso disponibilizado?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Estatísticas para CPA}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+De quais dados de referência dependerão as consultas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as funções disponibilizadas?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Quais as informações retornadas pela função? Como interpretá-las?
+\end_layout
+
+\end_deeper
+\end_deeper
 \end_body
 \end_document
