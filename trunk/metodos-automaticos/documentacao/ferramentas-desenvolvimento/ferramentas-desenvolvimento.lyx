@@ -961,6 +961,50 @@ http://www.sliksvn.com/
 
 \end_layout
 
+\begin_layout Description
+TortoiseSVN: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ É o 
+\emph on
+Subversion
+\emph default
+ com interface de interação com o usuário, incluindo, opicionalmente, as
+ ferramentas de linha de commando.
+ O programa consiste em uma extensão ao 
+\emph on
+shell
+\emph default
+ do 
+\emph on
+Windows
+\emph default
+, integrando-se ao 
+\emph on
+Windows Explorer
+\emph default
+, por meio do qual as tarefas SVN são acessíveis.
+ É bastante completo: além da apresentação gráfica das tarefas elementares
+ SVN, ainda possui diversos outros recursos.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://tortoisesvn.tigris.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Virtualização
 \end_layout
@@ -1404,6 +1448,62 @@ status collapsed
 \begin_layout Plain Layout
 
 http://audacity.sourceforge.net/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Screen
+\begin_inset space ~
+\end_inset
+
+Capturer
+\begin_inset space ~
+\end_inset
+
+Recorder: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Fornece o 
+\emph on
+driver
+\emph default
+ 
+\emph on
+directshow
+\emph default
+, o qual permite gravar a tela e o áudio do 
+\emph on
+Windows
+\emph default
+.
+ Acompanha algumas ferramentas simples, mas eficazes, para configuração
+ e gravação.
+ O recurso 
+\emph on
+directshow
+\emph default
+ pode ser utilizado por outros programas, inclusive.
+ O arquivo 
+\family sans
+README.TXT,
+\family default
+ que acompanha a instalação, fornece algumas dicas de como realizar a gravação.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://sourceforge.net/projects/screencapturer/
 \end_layout
 
 \end_inset
