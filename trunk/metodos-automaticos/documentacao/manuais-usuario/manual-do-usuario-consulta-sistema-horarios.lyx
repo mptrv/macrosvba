@@ -60,6 +60,288 @@
 
 \begin_body
 
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color magenta
+\lang brazilian
+Macros para formatação padrão de textos para os manuais de treinamento (a
+ princípio, apenas para CSH).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+mg}[1]{
+\backslash
+textit{``#1''}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\lang brazilian
+Mensagem.
+ Inclui pergunta.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+bt}[1]{
+\backslash
+textit
+\backslash
+textsf{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\lang brazilian
+Botão.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+jn}[1]{
+\backslash
+textit{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\lang brazilian
+Janela.
+ Inclui região e aba.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+nm}[1]{
+\backslash
+textbf{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\lang brazilian
+Nome.
+ Inclui, p.e., nome de relatório.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+cp}[1]{
+\backslash
+textit{``#1''}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\lang brazilian
+Campo.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color magenta
+\lang brazilian
+Fim das macros para formatação padrão de textos para os manuais de treinamento
+ (a princípio, apenas para CSH).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color green
+\lang brazilian
+Definição do cabeçalho personalizado.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color green
+\lang brazilian
+Fim da definição do cabeçalho personalizado.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+************* significa incompleto.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 Manual do Usuário 
 \begin_inset Quotes eld
@@ -98,12 +380,40 @@ Tela Inicial
 Observar as informações apresentadas.
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+São apresentados, o título, a versão do módulo e uma breve explicação de
+ como proceder com a inicialização do sistema.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
 Verificar a função dos botões.
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A tela inicial é constituida de três botões:
+\end_layout
+
+\begin_deeper
+\begin_layout Quotation
+-Gerenciador principal: Acessa o painel principal do módulo, permitindo
+ a consulta dos horários.
+\end_layout
+
+\begin_layout Quotation
+-Sobre: Fornece informações a respeito do módulo, tais como Copyright.
+\end_layout
+
+\begin_layout Quotation
+-Sair: Finaliza o módulo.
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
@@ -115,12 +425,34 @@ Access
 .
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Não é possível, note que o botão de fechar está desabilitado.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
 Por meios convencionais, qual é a única forma de sair do programa?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+Atravez do botão 
+\begin_inset Quotes eld
+\end_inset
+
+Sair
+\begin_inset Quotes erd
+\end_inset
+
+ presente na tela inicial.
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 
 \lang brazilian
@@ -140,6 +472,26 @@ Verificar quais dados podem ser definidos nas diferentes abas, inclusive
  a faixa de valores permitidos, quando aplicável.
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Data: Ano, semestre, dia e o mês correspondente a pesquisa.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Outros: ****************
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Atuação: São caetano do Sul, São Paulo, Pós-Graduação ou Todos.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
@@ -163,6 +515,12 @@ jn{Outros}
 , dar duplo clique sobre o período e observar o que acontece.
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+O período ira se alterar, alternando entre D(Diurno) e N(Noturno).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
@@ -203,6 +561,14 @@ jn{Outros}
 .
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+O período ficará desabilitado.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
@@ -215,6 +581,15 @@ Selecionar uma data de segunda a sexta-feira e o período diurno.
  Voltar, mais uma vez para uma data de semana e observar o período.
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+Note que independentemente do período escolhido, ao selecionar uma data
+ de sábado, o mesmo fícara desabilitado.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
@@ -240,12 +615,55 @@ cp{Máx.
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+**********************
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
 O que siginifca cada uma das opções na frente de atuação?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+A frente de atuação irá filtrar a sua busca, referente a que cada oção correspon
+de:
+\end_layout
+
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+-São Caetano do Sul: Somente professores do Campus São Caetano do Sul.
+\end_layout
+
+\begin_layout Quotation
+
+\lang brazilian
+-São Paulo: Somente professores do Campus São Paulo.
+\end_layout
+
+\begin_layout Quotation
+
+\lang brazilian
+-Pós-Graduação: Somente professores que lecionam aulas de Pós-Graduação.
+\end_layout
+
+\begin_layout Quotation
+
+\lang brazilian
+-Todos: Todas as três opções acima simultaneamente.
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Subsubsection
 
 \lang brazilian
@@ -258,6 +676,14 @@ Relatórios Rápidos
 Qual a função desta área?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+********************
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection
 
 \lang brazilian
@@ -271,6 +697,120 @@ Quais as abas e que tipo de informações correlacionadas se obtêm em cada
  uma delas?
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Professores: Permite que o usuário consulte informações relacionada aos
+ professores, tais como:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Lista de Presença
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Lista Dia
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+PPC
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Cargas Horárias
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Licenças
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Outras Relações
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Atualizar TP e HR
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Diciplinas: Permite que o usuário consulte informações relacionada as diciplinas.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Salas: Permite que o usuário consulte informações relacionada as salas de
+ aula, como:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Ocupação das salas
+\end_layout
+
+\begin_layout Enumerate
+
+\lang brazilian
+Disponibilidade das salas
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Horários de Aulas: Permite que o usuário consulte informações relacionada
+ aos horários de aulas, como:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang brazilian
+Superposições
+\end_layout
+
+\begin_layout Enumerate
+Restrição de carga
+\end_layout
+
+\begin_layout Enumerate
+Indefinições
+\end_layout
+
+\begin_layout Enumerate
+Tabela de horários de aula
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+CEUN: 
+\lang brazilian
+Permite que o usuário consulte informações relacionada a estatísticas do
+ CEUN.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
@@ -290,6 +830,16 @@ jn{Consultas}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+A região disponibiliza opções referentes a cada informação correlacionada
+ das abas principais, desta maneira, permitindo que o usuário acesse o painel
+ de cada uma das novas opções.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
@@ -309,6 +859,17 @@ nm{X}
  no canto direito superior e qual a tecla de atalho?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+
+\lang brazilian
+Sua função é fechar qualquer consulta ativa que está sendo disponibilizada
+ em sua região.
+ Note que para realizar está operação sem clicar no X, basta precionar Alt
+ + X.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \lang brazilian
