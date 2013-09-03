@@ -5,7 +5,7 @@
 \textclass report
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language brazilian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -61,15 +61,12 @@
 \begin_body
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
 
 \color magenta
-\lang brazilian
 Macros para formatação padrão de textos para os manuais de treinamento (a
  princípio, apenas para CSH).
 \end_layout
@@ -80,8 +77,6 @@ Macros para formatação padrão de textos para os manuais de treinamento (a
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -103,8 +98,6 @@ textit{``#1''}}
 status open
 
 \begin_layout Plain Layout
-
-\lang brazilian
 Mensagem.
  Inclui pergunta.
 \end_layout
@@ -115,8 +108,6 @@ Mensagem.
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -140,8 +131,6 @@ textsf{#1}}
 status open
 
 \begin_layout Plain Layout
-
-\lang brazilian
 Botão.
 \end_layout
 
@@ -151,8 +140,6 @@ Botão.
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -174,8 +161,6 @@ textit{#1}}
 status open
 
 \begin_layout Plain Layout
-
-\lang brazilian
 Janela.
  Inclui região e aba.
 \end_layout
@@ -186,8 +171,6 @@ Janela.
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -209,8 +192,6 @@ textbf{#1}}
 status open
 
 \begin_layout Plain Layout
-
-\lang brazilian
 Nome.
  Inclui, p.e., nome de relatório.
 \end_layout
@@ -221,8 +202,6 @@ Nome.
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -244,8 +223,6 @@ textit{``#1''}}
 status open
 
 \begin_layout Plain Layout
-
-\lang brazilian
 Campo.
 \end_layout
 
@@ -255,15 +232,12 @@ Campo.
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
 
 \color magenta
-\lang brazilian
 Fim das macros para formatação padrão de textos para os manuais de treinamento
  (a princípio, apenas para CSH).
 \end_layout
@@ -274,15 +248,12 @@ Fim das macros para formatação padrão de textos para os manuais de treinament
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
 
 \color green
-\lang brazilian
 Definição do cabeçalho personalizado.
 \end_layout
 
@@ -292,15 +263,12 @@ Definição do cabeçalho personalizado.
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
 
 \color green
-\lang brazilian
 Fim da definição do cabeçalho personalizado.
 \end_layout
 
@@ -310,8 +278,6 @@ Fim da definição do cabeçalho personalizado.
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -328,13 +294,11 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-
-\lang brazilian
 \begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
-************* significa incompleto.
+************** significa incompleto.
 \end_layout
 
 \end_inset
@@ -355,28 +319,21 @@ Consulta Sistema Horários
 \end_layout
 
 \begin_layout Chapter
-
-\lang brazilian
 Consulta Sistema Horários
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-\lang brazilian
 Orientação complementar: registrar, de algum modo, de forma organizada,
  todas as verificações realizadas.
 \end_layout
 
 \begin_layout Section
-
-\lang brazilian
 Tela Inicial
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Observar as informações apresentadas.
 \end_layout
 
@@ -388,8 +345,6 @@ São apresentados, o título, a versão do módulo e uma breve explicação de
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Verificar a função dos botões.
 \end_layout
 
@@ -415,8 +370,6 @@ A tela inicial é constituida de três botões:
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Verificar se é possível sair do programa clicando no botão de fechar a janela
  do 
 \emph on
@@ -432,15 +385,11 @@ Não é possível, note que o botão de fechar está desabilitado.
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Por meios convencionais, qual é a única forma de sair do programa?
 \end_layout
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
 Atravez do botão 
 \begin_inset Quotes eld
 \end_inset
@@ -454,47 +403,55 @@ Sair
 
 \end_deeper
 \begin_layout Subsection
-
-\lang brazilian
 Gerenciador Principal
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang brazilian
 Dados de Referência
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Verificar quais dados podem ser definidos nas diferentes abas, inclusive
  a faixa de valores permitidos, quando aplicável.
 \end_layout
 
 \begin_deeper
-\begin_layout Enumerate
-
-\lang brazilian
-Data: Ano, semestre, dia e o mês correspondente a pesquisa.
+\begin_layout Quotation
+As abas presentes na região são:
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
 
-\lang brazilian
-Outros: ****************
+Data
+\begin_inset Quotes erd
+\end_inset
+
+, podendo ser definido: Ano (Faixa ilimitada
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+O botão permite a seleção somente de 2011 a 2014, porem é possível atribuir
+ quaisquer valores manualmente
+\end_layout
+
+\end_inset
+
+), semestres, dia e o mês correspondente a pesquisa.
 \end_layout
 
 \begin_layout Enumerate
+Outros: 
+\end_layout
 
-\lang brazilian
+\begin_layout Enumerate
 Atuação: São caetano do Sul, São Paulo, Pós-Graduação ou Todos.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na aba 
 \emph on
 
@@ -522,8 +479,6 @@ O período ira se alterar, alternando entre D(Diurno) e N(Noturno).
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na aba 
 \emph on
 
@@ -563,15 +518,11 @@ jn{Outros}
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
 O período ficará desabilitado.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Selecionar uma data de segunda a sexta-feira e o período diurno.
  Em seguida, selecionar uma data de sábado e observar o período.
  Voltar para uma data de semana.
@@ -583,16 +534,12 @@ Selecionar uma data de segunda a sexta-feira e o período diurno.
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
 Note que independentemente do período escolhido, ao selecionar uma data
  de sábado, o mesmo fícara desabilitado.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 O que significa o campo 
 \emph on
 
@@ -617,176 +564,124 @@ cp{Máx.
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
-**********************
+Máximo valor de horas aula para professores de TP(Tempo Parcial) e HR(Horista).
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 O que siginifca cada uma das opções na frente de atuação?
 \end_layout
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
 A frente de atuação irá filtrar a sua busca, referente a que cada oção correspon
 de:
 \end_layout
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
 -São Caetano do Sul: Somente professores do Campus São Caetano do Sul.
 \end_layout
 
 \begin_layout Quotation
-
-\lang brazilian
 -São Paulo: Somente professores do Campus São Paulo.
 \end_layout
 
 \begin_layout Quotation
-
-\lang brazilian
 -Pós-Graduação: Somente professores que lecionam aulas de Pós-Graduação.
 \end_layout
 
 \begin_layout Quotation
-
-\lang brazilian
 -Todos: Todas as três opções acima simultaneamente.
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Subsubsection
-
-\lang brazilian
 Relatórios Rápidos
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a função desta área?
 \end_layout
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
-********************
+Relatórios usados frequentemente ficará a disposição, como um atalho, nesta
+ região.
 \end_layout
 
 \end_deeper
 \begin_layout Subsubsection
-
-\lang brazilian
 Consultas
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as abas e que tipo de informações correlacionadas se obtêm em cada
  uma delas?
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Professores: Permite que o usuário consulte informações relacionada aos
- professores, tais como:
+ professores, sendo elas:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Lista de Presença
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Lista Dia
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 PPC
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Cargas Horárias
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Licenças
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Outras Relações
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Atualizar TP e HR
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
-Diciplinas: Permite que o usuário consulte informações relacionada as diciplinas.
+Diciplinas: Realiza consultas referentes as diciplinas do instituto.
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
-Salas: Permite que o usuário consulte informações relacionada as salas de
- aula, como:
+Salas: Permite a realização de uma busca, referente a:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Ocupação das salas
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Disponibilidade das salas
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
-Horários de Aulas: Permite que o usuário consulte informações relacionada
- aos horários de aulas, como:
+Horários de Aulas: O usuário poderá consultar informações relacionada aos
+ horários de aulas, sendo as opções:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Superposições
 \end_layout
 
@@ -804,16 +699,12 @@ Tabela de horários de aula
 
 \end_deeper
 \begin_layout Enumerate
-CEUN: 
-\lang brazilian
-Permite que o usuário consulte informações relacionada a estatísticas do
- CEUN.
+CEUN: Permite que o usuário consulte informações relacionada a estatísticas
+ do CEUN.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a função da região logo abaixo da região 
 \begin_inset ERT
 status open
@@ -832,8 +723,6 @@ jn{Consultas}
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
 A região disponibiliza opções referentes a cada informação correlacionada
  das abas principais, desta maneira, permitindo que o usuário acesse o painel
  de cada uma das novas opções.
@@ -841,8 +730,6 @@ A região disponibiliza opções referentes a cada informação correlacionada
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Nesta última região, qual a função do 
 \begin_inset ERT
 status open
@@ -861,8 +748,6 @@ nm{X}
 
 \begin_deeper
 \begin_layout Quotation
-
-\lang brazilian
 Sua função é fechar qualquer consulta ativa que está sendo disponibilizada
  em sua região.
  Note que para realizar está operação sem clicar no X, basta precionar Alt
@@ -871,8 +756,6 @@ Sua função é fechar qualquer consulta ativa que está sendo disponibilizada
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na aba 
 \emph on
 
@@ -895,8 +778,6 @@ jn{Professores}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -914,8 +795,6 @@ nm{Lista de Presença}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 O que significa a sequência de texto no canto superior direito que se observa
  na janela 
 \begin_inset ERT
@@ -933,9 +812,56 @@ jn{Lista de Presença}
 ?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+Cada abreviação corresponde a cada uma das opções encontradas na região
+ 
+\begin_inset Quotes eld
+\end_inset
 
-\lang brazilian
+Dados de Referencia
+\begin_inset Quotes erd
+\end_inset
+
+, observe que a primeira letra procura identificar a qual aba está se referindo
+ e a segunda letra indica a opção, por exemplo, Aa é uma forma de indicar
+ que estamos trabalhando com a aba 
+\begin_inset Quotes eld
+\end_inset
+
+A
+\begin_inset Quotes erd
+\end_inset
+
+ (Data) e a opção 
+\begin_inset Quotes eld
+\end_inset
+
+a
+\begin_inset Quotes erd
+\end_inset
+
+ Ano , do mesmo modo que Bb indica que estamos trabalhando com a aba 
+\begin_inset Quotes eld
+\end_inset
+
+B
+\begin_inset Quotes erd
+\end_inset
+
+ (Outros) e a opção 
+\begin_inset Quotes eld
+\end_inset
+
+b
+\begin_inset Quotes erd
+\end_inset
+
+ Período.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
 De quais campos dos 
 \begin_inset ERT
 status open
@@ -952,9 +878,14 @@ jn{Dados de Referência}
  esta consulta depende?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+A consulta necessita das informações: Ano(Aa), Semestre(Ab), Dia(Ac), Período(Bb
+) e Atuação(Ca) 
+\end_layout
 
-\lang brazilian
+\end_deeper
+\begin_layout Enumerate
 Ao gerar uma 
 \begin_inset ERT
 status open
@@ -984,9 +915,30 @@ mg{É de Atraso?}
 ? Qual o significado de cada resposta?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+A pergunta sugere que a lista gerada irá conter informações referente a
+ atrasos, no caso, deve-se responder 
+\begin_inset Quotes eld
+\end_inset
 
-\lang brazilian
+Sim
+\begin_inset Quotes erd
+\end_inset
+
+ ou 
+\begin_inset Quotes eld
+\end_inset
+
+Não
+\begin_inset Quotes erd
+\end_inset
+
+, dependendo do que o usuário necessita consultar.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
 À pergunta citada, o que acontece se pressionado o botão 
 \begin_inset ERT
 status open
@@ -1003,28 +955,72 @@ bt{Cancelar}
 ?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+O usuário retornará a tela princípal do Consulta Sistema Horário
+\begin_inset Note Note
+status open
 
-\lang brazilian
+\begin_layout Plain Layout
+Ocorre um erro ao clicar em Cancelar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
 Como solucionar o problema do item anterior de forma simples, sem a necessidade
  de fechar e reiniciar o programa?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
 
-\lang brazilian
+\begin_layout Plain Layout
+Não há necessidade de reiniciar o programa, após ocorrer o erro, basta clicar
+ em Fim
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
 Gerada uma lista, como fazer para fechá-la?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+De um clique com o botão direito do mouse e selecione a ultima opção 
+\begin_inset Quotes eld
+\end_inset
 
-\lang brazilian
+Fechar
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
 O que acontece quando pede-se para gerar uma nova lista sem fechar a anterior?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+A lista anterior será fechada automaticamente.
+\end_layout
 
-\lang brazilian
+\end_deeper
+\begin_layout Enumerate
 Quantos leiautes distintos podem-se perceber para esta função de gerar 
 \begin_inset ERT
 status open
@@ -1041,9 +1037,13 @@ nm{Lista de Presença}
 ?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+**********************************
+\end_layout
 
-\lang brazilian
+\end_deeper
+\begin_layout Enumerate
 Deseja-se imprimir a 
 \begin_inset ERT
 status open
@@ -1065,9 +1065,13 @@ i, com excessão das turmas de pós-graduação.
  Como proceder?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+**********************************
+\end_layout
 
-\lang brazilian
+\end_deeper
+\begin_layout Enumerate
 O que acontece se tentar extrair a 
 \begin_inset ERT
 status open
@@ -1088,10 +1092,14 @@ campus
  de São Paulo, no período diurno? Qual a melhor recomendação nesta situação?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+**********************************
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -1109,8 +1117,6 @@ nm{Lista Dia}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais campos dos 
 \begin_inset ERT
 status open
@@ -1127,9 +1133,13 @@ jn{Dados de Referência}
  esta consulta depende?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+Depende de Ano(Aa) e do Semestre(Ab).
+\end_layout
 
-\lang brazilian
+\end_deeper
+\begin_layout Enumerate
 Quais as informações apresentadas no relatório 
 \begin_inset ERT
 status open
@@ -1147,8 +1157,6 @@ nm{Lista Dia Completa}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as informações apresentadas no relatório 
 \begin_inset ERT
 status open
@@ -1166,8 +1174,6 @@ nm{Dias em Que o Professor Está na Escola}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as informações apresentadas no relatório 
 \begin_inset ERT
 status open
@@ -1186,8 +1192,6 @@ nm{Horários dos Dias em Quais o Professor Está em Aula}
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -1205,8 +1209,6 @@ nm{PPC}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 O que significa a sigla 
 \begin_inset ERT
 status open
@@ -1223,9 +1225,13 @@ nm{PPC}
 ?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+Plano Pedagógico de Curso
+\end_layout
 
-\lang brazilian
+\end_deeper
+\begin_layout Enumerate
 De quais campos dos 
 \begin_inset ERT
 status open
@@ -1242,9 +1248,13 @@ jn{Dados de Referência}
  esta consulta depende?
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+Depende de Ano(Aa), Semestre(Ab), Dia(Ac) e do Período(Bb).
+\end_layout
 
-\lang brazilian
+\end_deeper
+\begin_layout Enumerate
 Quais as informações retornadas pela tabela de referência cruzada para o
  
 \begin_inset ERT
@@ -1263,8 +1273,6 @@ nm{PPC}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Deseja-se o relatório com a referência cruzada para o 
 \begin_inset ERT
 status open
@@ -1284,9 +1292,26 @@ nm{PPC}
  Como proceder? Gerar uma versão impressa da primeira página.
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+Deve-se primeiramente, selecionar as preferências do relatório relacionadas
+ a Ano, Semestra e Período na região 
+\begin_inset Quotes eld
+\end_inset
 
-\lang brazilian
+Dados de referência
+\begin_inset Quotes erd
+\end_inset
+
+.
+ As opções de Disciplinas do Ciclo Básico do 1º e 2º ano e aulas de dependências
+ são selecionados no propio PCC.
+ Após selecionadas as devidas exigências, basta agora clicar sobre o botão
+ EN e esperar a geração do relatório.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
 Deseja-se o mesmo relatório, mas para o curso de Engenharia de Produção
  Noturno, excluindo-se as disciplinas do Ciclo Básico, incluindo-se as aulas
  de dependências e exportando o resultado para uma planilha do 
@@ -1297,9 +1322,15 @@ Excel
  Como proceder? Gerar uma versão impressa da primeira página.
 \end_layout
 
-\begin_layout Enumerate
+\begin_deeper
+\begin_layout Quotation
+Seguindo exatamente os passos descritos anteriormente no item 'iv', porém,
+ modificando as preferências e selecionando a opção Exp.
+ Excel (Exportar uma planilha para o Excel), o seu relatório será gerado.
+\end_layout
 
-\lang brazilian
+\end_deeper
+\begin_layout Enumerate
 Idem, para o curso de Engenharia Química Diurno e Noturno, simultaneamente,
  incluindo-se as disciplinas do Ciclo Básico ministradas no 2º ano, excluindo-se
  as do 1º ano, incluindo as aulas de dependências e exportando o resultado
@@ -1312,8 +1343,6 @@ Excel
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 É possível gerar um relatório semelhante para o curso de 
 \emph on
 Design
@@ -1326,8 +1355,6 @@ Design
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais são as possibilidades de relatório para o curso de Administração,
  quanto ao 
 \emph on
@@ -1337,8 +1364,6 @@ campus
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais os cursos de Gestão contemplados por tal relatório? E quando ao 
 \emph on
 campus
@@ -1347,29 +1372,21 @@ campus
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como fazer para extrair um relatório, de algum curso, para o ano de 2011,
  segundo semestre?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que significam os botões com cores diferentes do padrão normal adotado?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Para uma habilitação qualquer, é possível incluir o 1º ano do Ciclo Básico
  sem incluir o 2º ano? Por quê?
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -1387,8 +1404,6 @@ nm{Cargas Horárias}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais campos dos 
 \begin_inset ERT
 status open
@@ -1406,15 +1421,11 @@ jn{Dados de Referência}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Em termos gerais, quais as consultas disponibilizadas? Qual a função de
  cada uma?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Em 
 \begin_inset ERT
 status open
@@ -1433,40 +1444,28 @@ jn{Consulta de Aula}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Como identificar o ano e o semestre para os quais a consulta será aplicada?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Nos campos de pesquisa, pode-se digitar quaisquer caracteres, com ou sem
  acentuação?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que significam os campos de pesquisa em cinza?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais os tipos de filtro? Qual a diferença entre eles?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as possibilidades para disparar a execução da consulta e exibição
  dos resultados?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Em 
 \begin_inset ERT
 status open
@@ -1484,8 +1483,6 @@ jn{Resultados da consulta}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que significa a linha 
 \series bold
 Total
@@ -1495,8 +1492,6 @@ Total
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Ainda quanto à linha 
 \series bold
 Total
@@ -1505,8 +1500,6 @@ Total
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Ao resultado da consulta, é possível aplicar 
 \begin_inset Quotes eld
 \end_inset
@@ -1519,28 +1512,20 @@ subconsultas
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual uma forma fácil de saber quantos resultados, isto é, linhas de resultado,
  foram retornados?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como deve-se proceder para gerar a grade horária de um professor?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como deve-se proceder para gerar a grade horária de todos os professores
  envolvidos em uma disciplina específica?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como fazer para listar todos os professores de nome 
 \emph on
 Luiz
@@ -1557,8 +1542,6 @@ EFB201
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 É possível exportar os dados do resultado da consulta para o 
 \emph on
 Excel
@@ -1567,14 +1550,10 @@ Excel
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como proceder para gerar a grade horária de todos os professores?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a utilidade do campo 
 \begin_inset ERT
 status open
@@ -1593,8 +1572,6 @@ cp{Data específica da grade}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a utilidade e quais as respostas possíveis à pergunta 
 \begin_inset ERT
 status open
@@ -1612,27 +1589,19 @@ mg{É oficial?}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual o significado de cada um dos grupos de informações na grade horária
  do professor?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como fazer para fechar o relatório da grade horária?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que acontece se for gerada outra grade horária sem fechar a anterior?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais são as opções para fechar esta janela, 
 \begin_inset ERT
 status open
@@ -1651,8 +1620,6 @@ jn{Consulta de Aula}
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Em 
 \begin_inset ERT
 status open
@@ -1671,20 +1638,14 @@ jn{Consultar CEUN-IMT}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as informações apresentadas e o significado de cada uma delas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 De quais formas pode-se saber se um professor listado está ativo ou não?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Se, por exemplo, um professor possuir horas-aula em 
 \begin_inset ERT
 status open
@@ -1704,8 +1665,6 @@ cp{TotHaIMT}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como interpretar o dado apresentado no campo 
 \begin_inset ERT
 status open
@@ -1723,22 +1682,16 @@ cp{TotHaPG}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como interpretar o relacionamento matemático entre as colunas numéricas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Deseja-se encontrar os professores em regime TI que possuem orientação a
  algum trabalho de conclusão de curso.
  Como proceder para encontrar esta informação?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Uma vez que percebe-se, em 2013, o campo 
 \begin_inset ERT
 status open
@@ -1758,24 +1711,18 @@ o pagas atribuídas a alguns professores, onde deverão estar inclusas tais
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Deseja-se encontrar a quantidade atual de professores doutores, mestres
  e especialistas.
  Como fazer?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Deseja-se encontrar a quantidade atual de professores em regime TI, TP e
  HR.
  Como fazer?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Deseja-se encontrar quais são os professores em regime TI, em categoria
  Pleno e que são doutores.
  Como fazer? Gerar uma versão impressa da relação, contendo apenas um título
@@ -1783,22 +1730,16 @@ Deseja-se encontrar quais são os professores em regime TI, em categoria
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 É possível encontrar a quantidade de professores doutores, mestres e especialist
 as em dezembro de 2011? Se não, por quê?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 É possível encontrar a quantidade de professores em regime TI, TP e HR em
  dezembro de 2011? Se não, por quê?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Alguns dados no campo 
 \begin_inset ERT
 status open
@@ -1817,23 +1758,17 @@ cp{RF}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Desejando-se obter a presente relação para a data de referência 05/08/2012,
  por exemplo, quais são as informações que, de fato, correspodem a tal data
  e quais não correspondem?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como fechar a janela?
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -1851,51 +1786,35 @@ jn{Atividades Outras}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a finalidade desta interface?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual o significado dos dados que podem ser inseridos?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais dados são obrigatórios e quais são opcionais?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais são as restrições para a entrada de cada data?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual o formato de entrada das datas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como escolher o ano de lançamento?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como fechar a janela?
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -1913,40 +1832,28 @@ jn{Trabalhos de Conclusão de Curso}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a finalidade desta interface?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual o significado dos dados que podem ser inseridos?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais dados são obrigatórios e quais são opcionais?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais são as restrições para a entrada de cada campo?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como fechar a janela?
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -1964,21 +1871,15 @@ nm{Licenças}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais os tipos de consultas e quais informações são retornadas por cada
  uma delas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Em especial, qual o significado do campo 
 \begin_inset ERT
 status open
@@ -1997,8 +1898,6 @@ cp{Remunerado}
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2016,28 +1915,20 @@ nm{Outras Relações de Professores}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 De forma sucinta, quais são as subconsultas disponibilizadas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Que informações são retornadas pelas subconsultas? Qual o significado dos
  campos ainda não descritos anteriormente?
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2054,8 +1945,6 @@ jn{As Graduações}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2072,8 +1961,6 @@ jn{Com Mais de Uma Graduação}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2090,8 +1977,6 @@ jn{As Pós-Graduações}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2108,8 +1993,6 @@ jn{A Pós-Graduação Maior}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2126,8 +2009,6 @@ jn{Disciplinas Ministradas}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2144,8 +2025,6 @@ jn{Habilitações dos Professores}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2164,8 +2043,6 @@ jn{Professores das Habilitações}
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2183,20 +2060,14 @@ nm{Atualizar TP e HR}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 De forma sucinta, quais são as funções disponibilizadas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as informações são retornadas por 
 \begin_inset ERT
 status open
@@ -2214,8 +2085,6 @@ jn{Verificar as Atualizações}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que significa a função 
 \begin_inset ERT
 status open
@@ -2235,8 +2104,6 @@ bt{Executar as Atualizações}
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na aba 
 \begin_inset ERT
 status open
@@ -2255,21 +2122,15 @@ jn{Disciplinas}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na atual versão, o que há aqui?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a ideia desta aba?
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na aba 
 \begin_inset ERT
 status open
@@ -2288,8 +2149,6 @@ jn{Salas}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2307,20 +2166,14 @@ nm{Ocupação das Salas}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 De forma sucinta, quais são as funções disponibilizadas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O campo 
 \begin_inset ERT
 status open
@@ -2339,8 +2192,6 @@ es significados?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Que tipo de relação traz o botão 
 \begin_inset ERT
 status open
@@ -2358,8 +2209,6 @@ bt{Mapa de Ocupação}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a função do 
 \emph on
 checkbox
@@ -2381,8 +2230,6 @@ bt{Mapa de Ocupação}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como navegar pelo relatório de 
 \begin_inset ERT
 status open
@@ -2400,8 +2247,6 @@ nm{Mapa de Ocupação das Salas}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Que tipo de relação traz o botão 
 \begin_inset ERT
 status open
@@ -2419,8 +2264,6 @@ bt{Mapa de Ocupação Modificado - Blocos de A a H}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual o significado das informações relacionadas em 
 \begin_inset ERT
 status open
@@ -2438,8 +2281,6 @@ nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de A a H}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Que tipo de relação traz o botão 
 \begin_inset ERT
 status open
@@ -2457,8 +2298,6 @@ bt{Mapa de Ocupação Modificado - Blocos de I a U}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual o significado das informações relacionadas em 
 \begin_inset ERT
 status open
@@ -2476,8 +2315,6 @@ nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de I a U}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Que tipo de relação traz o botão 
 \begin_inset ERT
 status open
@@ -2495,8 +2332,6 @@ bt{Mapa de Ocupação Modificado - Salas de Teoria}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual o significado das informações relacionadas em 
 \begin_inset ERT
 status open
@@ -2514,15 +2349,11 @@ nm{Mapa de Ocupação Modificado de Todas as Salas - Salas de Teoria}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Nestes mapas de ocupação, qual o significado das letras apresentadas nas
  células?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 E quanto ao botão 
 \begin_inset ERT
 status open
@@ -2541,8 +2372,6 @@ bt{Taxa de Ocupação}
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2560,20 +2389,14 @@ nm{Disponibilidades das Salas}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerá a consulta?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a função disponibilizada?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Na janela 
 \begin_inset ERT
 status open
@@ -2592,20 +2415,14 @@ jn{Disponibilidades das Salas}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como disparar a consulta?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Para que serve e em que situação é útil o botão de atualizar?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que significa a opção 
 \begin_inset ERT
 status open
@@ -2623,8 +2440,6 @@ cp{Lista U/B}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Em que momentos torna-se interessante o uso da consulta de disponibilidades
  das salas?
 \end_layout
@@ -2632,8 +2447,6 @@ Em que momentos torna-se interessante o uso da consulta de disponibilidades
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na aba 
 \begin_inset ERT
 status open
@@ -2652,14 +2465,10 @@ jn{Horários de Aula}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as funções disponibilizadas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a importância da área identificada como 
 \begin_inset ERT
 status open
@@ -2677,8 +2486,6 @@ jn{Auxílio para Elaboração}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2696,20 +2503,14 @@ nm{Encontrar Superposições}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que são as superposições por aula, professor e sala?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2727,22 +2528,16 @@ nm{Superposições de Aula}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Que informações são apresentadas e como fazer a interpretação dos dados?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
 nto entre as linhas? Quais informações poderiam ser filtradas?
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2760,22 +2555,16 @@ nm{Superposições de Professor}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Que informações são apresentadas e como fazer a interpretação dos dados?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
 nto entre as linhas? Quais informações poderiam ser filtradas?
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2793,14 +2582,10 @@ nm{Superposições de Sala}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Que informações são apresentadas e como fazer a interpretação dos dados?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como realizar uma filtragem de forma confiável, isto é, sem perder o relacioname
 nto entre as linhas? Quais informações poderiam ser filtradas?
 \end_layout
@@ -2808,8 +2593,6 @@ nto entre as linhas? Quais informações poderiam ser filtradas?
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2827,66 +2610,46 @@ nm{Restrições de Carga}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que são as restrições de carga (carga horária dos professores)?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual a função disponibilizada?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Relacionar:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 todas as violações de restrições atualmente verificadas pelo programa;
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 as informações retornadas por cada uma delas;
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 a forma adequada de se analisar os dados de cada uma delas;
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 como obter mais informações, pelo próprio programa, sobre o contexto de
  algum professor relacionado -- apontar, no mínimo, duas possibilidades;
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 a quem compete a solução de cada violação encontrada.
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2904,33 +2667,23 @@ nm{Indefinições}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 O que são as indefinições?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as funções disponibilizadas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as informações apresentadas por cada função e como interpretá-las?
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -2948,26 +2701,18 @@ nm{Tabela de Horários de Aula}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as funções disponibilizadas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Qual o significado e a interpretação do resultado apresentado por cada uma?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Fazer um comparativo entre estas funções e 
 \begin_inset ERT
 status open
@@ -2999,8 +2744,6 @@ jn{Professores}
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -3018,8 +2761,6 @@ nm{Publicações aos Alunos}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Qual 
 \color black
 a ideia do propósito deste
@@ -3030,8 +2771,6 @@ a ideia do propósito deste
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na aba 
 \begin_inset ERT
 status open
@@ -3050,14 +2789,10 @@ nm{CEUN}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De forma suscinta, qual o recurso disponibilizado?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -3075,52 +2810,36 @@ nm{Estatísticas para CEUN}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as funções disponibilizadas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Como fazer a interpretação dos dados retornados, quanto aos seguintes aspectos:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 em cada linha;
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 em cada coluna;
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 totais em cada linha;
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 totais em cada coluna.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Pelos dados apresentados, qual curso apresenta o maior custo? E qual apresenta
  o menor?
 \end_layout
@@ -3128,8 +2847,6 @@ Pelos dados apresentados, qual curso apresenta o maior custo? E qual apresenta
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 Na aba 
 \begin_inset ERT
 status open
@@ -3148,14 +2865,10 @@ nm{CPA}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De forma suscinta, qual o recurso disponibilizado?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 \begin_inset ERT
 status open
 
@@ -3173,20 +2886,14 @@ nm{Estatísticas para CPA}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang brazilian
 De quais dados de referência dependerão as consultas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as funções disponibilizadas?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang brazilian
 Quais as informações retornadas pela função? Como interpretá-las?
 \end_layout
 
