@@ -1039,7 +1039,16 @@ nm{Lista de Presença}
 
 \begin_deeper
 \begin_layout Quotation
-**********************************
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1067,7 +1076,16 @@ i, com excessão das turmas de pós-graduação.
 
 \begin_deeper
 \begin_layout Quotation
-**********************************
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1094,7 +1112,16 @@ campus
 
 \begin_deeper
 \begin_layout Quotation
-**********************************
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1354,6 +1381,14 @@ Design
  Diurno e Noturno?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Não é possível gerar um relatório, pois o curso de Design só está disponível
+ para o período noturno.
+ Fora está observação, no caso do noturno, todas as funções estarão disponíveis.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais são as possibilidades de relatório para o curso de Administração,
  quanto ao 
@@ -1363,6 +1398,14 @@ campus
  e ao período?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Curso de Administração no período noturno só está dísponivel no campus São
+ Paulo, entretanto o campus São caetano oferece este curso no período diurno
+ somente.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais os cursos de Gestão contemplados por tal relatório? E quando ao 
 \emph on
@@ -1371,20 +1414,63 @@ campus
  e período, quais são as possibilidades?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Gestão Ambiental, Gestão de Tecnologia da Informação e Processos Gerenciais
+ só estão disponíveis no período noturno em ambos os campus.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como fazer para extrair um relatório, de algum curso, para o ano de 2011,
  segundo semestre?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Basta alterar as opções referentes a ano e semestre na aba de 
+\begin_inset Quotes eld
+\end_inset
+
+Dados de Referência
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que significam os botões com cores diferentes do padrão normal adotado?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+São botões que possuem algum tipo de restrição, ou está desabilitado.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Para uma habilitação qualquer, é possível incluir o 1º ano do Ciclo Básico
  sem incluir o 2º ano? Por quê?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Não é possível, 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
@@ -1420,9 +1506,36 @@ jn{Dados de Referência}
  esta consulta depende?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende de Ano(Aa), Semestre(Ab) e Dia(Ac).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Em termos gerais, quais as consultas disponibilizadas? Qual a função de
  cada uma?
+\end_layout
+
+\begin_layout Quotation
+Consulta de Aulas: Permite consultar a quais aulas um professor pertence,
+ a quantidade de horas aulas, entre outros.
+\end_layout
+
+\begin_layout Quotation
+Consultar CEUN-IMT: Verifica a habilitação de cada professor(Horista, Integral
+ ou Parcial) no CEUN-IMT e mostra a quantidade de horas.
+\end_layout
+
+\begin_layout Quotation
+Lançar Atividades Outras: É um registro aonde está informando o que cada
+ professor possui de atividades extras, como atendimento ao aluno e treinamento
+ moodle.
+\end_layout
+
+\begin_layout Quotation
+Lançar Trabalho de Conslusão de Curso: Mostra os professores que cuidam
+ dos TCCs de cada modalidade.
 \end_layout
 
 \begin_layout Enumerate
@@ -1447,24 +1560,82 @@ jn{Consulta de Aula}
 Como identificar o ano e o semestre para os quais a consulta será aplicada?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Ambas as informações foram previamente definidas no menu 
+\begin_inset Quotes eld
+\end_inset
+
+Dados de referência
+\begin_inset Quotes erd
+\end_inset
+
+, porém é possível visualizar quais informações estão sendo aplicadas no
+ canto superior direito da aba Filtros.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Nos campos de pesquisa, pode-se digitar quaisquer caracteres, com ou sem
  acentuação?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+É possível inserir qualquer tipo de caracter
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que significam os campos de pesquisa em cinza?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+São campos em que a introdução de informações ou alterações não são permitidas
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais os tipos de filtro? Qual a diferença entre eles?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+São dois tipos:
+\end_layout
+
+\begin_deeper
+\begin_layout Quotation
+Exclusivo: Aceita a introdução de apenas um único filtro
+\end_layout
+
+\begin_layout Quotation
+Todos: É permitido preencher diversos filtros
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Enumerate
 Quais as possibilidades para disparar a execução da consulta e exibição
  dos resultados?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Em 
 \begin_inset ERT
@@ -1482,6 +1653,13 @@ jn{Resultados da consulta}
 , quais as informações apresentadas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Todos os registros disponíveis com relação ao filtro inserido pelo o usuário
+ serám mostrados nesta região
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que significa a linha 
 \series bold
@@ -1491,6 +1669,23 @@ Total
  coerente?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Está linha indica o QHa (Quantidade de Horas aula) do professor consultado.
+ Note que o valor corresponde 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Ainda quanto à linha 
 \series bold
@@ -1499,6 +1694,21 @@ Total
 , na ocasião de haver aulas quinzenais, o valor retornado por ela será coerente?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Ao resultado da consulta, é possível aplicar 
 \begin_inset Quotes eld
@@ -1511,20 +1721,73 @@ subconsultas
 ? Como?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A aba consulta disponibiliza um segundo filtro localizado na parte inferior,
+ que permite o usuário a buscar quaisquer informações dentro da consulta
+ realizada
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual uma forma fácil de saber quantos resultados, isto é, linhas de resultado,
  foram retornados?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Na parte inferior da aba 
+\begin_inset Quotes eld
+\end_inset
+
+Consultas
+\begin_inset Quotes erd
+\end_inset
+
+, consta um mostrador de número total de registros e qual posição o usuário
+ se encontra
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como deve-se proceder para gerar a grade horária de um professor?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como deve-se proceder para gerar a grade horária de todos os professores
  envolvidos em uma disciplina específica?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como fazer para listar todos os professores de nome 
 \emph on
@@ -1541,6 +1804,21 @@ EFB201
  do primeiro semestre de 2013?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 É possível exportar os dados do resultado da consulta para o 
 \emph on
@@ -1549,10 +1827,33 @@ Excel
 ? Se sim, como?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como proceder para gerar a grade horária de todos os professores?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Faça uma busca em branco, para que todos os professores sejam listados,
+ logo em seguida, clique no botão de gerar grade horária no canto superior
+ direito.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual a utilidade do campo 
 \begin_inset ERT
@@ -1571,6 +1872,21 @@ cp{Data específica da grade}
  Que valores podem ser fornecidos?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual a utilidade e quais as respostas possíveis à pergunta 
 \begin_inset ERT
@@ -1588,19 +1904,69 @@ mg{É oficial?}
  que aparece logo em seguida?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual o significado de cada um dos grupos de informações na grade horária
  do professor?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como fazer para fechar o relatório da grade horária?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Clicando no botão localizado no canto superior direito chamado de 
+\begin_inset Quotes eld
+\end_inset
+
+Fechar visualização de impressão
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que acontece se for gerada outra grade horária sem fechar a anterior?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A grade horária anterior fechará automaticamente.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais são as opções para fechar esta janela, 
 \begin_inset ERT
@@ -1618,6 +1984,29 @@ jn{Consulta de Aula}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Basta clicar com o botão direito na aba do relatório na região superior
+ e selecione a opção 
+\begin_inset Quotes eld
+\end_inset
+
+Fechar
+\begin_inset Quotes erd
+\end_inset
+
+ou clicando no botão 
+\begin_inset Quotes eld
+\end_inset
+
+X
+\begin_inset Quotes erd
+\end_inset
+
+ em vermelho no canto direito superior.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 Em 
@@ -1641,10 +2030,41 @@ jn{Consultar CEUN-IMT}
 Quais as informações apresentadas e o significado de cada uma delas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Trata-se de uma lista de todos os professores do CEUN-IMT, que informa sobre
+ que tipo de regime cada professor trabalha (TI, TP e HR), a quantidade
+ de horas aulas trabalhadas, quantidade de horas no campus, se o professor
+ está de licença ou não e também a titulação de cada um deles.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 De quais formas pode-se saber se um professor listado está ativo ou não?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Atraves da aba 
+\begin_inset Quotes eld
+\end_inset
+
+Licença
+\begin_inset Quotes erd
+\end_inset
+
+, caso esteja acusando 
+\begin_inset Quotes eld
+\end_inset
+
+Sim
+\begin_inset Quotes erd
+\end_inset
+
+, significa que o professor está desativado.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Se, por exemplo, um professor possuir horas-aula em 
 \begin_inset ERT
@@ -1664,6 +2084,15 @@ cp{TotHaIMT}
  o fato?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A informação está incorreta, não há casos em que o professor se encontra
+ em licença e possui HorasIMT.
+ Caso seja necessário um rastreamento, basta filtrar a tabela a fim de procurar
+ tal fato.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como interpretar o dado apresentado no campo 
 \begin_inset ERT
@@ -1681,6 +2110,21 @@ cp{TotHaPG}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como interpretar o relacionamento matemático entre as colunas numéricas?
 \end_layout
