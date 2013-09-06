@@ -72,6 +72,36 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+sumir}{{
+\backslash
+small
+\backslash
+itshape
+\backslash
+ttfamily Ir para Sumário:~
+\backslash
+pageref{sumario} 
+\backslash
+qquad Ir para Índice Remissivo:~
+\backslash
+pageref{indice-remissivo}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 Ferramentas de Desenvolvimento
 \begin_inset Newline newline
@@ -212,6 +242,29 @@ http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Sumário}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sumario"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -346,6 +399,33 @@ status collapsed
 \begin_layout Plain Layout
 
 http://technet.microsoft.com/pt-br/evalcenter/hh973401.aspx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ou colocá-lo em nota marginal.
 \end_layout
 
 \end_inset
@@ -580,6 +660,36 @@ status collapsed
 \begin_layout Plain Layout
 
 http://office.microsoft.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+FreeMind
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+FreeMind
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Ambiente para a elaboração de mapas mentais, muito úteis para apresentações.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://freemind.sourceforge.net/wiki/index.php/Main_Page
 \end_layout
 
 \end_inset
@@ -962,7 +1072,17 @@ http://www.sliksvn.com/
 \end_layout
 
 \begin_layout Description
-TortoiseSVN: Gratuito, para 
+TortoiseSVN
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+TortoiseSVN
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
 \emph on
 Windows
 \emph default
@@ -998,6 +1118,54 @@ status collapsed
 \begin_layout Plain Layout
 
 http://tortoisesvn.tigris.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Redmine
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Redmine
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Linux
+\emph default
+.
+ Gerenciador de projeto via 
+\emph on
+web
+\emph default
+ com integração com o 
+\emph on
+Subversion
+\emph default
+.
+ Possui diversos recursos, como criação de subprojetos, páginas 
+\emph on
+wiki
+\emph default
+, associação de documentações, registro de problemas encontrados, navegação
+ no repositório.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.redmine.org/
 \end_layout
 
 \end_inset
@@ -1504,6 +1672,46 @@ status collapsed
 \begin_layout Plain Layout
 
 http://sourceforge.net/projects/screencapturer/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Rede
+\end_layout
+
+\begin_layout Description
+WakeOnLan
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+WakeOnLan
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Programa que dispara o pacote mágico na rede para ligar algum computador.
+ Opera por GUI ou linha de comando.
+ Possui outras funções complementares.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://aquilawol.sourceforge.net/
 \end_layout
 
 \end_inset
@@ -2609,6 +2817,36 @@ tnsnames.ora
 network/ADMIN/
 \family default
  do diretório de instalação do cliente do Banco de Dados Oracle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Índice Remissivo}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "indice-remissivo"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
