@@ -421,29 +421,91 @@ As abas presentes na região são:
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Quotes eld
-\end_inset
-
-Data
-\begin_inset Quotes erd
-\end_inset
-
-, podendo ser definido: Ano (Faixa ilimitada
-\begin_inset Note Note
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-O botão permite a seleção somente de 2011 a 2014, porem é possível atribuir
- quaisquer valores manualmente
+
+
+\backslash
+jn{Data}
 \end_layout
 
 \end_inset
 
-), semestres, dia e o mês correspondente a pesquisa.
+: podendo ser definido
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Ano}
+\end_layout
+
+\end_inset
+
+: 
 \end_layout
 
 \begin_layout Enumerate
-Outros: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Semestre}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Dia}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mês}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Outros: Máx.
+ h.a.
+ TP e HR (6-40) e a opção de selecionar o Período
 \end_layout
 
 \begin_layout Enumerate
@@ -474,7 +536,7 @@ jn{Outros}
 
 \begin_deeper
 \begin_layout Quotation
-O período ira se alterar, alternando entre D(Diurno) e N(Noturno).
+O período ira se alterar, alternando entre D (Diurno) e N (Noturno).
 \end_layout
 
 \end_deeper
@@ -564,7 +626,7 @@ cp{Máx.
 
 \begin_deeper
 \begin_layout Quotation
-Máximo valor de horas aula para professores de TP(Tempo Parcial) e HR(Horista).
+Máximo valor de horas aula para professores de TP (Tempo Parcial) e HR (Horista).
 \end_layout
 
 \end_deeper
@@ -957,12 +1019,12 @@ bt{Cancelar}
 
 \begin_deeper
 \begin_layout Quotation
-O usuário retornará a tela princípal do Consulta Sistema Horário
+O usuário retornará a tela princípal do Consulta Sistema Horário 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Ocorre um erro ao clicar em Cancelar
+(Especificar todos os erros)
 \end_layout
 
 \end_inset
@@ -982,8 +1044,7 @@ Como solucionar o problema do item anterior de forma simples, sem a necessidade
 status open
 
 \begin_layout Plain Layout
-Não há necessidade de reiniciar o programa, após ocorrer o erro, basta clicar
- em Fim
+(Especificar todos os erros)
 \end_layout
 
 \end_inset
@@ -1183,6 +1244,21 @@ nm{Lista Dia Completa}
 ? E o que significa cada uma das cores que destacam algumas das linhas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais as informações apresentadas no relatório 
 \begin_inset ERT
@@ -1200,6 +1276,21 @@ nm{Dias em Que o Professor Está na Escola}
 ? Há algum destaque especial? Se sim, qual o significado?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais as informações apresentadas no relatório 
 \begin_inset ERT
@@ -1217,6 +1308,21 @@ nm{Horários dos Dias em Quais o Professor Está em Aula}
 ? Há algum destaque especial? Se sim, qual o significado?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
@@ -1462,7 +1568,7 @@ Não é possível,
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+***
 \end_layout
 
 \end_inset
@@ -2086,10 +2192,16 @@ cp{TotHaIMT}
 
 \begin_deeper
 \begin_layout Quotation
-A informação está incorreta, não há casos em que o professor se encontra
- em licença e possui HorasIMT.
- Caso seja necessário um rastreamento, basta filtrar a tabela a fim de procurar
- tal fato.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2129,12 +2241,42 @@ Procurar por respostas!
 Como interpretar o relacionamento matemático entre as colunas numéricas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Deseja-se encontrar os professores em regime TI que possuem orientação a
  algum trabalho de conclusão de curso.
  Como proceder para encontrar esta informação?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Uma vez que percebe-se, em 2013, o campo 
 \begin_inset ERT
@@ -2154,18 +2296,70 @@ o pagas atribuídas a alguns professores, onde deverão estar inclusas tais
  horas-aula?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Deseja-se encontrar a quantidade atual de professores doutores, mestres
  e especialistas.
  Como fazer?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Veja que existe uma linha fixa na região superior da tabela, que exibe o
+ que cada coluna corresponde.
+ Caso o usuário queira a quantidade de professores doutores, mestres ou
+ especialistas, basta selecionar a coluna correspondente a titulação, clicar
+ no botão 
+\begin_inset Quotes eld
+\end_inset
+
+Filtros
+\begin_inset Quotes erd
+\end_inset
+
+ logo acima e marcar quais informações que seram exibidas(Note que qualquer
+ alteração das marcações padrão, irá fazer com que a coluna exiba um 
+\begin_inset Quotes eld
+\end_inset
+
+funil
+\begin_inset Quotes erd
+\end_inset
+
+ logo após seu nome).
+ Feito isto, a tabela irá automaticamente se atualizar e exibir o número
+ de resultados encontrados na região inferior da tabela.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Deseja-se encontrar a quantidade atual de professores em regime TI, TP e
  HR.
  Como fazer?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Seguindo exatamente os passos descritos anteriormente, no item H, porém
+ a configuração deverá ser feita na coluna correspondente aos regimes dos
+ professores.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Deseja-se encontrar quais são os professores em regime TI, em categoria
  Pleno e que são doutores.
@@ -2173,16 +2367,66 @@ Deseja-se encontrar quais são os professores em regime TI, em categoria
  (título da relação) e o nome dos professores.
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Selecionando individualmente coluna por coluna e aplicando os respectivos
+ filtros, é possível gerar uma lista com os dados que o usuário necessitar.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+COMO IMPRIMIR?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 É possível encontrar a quantidade de professores doutores, mestres e especialist
 as em dezembro de 2011? Se não, por quê?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Foi possível encontrar os valores...
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 É possível encontrar a quantidade de professores em regime TI, TP e HR em
  dezembro de 2011? Se não, por quê?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Foi possível encontrar os valores...
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Alguns dados no campo 
 \begin_inset ERT
@@ -2201,6 +2445,22 @@ cp{RF}
  O que isto significa?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A sigla RF significa Registro de Funcionario, 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+O que significa valores menores que 100?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Desejando-se obter a presente relação para a data de referência 05/08/2012,
  por exemplo, quais são as informações que, de fato, correspodem a tal data
@@ -2211,6 +2471,28 @@ Desejando-se obter a presente relação para a data de referência 05/08/2012,
 Como fechar a janela?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Basta clicar com o botão direito em cima da aba correspondente ao 
+\begin_inset Quotes eld
+\end_inset
+
+ConsultaIMT
+\begin_inset Quotes erd
+\end_inset
+
+ localizado na região supeior da tabela, e selecionar a opção 
+\begin_inset Quotes eld
+\end_inset
+
+Fechar
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
@@ -2233,30 +2515,193 @@ jn{Atividades Outras}
 Qual a finalidade desta interface?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+i.Listar os professores que estão exercendo funções extras, tais como atendimento
+ ao aluno e treinamento moodle.
+\end_layout
+
+\begin_layout Quotation
+ii.Acrescentar novas funções aos professores.
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Falta informação na descrição da interface!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual o significado dos dados que podem ser inseridos?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Professor: Nome do professor.
+\end_layout
+
+\begin_layout Quotation
+NúmDecisão: Número do 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+registro?
+\end_layout
+
+\end_inset
+
+ da decisão
+\end_layout
+
+\begin_layout Quotation
+DataDecisão: Data no qual a decisão foi tomada.
+\end_layout
+
+\begin_layout Quotation
+DataInício: Data de início das atividades.
+\end_layout
+
+\begin_layout Quotation
+DataFim: Data do fim das atividades.
+\end_layout
+
+\begin_layout Quotation
+QtdHa: Quantidade de horas para a atividade.
+\end_layout
+
+\begin_layout Quotation
+Observações: Informações adicionais
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais dados são obrigatórios e quais são opcionais?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+São obrigatórios preencher os campos de 
+\begin_inset Quotes eld
+\end_inset
+
+Data Início
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Data Fim
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+QtdHA
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quotation
+São opcionais os campos de 
+\begin_inset Quotes eld
+\end_inset
+
+Atividades
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+NúmDecisão
+\begin_inset Quotes erd
+\end_inset
+
+ e 
+\begin_inset Quotes eld
+\end_inset
+
+DataDecisão
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais são as restrições para a entrada de cada data?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+As informações inseridas deveram corresponder ao ano vigente.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual o formato de entrada das datas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A data deverá obrigatóriamente ser inserida no formato Ano-Mês-Dia.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como escolher o ano de lançamento?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por respostas!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como fechar a janela?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Basta clicar sobre o botão 
+\begin_inset Quotes eld
+\end_inset
+
+X
+\begin_inset Quotes erd
+\end_inset
+
+ em vermelho logo acima da tabela.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
@@ -2279,22 +2724,106 @@ jn{Trabalhos de Conclusão de Curso}
 Qual a finalidade desta interface?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Falta informação na descrição da interface!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual o significado dos dados que podem ser inseridos?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Professor: Nome do professor.
+\end_layout
+
+\begin_layout Quotation
+Curso: Modalidade do grupo que o professor orienta.
+\end_layout
+
+\begin_layout Quotation
+Ano: Corresponde ao ano da atividade.
+\end_layout
+
+\begin_layout Quotation
+QtdEquipes: Quantidade de equipes.
+\end_layout
+
+\begin_layout Quotation
+QtdHa: Quantidade de horas para a atividade.
+\end_layout
+
+\begin_layout Quotation
+Observações: Informações adicionais
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais dados são obrigatórios e quais são opcionais?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Todos os dados são obrigatórios, com exceção do campo 
+\begin_inset Quotes eld
+\end_inset
+
+Observaçao
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais são as restrições para a entrada de cada campo?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Não identifiquei restrições, checar!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como fechar a janela?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Basta clicar sobre o botão 
+\begin_inset Quotes eld
+\end_inset
+
+X
+\begin_inset Quotes erd
+\end_inset
+
+ em vermelho logo acima da tabela.
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
@@ -2318,11 +2847,27 @@ nm{Licenças}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Licenças somente depende do Dia(Ac).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais os tipos de consultas e quais informações são retornadas por cada
  uma delas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Licença dos professores: Quando um professor entrará de licença.
+\end_layout
+
+\begin_layout Quotation
+Professores de Licença: Professores que estiveram de licença no dia escolhido.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Em especial, qual o significado do campo 
 \begin_inset ERT
@@ -2338,6 +2883,36 @@ cp{Remunerado}
 \end_inset
 
 ? Em geral, esta opção é assinalada como verdadeiro ou falso?
+\end_layout
+
+\begin_layout Quotation
+O campo 
+\begin_inset Quotes eld
+\end_inset
+
+Remunerado
+\begin_inset Quotes erd
+\end_inset
+
+ indica se o professor recebera remuneração enquanto estiver de licença,
+ o campo pode ser verdadeiro 
+\begin_inset Quotes eld
+\end_inset
+
+Caixa em azul
+\begin_inset Quotes erd
+\end_inset
+
+, ou falso 
+\begin_inset Quotes eld
+\end_inset
+
+Caixa em branco
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
 \end_layout
 
 \end_deeper
@@ -2362,16 +2937,69 @@ nm{Outras Relações de Professores}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende de Ano(Aa), Semestre(Ab) e Dia(Ac).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 De forma sucinta, quais são as subconsultas disponibilizadas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+-As Graduações
+\end_layout
+
+\begin_layout Quotation
+-Com mais de Uma Graduação
+\end_layout
+
+\begin_layout Quotation
+-As Pós-Graduações
+\end_layout
+
+\begin_layout Quotation
+-A Pós-Graduação Maior
+\end_layout
+
+\begin_layout Quotation
+-Disciplinas Ministradas
+\end_layout
+
+\begin_layout Quotation
+-Habilitações dos Professores
+\end_layout
+
+\begin_layout Quotation
+-Professores das Habilitações
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Que informações são retornadas pelas subconsultas? Qual o significado dos
  campos ainda não descritos anteriormente?
 \end_layout
 
 \begin_deeper
+\begin_layout Quotation
+Note que as subconsultas referente a graduação dos professores, possuem
+ como informações:
+\end_layout
+
+\begin_layout Quotation
+- Área: Modalidade envolvida
+\end_layout
+
+\begin_layout Quotation
+-Concentração: Foco ou objetivo
+\end_layout
+
+\begin_layout Quotation
+-Nome, País e Estado do instituto.
+\end_layout
+
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -2388,6 +3016,13 @@ jn{As Graduações}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A consulta permite que o usuário verifique as graduações dos professores
+ do IMT.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -2404,6 +3039,12 @@ jn{Com Mais de Uma Graduação}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Lista os professores que possuem duas ou mais graduações.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -2420,6 +3061,13 @@ jn{As Pós-Graduações}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Lista os professores e seus respectivos titulos de mestrado, doutorado e
+ entre outros.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -2436,6 +3084,21 @@ jn{A Pós-Graduação Maior}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Não soube distinguir!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -2452,6 +3115,21 @@ jn{Disciplinas Ministradas}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Vazio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -2468,6 +3146,21 @@ jn{Habilitações dos Professores}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Não soube identificar!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -2484,6 +3177,21 @@ jn{Professores das Habilitações}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Não soube identificar!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
@@ -2507,10 +3215,22 @@ nm{Atualizar TP e HR}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende do Ano(Aa), Semestre(Ab) e Dia(Ac).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 De forma sucinta, quais são as funções disponibilizadas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Verificar as Atualizações e Executar as Atualizações.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais as informações são retornadas por 
 \begin_inset ERT
@@ -2528,6 +3248,21 @@ jn{Verificar as Atualizações}
 ? Elas envolvem quais regimes de trabalho?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Permite a elaboração e atualização dos regimes dos professores, podendo-se
+ alterar:
+\end_layout
+
+\begin_layout Quotation
+-TP e HR.
+\end_layout
+
+\begin_layout Quotation
+-Total de Horas-Aula, Horas-Outras e Horas no IMT.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que significa a função 
 \begin_inset ERT
@@ -2545,6 +3280,22 @@ bt{Executar as Atualizações}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Qualquer modificação no banco de dados referente ao regime dos professores,
+ será atualizada ao clicar neste botão.
+ Note que será feita uma atualização que tem como base a tabela 
+\begin_inset Quotes eld
+\end_inset
+
+Verificar as Atualizações
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
@@ -2569,10 +3320,23 @@ jn{Disciplinas}
 Na atual versão, o que há aqui?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Na atual versão, nada se encontra nesta região.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual a ideia desta aba?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Permita que o usuário consulte informações diversas referentes as diciplinas
+ do CEUN-IMT.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 Na aba 
@@ -2613,10 +3377,38 @@ nm{Ocupação das Salas}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende de Ano(Aa) e Semestre(Ab).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 De forma sucinta, quais são as funções disponibilizadas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Mapa de ocupação
+\end_layout
+
+\begin_layout Quotation
+Mapa de ocupação modificado - A a H
+\end_layout
+
+\begin_layout Quotation
+Mapa de ocupação modificado - I a U
+\end_layout
+
+\begin_layout Quotation
+Mapas de ocupação modificado - Salas de Teoria
+\end_layout
+
+\begin_layout Quotation
+Taxa de ocupação
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O campo 
 \begin_inset ERT
@@ -2635,6 +3427,44 @@ cp{Tipo de Aula}
 es significados?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Somente a consulta relacionada a Taxa de Ocupação (Perceba a sinalização
+ do lado direito da opção e da consulta).
+ Suas opções podem ser:
+\end_layout
+
+\begin_deeper
+\begin_layout Quotation
+-Teoria:
+\end_layout
+
+\begin_layout Quotation
+-Exercícios:
+\end_layout
+
+\begin_layout Quotation
+-Laboratório: 
+\end_layout
+
+\begin_layout Quotation
+-Projetos:
+\end_layout
+
+\begin_layout Quotation
+- 
+\begin_inset Quotes eld
+\end_inset
+
+*
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Enumerate
 Que tipo de relação traz o botão 
 \begin_inset ERT
@@ -2652,6 +3482,13 @@ bt{Mapa de Ocupação}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Mapa de ocupação gera um documento aonde são exibidos a ocupação de todas
+ as salas, por qual diciplina e quais horários.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual a função do 
 \emph on
@@ -2673,6 +3510,21 @@ bt{Mapa de Ocupação}
 ? E quais as vantagens da função oferecida?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Procurar por resposta!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como navegar pelo relatório de 
 \begin_inset ERT
@@ -2690,6 +3542,14 @@ nm{Mapa de Ocupação das Salas}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A navegação deverá ser feita atravez de pequenos botões localizados no canto
+ inferior esquerdo da janela, cada um tem determinada função, entre eles:
+ Primeira página, página anterior, próxima página e última página.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Que tipo de relação traz o botão 
 \begin_inset ERT
@@ -2836,10 +3696,22 @@ nm{Disponibilidades das Salas}
 De quais dados de referência dependerá a consulta?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende de Ano(Aa) e Semestre(Ab).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual a função disponibilizada?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Salas disponíveis em Dia específico.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Na janela 
 \begin_inset ERT
@@ -2858,6 +3730,20 @@ jn{Disponibilidades das Salas}
  destes dados?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Dia da semana: 
+\end_layout
+
+\begin_layout Quotation
+Horário Inicial:
+\end_layout
+
+\begin_layout Quotation
+Horário Final:
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Como disparar a consulta?
 \end_layout
