@@ -293,19 +293,6 @@ thispagestyle{empty}
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-************** significa incompleto.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Title
 Manual do Usuário 
 \begin_inset Quotes eld
@@ -355,16 +342,51 @@ A tela inicial é constituida de três botões:
 
 \begin_deeper
 \begin_layout Quotation
--Gerenciador principal: Acessa o painel principal do módulo, permitindo
- a consulta dos horários.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Gerenciador principal}
+\end_layout
+
+\end_inset
+
+: Acessa o painel principal do módulo, permitindo a consulta dos horários.
 \end_layout
 
 \begin_layout Quotation
--Sobre: Fornece informações a respeito do módulo, tais como Copyright.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Sobre}
+\end_layout
+
+\end_inset
+
+: Fornece informações a respeito do módulo, tais como Copyright.
 \end_layout
 
 \begin_layout Quotation
--Sair: Finaliza o módulo.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Sair}
+\end_layout
+
+\end_inset
+
+: Finaliza o módulo.
 \end_layout
 
 \end_deeper
@@ -503,15 +525,139 @@ cp{Mês}
 
 \end_deeper
 \begin_layout Enumerate
-Outros: Máx.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Outros}
+\end_layout
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx.
  h.a.
- TP e HR (6-40) e a opção de selecionar o Período
+ TP e HR}
+\end_layout
+
+\end_inset
+
+: 6h a 40h
 \end_layout
 
 \begin_layout Enumerate
-Atuação: São caetano do Sul, São Paulo, Pós-Graduação ou Todos.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Período}
 \end_layout
 
+\end_inset
+
+: Diurno ou Noturno
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Atuação}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{São caetano do Sul}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{São Paulo}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Pós-Graduação}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Todos}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 Na aba 
@@ -642,19 +788,67 @@ de:
 
 \begin_deeper
 \begin_layout Quotation
--São Caetano do Sul: Somente professores do Campus São Caetano do Sul.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{São Caetano do Sul}
+\end_layout
+
+\end_inset
+
+: Somente professores do Campus São Caetano do Sul.
 \end_layout
 
 \begin_layout Quotation
--São Paulo: Somente professores do Campus São Paulo.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{São Paulo}
+\end_layout
+
+\end_inset
+
+: Somente professores do Campus São Paulo.
 \end_layout
 
 \begin_layout Quotation
--Pós-Graduação: Somente professores que lecionam aulas de Pós-Graduação.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Pós-Graduação}
+\end_layout
+
+\end_inset
+
+: Somente professores que lecionam aulas de Pós-Graduação.
 \end_layout
 
 \begin_layout Quotation
--Todos: Todas as três opções acima simultaneamente.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Todos}
+\end_layout
+
+\end_inset
+
+: Todas as três opções acima simultaneamente.
 \end_layout
 
 \end_deeper
@@ -691,31 +885,115 @@ Professores: Permite que o usuário consulte informações relacionada aos
 
 \begin_deeper
 \begin_layout Enumerate
-Lista de Presença
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lista de Presença}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Lista Dia
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lista Dia}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-PPC
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{PPC}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Cargas Horárias
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Cargas Horárias}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Licenças
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Licenças}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Outras Relações
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Outras Relações}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Atualizar TP e HR
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Atualizar TP e HR}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -729,11 +1007,35 @@ Salas: Permite a realização de uma busca, referente a:
 
 \begin_deeper
 \begin_layout Enumerate
-Ocupação das salas
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Ocupação das salas}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Disponibilidade das salas
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Disponibilidade das salas}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -744,19 +1046,67 @@ Horários de Aulas: O usuário poderá consultar informações relacionada aos
 
 \begin_deeper
 \begin_layout Enumerate
-Superposições
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Superposições}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Restrição de carga
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Restrição de carga}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Indefinições
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Indefinições}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Tabela de horários de aula
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tabela de horários de aula}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -942,8 +1292,8 @@ jn{Dados de Referência}
 
 \begin_deeper
 \begin_layout Quotation
-A consulta necessita das informações: Ano(Aa), Semestre(Ab), Dia(Ac), Período(Bb
-) e Atuação(Ca) 
+A consulta necessita das informações: Ano (Aa), Semestre (Ab), Dia (Ac),
+ Período (Bb) e Atuação (Ca) 
 \end_layout
 
 \end_deeper
@@ -1019,17 +1369,16 @@ bt{Cancelar}
 
 \begin_deeper
 \begin_layout Quotation
-O usuário retornará a tela princípal do Consulta Sistema Horário 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(Especificar todos os erros)
-\end_layout
-
+O usuário retornará a tela princípal do Consulta Sistema Horário, porém
+ um erro ocorrerá, neste caso, basta clicar em 
+\begin_inset Quotes eld
 \end_inset
 
+Fim
+\begin_inset Quotes erd
+\end_inset
 
+.
 \end_layout
 
 \end_deeper
@@ -1044,7 +1393,7 @@ Como solucionar o problema do item anterior de forma simples, sem a necessidade
 status open
 
 \begin_layout Plain Layout
-(Especificar todos os erros)
+Versão .accdb
 \end_layout
 
 \end_inset
@@ -1059,15 +1408,24 @@ Gerada uma lista, como fazer para fechá-la?
 
 \begin_deeper
 \begin_layout Quotation
-De um clique com o botão direito do mouse e selecione a ultima opção 
+Existem diversas maneiras de se fechar uma lista, uma delas é clicando no
+ botão 
 \begin_inset Quotes eld
 \end_inset
 
-Fechar
+Fechar Visualização de Impressao
 \begin_inset Quotes erd
 \end_inset
 
-.
+, ou também, basta clicar no 
+\begin_inset Quotes eld
+\end_inset
+
+x
+\begin_inset Quotes erd
+\end_inset
+
+ que está localizado do lado direito aonde é selecionado as abas do access.
 \end_layout
 
 \end_deeper
@@ -1100,16 +1458,7 @@ nm{Lista de Presença}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Procurar por respostas!
-\end_layout
-
-\end_inset
-
-
+Leiaute dos períodos Diurno e Noturno, ou Leiaute de sábados são todos distintos.
 \end_layout
 
 \end_deeper
@@ -1223,7 +1572,7 @@ jn{Dados de Referência}
 
 \begin_deeper
 \begin_layout Quotation
-Depende de Ano(Aa) e do Semestre(Ab).
+Depende de Ano (Aa) e do Semestre (Ab).
 \end_layout
 
 \end_deeper
@@ -1246,16 +1595,12 @@ nm{Lista Dia Completa}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Procurar por respostas!
-\end_layout
-
-\end_inset
-
-
+Dentre as informações apresentadas, temos: Professor, Disc.
+ (Disciplina), QtdHa (Quantidade de horas aula), Tipo, Série, Habilitação
+ e GLT (Grupo Turma Laboratório).
+ Note que as linhas que possuem cores diferentes correspondem a qual habilitação
+ a aula representa, como: Amarelo (Administração), Verde (Gestão), Laranja
+ (Design) e as demais, Engenharia.
 \end_layout
 
 \end_deeper
@@ -1278,16 +1623,34 @@ nm{Dias em Que o Professor Está na Escola}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Procurar por respostas!
+O nome do relatório é auto-explicativo, logo ele exibirá, por exemplo:
 \end_layout
 
-\end_inset
+\begin_deeper
+\begin_layout Quotation
+Professor X
+\end_layout
 
+\begin_deeper
+\begin_layout Quotation
+-Seunda-feira
+\end_layout
 
+\begin_layout Quotation
+-Quinta-feita
+\end_layout
+
+\begin_layout Quotation
+-Sábado
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Quotation
+A representação acima mostra que o professor X estará no Instituto Mauá
+ de Tecnologia nos dias exibidos, note que professores grifados em cores
+ diferentes são professores de habilitações diferentes da engenharia, sendo
+ Amarelo (Administração), Verde (Gestão) e Laranja (Design).
 \end_layout
 
 \end_deeper
@@ -1310,16 +1673,10 @@ nm{Horários dos Dias em Quais o Professor Está em Aula}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Procurar por respostas!
-\end_layout
-
-\end_inset
-
-
+Este relatório tem como função exibir os horários de aula dos professores
+ do IMT, ele contém: Nome do professor, Sala, Horário e Quantidade de horas
+ aula.
+ Perceba que não há destaque algum.
 \end_layout
 
 \end_deeper
@@ -1383,7 +1740,7 @@ jn{Dados de Referência}
 
 \begin_deeper
 \begin_layout Quotation
-Depende de Ano(Aa), Semestre(Ab), Dia(Ac) e do Período(Bb).
+Depende de Ano (Aa), Semestre (Ab), Dia (Ac) e do Período (Bb).
 \end_layout
 
 \end_deeper
@@ -1563,17 +1920,8 @@ Para uma habilitação qualquer, é possível incluir o 1º ano do Ciclo Básico
 
 \begin_deeper
 \begin_layout Quotation
-Não é possível, 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-***
-\end_layout
-
-\end_inset
-
-
+Não é possível, uma vez que o 2º ano contém matérias básicas de engenharia,
+ ao selecionar o primeiro ano, automaticamente o segundo também é incluido.
 \end_layout
 
 \end_deeper
@@ -1614,7 +1962,7 @@ jn{Dados de Referência}
 
 \begin_deeper
 \begin_layout Quotation
-Depende de Ano(Aa), Semestre(Ab) e Dia(Ac).
+Depende de Ano (Aa), Semestre (Ab) e Dia (Ac).
 \end_layout
 
 \end_deeper
@@ -1624,24 +1972,70 @@ Em termos gerais, quais as consultas disponibilizadas? Qual a função de
 \end_layout
 
 \begin_layout Quotation
-Consulta de Aulas: Permite consultar a quais aulas um professor pertence,
- a quantidade de horas aulas, entre outros.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Consulta de Aulas}
+\end_layout
+
+\end_inset
+
+: Permite consultar a quais aulas um professor pertence, a quantidade de
+ horas aulas, entre outros.
 \end_layout
 
 \begin_layout Quotation
-Consultar CEUN-IMT: Verifica a habilitação de cada professor(Horista, Integral
- ou Parcial) no CEUN-IMT e mostra a quantidade de horas.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Consultar CEUN-IMT}
+\end_layout
+
+\end_inset
+
+: Verifica a habilitação de cada professor (Horista, Integral ou Parcial)
+ no CEUN-IMT e mostra a quantidade de horas.
 \end_layout
 
 \begin_layout Quotation
-Lançar Atividades Outras: É um registro aonde está informando o que cada
- professor possui de atividades extras, como atendimento ao aluno e treinamento
- moodle.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lançar Atividades Outras}
+\end_layout
+
+\end_inset
+
+: É um registro aonde está informando o que cada professor possui de atividades
+ extras, como atendimento ao aluno e treinamento moodle.
 \end_layout
 
 \begin_layout Quotation
-Lançar Trabalho de Conslusão de Curso: Mostra os professores que cuidam
- dos TCCs de cada modalidade.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lançar Trabalho de Conslusão de Curso}
+\end_layout
+
+\end_inset
+
+: Mostra os professores que cuidam dos TCCs de cada modalidade.
 \end_layout
 
 \begin_layout Enumerate
@@ -1713,11 +2107,35 @@ São dois tipos:
 
 \begin_deeper
 \begin_layout Quotation
-Exclusivo: Aceita a introdução de apenas um único filtro
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Exclusivo}
+\end_layout
+
+\end_inset
+
+: Aceita a introdução de apenas um único filtro
 \end_layout
 
 \begin_layout Quotation
-Todos: É permitido preencher diversos filtros
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Todos}
+\end_layout
+
+\end_inset
+
+: É permitido preencher diversos filtros
 \end_layout
 
 \end_deeper
@@ -1861,16 +2279,30 @@ Como deve-se proceder para gerar a grade horária de um professor?
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
+Primeiramente, deve-se acessar o 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+
+
+\backslash
+cp{Consultar Aulas}
 \end_layout
 
 \end_inset
 
+, em seguida, preencher com as informações desejadas os campos de filtro
+ para que um professor seja selecionado e, finalmente, basta clicar no botão
+ de gerar grade horária, localizado logo do botão 
+\begin_inset Quotes eld
+\end_inset
 
+Fechar
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
@@ -1881,16 +2313,23 @@ Como deve-se proceder para gerar a grade horária de todos os professores
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
+Seguindo exatamente os passos do item anterior, porém, ao inves de procurar
+ por um professor, deve-se procurar pela disciplina, note que todos os professor
+es envolvidos com a disciplina seram listados.
+ Em seguida seleciona a coluna 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+
+
+\backslash
+cp{NomDisc}
 \end_layout
 
 \end_inset
 
-
+na tabela e clique no botão de gerar grade horária.
 \end_layout
 
 \end_deeper
@@ -2012,16 +2451,24 @@ mg{É oficial?}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Procurar por respostas!
-\end_layout
-
+Dependendo do valor inserido (
+\begin_inset Quotes eld
 \end_inset
 
+Sim
+\begin_inset Quotes erd
+\end_inset
 
+ ou 
+\begin_inset Quotes eld
+\end_inset
+
+Não
+\begin_inset Quotes erd
+\end_inset
+
+), o documento que será gerado irá ou não conter linhas especiais que oficializa
+m a grade horária gerada.
 \end_layout
 
 \end_deeper
@@ -2060,6 +2507,17 @@ Fechar visualização de impressão
 \end_inset
 
 .
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+.ACCDB
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2110,6 +2568,16 @@ X
 \end_inset
 
  em vermelho no canto direito superior.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+.ACCDB
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2331,7 +2799,7 @@ Filtros
 \begin_inset Quotes erd
 \end_inset
 
- logo acima e marcar quais informações que seram exibidas(Note que qualquer
+ logo acima e marcar quais informações que seram exibidas (Note que qualquer
  alteração das marcações padrão, irá fazer com que a coluna exiba um 
 \begin_inset Quotes eld
 \end_inset
@@ -2545,13 +3013,37 @@ Qual o significado dos dados que podem ser inseridos?
 
 \begin_deeper
 \begin_layout Quotation
-Professor: Nome do professor.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Professor}
+\end_layout
+
+\end_inset
+
+: Nome do professor.
 \end_layout
 
 \begin_layout Quotation
-NúmDecisão: Número do 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{NúmDecisão}
+\end_layout
+
+\end_inset
+
+: Número do 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 registro?
@@ -2563,23 +3055,83 @@ registro?
 \end_layout
 
 \begin_layout Quotation
-DataDecisão: Data no qual a decisão foi tomada.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{DataDecisão}
+\end_layout
+
+\end_inset
+
+: Data no qual a decisão foi tomada.
 \end_layout
 
 \begin_layout Quotation
-DataInício: Data de início das atividades.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{DataInício}
+\end_layout
+
+\end_inset
+
+: Data de início das atividades.
 \end_layout
 
 \begin_layout Quotation
-DataFim: Data do fim das atividades.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{DataFim}
+\end_layout
+
+\end_inset
+
+: Data do fim das atividades.
 \end_layout
 
 \begin_layout Quotation
-QtdHa: Quantidade de horas para a atividade.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdHa}
+\end_layout
+
+\end_inset
+
+: Quantidade de horas para a atividade.
 \end_layout
 
 \begin_layout Quotation
-Observações: Informações adicionais
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Observações}
+\end_layout
+
+\end_inset
+
+: Informações adicionais
 \end_layout
 
 \end_deeper
@@ -2745,27 +3297,99 @@ Qual o significado dos dados que podem ser inseridos?
 
 \begin_deeper
 \begin_layout Quotation
-Professor: Nome do professor.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Professor}
+\end_layout
+
+\end_inset
+
+: Nome do professor.
 \end_layout
 
 \begin_layout Quotation
-Curso: Modalidade do grupo que o professor orienta.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Curso}
+\end_layout
+
+\end_inset
+
+: Modalidade do grupo que o professor orienta.
 \end_layout
 
 \begin_layout Quotation
-Ano: Corresponde ao ano da atividade.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Ano}
+\end_layout
+
+\end_inset
+
+: Corresponde ao ano da atividade.
 \end_layout
 
 \begin_layout Quotation
-QtdEquipes: Quantidade de equipes.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdEquipes}
+\end_layout
+
+\end_inset
+
+: Quantidade de equipes.
 \end_layout
 
 \begin_layout Quotation
-QtdHa: Quantidade de horas para a atividade.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdHa}
+\end_layout
+
+\end_inset
+
+: Quantidade de horas para a atividade.
 \end_layout
 
 \begin_layout Quotation
-Observações: Informações adicionais
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Observações}
+\end_layout
+
+\end_inset
+
+: Informações adicionais
 \end_layout
 
 \end_deeper
@@ -2849,7 +3473,7 @@ De quais dados de referência dependerão as consultas?
 
 \begin_deeper
 \begin_layout Quotation
-Licenças somente depende do Dia(Ac).
+Licenças somente depende do Dia (Ac).
 \end_layout
 
 \end_deeper
@@ -2939,7 +3563,7 @@ De quais dados de referência dependerão as consultas?
 
 \begin_deeper
 \begin_layout Quotation
-Depende de Ano(Aa), Semestre(Ab) e Dia(Ac).
+Depende de Ano (Aa), Semestre (Ab) e Dia (Ac).
 \end_layout
 
 \end_deeper
@@ -2949,31 +3573,61 @@ De forma sucinta, quais são as subconsultas disponibilizadas?
 
 \begin_deeper
 \begin_layout Quotation
--As Graduações
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{As Graduações},
 \end_layout
 
-\begin_layout Quotation
--Com mais de Uma Graduação
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Com mais de Uma Graduação},
 \end_layout
 
-\begin_layout Quotation
--As Pós-Graduações
+\begin_layout Plain Layout
+
+
+\backslash
+cp{As Pós-Graduações},
 \end_layout
 
-\begin_layout Quotation
--A Pós-Graduação Maior
+\begin_layout Plain Layout
+
+
+\backslash
+cp{A Pós-Graduação Maior},
 \end_layout
 
-\begin_layout Quotation
--Disciplinas Ministradas
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Disciplinas Ministradas},
 \end_layout
 
-\begin_layout Quotation
--Habilitações dos Professores
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Habilitações dos Professores},
 \end_layout
 
-\begin_layout Quotation
--Professores das Habilitações
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Professores das Habilitações}.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2989,15 +3643,51 @@ Note que as subconsultas referente a graduação dos professores, possuem
 \end_layout
 
 \begin_layout Quotation
-- Área: Modalidade envolvida
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Área}
+\end_layout
+
+\end_inset
+
+: Modalidade envolvida
 \end_layout
 
 \begin_layout Quotation
--Concentração: Foco ou objetivo
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Concentração}
+\end_layout
+
+\end_inset
+
+: Foco ou objetivo
 \end_layout
 
 \begin_layout Quotation
--Nome, País e Estado do instituto.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Nome, País e Estado do instituto}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Enumerate
@@ -3217,7 +3907,7 @@ De quais dados de referência dependerão as consultas?
 
 \begin_deeper
 \begin_layout Quotation
-Depende do Ano(Aa), Semestre(Ab) e Dia(Ac).
+Depende do Ano (Aa), Semestre (Ab) e Dia (Ac).
 \end_layout
 
 \end_deeper
@@ -3379,7 +4069,7 @@ De quais dados de referência dependerão as consultas?
 
 \begin_deeper
 \begin_layout Quotation
-Depende de Ano(Aa) e Semestre(Ab).
+Depende de Ano (Aa) e Semestre (Ab).
 \end_layout
 
 \end_deeper
@@ -3389,23 +4079,47 @@ De forma sucinta, quais são as funções disponibilizadas?
 
 \begin_deeper
 \begin_layout Quotation
-Mapa de ocupação
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de ocupação},
 \end_layout
 
-\begin_layout Quotation
-Mapa de ocupação modificado - A a H
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de ocupação modificado - A a H},
 \end_layout
 
-\begin_layout Quotation
-Mapa de ocupação modificado - I a U
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de ocupação modificado - I a U},
 \end_layout
 
-\begin_layout Quotation
-Mapas de ocupação modificado - Salas de Teoria
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapas de ocupação modificado - Salas de Teoria},
 \end_layout
 
-\begin_layout Quotation
-Taxa de ocupação
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Taxa de ocupação}.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -3436,28 +4150,90 @@ Somente a consulta relacionada a Taxa de Ocupação (Perceba a sinalização
 
 \begin_deeper
 \begin_layout Quotation
--Teoria:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Teoria}
 \end_layout
 
-\begin_layout Quotation
--Exercícios:
-\end_layout
-
-\begin_layout Quotation
--Laboratório: 
-\end_layout
-
-\begin_layout Quotation
--Projetos:
-\end_layout
-
-\begin_layout Quotation
-- 
-\begin_inset Quotes eld
 \end_inset
 
-*
-\begin_inset Quotes erd
+:
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Exercícios}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Laboratório}
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Preencher!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Projetos}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{*}
+\end_layout
+
 \end_inset
 
 :
@@ -3512,16 +4288,9 @@ bt{Mapa de Ocupação}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Procurar por resposta!
-\end_layout
-
-\end_inset
-
-
+Faz com que o relatório gerado seja exibido como uma janela pop-up, no caso,
+ é interessante quando deseja-se realizar uma comparação ou uma consulta
+ de forma mais maleavel e prática.
 \end_layout
 
 \end_deeper
@@ -3567,6 +4336,12 @@ bt{Mapa de Ocupação Modificado - Blocos de A a H}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Lista de salas disponíveis somente entre os blocos A e H.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual o significado das informações relacionadas em 
 \begin_inset ERT
@@ -3584,6 +4359,38 @@ nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de A a H}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+O mapa de ocupação modificado tem como característica um método de representação
+ diferente do analisado no 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de Ocupação das Salas}
+\end_layout
+
+\end_inset
+
+, torna-se mais prático uma consulta a fim de obter-se uma informação rápida.
+ Sua estrutura é dividida em três grandes linhas, sendo elas em amarelo,
+ o período Diurno e em vermelho e azul, o período Noturno.
+ As colunas representam as salas e as linhas os horários, para saber o significa
+do das letras imbutidas em cada célula, leia o item 
+\begin_inset Quotes eld
+\end_inset
+
+xiii
+\begin_inset Quotes erd
+\end_inset
+
+ deste capítulo.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Que tipo de relação traz o botão 
 \begin_inset ERT
@@ -3601,6 +4408,12 @@ bt{Mapa de Ocupação Modificado - Blocos de I a U}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Lista de salas disponíveis somente entre os blocos I e U.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual o significado das informações relacionadas em 
 \begin_inset ERT
@@ -3618,6 +4431,25 @@ nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de I a U}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Segue exatamente o mesmo principio citado anteriormente no item VII, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de A a H}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Que tipo de relação traz o botão 
 \begin_inset ERT
@@ -3635,6 +4467,13 @@ bt{Mapa de Ocupação Modificado - Salas de Teoria}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Salas de laboratório como as salas A1 e A2 seram descartadas da lista, sendo
+ exibidos somente as salas destinadas a aulas de teoria.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual o significado das informações relacionadas em 
 \begin_inset ERT
@@ -3652,11 +4491,70 @@ nm{Mapa de Ocupação Modificado de Todas as Salas - Salas de Teoria}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Segue exatamente o mesmo principio citado anteriormente no item VII, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Mapa de Ocupação Modificado de Todas as Salas - Blocos de A a H}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Nestes mapas de ocupação, qual o significado das letras apresentadas nas
  células?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Nota-se que este modelo apresenta em sua forma letras como E, D, G ou A,
+ cada uma dessas letras representam o tipo de aula que é desenvolvido nas
+ salas, no caso, 
+\begin_inset Quotes eld
+\end_inset
+
+E
+\begin_inset Quotes erd
+\end_inset
+
+ significa engenharia, 
+\begin_inset Quotes eld
+\end_inset
+
+D
+\begin_inset Quotes erd
+\end_inset
+
+ de Desing, 
+\begin_inset Quotes eld
+\end_inset
+
+G
+\begin_inset Quotes erd
+\end_inset
+
+ de gestão e por fim, 
+\begin_inset Quotes eld
+\end_inset
+
+A
+\begin_inset Quotes erd
+\end_inset
+
+ de Administração.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 E quanto ao botão 
 \begin_inset ERT
@@ -3674,6 +4572,16 @@ bt{Taxa de Ocupação}
 ? Quais as informações apresentadas e seus significados?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Trata-se de um relatório de ocupação de salas para aulas de teoria, exercícios,
+ laboratório e projetos, num ponto de vista estatístico, aonde são apresentados
+ valores em porcentagem de ocupação, entre outros.
+ Note que o própio relatório informa todas os significados das informações
+ apresentadas.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
@@ -3698,7 +4606,7 @@ De quais dados de referência dependerá a consulta?
 
 \begin_deeper
 \begin_layout Quotation
-Depende de Ano(Aa) e Semestre(Ab).
+Depende de Ano (Aa) e Semestre (Ab).
 \end_layout
 
 \end_deeper
@@ -3708,7 +4616,19 @@ Qual a função disponibilizada?
 
 \begin_deeper
 \begin_layout Quotation
-Salas disponíveis em Dia específico.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Salas disponíveis em Dia específico}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
@@ -3732,15 +4652,49 @@ jn{Disponibilidades das Salas}
 
 \begin_deeper
 \begin_layout Quotation
-Dia da semana: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Dia da semana}
+\end_layout
+
+\end_inset
+
+: Pode ser peenchido com valores de SEG (Segunda-feira) a SEX (Sexta-feira).
 \end_layout
 
 \begin_layout Quotation
-Horário Inicial:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Horário Inicial}
 \end_layout
 
-\begin_layout Quotation
-Horário Final:
+\end_inset
+
+e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Horário Final}
+\end_layout
+
+\end_inset
+
+: Deve-se obedecer necessáriamente a formatação padrão (_ _ : _ _).
+ 
 \end_layout
 
 \end_deeper
@@ -3748,10 +4702,47 @@ Horário Final:
 Como disparar a consulta?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Preencha os campos com os valores desejados, dessa maneira, ao clicar no
+ botão representado por uma 
+\begin_inset Quotes eld
+\end_inset
+
+Lupa
+\begin_inset Quotes erd
+\end_inset
+
+, a consulta irá ser realizada.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Para que serve e em que situação é útil o botão de atualizar?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+O botão acessa o banco de dados do sistema e atualiza seus valores a fim
+ de mostrar corretamente o número de salas disponíveis, uma vez que o usuário
+ faça algum tipo de alteração com relação a ocupação de alguma sala, é necessári
+o atualizar o campo de 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Disponibilidade das Salas}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que significa a opção 
 \begin_inset ERT
@@ -3769,11 +4760,35 @@ cp{Lista U/B}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Está opção fará com que sua lista seja rearranjada em uma formatação padrão
+ do 
+\begin_inset Quotes eld
+\end_inset
+
+excell
+\begin_inset Quotes erd
+\end_inset
+
+, com linhas e colunas enumeradas, permitindo um acesso rápido a alguma
+ sala específica.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Em que momentos torna-se interessante o uso da consulta de disponibilidades
  das salas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Ocasiões em que seja necessário uma analise das salas disponíveis podem
+ acontecer por exemplo, quando está se gerando uma nova grade horária ou
+ alguma atividade extra em especial.
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
@@ -3798,6 +4813,100 @@ jn{Horários de Aula}
 Quais as funções disponibilizadas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A aba possui duas funções principais:
+\end_layout
+
+\begin_deeper
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tabela de Horários de Aula}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Publicações aos alunos}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Quotation
+E três funções auxiliares:
+\end_layout
+
+\begin_deeper
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Encontrar superposições}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Restrições de cargas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Indefinições}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Enumerate
 Qual a importância da área identificada como 
 \begin_inset ERT
@@ -3815,6 +4924,14 @@ jn{Auxílio para Elaboração}
 ?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Está área tem como função exibir informações importantes a respeito de cada
+ objeção referente a elaboração de um horário, por exemplo: Restrições,
+ Superposição ou Indefinição de salas ou professores, entre outros.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -3836,10 +4953,25 @@ nm{Encontrar Superposições}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende de Ano (Aa) e Semestre (Ab).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que são as superposições por aula, professor e sala?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A superposição é qualquer tipo de incoerência relacionada as aulas, salas
+ e professores, ela acontece quando por exemplo, há turmas de diferentes
+ habilitações em uma única sala.
+ 
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -4122,6 +5254,12 @@ nm{CEUN}
 De forma suscinta, qual o recurso disponibilizado?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Dados informativos a respeito do Centro Universitário (CEUN).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -4143,8 +5281,22 @@ nm{Estatísticas para CEUN}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende de Ano (Aa), Semestre (Ab), Dia (Ac) e Max.
+ h.
+ a.
+ TP e HR (Ba).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
-Quais as funções disponibilizadas?
+\begin_inset Note Note
+status open
+
+\begin_layout Enumerate
+Quais as funções disponibilizadas? (***O SERVIDOR SQL NÃO FOI ENCONTRADO
+ OU NÃO CONECTOU***)
 \end_layout
 
 \begin_layout Enumerate
@@ -4157,7 +5309,7 @@ em cada linha;
 \end_layout
 
 \begin_layout Enumerate
-em cada coluna;
+em cada coluna; 
 \end_layout
 
 \begin_layout Enumerate
@@ -4174,8 +5326,17 @@ Pelos dados apresentados, qual curso apresenta o maior custo? E qual apresenta
  o menor?
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \end_deeper
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
 \begin_layout Enumerate
 Na aba 
 \begin_inset ERT
@@ -4190,12 +5351,29 @@ nm{CPA}
 
 \end_inset
 
-:
+: (***NÃO EXISTE A ABA CPA***)
+\end_layout
+
+\begin_layout Enumerate
+De forma suscinta, qual o recurso disponibilizado?
 \end_layout
 
 \begin_deeper
-\begin_layout Enumerate
-De forma suscinta, qual o recurso disponibilizado?
+\begin_layout Quotation
+Na versão em que este manual foi elaborado, o recurso 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{CPA}
+\end_layout
+
+\end_inset
+
+ não estava disponível para consulta.
 \end_layout
 
 \begin_layout Enumerate
@@ -4229,5 +5407,10 @@ Quais as informações retornadas pela função? Como interpretá-las?
 
 \end_deeper
 \end_deeper
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
