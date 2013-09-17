@@ -455,7 +455,7 @@ jn{Data}
 
 \end_inset
 
-: podendo ser definido
+:
 \end_layout
 
 \begin_deeper
@@ -472,7 +472,7 @@ cp{Ano}
 
 \end_inset
 
-: 
+
 \end_layout
 
 \begin_layout Enumerate
@@ -488,7 +488,7 @@ cp{Semestre}
 
 \end_inset
 
-:
+
 \end_layout
 
 \begin_layout Enumerate
@@ -504,7 +504,7 @@ cp{Dia}
 
 \end_inset
 
-:
+
 \end_layout
 
 \begin_layout Enumerate
@@ -520,7 +520,7 @@ cp{Mês}
 
 \end_inset
 
-:
+
 \end_layout
 
 \end_deeper
@@ -1389,16 +1389,8 @@ Como solucionar o problema do item anterior de forma simples, sem a necessidade
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Versão .accdb
-\end_layout
-
-\end_inset
-
-
+Não há uma maneira de evitar o fechamento do programa, o usuário terá que
+ inicializar o programa novamente.
 \end_layout
 
 \end_deeper
@@ -1600,7 +1592,7 @@ Dentre as informações apresentadas, temos: Professor, Disc.
  e GLT (Grupo Turma Laboratório).
  Note que as linhas que possuem cores diferentes correspondem a qual habilitação
  a aula representa, como: Amarelo (Administração), Verde (Gestão), Laranja
- (Design) e as demais, Engenharia.
+ (Design) e as demais Engenharia.
 \end_layout
 
 \end_deeper
@@ -1762,6 +1754,21 @@ nm{PPC}
 ? Qual o significado de cada uma?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Campos da tabela gerada por qualquer botão(Habilitação)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Deseja-se o relatório com a referência cruzada para o 
 \begin_inset ERT
@@ -1832,6 +1839,36 @@ Excel
  Gerar uma versão impressa da primeira página.
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Note que para gerar um relatório tanto Diurno como Noturno, deve-se selecionar
+ a opção 
+\begin_inset Quotes eld
+\end_inset
+
+*
+\begin_inset Quotes erd
+\end_inset
+
+ no campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Período}
+\end_layout
+
+\end_inset
+
+ dos dados de referência, após feito isso, basta seguir os passos descritos
+ nos itens acima.
+ 
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 É possível gerar um relatório semelhante para o curso de 
 \emph on
@@ -2151,7 +2188,7 @@ Quais as possibilidades para disparar a execução da consulta e exibição
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+Como fazer para executar e gera o relatório (Enter e FiltroRaio)
 \end_layout
 
 \end_inset
@@ -2201,7 +2238,8 @@ Está linha indica o QHa (Quantidade de Horas aula) do professor consultado.
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+Cálculo somente das aulas exibidas, não corresponde ao valor total efetivo
+ com aulas compartilhadas)
 \end_layout
 
 \end_inset
@@ -2224,7 +2262,7 @@ Total
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+é coerente, automaticamente o valor de QHa será dividido por dois.
 \end_layout
 
 \end_inset
@@ -2355,7 +2393,8 @@ EFB201
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+Lui...
+ Lui*Santos
 \end_layout
 
 \end_inset
@@ -2378,7 +2417,7 @@ Excel
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+Selecionar toda a tabela e copiar, deve-se abrir o excel
 \end_layout
 
 \end_inset
@@ -2508,16 +2547,6 @@ Fechar visualização de impressão
 
 .
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-.ACCDB
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -2568,16 +2597,6 @@ X
 \end_inset
 
  em vermelho no canto direito superior.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-.ACCDB
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -2664,7 +2683,8 @@ cp{TotHaIMT}
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+Não está correto, no caso, é um erro de lançamento dos dados, deve-se verificar
+ as horas aulas atribuidas e checar o lançamento
 \end_layout
 
 \end_inset
@@ -2696,7 +2716,7 @@ cp{TotHaPG}
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+PG - Pós Graduação
 \end_layout
 
 \end_inset
@@ -2715,7 +2735,8 @@ Como interpretar o relacionamento matemático entre as colunas numéricas?
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+TotHaIMT = Todo o Resto, a partir de 2013, os campos PG e ATDPago não constam
+ de valores
 \end_layout
 
 \end_inset
@@ -2736,7 +2757,7 @@ Deseja-se encontrar os professores em regime TI que possuem orientação a
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+Questão de filtro
 \end_layout
 
 \end_inset
@@ -2770,7 +2791,7 @@ o pagas atribuídas a alguns professores, onde deverão estar inclusas tais
 status open
 
 \begin_layout Plain Layout
-Procurar por respostas!
+Essas informações serão inclusas na coluna TotHaATO 
 \end_layout
 
 \end_inset
@@ -2840,16 +2861,6 @@ Deseja-se encontrar quais são os professores em regime TI, em categoria
 Selecionando individualmente coluna por coluna e aplicando os respectivos
  filtros, é possível gerar uma lista com os dados que o usuário necessitar.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-COMO IMPRIMIR?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -2864,8 +2875,8 @@ as em dezembro de 2011? Se não, por quê?
 status open
 
 \begin_layout Plain Layout
-Foi possível encontrar os valores...
- 
+Não é possível, pois tais dados não constam no banco de dados, o Sistema
+ busca os valores mais recentes neste caso 
 \end_layout
 
 \end_inset
@@ -2885,8 +2896,8 @@ Foi possível encontrar os valores...
 status open
 
 \begin_layout Plain Layout
-Foi possível encontrar os valores...
- 
+Não é possível, pois tais dados não constam no banco de dados, o Sistema
+ busca os valores mais recentes neste caso 
 \end_layout
 
 \end_inset
@@ -2915,17 +2926,9 @@ cp{RF}
 
 \begin_deeper
 \begin_layout Quotation
-A sigla RF significa Registro de Funcionario, 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-O que significa valores menores que 100?
-\end_layout
-
-\end_inset
-
-
+A sigla RF significa Registro Funcional, no caso, valores menores que 100
+ representam um registro temporário atribuido ao funcionário, enquanto seu
+ RF definitivo não é emitido.
 \end_layout
 
 \end_deeper
@@ -2993,19 +2996,6 @@ i.Listar os professores que estão exercendo funções extras, tais como atendim
 ii.Acrescentar novas funções aos professores.
 \end_layout
 
-\begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Falta informação na descrição da interface!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_deeper
 \begin_layout Enumerate
 Qual o significado dos dados que podem ser inseridos?
@@ -3041,17 +3031,7 @@ cp{NúmDecisão}
 
 \end_inset
 
-: Número do 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-registro?
-\end_layout
-
-\end_inset
-
- da decisão
+: Número do registro da decisão
 \end_layout
 
 \begin_layout Quotation
@@ -3223,16 +3203,8 @@ Como escolher o ano de lançamento?
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Procurar por respostas!
-\end_layout
-
-\end_inset
-
-
+Pode-se lançar e fazer alterações de atividades outras apenas para o ano
+ decorrente.
 \end_layout
 
 \end_deeper
@@ -3278,16 +3250,8 @@ Qual a finalidade desta interface?
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Falta informação na descrição da interface!
-\end_layout
-
-\end_inset
-
-
+A interface lista os professores que estão relacionados para exercer atividades
+ com os alunos relacionados com os trabalhos de conclusão de curso.
 \end_layout
 
 \end_deeper
@@ -3417,16 +3381,86 @@ Quais são as restrições para a entrada de cada campo?
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
+Os campos 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-Não identifiquei restrições, checar!
+
+
+\backslash
+cp{Professor}
 \end_layout
 
 \end_inset
 
+ e 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Curso}
+\end_layout
+
+\end_inset
+
+ devem ser preenchidos somente com os valores presentes na lista de cada
+ um, o campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Ano}
+\end_layout
+
+\end_inset
+
+ deve obrigatóriamente mostrar o ano decorrente, os campos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdEquipes}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdHa}
+\end_layout
+
+\end_inset
+
+ e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Observações}
+\end_layout
+
+\end_inset
+
+ não possuem restrições.
 \end_layout
 
 \end_deeper
@@ -3509,6 +3543,7 @@ cp{Remunerado}
 ? Em geral, esta opção é assinalada como verdadeiro ou falso?
 \end_layout
 
+\begin_deeper
 \begin_layout Quotation
 O campo 
 \begin_inset Quotes eld
@@ -3539,6 +3574,7 @@ Caixa em branco
  
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
@@ -3753,8 +3789,7 @@ jn{As Pós-Graduações}
 
 \begin_deeper
 \begin_layout Quotation
-Lista os professores e seus respectivos titulos de mestrado, doutorado e
- entre outros.
+Lista os professores e todas as suas graduações.
 \end_layout
 
 \end_deeper
@@ -3776,16 +3811,7 @@ jn{A Pós-Graduação Maior}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Não soube distinguir!
-\end_layout
-
-\end_inset
-
-
+Relação da maior graduação dos professores.
 \end_layout
 
 \end_deeper
@@ -3807,16 +3833,7 @@ jn{Disciplinas Ministradas}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Vazio
-\end_layout
-
-\end_inset
-
-
+Exibe as diciplinas que cada professor do CEUN-IMT leciona.
 \end_layout
 
 \end_deeper
@@ -3838,16 +3855,8 @@ jn{Habilitações dos Professores}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Não soube identificar!
-\end_layout
-
-\end_inset
-
-
+Mostra a quantidade de horas aula que um professor possui e sua distribuição
+ nas diferentes habilitações.
 \end_layout
 
 \end_deeper
@@ -3869,16 +3878,7 @@ jn{Professores das Habilitações}
 
 \begin_deeper
 \begin_layout Quotation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Não soube identificar!
-\end_layout
-
-\end_inset
-
-
+Lista todas as habilitações e seus respectivos professores.
 \end_layout
 
 \end_deeper
@@ -4144,7 +4144,7 @@ es significados?
 \begin_deeper
 \begin_layout Quotation
 Somente a consulta relacionada a Taxa de Ocupação (Perceba a sinalização
- do lado direito da opção e da consulta).
+ ao lado direito da opção e da consulta).
  Suas opções podem ser:
 \end_layout
 
@@ -4162,7 +4162,7 @@ cp{Teoria}
 
 \end_inset
 
-:
+: Somente aulas de teoria.
 \end_layout
 
 \begin_layout Quotation
@@ -4178,7 +4178,7 @@ cp{Exercícios}
 
 \end_inset
 
-:
+: Somente aulas de exercícios.
 \end_layout
 
 \begin_layout Quotation
@@ -4194,17 +4194,7 @@ cp{Laboratório}
 
 \end_inset
 
-: 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Preencher!
-\end_layout
-
-\end_inset
-
-
+: Somente aulas de laboratório.
 \end_layout
 
 \begin_layout Quotation
@@ -4220,7 +4210,7 @@ cp{Projetos}
 
 \end_inset
 
-:
+: Somente aulas de projetos.
 \end_layout
 
 \begin_layout Quotation
@@ -4236,7 +4226,7 @@ cp{*}
 
 \end_inset
 
-:
+: Todos os tipos de aula.
 \end_layout
 
 \end_deeper
@@ -5075,6 +5065,14 @@ nm{Restrições de Carga}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende do Ano (Aa), Semestre (Ab), Dia (Ac) e Max h.
+ a.
+ TP e HR (Ba).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que são as restrições de carga (carga horária dos professores)?
 \end_layout
@@ -5132,18 +5130,245 @@ nm{Indefinições}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende do Ano (Aa) e Semestre (Ab).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 O que são as indefinições?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Relatórios de indefinições de professores e salas.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais as funções disponibilizadas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Trata-se de uma varredura para encontrar todas as violações das restrições
+ de carga horária.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais as informações apresentadas por cada função e como interpretá-las?
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx 8h-a por Dia Excedido}
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Valores talvez incoerentes devido a aulas compartilhadas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Excede Máx 6h-a Consecutivas}
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Verificar se os valores estão certos, caso afirmativo, contatar os responsáveis.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mín 11h de Descanso Não Atendido}
+\end_layout
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Não Atendido 40h-a TI}
+\end_layout
+
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx 20 h-a AD TI Excedido}
+\end_layout
+
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mín 6 h-a por Semana não atendido}
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Preencher todos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx 38 h-a HR Excedido}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx 38 h-a TP Excedido}
+\end_layout
+
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Janelas Detectadas}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Diferença QtdHa Anos consecutivos}
+\end_layout
+
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Redução QtdHa Anos Consecultivos}
+\end_layout
+
+\end_inset
+
+ :
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
@@ -5166,14 +5391,70 @@ nm{Tabela de Horários de Aula}
 De quais dados de referência dependerão as consultas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Depende do Ano (Aa) e Semestre (Ab).
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Quais as funções disponibilizadas?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Exibição de todas os horários de aulas
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Qual o significado e a interpretação do resultado apresentado por cada uma?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Trata-se se duas tabelas, uma simples e outra expandida e bem arranjada,
+ no qual exibem básicamente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tabela horário simples}
+\end_layout
+
+\end_inset
+
+: Professor, Tronco, GTL, Semestre, Dia, Ano e Horário da aula, Código da
+ disciplina, Sala, Quantidade de Horas aula e se seria uma aula de DP ou
+ não.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tabela horário expandida}
+\end_layout
+
+\end_inset
+
+: Professor, Tronco, GTL, Série, Habilitação, Período, Semestre, Dia, Ano,
+ Horário de início e de fim da aula, Tipo de aula, Código da disciplina,
+ Tipo da disciplina, Sala, Quantidade de Horas aula e se seria uma aula
+ de DP ou não.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 Fazer um comparativo entre estas funções e 
 \begin_inset ERT
@@ -5204,6 +5485,39 @@ jn{Professores}
 .
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+A diferença está na função de construir uma grade horária por parte do campo
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Consulta de Aulas}
+\end_layout
+
+\end_inset
+
+, e de apenas uma consulta aos horários de aula provida por 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nm{Tabela de Horários de Aula}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
@@ -5230,6 +5544,14 @@ a ideia do propósito deste
  recurso?
 \end_layout
 
+\begin_deeper
+\begin_layout Quotation
+Ainda não implementado nesta versão, porém tem-se como ideia principal,
+ uma ferramenta que irá publicar qualquer informação importante para todos
+ os alunos.
+\end_layout
+
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Enumerate
