@@ -1966,6 +1966,64 @@ http://get.adobe.com/br/reader/
 
 \end_layout
 
+\begin_layout Description
+PDFSam
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+PDFSam
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Realiza diversas operações sobre documentos PDF, como mesclar arquivos
+ em um único, separar páginas em arquivos distintos, reordenar e rotacionar
+ páginas.
+ 
+\emph on
+PDFSam
+\emph default
+ significa 
+\emph on
+PDF Split And Merge
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\series medium
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://sourceforge.net/projects/pdfsam/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.pdfsam.org/download/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Manipulação de Arquivos
 \end_layout
