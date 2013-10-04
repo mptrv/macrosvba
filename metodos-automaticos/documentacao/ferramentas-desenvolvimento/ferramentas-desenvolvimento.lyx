@@ -492,6 +492,23 @@ http://www.visual-paradigm.com/product/vpuml
 
 \end_layout
 
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Documentação
 \end_layout
@@ -573,6 +590,23 @@ status collapsed
 \begin_layout Plain Layout
 
 http://www.lyx.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
 \end_layout
 
 \end_inset
@@ -690,6 +724,23 @@ status collapsed
 \begin_layout Plain Layout
 
 http://freemind.sourceforge.net/wiki/index.php/Main_Page
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
 \end_layout
 
 \end_inset
@@ -980,6 +1031,84 @@ http://www.microsoft.com/pt-br/download/details.aspx?id=22985
 
 \end_layout
 
+\begin_layout Description
+Instant
+\begin_inset space ~
+\end_inset
+
+Client
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Instant Client
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Desenvolvido pela 
+\emph on
+Oracle
+\emph default
+.
+ Permite o acesso ao 
+\emph on
+Banco de Dados Oracle
+\emph default
+ via ODBC (
+\emph on
+Open Database Connectivity
+\emph default
+)
+\emph on
+ 
+\emph default
+sem a necessidade de instalar o cliente do banco de dados.
+ Contudo, pode operar em conjunto com o cliente de banco de dados.
+ Ver dicas na seção 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Instant-Client"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://search.oracle.com/search/search?start=1&search_p_main_operator=all&q=instan
+t+client
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Controle de Versão
 \end_layout
@@ -1173,6 +1302,23 @@ http://www.redmine.org/
 
 \end_layout
 
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Virtualização
 \end_layout
@@ -1207,6 +1353,23 @@ status collapsed
 \begin_layout Plain Layout
 
 https://www.virtualbox.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
 \end_layout
 
 \end_inset
@@ -1329,6 +1492,23 @@ status collapsed
 \begin_layout Plain Layout
 
 https://www.libreoffice.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
 \end_layout
 
 \end_inset
@@ -1679,6 +1859,23 @@ http://sourceforge.net/projects/screencapturer/
 
 \end_layout
 
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Rede
 \end_layout
@@ -1712,6 +1909,23 @@ status collapsed
 \begin_layout Plain Layout
 
 http://aquilawol.sourceforge.net/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
 \end_layout
 
 \end_inset
@@ -2024,6 +2238,23 @@ http://www.pdfsam.org/download/
 
 \end_layout
 
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Manipulação de Arquivos
 \end_layout
@@ -2162,6 +2393,23 @@ http://www.freecommander.com/
 
 \end_layout
 
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 CD/DVD
 \end_layout
@@ -2235,6 +2483,23 @@ status collapsed
 \begin_layout Plain Layout
 
 http://www.k3b.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
 \end_layout
 
 \end_inset
@@ -2402,6 +2667,23 @@ status collapsed
 \begin_layout Plain Layout
 
 http://www.freedownloadmanager.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
 \end_layout
 
 \end_inset
@@ -2875,6 +3157,244 @@ tnsnames.ora
 network/ADMIN/
 \family default
  do diretório de instalação do cliente do Banco de Dados Oracle.
+\end_layout
+
+\begin_layout Subsection
+Instant Client
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Instant Client
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Instant-Client"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quanto ao 
+\emph on
+Instant Client 
+\emph default
+com ODBC
+\emph on
+ 
+\emph default
+para o 
+\emph on
+Banco de Dados Oracle 10g
+\emph default
+, operando no 
+\emph on
+Windows 7 64 bits
+\emph default
+ e com o intuito de ser reconhecido pelo 
+\emph on
+Microsoft Access 2010 32 bits
+\emph default
+, os seguintes passos foram tomados para sua instalação, dado que já existe
+ uma versão de 32 bits do cliente de banco de dados:
+\end_layout
+
+\begin_layout Enumerate
+Baixados os pacotes necessários da última versão do 
+\emph on
+Instant Client 
+\emph default
+para o 
+\emph on
+Banco de Dados Oracle 10g
+\emph default
+ e para o 
+\emph on
+Windows 32 bits: 
+\family sans
+\emph default
+instantclient-basic-win32-10.2.0.5.zip
+\family default
+\emph on
+ 
+\emph default
+e 
+\family sans
+instantclient-odbc-win32-10.2.0.5.zip
+\family default
+ em (login necessário e aceitação dos termos de uso da Oracle):
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.oracle.com/technetwork/topics/winsoft-085727.html"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Conforme orientação do próprio roteiro de instalação, descompactados ambos
+ os arquivos num mesmo diretório.
+\begin_inset Newline newline
+\end_inset
+
+No caso, 
+\family sans
+instantclient_10_2
+\family default
+.
+\end_layout
+
+\begin_layout Enumerate
+Copiado o diretório para o diretório 
+\begin_inset Quotes eld
+\end_inset
+
+raiz
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Oracle
+\emph default
+ que continha o cliente de banco de dados instalado.
+\begin_inset Newline newline
+\end_inset
+
+No caso, 
+\family sans
+c:
+\backslash
+oracle.
+\end_layout
+
+\begin_layout Enumerate
+Executado o programa 
+\family sans
+odbc_install.exe
+\family default
+.
+\end_layout
+
+\begin_layout Enumerate
+Ajustada a variável de ambiente do sistema 
+\family sans
+\emph on
+PATH 
+\family default
+\emph default
+para apontar para o diretório que contém o 
+\emph on
+Instant Client
+\emph default
+ instalado.
+ Caso este passo não seja realizado, o driver não poderá ser encontrado.
+\begin_inset Newline newline
+\end_inset
+
+No caso, 
+\family sans
+c:
+\backslash
+oracle
+\backslash
+instantclient_10_2
+\family default
+.
+\end_layout
+
+\begin_layout Enumerate
+Seguidos os passos do tutorial seguinte para configuração, pelo 
+\emph on
+Microsoft Access,
+\emph default
+ de nova conexão com banco de dados por meio de 
+\emph on
+driver
+\emph default
+ ODBC de terceiro:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "http://turingsman.net/my-blog-list/160-part-12-using-ms-access-2010-as-a-frontend-to-oracle-database-11gr2-backend-via-odbc"
+target "http://turingsman.net/my-blog-list/160-part-12-using-ms-access-2010-as-a-frontend-to-oracle-database-11gr2-backend-via-odbc"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Não é necessário criar qualquer arquivo novo do tipo TNS, pois o 
+\emph on
+driver
+\emph default
+, na ausência de tal arquivo, irá utilizar a variável de ambiente 
+\family sans
+\emph on
+ORACLE_HOME
+\family default
+ 
+\emph default
+para procurá-lo.
+ Assim, os nomes definidos para o cliente de banco de dados também serão
+ reconhecidos pelo 
+\emph on
+driver
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+No caso, 
+\family sans
+ORACLE_HOME=C:
+\backslash
+oracle
+\backslash
+product
+\backslash
+10.2.0
+\backslash
+client_1
+\family default
+.
+\begin_inset Newline newline
+\end_inset
+
+O arquivo TNS será procurado em:
+\begin_inset Newline newline
+\end_inset
+
+
+\family sans
+%ORACLE_HOME%
+\backslash
+network
+\backslash
+ADMIN
+\end_layout
+
+\begin_layout Enumerate
+Há orientações complementares no arquivo 
+\family sans
+ODBC_IC_Readme_Win.html
+\family default
+, que acompanha o correspondente pacote.
 \end_layout
 
 \begin_layout Standard
