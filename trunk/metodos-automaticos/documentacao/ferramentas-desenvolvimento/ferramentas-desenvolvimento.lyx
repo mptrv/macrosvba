@@ -3397,6 +3397,36 @@ ODBC_IC_Readme_Win.html
 , que acompanha o correspondente pacote.
 \end_layout
 
+\begin_layout Enumerate
+Como restrição ou no 
+\emph on
+Access
+\emph default
+, ou no 
+\emph on
+driver
+\emph default
+, não pode-se definir um nome de conexão muito extenso.
+ O limite está em torno de 24 caracteres.
+ Caso o nome seja muito extenso, a conexão não será criada e nenhuma mensagem
+ de erro será exibida.
+\end_layout
+
+\begin_layout Enumerate
+No 
+\emph on
+Access
+\emph default
+, não há um mecanismo para excluir ou editar as conexões criadas.
+ Para tanto, deve-se recorrer ao registro do 
+\emph on
+Windows
+\emph default
+.
+ Realizando uma busca com o nome da conexão é suficiente para encontrar
+ o local de sua definição.
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
