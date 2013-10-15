@@ -1,0 +1,1190 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2.5cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color magenta
+Macros para formatação padrão de textos para os manuais de treinamento (a
+ princípio, apenas para CSH).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+mg}[1]{
+\backslash
+textit{``#1''}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Mensagem.
+ Inclui pergunta.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+bt}[1]{
+\backslash
+textit
+\backslash
+textsf{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Botão.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+jn}[1]{
+\backslash
+textit{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Janela.
+ Inclui região e aba.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+nm}[1]{
+\backslash
+textbf{#1}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Nome.
+ Inclui, p.e., nome de relatório.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+cp}[1]{
+\backslash
+textit{``#1''}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Campo.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color magenta
+Fim das macros para formatação padrão de textos para os manuais de treinamento
+ (a princípio, apenas para CSH).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color green
+Definição do cabeçalho personalizado.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\color green
+Fim da definição do cabeçalho personalizado.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Manual do Usuário 
+\begin_inset Quotes eld
+\end_inset
+
+Consulta Sistema Horários
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Apresentação
+\end_layout
+
+\begin_layout Standard
+O módulo 
+\emph on
+Consulta Sistema Horários
+\emph default
+, permite ao usuário, navegar em diversos documentos e relatórios relacionados
+ ao Instituto Mauá de Tecnologia, como, por exemplo, listas presenciais,
+ disponibilidade das salas de aulas, controle da carga horária de cada professor
+, verificação de aspectos previstos em lei ou também em conjunto com o 
+\emph on
+Construção Grade Horária, 
+\emph default
+a elaboração planejada dos horários de todos os cursos oferecidos no 
+\emph on
+campus
+\emph default
+.
+ Desta maneira, o gerenciamento torna-se eficiente, otimizando o tempo de
+ trabalho, tornando-o rápido e eficaz em comparação com métodos antigos.
+\end_layout
+
+\begin_layout Chapter*
+Nota sobre as Versões
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+O 
+\emph on
+Sistema Horário
+\emph default
+ e seus módulos constituintes, entre eles, o 
+\emph on
+Consulta Sistema Horários
+\emph default
+, encontra-se em constante desenvolvimento e atualização.
+ Por este motivo, as imagens contidas aqui ou em algum material externo
+ referenciado, poderão exibir informações de versão diferente da última
+ versão existente dos módulos, ou mesmo, indicar que é uma versão de depuração
+ ao invés de oficial.
+ Contudo, essas diferenças de versão não há de acarretar em prejuízo para
+ o entendimento da operação dos módulos.
+\end_layout
+
+\begin_layout Chapter*
+Sobre Este Manual
+\end_layout
+
+\begin_layout Standard
+O capítulo
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Manual-de-Operação"
+
+\end_inset
+
+ irá abordar o funcionamento e o manuseamento correto deste módulo, de forma
+ que, o usuário ao finaliza-lo, terá compreendido todo o mecanismo, as informaçõ
+es contidas e suas funções.
+ Uma boa leitura e interpretação deste capítulo otimizará o manuseio deste
+ módulo.
+ 
+\begin_inset VSpace bigskip*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "88bp"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/cc-by-sa-88x31.png
+
+\end_inset
+
+
+\begin_inset VSpace 1.25ex
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "70col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Este manual é licenciado sob a 
+\emph on
+Licença Creative Commons Atribuição -- Compartilha Igual 3.0 Não Adaptada,
+ 
+\emph default
+cuja descrição poderá ser acessada em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Manual de Operação
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Manual-de-Operação"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+É muito importante que o usuário de um programa conheça os seus recursos
+ e a correta forma de operá-los.
+ Desta maneira, torna-se possível aproveitar ao máximo a ferramenta disponibiliz
+ada e, porconseguinte, aumentar a eficiência do trabalho.
+ Neste capítulo, são apresentados tais recursos e como operá-los.
+ Ao longo deste material, são utilizadas imagens extraídas do próprio módulo,
+ para melhor demonstrar as funções e localizações de dados importantes,
+ afim de facilitar o aprendizado.
+ É recomendado que o leitor acompanhe a leitura deste manual junto ao software
+ original.
+\end_layout
+
+\begin_layout Section
+Inicio
+\end_layout
+
+\begin_layout Standard
+\noindent
+Este módulo, o 
+\emph on
+Consulta Sistema Horários
+\emph default
+, é um programa que opera sob o 
+\emph on
+Microsoft
+\emph default
+ 
+\emph on
+Access,
+\emph default
+ utilizando como linguagem de programação o VBA (
+\emph on
+Visual Basic for Application
+\emph default
+) e, como interface de usuário, as próprias planilhas do aplicativo e formulário
+s internos.
+\end_layout
+
+\begin_layout Standard
+\noindent
+O desenvolvimento atual e os correspondentes testes utilizam a versão 2010
+ do 
+\emph on
+Access
+\emph default
+.
+ Na versão 2007, alguns recursos poderão não operar corretamente ou não
+ se apresentarem disponíveis.
+ Em versões anteriores à de 2007, não espera-se que o programa funcione.
+ Em versões posteriores, espera-se que funcione, mas não de forma garantida.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Em resumo:
+\end_layout
+
+\begin_layout Quotation
+
+\series bold
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+A operação do programa dá-se sob o 
+\emph default
+Microsoft Access 2010
+\emph on
+, no qual diversos testes são realizados e garante-se o adequado funcionamento.
+ Em versões anteriores ou posteriores, não são realizados testes e, por
+ isso, não se garante o correto funcionamento.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Acesso ao Módulo
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Acesso-ao-módulo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Para acessar o módulo de trabalho, uma vez executada a instalação padrão,
+ deve-se localizar a pasta 
+\family sans
+Métodos Automáticos/macros
+\series default
+/
+\family default
+\series medium
+, dentro da pasta 
+\family sans
+Documentos 
+\family default
+do 
+\emph on
+Windows
+\series default
+\emph default
+, e abrir o arquivo 
+\noun on
+consulta-sistema-horarios-oficial.accdr
+\noun default
+.
+\end_layout
+
+\begin_layout Subsection
+Tela inicial
+\end_layout
+
+\begin_layout Standard
+Ao iniciar o módulo, da maneira apresentada anteriormente, fará com que
+ seja carregado uma interface de entrada, nela pode-se observar o título,
+ a versão atual e três botões, como na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Tela-Inicial"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/csh_tela_inicial.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tela Inicial 
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tela-Inicial"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Perceba que a única maneira de fechar o programa é pelo botão 
+\emph on
+Sair
+\emph default
+, uma vez que o botão 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+X
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ da janela do Access está desabilitado.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Para acessar a interface de gerenciamento, deve-se clicar no botão 
+\emph on
+Gerenciador Principal
+\emph default
+, nela, está contido todos os recursos oferecidos pelo 
+\emph on
+Consulta Sistema Horários.
+ 
+\emph default
+Falaremos em detalhes o funcionamento deste módulo no tópico seguinte.
+\end_layout
+
+\begin_layout Subsection
+Gerenciador Principal
+\end_layout
+
+\begin_layout Standard
+Este menu permite o acesso a todas as funções disponibilizadas por este
+ módulo, veja a seguir a Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Gerenciador-Principal"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/csh_gerenciador_principal.png
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Gerenciador Principal
+\emph default
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Gerenciador-Principal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+As regiões desta interface podem ser subdivididas em, 
+\emph on
+Dados de Referência, Relatórios Rápidos 
+\emph default
+e 
+\emph on
+Consultas.
+ 
+\emph default
+Para sair e retornar a tela inicial, basta clicar no botão fechar localizado
+ na parte inferior.
+\end_layout
+
+\begin_layout Subsubsection
+Dados de Referência
+\end_layout
+
+\begin_layout Standard
+\noindent
+A seleção de informações a fim de filtrar resultados, comprime o tempo gasto
+ para localizar dados específicos; no caso, os 
+\emph on
+Dados de Referência 
+\emph default
+permitem escolher diversos parâmentros com este propósito, tais como 
+\emph on
+Ano, Período, Data 
+\emph default
+localizados na aba Data, 
+\emph on
+Máx h.
+ a.
+ TP e HR e período 
+\emph default
+na aba Outros, e por fim o 
+\emph on
+campus
+\emph default
+ de atuação dos professores, referente a aba Atuação.
+ Todos estes campos são ilustrados na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Dados-de-referência"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/csh_dadosreferencia_datas.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/csh_dadosreferencia_outros.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/csh_dadosreferencia_atuaçao.png
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Dados de referência 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dados-de-referência"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Antes de detalharmos cada um dos itens especificados acima, deve-se ter
+ em mente o significado dos prefixos localizados ao final de cada informação,
+ veja o exemplo como mostra a figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Prefixos"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/csh_dadosreferencia_data_prefixo.png
+	height 4cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Prefixos 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Prefixos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Tais prefixos sugerem que cada campo possui uma identificação, ou seja,
+ um nome ou identidade que será de grande utilidade quando estudarmos a
+ região 
+\emph on
+Consultas, 
+\emph default
+por enquanto, lembre-se somente de sua definição.
+ Entraremos em detalhes agora com relação a função das abas:
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+Data:
+\end_layout
+
+\begin_layout Standard
+Está aba relaciona justamente a data no qual será utilizada como referência,
+ na hora em que for gerado um relatório (Ver seção Consultas), dentre as
+ opções, pode-se definir o Ano, Semestre e o dia.
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+Outros:
+\end_layout
+
+\begin_layout Standard
+Máx h.a TP e HR é um campo de significado, 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Máximo de horas aula em Tempo Integral e Horistas
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, ele nos permite estabelecer um parâmetro importante, podendo variar de
+ 6 a 40h.a, é utilizado frequentemente em relatórios de lista de professores,
+ por exemplo.
+ Está aba também possui um campo chamado período, podendo-se escolher entre
+ diurno e noturno, para tal alteração, perceba que com um duplo clique em
+ cima do campo é possível alterna-lo entre 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+D
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ e 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+N
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+\noindent
+Atuação:
+\end_layout
+
+\begin_layout Standard
+A área de trabalho dos professores podem ser 
+\end_layout
+
+\begin_layout Subsubsection
+Relatórios Rápidos
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_relatoriosrapidos.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Relatórios Rápidos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Consultas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/csh_consultas.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Consultas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Professores
+\end_layout
+
+\begin_layout Subsubsection
+Lista de presenca
+\end_layout
+
+\begin_layout Subsubsection
+Lista Dia
+\end_layout
+
+\begin_layout Subsubsection
+PPC
+\end_layout
+
+\begin_layout Subsubsection
+Cargas Horárias 
+\end_layout
+
+\begin_layout Subsubsection
+Licenças
+\end_layout
+
+\begin_layout Subsubsection
+Outras Relações
+\end_layout
+
+\begin_layout Subsubsection
+Convocações
+\end_layout
+
+\begin_layout Subsubsection
+Atualizar TP e HR
+\end_layout
+
+\begin_layout Subsection
+Disciplinas
+\end_layout
+
+\begin_layout Subsection
+Salas
+\end_layout
+
+\begin_layout Subsubsection
+Ocupação das Salas
+\end_layout
+
+\begin_layout Subsubsection
+Disponibilidade das Salas
+\end_layout
+
+\begin_layout Subsection
+Horários de Aula
+\end_layout
+
+\begin_layout Subsubsection
+Encontrar Superposições
+\end_layout
+
+\begin_layout Subsubsection
+Restrições de Carga 
+\end_layout
+
+\begin_layout Subsubsection
+Indefinições
+\end_layout
+
+\begin_layout Subsubsection
+Tabela de Horários de Aulas
+\end_layout
+
+\begin_layout Subsection
+CEUN
+\end_layout
+
+\begin_layout Subsection
+CPA
+\end_layout
+
+\end_body
+\end_document
