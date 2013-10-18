@@ -879,7 +879,7 @@ name "fig:Dados-de-referência"
 
 \begin_layout Standard
 \noindent
-Antes de detalharmos cada um dos itens especificados acima, deve-se ter
+Antes de detalhar-se cada um dos itens especificados acima, deve-se ter
  em mente o significado dos prefixos localizados ao final de cada informação,
  veja o exemplo como mostra a figura 
 \begin_inset CommandInset ref
@@ -936,13 +936,20 @@ name "fig:Prefixos"
 \begin_layout Standard
 \noindent
 Tais prefixos sugerem que cada campo possui uma identificação, ou seja,
- um nome ou identidade que será de grande utilidade quando estudarmos a
- região 
+ um nome ou identidade que será de grande utilidade quando for abordado
+ a região 
 \emph on
 Consultas, 
 \emph default
-por enquanto, lembre-se somente de sua definição.
- Entraremos em detalhes agora com relação a função das abas:
+por enquanto, deve-se gravar somente de sua definição.
+ Por agora, será abordado em detalhes o significado das abas da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dados-de-referência"
+
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Paragraph
@@ -974,8 +981,8 @@ Máximo de horas aula em Tempo Integral e Horistas
 
 
 \emph default
-, ele nos permite estabelecer um parâmetro importante, podendo variar de
- 6 a 40h.a, é utilizado frequentemente em relatórios de lista de professores,
+, ele permite estabelecer um parâmetro importante, podendo variar de 6 a
+ 40h.a, é utilizado frequentemente em relatórios de lista de professores,
  por exemplo.
  Está aba também possui um campo chamado período, podendo-se escolher entre
  diurno e noturno, para tal alteração, perceba que com um duplo clique em
@@ -1010,11 +1017,34 @@ Atuação:
 \end_layout
 
 \begin_layout Standard
-A área de trabalho dos professores podem ser 
+Devido ao fato de o Instituto Mauá de Técnologia possuir dois campus, é
+ necessário que seja realizado uma seleção para a geração de um relatório,
+ dentre as opções, pode-se escolher entre 
+\emph on
+São Caetano do Sul 
+\emph default
+e 
+\emph on
+São Paulo
+\emph default
+, também está disponível a opção de professores de pós graduação ou todas
+ as opções relacionadas.
 \end_layout
 
 \begin_layout Subsubsection
 Relatórios Rápidos
+\end_layout
+
+\begin_layout Standard
+Relatórios usados frequentemente ficarão a disposição, como um atalho, nesta
+ região, como mostra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Relatórios-Rápidos"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1043,6 +1073,13 @@ status collapsed
 
 \emph on
 Relatórios Rápidos
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relatórios-Rápidos"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1061,6 +1098,18 @@ Relatórios Rápidos
 
 \begin_layout Subsubsection
 Consultas
+\end_layout
+
+\begin_layout Standard
+Nesta região, estão localizadas as diversas consultas que podem ser realizadas,
+ veja (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Consultas"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -1090,6 +1139,13 @@ status collapsed
 
 \emph on
 Consultas
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Consultas"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1106,12 +1162,455 @@ Consultas
 
 \end_layout
 
+\begin_layout Enumerate
+Professores: Permite que o usuário consulte informações relacionada aos
+ professores, sendo elas:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lista de Presença}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lista Dia}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{PPC}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Cargas Horárias}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Licenças}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Outras Relações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Atualizar TP e HR}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Diciplinas: Realiza consultas referentes as diciplinas do instituto.
+\emph on
+e
+\end_layout
+
+\begin_layout Enumerate
+Salas: Permite a realização de uma busca, referente a:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Ocupação das salas}
+\end_layout
+
+\end_inset
+
+
+\emph on
+e
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Disponibilidade das salas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Horários de Aulas: O usuário poderá consultar informações relacionada aos
+ horários de aulas, sendo as opções:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Superposições}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Restrição de carga}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Indefinições}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tabela de horários de aula}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+CEUN: Permite que o usuário consulte informações relacionada a estatísticas
+ do CEUN.
+\end_layout
+
+\begin_layout Standard
+Será apresentado nos tópicos seguintes, a descrição detalhada do funcionamento
+ de cada aba relacionada anteriormente.
+ A sua leitura é fundamental para a compreenção do software e suas aplicações.
+\end_layout
+
 \begin_layout Subsection
 Professores
 \end_layout
 
 \begin_layout Subsubsection
-Lista de presenca
+Lista de presença
+\end_layout
+
+\begin_layout Standard
+Antes de iniciar a explicação desta seção, é importante relembrar o significado
+ dos prefixos encontrados nos 
+\emph on
+Dados de Referência
+\emph default
+, no caso, observe na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Lista-de-Presença"
+
+\end_inset
+
+ a área em destaque.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_consulta_lista_de_presença.png
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Lista de Presença
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Lista-de-Presença"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cada abreviação corresponde a cada uma das opções encontradas na região
+ 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Dados de Referencia
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, observe que a primeira letra procura identificar a qual aba está se referindo
+ e a segunda letra indica a opção, por exemplo, Aa é uma forma de indicar
+ que esta trabalhando-se com a aba 
+\begin_inset Quotes eld
+\end_inset
+
+A
+\begin_inset Quotes erd
+\end_inset
+
+ (Data) e a opção 
+\begin_inset Quotes eld
+\end_inset
+
+a
+\begin_inset Quotes erd
+\end_inset
+
+ Ano , do mesmo modo que Bb indica que esta trabalhando-se com a aba 
+\begin_inset Quotes eld
+\end_inset
+
+B
+\begin_inset Quotes erd
+\end_inset
+
+ (Outros) e a opção 
+\begin_inset Quotes eld
+\end_inset
+
+b
+\begin_inset Quotes erd
+\end_inset
+
+ Período.
+ A consulta, no caso da 
+\emph on
+Lista de Presença
+\emph default
+, necessita das informações: Ano (Aa), Semestre (Ab), Dia (Ac), Período
+ (Bb) e Atuação (Ca).
+\end_layout
+
+\begin_layout Standard
+Ao clicar no botão 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Lista de Presença para o Dia Selecionado
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\emph default
+uma lista será gerada, de acordo com as informações selecionadas na região
+ 
+\emph on
+Dados de Referência, 
+\emph default
+e uma nova aba se abrirá, semelhante a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Lista-de-Presença_gerada"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_exemplo_lista_de_presença.png
+	width 80text%
+	height 40pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Lista de Presença Gerada
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Lista-de-Presença_gerada"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
