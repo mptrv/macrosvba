@@ -659,7 +659,17 @@ name "fig:Tela-Inicial"
 
 \begin_layout Standard
 \noindent
-Perceba que a única maneira de fechar o programa é pelo botão 
+Para acessar a interface de gerenciamento, deve-se clicar no botão 
+\emph on
+Gerenciador Principal
+\emph default
+, nela, está contido todos os recursos oferecidos pelo 
+\emph on
+Consulta Sistema Horários.
+ 
+\emph default
+Falaremos em detalhes o funcionamento deste módulo no tópico seguinte.
+ Perceba que a única maneira de fechar o programa é pelo botão 
 \emph on
 Sair
 \emph default
@@ -677,20 +687,6 @@ X
 
  da janela do Access está desabilitado.
  
-\end_layout
-
-\begin_layout Standard
-\noindent
-Para acessar a interface de gerenciamento, deve-se clicar no botão 
-\emph on
-Gerenciador Principal
-\emph default
-, nela, está contido todos os recursos oferecidos pelo 
-\emph on
-Consulta Sistema Horários.
- 
-\emph default
-Falaremos em detalhes o funcionamento deste módulo no tópico seguinte.
 \end_layout
 
 \begin_layout Subsection
@@ -897,7 +893,7 @@ reference "fig:Prefixos"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -941,7 +937,7 @@ Tais prefixos sugerem que cada campo possui uma identificação, ou seja,
 \emph on
 Consultas, 
 \emph default
-por enquanto, deve-se gravar somente de sua definição.
+por enquanto, deve-se gravar somente a sua definição.
  Por agora, será abordado em detalhes o significado das abas da Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1117,7 +1113,7 @@ reference "fig:Consultas"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1283,8 +1279,6 @@ cp{Atualizar TP e HR}
 \end_deeper
 \begin_layout Enumerate
 Diciplinas: Realiza consultas referentes as diciplinas do instituto.
-\emph on
-e
 \end_layout
 
 \begin_layout Enumerate
@@ -1306,8 +1300,6 @@ cp{Ocupação das salas}
 \end_inset
 
 
-\emph on
-e
 \end_layout
 
 \begin_layout Enumerate
@@ -1423,7 +1415,7 @@ Antes de iniciar a explicação desta seção, é importante relembrar o signifi
 \emph on
 Dados de Referência
 \emph default
-, no caso, observe na 
+ (ver seção 1.1.3.1), no caso, observe na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Lista-de-Presença"
@@ -1548,19 +1540,119 @@ Lista de Presença para o Dia Selecionado
 
 , 
 \emph default
-uma lista será gerada, de acordo com as informações selecionadas na região
- 
+uma lista começará a ser gerada, de acordo com as informações selecionadas
+ na região 
 \emph on
-Dados de Referência, 
+Dados de Referência
 \emph default
-e uma nova aba se abrirá, semelhante a 
+.
+ Durante o processamento, o sistema irá perguntar se a lista é de atrasou
+ ou não, como mostra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Janela-de-atraso"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_atraso_lista_de_presença.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Janela de atraso
+\emph default
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Janela-de-atraso"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este campo inclui uma informação adicional em sua lista, como será visto
+ adiante, pode-se inserir no campo as respostas 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Sim
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph default
+ou 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Não
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+ Uma lista gerada com sucesso apresentará as caracteristicas mostradas na
+ 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Lista-de-Presença_gerada"
 
 \end_inset
 
-
+, os perídos 
+\emph on
+Diurno 
+\emph default
+e 
+\emph on
+Noturno
+\emph default
+ ou 
+\emph on
+sábados
+\emph default
+ diferem de alguns detalhes quanto suas listas.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1575,7 +1667,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_exemplo_lista_de_presença.png
-	width 80text%
+	width 100text%
 	height 40pheight%
 
 \end_inset
@@ -1604,6 +1696,189 @@ name "fig:Lista-de-Presença_gerada"
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A lista representada acima possui o parâmetro de atraso com valor 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Não
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\emph default
+a diferença está ilustrada na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Ilustração-com-sem-atraso"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_lista_dia_com_atraso.png
+	height 4cm
+
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/csh_lista_dia_sem_atraso.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Lista com atraso e sem atraso, respectivamente.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ilustração-com-sem-atraso"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No caso de uma lista para o campus São Paulo no período diurno, como não
+ há uma lista de presença, automaticamente o sistema irá recorrer a um preenchim
+ento de uma nova lista.
+ A recomendação é elaborar uma nova grade horária ou deixar todas as opções
+ em branco, note que caso deixe em branco, a lista não será gerada.
+\end_layout
+
+\begin_layout Standard
+Após formatada a lista desejada, caso o usuário queira imprimi-la, deve-se
+ então localizar no canto superior esquerdo, o botão chamado 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Imprimir
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ conforme a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Botão-de-Imprimir"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_imprimir.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Botão de Imprimir 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Botão-de-Imprimir"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
 
 \end_layout
@@ -1617,12 +1892,904 @@ name "fig:Lista-de-Presença_gerada"
 Lista Dia
 \end_layout
 
+\begin_layout Standard
+Este recurso possui três funções distintas (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Lista-Dia"
+
+\end_inset
+
+), todas elas dependem do Ano (Aa) e do Semestre (Ab).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_lista_dia.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Lista Dia
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Lista-Dia"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+A 
+\emph on
+Lista Dia Completa
+\emph default
+:
+\end_layout
+
+\begin_layout Standard
+Dentre as informações apresentadas pela lista, temos: 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Tabela
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+-Professor (Nome)
+\end_layout
+
+\begin_layout Standard
+-Disc.
+ (Nome da Disciplina)
+\end_layout
+
+\begin_layout Standard
+-QtdHa (Quantidade de horas aula)
+\end_layout
+
+\begin_layout Standard
+-Tipo (Teoria/Lab/Exercícios)
+\end_layout
+
+\begin_layout Standard
+-Série (1,2,3,4,5 ou 6)
+\end_layout
+
+\begin_layout Standard
+-Habilitação (PM, ET, EL, MC...)
+\end_layout
+
+\begin_layout Standard
+-GLT (Grupo Turma Laboratório)
+\end_layout
+
+\begin_layout Standard
+Note que as linhas que possuem cores diferentes correspondem a qual habilitação
+ a aula representa, por exemplo: Amarelo (Administração), Verde (Gestão),
+ Laranja (Design) e as demais Engenharia.
+\end_layout
+
+\begin_layout Paragraph
+O 
+\emph on
+Dia em que o professor está na escola
+\emph default
+:
+\end_layout
+
+\begin_layout Standard
+Este recurso irá gerar um documento com as seguintes caracteristicas, conforme
+ mostra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Dia-em-que-prof-esta-escola"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_exemplo_dia_prof_escola.png
+	height 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Dia em que o professor está na escola.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dia-em-que-prof-esta-escola"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A representação acima mostra que o professor Afonso estará no Instituto
+ Mauá de Tecnologia nos dias exibidos, note que professores grifados em
+ cores diferentes são professores de habilitações diferentes da engenharia,
+ sendo Amarelo (Administração), Verde (Gestão) e Laranja (Design), como
+ no caso do 
+\emph on
+Lista Dia Completa
+\emph default
+.
+\end_layout
+
+\begin_layout Paragraph
+Os 
+\emph on
+Horários dos dias em quais o professor está em aula
+\emph default
+:
+\end_layout
+
+\begin_layout Standard
+A 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Horários-dos-dias-prof-em-aula-1"
+
+\end_inset
+
+ mostra as informações contidas no relatório.
+ Este tem como função exibir os horários de aula dos professores do IMT,
+ ele contém: Nome do professor, Sala, Horário e Quantidade de horas aula.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_lista_dia_exemplo_prof_em_aula.png
+	width 95text%
+	height 4cm
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Horários dos dias em quais o professor está em aula.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Horários-dos-dias-prof-em-aula-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 PPC
 \end_layout
 
-\begin_layout Subsubsection
-Cargas Horárias 
+\begin_layout Standard
+O 
+\emph on
+PPC
+\emph default
+, ou Plano Pedagógico de Curso, está com seu leiaute mostrado na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:PPC-1"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_PPC.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+PPC
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PPC-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este recurso permite visualizar todos os professores relacionados ao plano
+ pedagócico de um curso específico, gerando uma tabela em Excel.
+ Pelo fato de cada planilha conter muitas informações, a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Tabela-de-PPC-1"
+
+\end_inset
+
+ fascilitará o entendimento de cada informação contida no relatório:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="21" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="30text%">
+<column alignment="left" valignment="middle" width="70text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Nome
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Professor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Nome do professor
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Título_PG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Título de pós-graduação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Área_PG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Área de atuação relacionado a pós-graduação (Eng., Gestão, Design..)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Concentração_PG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Concentração da pós-graduação (Eng.
+ de produção, Eng.
+ elétrica..)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Instituição_PG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Instituição aonde concluiu a pós-graduação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Ano_PG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Ano de obtenção do título de pós-graduação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Títulos_GD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Título de graduação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Área_GD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Área de graduação (Engenharia, Gestão, Design...)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+IESs_Países_GD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Instituição e o país aonde concluiu a graduação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Ano_GD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Ano de obtenção do título de graduação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+ExpTot_Mag_Sup
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Experiência total de magistrado
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Exp_Mag_IMT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Experiência de magistrado adquirido no IMT
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Ano_Adms_IMT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Ano de admissão no Instituto Mauá de Tecnologia
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+IMT_Regime
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Tipo de regime do professor (TI, TP, HR)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+TotHaIMT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Total de horas no IMT
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+TotADHab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Total de horas aula em atividades didáticas na habilitação escolhida
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+ToADOutras
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Total de horas na função de atividades outras
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+TotOutrasComTG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Total de horas na função de professor orientador de TCCs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+TotTGHab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Total de horas aula em trabalhos de conclusão de curso na habilitação escolhida
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Nome_Abr_Disciplinas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Nome abreviado das disciplinas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tabela de PPC
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabela-de-PPC-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1683,6 +2850,10 @@ CEUN
 
 \begin_layout Subsection
 CPA
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
