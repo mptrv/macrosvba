@@ -53,11 +53,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 361918690 "Mariane" 
 \end_header
 
 \begin_body
@@ -293,6 +294,71 @@ thispagestyle{empty}
 \end_inset
 
 
+\change_inserted 361918690 1382614191
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 361918690 1382614193
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382614197
+Victor, 
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382614253
+Como combinamos, fiz uma revisão no que escreveu, utilizei o modo 
+\begin_inset Quotes eld
+\end_inset
+
+registrar alterações
+\begin_inset Quotes erd
+\end_inset
+
+ como o Trevizan disse, se voce entrar pelo contorno consegue ir direto
+ onde alterei e estará marcado em azul.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382614362
+Use a nova linha de opções que está aparecendo ou então Documento>Alterar
+ Registro>...
+ para aceitá-las ou rejeitá-las.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382614339
+Algumas observações coloquei em notas, pra ficar claro que não fazem parte
+ do texto.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382614343
+Até terça!
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382614344
+Mariane
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Title
@@ -345,6 +411,10 @@ Nota sobre as Versões
 O 
 \emph on
 Sistema Horário
+\change_inserted 361918690 1382612814
+s
+\change_unchanged
+
 \emph default
  e seus módulos constituintes, entre eles, o 
 \emph on
@@ -492,7 +562,13 @@ ada e, porconseguinte, aumentar a eficiência do trabalho.
 \end_layout
 
 \begin_layout Section
-Inicio
+In
+\change_inserted 361918690 1382612896
+í
+\change_deleted 361918690 1382612895
+i
+\change_unchanged
+cio
 \end_layout
 
 \begin_layout Standard
@@ -501,7 +577,11 @@ Este módulo, o
 \emph on
 Consulta Sistema Horários
 \emph default
-, é um programa que opera sob o 
+,
+\change_deleted 361918690 1382612911
+ é um programa que
+\change_unchanged
+ opera sob o 
 \emph on
 Microsoft
 \emph default
@@ -599,9 +679,25 @@ Tela inicial
 \end_layout
 
 \begin_layout Standard
-Ao iniciar o módulo, da maneira apresentada anteriormente, fará com que
- seja carregado uma interface de entrada, nela pode-se observar o título,
- a versão atual e três botões, como na 
+Ao iniciar o módulo, da maneira apresentada anteriormente,
+\change_deleted 361918690 1382613003
+ fará com que seja carregado
+\change_inserted 361918690 1382613007
+será carregada
+\change_unchanged
+ uma interface de entrada
+\change_inserted 361918690 1382613024
+ e
+\change_deleted 361918690 1382613024
+,
+\change_unchanged
+ nela pode
+\change_inserted 361918690 1382613030
+rá
+\change_deleted 361918690 1382613029
+-se
+\change_unchanged
+ observar o título, a versão atual e três botões, como na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Tela-Inicial"
@@ -663,7 +759,13 @@ Para acessar a interface de gerenciamento, deve-se clicar no botão
 \emph on
 Gerenciador Principal
 \emph default
-, nela, está contido todos os recursos oferecidos pelo 
+, nel
+\change_inserted 361918690 1382613054
+e
+\change_deleted 361918690 1382613053
+a,
+\change_unchanged
+ está contido todos os recursos oferecidos pelo 
 \emph on
 Consulta Sistema Horários.
  
@@ -695,7 +797,13 @@ Gerenciador Principal
 
 \begin_layout Standard
 Este menu permite o acesso a todas as funções disponibilizadas por este
- módulo, veja a seguir a Figura 
+ módulo, veja a seguir a 
+\change_deleted 361918690 1382613099
+F
+\change_inserted 361918690 1382613100
+f
+\change_unchanged
+igura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Gerenciador-Principal"
@@ -772,8 +880,13 @@ Dados de Referência
 
 \begin_layout Standard
 \noindent
-A seleção de informações a fim de filtrar resultados, comprime o tempo gasto
- para localizar dados específicos; no caso, os 
+A seleção de informações a fim de filtrar resultados, 
+\change_inserted 361918690 1382613141
+diminui/otimiza
+\change_deleted 361918690 1382613135
+comprime
+\change_unchanged
+ o tempo gasto para localizar dados específicos; no caso, os 
 \emph on
 Dados de Referência 
 \emph default
@@ -956,7 +1069,29 @@ Data:
 \begin_layout Standard
 Está aba relaciona justamente a data no qual será utilizada como referência,
  na hora em que for gerado um relatório (Ver seção Consultas), dentre as
- opções, pode-se definir o Ano, Semestre e o dia.
+ opções, pode-se definir o Ano, Semestre e o dia
+\change_inserted 361918690 1382613262
+ 
+\change_deleted 361918690 1382613267
+.
+\change_inserted 361918690 1382613267
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382613267
+(ou todos em maíusculo, ou todos em minúsculo, não sei qual é melhor).
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Paragraph
@@ -977,12 +1112,44 @@ Máximo de horas aula em Tempo Integral e Horistas
 
 
 \emph default
-, ele permite estabelecer um parâmetro importante, podendo variar de 6 a
- 40h.a, é utilizado frequentemente em relatórios de lista de professores,
- por exemplo.
- Está aba também possui um campo chamado período, podendo-se escolher entre
- diurno e noturno, para tal alteração, perceba que com um duplo clique em
- cima do campo é possível alterna-lo entre 
+, ele permite estabelecer um parâmetro importante
+\change_deleted 361918690 1382613472
+,
+\change_inserted 361918690 1382613474
+ e
+\change_unchanged
+ pode
+\change_deleted 361918690 1382613478
+ndo
+\change_unchanged
+ variar de 6 a 40h.a
+\change_inserted 361918690 1382613486
+.
+\change_deleted 361918690 1382613485
+,
+\change_unchanged
+ 
+\change_deleted 361918690 1382613513
+é utilizado f
+\change_inserted 361918690 1382613514
+F
+\change_unchanged
+requentemente
+\change_inserted 361918690 1382613525
+ é utilizado para geração de
+\change_deleted 361918690 1382613527
+ em 
+\change_unchanged
+relatórios de lista de professores, por exemplo.
+ Está aba também possui um campo
+\change_deleted 361918690 1382613294
+ chamado
+\change_inserted 361918690 1382613549
+de
+\change_unchanged
+ período, podendo-se escolher entre diurno e noturno, para tal alteração,
+ perceba que com um duplo clique em cima do campo é possível alterna-lo
+ entre 
 \emph on
 
 \begin_inset Quotes eld
@@ -993,7 +1160,11 @@ D
 \end_inset
 
 
+\change_inserted 361918690 1382613571
+
 \emph default
+(diurno)
+\change_unchanged
  e 
 \emph on
 
@@ -1004,6 +1175,14 @@ N
 \begin_inset Quotes erd
 \end_inset
 
+
+\change_inserted 361918690 1382613578
+
+\emph default
+(noturno)
+\change_unchanged
+
+\emph on
 .
 \end_layout
 
@@ -1048,7 +1227,7 @@ reference "fig:Relatórios-Rápidos"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1629,7 +1808,25 @@ Não
 \end_inset
 
 
+\change_inserted 361918690 1382613804
+
 \emph default
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382613804
+cite se é necessario o acento talvez?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
 .
  Uma lista gerada com sucesso apresentará as caracteristicas mostradas na
  
@@ -1651,7 +1848,21 @@ Noturno
 \emph on
 sábados
 \emph default
- diferem de alguns detalhes quanto suas listas.
+ diferem de algu
+\change_deleted 361918690 1382613861
+ns detalhes 
+\change_inserted 361918690 1382613864
+mas formatações
+\change_unchanged
+quanto
+\change_deleted 361918690 1382613866
+ su
+\change_unchanged
+as listas
+\change_inserted 361918690 1382613870
+ geradas
+\change_unchanged
+.
  
 \end_layout
 
@@ -1722,6 +1933,24 @@ reference "fig:Ilustração-com-sem-atraso"
 \end_inset
 
 .
+\change_inserted 361918690 1382613895
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382613904
+Qual a diferença?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1809,8 +2038,14 @@ name "fig:Ilustração-com-sem-atraso"
 
 \begin_layout Standard
 No caso de uma lista para o campus São Paulo no período diurno, como não
- há uma lista de presença, automaticamente o sistema irá recorrer a um preenchim
-ento de uma nova lista.
+ 
+\change_inserted 361918690 1382613926
+existe
+\change_deleted 361918690 1382613915
+há
+\change_unchanged
+ uma lista de presença, automaticamente o sistema irá recorrer a um preenchiment
+o de uma nova lista.
  A recomendação é elaborar uma nova grade horária ou deixar todas as opções
  em branco, note que caso deixe em branco, a lista não será gerada.
 \end_layout
@@ -1952,14 +2187,19 @@ name "fig:Lista-Dia"
 
 \end_layout
 
-\begin_layout Paragraph
-A 
+\begin_layout Enumerate
+
+\change_deleted 361918690 1382613964
+A
+\change_unchanged
+ 
 \emph on
 Lista Dia Completa
 \emph default
 :
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 Dentre as informações apresentadas pela lista, temos: 
 \begin_inset Note Note
@@ -2009,7 +2249,8 @@ Note que as linhas que possuem cores diferentes correspondem a qual habilitaçã
  Laranja (Design) e as demais Engenharia.
 \end_layout
 
-\begin_layout Paragraph
+\end_deeper
+\begin_layout Enumerate
 O 
 \emph on
 Dia em que o professor está na escola
@@ -2017,6 +2258,7 @@ Dia em que o professor está na escola
 :
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 Este recurso irá gerar um documento com as seguintes caracteristicas, conforme
  mostra a 
@@ -2091,7 +2333,8 @@ Lista Dia Completa
 .
 \end_layout
 
-\begin_layout Paragraph
+\end_deeper
+\begin_layout Enumerate
 Os 
 \emph on
 Horários dos dias em quais o professor está em aula
@@ -2099,6 +2342,7 @@ Horários dos dias em quais o professor está em aula
 :
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 A 
 \begin_inset CommandInset ref
@@ -2159,6 +2403,7 @@ name "fig:Horários-dos-dias-prof-em-aula-1"
 
 \end_layout
 
+\end_deeper
 \begin_layout Subsubsection
 PPC
 \end_layout
@@ -2168,7 +2413,13 @@ O
 \emph on
 PPC
 \emph default
-, ou Plano Pedagógico de Curso, está com seu leiaute mostrado na 
+, ou Plano Pedagógico de Curso, está com seu
+\change_deleted 361918690 1382614073
+ leiaute
+\change_inserted 361918690 1382614075
+layout
+\change_unchanged
+ mostrado na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:PPC-1"
@@ -2679,7 +2930,15 @@ ToADOutras
 \begin_layout Plain Layout
 
 \size small
-Total de horas na função de atividades outras
+Total de horas na função de
+\change_deleted 361918690 1382614154
+ atividades 
+\change_unchanged
+outras
+\change_inserted 361918690 1382614160
+ atividades
+\change_unchanged
+
 \end_layout
 
 \end_inset
