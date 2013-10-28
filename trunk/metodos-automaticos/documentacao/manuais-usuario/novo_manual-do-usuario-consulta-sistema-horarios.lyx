@@ -26,7 +26,16 @@
 \index_command default
 \paperfontsize 12
 \spacing onehalf
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry true
 \use_amsmath 1
@@ -373,6 +382,31 @@ Consulta Sistema Horários
 
 \end_layout
 
+\begin_layout Standard
+
+\change_inserted 361918690 1382954650
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382954662
+Inseri o índice já.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter*
 Apresentação
 \end_layout
@@ -425,8 +459,16 @@ Consulta Sistema Horários
  referenciado, poderão exibir informações de versão diferente da última
  versão existente dos módulos, ou mesmo, indicar que é uma versão de depuração
  ao invés de oficial.
- Contudo, essas diferenças de versão não há de acarretar em prejuízo para
- o entendimento da operação dos módulos.
+ Contudo, essa
+\change_deleted 361918690 1382954250
+s
+\change_unchanged
+ diferença
+\change_deleted 361918690 1382954253
+s
+\change_unchanged
+ de versão não há de acarretar em prejuízo para o entendimento da operação
+ dos módulos.
 \end_layout
 
 \begin_layout Chapter*
@@ -448,7 +490,13 @@ reference "chap:Manual-de-Operação"
  irá abordar o funcionamento e o manuseamento correto deste módulo, de forma
  que, o usuário ao finaliza-lo, terá compreendido todo o mecanismo, as informaçõ
 es contidas e suas funções.
- Uma boa leitura e interpretação deste capítulo otimizará o manuseio deste
+ 
+\change_inserted 361918690 1382954294
+
+\end_layout
+
+\begin_layout Standard
+Uma boa leitura e interpretação deste capítulo otimizará o manuseio deste
  módulo.
  
 \begin_inset VSpace bigskip*
@@ -679,9 +727,9 @@ Tela inicial
 \end_layout
 
 \begin_layout Standard
-Ao iniciar o módulo, da maneira apresentada anteriormente,
-\change_deleted 361918690 1382613003
- fará com que seja carregado
+Ao iniciar o módulo, 
+\change_deleted 361918690 1382955462
+da maneira apresentada anteriormente, fará com que seja carregado
 \change_inserted 361918690 1382613007
 será carregada
 \change_unchanged
@@ -691,7 +739,11 @@ será carregada
 \change_deleted 361918690 1382613024
 ,
 \change_unchanged
- nela pode
+ nela 
+\change_inserted 361918690 1382955477
+se 
+\change_unchanged
+pode
 \change_inserted 361918690 1382613030
 rá
 \change_deleted 361918690 1382613029
@@ -765,12 +817,26 @@ e
 \change_deleted 361918690 1382613053
 a,
 \change_unchanged
- está contido todos os recursos oferecidos pelo 
+ est
+\change_inserted 361918690 1382955513
+ão
+\change_deleted 361918690 1382955512
+á
+\change_unchanged
+ contido
+\change_inserted 361918690 1382955516
+s
+\change_unchanged
+ todos os recursos oferecidos pelo 
 \emph on
 Consulta Sistema Horários.
  
 \emph default
-Falaremos em detalhes o funcionamento deste módulo no tópico seguinte.
+Falaremos em detalhes 
+\change_inserted 361918690 1382955531
+d
+\change_unchanged
+o funcionamento deste módulo no tópico seguinte.
  Perceba que a única maneira de fechar o programa é pelo botão 
 \emph on
 Sair
@@ -787,7 +853,11 @@ X
 \begin_inset Quotes erd
 \end_inset
 
- da janela do Access está desabilitado.
+ da janela do 
+\emph on
+Access
+\emph default
+ está desabilitado.
  
 \end_layout
 
@@ -869,7 +939,12 @@ e
 \emph on
 Consultas.
  
-\emph default
+\change_inserted 361918690 1382955611
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 Para sair e retornar a tela inicial, basta clicar no botão fechar localizado
  na parte inferior.
 \end_layout
@@ -881,30 +956,69 @@ Dados de Referência
 \begin_layout Standard
 \noindent
 A seleção de informações a fim de filtrar resultados, 
-\change_inserted 361918690 1382613141
-diminui/otimiza
-\change_deleted 361918690 1382613135
-comprime
+\change_inserted 361918690 1382955652
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\change_inserted 361918690 1382955666
+diminui ou otimiza não seriam termos melhores?
 \change_unchanged
- o tempo gasto para localizar dados específicos; no caso, os 
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+comprime o tempo gasto para localizar dados específicos; no caso, os 
 \emph on
 Dados de Referência 
 \emph default
 permitem escolher diversos parâmentros com este propósito, tais como 
 \emph on
-Ano, Período, Data 
+Ano, Período
+\change_inserted 361918690 1382955704
+ 
 \emph default
-localizados na aba Data, 
+e
+\change_deleted 361918690 1382955701
+
+\emph on
+,
+\change_unchanged
+ Data 
+\emph default
+localizados na aba
+\emph on
+ Data
+\emph default
+, 
 \emph on
 Máx h.
- a.
+
+\change_deleted 361918690 1382955729
+ 
+\change_unchanged
+a.
  TP e HR e período 
 \emph default
-na aba Outros, e por fim o 
+na aba 
+\emph on
+Outros
+\emph default
+, e por fim o 
 \emph on
 campus
 \emph default
- de atuação dos professores, referente a aba Atuação.
+ de atuação dos professores, referente a aba 
+\emph on
+Atuação
+\emph default
+.
  Todos estes campos são ilustrados na 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -1068,8 +1182,25 @@ Data:
 
 \begin_layout Standard
 Está aba relaciona justamente a data no qual será utilizada como referência,
- na hora em que for gerado um relatório (Ver seção Consultas), dentre as
- opções, pode-se definir o Ano, Semestre e o dia
+ na hora em que for gerado um relatório (Ver seção Consultas
+\change_inserted 361918690 1382955847
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382955858
+use referência cruzada também aqui
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+), dentre as opções, pode-se definir o Ano, Semestre e o dia
 \change_inserted 361918690 1382613262
  
 \change_deleted 361918690 1382613267
@@ -1081,8 +1212,9 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 361918690 1382613267
-(ou todos em maíusculo, ou todos em minúsculo, não sei qual é melhor).
+\change_inserted 361918690 1382955877
+(ou todos em maíusculo, ou todos em minúsculo, não sei qual é melhor, e
+ talvez as abas também devam ser citadas em itálico).
 \change_unchanged
 
 \end_layout
@@ -1100,7 +1232,25 @@ Outros:
 \end_layout
 
 \begin_layout Standard
-Máx h.a TP e HR é um campo de significado, 
+Máx h.a TP e HR
+\change_inserted 361918690 1382955886
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382955891
+itálico?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+ é um campo de significado, 
 \emph on
 
 \begin_inset Quotes eld
@@ -1139,6 +1289,8 @@ requentemente
  é utilizado para geração de
 \change_deleted 361918690 1382613527
  em 
+\change_inserted 361918690 1382955953
+ 
 \change_unchanged
 relatórios de lista de professores, por exemplo.
  Está aba também possui um campo
@@ -1148,8 +1300,13 @@ relatórios de lista de professores, por exemplo.
 de
 \change_unchanged
  período, podendo-se escolher entre diurno e noturno, para tal alteração,
- perceba que com um duplo clique em cima do campo é possível alterna-lo
- entre 
+ perceba que com um duplo clique em cima do campo é possível altern
+\change_inserted 361918690 1382955963
+á
+\change_deleted 361918690 1382955962
+a
+\change_unchanged
+-lo entre 
 \emph on
 
 \begin_inset Quotes eld
@@ -1284,7 +1441,33 @@ reference "fig:Consultas"
 
 \end_inset
 
-).
+)
+\change_inserted 361918690 1382956761
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382956776
+não seria caso de o veja também estar nos 
+\begin_inset Quotes eld
+\end_inset
+
+()
+\begin_inset Quotes erd
+\end_inset
+
+?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -1338,8 +1521,11 @@ name "fig:Consultas"
 \end_layout
 
 \begin_layout Enumerate
-Professores: Permite que o usuário consulte informações relacionada aos
- professores, sendo elas:
+Professores: Permite que o usuário consulte informações relacionada
+\change_inserted 361918690 1382956794
+s
+\change_unchanged
+ aos professores, sendo elas:
 \end_layout
 
 \begin_deeper
@@ -1499,8 +1685,11 @@ cp{Disponibilidade das salas}
 
 \end_deeper
 \begin_layout Enumerate
-Horários de Aulas: O usuário poderá consultar informações relacionada aos
- horários de aulas, sendo as opções:
+Horários de Aulas: O usuário poderá consultar informações relacionada
+\change_inserted 361918690 1382956819
+s
+\change_unchanged
+ aos horários de aulas, sendo as opções:
 \end_layout
 
 \begin_deeper
@@ -1578,6 +1767,25 @@ CEUN: Permite que o usuário consulte informações relacionada a estatísticas
 Será apresentado nos tópicos seguintes, a descrição detalhada do funcionamento
  de cada aba relacionada anteriormente.
  A sua leitura é fundamental para a compreenção do software e suas aplicações.
+\change_inserted 361918690 1382956862
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382956905
+Talvez colocar uma referência nessa listagem ao tópico que a explica fique
+ interessante, não se é possível e realmente útil fazer isso.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -1848,18 +2056,24 @@ Noturno
 \emph on
 sábados
 \emph default
- diferem de algu
+ diferem 
+\change_inserted 361918690 1382957596
+em
+\change_deleted 361918690 1382957594
+de
+\change_unchanged
+ algu
 \change_deleted 361918690 1382613861
 ns detalhes 
-\change_inserted 361918690 1382613864
-mas formatações
+\change_inserted 361918690 1382957602
+mas formatações 
 \change_unchanged
 quanto
 \change_deleted 361918690 1382613866
  su
 \change_unchanged
 as listas
-\change_inserted 361918690 1382613870
+\change_inserted 361918690 1382957595
  geradas
 \change_unchanged
 .
@@ -1904,6 +2118,24 @@ name "fig:Lista-de-Presença_gerada"
 
 \end_inset
 
+
+\change_inserted 361918690 1382957623
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382957637
+Não da pra ver muito bem a imagem no PDF...
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -2072,6 +2304,25 @@ reference "fig:Botão-de-Imprimir"
 \end_inset
 
 .
+
+\change_inserted 361918690 1382957698
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382957710
+Não entendi direito essa parte...
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2353,7 +2604,26 @@ reference "fig:Horários-dos-dias-prof-em-aula-1"
 
  mostra as informações contidas no relatório.
  Este tem como função exibir os horários de aula dos professores do IMT,
- ele contém: Nome do professor, Sala, Horário e Quantidade de horas aula.
+ ele contém: Nome do professor, Sala, Horário e Quantidade de horas aula
+\change_inserted 361918690 1382958535
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 361918690 1382958591
+Informações contidas em itálico? Ou por não ser uma opção e sim uma informação
+ esse é o padrão adotado?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -2416,8 +2686,8 @@ PPC
 , ou Plano Pedagógico de Curso, está com seu
 \change_deleted 361918690 1382614073
  leiaute
-\change_inserted 361918690 1382614075
-layout
+\change_inserted 361918690 1382958608
+ layout
 \change_unchanged
  mostrado na 
 \begin_inset CommandInset ref
@@ -2476,7 +2746,23 @@ name "fig:PPC-1"
 
 \begin_layout Standard
 Este recurso permite visualizar todos os professores relacionados ao plano
- pedagócico de um curso específico, gerando uma tabela em Excel.
+ pedagó
+\change_inserted 361918690 1382958625
+g
+\change_deleted 361918690 1382958625
+c
+\change_unchanged
+ico de 
+\change_inserted 361918690 1382958646
+cada
+\change_deleted 361918690 1382958645
+um
+\change_unchanged
+ curso 
+\change_deleted 361918690 1382958650
+específico
+\change_unchanged
+, gerando uma tabela em Excel.
  Pelo fato de cada planilha conter muitas informações, a 
 \begin_inset CommandInset ref
 LatexCommand formatted
