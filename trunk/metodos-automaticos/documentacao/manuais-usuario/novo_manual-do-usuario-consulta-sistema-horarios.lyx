@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass report
+\begin_preamble
+\newcommand{\espv}{\rule{0pt}{0.7cm}}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language brazilian
@@ -26,16 +29,7 @@
 \index_command default
 \paperfontsize 12
 \spacing onehalf
-\use_hyperref true
-\pdf_bookmarks true
-\pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
-\pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder true
-\pdf_colorlinks false
-\pdf_backref false
-\pdf_pdfusetitle true
+\use_hyperref false
 \papersize default
 \use_geometry true
 \use_amsmath 1
@@ -62,12 +56,11 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author 361918690 "Mariane" 
 \end_header
 
 \begin_body
@@ -303,71 +296,6 @@ thispagestyle{empty}
 \end_inset
 
 
-\change_inserted 361918690 1382614191
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 361918690 1382614193
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382614197
-Victor, 
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382614253
-Como combinamos, fiz uma revisão no que escreveu, utilizei o modo 
-\begin_inset Quotes eld
-\end_inset
-
-registrar alterações
-\begin_inset Quotes erd
-\end_inset
-
- como o Trevizan disse, se voce entrar pelo contorno consegue ir direto
- onde alterei e estará marcado em azul.
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382614362
-Use a nova linha de opções que está aparecendo ou então Documento>Alterar
- Registro>...
- para aceitá-las ou rejeitá-las.
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382614339
-Algumas observações coloquei em notas, pra ficar claro que não fazem parte
- do texto.
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382614343
-Até terça!
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382614344
-Mariane
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Title
@@ -377,31 +305,6 @@ Manual do Usuário
 
 Consulta Sistema Horários
 \begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 361918690 1382954650
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382954662
-Inseri o índice já.
-\change_unchanged
-
-\end_layout
-
 \end_inset
 
 
@@ -437,18 +340,10 @@ Nota sobre as Versões
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 O 
 \emph on
-Sistema Horário
-\change_inserted 361918690 1382612814
-s
-\change_unchanged
-
+Sistema Horários
 \emph default
  e seus módulos constituintes, entre eles, o 
 \emph on
@@ -459,16 +354,8 @@ Consulta Sistema Horários
  referenciado, poderão exibir informações de versão diferente da última
  versão existente dos módulos, ou mesmo, indicar que é uma versão de depuração
  ao invés de oficial.
- Contudo, essa
-\change_deleted 361918690 1382954250
-s
-\change_unchanged
- diferença
-\change_deleted 361918690 1382954253
-s
-\change_unchanged
- de versão não há de acarretar em prejuízo para o entendimento da operação
- dos módulos.
+ Contudo, essas diferenças de versão não há de acarretar em prejuízo para
+ o entendimento da operação dos módulos.
 \end_layout
 
 \begin_layout Chapter*
@@ -490,13 +377,7 @@ reference "chap:Manual-de-Operação"
  irá abordar o funcionamento e o manuseamento correto deste módulo, de forma
  que, o usuário ao finaliza-lo, terá compreendido todo o mecanismo, as informaçõ
 es contidas e suas funções.
- 
-\change_inserted 361918690 1382954294
-
-\end_layout
-
-\begin_layout Standard
-Uma boa leitura e interpretação deste capítulo otimizará o manuseio deste
+ Uma boa leitura e interpretação deste capítulo otimizará o manuseio deste
  módulo.
  
 \begin_inset VSpace bigskip*
@@ -610,13 +491,7 @@ ada e, porconseguinte, aumentar a eficiência do trabalho.
 \end_layout
 
 \begin_layout Section
-In
-\change_inserted 361918690 1382612896
-í
-\change_deleted 361918690 1382612895
-i
-\change_unchanged
-cio
+Início
 \end_layout
 
 \begin_layout Standard
@@ -625,11 +500,7 @@ Este módulo, o
 \emph on
 Consulta Sistema Horários
 \emph default
-,
-\change_deleted 361918690 1382612911
- é um programa que
-\change_unchanged
- opera sob o 
+, opera sob o 
 \emph on
 Microsoft
 \emph default
@@ -727,29 +598,9 @@ Tela inicial
 \end_layout
 
 \begin_layout Standard
-Ao iniciar o módulo, 
-\change_deleted 361918690 1382955462
-da maneira apresentada anteriormente, fará com que seja carregado
-\change_inserted 361918690 1382613007
-será carregada
-\change_unchanged
- uma interface de entrada
-\change_inserted 361918690 1382613024
- e
-\change_deleted 361918690 1382613024
-,
-\change_unchanged
- nela 
-\change_inserted 361918690 1382955477
-se 
-\change_unchanged
-pode
-\change_inserted 361918690 1382613030
-rá
-\change_deleted 361918690 1382613029
--se
-\change_unchanged
- observar o título, a versão atual e três botões, como na 
+Ao iniciar o módulo, da maneira apresentada anteriormente,será carregada
+ uma interface de entrada e nela poderá observar o título, a versão atual
+ e três botões, como na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Tela-Inicial"
@@ -811,32 +662,12 @@ Para acessar a interface de gerenciamento, deve-se clicar no botão
 \emph on
 Gerenciador Principal
 \emph default
-, nel
-\change_inserted 361918690 1382613054
-e
-\change_deleted 361918690 1382613053
-a,
-\change_unchanged
- est
-\change_inserted 361918690 1382955513
-ão
-\change_deleted 361918690 1382955512
-á
-\change_unchanged
- contido
-\change_inserted 361918690 1382955516
-s
-\change_unchanged
- todos os recursos oferecidos pelo 
+, nele está contido todos os recursos oferecidos pelo 
 \emph on
 Consulta Sistema Horários.
  
 \emph default
-Falaremos em detalhes 
-\change_inserted 361918690 1382955531
-d
-\change_unchanged
-o funcionamento deste módulo no tópico seguinte.
+Falaremos em detalhes o funcionamento deste módulo no tópico seguinte.
  Perceba que a única maneira de fechar o programa é pelo botão 
 \emph on
 Sair
@@ -853,11 +684,7 @@ X
 \begin_inset Quotes erd
 \end_inset
 
- da janela do 
-\emph on
-Access
-\emph default
- está desabilitado.
+ da janela do Access está desabilitado.
  
 \end_layout
 
@@ -867,13 +694,7 @@ Gerenciador Principal
 
 \begin_layout Standard
 Este menu permite o acesso a todas as funções disponibilizadas por este
- módulo, veja a seguir a 
-\change_deleted 361918690 1382613099
-F
-\change_inserted 361918690 1382613100
-f
-\change_unchanged
-igura 
+ módulo, veja a seguir a figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Gerenciador-Principal"
@@ -939,12 +760,7 @@ e
 \emph on
 Consultas.
  
-\change_inserted 361918690 1382955611
-
-\end_layout
-
-\begin_layout Standard
-\noindent
+\emph default
 Para sair e retornar a tela inicial, basta clicar no botão fechar localizado
  na parte inferior.
 \end_layout
@@ -955,70 +771,26 @@ Dados de Referência
 
 \begin_layout Standard
 \noindent
-A seleção de informações a fim de filtrar resultados, 
-\change_inserted 361918690 1382955652
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\noindent
-
-\change_inserted 361918690 1382955666
-diminui ou otimiza não seriam termos melhores?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-comprime o tempo gasto para localizar dados específicos; no caso, os 
+A seleção de informações a fim de filtrar resultados, diminui o tempo gasto
+ para localizar dados específicos; no caso, os 
 \emph on
 Dados de Referência 
 \emph default
 permitem escolher diversos parâmentros com este propósito, tais como 
 \emph on
-Ano, Período
-\change_inserted 361918690 1382955704
- 
+Ano, Período, Data 
 \emph default
-e
-\change_deleted 361918690 1382955701
-
-\emph on
-,
-\change_unchanged
- Data 
-\emph default
-localizados na aba
-\emph on
- Data
-\emph default
-, 
+localizados na aba Data, 
 \emph on
 Máx h.
-
-\change_deleted 361918690 1382955729
- 
-\change_unchanged
-a.
+ a.
  TP e HR e período 
 \emph default
-na aba 
-\emph on
-Outros
-\emph default
-, e por fim o 
+na aba Outros, e por fim o 
 \emph on
 campus
 \emph default
- de atuação dos professores, referente a aba 
-\emph on
-Atuação
-\emph default
-.
+ de atuação dos professores, referente a aba Atuação.
  Todos estes campos são ilustrados na 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -1088,10 +860,6 @@ name "fig:Dados-de-referência"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1182,48 +950,8 @@ Data:
 
 \begin_layout Standard
 Está aba relaciona justamente a data no qual será utilizada como referência,
- na hora em que for gerado um relatório (Ver seção Consultas
-\change_inserted 361918690 1382955847
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382955858
-use referência cruzada também aqui
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-), dentre as opções, pode-se definir o Ano, Semestre e o dia
-\change_inserted 361918690 1382613262
- 
-\change_deleted 361918690 1382613267
-.
-\change_inserted 361918690 1382613267
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382955877
-(ou todos em maíusculo, ou todos em minúsculo, não sei qual é melhor, e
- talvez as abas também devam ser citadas em itálico).
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
+ na hora em que for gerado um relatório (Ver seção Consultas), dentre as
+ opções, pode-se definir o Ano, Semestre e o dia.
 \end_layout
 
 \begin_layout Paragraph
@@ -1232,25 +960,7 @@ Outros:
 \end_layout
 
 \begin_layout Standard
-Máx h.a TP e HR
-\change_inserted 361918690 1382955886
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382955891
-itálico?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
- é um campo de significado, 
+Máx h.a TP e HR é um campo de significado, 
 \emph on
 
 \begin_inset Quotes eld
@@ -1262,51 +972,12 @@ Máximo de horas aula em Tempo Integral e Horistas
 
 
 \emph default
-, ele permite estabelecer um parâmetro importante
-\change_deleted 361918690 1382613472
-,
-\change_inserted 361918690 1382613474
- e
-\change_unchanged
- pode
-\change_deleted 361918690 1382613478
-ndo
-\change_unchanged
- variar de 6 a 40h.a
-\change_inserted 361918690 1382613486
-.
-\change_deleted 361918690 1382613485
-,
-\change_unchanged
- 
-\change_deleted 361918690 1382613513
-é utilizado f
-\change_inserted 361918690 1382613514
-F
-\change_unchanged
-requentemente
-\change_inserted 361918690 1382613525
- é utilizado para geração de
-\change_deleted 361918690 1382613527
- em 
-\change_inserted 361918690 1382955953
- 
-\change_unchanged
-relatórios de lista de professores, por exemplo.
- Está aba também possui um campo
-\change_deleted 361918690 1382613294
- chamado
-\change_inserted 361918690 1382613549
-de
-\change_unchanged
- período, podendo-se escolher entre diurno e noturno, para tal alteração,
- perceba que com um duplo clique em cima do campo é possível altern
-\change_inserted 361918690 1382955963
-á
-\change_deleted 361918690 1382955962
-a
-\change_unchanged
--lo entre 
+, ele permite estabelecer um parâmetro importante e pode variar de 6 a 40h.a.
+ É frequentemente utilizado para geração de relatórios de lista de professores,
+ por exemplo.
+ Está aba também possui um campo de período, podendo-se escolher entre diurno
+ e noturno, para tal alteração, perceba que com um duplo clique em cima
+ do campo é possível alterna-lo entre 
 \emph on
 
 \begin_inset Quotes eld
@@ -1317,12 +988,8 @@ D
 \end_inset
 
 
-\change_inserted 361918690 1382613571
-
 \emph default
-(diurno)
-\change_unchanged
- e 
+(diurno) e 
 \emph on
 
 \begin_inset Quotes eld
@@ -1333,12 +1000,8 @@ N
 \end_inset
 
 
-\change_inserted 361918690 1382613578
-
 \emph default
 (noturno)
-\change_unchanged
-
 \emph on
 .
 \end_layout
@@ -1419,10 +1082,6 @@ name "fig:Relatórios-Rápidos"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1441,33 +1100,7 @@ reference "fig:Consultas"
 
 \end_inset
 
-)
-\change_inserted 361918690 1382956761
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382956776
-não seria caso de o veja também estar nos 
-\begin_inset Quotes eld
-\end_inset
-
-()
-\begin_inset Quotes erd
-\end_inset
-
-?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-.
+).
 \end_layout
 
 \begin_layout Standard
@@ -1511,21 +1144,14 @@ name "fig:Consultas"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Enumerate
-Professores: Permite que o usuário consulte informações relacionada
-\change_inserted 361918690 1382956794
-s
-\change_unchanged
- aos professores, sendo elas:
+Professores: Permite que o usuário consulte informações relacionada aos
+ professores, sendo elas:
 \end_layout
 
 \begin_deeper
@@ -1685,11 +1311,8 @@ cp{Disponibilidade das salas}
 
 \end_deeper
 \begin_layout Enumerate
-Horários de Aulas: O usuário poderá consultar informações relacionada
-\change_inserted 361918690 1382956819
-s
-\change_unchanged
- aos horários de aulas, sendo as opções:
+Horários de Aulas: O usuário poderá consultar informações relacionada aos
+ horários de aulas, sendo as opções:
 \end_layout
 
 \begin_deeper
@@ -1767,25 +1390,6 @@ CEUN: Permite que o usuário consulte informações relacionada a estatísticas
 Será apresentado nos tópicos seguintes, a descrição detalhada do funcionamento
  de cada aba relacionada anteriormente.
  A sua leitura é fundamental para a compreenção do software e suas aplicações.
-\change_inserted 361918690 1382956862
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382956905
-Talvez colocar uma referência nessa listagem ao tópico que a explica fique
- interessante, não se é possível e realmente útil fazer isso.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsection
@@ -2016,26 +1620,8 @@ Não
 \end_inset
 
 
-\change_inserted 361918690 1382613804
-
 \emph default
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382613804
-cite se é necessario o acento talvez?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-.
+ (é necessário escrever com a devida acentuação).
  Uma lista gerada com sucesso apresentará as caracteristicas mostradas na
  
 \begin_inset CommandInset ref
@@ -2056,27 +1642,7 @@ Noturno
 \emph on
 sábados
 \emph default
- diferem 
-\change_inserted 361918690 1382957596
-em
-\change_deleted 361918690 1382957594
-de
-\change_unchanged
- algu
-\change_deleted 361918690 1382613861
-ns detalhes 
-\change_inserted 361918690 1382957602
-mas formatações 
-\change_unchanged
-quanto
-\change_deleted 361918690 1382613866
- su
-\change_unchanged
-as listas
-\change_inserted 361918690 1382957595
- geradas
-\change_unchanged
-.
+ diferem de algumas formatações quanto as listas geradas.
  
 \end_layout
 
@@ -2093,7 +1659,6 @@ status open
 \begin_inset Graphics
 	filename imagens/csh_exemplo_lista_de_presença.png
 	width 100text%
-	height 40pheight%
 
 \end_inset
 
@@ -2118,24 +1683,6 @@ name "fig:Lista-de-Presença_gerada"
 
 \end_inset
 
-
-\change_inserted 361918690 1382957623
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382957637
-Não da pra ver muito bem a imagem no PDF...
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
 
 \end_layout
 
@@ -2165,24 +1712,6 @@ reference "fig:Ilustração-com-sem-atraso"
 \end_inset
 
 .
-\change_inserted 361918690 1382613895
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382613904
-Qual a diferença?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -2269,15 +1798,11 @@ name "fig:Ilustração-com-sem-atraso"
 \end_layout
 
 \begin_layout Standard
-No caso de uma lista para o campus São Paulo no período diurno, como não
- 
-\change_inserted 361918690 1382613926
-existe
-\change_deleted 361918690 1382613915
-há
-\change_unchanged
- uma lista de presença, automaticamente o sistema irá recorrer a um preenchiment
-o de uma nova lista.
+A utilização de uma coluna extra, chamada de Horário, caracteriza um relatório
+ com atraso.
+ No caso de uma lista para o campus São Paulo no período diurno, como não
+ existe uma lista de presença, automaticamente o sistema irá recorrer a
+ um preenchimento de uma nova lista.
  A recomendação é elaborar uma nova grade horária ou deixar todas as opções
  em branco, note que caso deixe em branco, a lista não será gerada.
 \end_layout
@@ -2304,25 +1829,6 @@ reference "fig:Botão-de-Imprimir"
 \end_inset
 
 .
-
-\change_inserted 361918690 1382957698
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382957710
-Não entendi direito essa parte...
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -2337,7 +1843,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_imprimir.png
-	height 4cm
+	width 1cm
+	height 2cm
 
 \end_inset
 
@@ -2362,10 +1869,6 @@ name "fig:Botão-de-Imprimir"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2429,10 +1932,6 @@ name "fig:Lista-Dia"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2440,10 +1939,6 @@ name "fig:Lista-Dia"
 
 \begin_layout Enumerate
 
-\change_deleted 361918690 1382613964
-A
-\change_unchanged
- 
 \emph on
 Lista Dia Completa
 \emph default
@@ -2453,11 +1948,207 @@ Lista Dia Completa
 \begin_deeper
 \begin_layout Standard
 Dentre as informações apresentadas pela lista, temos: 
-\begin_inset Note Note
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-Tabela
+\noindent
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="70text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Professor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome do professor
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Disc.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome da disciplina
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+QtdHa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantidade de horas aula
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aulas de Teoria, Laboratório ou Exercícios
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Série
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1°, 2°, 3°, 4°, 5° ou 6° ano
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Habilitação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PM (Produção), ET (Eletrônico), EL (Eletrotécnico), MC (Mecânica), QM (Química),
+ CV (Civil), AL (Alimentos), CA (Controle e Automação)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GTL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grupo, Turma e Laboratório
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tabela Lista Dia 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabela-Lista-Dia"
+
+\end_inset
+
+ 
 \end_layout
 
 \end_inset
@@ -2465,44 +2156,14 @@ Tabela
 
 \end_layout
 
-\begin_layout Standard
--Professor (Nome)
-\end_layout
+\end_inset
 
-\begin_layout Standard
--Disc.
- (Nome da Disciplina)
-\end_layout
 
-\begin_layout Standard
--QtdHa (Quantidade de horas aula)
-\end_layout
-
-\begin_layout Standard
--Tipo (Teoria/Lab/Exercícios)
-\end_layout
-
-\begin_layout Standard
--Série (1,2,3,4,5 ou 6)
-\end_layout
-
-\begin_layout Standard
--Habilitação (PM, ET, EL, MC...)
-\end_layout
-
-\begin_layout Standard
--GLT (Grupo Turma Laboratório)
-\end_layout
-
-\begin_layout Standard
-Note que as linhas que possuem cores diferentes correspondem a qual habilitação
- a aula representa, por exemplo: Amarelo (Administração), Verde (Gestão),
- Laranja (Design) e as demais Engenharia.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-O 
+
 \emph on
 Dia em que o professor está na escola
 \emph default
@@ -2534,7 +2195,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_exemplo_dia_prof_escola.png
-	height 3cm
+	height 2cm
 
 \end_inset
 
@@ -2563,10 +2224,6 @@ name "fig:Dia-em-que-prof-esta-escola"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2586,7 +2243,7 @@ Lista Dia Completa
 
 \end_deeper
 \begin_layout Enumerate
-Os 
+
 \emph on
 Horários dos dias em quais o professor está em aula
 \emph default
@@ -2604,26 +2261,7 @@ reference "fig:Horários-dos-dias-prof-em-aula-1"
 
  mostra as informações contidas no relatório.
  Este tem como função exibir os horários de aula dos professores do IMT,
- ele contém: Nome do professor, Sala, Horário e Quantidade de horas aula
-\change_inserted 361918690 1382958535
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 361918690 1382958591
-Informações contidas em itálico? Ou por não ser uma opção e sim uma informação
- esse é o padrão adotado?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-.
+ ele contém: Nome do professor, Sala, Horário e Quantidade de horas aula.
 \end_layout
 
 \begin_layout Standard
@@ -2631,7 +2269,7 @@ Informações contidas em itálico? Ou por não ser uma opção e sim uma inform
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2683,13 +2321,7 @@ O
 \emph on
 PPC
 \emph default
-, ou Plano Pedagógico de Curso, está com seu
-\change_deleted 361918690 1382614073
- leiaute
-\change_inserted 361918690 1382958608
- layout
-\change_unchanged
- mostrado na 
+, ou Plano Pedagógico de Curso, está com seu layout mostrado na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:PPC-1"
@@ -2745,24 +2377,35 @@ name "fig:PPC-1"
 \end_layout
 
 \begin_layout Standard
-Este recurso permite visualizar todos os professores relacionados ao plano
- pedagó
-\change_inserted 361918690 1382958625
-g
-\change_deleted 361918690 1382958625
-c
-\change_unchanged
-ico de 
-\change_inserted 361918690 1382958646
-cada
-\change_deleted 361918690 1382958645
-um
-\change_unchanged
- curso 
-\change_deleted 361918690 1382958650
-específico
-\change_unchanged
-, gerando uma tabela em Excel.
+Este relatório é dependente dos valores de Ano (Aa), Semestre (Ab), Dia
+ (Ac) e do Período (Bb), é um recurso que permite visualizar todos os professore
+s relacionados ao plano pedagógico de um curso específico, gerando uma tabela.
+ Está pode ser editada, conforme as opções apresentadas em seu layout:
+\end_layout
+
+\begin_layout Standard
+A janela 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Incluir Ciclo Básico
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ determina se o documento que será gerado, irá conter disciplinas referêntes
+ as opções marcadas, como existem matérias básicas de engenharia no 2° ano,
+ ao selecionar o 1° ano, automaticamente será habilitado ambos os campos,
+ um depende do outro, não sendo possível exibir somente o 1° ano.
+\end_layout
+
+\begin_layout Standard
+É possível incluir disciplinas de dependentes (DP) atravez do botão localizado
+ na parte inferior, também é possível que seja criado uma versão da tabela
+ para Excel, com o botão localizado a direita.
  Pelo fato de cada planilha conter muitas informações, a 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -2770,7 +2413,7 @@ reference "tab:Tabela-de-PPC-1"
 
 \end_inset
 
- fascilitará o entendimento de cada informação contida no relatório:
+ fascilitará o entendimento de cada informação contida em cada relatório:
 \end_layout
 
 \begin_layout Standard
@@ -2778,7 +2421,7 @@ reference "tab:Tabela-de-PPC-1"
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -3216,15 +2859,7 @@ ToADOutras
 \begin_layout Plain Layout
 
 \size small
-Total de horas na função de
-\change_deleted 361918690 1382614154
- atividades 
-\change_unchanged
-outras
-\change_inserted 361918690 1382614160
- atividades
-\change_unchanged
-
+Total de horas na função de atividades outras
 \end_layout
 
 \end_inset
@@ -3338,6 +2973,1162 @@ name "tab:Tabela-de-PPC-1"
 \end_layout
 
 \begin_layout Subsubsection
+Cargas Horárias
+\end_layout
+
+\begin_layout Standard
+As Cargas Horárias dependem dos valores de Ano (Aa), Semestre (Ab) e Dia
+ (Ac), em termos gerais, as consultas disponibilizadas são, de acordo com
+ a
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Cargas-Horárias"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_cargas_horarias.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Cargas Horárias
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cargas-Horárias"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Consulta de Aulas}
+\end_layout
+
+\end_inset
+
+: Permite consultar a quais aulas um professor pertence, a quantidade de
+ horas aulas, entre outros.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Consultar CEUN-IMT}
+\end_layout
+
+\end_inset
+
+: Verifica a habilitação de cada professor (Horista, Integral ou Parcial)
+ no CEUN-IMT e mostra a quantidade de horas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lançar Atividades Outras}
+\end_layout
+
+\end_inset
+
+: É um registro aonde está informando o que cada professor possui de atividades
+ extras, como atendimento ao aluno e treinamento moodle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lançar Trabalho de Conslusão de Curso}
+\end_layout
+
+\end_inset
+
+: Mostra os professores que cuidam dos TCCs de cada modalidade.
+\end_layout
+
+\begin_layout Paragraph
+Consulta de Aulas
+\end_layout
+
+\begin_layout Standard
+Uma nova janela será aberta ao clicar no botão 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Consulta de Aulas
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, está nova janela deverá ser semelhante a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Menu-Consulta-de-aulas"
+
+\end_inset
+
+; O semetre e o ano que foram previamente definidos no menu 
+\begin_inset Quotes eld
+\end_inset
+
+Dados de referência
+\begin_inset Quotes erd
+\end_inset
+
+ serão exibidos no canto superior direito da janela.
+ Está aba permite realizar uma busca completa, a fim de exibir informações
+ a respeito das aulas e dos professores que a lecionam e então, gerar a
+ grade horária; Será abordado em detalhes o significado todas as informações
+ inseridas e retornadas adiante.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_consulta_de_aulas.png
+	width 70text%
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Menu Consulta de Aulas
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Menu-Consulta-de-aulas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os campos onde deverão ser inseridos os dados, estão classificados em, segundo
+ a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Inserção-de-dados"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+Obs: Os campos poderão ser preenchidos com qualquer tipo de caractér.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="20text%">
+<column alignment="left" valignment="middle" width="55text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Campos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Professor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome do Professor a ser procurado
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome Disciplina
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Nome da disciplina a ser procurada
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dia Semana
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dia da semana no qual a aula pertence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Habilitação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Habilitação da aula (ET, EN, MC, AL, QM, CV, PR, CO, CA)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Horário Início
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Horário de início da aula
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Série
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1°, 2°, 3°, 4°, 5° e 6°
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Período
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diurno (D) ou Noturno (N)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GTL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grupo, Turma ou Laboratório
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Registo funcional
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cód.
+ Disc.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Código da disciplina
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sala
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bloco e numeração da sala (H202, U23...)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Inserção de dados (Consulta de Aulas)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Inserção-de-dados"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Além destas informações, há alguns campos na parte inferior que podem ser
+ selecionados ou não, no caso, 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+DP
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ habilitará aulas de dependentes, 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+QZ
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ são as aulas quinzenais e 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Compartilhada
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ são as aulas que possuem duas turmas ou mais.
+ Para que seja possível preencher mais de um campo de filtro, é necessário
+ que a opção 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Todos
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ esteja selecionado na janela 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Método de Filtro
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, uma vez que o 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Exclusivo
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ esteja habilitado, somente será possível preencher um único campo.
+\end_layout
+
+\begin_layout Standard
+Após o preenchimento, para realizar a busca, basta pressionar a tecla 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Enter
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, ou então, clicando nos botões localizados ao lado direito da janela, veja
+ a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Descrição-dos-botões-consulta-aulas"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="20text%">
+<column alignment="left" valignment="top" width="70text%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ilustração
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+espv
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/csh_gerar_grade.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gera o documento da Grade Horária do professor
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+espv
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/csh_botao_apagar_filtro.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Limpa todos os campos de filtro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+espv
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/csh_botao_filtrar.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Realiza a busca, conforme as informações inseridas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+espv
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/csh_botao_consultas_X.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fecha a página e volta para o menu principal
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Descrição dos botões
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Descrição-dos-botões-consulta-aulas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Feito a busca, a região abaixo será preenchida de acordo com os filtros
+ aplicados, como exemplo, será representado a busca com os dados da disciplina
+ 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+EFB204
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, como mostra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Resultado-consulta-aulas"
+
+\end_inset
+
+, caso fosse feito uma busca em branco, todos os professores seriam listados.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_consulta_de_aulas_resultado.png
+	width 100text%
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Resultado para o filtro 
+\begin_inset Quotes eld
+\end_inset
+
+EFB204
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Resultado-consulta-aulas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Observações a serem feitas:
+\end_layout
+
+\begin_layout Itemize
+A aba consulta disponibiliza um segundo filtro localizado na parte inferior,
+ em verde, que permite o usuário a buscar quaisquer informações dentro da
+ consulta realizada, ou também, habilitando e desabilitando dados coluna
+ a coluna, encontrados na região em vermelho.
+ No caso, a região azul mostra o total de resultados encontrados e permite
+ a navegação entre as linhas com as setas representadas.
+\end_layout
+
+\begin_layout Itemize
+Para que esta planilha seja exportada para o 
+\emph on
+Excel
+\emph default
+, a origem da tabela no canto superior esquerdo, fará com que ela toda seja
+ selecionada, agora, com o comando 
+\family typewriter
+Ctrl+C
+\family default
+, a tabela será copiada e usando o comando 
+\family typewriter
+Ctrl+V
+\family default
+, numa janela do 
+\emph on
+Excel
+\emph default
+ aberta, a planilha então será exportada.
+\end_layout
+
+\begin_layout Standard
+Após definidos todos os parâmetros, para que seja gerado o documento que
+ comprove a carga horária dos professores selecionados, deve-se clicar com
+ o mouse o botão de 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Grade Horária dos Professores listados
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph default
+(ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Descrição-dos-botões-consulta-aulas"
+
+\end_inset
+
+) ou simplesmente, pressionar as teclas 
+\family typewriter
+Alt+G
+\family default
+.
+ Duas novas janelas serão exibidas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh-datagrade-consulta-aula.png
+	width 45text%
+
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagens/csh-e-oficial-consulta-aulas.png
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Data da Grade e Oficialização
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Data-da-Grade-oficial"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As informações inseridas nestes campos estão relacionadas com a formatação
+ no qual o documento será gerado, a data deverá ser inserida no formato
+ (DD/MM/AA) e a oficialização deverá ser respondida 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Sim
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph default
+ou 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Não
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+ A 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Data-da-Grade-oficial"
+
+\end_inset
+
+ representa um documento formatado com data 29/03/13, e não oficial.
+ Caso os campos forem deixados em branco, o sistema irá gerar um documento
+ com data no dia atual do computador e não oficial.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh-exemplo-doc-grade-horaria.png
+	width 100text%
+	height 40pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Exemplo Documento de Grade Horária
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Exemplo-Documento-de-grade-horaria"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Consulta CEUN-IMT
+\end_layout
+
+\begin_layout Paragraph
+Lançar Atividades Outras
+\end_layout
+
+\begin_layout Paragraph
+Lançar Trabalhos de Conclusão de Curso
+\end_layout
+
+\begin_layout Subsubsection
 Licenças
 \end_layout
 
@@ -3395,10 +4186,6 @@ CEUN
 
 \begin_layout Subsection
 CPA
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body
