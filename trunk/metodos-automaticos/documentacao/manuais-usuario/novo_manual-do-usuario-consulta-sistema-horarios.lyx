@@ -4139,7 +4139,7 @@ reference "fig:Consulta-CEUN-IMT"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -4260,7 +4260,7 @@ reference "fig:Exemplo-de-Filtro"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -4515,6 +4515,30 @@ Lançar Trabalhos de Conclusão de Curso
 \end_layout
 
 \begin_layout Standard
+A interface (ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Professores-envolvidos-com-TG"
+
+\end_inset
+
+) é muito semelhante a 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Lançar Atividades Outras
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, ela lista os professores que estão relacionados para exercer atividades
+ com os alunos relacionados com os trabalhos de conclusão de curso.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -4563,12 +4587,612 @@ name "fig:Professores-envolvidos-com-TG"
 
 \end_layout
 
+\begin_layout Standard
+Os dados que podem ser inseridos são:
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Professor}
+\end_layout
+
+\end_inset
+
+: Nome do professor.*
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Curso}
+\end_layout
+
+\end_inset
+
+: Modalidade do grupo que o professor orienta.*
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Ano}
+\end_layout
+
+\end_inset
+
+: Corresponde ao ano da atividade.*
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdEquipes}
+\end_layout
+
+\end_inset
+
+: Quantidade de equipes.*
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdHa}
+\end_layout
+
+\end_inset
+
+: Quantidade de horas para a atividade.*
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Observações}
+\end_layout
+
+\end_inset
+
+: Informações adicionais.
+\end_layout
+
+\begin_layout Standard
+As descrições marcadas com 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+*
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ são campos obrigatórios a serem preenchidos.
+ Para criar um novo registro, é necessário preencher os campos vazios localizado
+s ao final da lista.
+\end_layout
+
+\begin_layout Standard
+Os campos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Professor}
+\end_layout
+
+\end_inset
+
+ e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Curso}
+\end_layout
+
+\end_inset
+
+ devem ser preenchidos somente com os valores presentes na lista de cada
+ um, o campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Ano}
+\end_layout
+
+\end_inset
+
+ deve obrigatóriamente mostrar o ano decorrente, os campos 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdEquipes}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{QtdHa}
+\end_layout
+
+\end_inset
+
+ e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Observações}
+\end_layout
+
+\end_inset
+
+ não possuem restrições.
+\end_layout
+
 \begin_layout Subsubsection
 Licenças
 \end_layout
 
+\begin_layout Standard
+O campo 
+\emph on
+Licenças
+\emph default
+ somente depende do Dia (Ac) como referência e disponibiliza de duas consultas,
+ como ilustra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Licenças"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_licenças.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Licenças 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Licenças"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Licença dos professores
+\end_layout
+
+\begin_layout Standard
+Quando um professor entrará de licença:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_licenças_relatório.png
+	width 75text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Licença dos Professores
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Professores de Licença
+\end_layout
+
+\begin_layout Standard
+Professores que estiverão de licença no dia tomado como referência:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_licença_professores.png
+	width 75text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Professores de Licença
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O campo 
+\begin_inset Quotes eld
+\end_inset
+
+Remunerado
+\begin_inset Quotes erd
+\end_inset
+
+ indica se o professor recebera salário enquanto estiver de licença, o campo
+ pode ser verdadeiro 
+\begin_inset Quotes eld
+\end_inset
+
+Caixa em azul
+\begin_inset Quotes erd
+\end_inset
+
+, ou falso 
+\begin_inset Quotes eld
+\end_inset
+
+Caixa em branco
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
 \begin_layout Subsubsection
 Outras Relações
+\end_layout
+
+\begin_layout Standard
+Informações adicionais a respeito dos professores cadastrados no sistema
+ do 
+\emph on
+Consulta Sistema Horários 
+\emph default
+estarão a disposição nesta consulta.
+ Seus campos tem relação com os dados de referência de Ano (Aa), Semestre
+ (Ab) e Dia (Ac).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_outras_relacoes.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Outras Relações
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Outras-Relações"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apesar da consulta depender destes dados, no caso, eles serão somente utilizados
+ nos campos em que não se aplica a Graduação ou a Pós-Graduação, ou seja,
+ somente a segunda coluna.
+\end_layout
+
+\begin_layout Standard
+De forma sucinta, as consultas disponibilizadas são:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{As Graduações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A consulta permite que o usuário verifique as graduações dos professores
+ do IMT.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Com Mais de Uma Graduação}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lista os professores que possuem duas ou mais graduações.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{As Pós-Graduações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lista os professores e todas as suas graduações.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{A Pós-Graduação Maior}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relação da maior graduação dos professores.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Disciplinas Ministradas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Exibe as diciplinas que cada professor do CEUN-IMT leciona.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Habilitações dos Professores}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mostra a quantidade de horas aula que um professor possui e sua distribuição
+ nas diferentes habilitações.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+jn{Professores das Habilitações}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lista todas as habilitações e seus respectivos professores.
 \end_layout
 
 \begin_layout Subsubsection
