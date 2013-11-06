@@ -588,6 +588,56 @@ http://www.tug.org/texlive
 \end_layout
 
 \begin_layout Description
+MikTeX
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+MikTeX
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Distribuição do formatador de texto LaTeX, com alguns pacotes associados.
+ Normalmente, acompanha o LyX, em sua instalação padrão.
+ Ver dicas no apêndice 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Instalação-de-Pacotes-Latex"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "sub:Instalação-de-Pacotes-Latex"
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://miktex.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
 LyX
 \begin_inset Index idx
 status open
@@ -611,6 +661,22 @@ LyX
 : Gratuito, multiplataforma.
  Ambiente gráfico de edição de texto integrado ao LaTeX, ou outros formatadores
  baseados em TeX.
+ Ver dicas no apêndice 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Instalação-de-Pacotes-Latex"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "sub:Instalação-de-Pacotes-Latex"
+
+\end_inset
+
+.
+ 
 \begin_inset Note Comment
 status collapsed
 
@@ -3469,6 +3535,152 @@ Windows
 .
  Realizando uma busca com o nome da conexão é suficiente para encontrar
  o local de sua definição.
+\end_layout
+
+\begin_layout Subsection
+Instalação de Pacotes Adicionais do LaTeX
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Instalação-de-Pacotes-Latex"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ao utilizar o 
+\emph on
+MikTeX
+\emph default
+, versão para 
+\emph on
+Windows
+\emph default
+, juntamente com o LyX, novos pacotes podem ser acrescentados pelo seguinte
+ método:
+\end_layout
+
+\begin_layout Enumerate
+Mover para os diretórios abaixo, os correspondentes arquivos com as extensões
+ especificadas:
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+
+\family typewriter
+<texmf>/tex/latex/<nome_do_pacote>/ .sty, .cfg
+\end_layout
+
+\begin_layout Description
+
+\family typewriter
+<texmf>/source/latex/<nome_do_pacote>/ .ins, .dtx
+\end_layout
+
+\begin_layout Description
+
+\family typewriter
+<texmf>/doc/latex/<nome_do_pacote>/ .pdf, (README)
+\end_layout
+
+\begin_layout Description
+
+\family typewriter
+<texmf>/makeindex/latex/ .ist
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Caso o arquivo 
+\family typewriter
+.sty
+\family default
+ não exista, ele poderá ser gerado por:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+latex <nome_do_pacote>.ins
+\end_layout
+
+\begin_layout Enumerate
+Executar 
+\family typewriter
+texhash
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+Neste momento, o LyX já deverá enxergar os novos pacotes.
+ Não há necessidade de executar qualquer outro comando nele.
+\end_layout
+
+\begin_layout Standard
+Tal procedimento descrito poderá se aplicar também ao 
+\emph on
+TeXLive
+\emph default
+, ao invés do 
+\emph on
+MikTeX
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Para o 
+\emph on
+MikTex
+\emph default
+, os comandos 
+\family typewriter
+latex 
+\family default
+e 
+\family typewriter
+texhash 
+\family default
+encontram-se em:
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\family typewriter
+<diretório instalação MikTeX>/miktex/bin/
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para maior facilidade de uso, aconselha-se acrescentar tal diretório na
+ variável de ambiente 
+\family typewriter
+PATH
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+O diretório 
+\family typewriter
+<texmf>
+\family default
+ é o próprio diretório de instalação do 
+\emph on
+MikTeX
+\emph default
+.
 \end_layout
 
 \begin_layout Standard
