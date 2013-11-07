@@ -590,10 +590,20 @@ http://www.tug.org/texlive
 \begin_layout Description
 MikTeX
 \begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 MikTeX
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3620,7 +3630,7 @@ Neste momento, o LyX já deverá enxergar os novos pacotes.
 \end_layout
 
 \begin_layout Standard
-Tal procedimento descrito poderá se aplicar também ao 
+Supõe-se que o procedimento descrito poderá se aplicar também ao 
 \emph on
 TeXLive
 \emph default
@@ -3628,7 +3638,7 @@ TeXLive
 \emph on
 MikTeX
 \emph default
-.
+, contudo testes ainda não foram realizados.
 \end_layout
 
 \begin_layout Standard
@@ -3655,7 +3665,7 @@ encontram-se em:
 \align center
 
 \family typewriter
-<diretório instalação MikTeX>/miktex/bin/
+<diretório de instalação do MikTeX>/miktex/bin/
 \begin_inset VSpace smallskip
 \end_inset
 
