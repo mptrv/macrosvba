@@ -921,7 +921,7 @@ reference "sec:SQLDeveloperDataModeler"
 
 \end_inset
 
-
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -969,6 +969,14 @@ Oracle
 \emph on
 Oracle
 \emph default
+.
+ Para referências de documentações, ver apêndice 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Produtos-Oracle"
+
+\end_inset
+
 .
 \begin_inset Newline newline
 \end_inset
@@ -2947,6 +2955,41 @@ Gimp
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Produtos 
+\emph on
+Oracle
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Produtos-Oracle"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diversos manuais de produtos 
+\emph on
+Oracle 
+\emph default
+poderão ser encontrados em:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://docs.oracle.com/cd/B28359_01/nav/portal_booklist.htm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 SQL
 \begin_inset space ~
