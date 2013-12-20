@@ -3982,7 +3982,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename imagens/csh-datagrade-consulta-aula.png
+	filename imagens/csh_datagrade_consulta_aula.png
 	width 45text%
 
 \end_inset
@@ -3993,7 +3993,7 @@ status open
 
 
 \begin_inset Graphics
-	filename imagens/csh-e-oficial-consulta-aulas.png
+	filename imagens/csh_e_oficial_consulta_aulas.png
 	width 45text%
 
 \end_inset
@@ -4019,10 +4019,6 @@ name "fig:Data-da-Grade-oficial"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4081,9 +4077,10 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename imagens/csh-exemplo-doc-grade-horaria.png
+	filename imagens/csh_exemplo_doc_grade_horaria.png
 	width 100text%
 	height 40pheight%
+	keepAspectRatio
 
 \end_inset
 
@@ -4260,13 +4257,13 @@ reference "fig:Exemplo-de-Filtro"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename imagens/csh-exemplo-filtro.png
+	filename imagens/csh_exemplo_filtro.png
 
 \end_inset
 
@@ -4543,13 +4540,13 @@ Lançar Atividades Outras
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename imagens/csh-trab-conclusao-curso.png
+	filename imagens/csh_trab_conclusao_curso.png
 	width 80text%
 
 \end_inset
@@ -4575,10 +4572,6 @@ name "fig:Professores-envolvidos-com-TG"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4999,7 +4992,7 @@ estarão a disposição nesta consulta.
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -5208,7 +5201,11 @@ reference "tab:Siglas"
 \end_layout
 
 \begin_layout Subsubsection
-Convocações ***
+Convocações
+\end_layout
+
+\begin_layout Standard
+*****
 \end_layout
 
 \begin_layout Subsubsection
@@ -5219,34 +5216,1260 @@ Atualizar TP e HR
 Este recurso irá verificar e executar as atualizações necessárias feitas
  em cima dos dados relacionados a Tempo Parcial (TP) e Horista (HR) dos
  professores, depende do Ano (Aa), Semestre (Ab) e Dia (Ac).
+ A interface da região está ilustrada na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Atualizar-TP-e-HR"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_atualizar_tp_hs.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Atualizar TP e HR
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Atualizar-TP-e-HR"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Verificar as Atualizações
+\end_layout
+
+\begin_layout Standard
+Permite a elaboração e atualização dos regimes dos professores, podendo-se
+ alterar:
+\end_layout
+
+\begin_layout Itemize
+TP e HR.
+\end_layout
+
+\begin_layout Itemize
+Total de Horas-Aula, Horas-Outras e Horas no IMT.
+\end_layout
+
+\begin_layout Paragraph
+Executar as Atualizações
+\end_layout
+
+\begin_layout Standard
+Qualquer modificação no banco de dados referente ao regime dos professores,
+ que tem como base a tabela “Verificar as Atualizações”, será atualizada
+ caso seja clicado o botão 
+\emph on
+'SIM'
+\emph default
+ , como mostra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Executar-as-Atualizações"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_janela_executar_atualizacoes.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Executar as Atualizações
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Executar-as-Atualizações"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Disciplinas
 \end_layout
 
+\begin_layout Standard
+******
+\end_layout
+
 \begin_layout Subsection
 Salas
+\end_layout
+
+\begin_layout Standard
+Está nova consulta permite buscar, verificar e atualizar informações referentes
+ a todas as salas encontradas no centro acadêmico, dentre as consultas,
+ temos: 
+\end_layout
+
+\begin_layout Itemize
+Ocupação das Salas
+\end_layout
+
+\begin_layout Itemize
+Disponibilidade das Salas
+\end_layout
+
+\begin_layout Standard
+As informações relevantes a este recurso depende de Ano (Aa) e semestre
+ (Ab).
 \end_layout
 
 \begin_layout Subsubsection
 Ocupação das Salas
 \end_layout
 
+\begin_layout Standard
+Cada uma das opções disponibilizadas, dentre elas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de ocupação},
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de ocupação modificado - A a H},
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de ocupação modificado - I a U},
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapas de ocupação modificado - Salas de Teoria},
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Taxa de ocupação}.
+\end_layout
+
+\end_inset
+
+como mostra 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Ocupação-das-Salas"
+
+\end_inset
+
+, possuem uma determinada função, no caso, exibem diferentes informações.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_Ocupacao_Salas.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Ocupação das Salas
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ocupação-das-Salas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Mapa de ocupação
+\end_layout
+
+\begin_layout Standard
+Mapa de ocupação gera um documento aonde são exibidos a ocupação de todas
+ as salas, por exemplo, a sala A01 está disponível em determinados horários
+ e quando não está, exibe qual diciplina e quais horários ela estará ocupada.
+\end_layout
+
+\begin_layout Standard
+O 
+\emph on
+checkbox
+\emph default
+ encontrado logo antes do botão, faz com que o relatório gerado seja exibido
+ como uma janela pop-up, no caso, é interessante quando é necessário realizar
+ uma comparação ou uma consulta de forma mais maleável e prática.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_Ocupacao_Salas_checkbox.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Checkbox
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O relatório final, terá a forma como ilustra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Janela-da-Ocupação"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_janela_ocupacaoSalas.png
+	width 70text%
+	height 70theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Janela da Ocupação das salas
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Janela-da-Ocupação"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A navegação deverá ser feita atravez de pequenos botões localizados no canto
+ inferior esquerdo da janela, cada um tem determinada função, entre eles:
+ Primeira página, página anterior, próxima página e última página.
+\end_layout
+
+\begin_layout Itemize
+Mapa de ocupação modificado - A a H e Mapa de ocupação modificado - I a
+ U
+\end_layout
+
+\begin_layout Standard
+O mapa de ocupação modificado tem como característica um método de representação
+ diferente do analisado no 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de Ocupação das Salas}
+\end_layout
+
+\end_inset
+
+, torna-se mais prático uma consulta a fim de obter-se uma informação rápida.
+ Sua estrutura é dividida em três grandes linhas, sendo elas em amarelo,
+ o período Diurno e em vermelho e azul, o período Noturno.
+ E também, este modelo apresenta em sua forma letras como E, D, G ou A,
+ cada uma dessas letras representam o tipo de aula que é desenvolvido nas
+ salas, no caso, 
+\begin_inset Quotes eld
+\end_inset
+
+E
+\begin_inset Quotes erd
+\end_inset
+
+ significa engenharia, 
+\begin_inset Quotes eld
+\end_inset
+
+D
+\begin_inset Quotes erd
+\end_inset
+
+ de Desing, 
+\begin_inset Quotes eld
+\end_inset
+
+G
+\begin_inset Quotes erd
+\end_inset
+
+ de gestão e por fim, 
+\begin_inset Quotes eld
+\end_inset
+
+A
+\begin_inset Quotes erd
+\end_inset
+
+ de Administração respectivamente., como mostra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Ocupação-das-Salas-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_ocupacaoSalas_modificado.png
+	height 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Ocupação das Salas modificado
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ocupação-das-Salas-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Mapas de ocupação modificado - Salas de Teoria
+\end_layout
+
+\begin_layout Standard
+Da mesma forma que as consultas anterioes, neste caso, salas de laboratório
+ como as salas A1 e A2 seram descartadas da lista, sendo exibidos somente
+ as salas destinadas a aulas de teoria.
+\end_layout
+
+\begin_layout Itemize
+Taxa de ocupação
+\end_layout
+
+\begin_layout Standard
+Trata-se de um relatório de ocupação de salas para aulas de teoria, exercícios,
+ laboratório e projetos, num ponto de vista estatístico, aonde são apresentados
+ valores em porcentagem de ocupação, entre outros.
+ O própio relatório possui instruções e informações para seu manuseamento.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_taxa_ocupação.png
+	height 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Taxa de ocupação
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Taxa-de-ocupação"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tipo de Aula}
+\end_layout
+
+\end_inset
+
+ influenciará apenas a consulta relacionada a Taxa de Ocupação.
+ Suas opções podem ser:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_Ocupacao_Salas(2).png
+	height 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tipo de aula
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tipo-de-aula"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Teoria}
+\end_layout
+
+\end_inset
+
+: Somente aulas de teoria.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Exercícios}
+\end_layout
+
+\end_inset
+
+: Somente aulas de exercícios.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Laboratório}
+\end_layout
+
+\end_inset
+
+: Somente aulas de laboratório.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Projetos}
+\end_layout
+
+\end_inset
+
+: Somente aulas de projetos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{*}
+\end_layout
+
+\end_inset
+
+: Todos os tipos de aula.
+\end_layout
+
 \begin_layout Subsubsection
 Disponibilidade das Salas
+\end_layout
+
+\begin_layout Standard
+Este recurso permite realizar uma busca completa da disponibilidade das
+ salas de aula.
+ A 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Disponibilidade-das-Salas"
+
+\end_inset
+
+ ilustra o leiaute da pesquisa:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_disponibilidade_salas.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Disponibilidade das Salas
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Disponibilidade-das-Salas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Dia da semana}
+\end_layout
+
+\end_inset
+
+: Deve ser peenchido com valores de SEG (Segunda-feira) a SEX (Sexta-feira).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Horário Inicial}
+\end_layout
+
+\end_inset
+
+e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Horário Final}
+\end_layout
+
+\end_inset
+
+: Deve-se obedecer necessáriamente a formatação padrão (_ _ : _ _).
+ 
+\end_layout
+
+\begin_layout Itemize
+A opção 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Lista U/B}
+\end_layout
+
+\end_inset
+
+ opção fará com que sua lista seja rearranjada em uma formatação padrão
+ do 
+\begin_inset Quotes eld
+\end_inset
+
+excell
+\begin_inset Quotes erd
+\end_inset
+
+, com linhas e colunas enumeradas, permitindo um acesso rápido a alguma
+ sala específica ou até a exportação das informações.
+\end_layout
+
+\begin_layout Standard
+Após preenchidos os campos de pesquisa, ao clicar no botão representado
+ por uma 
+\begin_inset Quotes eld
+\end_inset
+
+Lupa
+\begin_inset Quotes erd
+\end_inset
+
+, a consulta irá ser realizada.
+\end_layout
+
+\begin_layout Standard
+O botão de atualizar acessa o banco de dados do sistema e atualiza seus
+ valores a fim de mostrar corretamente o número de salas disponíveis, uma
+ vez que o usuário faça algum tipo de alteração com relação a ocupação de
+ alguma sala.
 \end_layout
 
 \begin_layout Subsection
 Horários de Aula
 \end_layout
 
+\begin_layout Standard
+Está nova aba de consultas chamada Horários de Aula, é uma ferramenta utilizada
+ excepcionalmente na detecção de incoerencias relacionadas a cargas horárias
+ de professores e está dividida em quatro tópicos, :
+\end_layout
+
+\begin_layout Itemize
+Encontrar Superposições, Restrições de Carga, Indefinições, Tabela de Horários
+ de Aulas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_Horarios_aulas.png
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Horários de Aula
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Horários-de-Aula"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Encontrar Superposições
 \end_layout
 
+\begin_layout Standard
+*****
+\end_layout
+
 \begin_layout Subsubsection
 Restrições de Carga 
+\end_layout
+
+\begin_layout Standard
+As restrições de carga são restrições que definem a quantidade de horas
+ máximas e mínimas em que cada professor pode-se trabalhar, relacionados
+ aos tópicos
+\emph on
+ Regime, Dia, Semana, Ano 
+\emph default
+e
+\emph on
+ Descanço.
+\end_layout
+
+\begin_layout Standard
+Ao clicar no botão 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Encontrar todas as violações das restrições
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Restrições-de-Carga"
+
+\end_inset
+
+ , será gerado diversas tabelas correspondentes as violações encontradas,
+ dentre elas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_restricoes_carga.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Restrições de Carga
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Restrições-de-Carga"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx 8h-a por Dia Excedido}
+\end_layout
+
+\end_inset
+
+: Por definição, um professor não deve ter mais de oito horas aula por dia
+ excedido.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Excede Máx 6h-a Consecutivas}
+\end_layout
+
+\end_inset
+
+: Professores no qual excede um valor de seis horas aulas por dia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mín 11h de Descanso Não Atendido}
+\end_layout
+
+\end_inset
+
+: Lista de professores que não atendem a onze horas de descanso diários.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Não Atendido 40h-a TI}
+\end_layout
+
+\end_inset
+
+ : Professores em tempo integral que não cumprem quarenta horas semanais.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx 20 h-a AD TI Excedido}
+\end_layout
+
+\end_inset
+
+ : ******
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mín 6 h-a por Semana não atendido}
+\end_layout
+
+\end_inset
+
+: Mínimo de seis horas aulas por semana não atendidos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx 38 h-a HR Excedido}
+\end_layout
+
+\end_inset
+
+: Professores horistas com mais de trinta e oito horas aulas excedido ao
+ longo de uma semana.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Máx 38 h-a TP Excedido}
+\end_layout
+
+\end_inset
+
+: Professores de tempo parcial com mais de trinta e seis horas aulas excedido
+ ao longo de uma semana.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Janelas Detectadas}
+\end_layout
+
+\end_inset
+
+: Aulas vagas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Diferença QtdHa Anos consecutivos}
+\end_layout
+
+\end_inset
+
+: Estatistica da diferença de quantidade de horas aulas dos professores,
+ observados anualmente.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Redução QtdHa Anos Consecultivos}
+\end_layout
+
+\end_inset
+
+ : Estatistica da redução de quantidade de horas aulas dos professores,
+ observados anualmente.
+ 
+\end_layout
+
+\begin_layout Standard
+Alguns campos podem constar valores incoerentes devido ao fato de, o cálculo
+ realizado para obter-se tal valor, utiliza tanto a horas de aulas normais
+ e também as horas aulas compartilhadas, logo, há horas que não deveriam
+ influenciar em tal valor.
+ Deve-se checar se os valores exibidos estão realmente certos, caso contrário,
+ será necessário contatar algum responsável pelo lançamento dos horários.
 \end_layout
 
 \begin_layout Subsubsection
@@ -5561,7 +6784,7 @@ Ano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+----//----
 \end_layout
 
 \end_inset
@@ -5592,7 +6815,7 @@ Ano_Adms_IMT
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Ano de admissão no Instituto Mauá de Tecnologia
 \end_layout
 
 \end_inset
@@ -5623,7 +6846,7 @@ Ano_PG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Ano da Pós-Graduação
 \end_layout
 
 \end_inset
@@ -5685,7 +6908,7 @@ Anos_GD
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Área de atuação da Pós-Graduação
 \end_layout
 
 \end_inset
@@ -5747,7 +6970,7 @@ Cod_PG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Código referênte a Pós-Graduação
 \end_layout
 
 \end_inset
@@ -5778,7 +7001,7 @@ CodDisc
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Código da disciplina
 \end_layout
 
 \end_inset
@@ -5809,7 +7032,7 @@ Concentração
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Local de concentração(Área de trabalho)
 \end_layout
 
 \end_inset
@@ -5840,7 +7063,7 @@ Concentração_PG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Local de concentração(Área de trabalho) da Pós-Graduação
 \end_layout
 
 \end_inset
@@ -5871,7 +7094,7 @@ Data
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+---//---
 \end_layout
 
 \end_inset
@@ -5902,7 +7125,7 @@ Data_Fim
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Data final
 \end_layout
 
 \end_inset
@@ -5933,7 +7156,7 @@ Data_Início
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Data inicial
 \end_layout
 
 \end_inset
@@ -5964,7 +7187,7 @@ DataRef
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Data tomada como referência
 \end_layout
 
 \end_inset
@@ -5993,7 +7216,7 @@ DiaSem
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Dia e(ou) semana
 \end_layout
 
 \end_inset
@@ -6024,7 +7247,7 @@ Estado
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Região ou Estado
 \end_layout
 
 \end_inset
@@ -6055,7 +7278,7 @@ Estado_IES
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Estado da Instituição de Ensino Superior
 \end_layout
 
 \end_inset
@@ -6086,7 +7309,7 @@ Exp_Mag_IMT
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Experiência em Magistério no Instituto Mauá de Tecmologia
 \end_layout
 
 \end_inset
@@ -6117,7 +7340,7 @@ GTL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Grupo / Turma / Laboratório
 \end_layout
 
 \end_inset
@@ -6148,7 +7371,7 @@ HorIni
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Horário Inicial
 \end_layout
 
 \end_inset
@@ -6179,7 +7402,7 @@ Id_Turma
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Identificação da turma
 \end_layout
 
 \end_inset
@@ -6272,7 +7495,7 @@ IMT_Data_Desligamento
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Data de desligamento do Instituto Mauá de Tecnologia
 \end_layout
 
 \end_inset
@@ -6303,7 +7526,7 @@ IMT_Regime
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Regime (TP, HR e TI) dentro do Instituto Mauá de Tecnologia
 \end_layout
 
 \end_inset
@@ -6334,7 +7557,7 @@ IMT_Regime_Novo
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Novo regime (TP, HR e TI) dentro do Instituto Mauá de Tecnologia
 \end_layout
 
 \end_inset
@@ -6365,7 +7588,7 @@ Instituição_PG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Instituição da Pós-Graduação
 \end_layout
 
 \end_inset
@@ -6396,7 +7619,7 @@ Licença
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Referênte a ausência de um professor
 \end_layout
 
 \end_inset
@@ -6427,7 +7650,7 @@ Motivo
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Causa
 \end_layout
 
 \end_inset
@@ -6458,7 +7681,7 @@ NomDisc
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Nome da disciplina
 \end_layout
 
 \end_inset
@@ -6489,7 +7712,7 @@ Nome
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+--//--
 \end_layout
 
 \end_inset
@@ -6520,7 +7743,7 @@ Nome_Abr_Disciplinas
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Nome abreviado da disciplina
 \end_layout
 
 \end_inset
@@ -6549,7 +7772,7 @@ Nome_Formatado
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Nome formatado
 \end_layout
 
 \end_inset
@@ -6580,7 +7803,7 @@ Nome_IES
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Nome da Instituição de ensino
 \end_layout
 
 \end_inset
@@ -6611,7 +7834,7 @@ NumRf
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Número do Registro Funcional
 \end_layout
 
 \end_inset
@@ -6642,7 +7865,7 @@ Observações
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+--//--
 \end_layout
 
 \end_inset
@@ -6673,7 +7896,7 @@ País_IES
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+País da Instituição de Ensino Superio
 \end_layout
 
 \end_inset
@@ -6704,7 +7927,7 @@ Período
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Diurno ou Noturno
 \end_layout
 
 \end_inset
@@ -6735,7 +7958,7 @@ PG_Data
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Data da Pós-Graduação
 \end_layout
 
 \end_inset
@@ -6766,7 +7989,7 @@ Professor
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Nome do professor
 \end_layout
 
 \end_inset
@@ -6795,7 +8018,7 @@ pToHaOutras
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Totas de Horas realizadas em Atividades Outras
 \end_layout
 
 \end_inset
@@ -6826,7 +8049,7 @@ QHa
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Quantidade de Horas Aula
 \end_layout
 
 \end_inset
@@ -6857,7 +8080,7 @@ Remunerado
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Salário
 \end_layout
 
 \end_inset
@@ -6888,7 +8111,7 @@ RF
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Registro funcional
 \end_layout
 
 \end_inset
@@ -6919,7 +8142,7 @@ Sala
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Código da Sala
 \end_layout
 
 \end_inset
@@ -6948,7 +8171,7 @@ Semestre
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Semestre (1º ou 2º)
 \end_layout
 
 \end_inset
@@ -7041,7 +8264,7 @@ Título
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Titulação
 \end_layout
 
 \end_inset
@@ -7072,7 +8295,7 @@ Título_PG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Titulação de Pós-Graduação
 \end_layout
 
 \end_inset
@@ -7103,7 +8326,7 @@ Título_GD
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Titulação da maior graduação.
 \end_layout
 
 \end_inset
@@ -7223,7 +8446,7 @@ TotHaAulas
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Total de horas aulas
 \end_layout
 
 \end_inset
@@ -7252,7 +8475,7 @@ TotHaIMT
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Total de horas aulas no Instituto Mauá de Tecnologia
 \end_layout
 
 \end_inset
@@ -7281,7 +8504,7 @@ TotHaOutras
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Total de horas em outras atividades
 \end_layout
 
 \end_inset
@@ -7310,7 +8533,7 @@ TotHaTG
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Total de horas como professor orientador de TGs
 \end_layout
 
 \end_inset
