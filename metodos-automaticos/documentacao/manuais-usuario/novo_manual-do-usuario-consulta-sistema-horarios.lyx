@@ -4078,9 +4078,6 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_exemplo_doc_grade_horaria.png
-	width 100text%
-	height 40pheight%
-	keepAspectRatio
 
 \end_inset
 
@@ -4327,7 +4324,7 @@ reference "fig:Atividade-outras"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -4512,14 +4509,7 @@ Lançar Trabalhos de Conclusão de Curso
 \end_layout
 
 \begin_layout Standard
-A interface (ver 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "fig:Professores-envolvidos-com-TG"
-
-\end_inset
-
-) é muito semelhante a 
+A interface é muito semelhante a 
 \emph on
 
 \begin_inset Quotes eld
@@ -4533,51 +4523,6 @@ Lançar Atividades Outras
 \emph default
 , ela lista os professores que estão relacionados para exercer atividades
  com os alunos relacionados com os trabalhos de conclusão de curso.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename imagens/csh_trab_conclusao_curso.png
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\emph on
-Professores envolvidos com TGs
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Professores-envolvidos-com-TG"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -4863,7 +4808,7 @@ Quando um professor entrará de licença:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -4909,7 +4854,7 @@ Professores que estiverão de licença no dia tomado como referência:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -4992,7 +4937,7 @@ estarão a disposição nesta consulta.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -5231,7 +5176,7 @@ reference "fig:Atualizar-TP-e-HR"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -5319,7 +5264,7 @@ reference "fig:Executar-as-Atualizações"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -5527,7 +5472,7 @@ checkbox
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -5579,15 +5524,14 @@ reference "fig:Janela-da-Ocupação"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename imagens/csh_janela_ocupacaoSalas.png
-	width 70text%
-	height 70theight%
+	width 30page%
 
 \end_inset
 
@@ -5772,14 +5716,13 @@ Trata-se de um relatório de ocupação de salas para aulas de teoria, exercíci
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename imagens/csh_taxa_ocupação.png
-	height 3cm
+	filename imagens/csh_taxa_ocupacao.png
 
 \end_inset
 
@@ -5839,13 +5782,13 @@ cp{Tipo de Aula}
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename imagens/csh_Ocupacao_Salas(2).png
+	filename imagens/csh_Ocupacao_Salas_tipodeaula.png
 	height 3cm
 
 \end_inset
@@ -5985,7 +5928,7 @@ reference "fig:Disponibilidade-das-Salas"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -6194,9 +6137,8 @@ Restrições de Carga
 \end_layout
 
 \begin_layout Standard
-As restrições de carga são restrições que definem a quantidade de horas
- máximas e mínimas em que cada professor pode-se trabalhar, relacionados
- aos tópicos
+As restrições de carga definem a quantidade de horas máximas e mínimas em
+ que cada professor pode-se trabalhar, relacionados aos tópicos
 \emph on
  Regime, Dia, Semana, Ano 
 \emph default
@@ -6476,6 +6418,116 @@ Alguns campos podem constar valores incoerentes devido ao fato de, o cálculo
 Indefinições
 \end_layout
 
+\begin_layout Standard
+Em alguns casos, quando é gerado grades horárias porém ainda com algumas
+ indefinições, sejam elas dos professores ou das salas (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Indefinições"
+
+\end_inset
+
+), estas então ficarão contidas no banco de dados e será exibida neste relatório.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_indefinicoes.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Indefinições 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Indefinições"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Indefinições de professores e salas
+\end_layout
+
+\begin_layout Standard
+O relatório possui informações como período, turma, código da disciplina,
+ dia da semana, horário inicial da aula, grupo ou turma ou laboratório,
+ a sala e o tipo de aula.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_indefinicoes_prof.png
+	width 40page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Tabela de Horários de Aulas
 \end_layout
@@ -6484,8 +6536,184 @@ Tabela de Horários de Aulas
 CEUN
 \end_layout
 
+\begin_layout Standard
+CEUN ou Centro Universitário, possui uma opção de consulta relacionadas
+ as estatísticas do IMT, a consulta permite verificar diversas informações,
+ tais como:
+\end_layout
+
+\begin_layout Itemize
+Quantidade de professores horistas, professores de tempo parcial e integral.
+\end_layout
+
+\begin_layout Itemize
+Quantidade de alunos.
+\end_layout
+
+\begin_layout Itemize
+Disponibilidade e a necessidade mínima e máxima de recursos (Horas aula).
+\end_layout
+
+\begin_layout Itemize
+Quantidade de alunos por professor, quantidade de professor por alunos e
+ entre outras relações de estatística.
+\end_layout
+
+\begin_layout Standard
+Todas as informações acima, são referêntes a uma única habilitação, ou seja,
+ cada habilitação possui tais informações.
+\end_layout
+
+\begin_layout Standard
+A 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:CEUN"
+
+\end_inset
+
+ ilustra um exemplo de tabela.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_CEUN.png
+	width 80page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+CEUN
+\emph default
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:CEUN"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por se tratar de uma tabela de estatísticas, certas linhas e colunas na
+ verdade são frutos de calculos realizados a partir de colunas anteriores,
+ por exemplo:
+\end_layout
+
+\begin_layout Enumerate
+O campo 
+\emph on
+TODOS
+\emph default
+, localizado na última linha da tabela, possui valores que não são necessáriamen
+te a somatória das linhas acima, uma vez contabilizado um professor, ele
+ não será novamente contabilizado caso o mesmo esteja presente em diferentes
+ habilitações.
+\end_layout
+
+\begin_layout Enumerate
+A coluna QtdProfessores informa o número de professores nas colunas QtdHR,
+ QtdTP e QtdTI, ou seja, sua somatória.
+\end_layout
+
 \begin_layout Subsection
 CPA
+\end_layout
+
+\begin_layout Standard
+O CPA é uma ferramenta de consulta, como todas as outras, no qual apresenta
+ em sua estrutura, uma listagem de todos os professores e suas respectivas
+ turmas e salas nas quais leciona.
+ A necessidade de consultas rápidas e de fácil acesso pode ser realizada
+ atravez deste recurso, a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:CPA"
+
+\end_inset
+
+ representa seu leiaute:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_CPA.png
+	width 80page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+CPA
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:CPA"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
