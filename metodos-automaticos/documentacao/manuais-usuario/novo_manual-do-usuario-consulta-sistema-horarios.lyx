@@ -598,9 +598,9 @@ Tela inicial
 \end_layout
 
 \begin_layout Standard
-Ao iniciar o módulo, da maneira apresentada anteriormente,será carregada
- uma interface de entrada e nela poderá observar o título, a versão atual
- e três botões, como na 
+Ao iniciar o módulo, conforme visto anteriormente, uma interface inicial
+ será exibida.
+ Nela, poderá observar o título, a versão atual e três botões, como na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Tela-Inicial"
@@ -667,12 +667,18 @@ Gerenciador Principal
 Consulta Sistema Horários.
  
 \emph default
-Falaremos em detalhes o funcionamento deste módulo no tópico seguinte.
- Perceba que a única maneira de fechar o programa é pelo botão 
+Será detalhado o funcionamento de todas as ferramentas deste módulo nos
+ tópicos seguintes.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Para fechar o programa, a única maneira disponível é pelo botão 
 \emph on
 Sair
 \emph default
-, uma vez que o botão 
+.
+ O botão 
 \begin_inset Quotes eld
 \end_inset
 
@@ -684,7 +690,7 @@ X
 \begin_inset Quotes erd
 \end_inset
 
- da janela do Access está desabilitado.
+ da janela do Access está desabilitado por motivos de segurança.
  
 \end_layout
 
@@ -715,7 +721,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_gerenciador_principal.png
-	height 8cm
+	width 90text%
 
 \end_inset
 
@@ -752,15 +758,34 @@ name "fig:Gerenciador-Principal"
 
 \begin_layout Standard
 \noindent
-As regiões desta interface podem ser subdivididas em, 
+As regiões desta interface podem ser subdivididas em
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
 \emph on
-Dados de Referência, Relatórios Rápidos 
+Dados de Referência 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\emph on
+Relatórios Rápidos
 \emph default
-e 
-\emph on
-Consultas.
  
-\emph default
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\emph on
+Consultas
+\end_layout
+
+\begin_layout Standard
+\noindent
 Para sair e retornar a tela inicial, basta clicar no botão fechar localizado
  na parte inferior.
 \end_layout
@@ -790,7 +815,7 @@ na aba Outros, e por fim o
 \emph on
 campus
 \emph default
- de atuação dos professores, referente a aba Atuação.
+ de atuação dos professores, presente na aba Atuação.
  Todos estes campos são ilustrados na 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -932,15 +957,55 @@ Tais prefixos sugerem que cada campo possui uma identificação, ou seja,
 \emph on
 Consultas, 
 \emph default
-por enquanto, deve-se gravar somente a sua definição.
- Por agora, será abordado em detalhes o significado das abas da Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Dados-de-referência"
-
+por enquanto.
+ Cada abreviação corresponde a cada uma das opções encontradas na região
+ 
+\begin_inset Quotes eld
 \end_inset
 
-:
+
+\emph on
+Dados de Referencia
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, observe que a primeira letra procura identificar a qual aba está se referindo
+ e a segunda letra indica a opção, por exemplo, Aa é uma forma de indicar
+ que esta trabalhando-se com a aba 
+\begin_inset Quotes eld
+\end_inset
+
+A
+\begin_inset Quotes erd
+\end_inset
+
+ (Data) e a opção 
+\begin_inset Quotes eld
+\end_inset
+
+a
+\begin_inset Quotes erd
+\end_inset
+
+ Ano , do mesmo modo que Bb indica que esta trabalhando-se com a aba 
+\begin_inset Quotes eld
+\end_inset
+
+B
+\begin_inset Quotes erd
+\end_inset
+
+ (Outros) e a opção 
+\begin_inset Quotes eld
+\end_inset
+
+b
+\begin_inset Quotes erd
+\end_inset
+
+ Período.
 \end_layout
 
 \begin_layout Paragraph
@@ -1114,7 +1179,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_consultas.png
-	height 4cm
+	width 65text%
 
 \end_inset
 
@@ -1386,10 +1451,14 @@ CEUN: Permite que o usuário consulte informações relacionada a estatísticas
  do CEUN.
 \end_layout
 
+\begin_layout Enumerate
+CPA: Permite que o usuário consulte informações relacionada a estatísticas
+ do CPA.
+\end_layout
+
 \begin_layout Standard
 Será apresentado nos tópicos seguintes, a descrição detalhada do funcionamento
  de cada aba relacionada anteriormente.
- A sua leitura é fundamental para a compreenção do software e suas aplicações.
 \end_layout
 
 \begin_layout Subsection
@@ -1428,7 +1497,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_consulta_lista_de_presença.png
-	height 6cm
+	width 60text%
 
 \end_inset
 
@@ -1462,55 +1531,8 @@ name "fig:Lista-de-Presença"
 \end_layout
 
 \begin_layout Standard
-Cada abreviação corresponde a cada uma das opções encontradas na região
- 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-Dados de Referencia
-\emph default
-
-\begin_inset Quotes erd
-\end_inset
-
-, observe que a primeira letra procura identificar a qual aba está se referindo
- e a segunda letra indica a opção, por exemplo, Aa é uma forma de indicar
- que esta trabalhando-se com a aba 
-\begin_inset Quotes eld
-\end_inset
-
-A
-\begin_inset Quotes erd
-\end_inset
-
- (Data) e a opção 
-\begin_inset Quotes eld
-\end_inset
-
-a
-\begin_inset Quotes erd
-\end_inset
-
- Ano , do mesmo modo que Bb indica que esta trabalhando-se com a aba 
-\begin_inset Quotes eld
-\end_inset
-
-B
-\begin_inset Quotes erd
-\end_inset
-
- (Outros) e a opção 
-\begin_inset Quotes eld
-\end_inset
-
-b
-\begin_inset Quotes erd
-\end_inset
-
- Período.
- A consulta, no caso da 
+\noindent
+A consulta, no caso da 
 \emph on
 Lista de Presença
 \emph default
@@ -1904,7 +1926,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_lista_dia.png
-	height 4cm
+	width 65text%
 
 \end_inset
 
@@ -4261,6 +4283,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_exemplo_filtro.png
+	width 50text%
 
 \end_inset
 
@@ -4758,7 +4781,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_licenças.png
-	height 4cm
+	width 65text%
 
 \end_inset
 
@@ -4783,10 +4806,6 @@ name "fig:Licenças"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4944,7 +4963,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_outras_relacoes.png
-	height 4cm
+	width 65text%
 
 \end_inset
 
@@ -4969,10 +4988,6 @@ name "fig:Outras-Relações"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5183,7 +5198,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_atualizar_tp_hs.png
-	height 4cm
+	width 65text%
 
 \end_inset
 
@@ -5208,10 +5223,6 @@ name "fig:Atualizar-TP-e-HR"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5271,7 +5282,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_janela_executar_atualizacoes.png
-	height 4cm
+	width 65text%
 
 \end_inset
 
@@ -5296,10 +5307,6 @@ name "fig:Executar-as-Atualizações"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5410,7 +5417,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_Ocupacao_Salas.png
-	height 4cm
+	width 65text%
 
 \end_inset
 
@@ -5435,10 +5442,6 @@ name "fig:Ocupação-das-Salas"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5479,6 +5482,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_Ocupacao_Salas_checkbox.png
+	width 65text%
 
 \end_inset
 
@@ -5496,10 +5500,6 @@ Checkbox
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5531,7 +5531,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_janela_ocupacaoSalas.png
-	width 30page%
+	width 65text%
 
 \end_inset
 
@@ -5556,10 +5556,6 @@ name "fig:Janela-da-Ocupação"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5681,10 +5677,6 @@ name "fig:Ocupação-das-Salas-1"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -5723,6 +5715,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_taxa_ocupacao.png
+	width 90text%
 
 \end_inset
 
@@ -5747,10 +5740,6 @@ name "fig:Taxa-de-ocupação"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5789,7 +5778,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_Ocupacao_Salas_tipodeaula.png
-	height 3cm
+	width 65text%
 
 \end_inset
 
@@ -5814,10 +5803,6 @@ name "fig:Tipo-de-aula"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5935,6 +5920,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_disponibilidade_salas.png
+	width 80text%
 
 \end_inset
 
@@ -5959,10 +5945,6 @@ name "fig:Disponibilidade-das-Salas"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6091,6 +6073,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_Horarios_aulas.png
+	width 65text%
 
 \end_inset
 
@@ -6112,10 +6095,6 @@ name "fig:Horários-de-Aula"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6176,14 +6155,14 @@ reference "fig:Restrições-de-Carga"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename imagens/csh_restricoes_carga.png
-	height 4cm
+	width 65text%
 
 \end_inset
 
@@ -6435,13 +6414,14 @@ reference "fig:Indefinições"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename imagens/csh_indefinicoes.png
+	width 65text%
 
 \end_inset
 
@@ -6493,7 +6473,7 @@ O relatório possui informações como período, turma, código da disciplina,
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
