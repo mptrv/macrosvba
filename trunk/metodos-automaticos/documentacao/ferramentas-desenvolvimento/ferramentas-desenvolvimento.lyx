@@ -110,7 +110,7 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.0.1+
+ 0.0.2
 \end_layout
 
 \begin_layout Author
@@ -1506,6 +1506,91 @@ sumir
 \end_layout
 
 \begin_layout Section
+Texto
+\end_layout
+
+\begin_layout Description
+Vim
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Vim
+\end_layout
+
+\end_inset
+
+: 
+\emph on
+Vi Improved
+\emph default
+.
+ Gratuito, multiplataforma.
+ Ferramenta de edição de texto com uma infinidade de recursos.
+ Muito útil para programação.
+ Reconhece a sintaxe de muitas linguagens de programação.
+ Há a versão em modo texto e em modo gráfico (
+\emph on
+GVim
+\emph default
+).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.vim.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+GVim
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GVim
+\end_layout
+
+\end_inset
+
+: 
+\emph on
+GUI Vim
+\emph default
+.
+ Gratuito, multiplataforma.
+ É o 
+\emph on
+Vim
+\emph default
+, porém com GUI.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.vim.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Imagem
 \end_layout
 
@@ -2037,6 +2122,53 @@ status collapsed
 \begin_layout Plain Layout
 
 http://aquilawol.sourceforge.net/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+PuTTY
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+PuTTY
+\end_layout
+
+\end_inset
+
+: Gratuito, para 
+\emph on
+Windows
+\emph default
+.
+ Permite acessar outros computadores remotamente.
+ Especialmente útil para acessar computadores com 
+\emph on
+Sistema Operacional Linux 
+\emph default
+ou 
+\emph on
+Unix 
+\emph default
+a partir do 
+\emph on
+Windows
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.putty.org/
 \end_layout
 
 \end_inset
