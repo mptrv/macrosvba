@@ -29,7 +29,16 @@
 \index_command default
 \paperfontsize 12
 \spacing onehalf
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry true
 \use_amsmath 1
@@ -305,6 +314,15 @@ Manual do Usuário
 
 Consulta Sistema Horários
 \begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
 \end_inset
 
 
@@ -792,6 +810,13 @@ Para sair e retornar a tela inicial, basta clicar no botão fechar localizado
 
 \begin_layout Subsubsection
 Dados de Referência
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Dados-de-Referencia"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1475,7 +1500,21 @@ Antes de iniciar a explicação desta seção, é importante relembrar o signifi
 \emph on
 Dados de Referência
 \emph default
- (ver seção 1.1.3.1), no caso, observe na 
+ (ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Dados-de-Referencia"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "sub:Dados-de-Referencia"
+
+\end_inset
+
+ ), no caso, observe na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Lista-de-Presença"
@@ -1959,11 +1998,9 @@ name "fig:Lista-Dia"
 
 \end_layout
 
-\begin_layout Enumerate
-
-\emph on
+\begin_layout Itemize
 Lista Dia Completa
-\emph default
+\emph on
 :
 \end_layout
 
@@ -1984,11 +2021,11 @@ status open
 \align left
 \begin_inset Tabular
 <lyxtabular version="3" rows="8" columns="2">
-<features tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="70text%">
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1997,7 +2034,7 @@ Nome
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2007,8 +2044,8 @@ Descrição
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2017,7 +2054,7 @@ Professor
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2027,8 +2064,8 @@ Nome do professor
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2037,7 +2074,7 @@ Disc.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2047,8 +2084,8 @@ Nome da disciplina
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2057,7 +2094,7 @@ QtdHa
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2067,8 +2104,8 @@ Quantidade de horas aula
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2077,7 +2114,7 @@ Tipo
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2087,8 +2124,8 @@ Aulas de Teoria, Laboratório ou Exercícios
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2097,7 +2134,7 @@ Série
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2107,8 +2144,8 @@ Série
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2117,7 +2154,7 @@ Habilitação
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2128,8 +2165,8 @@ PM (Produção), ET (Eletrônico), EL (Eletrotécnico), MC (Mecânica), QM (Quí
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2138,7 +2175,7 @@ GTL
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2184,11 +2221,9 @@ name "tab:Tabela-Lista-Dia"
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
-
-\emph on
+\begin_layout Itemize
 Dia em que o professor está na escola
-\emph default
+\emph on
 :
 \end_layout
 
@@ -2215,9 +2250,30 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename imagens/csh_exemplo_dia_prof_escola.png
 	height 2cm
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -2264,11 +2320,9 @@ Lista Dia Completa
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
-
-\emph on
+\begin_layout Itemize
 Horários dos dias em quais o professor está em aula
-\emph default
+\emph on
 :
 \end_layout
 
@@ -2291,7 +2345,7 @@ reference "fig:Horários-dos-dias-prof-em-aula-1"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -3016,7 +3070,7 @@ reference "fig:Cargas-Horárias"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -3123,7 +3177,7 @@ cp{Lançar Trabalho de Conslusão de Curso}
 : Mostra os professores que cuidam dos TCCs de cada modalidade.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Consulta de Aulas
 \end_layout
 
@@ -3236,11 +3290,11 @@ status open
 \align left
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="2">
-<features tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="middle" width="20text%">
 <column alignment="left" valignment="middle" width="55text%">
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3249,7 +3303,7 @@ Campos
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3259,8 +3313,8 @@ Descrição
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3269,7 +3323,7 @@ Professor
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3279,8 +3333,8 @@ Nome do Professor a ser procurado
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3289,7 +3343,7 @@ Nome Disciplina
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3301,8 +3355,8 @@ Nome da disciplina a ser procurada
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3311,7 +3365,7 @@ Dia Semana
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3321,8 +3375,8 @@ Dia da semana no qual a aula pertence
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3331,7 +3385,7 @@ Habilitação
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3341,8 +3395,8 @@ Habilitação da aula (ET, EN, MC, AL, QM, CV, PR, CO, CA)
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3351,7 +3405,7 @@ Horário Início
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3361,8 +3415,8 @@ Horário de início da aula
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3371,7 +3425,7 @@ Série
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3381,8 +3435,8 @@ Série
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3391,7 +3445,7 @@ Período
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3401,8 +3455,8 @@ Diurno (D) ou Noturno (N)
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3411,7 +3465,7 @@ GTL
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3421,8 +3475,8 @@ Grupo, Turma ou Laboratório
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3431,7 +3485,7 @@ RF
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3441,8 +3495,8 @@ Registo funcional
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3452,7 +3506,7 @@ Cód.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3462,8 +3516,8 @@ Código da disciplina
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3472,7 +3526,7 @@ Sala
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3630,11 +3684,11 @@ status open
 \align left
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="20text%">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="20text%">
 <column alignment="left" valignment="top" width="70text%">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3643,7 +3697,7 @@ Ilustração
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3653,8 +3707,8 @@ Descrição
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3682,7 +3736,7 @@ espv
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3692,8 +3746,8 @@ Gera o documento da Grade Horária do professor
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3721,7 +3775,7 @@ espv
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3731,8 +3785,8 @@ Limpa todos os campos de filtro
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3760,7 +3814,7 @@ espv
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3770,8 +3824,8 @@ Realiza a busca, conforme as informações inseridas
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3799,7 +3853,7 @@ espv
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3834,10 +3888,6 @@ name "tab:Descrição-dos-botões-consulta-aulas"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3933,7 +3983,7 @@ name "fig:Resultado-consulta-aulas"
 Observações a serem feitas:
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 A aba consulta disponibiliza um segundo filtro localizado na parte inferior,
  em verde, que permite o usuário a buscar quaisquer informações dentro da
  consulta realizada, ou também, habilitando e desabilitando dados coluna
@@ -3942,7 +3992,7 @@ A aba consulta disponibiliza um segundo filtro localizado na parte inferior,
  a navegação entre as linhas com as setas representadas.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Para que esta planilha seja exportada para o 
 \emph on
 Excel
@@ -4132,7 +4182,7 @@ name "fig:Exemplo-Documento-de-grade-horaria"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Consulta CEUN-IMT
 \end_layout
 
@@ -4210,7 +4260,7 @@ Está lista possui informações importantes quanto a quantidade de horas totais
 Considerações a serem feitas:
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Se, por exemplo, um professor possuir horas-aula em 
 \begin_inset ERT
 status open
@@ -4229,7 +4279,7 @@ cp{TotHaIMT}
  aulas atribuidas e checar o lançamento destas aulas.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 A coluna TotHaIMT corresponde a soma das colunas TotHaAulas, TotHaATO, TotHaPG
  , TotHaTG e TotHaATDPago (ver 
 \begin_inset CommandInset ref
@@ -4243,14 +4293,14 @@ reference "tab:Siglas"
  Pós-Graduação e ATDPagos, logo, estas colunas não constam de valores.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Informações referêntes ao Ano de 2011, podem estar deficientes em algum
  aspecto.
  Tais informações não constam no banco de dados e por este motivo, não aparecem.
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 A sigla RF significa Registro Funcional, no caso, valores menores que 100
  representam um registro temporário atribuido ao funcionário, enquanto seu
  RF definitivo não é emitido.
@@ -4325,7 +4375,7 @@ name "fig:Exemplo-de-Filtro"
  seja exibido somente o que se deseja.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Lançar Atividades Outras
 \end_layout
 
@@ -4354,7 +4404,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh-lancar-atividade-outras.png
-	width 80text%
+	width 100text%
 
 \end_inset
 
@@ -4398,115 +4448,211 @@ Nela, pode ser inserido como informação:
 \end_layout
 
 \begin_layout Quotation
-\begin_inset ERT
+\begin_inset Float table
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Professor*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome do professor
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NúmDecisão*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Número do registro da decisão
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DataDecisão*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Data no qual a decisão foi tomada
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DataInício*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Data de início das atividades
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DataFim*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Data do fim das atividades
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+QtdHa*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantidades de horas para a atividade
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Observações
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Informações adicionais
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
 
 
-\backslash
-cp{Professor}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Lançar Atividades Outras
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Lançar-Atividades-Outras"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 
-: Nome do professor.*
-\end_layout
 
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{NúmDecisão}
 \end_layout
 
 \end_inset
 
-: Número do registro da decisão.
-\end_layout
 
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{DataDecisão}
-\end_layout
-
-\end_inset
-
-: Data no qual a decisão foi tomada.
-\end_layout
-
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{DataInício}
-\end_layout
-
-\end_inset
-
-: Data de início das atividades.*
-\end_layout
-
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{DataFim}
-\end_layout
-
-\end_inset
-
-: Data do fim das atividades.*
-\end_layout
-
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{QtdHa}
-\end_layout
-
-\end_inset
-
-: Quantidade de horas para a atividade.*
-\end_layout
-
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Observações}
-\end_layout
-
-\end_inset
-
-: Informações adicionais.
 \end_layout
 
 \begin_layout Standard
@@ -4527,7 +4673,7 @@ As descrições marcadas com
 s ao final da lista.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Lançar Trabalhos de Conclusão de Curso
 \end_layout
 
@@ -4552,100 +4698,194 @@ Lançar Atividades Outras
 Os dados que podem ser inseridos são:
 \end_layout
 
-\begin_layout Quotation
-\begin_inset ERT
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Professor*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome do professor
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Curso*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Modalidade do grupo que o professor orienta
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ano*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corresponde ao ano da atividade
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+QtdEquipes*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantidade de equipes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+QtdHa*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantidade de horas para a atividade
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Observações
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Informações adicionais
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
 
 
-\backslash
-cp{Professor}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Lançar TCC
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Lançar-TCC"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 
-: Nome do professor.*
-\end_layout
 
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Curso}
 \end_layout
 
 \end_inset
 
-: Modalidade do grupo que o professor orienta.*
-\end_layout
 
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Ano}
-\end_layout
-
-\end_inset
-
-: Corresponde ao ano da atividade.*
-\end_layout
-
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{QtdEquipes}
-\end_layout
-
-\end_inset
-
-: Quantidade de equipes.*
-\end_layout
-
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{QtdHa}
-\end_layout
-
-\end_inset
-
-: Quantidade de horas para a atividade.*
-\end_layout
-
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Observações}
-\end_layout
-
-\end_inset
-
-: Informações adicionais.
 \end_layout
 
 \begin_layout Standard
@@ -4814,7 +5054,7 @@ name "fig:Licenças"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Licença dos professores
 \end_layout
 
@@ -4834,7 +5074,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_licenças_relatório.png
-	width 75text%
+	width 100text%
 
 \end_inset
 
@@ -4860,7 +5100,7 @@ Licença dos Professores
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Professores de Licença
 \end_layout
 
@@ -4880,7 +5120,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_licença_professores.png
-	width 75text%
+	width 100text%
 
 \end_inset
 
@@ -5006,20 +5246,8 @@ Apesar da consulta depender destes dados, no caso, eles serão somente utilizado
 De forma sucinta, as consultas disponibilizadas são:
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-jn{As Graduações}
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+As Graduações
 \end_layout
 
 \begin_layout Standard
@@ -5027,100 +5255,40 @@ A consulta permite que o usuário verifique as graduações dos professores
  do IMT.
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-jn{Com Mais de Uma Graduação}
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+Com Mais de Uma Graduação
 \end_layout
 
 \begin_layout Standard
 Lista os professores que possuem duas ou mais graduações.
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-jn{As Pós-Graduações}
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+As Pós-Graduações
 \end_layout
 
 \begin_layout Standard
 Lista os professores e todas as suas graduações.
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-jn{A Pós-Graduação Maior}
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+A Pós-Graduação Maior
 \end_layout
 
 \begin_layout Standard
 Relação da maior graduação dos professores.
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-jn{Disciplinas Ministradas}
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+Disciplinas Minitradas
 \end_layout
 
 \begin_layout Standard
 Exibe as diciplinas que cada professor do CEUN-IMT leciona.
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-jn{Habilitações dos Professores}
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+Habilitações dos Professores
 \end_layout
 
 \begin_layout Standard
@@ -5128,20 +5296,8 @@ Mostra a quantidade de horas aula que um professor possui e sua distribuição
  nas diferentes habilitações.
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-jn{Professores das Habilitações}
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+Professores das Habilitações
 \end_layout
 
 \begin_layout Standard
@@ -5165,7 +5321,16 @@ Convocações
 \end_layout
 
 \begin_layout Standard
-*****
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Fazer!!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -5231,7 +5396,7 @@ name "fig:Atualizar-TP-e-HR"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Verificar as Atualizações
 \end_layout
 
@@ -5240,15 +5405,15 @@ Permite a elaboração e atualização dos regimes dos professores, podendo-se
  alterar:
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 TP e HR.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Total de Horas-Aula, Horas-Outras e Horas no IMT.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Executar as Atualizações
 \end_layout
 
@@ -5259,7 +5424,7 @@ Qualquer modificação no banco de dados referente ao regime dos professores,
 \emph on
 'SIM'
 \emph default
- , como mostra a 
+, como mostra a 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Executar-as-Atualizações"
@@ -5333,17 +5498,99 @@ Está nova consulta permite buscar, verificar e atualizar informações referent
  temos: 
 \end_layout
 
-\begin_layout Itemize
-Ocupação das Salas
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Ocupação das Salas}
 \end_layout
 
-\begin_layout Itemize
-Disponibilidade das Salas
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Disponibilidade das Salas}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 As informações relevantes a este recurso depende de Ano (Aa) e semestre
- (Ab).
+ (Ab), como mostra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Salas"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_salas.png
+	width 65text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Salas
+\emph default
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Salas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -5362,40 +5609,80 @@ status open
 
 
 \backslash
-cp{Mapa de ocupação},
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Mapa de ocupação modificado - A a H},
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Mapa de ocupação modificado - I a U},
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Mapas de ocupação modificado - Salas de Teoria},
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Taxa de ocupação}.
+cp{Mapa de ocupação}
 \end_layout
 
 \end_inset
 
-como mostra 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de ocupação modificado - A a H}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapa de ocupação modificado - I a U}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Mapas de ocupação modificado - Salas de Teoria}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Taxa de ocupação}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como mostra 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Ocupação-das-Salas"
@@ -5434,6 +5721,247 @@ Ocupação das Salas
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Ocupação-das-Salas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O campo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cp{Tipo de Aula}
+\end_layout
+
+\end_inset
+
+ influenciará apenas a consulta relacionada a Taxa de Ocupação.
+ Suas opções podem ser:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_Ocupacao_Salas_tipodeaula.png
+	width 65text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tipo de aula
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tipo-de-aula"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Tipo-de-aula"
+
+\end_inset
+
+ de significados:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<row interlinespace="5bp">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Teoria
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Somente aulas de teoria
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Exercícios
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Somente aulas de exercícios
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Laboratório
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Somente aulas de laboratório
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Projetos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Somente aulas de projetos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row interlinespace="5bp">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+'*'
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Todos os tipos de aula
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tipo de aula
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tipo-de-aula"
 
 \end_inset
 
@@ -5531,7 +6059,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_janela_ocupacaoSalas.png
-	width 65text%
+	width 40text%
 
 \end_inset
 
@@ -5713,9 +6241,31 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename imagens/csh_taxa_ocupacao.png
-	width 90text%
+	width 100text%
+	height 30theight%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -5748,149 +6298,6 @@ name "fig:Taxa-de-ocupação"
 
 \end_layout
 
-\begin_layout Standard
-O campo 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Tipo de Aula}
-\end_layout
-
-\end_inset
-
- influenciará apenas a consulta relacionada a Taxa de Ocupação.
- Suas opções podem ser:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename imagens/csh_Ocupacao_Salas_tipodeaula.png
-	width 65text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\emph on
-Tipo de aula
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tipo-de-aula"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Teoria}
-\end_layout
-
-\end_inset
-
-: Somente aulas de teoria.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Exercícios}
-\end_layout
-
-\end_inset
-
-: Somente aulas de exercícios.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Laboratório}
-\end_layout
-
-\end_inset
-
-: Somente aulas de laboratório.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Projetos}
-\end_layout
-
-\end_inset
-
-: Somente aulas de projetos.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{*}
-\end_layout
-
-\end_inset
-
-: Todos os tipos de aula.
-\end_layout
-
 \begin_layout Subsubsection
 Disponibilidade das Salas
 \end_layout
@@ -5918,9 +6325,30 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename imagens/csh_disponibilidade_salas.png
-	width 80text%
+	width 60text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -6013,8 +6441,7 @@ cp{Lista U/B}
 
 \end_inset
 
- opção fará com que sua lista seja rearranjada em uma formatação padrão
- do 
+ fará com que sua lista seja rearranjada em uma formatação padrão do 
 \begin_inset Quotes eld
 \end_inset
 
@@ -6108,11 +6535,142 @@ Encontrar Superposições
 \end_layout
 
 \begin_layout Standard
-****
+Está ferramenta é de alta importância, nela pode-se realizar consultas relaciona
+das a incoerencias de aulas, salas e professores quando há duplicação de
+ valores no banco de dados.
+ Dentre as opções ilustradas na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Superposições"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_superposicoes.png
+	width 65text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Superposições
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Superposições"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Superposições de Aula, Sala e Professor
+\end_layout
+
+\begin_layout Standard
+Qualquer superposição encontrada, ou seja, quando uma sala ou uma aula for
+ utilizada mais de uma vez para diferentes atividades, de forma que entre
+ em conflito com os horários, este erro será exibido nesta consulta.
+ Independente da consulta selecionada, o relatório apresentará as mesmas
+ informações em sua planilha, porém, cada uma com ênfase em procurar problemas
+ nas áreas selecionadas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_encontrar_superposicao.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Encontrar Superposição
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Encontrar-Superposição"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Restrições de Carga 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Terminar!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -6124,30 +6682,6 @@ As restrições de carga definem a quantidade de horas máximas e mínimas em
 e
 \emph on
  Descanço.
-\end_layout
-
-\begin_layout Standard
-Ao clicar no botão 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-Encontrar todas as violações das restrições
-\emph default
-
-\begin_inset Quotes erd
-\end_inset
-
-,
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "fig:Restrições-de-Carga"
-
-\end_inset
-
- , será gerado diversas tabelas correspondentes as violações encontradas,
- dentre elas:
 \end_layout
 
 \begin_layout Standard
@@ -6202,6 +6736,30 @@ name "fig:Restrições-de-Carga"
 \end_layout
 
 \begin_layout Standard
+Ao clicar no botão 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Encontrar todas as violações das restrições
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Restrições-de-Carga"
+
+\end_inset
+
+ , será gerado diversas tabelas correspondentes as violações encontradas,
+ dentre elas:
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6214,11 +6772,57 @@ cp{Máx 8h-a por Dia Excedido}
 
 \end_inset
 
-: Por definição, um professor não deve ter mais de oito horas aula por dia
+
+\end_layout
+
+\begin_layout Standard
+Por definição, um professor não deve ter mais de oito horas aula por dia
  excedido.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Violação Máx 8h-a por Dia Excedido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6231,10 +6835,14 @@ cp{Excede Máx 6h-a Consecutivas}
 
 \end_inset
 
-: Professores no qual excede um valor de seis horas aulas por dia.
+
 \end_layout
 
 \begin_layout Standard
+Professores no qual excede um valor de seis horas aulas por dia.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6247,10 +6855,14 @@ cp{Mín 11h de Descanso Não Atendido}
 
 \end_inset
 
-: Lista de professores que não atendem a onze horas de descanso diários.
+
 \end_layout
 
 \begin_layout Standard
+Lista de professores que não atendem a onze horas de descanso diários.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6263,10 +6875,14 @@ cp{Não Atendido 40h-a TI}
 
 \end_inset
 
- : Professores em tempo integral que não cumprem quarenta horas semanais.
+
 \end_layout
 
 \begin_layout Standard
+Professores em tempo integral que não cumprem quarenta horas semanais.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6279,10 +6895,14 @@ cp{Máx 20 h-a AD TI Excedido}
 
 \end_inset
 
- : ******
+
 \end_layout
 
 \begin_layout Standard
+******
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6295,10 +6915,14 @@ cp{Mín 6 h-a por Semana não atendido}
 
 \end_inset
 
-: Mínimo de seis horas aulas por semana não atendidos.
+
 \end_layout
 
 \begin_layout Standard
+Mínimo de seis horas aulas por semana não atendidos.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6311,11 +6935,15 @@ cp{Máx 38 h-a HR Excedido}
 
 \end_inset
 
-: Professores horistas com mais de trinta e oito horas aulas excedido ao
- longo de uma semana.
+
 \end_layout
 
 \begin_layout Standard
+Professores horistas com mais de trinta e oito horas aulas excedido ao longo
+ de uma semana.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6328,11 +6956,15 @@ cp{Máx 38 h-a TP Excedido}
 
 \end_inset
 
-: Professores de tempo parcial com mais de trinta e seis horas aulas excedido
- ao longo de uma semana.
+
 \end_layout
 
 \begin_layout Standard
+Professores de tempo parcial com mais de trinta e seis horas aulas excedido
+ ao longo de uma semana.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6345,10 +6977,14 @@ cp{Janelas Detectadas}
 
 \end_inset
 
-: Aulas vagas.
+
 \end_layout
 
 \begin_layout Standard
+Aulas vagas.
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6361,12 +6997,16 @@ cp{Diferença QtdHa Anos consecutivos}
 
 \end_inset
 
-: Estatistica da diferença de quantidade de horas aulas dos professores,
- observados anualmente.
- 
+
 \end_layout
 
 \begin_layout Standard
+Estatistica da diferença de quantidade de horas aulas dos professores, observado
+s anualmente.
+ 
+\end_layout
+
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -6379,8 +7019,12 @@ cp{Redução QtdHa Anos Consecultivos}
 
 \end_inset
 
- : Estatistica da redução de quantidade de horas aulas dos professores,
- observados anualmente.
+
+\end_layout
+
+\begin_layout Standard
+Estatistica da redução de quantidade de horas aulas dos professores, observados
+ anualmente.
  
 \end_layout
 
@@ -6480,7 +7124,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_indefinicoes_prof.png
-	width 40page%
+	width 100text%
+	height 30theight%
 
 \end_inset
 
@@ -6510,6 +7155,19 @@ status open
 
 \begin_layout Subsubsection
 Tabela de Horários de Aulas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Fazer!!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
