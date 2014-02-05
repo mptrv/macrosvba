@@ -5317,7 +5317,412 @@ reference "tab:Siglas"
 \end_layout
 
 \begin_layout Subsubsection
+Convocações para Provas
+\end_layout
+
+\begin_layout Paragraph
 Convocações
+\end_layout
+
+\begin_layout Standard
+O banco de dados do 
+\emph on
+Consulta Sistema Horários 
+\emph default
+possui em sua estrutura, dados em excell relacionados a convocações dos
+ professores.
+ Estás consultas realizam a leitura destes dados e os agrupa de acordo com
+ a opção selecionada, dentre elas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_convocacoes.png
+	width 65text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Convocações
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Convocações"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Professores Não Reconhecidos
+\end_layout
+
+\begin_layout Standard
+Caso haja alguma incoerência com relação aos professores, em que o CSH identific
+ou ao realizar a leitura das informações das convocações, estes professores
+ seram listados em uma nova janela (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Professores-Não-Reconhecidos"
+
+\end_inset
+
+).
+ Assim é possível verificar problemas existentes no documento de convocação.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_convocacoes_prof_nao_encontrado.png
+	height 15theight%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Professores Não Reconhecidos
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Professores-Não-Reconhecidos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Listagem Completa das Convocações
+\end_layout
+
+\begin_layout Standard
+Os horários das convocações seram dispostos de uma maneira mais enxuta,
+ de fácil exibição e entndimento, permitindo até a exportação deste dados
+ a fim de gerar documentos para impressão e disposição dos professores.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_convocaçoes_completo.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Listagem Completa das Convocações
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Observações:
+\end_layout
+
+\begin_layout Enumerate
+A sigla P/C tem como significado, 
+\begin_inset Quotes eld
+\end_inset
+
+Para Consulta
+\begin_inset Quotes erd
+\end_inset
+
+, ou seja, o professor foi convocado para sanar dúvidas de alunos, e não
+ aplicar as provas.
+\end_layout
+
+\begin_layout Enumerate
+A sigla D/N tem como significado, 
+\begin_inset Quotes eld
+\end_inset
+
+Diurno e Noturno
+\begin_inset Quotes erd
+\end_inset
+
+, nos casos em que ambos realizam a mesma prova.
+\end_layout
+
+\begin_layout Enumerate
+Professores que tem como condição (coluna 5) o nome de disciplinas, aplicaram
+ as provas de suas respectivas matérias.
+\end_layout
+
+\begin_layout Itemize
+Listagem Linear das Convocações
+\end_layout
+
+\begin_layout Standard
+Consulta que permite verificar, a quantidade de vezes em que um professor
+ foi convocado.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_convocaçoes_linear.png
+	width 65text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Listagem Linear das Convocações
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Referência Cruzada das Convocações
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Fazer!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Taxas de Convocações
+\end_layout
+
+\begin_layout Standard
+Está ferramenta realiza um mecanismo de referências cruzadas, afim de analisar
+ estatísticamente, a quantidade de convocações de um professor pela quantidade
+ de horas aulas que ele possui.
+ São apresentados dois métodos de cálculo das taxas, como mostra a 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Taxa-de-Convocações"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_taxa_convocacoes.png
+	width 65text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Taxa de Convocações
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Taxa-de-Convocações"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Taxa de Convocações - Linear - Método 1
+\end_layout
+
+\begin_layout Standard
+Referênte as informações das listagens de convocações lineares.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_taxa_metodo1.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Linear - Método 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Taxa de Convocações - Linear - Método 2
+\end_layout
+
+\begin_layout Standard
+Ainda não implementado nesta versão.
+\end_layout
+
+\begin_layout Itemize
+Taxa de Convocações - RefCruz - Métodos 1 e 2
 \end_layout
 
 \begin_layout Standard
@@ -5485,7 +5890,7 @@ Disciplinas
 \end_layout
 
 \begin_layout Standard
-******
+Ainda não implementado nesta versão.
 \end_layout
 
 \begin_layout Subsection
@@ -6650,27 +7055,13 @@ name "fig:Encontrar-Superposição"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Subsubsection
-Restrições de Carga 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Terminar!
-\end_layout
-
-\end_inset
-
-
+Restrições de Carga
 \end_layout
 
 \begin_layout Standard
@@ -6723,10 +7114,6 @@ name "fig:Restrições-de-Carga"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6813,10 +7200,6 @@ Violação Máx 8h-a por Dia Excedido
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -6842,6 +7225,44 @@ cp{Excede Máx 6h-a Consecutivas}
 Professores no qual excede um valor de seis horas aulas por dia.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Excede Máx 6h-a Consecultivas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 \begin_inset ERT
 status open
@@ -6860,6 +7281,45 @@ cp{Mín 11h de Descanso Não Atendido}
 
 \begin_layout Standard
 Lista de professores que não atendem a onze horas de descanso diários.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_3.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Mín 11h de Descanso Não Atedido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -6882,6 +7342,45 @@ cp{Não Atendido 40h-a TI}
 Professores em tempo integral que não cumprem quarenta horas semanais.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_4.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Não Atendido 40h-a TI
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 \begin_inset ERT
 status open
@@ -6902,6 +7401,48 @@ cp{Máx 20 h-a AD TI Excedido}
 ******
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_5.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Máx 20 h-a AD TI Excedido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 \begin_inset ERT
 status open
@@ -6910,7 +7451,7 @@ status open
 
 
 \backslash
-cp{Mín 6 h-a por Semana não atendido}
+cp{Mín 6 h-a por Semana não Atendido}
 \end_layout
 
 \end_inset
@@ -6920,6 +7461,44 @@ cp{Mín 6 h-a por Semana não atendido}
 
 \begin_layout Standard
 Mínimo de seis horas aulas por semana não atendidos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_6.png
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Mín 6 h-a por Semana não Atendido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -6943,6 +7522,45 @@ Professores horistas com mais de trinta e oito horas aulas excedido ao longo
  de uma semana.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_7.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Máx 38 h-a HR Excedido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 \begin_inset ERT
 status open
@@ -6962,6 +7580,45 @@ cp{Máx 38 h-a TP Excedido}
 \begin_layout Standard
 Professores de tempo parcial com mais de trinta e seis horas aulas excedido
  ao longo de uma semana.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_8.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Máx 38 h-a TP Excedido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -6984,6 +7641,48 @@ cp{Janelas Detectadas}
 Aulas vagas.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_9.png
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Janelas Detectadas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 \begin_inset ERT
 status open
@@ -6992,7 +7691,7 @@ status open
 
 
 \backslash
-cp{Diferença QtdHa Anos consecutivos}
+cp{Diferença QtdHa Anos Consecultivos}
 \end_layout
 
 \end_inset
@@ -7004,6 +7703,45 @@ cp{Diferença QtdHa Anos consecutivos}
 Estatistica da diferença de quantidade de horas aulas dos professores, observado
 s anualmente.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_10.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Diferença QtdHa Anos Consecultivos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -7035,6 +7773,44 @@ Alguns campos podem constar valores incoerentes devido ao fato de, o cálculo
  influenciar em tal valor.
  Deve-se checar se os valores exibidos estão realmente certos, caso contrário,
  será necessário contatar algum responsável pelo lançamento dos horários.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_violacoes_11.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Redução QtdHa Anos Consecultivos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -7158,11 +7934,177 @@ Tabela de Horários de Aulas
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+Ter acesso a informações de todas as aulas, sejam horários, turma, professor,
+ número da aula, dia da semana ou entre outros, é possível a partir desta
+ ferramenta do 
+\emph on
+Consulta Sistema Horários
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+A Tabela de Horários (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Tabela-Horários"
+
+\end_inset
+
+) possui duas opções:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_tabela_horario.png
+	width 65text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tabela-Horários
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tabela-Horários"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tabela Horário Simples
+\end_layout
+
+\begin_layout Standard
+Uma consulta rápida, com as principais informações de uma aula, como pode
+ ser visto na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Tabela-Simples"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-Fazer!!
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_tabela_aula_simples.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tabela Simples
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tabela-Simples"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tabela Horário Expandida
+\end_layout
+
+\begin_layout Standard
+Diferente da tabela simples, a tabela expandida exibe informações adicionais
+ e disposta mais detalhadamente, afim de permitir uma busca mais profunda
+ com relação as aulas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_tabela_aula_expandida.png
+	width 100text%
+	height 25text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Tabela Expandida
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
