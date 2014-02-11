@@ -821,7 +821,7 @@ name "sub:Dados-de-Referencia"
 
 \begin_layout Standard
 \noindent
-A seleção de informações a fim de filtrar resultados, diminui o tempo gasto
+A seleção de informações afim de filtrar resultados, diminui o tempo gasto
  para localizar dados específicos; no caso, os 
 \emph on
 Dados de Referência 
@@ -920,8 +920,8 @@ name "fig:Dados-de-referência"
 
 \begin_layout Standard
 \noindent
-Antes de detalhar-se cada um dos itens especificados acima, deve-se ter
- em mente o significado dos prefixos localizados ao final de cada informação,
+Antes de detalhar cada um dos itens especificados acima, deve-se ter em
+ mente o significado dos prefixos localizados ao final de cada informação,
  veja o exemplo como mostra a figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -980,9 +980,9 @@ Tais prefixos sugerem que cada campo possui uma identificação, ou seja,
  um nome ou identidade que será de grande utilidade quando for abordado
  a região 
 \emph on
-Consultas, 
+Consultas
 \emph default
-por enquanto.
+.
  Cada abreviação corresponde a cada uma das opções encontradas na região
  
 \begin_inset Quotes eld
@@ -1592,12 +1592,13 @@ Lista de Presença para o Dia Selecionado
 
 , 
 \emph default
-uma lista começará a ser gerada, de acordo com as informações selecionadas
- na região 
+uma lista será exibida, que no caso, trata-se de um documento utilizado
+ para efetuar a verificação da presença de professores em determinadas tarefas,
+ de acordo com as informações selecionadas na região 
 \emph on
 Dados de Referência
 \emph default
-.
+ com relação aos dias e etc.
  Durante o processamento, o sistema irá perguntar se a lista é de atrasou
  ou não, como mostra a 
 \begin_inset CommandInset ref
@@ -1683,8 +1684,8 @@ Não
 
 \emph default
  (é necessário escrever com a devida acentuação).
- Uma lista gerada com sucesso apresentará as caracteristicas mostradas na
- 
+ Uma lista gerada corretamente apresentará as caracteristicas mostradas
+ na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Lista-de-Presença_gerada"
@@ -1859,13 +1860,16 @@ name "fig:Ilustração-com-sem-atraso"
 \end_layout
 
 \begin_layout Standard
-A utilização de uma coluna extra, chamada de Horário, caracteriza um relatório
- com atraso.
+A utilização de uma coluna extra, chamada de 
+\emph on
+Horário
+\emph default
+, caracteriza um relatório com atraso.
  No caso de uma lista para o campus São Paulo no período diurno, como não
  existe uma lista de presença, automaticamente o sistema irá recorrer a
  um preenchimento de uma nova lista.
- A recomendação é elaborar uma nova grade horária ou deixar todas as opções
- em branco, note que caso deixe em branco, a lista não será gerada.
+ Neste caso, a recomendação é elaborar uma nova grade horária, note que
+ caso deixe em branco, a lista não será gerada.
 \end_layout
 
 \begin_layout Standard
@@ -1897,7 +1901,7 @@ reference "fig:Botão-de-Imprimir"
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1938,12 +1942,19 @@ name "fig:Botão-de-Imprimir"
 
 \end_layout
 
+\begin_layout Standard
+Obs: Este procedimento poderá ser aplicado a maior parte dos relatórios
+ disponíveis no 
+\emph on
+Consulta Sistema Horários.
+\end_layout
+
 \begin_layout Subsubsection
 Lista Dia
 \end_layout
 
 \begin_layout Standard
-Este recurso possui três funções distintas (
+Este recurso possui três funções semelhantes (
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Lista-Dia"
@@ -1999,12 +2010,61 @@ name "fig:Lista-Dia"
 \end_layout
 
 \begin_layout Itemize
-Lista Dia Completa
-\emph on
-:
+Lista Dia Completa.
 \end_layout
 
-\begin_deeper
+\begin_layout Standard
+Forcene ao usuário uma lista com o nome de todos os professores do IMT,
+ e também seguido de algumas informações que pode ser utilizada para consulta
+ posteriormente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_lista_dia_completa.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+Lista Dia Completa
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Lista-Dia-Completa"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 Dentre as informações apresentadas pela lista, temos: 
 \end_layout
@@ -2014,7 +2074,7 @@ Dentre as informações apresentadas pela lista, temos:
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2220,14 +2280,26 @@ name "tab:Tabela-Lista-Dia"
 
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-Dia em que o professor está na escola
+\begin_layout Standard
+Obs: Uma tabela similar, porém com todas as informações possíveis encontradas
+ no 
 \emph on
-:
+Consulta Sistema Horários
+\emph default
+, pode ser encontrada no 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "chap:Referências-de-Siglas"
+
+\end_inset
+
+.
 \end_layout
 
-\begin_deeper
+\begin_layout Itemize
+Dia em que o professor está na escola
+\end_layout
+
 \begin_layout Standard
 Este recurso irá gerar um documento com as seguintes caracteristicas, conforme
  mostra a 
@@ -2304,10 +2376,6 @@ name "fig:Dia-em-que-prof-esta-escola"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 A representação acima mostra que o professor Afonso estará no Instituto
  Mauá de Tecnologia nos dias exibidos, note que professores grifados em
  cores diferentes são professores de habilitações diferentes da engenharia,
@@ -2319,14 +2387,10 @@ Lista Dia Completa
 .
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 Horários dos dias em quais o professor está em aula
-\emph on
-:
 \end_layout
 
-\begin_deeper
 \begin_layout Standard
 A 
 \begin_inset CommandInset ref
@@ -2336,8 +2400,7 @@ reference "fig:Horários-dos-dias-prof-em-aula-1"
 \end_inset
 
  mostra as informações contidas no relatório.
- Este tem como função exibir os horários de aula dos professores do IMT,
- ele contém: Nome do professor, Sala, Horário e Quantidade de horas aula.
+ Este tem como função exibir os horários de aula dos professores do IMT.
 \end_layout
 
 \begin_layout Standard
@@ -2352,9 +2415,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_lista_dia_exemplo_prof_em_aula.png
-	width 95text%
-	height 4cm
-	keepAspectRatio
+	width 80text%
 
 \end_inset
 
@@ -2387,7 +2448,6 @@ name "fig:Horários-dos-dias-prof-em-aula-1"
 
 \end_layout
 
-\end_deeper
 \begin_layout Subsubsection
 PPC
 \end_layout
@@ -2397,7 +2457,7 @@ O
 \emph on
 PPC
 \emph default
-, ou Plano Pedagógico de Curso, está com seu layout mostrado na 
+, ou Plano Pedagógico de Curso, está com seu layout ilustrado na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:PPC-1"
@@ -2412,7 +2472,7 @@ reference "fig:PPC-1"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2455,8 +2515,10 @@ name "fig:PPC-1"
 \begin_layout Standard
 Este relatório é dependente dos valores de Ano (Aa), Semestre (Ab), Dia
  (Ac) e do Período (Bb), é um recurso que permite visualizar todos os professore
-s relacionados ao plano pedagógico de um curso específico, gerando uma tabela.
- Está pode ser editada, conforme as opções apresentadas em seu layout:
+s relacionados ao plano pedagógico de um curso específico, ou seja, os professor
+es que estão relacionados com o tronco escolhido, gerando uma tabela com
+ diversas informações a respeito dos docentes..
+ Está pode ser editada, conforme as opções apresentadas o layout do PPC.
 \end_layout
 
 \begin_layout Standard
@@ -2476,13 +2538,70 @@ Incluir Ciclo Básico
  as opções marcadas, como existem matérias básicas de engenharia no 2° ano,
  ao selecionar o 1° ano, automaticamente será habilitado ambos os campos,
  um depende do outro, não sendo possível exibir somente o 1° ano.
+ Também, é possível incluir disciplinas de dependentes (DP) atravez do botão
+ localizado na parte inferior, também é possível que seja criado uma versão
+ da tabela para Excel, com o botão localizado a direita.
 \end_layout
 
 \begin_layout Standard
-É possível incluir disciplinas de dependentes (DP) atravez do botão localizado
- na parte inferior, também é possível que seja criado uma versão da tabela
- para Excel, com o botão localizado a direita.
- Pelo fato de cada planilha conter muitas informações, a 
+Exemplo de documento na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:PPC-Tronco-ET"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename imagens/csh_ppc_exemplo.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+PPC Tronco ET
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PPC-Tronco-ET"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pelo fato de cada planilha conter muitas informações, a 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Tabela-de-PPC-1"
@@ -3048,6 +3167,22 @@ name "tab:Tabela-de-PPC-1"
 
 \end_layout
 
+\begin_layout Standard
+Obs: Uma tabela similar, porém com todas as informações possíveis encontradas
+ no 
+\emph on
+Consulta Sistema Horários
+\emph default
+, pode ser encontrada no 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "chap:Referências-de-Siglas"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsubsection
 Cargas Horárias
 \end_layout
@@ -3110,75 +3245,13 @@ name "fig:Cargas-Horárias"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Consulta de Aulas}
-\end_layout
-
-\end_inset
-
-: Permite consultar a quais aulas um professor pertence, a quantidade de
- horas aulas, entre outros.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Consultar CEUN-IMT}
-\end_layout
-
-\end_inset
-
-: Verifica a habilitação de cada professor (Horista, Integral ou Parcial)
- no CEUN-IMT e mostra a quantidade de horas.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Lançar Atividades Outras}
-\end_layout
-
-\end_inset
-
-: É um registro aonde está informando o que cada professor possui de atividades
- extras, como atendimento ao aluno e treinamento moodle.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cp{Lançar Trabalho de Conslusão de Curso}
-\end_layout
-
-\end_inset
-
-: Mostra os professores que cuidam dos TCCs de cada modalidade.
-\end_layout
-
 \begin_layout Itemize
 Consulta de Aulas
+\end_layout
+
+\begin_layout Standard
+Permite consultar a quais aulas um professor pertence, a quantidade de horas
+ aulas, entre outras informações.
 \end_layout
 
 \begin_layout Standard
@@ -3201,7 +3274,7 @@ reference "fig:Menu-Consulta-de-aulas"
 
 \end_inset
 
-; O semetre e o ano que foram previamente definidos no menu 
+; O semestre e o ano que foram previamente definidos no menu 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3228,8 +3301,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_consulta_de_aulas.png
-	width 70text%
-	height 4cm
+	width 100text%
 
 \end_inset
 
@@ -3567,6 +3639,22 @@ name "tab:Inserção-de-dados"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Obs: Uma tabela similar, porém com todas as informações possíveis encontradas
+ no 
+\emph on
+Consulta Sistema Horários
+\emph default
+, pode ser encontrada no 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "chap:Referências-de-Siglas"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -4148,8 +4236,30 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename imagens/csh_exemplo_doc_grade_horaria.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -4188,8 +4298,8 @@ Consulta CEUN-IMT
 
 \begin_layout Standard
 Trata-se de uma lista, que contém diversas informações de todos os professores
- do CEUN-IMT, dentre elas, a quantidade de horas totais e total de horas
- distribuidas em outras tarefas.
+ (Horista, Integral ou Parcial) do CEUN-IMT, dentre elas, a quantidade de
+ horas totais e total de horas distribuidas em outras tarefas.
  A 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4375,6 +4485,15 @@ name "fig:Exemplo-de-Filtro"
  seja exibido somente o que se deseja.
 \end_layout
 
+\begin_layout Standard
+Obs: Este procedimento poderá ser utilizado dentro de todos os relatórios
+ disponibilizados no 
+\emph on
+Consulta Sistema Horários
+\emph default
+ .
+\end_layout
+
 \begin_layout Itemize
 Lançar Atividades Outras
 \end_layout
@@ -4452,7 +4571,7 @@ Nela, pode ser inserido como informação:
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -5118,6 +5237,12 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+Obs: Este procedimento poderá ser utilizado dentro de todos os relatórios
+ disponibilizados no 
+\emph on
+Consulta Sistema Horários
+\emph default
+ .
 \begin_inset Graphics
 	filename imagens/csh_licença_professores.png
 	width 100text%
@@ -7398,7 +7523,16 @@ cp{Máx 20 h-a AD TI Excedido}
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 ******
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7475,6 +7609,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_violacoes_6.png
+	width 50text%
 
 \end_inset
 
@@ -7898,10 +8033,31 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename imagens/csh_indefinicoes_prof.png
 	width 100text%
 	height 30theight%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -8166,7 +8322,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename imagens/csh_CEUN.png
-	width 80page%
+	width 100text%
 
 \end_inset
 
@@ -8299,6 +8455,13 @@ name "fig:CPA"
 \begin_layout Chapter
 \start_of_appendix
 Referências de Siglas
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Referências-de-Siglas"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
