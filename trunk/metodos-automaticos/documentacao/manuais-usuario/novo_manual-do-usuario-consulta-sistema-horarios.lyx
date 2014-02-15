@@ -65,11 +65,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 239966243 "mptrev" 
 \end_header
 
 \begin_body
@@ -336,21 +337,119 @@ Apresentação
 O módulo 
 \emph on
 Consulta Sistema Horários
+\change_deleted 239966243 1392421596
+
 \emph default
-, permite ao usuário, navegar em diversos documentos e relatórios relacionados
- ao Instituto Mauá de Tecnologia, como, por exemplo, listas presenciais,
- disponibilidade das salas de aulas, controle da carga horária de cada professor
-, verificação de aspectos previstos em lei ou também em conjunto com o 
+,
+\change_unchanged
+ permite ao usuário
+\change_deleted 239966243 1392421603
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1392421643
+navegar em
+\change_inserted 239966243 1392421645
+consultar
+\change_unchanged
+ diversos 
+\change_inserted 239966243 1392421666
+dados 
+\change_deleted 239966243 1392421670
+documentos 
+\change_unchanged
+e 
+\change_inserted 239966243 1392421673
+gerar 
+\change_unchanged
+relatórios relacionados
+\change_inserted 239966243 1392421721
+ às grades horárias das atividades acadêmicas
+\change_deleted 239966243 1392421723
+ a
+\change_inserted 239966243 1392421723
+d
+\change_unchanged
+o Instituto Mauá de Tecnologia
+\change_inserted 239966243 1392421744
+.
+ Citam-se
+\change_deleted 239966243 1392421748
+, como
+\change_unchanged
+, 
+\change_deleted 239966243 1392422134
+por exemplo
+\change_inserted 239966243 1392422139
+entre outros exemplos
+\change_unchanged
+, listas presenciais, disponibilidade das salas de aulas, controle da carga
+ horária de cada professor, verificação de aspectos previstos em lei 
+\change_inserted 239966243 1392421897
+e a elaboração planejada dos horários de todos os cursos oferecidos no 
 \emph on
-Construção Grade Horária, 
+campus
+\emph default
+, 
+\change_deleted 239966243 1392421823
+ou também
+\change_unchanged
+ em conjunto com o 
+\emph on
+Construção Grade Horária
+\change_inserted 239966243 1392421902
+.
+\change_deleted 239966243 1392421903
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1392421872
+
 \emph default
 a elaboração planejada dos horários de todos os cursos oferecidos no 
 \emph on
 campus
 \emph default
 .
- Desta maneira, o gerenciamento torna-se eficiente, otimizando o tempo de
- trabalho, tornando-o rápido e eficaz em comparação com métodos antigos.
+
+\change_unchanged
+ Desta maneira, o gerenciamento 
+\change_inserted 239966243 1392421939
+de tais atividades 
+\change_unchanged
+torna-se 
+\change_inserted 239966243 1392422181
+mais 
+\change_unchanged
+eficiente, otimizando o tempo de trabalho
+\change_deleted 239966243 1392422208
+,
+\change_inserted 239966243 1392422209
+ e
+\change_unchanged
+ 
+\change_inserted 239966243 1392422420
+os resultados obtidos
+\change_deleted 239966243 1392422234
+tornando-o rápido e eficaz
+\change_unchanged
+ 
+\change_deleted 239966243 1392422261
+em comparação
+\change_inserted 239966243 1392422429
+quando comparados
+\change_unchanged
+ com 
+\change_inserted 239966243 1392422399
+os 
+\change_unchanged
+métodos
+\change_inserted 239966243 1392422045
+ manuais anteriormente praticados
+\change_deleted 239966243 1392422046
+ antigos
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Chapter*
