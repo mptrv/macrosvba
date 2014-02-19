@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass report
 \use_default_options true
 \maintain_unincluded_children false
 \language brazilian
@@ -110,20 +110,43 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.0.2
+ 0.1.0
 \end_layout
 
 \begin_layout Author
 Marcelo Porto Trevizan
 \end_layout
 
+\begin_layout Chapter*
+Apresentação
+\end_layout
+
 \begin_layout Standard
-Nesta nota técnica, encontram-se relacionadas as ferramentas de desenvolvimento
- utilizadas para o projeto 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Apresentação}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nesta nota técnica, originariamente, encontram-se relacionadas as ferramentas
+ de desenvolvimento utilizadas para o projeto 
 \emph on
 Métodos Automáticos, 
 \emph default
-ou que poderão ser utilizadas em outros projetos.
+ou que poderão ser utilizadas em outros projetos relacionados à tecnologia
+ da informação.
+ Em adição, agora, encontram-se citações a ferramentas de outras áreas,
+ como a da eletrônica.
  Desta forma, este material torna-se uma 
 \emph on
 referência genérica de ferramentas de desenvolvimento
@@ -141,10 +164,10 @@ internet,
 \end_layout
 
 \begin_layout Standard
-Os títulos das seções seguintes procuram relacionar, sucintamente, a área
- de aplicação das ferramentas, enquanto que o índice remissivo, ao final
- do documento, indica em quais páginas se encontram informações sobre um
- programa específico.
+Os capítulos identificam as grandes áreas das ferramentas, e as seções procuram
+ relacionar, sucintamente, sua área de aplicação.
+ Já o índice remissivo, ao final do documento, indica em quais páginas se
+ encontram informações sobre um programa específico.
 \end_layout
 
 \begin_layout Standard
@@ -249,7 +272,7 @@ status open
 
 
 \backslash
-addcontentsline{toc}{section}{Sumário}
+addcontentsline{toc}{chapter}{Sumário}
 \end_layout
 
 \end_inset
@@ -278,6 +301,10 @@ LatexCommand tableofcontents
 \end_inset
 
 
+\end_layout
+
+\begin_layout Chapter
+Tecnologia da Informação
 \end_layout
 
 \begin_layout Section
@@ -2951,12 +2978,136 @@ sumir
 
 \end_layout
 
+\begin_layout Chapter
+Eletrônica
+\end_layout
+
+\begin_layout Section
+Simuladores
+\end_layout
+
+\begin_layout Description
+LogSim
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+LogSim
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ Simulador de circuitos digitais em tempo de edição, com fins, originariamente,
+ didáticos.
+ Sua GUI é bastante amigável.
+ Permite elaboração de circuitos com relativa complexidade.
+ Uma deficiência encontrada refere-se ao fato de não gerar cartas de tempo.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://sourceforge.net/projects/circuit/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+OrCAD
+\begin_inset space ~
+\end_inset
+
+PCB
+\begin_inset space ~
+\end_inset
+
+Designer
+\begin_inset space ~
+\end_inset
+
+Lite
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+OrCAD PCB Designer Lite
+\end_layout
+
+\end_inset
+
+: Comercial, para 
+\emph on
+Windows
+\emph default
+.
+ Simulador de circuitos analógicos e digitais bastante completo, baseado
+ no 
+\emph on
+PSpice
+\emph default
+.
+ Permite, inclusive, a confecção de PCB
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "PCB"
+description "Printed Circuit Board (Placa de Circuito Impresso)"
+
+\end_inset
+
+.
+ Há versão demo gratuita, com limitação no tamanho e complexidade do circuito.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.cadence.com/products/orcad/pages/downloads.aspx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sumir
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \start_of_appendix
 \begin_inset Newpage newpage
 \end_inset
 
 
+\end_layout
+
+\begin_layout Chapter
+Adicionais para Tecnologia da Informação
 \end_layout
 
 \begin_layout Section
@@ -3866,6 +4017,16 @@ O diretório
 MikTeX
 \emph default
 .
+\end_layout
+
+\begin_layout Chapter
+Adicionais para Eletrônica
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(por ora, nada neste apêndice)
 \end_layout
 
 \begin_layout Standard
