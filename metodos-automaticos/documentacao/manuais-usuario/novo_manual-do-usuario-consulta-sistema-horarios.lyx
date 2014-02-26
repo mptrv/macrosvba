@@ -306,6 +306,29 @@ thispagestyle{empty}
 \end_inset
 
 
+\change_inserted 239966243 1393451649
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 239966243 1393451651
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1393451683
+Uniformizar o estilo da grafia para os diferentes elementos de texto.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Title
@@ -472,7 +495,17 @@ Consulta Sistema Horários
  versão existente dos módulos, ou mesmo, indicar que é uma versão de depuração
  ao invés de oficial.
  Contudo, essas diferenças de versão não há de acarretar em prejuízo para
- o entendimento da operação dos módulos.
+ o entendimento da operação d
+\change_inserted 239966243 1393448161
+e
+\change_deleted 239966243 1393448157
+os
+\change_unchanged
+ 
+\change_inserted 239966243 1393448163
+tais 
+\change_unchanged
+módulos.
 \end_layout
 
 \begin_layout Chapter*
@@ -487,15 +520,54 @@ O capítulo
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "chap:Manual-de-Operação"
+reference "chap:Manual-de-Operação-CSH"
 
 \end_inset
 
- irá abordar o funcionamento e o manuseamento correto deste módulo, de forma
- que, o usuário ao finaliza-lo, terá compreendido todo o mecanismo, as informaçõ
-es contidas e suas funções.
- Uma boa leitura e interpretação deste capítulo otimizará o manuseio deste
- módulo.
+ irá abordar o funcionamento e o manuseamento correto deste módulo, 
+\change_inserted 239966243 1393448237
+
+\emph on
+Consulta Sistema Horários, 
+\change_unchanged
+
+\emph default
+de forma que
+\change_deleted 239966243 1393448244
+,
+\change_unchanged
+ o usuário
+\change_inserted 239966243 1393448247
+,
+\change_unchanged
+ ao finaliz
+\change_deleted 239966243 1393448249
+a
+\change_inserted 239966243 1393448250
+á
+\change_unchanged
+-lo, terá compreendido todo o mecanismo
+\change_inserted 239966243 1393448674
+ de operação
+\change_unchanged
+, 
+\change_inserted 239966243 1393448737
+as funções disponíveis e 
+\change_unchanged
+as informações 
+\change_inserted 239966243 1393448688
+dos relatórios
+\change_deleted 239966243 1393448744
+contidas e suas funções
+\change_unchanged
+.
+ Uma boa leitura e interpretação deste capítulo 
+\change_deleted 239966243 1393448788
+otimizará o manuseio
+\change_inserted 239966243 1393448812
+permitirá aproveitar o máximo dos recursos
+\change_unchanged
+ deste módulo.
  
 \begin_inset VSpace bigskip*
 \end_inset
@@ -587,7 +659,7 @@ http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR
 Manual de Operação
 \begin_inset CommandInset label
 LatexCommand label
-name "chap:Manual-de-Operação"
+name "chap:Manual-de-Operação-CSH"
 
 \end_inset
 
@@ -602,9 +674,18 @@ ada e, porconseguinte, aumentar a eficiência do trabalho.
  Neste capítulo, são apresentados tais recursos e como operá-los.
  Ao longo deste material, são utilizadas imagens extraídas do próprio módulo,
  para melhor demonstrar as funções e localizações de dados importantes,
- afim de facilitar o aprendizado.
- É recomendado que o leitor acompanhe a leitura deste manual junto ao software
- original.
+ a
+\change_inserted 239966243 1393448936
+ 
+\change_unchanged
+fim de facilitar o aprendizado.
+ É recomendado que o leitor acompanhe a leitura deste manual junto ao 
+\change_deleted 239966243 1393448974
+software original
+\change_inserted 239966243 1393448975
+programa
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Section
@@ -629,8 +710,29 @@ Access,
 \emph on
 Visual Basic for Application
 \emph default
-) e, como interface de usuário, as próprias planilhas do aplicativo e formulário
-s internos.
+) e, como interface de usuário, 
+\change_deleted 239966243 1393449008
+as
+\change_inserted 239966243 1393449009
+os
+\change_unchanged
+ própri
+\change_deleted 239966243 1393449012
+a
+\change_inserted 239966243 1393449012
+o
+\change_unchanged
+s 
+\change_deleted 239966243 1393449016
+planilhas
+\change_inserted 239966243 1393449030
+formulários e tabelas
+\change_unchanged
+ do aplicativo
+\change_deleted 239966243 1393449034
+ e formulários internos
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -715,9 +817,26 @@ Tela inicial
 \end_layout
 
 \begin_layout Standard
-Ao iniciar o módulo, conforme visto anteriormente, uma interface inicial
- será exibida.
- Nela, poderá observar o título, a versão atual e três botões, como na 
+Ao iniciar o módulo, 
+\change_deleted 239966243 1393449229
+conforme visto anteriormente,
+\change_unchanged
+ uma interface inicial será exibida.
+ Nela, poderá observar o 
+\change_deleted 239966243 1393449244
+título
+\change_inserted 239966243 1393449246
+nome do programa
+\change_unchanged
+, 
+\change_inserted 239966243 1393449250
+su
+\change_unchanged
+a versão atual e três botões, como 
+\change_inserted 239966243 1393449296
+apontado 
+\change_unchanged
+na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Tela-Inicial"
@@ -779,23 +898,85 @@ Para acessar a interface de gerenciamento, deve-se clicar no botão
 \emph on
 Gerenciador Principal
 \emph default
-, nele está contido todos os recursos oferecidos pelo 
+, 
+\change_inserted 239966243 1393449355
+em qual 
+\change_deleted 239966243 1393449357
+nele
+\change_unchanged
+ est
+\change_deleted 239966243 1393449360
+á
+\change_inserted 239966243 1393449362
+ão
+\change_unchanged
+ contido
+\change_inserted 239966243 1393449364
+s
+\change_unchanged
+ todos os recursos oferecidos pelo 
 \emph on
 Consulta Sistema Horários.
  
 \emph default
-Será detalhado o funcionamento de todas as ferramentas deste módulo nos
- tópicos seguintes.
+Será detalhado o funcionamento de todas as ferramentas 
+\change_deleted 239966243 1393449400
+deste módulo
+\change_unchanged
+ nos tópicos seguintes.
+\change_inserted 239966243 1393449530
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 239966243 1393449618
+O botão 
+\emph on
+Sobre\SpecialChar \ldots{}
+
+\emph default
+ apresenta as informações sobre os direitos de uso e distribuição do programa.
 \end_layout
 
 \begin_layout Standard
 \noindent
-Para fechar o programa, a única maneira disponível é pelo botão 
+
+\change_inserted 239966243 1393449440
+Por último, 
+\change_deleted 239966243 1393449440
+P
+\change_inserted 239966243 1393449441
+p
+\change_unchanged
+ara fechar o programa, 
+\change_inserted 239966243 1393449457
+sendo 
+\change_unchanged
+a única maneira disponível
+\change_inserted 239966243 1393449464
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393449466
+é pelo
+\change_inserted 239966243 1393449469
+há o
+\change_unchanged
+ botão 
 \emph on
 Sair
 \emph default
 .
- O botão 
+ 
+\change_inserted 239966243 1393449477
+Note-se que 
+\change_deleted 239966243 1393449477
+O
+\change_inserted 239966243 1393449478
+o
+\change_unchanged
+ botão 
 \begin_inset Quotes eld
 \end_inset
 
@@ -807,8 +988,22 @@ X
 \begin_inset Quotes erd
 \end_inset
 
- da janela do Access está desabilitado por motivos de segurança.
+ da janela do 
+\emph on
+Access
+\emph default
+ está desabilitado por motivos de 
+\change_deleted 239966243 1393449519
+segurança
+\change_inserted 239966243 1393449525
+consistência de dados
+\change_unchanged
+.
+
+\change_deleted 239966243 1393450140
  
+\change_inserted 239966243 1393449420
+
 \end_layout
 
 \begin_layout Subsection
@@ -817,7 +1012,23 @@ Gerenciador Principal
 
 \begin_layout Standard
 Este menu permite o acesso a todas as funções disponibilizadas por este
- módulo, veja a seguir a figura 
+ módulo
+\change_inserted 239966243 1393450186
+.
+\change_deleted 239966243 1393450185
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393450187
+v
+\change_inserted 239966243 1393450188
+V
+\change_unchanged
+eja 
+\change_deleted 239966243 1393450201
+a seguir
+\change_unchanged
+ a figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Gerenciador-Principal"
@@ -875,7 +1086,13 @@ name "fig:Gerenciador-Principal"
 
 \begin_layout Standard
 \noindent
-As regiões desta interface podem ser subdivididas em
+As regiões desta interface 
+\change_deleted 239966243 1393450217
+podem ser
+\change_inserted 239966243 1393450218
+encontram-se
+\change_unchanged
+ subdivididas em
 \end_layout
 
 \begin_layout Itemize
@@ -903,8 +1120,13 @@ Consultas
 
 \begin_layout Standard
 \noindent
-Para sair e retornar a tela inicial, basta clicar no botão fechar localizado
- na parte inferior.
+Para sair e retornar 
+\change_deleted 239966243 1393450239
+a
+\change_inserted 239966243 1393450239
+à
+\change_unchanged
+ tela inicial, basta clicar no botão fechar localizado na parte inferior.
 \end_layout
 
 \begin_layout Subsubsection
@@ -920,26 +1142,98 @@ name "sub:Dados-de-Referencia"
 
 \begin_layout Standard
 \noindent
+
+\change_inserted 239966243 1393450448
+As informações a serem consultadas passam, primeiramente, por um conjunto
+ de filtros, de forma que apenas aquelas de interesse sejam mostradas.
+\change_deleted 239966243 1393450454
 A seleção de informações afim de filtrar resultados, diminui o tempo gasto
- para localizar dados específicos; no caso, os 
+ para localizar dados específicos; n
+\change_inserted 239966243 1393450456
+ N
+\change_unchanged
+o caso, os 
 \emph on
 Dados de Referência 
 \emph default
-permitem escolher diversos parâmentros com este propósito, tais como 
+permitem escolher diversos parâmentros com este propósito, 
+\change_deleted 239966243 1393450561
+tais
+\change_inserted 239966243 1393450563
+quais sejam
+\change_deleted 239966243 1393450565
+ como
+\change_inserted 239966243 1393450558
+:
+\change_unchanged
+ 
 \emph on
 Ano, Período, Data 
 \emph default
-localizados na aba Data, 
+localizados na aba Data
+\change_deleted 239966243 1393450573
+,
+\change_inserted 239966243 1393450574
+;
+\change_unchanged
+ 
 \emph on
-Máx h.
- a.
- TP e HR e período 
+Máx
+\change_inserted 239966243 1393450530
+.
+
+\change_unchanged
+ h.
+
+\change_deleted 239966243 1393450536
+ 
+\change_unchanged
+a.
+ TP e HR 
 \emph default
-na aba Outros, e por fim o 
+e
+\emph on
+ período
+\change_inserted 239966243 1393450591
+,
+\change_unchanged
+ 
+\emph default
+na aba Outros
+\change_deleted 239966243 1393450596
+,
+\change_inserted 239966243 1393450597
+;
+\change_unchanged
+ e
+\change_inserted 239966243 1393450602
+,
+\change_unchanged
+ por fim
+\change_inserted 239966243 1393450604
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393450616
+o 
 \emph on
 campus
+\change_inserted 239966243 1393450622
+
 \emph default
- de atuação dos professores, presente na aba Atuação.
+a frente
+\emph on
+ 
+\change_deleted 239966243 1393450621
+
+\emph default
+ 
+\change_unchanged
+de atuação dos professores, 
+\change_deleted 239966243 1393450641
+presente 
+\change_unchanged
+na aba Atuação.
  Todos estes campos são ilustrados na 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -1020,15 +1314,45 @@ name "fig:Dados-de-referência"
 \begin_layout Standard
 \noindent
 Antes de detalhar cada um dos itens especificados acima, deve-se ter em
- mente o significado dos prefixos localizados ao final de cada informação,
- veja o exemplo como mostra a figura 
+ mente o significado dos 
+\change_deleted 239966243 1393450740
+prefixos 
+\change_inserted 239966243 1393450743
+índices 
+\change_unchanged
+localizados ao final de cada informação
+\change_deleted 239966243 1393450685
+,
+\change_inserted 239966243 1393450685
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393450687
+v
+\change_inserted 239966243 1393450687
+V
+\change_unchanged
+eja o exemplo 
+\change_deleted 239966243 1393450697
+como mostra 
+\change_inserted 239966243 1393450697
+d
+\change_unchanged
+a figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Prefixos"
 
 \end_inset
 
+
+\change_inserted 239966243 1393451498
+, conforme apontado pela seta vermelha.
+\change_deleted 239966243 1393450699
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1052,8 +1376,15 @@ status open
 
 \begin_layout Plain Layout
 
+\change_deleted 239966243 1393451430
+
 \emph on
-Prefixos 
+Prefixos
+\change_inserted 239966243 1393451471
+Índices de identificação dos campos.
+
+\change_unchanged
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Prefixos"
@@ -1075,15 +1406,31 @@ name "fig:Prefixos"
 
 \begin_layout Standard
 \noindent
-Tais prefixos sugerem que cada campo possui uma identificação, ou seja,
- um nome ou identidade que será de grande utilidade quando for abordado
+Tais 
+\change_deleted 239966243 1393450755
+prefixos
+\change_inserted 239966243 1393450756
+índices
+\change_unchanged
+ sugerem que cada campo possui uma identificação, ou seja, um nome ou identidade
+ que será de grande utilidade quando for abordad
+\change_deleted 239966243 1393450777
+o
+\change_inserted 239966243 1393450777
+a
+\change_unchanged
  a região 
 \emph on
 Consultas
 \emph default
 .
- Cada abreviação corresponde a cada uma das opções encontradas na região
- 
+ Cada 
+\change_deleted 239966243 1393450790
+abreviação
+\change_inserted 239966243 1393450790
+um
+\change_unchanged
+ corresponde a cada uma das opções encontradas na região 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1095,9 +1442,39 @@ Dados de Referencia
 \begin_inset Quotes erd
 \end_inset
 
-, observe que a primeira letra procura identificar a qual aba está se referindo
- e a segunda letra indica a opção, por exemplo, Aa é uma forma de indicar
- que esta trabalhando-se com a aba 
+
+\change_deleted 239966243 1393450809
+,
+\change_inserted 239966243 1393450810
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393450812
+o
+\change_inserted 239966243 1393450812
+O
+\change_unchanged
+bserve que a primeira letra procura identificar a qual aba está se referindo
+ e a segunda letra indica a opção
+\change_deleted 239966243 1393450832
+,
+\change_inserted 239966243 1393450832
+;
+\change_unchanged
+ por exemplo, 
+\series bold
+Aa
+\series default
+ é uma forma de indicar que 
+\change_inserted 239966243 1393450908
+utiliza-se a informação
+\change_deleted 239966243 1393450913
+esta trabalhando-se com 
+\change_inserted 239966243 1393450914
+d
+\change_unchanged
+a aba 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1105,7 +1482,17 @@ A
 \begin_inset Quotes erd
 \end_inset
 
- (Data) e a opção 
+ (Data)
+\change_inserted 239966243 1393450949
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393450956
+e a opção
+\change_inserted 239966243 1393450957
+campo
+\change_unchanged
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1113,7 +1500,35 @@ a
 \begin_inset Quotes erd
 \end_inset
 
- Ano , do mesmo modo que Bb indica que esta trabalhando-se com a aba 
+ 
+\change_inserted 239966243 1393450967
+(
+\change_unchanged
+Ano
+\change_inserted 239966243 1393450970
+)
+\change_deleted 239966243 1393450977
+ ,
+\change_inserted 239966243 1393450977
+;
+\change_unchanged
+ do mesmo modo
+\change_inserted 239966243 1393450981
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393450998
+que 
+\change_unchanged
+
+\series bold
+Bb
+\series default
+ indica 
+\change_deleted 239966243 1393451010
+que esta trabalhando-se com
+\change_unchanged
+ a aba 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1121,7 +1536,17 @@ B
 \begin_inset Quotes erd
 \end_inset
 
- (Outros) e a opção 
+ (Outros)
+\change_inserted 239966243 1393451041
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393451043
+e a opção
+\change_inserted 239966243 1393451027
+o campo
+\change_unchanged
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1129,7 +1554,17 @@ b
 \begin_inset Quotes erd
 \end_inset
 
- Período.
+
+\change_inserted 239966243 1393451031
+ (
+\change_deleted 239966243 1393451032
+ 
+\change_unchanged
+Período
+\change_inserted 239966243 1393451033
+)
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Paragraph
@@ -1138,9 +1573,84 @@ Data:
 \end_layout
 
 \begin_layout Standard
-Está aba relaciona justamente a data no qual será utilizada como referência,
- na hora em que for gerado um relatório (Ver seção Consultas), dentre as
- opções, pode-se definir o Ano, Semestre e o dia.
+Est
+\change_deleted 239966243 1393451103
+á
+\change_inserted 239966243 1393451103
+a
+\change_unchanged
+ aba relaciona justamente a data 
+\change_deleted 239966243 1393451117
+no qual
+\change_inserted 239966243 1393451117
+que
+\change_unchanged
+ será utilizada como referência
+\change_deleted 239966243 1393451125
+,
+\change_unchanged
+ n
+\change_inserted 239966243 1393451135
+o momento
+\change_deleted 239966243 1393451130
+a hora
+\change_unchanged
+ em que for gerado um relatório (
+\change_deleted 239966243 1393451179
+V
+\change_inserted 239966243 1393451179
+v
+\change_unchanged
+er seção 
+\change_inserted 239966243 1393451213
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:Consultas"
+
+\end_inset
+
+
+\change_deleted 239966243 1393451186
+Consultas
+\change_unchanged
+)
+\change_deleted 239966243 1393451241
+,
+\change_inserted 239966243 1393451244
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393451266
+dentre a
+\change_inserted 239966243 1393451266
+A
+\change_unchanged
+s opções
+\change_deleted 239966243 1393451268
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393451272
+pode-se
+\change_inserted 239966243 1393451274
+permitem
+\change_unchanged
+ definir 
+\change_deleted 239966243 1393451258
+o 
+\change_unchanged
+Ano, Semestre e 
+\change_deleted 239966243 1393451285
+o dia
+\change_inserted 239966243 1393451363
+data de forma sincronizada, ou seja, a alteração de um campo provoca a alteração
+ nos demais de forma a manter a coerência entre as informações.
+\change_deleted 239966243 1393451294
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Paragraph
@@ -1149,24 +1659,139 @@ Outros:
 \end_layout
 
 \begin_layout Standard
-Máx h.a TP e HR é um campo de significado, 
+
+\change_inserted 239966243 1393451781
+
+\emph on
+Nesta aba, outras informações podem ser especificadas.
+ 
+\change_unchanged
+Máx
+\change_inserted 239966243 1393451702
+.
+
+\change_unchanged
+ h.a
+\change_inserted 239966243 1393451704
+.
+
+\change_unchanged
+ TP e HR
+\change_inserted 239966243 1393451746
+,
+\change_unchanged
+
+\emph default
+ 
+\change_deleted 239966243 1393451742
+é um campo
+\change_inserted 239966243 1393451723
+ cujo
+\change_deleted 239966243 1393451725
+ de
+\change_unchanged
+ significado
+\change_deleted 239966243 1393451727
+,
+\change_inserted 239966243 1393451729
+ é
+\change_unchanged
+ 
 \emph on
 
 \begin_inset Quotes eld
 \end_inset
 
-Máximo de horas aula em Tempo Integral e Horistas
+Máximo de horas
+\change_inserted 239966243 1393451791
+-
+\change_deleted 239966243 1393451791
+ 
+\change_unchanged
+aula 
+\change_deleted 239966243 1393451795
+em
+\change_inserted 239966243 1393451816
+para professores em regime
+\change_unchanged
+ Tempo Integral e Horista
+\change_deleted 239966243 1393451821
+s
+\change_unchanged
+
 \begin_inset Quotes erd
 \end_inset
 
 
 \emph default
-, ele permite estabelecer um parâmetro importante e pode variar de 6 a 40h.a.
- É frequentemente utilizado para geração de relatórios de lista de professores,
- por exemplo.
- Está aba também possui um campo de período, podendo-se escolher entre diurno
- e noturno, para tal alteração, perceba que com um duplo clique em cima
- do campo é possível alterna-lo entre 
+, 
+\change_deleted 239966243 1393451837
+ele 
+\change_unchanged
+permite estabelecer 
+\change_inserted 239966243 1393451987
+a carga horária máxima para os professores nos citados regimes, com 
+\change_deleted 239966243 1393451997
+um parâmetro importante e pode variar de 6 a 40h.a.
+ É frequentemente utilizado para
+\change_inserted 239966243 1393452006
+efeitos observados na
+\change_unchanged
+ geração de relatórios
+\change_deleted 239966243 1393452032
+ de lista de professores
+\change_inserted 239966243 1393452042
+ sobre violação de restrições de carga horária
+\change_unchanged
+, por exemplo
+\change_deleted 239966243 1393452061
+.
+\change_inserted 239966243 1393452062
+;
+\change_unchanged
+ 
+\change_inserted 239966243 1393452085
+seu valor pode variar de 6 a 40 h.a.
+ 
+\change_unchanged
+Est
+\change_deleted 239966243 1393452358
+á
+\change_inserted 239966243 1393452358
+a
+\change_unchanged
+ aba também possui um campo de 
+\change_deleted 239966243 1393452363
+p
+\change_inserted 239966243 1393452364
+P
+\change_unchanged
+eríodo, podendo-se escolher entre 
+\change_deleted 239966243 1393452371
+d
+\change_inserted 239966243 1393452371
+D
+\change_unchanged
+iurno e 
+\change_deleted 239966243 1393452373
+n
+\change_inserted 239966243 1393452374
+N
+\change_unchanged
+oturno
+\change_inserted 239966243 1393452389
+;
+\change_deleted 239966243 1393452389
+,
+\change_unchanged
+ para tal alteração, perceba que com um duplo clique em cima do campo é
+ possível altern
+\change_deleted 239966243 1393453429
+a
+\change_inserted 239966243 1393453430
+á
+\change_unchanged
+-lo entre 
 \emph on
 
 \begin_inset Quotes eld
@@ -1177,8 +1802,18 @@ D
 \end_inset
 
 
+\change_inserted 239966243 1393453438
+
 \emph default
-(diurno) e 
+ 
+\change_unchanged
+(
+\change_deleted 239966243 1393453451
+d
+\change_inserted 239966243 1393453451
+D
+\change_unchanged
+iurno) e 
 \emph on
 
 \begin_inset Quotes eld
@@ -1189,10 +1824,26 @@ N
 \end_inset
 
 
+\change_inserted 239966243 1393453439
+
 \emph default
-(noturno)
+ 
+\change_unchanged
+(
+\change_deleted 239966243 1393453454
+n
+\change_inserted 239966243 1393453454
+N
+\change_unchanged
+oturno)
+\change_deleted 239966243 1393453462
+
 \emph on
 .
+\change_inserted 239966243 1393453485
+; o asterisco (*) irá considerar ambos os períodos.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Paragraph
@@ -1201,18 +1852,104 @@ Atuação:
 \end_layout
 
 \begin_layout Standard
-Devido ao fato de o Instituto Mauá de Técnologia possuir dois campus, é
- necessário que seja realizado uma seleção para a geração de um relatório,
- dentre as opções, pode-se escolher entre 
+Devido ao fato de o Instituto Mauá de Técnologia possuir dois 
+\change_deleted 239966243 1393453700
+
 \emph on
-São Caetano do Sul 
+campus
+\change_inserted 239966243 1393453701
+campi
 \emph default
-e 
+ e cursos de pós-graduação
+\change_unchanged
+, 
+\change_deleted 239966243 1393453647
+é
+\change_inserted 239966243 1393453650
+torna-se
+\change_unchanged
+ necessário 
+\change_deleted 239966243 1393453654
+que seja 
+\change_unchanged
+realiza
+\change_inserted 239966243 1393453656
+r
+\change_deleted 239966243 1393453657
+do
+\change_unchanged
+ uma seleção para a geração d
+\change_inserted 239966243 1393453672
+os
+\change_deleted 239966243 1393453674
+e um 
+\change_unchanged
+relatório
+\change_inserted 239966243 1393453676
+s
+\change_deleted 239966243 1393453546
+,
+\change_inserted 239966243 1393453556
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393453579
+d
+\change_inserted 239966243 1393453580
+D
+\change_unchanged
+entre as opções, pode-se escolher entre 
+\emph on
+São Caetano do Sul
+\change_inserted 239966243 1393453747
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393453748
+
+\emph default
+e
+\change_unchanged
+ 
 \emph on
 São Paulo
 \emph default
-, também está disponível a opção de professores de pós graduação ou todas
- as opções relacionadas.
+,
+\change_inserted 239966243 1393453754
+ 
+\change_deleted 239966243 1393453758
+ também está disponível a opção de professores de p
+\change_inserted 239966243 1393453758
+
+\emph on
+P
+\change_unchanged
+ós
+\change_deleted 239966243 1393453760
+ 
+\change_inserted 239966243 1393453763
+-G
+\change_deleted 239966243 1393453763
+g
+\change_unchanged
+raduação
+\change_inserted 239966243 1393453799
+,
+\change_unchanged
+
+\emph default
+ ou 
+\change_inserted 239966243 1393453807
+considerar 
+\change_unchanged
+todas 
+\change_inserted 239966243 1393453823
+de uma única vez
+\change_deleted 239966243 1393453825
+as opções relacionadas
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1278,6 +2015,17 @@ name "fig:Relatórios-Rápidos"
 
 \begin_layout Subsubsection
 Consultas
+\change_inserted 239966243 1393451166
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Consultas"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
