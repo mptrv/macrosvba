@@ -1957,8 +1957,13 @@ Relatórios Rápidos
 \end_layout
 
 \begin_layout Standard
-Relatórios usados frequentemente ficarão a disposição, como um atalho, nesta
- região, como mostra a 
+Relatórios usados frequentemente ficarão 
+\change_deleted 239966243 1393453863
+a
+\change_inserted 239966243 1393453872
+à
+\change_unchanged
+ disposição, como um atalho, nesta região, como mostra a 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Relatórios-Rápidos"
