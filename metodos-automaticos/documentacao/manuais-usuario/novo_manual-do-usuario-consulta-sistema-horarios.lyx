@@ -5775,33 +5775,129 @@ Observações a serem feitas:
 \end_layout
 
 \begin_layout Enumerate
-A aba consulta disponibiliza um segundo filtro localizado na parte inferior,
- em verde, que permite o usuário a buscar quaisquer informações dentro da
- consulta realizada, ou também, habilitando e desabilitando dados coluna
- a coluna, encontrados na região em vermelho.
- No caso, a região azul mostra o total de resultados encontrados e permite
- a navegação entre as linhas com as setas representadas.
+A aba 
+\change_deleted 239966243 1393621533
+c
+\change_inserted 239966243 1393621533
+C
+\change_unchanged
+onsulta disponibiliza um segundo filtro localizado na parte inferior, 
+\change_inserted 239966243 1393621490
+destacado 
+\change_unchanged
+em verde
+\change_inserted 239966243 1393621494
+ na figura
+\change_unchanged
+, que permite 
+\change_inserted 239966243 1393621499
+a
+\change_unchanged
+o usuário 
+\change_deleted 239966243 1393621502
+a 
+\change_unchanged
+buscar quaisquer informações dentro da consulta realizada, ou também, habilitand
+o e desabilitando 
+\change_deleted 239966243 1393621567
+dados
+\change_inserted 239966243 1393621568
+filtros
+\change_unchanged
+ coluna a coluna,
+\change_deleted 239966243 1393621577
+ encontrados
+\change_unchanged
+ na região 
+\change_deleted 239966243 1393621581
+em 
+\change_inserted 239966243 1393621586
+com destaque 
+\change_unchanged
+vermelho.
+ 
+\change_deleted 239966243 1393621591
+No caso,
+\change_inserted 239966243 1393621593
+Ainda,
+\change_unchanged
+ a região azul mostra o total de 
+\change_deleted 239966243 1393621626
+resultados
+\change_inserted 239966243 1393621627
+registros
+\change_unchanged
+ encontrados e permite a navegação entre 
+\change_inserted 239966243 1393621634
+eles 
+\change_deleted 239966243 1393621612
+as linhas 
+\change_unchanged
+com as setas 
+\change_deleted 239966243 1393621673
+representadas
+\change_inserted 239966243 1393621676
+disponibilizadas
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Enumerate
-Para que esta planilha seja exportada para o 
+Para que 
+\change_deleted 239966243 1393621769
+esta planilha seja exportada
+\change_inserted 239966243 1393621774
+os dados sejam exportados
+\change_unchanged
+ para o 
 \emph on
 Excel
 \emph default
-, a origem da tabela no canto superior esquerdo, fará com que ela toda seja
- selecionada, agora, com o comando 
+, 
+\change_inserted 239966243 1393621702
+clicando-se n
+\change_unchanged
+a origem da tabela
+\change_inserted 239966243 1393621708
+,
+\change_unchanged
+ no canto superior esquerdo, fará com que ela toda seja selecionada
+\change_inserted 239966243 1393621720
+;
+\change_deleted 239966243 1393621724
+, agora,
+\change_inserted 239966243 1393621730
+em seguida,
+\change_unchanged
+ com o comando 
 \family typewriter
 Ctrl+C
 \family default
-, a tabela será copiada e usando o comando 
+, a tabela será copiada e usando
+\change_inserted 239966243 1393621744
+-se
+\change_unchanged
+ o comando 
 \family typewriter
 Ctrl+V
 \family default
-, numa janela do 
+, numa 
+\change_deleted 239966243 1393621753
+janela
+\change_inserted 239966243 1393621754
+planilha
+\change_unchanged
+ do 
 \emph on
 Excel
 \emph default
- aberta, a planilha então será exportada.
+ aberta, 
+\change_deleted 239966243 1393621817
+a planilha então será exportada
+\change_inserted 239966243 1393621835
+os dados serão colados
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -5891,10 +5987,45 @@ name "fig:Data-da-Grade-oficial"
 \end_layout
 
 \begin_layout Standard
-As informações inseridas nestes campos estão relacionadas com a formatação
- no qual o documento será gerado, a data deverá ser inserida no formato
- (DD/MM/AA) e a oficialização deverá ser respondida 
+As informações inseridas nestes campos estão relacionadas com 
+\change_inserted 239966243 1393622301
+o que será apresentado
+\change_deleted 239966243 1393622297
+a formatação
+\change_unchanged
+ no 
+\change_deleted 239966243 1393622309
+qual o 
+\change_unchanged
+documento
+\change_deleted 239966243 1393622328
+ será gerado,
+\change_inserted 239966243 1393622329
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393622330
+a
+\change_inserted 239966243 1393622330
+A
+\change_unchanged
+ data deverá ser inserida no formato 
+\change_deleted 239966243 1393622336
+(
+\change_unchanged
+DD/MM/AA
+\change_inserted 239966243 1393622366
+AA ou DD/MM/AA
+\change_deleted 239966243 1393622338
+)
+\change_unchanged
+ e a oficialização deverá ser respondida 
+\change_inserted 239966243 1393622380
+
 \emph on
+com 
+\change_unchanged
 
 \begin_inset Quotes eld
 \end_inset
@@ -5927,7 +6058,19 @@ reference "fig:Data-da-Grade-oficial"
 
  representa um documento formatado com data 29/03/13, e não oficial.
  Caso os campos forem deixados em branco, o sistema irá gerar um documento
- com data no dia atual do computador e não será oficial.
+ com
+\change_inserted 239966243 1393623015
+ a
+\change_unchanged
+ data 
+\change_deleted 239966243 1393623017
+n
+\change_unchanged
+o dia atual
+\change_deleted 239966243 1393623023
+ do computador
+\change_unchanged
+ e não será oficial.
 \end_layout
 
 \begin_layout Standard
@@ -6002,7 +6145,25 @@ Consulta CEUN-IMT
 \begin_layout Standard
 Trata-se de uma lista, que contém diversas informações de todos os professores
  (Horista, Integral ou Parcial) do CEUN-IMT, dentre elas, a quantidade de
- horas totais e total de horas distribuidas em outras tarefas.
+ horas 
+\change_inserted 239966243 1393623293
+em aulas 
+\change_deleted 239966243 1393623297
+totais
+\change_unchanged
+ e 
+\change_deleted 239966243 1393623314
+total de horas distribuidas
+\change_unchanged
+ em 
+\change_inserted 239966243 1393623271
+atividades 
+\change_unchanged
+outras
+\change_deleted 239966243 1393623321
+ tarefas
+\change_unchanged
+.
  A 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -6010,7 +6171,13 @@ reference "fig:Consulta-CEUN-IMT"
 
 \end_inset
 
- ilustra a nova janela que será aberta:
+ ilustra a nova janela que será aberta
+\change_inserted 239966243 1393623334
+.
+\change_deleted 239966243 1393623334
+:
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -6065,8 +6232,25 @@ name "fig:Consulta-CEUN-IMT"
 \end_layout
 
 \begin_layout Standard
-Está lista possui informações importantes quanto a quantidade de horas totais
- e distribuidas em outras tarefas de todos os professores 
+Est
+\change_inserted 239966243 1393623354
+a
+\change_deleted 239966243 1393623354
+á
+\change_unchanged
+ lista possui informações importantes quanto 
+\change_inserted 239966243 1393623367
+à
+\change_deleted 239966243 1393623362
+a
+\change_unchanged
+ quantidade de horas totais e distribuidas em outras tarefas de todos os
+ professores
+\change_inserted 239966243 1393623379
+.
+
+\change_unchanged
+ 
 \end_layout
 
 \begin_layout Standard
@@ -6102,36 +6286,103 @@ reference "tab:Siglas"
 \end_inset
 
 ).
- Note-se que a partir de 2013, a coluna TotHaIMT ja contém os valores de
- Pós-Graduação e ATDPagos, logo, estas colunas não constam de valores.
+ Note-se que a partir de 2013, a coluna TotHa
+\change_deleted 239966243 1393623541
+IMT
+\change_inserted 239966243 1393623543
+ATO
+\change_unchanged
+ j
+\change_deleted 239966243 1393623545
+a
+\change_inserted 239966243 1393623546
+á
+\change_unchanged
+ contém os valores de Pós-Graduação e ATDPagos, logo, estas colunas não
+ constam de valores.
 \end_layout
 
 \begin_layout Enumerate
-Informações referêntes ao Ano de 2011, podem estar deficientes em algum
- aspecto.
+Informações referêntes ao Ano de 2011, podem estar 
+\change_deleted 239966243 1393623782
+deficientes
+\change_inserted 239966243 1393623787
+plenamente consistentes
+\change_unchanged
+ em algum aspecto.
+
+\change_deleted 239966243 1393623634
  Tais informações não constam no banco de dados e por este motivo, não aparecem.
+
+\change_unchanged
  
 \end_layout
 
 \begin_layout Enumerate
-A sigla RF significa Registro Funcional, no caso, valores menores que 100
- representam um registro temporário atribuido ao funcionário, enquanto seu
- RF definitivo não é emitido.
+A sigla RF significa Registro Funcional, 
+\change_deleted 239966243 1393623833
+no caso,
+\change_inserted 239966243 1393623836
+cujos
+\change_unchanged
+ valores menores que 100 representam um registro temporário atribu
+\change_deleted 239966243 1393623812
+i
+\change_inserted 239966243 1393623813
+í
+\change_unchanged
+do ao 
+\change_deleted 239966243 1393623820
+funcionário
+\change_inserted 239966243 1393623821
+professor
+\change_unchanged
+, enquanto seu RF definitivo não é emitido.
 \end_layout
 
 \begin_layout Standard
 Para que seja possível exibir somente informações de interesse, como por
  exemplo, o número de professores doutores, é necessário aplicar um filtro
- com as caracteristicas desejadas, no caso, a pequena seta localizada ao
- lado do nome da coluna, abrirá uma janela que disponibiliza a realização
- do filtro, como mostra a 
+ com 
+\change_deleted 239966243 1393624025
+as caracteristicas
+\change_inserted 239966243 1393624041
+para o que for
+\change_unchanged
+ desejad
+\change_deleted 239966243 1393624045
+as
+\change_inserted 239966243 1393624051
+o.
+\change_deleted 239966243 1393624053
+, no caso, a
+\change_inserted 239966243 1393624085
+ Para essa finalidade, a
+\change_unchanged
+ pequena seta localizada ao lado do nome da coluna
+\change_deleted 239966243 1393624090
+,
+\change_unchanged
+ abrirá uma janela que disponibiliza 
+\change_deleted 239966243 1393624115
+a realização do filtro
+\change_inserted 239966243 1393624129
+as opções para escolha
+\change_unchanged
+, como mostra a 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Exemplo-de-Filtro"
 
 \end_inset
 
+
+\change_inserted 239966243 1393624133
+.
+\change_deleted 239966243 1393624133
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -6184,8 +6435,25 @@ name "fig:Exemplo-de-Filtro"
 \end_layout
 
 \begin_layout Standard
-É possível realizar diferentes filtro em diferentes colunas, de forma que
- seja exibido somente o que se deseja.
+É possível 
+\change_deleted 239966243 1393624584
+realizar
+\change_inserted 239966243 1393624585
+aplicar
+\change_unchanged
+ diferentes filtro
+\change_inserted 239966243 1393624588
+s
+\change_unchanged
+ 
+\change_deleted 239966243 1393624591
+em
+\change_inserted 239966243 1393624593
+nas 
+\change_deleted 239966243 1393624593
+ 
+\change_unchanged
+diferentes colunas, de forma que seja exibido somente o que se deseja.
 \end_layout
 
 \begin_layout Standard
@@ -6193,8 +6461,12 @@ Obs: Este procedimento poderá ser utilizado dentro de todos os relatórios
  disponibilizados no 
 \emph on
 Consulta Sistema Horários
+\change_deleted 239966243 1393624613
+
 \emph default
- .
+ 
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Itemize
@@ -6256,17 +6528,26 @@ name "fig:Atividade-outras"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Nela, pode ser inserido como informação:
+Nela, 
+\change_deleted 239966243 1393624747
+pode ser inserido como informação:
+\change_inserted 239966243 1393624805
+os dados a entrar são os apresentados na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Lançar-Atividades-Outras"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Quotation
@@ -6274,7 +6555,7 @@ Nela, pode ser inserido como informação:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -6517,7 +6798,20 @@ Lançar Atividades Outras
 \end_layout
 
 \begin_layout Standard
-Os dados que podem ser inseridos são:
+Os dados que podem ser inseridos são
+\change_inserted 239966243 1393624846
+ apresentados na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Lançar-TCC"
+
+\end_inset
+
+.
+\change_deleted 239966243 1393624826
+:
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -6769,7 +7063,17 @@ cp{Ano}
 
 \end_inset
 
- deve obrigatóriamente mostrar o ano decorrente, os campos 
+ deve obrigat
+\change_inserted 239966243 1393624949
+o
+\change_deleted 239966243 1393624949
+ó
+\change_unchanged
+riamente mostrar o ano 
+\change_deleted 239966243 1393624959
+de
+\change_unchanged
+corrente, os campos 
 \begin_inset ERT
 status open
 
@@ -6820,8 +7124,17 @@ O campo
 \emph on
 Licenças
 \emph default
- somente depende do Dia (Ac) como referência e disponibiliza de duas consultas,
- como ilustra a 
+ somente depende d
+\change_inserted 239966243 1393624999
+a Data
+\change_deleted 239966243 1393624993
+o Dia
+\change_unchanged
+ (Ac) como referência e disponibiliza 
+\change_deleted 239966243 1393625018
+de
+\change_unchanged
+ duas consultas, como ilustra a 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Licenças"
@@ -6856,7 +7169,14 @@ status open
 \begin_layout Plain Layout
 
 \emph on
-Licenças 
+Licenças
+\change_inserted 239966243 1393625142
+.
+
+\change_deleted 239966243 1393625143
+ 
+\change_unchanged
+
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Licenças"
@@ -6881,7 +7201,22 @@ Licença dos professores
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 239966243 1393625477
+Exibe uma relação com todas as licenças registradas dos professores.
+\change_deleted 239966243 1393625479
 Quando um professor entrará de licença:
+\change_inserted 239966243 1393625507
+ A 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Licença-dos-Professores"
+
+\end_inset
+
+ mostra um exemplo.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -6910,6 +7245,17 @@ status open
 
 \emph on
 Licença dos Professores
+\change_inserted 239966243 1393625248
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Licença-dos-Professores"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -6927,7 +7273,47 @@ Professores de Licença
 \end_layout
 
 \begin_layout Standard
-Professores que estiverão de licença no dia tomado como referência:
+
+\change_inserted 239966243 1393625294
+São relacionados os 
+\change_deleted 239966243 1393625294
+P
+\change_inserted 239966243 1393625295
+p
+\change_unchanged
+rofessores que estiver
+\change_deleted 239966243 1393625183
+ão
+\change_inserted 239966243 1393625184
+am
+\change_unchanged
+ de licença n
+\change_deleted 239966243 1393625269
+o dia 
+\change_inserted 239966243 1393625272
+a data 
+\change_unchanged
+tomad
+\change_deleted 239966243 1393625274
+o
+\change_inserted 239966243 1393625274
+a
+\change_unchanged
+ como referência
+\change_inserted 239966243 1393625443
+.
+ A 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Professores-de-Licença"
+
+\end_inset
+
+ mostra um exemplo.
+\change_deleted 239966243 1393625286
+:
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -6940,10 +7326,14 @@ status open
 \begin_layout Plain Layout
 \noindent
 \align center
+
+\change_deleted 239966243 1393625322
 Obs: Este procedimento poderá ser utilizado dentro de todos os relatórios
  disponibilizados no 
 \emph on
 Consulta Sistema Horários
+\change_unchanged
+
 \emph default
  .
 \begin_inset Graphics
@@ -6962,6 +7352,17 @@ Consulta Sistema Horários
 
 \emph on
 Professores de Licença
+\change_inserted 239966243 1393625254
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Professores-de-Licença"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -6983,23 +7384,64 @@ Remunerado
 \begin_inset Quotes erd
 \end_inset
 
- indica se o professor recebera salário enquanto estiver de licença, o campo
- pode ser verdadeiro 
+ indica se o professor receber
+\change_deleted 239966243 1393625332
+a
+\change_inserted 239966243 1393625332
+á
+\change_unchanged
+ salário enquanto estiver de licença
+\change_inserted 239966243 1393625340
+.
+\change_deleted 239966243 1393625348
+, o campo p
+\change_inserted 239966243 1393625348
+P
+\change_unchanged
+ode ser verdadeiro 
+\change_inserted 239966243 1393625359
+(
+\change_unchanged
+
 \begin_inset Quotes eld
 \end_inset
 
-Caixa em azul
+
+\change_deleted 239966243 1393625361
+C
+\change_inserted 239966243 1393625361
+c
+\change_unchanged
+aixa em azul
 \begin_inset Quotes erd
 \end_inset
 
+
+\change_inserted 239966243 1393625364
+)
+\change_unchanged
 , ou falso 
+\change_inserted 239966243 1393625369
+(
+\change_unchanged
+
 \begin_inset Quotes eld
 \end_inset
 
-Caixa em branco
+
+\change_deleted 239966243 1393625370
+C
+\change_inserted 239966243 1393625370
+c
+\change_unchanged
+aixa em branco
 \begin_inset Quotes erd
 \end_inset
 
+
+\change_inserted 239966243 1393625372
+)
+\change_unchanged
 .
  
 \end_layout
