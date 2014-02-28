@@ -774,7 +774,7 @@ Microsoft Access 2010
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Acesso ao Módulo
 \begin_inset CommandInset label
 LatexCommand label
@@ -812,7 +812,7 @@ consulta-sistema-horarios-oficial.accdr
 .
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Tela inicial
 \end_layout
 
@@ -1006,7 +1006,7 @@ consistência de dados
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Gerenciador Principal
 \end_layout
 
@@ -1129,7 +1129,7 @@ a
  tela inicial, basta clicar no botão fechar localizado na parte inferior.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Section
 Dados de Referência
 \begin_inset CommandInset label
 LatexCommand label
@@ -1567,7 +1567,7 @@ Período
 .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection
 \noindent
 Data:
 \end_layout
@@ -1653,7 +1653,7 @@ data de forma sincronizada, ou seja, a alteração de um campo provoca a altera�
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection
 \noindent
 Outros:
 \end_layout
@@ -1846,7 +1846,7 @@ oturno)
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection
 \noindent
 Atuação:
 \end_layout
@@ -1952,7 +1952,7 @@ as opções relacionadas
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Section
 Relatórios Rápidos
 \end_layout
 
@@ -2018,7 +2018,7 @@ name "fig:Relatórios-Rápidos"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Section
 Consultas
 \change_inserted 239966243 1393451166
 
@@ -2034,8 +2034,20 @@ name "sub:Consultas"
 \end_layout
 
 \begin_layout Standard
-Nesta região, estão localizadas as diversas consultas que podem ser realizadas,
- veja (
+Nesta região, estão localizadas as diversas consultas que podem ser realizadas
+\change_deleted 239966243 1393543795
+,
+\change_inserted 239966243 1393543796
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393543799
+v
+\change_inserted 239966243 1393543800
+V
+\change_unchanged
+eja (
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Consultas"
@@ -2092,8 +2104,11 @@ name "fig:Consultas"
 \end_layout
 
 \begin_layout Enumerate
-Professores: Permite que o usuário consulte informações relacionada aos
- professores, sendo elas:
+Professores: Permite que o usuário consulte informações relacionada
+\change_inserted 239966243 1393543825
+s
+\change_unchanged
+ aos professores, sendo elas:
 \end_layout
 
 \begin_deeper
@@ -2211,11 +2226,21 @@ cp{Atualizar TP e HR}
 
 \end_deeper
 \begin_layout Enumerate
-Diciplinas: Realiza consultas referentes as diciplinas do instituto.
+Diciplinas: Realiza consultas referentes as diciplinas do 
+\change_deleted 239966243 1393543847
+i
+\change_inserted 239966243 1393543847
+I
+\change_unchanged
+nstituto.
 \end_layout
 
 \begin_layout Enumerate
-Salas: Permite a realização de uma busca, referente a:
+Salas: Permite a realização de uma busca
+\change_deleted 239966243 1393543857
+,
+\change_unchanged
+ referente a:
 \end_layout
 
 \begin_deeper
@@ -2253,8 +2278,11 @@ cp{Disponibilidade das salas}
 
 \end_deeper
 \begin_layout Enumerate
-Horários de Aulas: O usuário poderá consultar informações relacionada aos
- horários de aulas, sendo as opções:
+Horários de Aulas: O usuário poderá consultar informações relacionada
+\change_inserted 239966243 1393543930
+s
+\change_unchanged
+ aos horários de aulas, sendo as opções:
 \end_layout
 
 \begin_deeper
@@ -2324,25 +2352,57 @@ cp{Tabela de horários de aula}
 
 \end_deeper
 \begin_layout Enumerate
-CEUN: Permite que o usuário consulte informações relacionada a estatísticas
- do CEUN.
+CEUN: Permite que o usuário consulte informações relacionada
+\change_inserted 239966243 1393543949
+s
+\change_unchanged
+ a estatísticas do CEUN
+\change_inserted 239966243 1393543970
+ (Centro Universitário)
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Enumerate
-CPA: Permite que o usuário consulte informações relacionada a estatísticas
- do CPA.
+CPA: Permite que o usuário consulte informações relacionada
+\change_inserted 239966243 1393543950
+s
+\change_unchanged
+ a estatísticas d
+\change_inserted 239966243 1393543958
+a
+\change_deleted 239966243 1393543959
+o
+\change_unchanged
+ CPA
+\change_inserted 239966243 1393543980
+ (Comissão Própria de Avaliação)
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
-Será apresentado nos tópicos seguintes, a descrição detalhada do funcionamento
- de cada aba relacionada anteriormente.
+Será apresentad
+\change_deleted 239966243 1393543989
+o
+\change_inserted 239966243 1393543989
+a
+\change_unchanged
+ nos tópicos seguintes, a descrição detalhada do funcionamento de cada aba
+ 
+\change_deleted 239966243 1393544010
+relacionada anteriormente
+\change_inserted 239966243 1393544014
+citada acima
+\change_unchanged
+.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Professores
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Lista de presença
 \end_layout
 
@@ -2366,7 +2426,11 @@ reference "sub:Dados-de-Referencia"
 
 \end_inset
 
- ), no caso, observe na 
+
+\change_deleted 239966243 1393544034
+ 
+\change_unchanged
+), no caso, observe na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Lista-de-Presença"
@@ -2428,7 +2492,11 @@ A consulta, no caso da
 Lista de Presença
 \emph default
 , necessita das informações: Ano (Aa), Semestre (Ab), Dia (Ac), Período
- (Bb) e Atuação (Ca).
+ (Bb) e 
+\change_inserted 239966243 1393544067
+Frente de 
+\change_unchanged
+Atuação (Ca).
 \end_layout
 
 \begin_layout Standard
@@ -2444,14 +2512,41 @@ Lista de Presença para o Dia Selecionado
 
 , 
 \emph default
-uma lista será exibida, que no caso, trata-se de um documento utilizado
- para efetuar a verificação da presença de professores em determinadas tarefas,
- de acordo com as informações selecionadas na região 
+uma lista será exibida, 
+\change_inserted 239966243 1393544099
+a 
+\change_unchanged
+qu
+\change_inserted 239966243 1393544100
+al
+\change_deleted 239966243 1393544101
+e
+\change_unchanged
+ 
+\change_deleted 239966243 1393544094
+no caso,
+\change_unchanged
+ trata-se de um documento utilizado para efetuar a verificação da presença
+ de professores em determinadas tarefas, de acordo com as informações selecionad
+as na região 
 \emph on
 Dados de Referência
+\change_deleted 239966243 1393544394
+
 \emph default
- com relação aos dias e etc.
- Durante o processamento, o sistema irá perguntar se a lista é de atrasou
+ com relação aos dias e etc
+\change_unchanged
+.
+ Durante o processamento, o sistema irá perguntar se a lista 
+\change_deleted 239966243 1393544409
+é
+\change_inserted 239966243 1393544411
+será
+\change_unchanged
+ de atraso
+\change_deleted 239966243 1393544413
+u
+\change_unchanged
  ou não, como mostra a 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -2459,7 +2554,13 @@ reference "fig:Janela-de-atraso"
 
 \end_inset
 
+
+\change_inserted 239966243 1393544420
+.
+\change_deleted 239966243 1393544419
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2510,8 +2611,26 @@ name "fig:Janela-de-atraso"
 \end_layout
 
 \begin_layout Standard
-Este campo inclui uma informação adicional em sua lista, como será visto
- adiante, pode-se inserir no campo as respostas 
+Este campo inclui uma informação adicional em 
+\change_deleted 239966243 1393544435
+sua
+\change_inserted 239966243 1393544436
+na
+\change_unchanged
+ lista, como será visto adiante
+\change_deleted 239966243 1393544444
+,
+\change_inserted 239966243 1393544445
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393544446
+p
+\change_inserted 239966243 1393544447
+P
+\change_unchanged
+ode-se inserir no campo as respostas 
 \emph on
 
 \begin_inset Quotes eld
@@ -2536,28 +2655,76 @@ Não
 
 \emph default
  (é necessário escrever com a devida acentuação).
- Uma lista gerada corretamente apresentará as caracteristicas mostradas
- na 
+ Uma lista gerada corretamente apresentará as caracter
+\change_deleted 239966243 1393544501
+i
+\change_inserted 239966243 1393544502
+í
+\change_unchanged
+sticas mostradas na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Lista-de-Presença_gerada"
 
 \end_inset
 
-, os perídos 
+
+\change_deleted 239966243 1393544520
+,
+\change_inserted 239966243 1393544520
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393544525
+os
+\change_inserted 239966243 1393544539
+Conforme o
+\change_unchanged
+ perí
+\change_inserted 239966243 1393544508
+o
+\change_unchanged
+do
+\change_deleted 239966243 1393544549
+s
+\change_inserted 239966243 1393544554
+ escolhido,
+\change_unchanged
+ 
 \emph on
 Diurno 
+\change_deleted 239966243 1393544557
+
 \emph default
-e 
+e
+\change_inserted 239966243 1393544557
+ou
+\change_unchanged
+ 
 \emph on
 Noturno
+\change_inserted 239966243 1393544561
+,
+\change_unchanged
+
 \emph default
  ou 
 \emph on
 sábados
 \emph default
- diferem de algumas formatações quanto as listas geradas.
  
+\change_deleted 239966243 1393544577
+diferem de 
+\change_unchanged
+algumas formatações 
+\change_inserted 239966243 1393544642
+da lista são alteradas, de forma a melhor adequar-se ao solicitado.
+\change_deleted 239966243 1393544643
+quanto as listas geradas.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2725,8 +2892,19 @@ Horário
 \end_layout
 
 \begin_layout Standard
-Após formatada a lista desejada, caso o usuário queira imprimi-la, deve-se
- então localizar no canto superior esquerdo, o botão chamado 
+Após formatada a lista 
+\change_deleted 239966243 1393545127
+desejada
+\change_unchanged
+, caso o usuário queira imprimi-la, deve-se 
+\change_deleted 239966243 1393545142
+então 
+\change_unchanged
+localizar
+\change_inserted 239966243 1393545152
+,
+\change_unchanged
+ no canto superior esquerdo, o botão chamado 
 \emph on
 
 \begin_inset Quotes eld
@@ -2801,7 +2979,7 @@ Obs: Este procedimento poderá ser aplicado a maior parte dos relatórios
 Consulta Sistema Horários.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Lista Dia
 \end_layout
 
@@ -2867,8 +3045,15 @@ Lista Dia Completa.
 
 \begin_layout Standard
 Forcene ao usuário uma lista com o nome de todos os professores do IMT,
- e também seguido de algumas informações que pode ser utilizada para consulta
- posteriormente.
+ e também seguido de algumas informações que pode
+\change_inserted 239966243 1393545863
+m
+\change_unchanged
+ ser utilizada
+\change_inserted 239966243 1393545869
+s
+\change_unchanged
+ para consulta posteriormente.
 \end_layout
 
 \begin_layout Standard
@@ -2908,10 +3093,6 @@ name "fig:Lista-Dia-Completa"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2926,7 +3107,7 @@ Dentre as informações apresentadas pela lista, temos:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2990,7 +3171,13 @@ Disc.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Nome da disciplina
+
+\change_deleted 239966243 1393545925
+Nome
+\change_inserted 239966243 1393545927
+Código
+\change_unchanged
+ da disciplina
 \end_layout
 
 \end_inset
@@ -3050,7 +3237,13 @@ Série
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\change_deleted 239966243 1393545968
 1°, 2°, 3°, 4°, 5° ou 6° ano
+\change_inserted 239966243 1393545972
+a série do curso
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -3070,8 +3263,32 @@ Habilitação
 \begin_inset Text
 
 \begin_layout Plain Layout
-PM (Produção), ET (Eletrônico), EL (Eletrotécnico), MC (Mecânica), QM (Química),
- CV (Civil), AL (Alimentos), CA (Controle e Automação)
+PM (Produção), E
+\change_deleted 239966243 1393545996
+T
+\change_inserted 239966243 1393545997
+N
+\change_unchanged
+ (Eletrônic
+\change_deleted 239966243 1393546001
+o
+\change_inserted 239966243 1393546001
+a
+\change_unchanged
+), EL (El
+\change_deleted 239966243 1393546005
+e
+\change_inserted 239966243 1393546007
+étrica
+\change_deleted 239966243 1393546011
+trotécnico
+\change_unchanged
+), MC (Mecânica), QM (Química), CV (Civil), AL (Alimentos), CA (Controle
+ e Automação)
+\change_inserted 239966243 1393546094
+, ou Tronco ou Ciclo Básico.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -3133,7 +3350,12 @@ name "tab:Tabela-Lista-Dia"
 \end_layout
 
 \begin_layout Standard
-Obs: Uma tabela similar, porém com todas as informações possíveis encontradas
+Obs: Uma tabela similar, porém com todas as informações possíveis 
+\change_deleted 239966243 1393546134
+encontradas
+\change_inserted 239966243 1393546146
+presentes
+\change_unchanged
  no 
 \emph on
 Consulta Sistema Horários
@@ -3149,12 +3371,59 @@ reference "chap:Referências-de-Siglas"
 \end_layout
 
 \begin_layout Itemize
-Dia em que o professor está na escola
+Dia 
+\change_deleted 239966243 1393546169
+e
+\change_inserted 239966243 1393546178
+e
+\change_unchanged
+m 
+\change_deleted 239966243 1393546169
+q
+\change_inserted 239966243 1393546169
+Q
+\change_unchanged
+ue 
+\change_deleted 239966243 1393546169
+o
+\change_inserted 239966243 1393546189
+o
+\change_unchanged
+ 
+\change_deleted 239966243 1393546169
+p
+\change_inserted 239966243 1393546169
+P
+\change_unchanged
+rofessor 
+\change_deleted 239966243 1393546169
+e
+\change_inserted 239966243 1393546169
+E
+\change_unchanged
+stá 
+\change_deleted 239966243 1393546169
+n
+\change_inserted 239966243 1393546201
+n
+\change_unchanged
+a 
+\change_deleted 239966243 1393546169
+e
+\change_inserted 239966243 1393546169
+E
+\change_unchanged
+scola
 \end_layout
 
 \begin_layout Standard
-Este recurso irá gerar um documento com as seguintes caracteristicas, conforme
- mostra a 
+Este recurso irá gerar um documento com as seguintes caracter
+\change_deleted 239966243 1393546211
+i
+\change_inserted 239966243 1393546212
+í
+\change_unchanged
+sticas, conforme mostra a 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Dia-em-que-prof-esta-escola"
@@ -3228,11 +3497,73 @@ name "fig:Dia-em-que-prof-esta-escola"
 
 \end_inset
 
-A representação acima mostra que o professor Afonso estará no Instituto
- Mauá de Tecnologia nos dias exibidos, note que professores grifados em
- cores diferentes são professores de habilitações diferentes da engenharia,
- sendo Amarelo (Administração), Verde (Gestão) e Laranja (Design), como
- no caso do 
+A representação acima mostra que o 
+\change_inserted 239966243 1393546250
+referido 
+\change_unchanged
+professor 
+\change_deleted 239966243 1393546253
+Afonso
+\change_unchanged
+ estará no Instituto Mauá de Tecnologia nos dias exibidos
+\change_deleted 239966243 1393546258
+,
+\change_inserted 239966243 1393546259
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393546260
+n
+\change_inserted 239966243 1393546261
+N
+\change_unchanged
+ote
+\change_inserted 239966243 1393546263
+-se
+\change_unchanged
+ que professores grifados em cores diferentes são professores de habilitações
+ diferentes da engenharia, sendo Amarelo 
+\change_inserted 239966243 1393546290
+os de 
+\change_deleted 239966243 1393546291
+(
+\change_unchanged
+Administração
+\change_deleted 239966243 1393546293
+)
+\change_unchanged
+, Verde 
+\change_inserted 239966243 1393546300
+os de 
+\change_deleted 239966243 1393546301
+(
+\change_unchanged
+Gestão
+\change_deleted 239966243 1393546303
+)
+\change_unchanged
+ e Laranja
+\change_inserted 239966243 1393546306
+ os de
+\change_unchanged
+ 
+\change_deleted 239966243 1393546307
+(
+\change_unchanged
+Design
+\change_deleted 239966243 1393546321
+),
+\change_inserted 239966243 1393546332
+ -- da mesma forma
+\change_unchanged
+ como 
+\change_deleted 239966243 1393546338
+no caso do
+\change_inserted 239966243 1393546339
+na
+\change_unchanged
+ 
 \emph on
 Lista Dia Completa
 \emph default
@@ -3240,7 +3571,61 @@ Lista Dia Completa
 \end_layout
 
 \begin_layout Itemize
-Horários dos dias em quais o professor está em aula
+Horários 
+\change_deleted 239966243 1393546400
+d
+\change_inserted 239966243 1393546413
+d
+\change_unchanged
+os 
+\change_deleted 239966243 1393546400
+d
+\change_inserted 239966243 1393546400
+D
+\change_unchanged
+ias 
+\change_deleted 239966243 1393546400
+e
+\change_inserted 239966243 1393546419
+e
+\change_unchanged
+m 
+\change_deleted 239966243 1393546400
+q
+\change_inserted 239966243 1393546400
+Q
+\change_unchanged
+uais 
+\change_deleted 239966243 1393546400
+o
+\change_inserted 239966243 1393546423
+o
+\change_unchanged
+ 
+\change_deleted 239966243 1393546400
+p
+\change_inserted 239966243 1393546400
+P
+\change_unchanged
+rofessor 
+\change_deleted 239966243 1393546400
+e
+\change_inserted 239966243 1393546400
+E
+\change_unchanged
+stá 
+\change_deleted 239966243 1393546400
+e
+\change_inserted 239966243 1393546428
+e
+\change_unchanged
+m 
+\change_deleted 239966243 1393546400
+a
+\change_inserted 239966243 1393546400
+A
+\change_unchanged
+ula
 \end_layout
 
 \begin_layout Standard
@@ -3300,16 +3685,30 @@ name "fig:Horários-dos-dias-prof-em-aula-1"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 PPC
 \end_layout
 
 \begin_layout Standard
-O 
+O
+\change_inserted 239966243 1393546706
+ material auxiliar para o
+\change_unchanged
+ 
 \emph on
 PPC
 \emph default
-, ou Plano Pedagógico de Curso, está com seu layout ilustrado na 
+, 
+\change_deleted 239966243 1393546710
+ou 
+\change_unchanged
+Plano Pedagógico de Curso, está com seu 
+\change_deleted 239966243 1393546716
+layout
+\change_inserted 239966243 1393546718
+leiaute
+\change_unchanged
+ ilustrado na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:PPC-1"
@@ -3366,15 +3765,62 @@ name "fig:PPC-1"
 
 \begin_layout Standard
 Este relatório é dependente dos valores de Ano (Aa), Semestre (Ab), Dia
- (Ac) e do Período (Bb), é um recurso que permite visualizar todos os professore
-s relacionados ao plano pedagógico de um curso específico, ou seja, os professor
-es que estão relacionados com o tronco escolhido, gerando uma tabela com
- diversas informações a respeito dos docentes..
+ (Ac) e do Período (Bb)
+\change_deleted 239966243 1393546752
+,
+\change_inserted 239966243 1393546753
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393546755
+é
+\change_inserted 239966243 1393546760
+Trata-se de
+\change_unchanged
+ um recurso que permite visualizar todos os professores relacionados ao
+ plano pedagógico de um curso específico, ou seja, os professores que 
+\change_deleted 239966243 1393546814
+estão relacionados
+\change_inserted 239966243 1393546819
+ministram aulas
+\change_unchanged
+ 
+\change_deleted 239966243 1393546822
+com 
+\change_inserted 239966243 1393546823
+n
+\change_unchanged
+o 
+\change_deleted 239966243 1393546780
+tronco
+\change_inserted 239966243 1393546781
+curso
+\change_unchanged
+ escolhido, gerando uma tabela com diversas informações 
+\change_inserted 239966243 1393546838
+cruzadas 
+\change_unchanged
+a respeito
+\change_deleted 239966243 1393546843
+ dos docentes.
+\change_unchanged
+.
+
+\change_deleted 239966243 1393546873
  Está pode ser editada, conforme as opções apresentadas o layout do PPC.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-A janela 
+A 
+\change_inserted 239966243 1393546879
+área
+\change_deleted 239966243 1393546881
+janela
+\change_unchanged
+ 
 \emph on
 
 \begin_inset Quotes eld
@@ -3386,13 +3832,94 @@ Incluir Ciclo Básico
 
 
 \emph default
- determina se o documento que será gerado, irá conter disciplinas referêntes
- as opções marcadas, como existem matérias básicas de engenharia no 2° ano,
- ao selecionar o 1° ano, automaticamente será habilitado ambos os campos,
- um depende do outro, não sendo possível exibir somente o 1° ano.
- Também, é possível incluir disciplinas de dependentes (DP) atravez do botão
- localizado na parte inferior, também é possível que seja criado uma versão
- da tabela para Excel, com o botão localizado a direita.
+ determina se o documento 
+\change_inserted 239966243 1393546897
+a ser
+\change_deleted 239966243 1393546900
+que será
+\change_unchanged
+ gerado, irá conter disciplinas refer
+\change_deleted 239966243 1393546904
+ê
+\change_inserted 239966243 1393546904
+e
+\change_unchanged
+ntes 
+\change_deleted 239966243 1393546907
+a
+\change_inserted 239966243 1393546908
+à
+\change_unchanged
+s opções marcadas
+\change_deleted 239966243 1393546910
+,
+\change_inserted 239966243 1393546911
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393546912
+c
+\change_inserted 239966243 1393546913
+C
+\change_unchanged
+omo existem matérias básicas de 
+\change_deleted 239966243 1393546929
+e
+\change_inserted 239966243 1393546929
+E
+\change_unchanged
+ngenharia no 2° ano, ao selecionar o 1° ano, automaticamente ser
+\change_deleted 239966243 1393546938
+á
+\change_inserted 239966243 1393546939
+ão
+\change_unchanged
+ habilitado
+\change_inserted 239966243 1393546941
+s
+\change_unchanged
+ ambos os campos, 
+\change_inserted 239966243 1393546947
+pois 
+\change_unchanged
+um depende do outro, não sendo possível exibir somente o 1° ano.
+ Também, é possível incluir disciplinas de dependentes (DP) atrav
+\change_deleted 239966243 1393546965
+ez
+\change_inserted 239966243 1393546966
+és
+\change_unchanged
+ do botão localizado na parte inferior
+\change_inserted 239966243 1393546986
+.
+ Por fim
+\change_unchanged
+, 
+\change_inserted 239966243 1393547000
+disponibiliza-se 
+\change_deleted 239966243 1393547017
+também é possível que seja criado uma versão
+\change_inserted 239966243 1393547024
+um recurso de exportação para
+\change_deleted 239966243 1393547030
+ da tabela para
+\change_inserted 239966243 1393547034
+planilha do
+\change_unchanged
+ 
+\emph on
+Excel
+\emph default
+, com o botão localizado 
+\change_inserted 239966243 1393547060
+na parte inferior 
+\change_deleted 239966243 1393547061
+a
+\change_inserted 239966243 1393547061
+à
+\change_unchanged
+ direita.
 \end_layout
 
 \begin_layout Standard
@@ -3443,10 +3970,6 @@ name "fig:PPC-Tronco-ET"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -3460,7 +3983,31 @@ reference "tab:Tabela-de-PPC-1"
 
 \end_inset
 
- fascilitará o entendimento de cada informação contida em cada relatório:
+ fa
+\change_deleted 239966243 1393547090
+s
+\change_unchanged
+cilitará o entendimento de cada 
+\change_deleted 239966243 1393547103
+informação 
+\change_inserted 239966243 1393547104
+uma 
+\change_unchanged
+contida 
+\change_deleted 239966243 1393547111
+em cada
+\change_inserted 239966243 1393547111
+nos
+\change_unchanged
+ relatório
+\change_inserted 239966243 1393547112
+s
+\change_deleted 239966243 1393547116
+:
+\change_inserted 239966243 1393547117
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -4020,8 +4567,13 @@ name "tab:Tabela-de-PPC-1"
 \end_layout
 
 \begin_layout Standard
-Obs: Uma tabela similar, porém com todas as informações possíveis encontradas
- no 
+Obs: Uma tabela similar, porém com todas as informações possíveis 
+\change_deleted 239966243 1393547130
+encontradas n
+\change_inserted 239966243 1393547130
+d
+\change_unchanged
+o 
 \emph on
 Consulta Sistema Horários
 \emph default
@@ -4035,21 +4587,47 @@ reference "chap:Referências-de-Siglas"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Cargas Horárias
 \end_layout
 
 \begin_layout Standard
 As Cargas Horárias dependem dos valores de Ano (Aa), Semestre (Ab) e Dia
- (Ac), em termos gerais, as consultas disponibilizadas são, de acordo com
- a
+ (Ac)
+\change_deleted 239966243 1393547282
+,
+\change_inserted 239966243 1393547282
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1393547283
+e
+\change_inserted 239966243 1393547288
+E
+\change_unchanged
+m termos gerais, as consultas disponibilizadas são
+\change_deleted 239966243 1393547306
+, de acordo com 
+\change_unchanged
+a
+\change_inserted 239966243 1393547321
+s apresentadas na 
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Cargas-Horárias"
 
 \end_inset
 
+
+\change_inserted 239966243 1393547323
+.
+\change_deleted 239966243 1393547322
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -4118,27 +4696,79 @@ Consulta de Aulas
 \end_inset
 
 
+\change_inserted 239966243 1393547441
+
 \emph default
-, está nova janela deverá ser semelhante a 
+.
+\change_deleted 239966243 1393547442
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1393547444
+e
+\change_inserted 239966243 1393547444
+E
+\change_unchanged
+st
+\change_deleted 239966243 1393547445
+á
+\change_inserted 239966243 1393547445
+a
+\change_unchanged
+ nova janela 
+\change_deleted 239966243 1393547460
+deverá ser semelhante a
+\change_inserted 239966243 1393547469
+é mostrada na
+\change_unchanged
+ 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Menu-Consulta-de-aulas"
 
 \end_inset
 
-; O semestre e o ano que foram previamente definidos no menu 
+; 
+\change_deleted 239966243 1393547474
+O
+\change_inserted 239966243 1393547475
+o
+\change_unchanged
+ semestre e o ano que foram previamente definidos no menu 
 \begin_inset Quotes eld
 \end_inset
 
-Dados de referência
+Dados de 
+\change_deleted 239966243 1393547481
+r
+\change_inserted 239966243 1393547482
+R
+\change_unchanged
+eferência
 \begin_inset Quotes erd
 \end_inset
 
  serão exibidos no canto superior direito da janela.
- Está aba permite realizar uma busca completa, a fim de exibir informações
- a respeito das aulas e dos professores que a lecionam e então, gerar a
- grade horária; Será abordado em detalhes o significado todas as informações
- inseridas e retornadas adiante.
+ Est
+\change_inserted 239966243 1393547491
+a
+\change_deleted 239966243 1393547491
+á
+\change_unchanged
+ aba permite realizar uma busca completa, a fim de exibir informações a
+ respeito das aulas e dos professores que a lecionam e então, gerar a grade
+ horária
+\change_deleted 239966243 1393547548
+;
+\change_inserted 239966243 1393547549
+.
+
+\change_unchanged
+ Será abordado em detalhes o significado 
+\change_inserted 239966243 1393547556
+de 
+\change_unchanged
+todas as informações inseridas e retornadas adiante.
 \end_layout
 
 \begin_layout Standard
@@ -4195,11 +4825,23 @@ reference "tab:Inserção-de-dados"
 
 \end_inset
 
+
+\change_inserted 239966243 1393547903
+.
+\change_deleted 239966243 1393547903
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-Obs: Os campos poderão ser preenchidos com qualquer tipo de caractér.
+Obs: Os campos poderão ser preenchidos com qualquer tipo de caract
+\change_inserted 239966243 1393547915
+e
+\change_deleted 239966243 1393547916
+é
+\change_unchanged
+r.
 \end_layout
 
 \begin_layout Standard
@@ -4293,7 +4935,13 @@ Dia Semana
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dia da semana no qual a aula pertence
+Dia da semana 
+\change_deleted 239966243 1393547950
+no
+\change_inserted 239966243 1393547950
+à
+\change_unchanged
+ qual a aula pertence
 \end_layout
 
 \end_inset
@@ -4313,7 +4961,11 @@ Habilitação
 \begin_inset Text
 
 \begin_layout Plain Layout
-Habilitação da aula (ET, EN, MC, AL, QM, CV, PR, CO, CA)
+Habilitação da aula
+\change_deleted 239966243 1393547960
+ (ET, EN, MC, AL, QM, CV, PR, CO, CA)
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -4353,7 +5005,13 @@ Série
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\change_deleted 239966243 1393547970
 1°, 2°, 3°, 4°, 5° e 6°
+\change_inserted 239966243 1393547985
+A série do curso em que ela é ministrada
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -4393,6 +5051,10 @@ GTL
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\change_inserted 239966243 1393548002
+Divisão de 
+\change_unchanged
 Grupo, Turma ou Laboratório
 \end_layout
 
@@ -4413,7 +5075,13 @@ RF
 \begin_inset Text
 
 \begin_layout Plain Layout
-Registo funcional
+Registo 
+\change_deleted 239966243 1393548008
+f
+\change_inserted 239966243 1393548009
+F
+\change_unchanged
+uncional
 \end_layout
 
 \end_inset
@@ -4434,7 +5102,13 @@ Cód.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Código da disciplina
+Código da 
+\change_deleted 239966243 1393548013
+d
+\change_inserted 239966243 1393548013
+D
+\change_unchanged
+isciplina
 \end_layout
 
 \end_inset
@@ -4454,7 +5128,17 @@ Sala
 \begin_inset Text
 
 \begin_layout Plain Layout
-Bloco e numeração da sala (H202, U23...)
+
+\change_deleted 239966243 1393548084
+Bloco e numeração
+\change_inserted 239966243 1393548086
+Identificação
+\change_unchanged
+ da sala
+\change_deleted 239966243 1393548079
+ (H202, U23...)
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -4510,8 +5194,11 @@ reference "chap:Referências-de-Siglas"
 \end_layout
 
 \begin_layout Standard
-Além destas informações, há alguns campos na parte inferior que podem ser
- selecionados ou não, no caso, 
+Além destas informações, há alguns campos na parte inferior que 
+\change_inserted 239966243 1393548316
+possuem três estados: indefinido, selecionado ou não selecionado.
+ Por exemplo, para retornar aulas regulares e de dependência, o campo correspond
+ente a 
 \emph on
 
 \begin_inset Quotes eld
@@ -4523,7 +5210,27 @@ DP
 
 
 \emph default
- habilitará aulas de dependentes, 
+ deverá ficar no estado indefinido; caso sejam desejadas apenas as aulas
+ de dependência, este deverá ser selecionado; caso apenas as aulas regulares
+ forem desejadas, o campo deverá ficar não selecionado.
+\change_deleted 239966243 1393548321
+podem ser selecionados ou não, no caso, 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+DP
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ habilitará aulas de dependentes,
+\change_inserted 239966243 1393548346
+ O mesmo comportamento apresenta os campos
+\change_unchanged
+ 
 \emph on
 
 \begin_inset Quotes eld
@@ -4534,8 +5241,26 @@ QZ
 \end_inset
 
 
+\change_inserted 239966243 1393548350
+, 
+\change_deleted 239966243 1393548351
+
 \emph default
- são as aulas quinzenais e 
+ são
+\change_inserted 239966243 1393548352
+
+\emph on
+para
+\change_deleted 239966243 1393548353
+
+\emph default
+ as
+\change_unchanged
+ aulas quinzenais
+\change_inserted 239966243 1393548362
+,
+\change_unchanged
+ e 
 \emph on
 
 \begin_inset Quotes eld
@@ -4546,9 +5271,33 @@ Compartilhada
 \end_inset
 
 
+\change_inserted 239966243 1393548364
+,
+\change_unchanged
+
 \emph default
- são as aulas que possuem duas turmas ou mais.
- Para que seja possível preencher mais de um campo de filtro, é necessário
+ 
+\change_deleted 239966243 1393548375
+são as
+\change_inserted 239966243 1393548376
+para as
+\change_unchanged
+ aulas 
+\change_inserted 239966243 1393548382
+compartilhadas
+\change_deleted 239966243 1393548386
+que possuem duas turmas ou mais
+\change_unchanged
+.
+
+\change_deleted 239966243 1393548417
+ 
+\change_inserted 239966243 1393548417
+
+\end_layout
+
+\begin_layout Standard
+Para que seja possível preencher mais de um campo de filtro, é necessário
  que a opção 
 \emph on
 
@@ -4561,7 +5310,19 @@ Todos
 
 
 \emph default
- esteja selecionado na janela 
+ esteja selecionad
+\change_inserted 239966243 1393548436
+a
+\change_deleted 239966243 1393548436
+o
+\change_unchanged
+ na 
+\change_deleted 239966243 1393548440
+janela
+\change_inserted 239966243 1393548441
+área
+\change_unchanged
+ 
 \emph on
 
 \begin_inset Quotes eld
@@ -4573,7 +5334,13 @@ Método de Filtro
 
 
 \emph default
-, uma vez que o 
+, uma vez que 
+\change_deleted 239966243 1393548456
+o
+\change_inserted 239966243 1393548456
+a
+\change_unchanged
+ 
 \emph on
 
 \begin_inset Quotes eld
@@ -4585,7 +5352,25 @@ Exclusivo
 
 
 \emph default
- esteja habilitado, somente será possível preencher um único campo.
+ 
+\change_deleted 239966243 1393548469
+esteja habilitado, somente será
+\change_inserted 239966243 1393548472
+irá permitir
+\change_deleted 239966243 1393548475
+ possível 
+\change_inserted 239966243 1393548476
+o 
+\change_unchanged
+preench
+\change_deleted 239966243 1393548479
+er
+\change_inserted 239966243 1393548486
+imento de 
+\change_deleted 239966243 1393548494
+ 
+\change_unchanged
+um único campo.
 \end_layout
 
 \begin_layout Standard
@@ -4601,15 +5386,56 @@ Enter
 
 
 \emph default
-, ou então, clicando nos botões localizados ao lado direito da janela, veja
- a 
+, ou então, clica
+\change_inserted 239966243 1393548534
+r
+\change_deleted 239966243 1393548535
+ndo 
+\change_unchanged
+no
+\change_deleted 239966243 1393548568
+s
+\change_unchanged
+ bot
+\change_deleted 239966243 1393548570
+ões
+\change_inserted 239966243 1393548573
+ão de filtro
+\change_unchanged
+ localizado
+\change_deleted 239966243 1393548575
+s
+\change_unchanged
+ ao lado direito da janela
+\change_inserted 239966243 1393548583
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 239966243 1393548603
+Os demais botões possuem funções auxiliares
+\change_deleted 239966243 1393548607
+,
+\change_inserted 239966243 1393548612
+ e a
+\change_deleted 239966243 1393548613
+ veja a 
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Descrição-dos-botões-consulta-aulas"
 
 \end_inset
 
+
+\change_inserted 239966243 1393548622
+ apresenta uma descrição de tais.
+\change_deleted 239966243 1393548615
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -4837,9 +5663,20 @@ name "tab:Descrição-dos-botões-consulta-aulas"
 \end_layout
 
 \begin_layout Standard
-Feito a busca, a região abaixo será preenchida de acordo com os filtros
- aplicados, como exemplo, será representado a busca com os dados da disciplina
- 
+Feit
+\change_deleted 239966243 1393548635
+o
+\change_inserted 239966243 1393548635
+a
+\change_unchanged
+ a busca, a região abaixo será preenchida de acordo com os filtros aplicados,
+ como exemplo, será representad
+\change_deleted 239966243 1393548645
+o
+\change_inserted 239966243 1393548645
+a
+\change_unchanged
+ a busca com os dados da disciplina 
 \emph on
 
 \begin_inset Quotes eld
@@ -4858,7 +5695,21 @@ reference "fig:Resultado-consulta-aulas"
 
 \end_inset
 
-, caso fosse feito uma busca em branco, todos os professores seriam listados.
+
+\change_inserted 239966243 1393548662
+.
+\change_deleted 239966243 1393548663
+, c
+\change_inserted 239966243 1393548664
+C
+\change_unchanged
+aso fosse 
+\change_deleted 239966243 1393548667
+feito
+\change_inserted 239966243 1393548668
+realizada
+\change_unchanged
+ uma busca em branco, todos os professores seriam listados.
 \end_layout
 
 \begin_layout Standard
@@ -5960,7 +6811,7 @@ cp{Observações}
  não possuem restrições.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Licenças
 \end_layout
 
@@ -6153,7 +7004,7 @@ Caixa em branco
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Outras Relações
 \end_layout
 
@@ -6293,11 +7144,11 @@ reference "tab:Siglas"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Convocações para Provas
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Convocações
 \end_layout
 
@@ -6576,7 +7427,7 @@ Fazer!!
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Taxas de Convocações
 \end_layout
 
@@ -6715,7 +7566,7 @@ Fazer!!
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Atualizar TP e HR
 \end_layout
 
@@ -6862,7 +7713,7 @@ name "fig:Executar-as-Atualizações"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Disciplinas
 \end_layout
 
@@ -6870,7 +7721,7 @@ Disciplinas
 Ainda não implementado nesta versão.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Salas
 \end_layout
 
@@ -6975,7 +7826,7 @@ name "fig:Salas"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Ocupação das Salas
 \end_layout
 
@@ -7680,7 +8531,7 @@ name "fig:Taxa-de-ocupação"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Disponibilidade das Salas
 \end_layout
 
@@ -7855,7 +8706,7 @@ O botão de atualizar acessa o banco de dados do sistema e atualiza seus
  alguma sala.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Horários de Aula
 \end_layout
 
@@ -7912,7 +8763,7 @@ name "fig:Horários-de-Aula"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Encontrar Superposições
 \end_layout
 
@@ -8037,7 +8888,7 @@ name "fig:Encontrar-Superposição"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Restrições de Carga
 \end_layout
 
@@ -8800,7 +9651,7 @@ Redução QtdHa Anos Consecultivos
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Indefinições
 \end_layout
 
@@ -8937,7 +9788,7 @@ status open
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Tabela de Horários de Aulas
 \end_layout
 
@@ -9120,7 +9971,7 @@ Tabela Expandida
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 CEUN
 \end_layout
 
@@ -9235,7 +10086,7 @@ A coluna QtdProfessores informa o número de professores nas colunas QtdHR,
  QtdTP e QtdTI, ou seja, sua somatória.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 CPA
 \end_layout
 
