@@ -7451,12 +7451,21 @@ Outras Relações
 \end_layout
 
 \begin_layout Standard
-Informações adicionais a respeito dos professores cadastrados no sistema
- do 
+Informações adicionais a respeito dos professores cadastrados no 
+\change_deleted 239966243 1393629808
+sistema do 
 \emph on
-Consulta Sistema Horários 
+Consulta 
+\change_unchanged
+Sistema Horários 
 \emph default
-estarão a disposição nesta consulta.
+estarão 
+\change_deleted 239966243 1393629821
+a
+\change_inserted 239966243 1393629822
+à
+\change_unchanged
+ disposição nesta consulta.
  Seus campos tem relação com os dados de referência de Ano (Aa), Semestre
  (Ab) e Dia (Ac).
 \end_layout
@@ -7507,9 +7516,12 @@ name "fig:Outras-Relações"
 \end_layout
 
 \begin_layout Standard
-Apesar da consulta depender destes dados, no caso, eles serão somente utilizados
- nos campos em que não se aplica a Graduação ou a Pós-Graduação, ou seja,
- somente a segunda coluna.
+Apesar da consulta depender destes dados, 
+\change_deleted 239966243 1393629863
+no caso,
+\change_unchanged
+ eles serão somente utilizados nos campos em que não se aplica a Graduação
+ ou a Pós-Graduação, ou seja, somente a segunda coluna.
 \end_layout
 
 \begin_layout Standard
@@ -7538,7 +7550,11 @@ As Pós-Graduações
 \end_layout
 
 \begin_layout Standard
-Lista os professores e todas as suas graduações.
+Lista os professores e todas as suas 
+\change_inserted 239966243 1393630087
+pós-
+\change_unchanged
+graduações.
 \end_layout
 
 \begin_layout Itemize
@@ -7546,7 +7562,11 @@ A Pós-Graduação Maior
 \end_layout
 
 \begin_layout Standard
-Relação da maior graduação dos professores.
+Relação da maior 
+\change_inserted 239966243 1393630094
+pós-
+\change_unchanged
+graduação dos professores.
 \end_layout
 
 \begin_layout Itemize
@@ -7599,8 +7619,25 @@ O banco de dados do
 \emph on
 Consulta Sistema Horários 
 \emph default
-possui em sua estrutura, dados em excell relacionados a convocações dos
- professores.
+possui em sua estrutura, dados em 
+\change_deleted 239966243 1393631748
+
+\emph on
+e
+\change_inserted 239966243 1393631749
+E
+\change_unchanged
+xcel
+\change_deleted 239966243 1393631761
+l
+\change_unchanged
+
+\emph default
+ relacionados a convocações dos professores
+\change_inserted 239966243 1393631777
+ para fiscalização de provas
+\change_unchanged
+.
  Estás consultas realizam a leitura destes dados e os agrupa de acordo com
  a opção selecionada, dentre elas:
 \end_layout
