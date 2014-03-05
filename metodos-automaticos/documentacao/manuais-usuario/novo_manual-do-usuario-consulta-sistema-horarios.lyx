@@ -7619,7 +7619,11 @@ O banco de dados do
 \emph on
 Consulta Sistema Horários 
 \emph default
-possui em sua estrutura, dados em 
+possui em sua estrutura
+\change_deleted 239966243 1394041839
+,
+\change_unchanged
+ dados em 
 \change_deleted 239966243 1393631748
 
 \emph on
@@ -7638,8 +7642,27 @@ l
  para fiscalização de provas
 \change_unchanged
 .
- Estás consultas realizam a leitura destes dados e os agrupa de acordo com
- a opção selecionada, dentre elas:
+ Est
+\change_deleted 239966243 1394041853
+á
+\change_inserted 239966243 1394041853
+a
+\change_unchanged
+s consultas realizam a leitura destes dados e os agrupa de acordo com a
+ opção selecionada, 
+\change_deleted 239966243 1394041940
+dentre elas:
+\change_inserted 239966243 1394041959
+conforme exibido pela 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Convocações"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -7706,7 +7729,13 @@ reference "fig:Professores-Não-Reconhecidos"
 \end_inset
 
 ).
- Assim é possível verificar problemas existentes no documento de convocação.
+ Assim é possível verificar problemas existentes no documento de convocação
+\change_inserted 239966243 1394042040
+, no qual dever-se-á proceder com a correção da digitação dos nomes.
+\change_deleted 239966243 1394042014
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -7760,9 +7789,34 @@ Listagem Completa das Convocações
 \end_layout
 
 \begin_layout Standard
-Os horários das convocações seram dispostos de uma maneira mais enxuta,
- de fácil exibição e entndimento, permitindo até a exportação deste dados
+Os horários das convocações ser
+\change_inserted 239966243 1394042060
+ão
+\change_deleted 239966243 1394042059
+am
+\change_unchanged
+ dispostos de uma maneira mais enxuta, de fácil exibição e entndimento,
+ permitindo até a exportação deste
+\change_inserted 239966243 1394042082
+s
+\change_unchanged
+ dados
+\change_inserted 239966243 1394042086
+,
+\change_unchanged
  a fim de gerar documentos para impressão e disposição dos professores.
+
+\change_inserted 239966243 1394042135
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Listagem-Completa-das-convocações"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -7791,6 +7845,17 @@ status open
 
 \emph on
 Listagem Completa das Convocações
+\change_inserted 239966243 1394042118
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Listagem-Completa-das-convocações"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -7816,7 +7881,13 @@ A sigla P/C tem como significado,
 \begin_inset Quotes eld
 \end_inset
 
-Para Consulta
+Para 
+\change_deleted 239966243 1394042169
+Consulta
+\change_inserted 239966243 1394042171
+Conhecimento
+\change_unchanged
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -7833,11 +7904,22 @@ Diurno e Noturno
 \begin_inset Quotes erd
 \end_inset
 
-, nos casos em que ambos realizam a mesma prova.
+, nos casos em que ambos realizam a mesma prova
+\change_inserted 239966243 1394042209
+, no mesmo dia, para uma certa disciplina.
+\change_deleted 239966243 1394042186
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Enumerate
-Professores que tem como condição (coluna 5) o nome de disciplinas, aplicaram
+Professores que tem como condição (coluna 5) o nome de disciplinas, aplicar
+\change_deleted 239966243 1394042227
+am
+\change_inserted 239966243 1394042227
+ão
+\change_unchanged
  as provas de suas respectivas matérias.
 \end_layout
 
@@ -7846,8 +7928,26 @@ Listagem Linear das Convocações
 \end_layout
 
 \begin_layout Standard
-Consulta que permite verificar, a quantidade de vezes em que um professor
- foi convocado.
+Consulta que permite verificar
+\change_inserted 239966243 1394042352
+ 
+\change_deleted 239966243 1394042352
+, 
+\change_unchanged
+a quantidade de vezes em que um professor foi convocado
+\change_inserted 239966243 1394042402
+, como observa-se na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Listagem-Linear-das-convocações"
+
+\end_inset
+
+
+\change_deleted 239966243 1394042371
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -7873,6 +7973,17 @@ status open
 
 \emph on
 Listagem Linear das Convocações
+\change_inserted 239966243 1394042389
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Listagem-Linear-das-convocações"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -7911,9 +8022,35 @@ Taxas de Convocações
 \end_layout
 
 \begin_layout Standard
-Está ferramenta realiza um mecanismo de referências cruzadas, afim de analisar
- estatísticamente, a quantidade de convocações de um professor pela quantidade
- de horas aulas que ele possui.
+Est
+\change_deleted 239966243 1394042413
+á
+\change_inserted 239966243 1394042413
+a
+\change_unchanged
+ ferramenta realiza um mecanismo de referências cruzadas, a
+\change_inserted 239966243 1394042421
+ 
+\change_unchanged
+fim de analisar
+\change_inserted 239966243 1394042694
+,
+\change_unchanged
+ estat
+\change_inserted 239966243 1394042685
+i
+\change_deleted 239966243 1394042685
+í
+\change_unchanged
+sticamente, a quantidade de convocações de um professor pela 
+\change_deleted 239966243 1394042720
+quantidade de horas aulas 
+\change_inserted 239966243 1394042726
+sua carga horária semanal
+\change_deleted 239966243 1394042728
+que ele possui
+\change_unchanged
+.
  São apresentados dois métodos de cálculo das taxas, como mostra a 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -7921,7 +8058,13 @@ reference "fig:Taxa-de-Convocações"
 
 \end_inset
 
+
+\change_inserted 239966243 1394042737
+.
+\change_deleted 239966243 1394042736
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -7978,7 +8121,13 @@ Taxa de Convocações - Linear - Método 1
 \end_layout
 
 \begin_layout Standard
-Referênte as informações das listagens de convocações lineares.
+Refer
+\change_inserted 239966243 1394042790
+e
+\change_deleted 239966243 1394042790
+ê
+\change_unchanged
+nte as informações das listagens de convocações lineares.
 \end_layout
 
 \begin_layout Standard
@@ -8004,6 +8153,17 @@ status open
 
 \emph on
 Linear - Método 1
+\change_inserted 239966243 1394042785
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Linear---Método-um"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -8051,8 +8211,26 @@ Atualizar TP e HR
 
 \begin_layout Standard
 Este recurso irá verificar e executar as atualizações necessárias feitas
- em cima dos dados relacionados a Tempo Parcial (TP) e Horista (HR) dos
- professores, depende do Ano (Aa), Semestre (Ab) e Dia (Ac).
+ em cima dos dados relacionados 
+\change_inserted 239966243 1394042854
+aos professores em regime 
+\change_deleted 239966243 1394042855
+a 
+\change_unchanged
+Tempo Parcial (TP) e Horista (HR)
+\change_deleted 239966243 1394042866
+ dos professores,
+\change_inserted 239966243 1394042866
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1394042868
+d
+\change_inserted 239966243 1394042868
+D
+\change_unchanged
+epende do Ano (Aa), Semestre (Ab) e Dia (Ac).
  A interface da região está ilustrada na 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -8113,16 +8291,41 @@ Verificar as Atualizações
 \end_layout
 
 \begin_layout Standard
-Permite a elaboração e atualização dos regimes dos professores, podendo-se
- alterar:
+Permite a 
+\change_deleted 239966243 1394042903
+elaboração
+\change_inserted 239966243 1394042909
+verificação de como 
+\change_deleted 239966243 1394042910
+ e 
+\change_inserted 239966243 1394042911
+a 
+\change_unchanged
+atualização dos regimes dos professores
+\change_inserted 239966243 1394042920
+ se procederá
+\change_unchanged
+, 
+\change_deleted 239966243 1394043045
+podendo-se alterar:
+\change_inserted 239966243 1394043127
+sem que nenhuma alteração seja efetivada.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Enumerate
+
+\change_deleted 239966243 1394043131
 TP e HR.
 \end_layout
 
 \begin_layout Enumerate
+
+\change_deleted 239966243 1394043131
 Total de Horas-Aula, Horas-Outras e Horas no IMT.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Itemize
@@ -8130,13 +8333,35 @@ Executar as Atualizações
 \end_layout
 
 \begin_layout Standard
-Qualquer modificação no banco de dados referente ao regime dos professores,
- que tem como base a tabela “Verificar as Atualizações”, será atualizada
- caso seja clicado o botão 
+
+\change_deleted 239966243 1394043659
+Qualquer modificação no banco de dados referente
+\change_inserted 239966243 1394043666
+Executa as atualizações do
+\change_deleted 239966243 1394043667
+ ao
+\change_unchanged
+ regime dos professores, 
+\change_inserted 239966243 1394043696
+conforme o que fora exibido por
+\change_deleted 239966243 1394043699
+que tem como base a tabela
+\change_unchanged
+ “Verificar as Atualizações”, 
+\change_inserted 239966243 1394043723
+assim que 
+\change_deleted 239966243 1394043744
+será atualizada caso seja clicado o botão 
 \emph on
 'SIM'
+\change_inserted 239966243 1394043763
+
 \emph default
-, como mostra a 
+confirmada a pergunta da
+\change_deleted 239966243 1394043787
+, como mostra a
+\change_unchanged
+ 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Executar-as-Atualizações"
@@ -8205,9 +8430,54 @@ Salas
 \end_layout
 
 \begin_layout Standard
-Está nova consulta permite buscar, verificar e atualizar informações referentes
- a todas as salas encontradas no centro acadêmico, dentre as consultas,
- temos: 
+Est
+\change_deleted 239966243 1394043877
+á
+\change_inserted 239966243 1394043877
+a
+\change_unchanged
+ nova consulta permite buscar
+\change_inserted 239966243 1394044023
+ e
+\change_deleted 239966243 1394044022
+,
+\change_unchanged
+ verificar 
+\change_deleted 239966243 1394044027
+e atualizar
+\change_unchanged
+ informações referentes a todas as salas 
+\change_deleted 239966243 1394044037
+encontradas n
+\change_inserted 239966243 1394044038
+d
+\change_unchanged
+o 
+\change_deleted 239966243 1394044039
+c
+\change_inserted 239966243 1394044039
+C
+\change_unchanged
+entro 
+\change_deleted 239966243 1394044048
+acadêmico
+\change_inserted 239966243 1394044053
+Universitário
+\change_deleted 239966243 1394044056
+,
+\change_inserted 239966243 1394044057
+.
+
+\change_unchanged
+ 
+\change_deleted 239966243 1394044086
+dentre a
+\change_inserted 239966243 1394044097
+Os tópicos disponíveis são:
+\change_deleted 239966243 1394044101
+s consultas, temos
+\change_unchanged
+: 
 \end_layout
 
 \begin_layout Standard
@@ -8251,7 +8521,13 @@ reference "fig:Salas"
 
 \end_inset
 
+
+\change_inserted 239966243 1394044171
+.
+\change_deleted 239966243 1394044170
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -8310,10 +8586,33 @@ Ocupação das Salas
 \end_layout
 
 \begin_layout Standard
-Cada uma das opções disponibilizadas, dentre elas:
+
+\change_deleted 239966243 1394044206
+Cada uma das opções 
+\change_inserted 239966243 1394044208
+As consultas 
+\change_unchanged
+disponibilizadas
+\change_deleted 239966243 1394044212
+, 
+\change_inserted 239966243 1394044295
+conforme observa-se na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Ocupação-das-Salas"
+
+\end_inset
+
+,
+\change_deleted 239966243 1394044212
+dentre elas
+\change_inserted 239966243 1394044278
+são
+\change_unchanged
+:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -8329,7 +8628,7 @@ cp{Mapa de ocupação}
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -8345,7 +8644,7 @@ cp{Mapa de ocupação modificado - A a H}
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -8361,7 +8660,7 @@ cp{Mapa de ocupação modificado - I a U}
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -8377,7 +8676,7 @@ cp{Mapas de ocupação modificado - Salas de Teoria}
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 \begin_inset ERT
 status open
 
@@ -8394,6 +8693,8 @@ cp{Taxa de ocupação}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 239966243 1394044300
 Como mostra 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -8402,6 +8703,8 @@ reference "fig:Ocupação-das-Salas"
 \end_inset
 
 , possuem uma determinada função, no caso, exibem diferentes informações.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -8691,13 +8994,54 @@ name "tab:Tipo-de-aula"
 \end_layout
 
 \begin_layout Itemize
-Mapa de ocupação
+Mapa de 
+\change_deleted 239966243 1394044894
+o
+\change_inserted 239966243 1394044894
+O
+\change_unchanged
+cupação
 \end_layout
 
 \begin_layout Standard
-Mapa de ocupação gera um documento aonde são exibidos a ocupação de todas
- as salas, por exemplo, a sala A01 está disponível em determinados horários
- e quando não está, exibe qual diciplina e quais horários ela estará ocupada.
+Mapa de ocupação gera um 
+\change_deleted 239966243 1394045066
+documento aonde 
+\change_inserted 239966243 1394045098
+relatório no qual 
+\change_unchanged
+são exibid
+\change_deleted 239966243 1394045107
+o
+\change_inserted 239966243 1394045107
+a
+\change_unchanged
+s a
+\change_inserted 239966243 1394045109
+s
+\change_unchanged
+ ocupaç
+\change_deleted 239966243 1394045111
+ão
+\change_inserted 239966243 1394045112
+ões
+\change_unchanged
+ de todas as salas
+\change_inserted 239966243 1394045118
+.
+\change_deleted 239966243 1394045119
+, p
+\change_inserted 239966243 1394045120
+P
+\change_unchanged
+or exemplo, a sala A01 está disponível em determinados horários e quando
+ não está, exibe qual diciplina e quais horários ela 
+\change_deleted 239966243 1394045144
+estará
+\change_inserted 239966243 1394045146
+encontra-se
+\change_unchanged
+ ocupada.
 \end_layout
 
 \begin_layout Standard
@@ -8705,9 +9049,28 @@ O
 \emph on
 checkbox
 \emph default
- encontrado logo antes do botão, faz com que o relatório gerado seja exibido
- como uma janela pop-up, no caso, é interessante quando é necessário realizar
- uma comparação ou uma consulta de forma mais maleável e prática.
+ encontrado logo antes do botão
+\change_deleted 239966243 1394045155
+,
+\change_unchanged
+ faz com que o relatório gerado seja exibido como uma janela 
+\emph on
+pop-up
+\emph default
+, 
+\change_deleted 239966243 1394045173
+no caso, é
+\change_inserted 239966243 1394045173
+sendo
+\change_unchanged
+ interessante quando 
+\change_deleted 239966243 1394045176
+é
+\change_inserted 239966243 1394045177
+for
+\change_unchanged
+ necessário realizar uma comparação ou uma consulta de forma mais maleável
+ e prática.
 \end_layout
 
 \begin_layout Standard
@@ -8805,9 +9168,42 @@ name "fig:Janela-da-Ocupação"
 \end_layout
 
 \begin_layout Standard
-A navegação deverá ser feita atravez de pequenos botões localizados no canto
- inferior esquerdo da janela, cada um tem determinada função, entre eles:
- Primeira página, página anterior, próxima página e última página.
+A navegação deverá ser feita atrav
+\change_inserted 239966243 1394045230
+és
+\change_deleted 239966243 1394045230
+ez
+\change_unchanged
+ 
+\change_inserted 239966243 1394045482
+por meio dos controles 
+\change_deleted 239966243 1394045491
+de pequenos botões
+\change_unchanged
+ localizados no canto inferior esquerdo da janela
+\change_deleted 239966243 1394045500
+, cada um tem determinada função, entre eles: Primeira página, página anterior,
+ próxima página e última página
+\change_unchanged
+.
+\change_inserted 239966243 1394045648
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394045661
+Acrescentar imagem do relatório propriamente dito.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Itemize
@@ -8830,7 +9226,19 @@ cp{Mapa de Ocupação das Salas}
 
 \end_inset
 
-, torna-se mais prático uma consulta a fim de obter-se uma informação rápida.
+
+\change_inserted 239966243 1394045531
+.
+\change_deleted 239966243 1394045530
+,
+\change_unchanged
+ 
+\change_deleted 239966243 1394045532
+t
+\change_inserted 239966243 1394045532
+T
+\change_unchanged
+orna-se mais prático uma consulta a fim de obter-se uma informação rápida.
  Sua estrutura é dividida em três grandes linhas, sendo elas em amarelo,
  o período Diurno e em vermelho e azul, o período Noturno.
  E também, este modelo apresenta em sua forma letras como E, D, G ou A,
@@ -8859,7 +9267,13 @@ G
 \begin_inset Quotes erd
 \end_inset
 
- de gestão e por fim, 
+ de 
+\change_inserted 239966243 1394045614
+G
+\change_deleted 239966243 1394045613
+g
+\change_unchanged
+estão e por fim, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -8867,13 +9281,35 @@ A
 \begin_inset Quotes erd
 \end_inset
 
- de Administração respectivamente., como mostra a 
+ de Administração
+\change_deleted 239966243 1394045628
+ respectivamente.
+\change_unchanged
+, como mostra a 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Ocupação-das-Salas-1"
 
 \end_inset
 
+
+\change_inserted 239966243 1394045666
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394045689
+Substituir por imagem onde exibem-se as letras citadas.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -8927,9 +9363,27 @@ Mapas de ocupação modificado - Salas de Teoria
 \end_layout
 
 \begin_layout Standard
-Da mesma forma que as consultas anterioes, neste caso, salas de laboratório
- como as salas A1 e A2 seram descartadas da lista, sendo exibidos somente
- as salas destinadas a aulas de teoria.
+Da mesma forma que as consultas anterioes, neste caso, 
+\change_inserted 239966243 1394045727
+as 
+\change_unchanged
+salas de laboratório 
+\change_deleted 239966243 1394045732
+como as salas A1 e A2
+\change_unchanged
+ ser
+\change_deleted 239966243 1394045721
+am
+\change_inserted 239966243 1394045721
+ão
+\change_unchanged
+ descartadas da lista, sendo exibid
+\change_deleted 239966243 1394045739
+o
+\change_inserted 239966243 1394045739
+a
+\change_unchanged
+s somente as salas destinadas a aulas de teoria.
 \end_layout
 
 \begin_layout Itemize
@@ -8938,9 +9392,26 @@ Taxa de ocupação
 
 \begin_layout Standard
 Trata-se de um relatório de ocupação de salas para aulas de teoria, exercícios,
- laboratório e projetos, num ponto de vista estatístico, aonde são apresentados
- valores em porcentagem de ocupação, entre outros.
- O própio relatório possui instruções e informações para seu manuseamento.
+ laboratório e projetos, 
+\change_inserted 239966243 1394045770
+sob 
+\change_deleted 239966243 1394045770
+n
+\change_unchanged
+um ponto de vista estatístico, 
+\change_deleted 239966243 1394045776
+aonde
+\change_inserted 239966243 1394045776
+no qual
+\change_unchanged
+ são apresentados valores em porcentagem de ocupação, entre outros.
+ O própio relatório possui instruções e informações para 
+\change_deleted 239966243 1394045797
+seu manuseamento
+\change_inserted 239966243 1394045799
+sua interpretação
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -9190,7 +9661,13 @@ Horários de Aula
 \end_layout
 
 \begin_layout Standard
-Está nova aba de consultas chamada Horários de Aula, é uma ferramenta utilizada
+
+\change_deleted 239966243 1394043915
+Está
+\change_inserted 239966243 1394043924
+Esta
+\change_unchanged
+ nova aba de consultas chamada Horários de Aula, é uma ferramenta utilizada
  excepcionalmente na detecção de incoerencias relacionadas a cargas horárias
  de professores e está dividida em quatro tópicos, :
 \end_layout
@@ -9247,9 +9724,15 @@ Encontrar Superposições
 \end_layout
 
 \begin_layout Standard
-Está ferramenta é de alta importância, nela pode-se realizar consultas relaciona
-das a incoerencias de aulas, salas e professores quando há duplicação de
- valores no banco de dados.
+
+\change_deleted 239966243 1394043950
+Está
+\change_inserted 239966243 1394043950
+Esta
+\change_unchanged
+ ferramenta é de alta importância, nela pode-se realizar consultas relacionadas
+ a incoerencias de aulas, salas e professores quando há duplicação de valores
+ no banco de dados.
  Dentre as opções ilustradas na 
 \begin_inset CommandInset ref
 LatexCommand formatted
