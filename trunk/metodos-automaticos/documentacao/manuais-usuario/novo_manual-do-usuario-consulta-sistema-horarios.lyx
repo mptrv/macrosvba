@@ -1569,7 +1569,11 @@ Período
 
 \begin_layout Subsection
 \noindent
-Data:
+Data
+\change_deleted 239966243 1394054164
+:
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1655,7 +1659,20 @@ data de forma sincronizada, ou seja, a alteração de um campo provoca a altera�
 
 \begin_layout Subsection
 \noindent
-Outros:
+Outros
+\change_deleted 239966243 1394054164
+:
+\change_inserted 239966243 1394054181
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DR-Outros:"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -9495,7 +9512,13 @@ reference "fig:Disponibilidade-das-Salas"
 
 \end_inset
 
- ilustra o leiaute da pesquisa:
+ ilustra o leiaute da pesquisa
+\change_inserted 239966243 1394049590
+.
+\change_deleted 239966243 1394049589
+:
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -9577,7 +9600,31 @@ cp{Dia da semana}
 
 \end_inset
 
-: Deve ser peenchido com valores de SEG (Segunda-feira) a SEX (Sexta-feira).
+: Deve ser 
+\change_deleted 239966243 1394049720
+peenchido com valores 
+\change_inserted 239966243 1394049725
+selecionado um dos valores 
+\change_unchanged
+de SEG (
+\change_deleted 239966243 1394049701
+S
+\change_inserted 239966243 1394049701
+s
+\change_unchanged
+egunda-feira) a S
+\change_inserted 239966243 1394049706
+AB
+\change_deleted 239966243 1394049705
+EX
+\change_unchanged
+ (
+\change_deleted 239966243 1394049709
+Sexta-feira
+\change_inserted 239966243 1394049710
+sábado
+\change_unchanged
+).
 \end_layout
 
 \begin_layout Itemize
@@ -9593,6 +9640,10 @@ cp{Horário Inicial}
 
 \end_inset
 
+
+\change_inserted 239966243 1394049740
+ 
+\change_unchanged
 e 
 \begin_inset ERT
 status open
@@ -9606,7 +9657,13 @@ cp{Horário Final}
 
 \end_inset
 
-: Deve-se obedecer necessáriamente a formatação padrão (_ _ : _ _).
+: Deve-se obedecer necess
+\change_inserted 239966243 1394049749
+a
+\change_deleted 239966243 1394049748
+á
+\change_unchanged
+riamente a formatação padrão (_ _ : _ _).
  
 \end_layout
 
@@ -9624,16 +9681,36 @@ cp{Lista U/B}
 
 \end_inset
 
- fará com que sua lista seja rearranjada em uma formatação padrão do 
+ fará com que 
+\change_deleted 239966243 1394050070
+sua
+\change_inserted 239966243 1394050071
+a
+\change_unchanged
+ lista seja rearranjada 
+\change_inserted 239966243 1394050146
+entre uma relação simples de salas ou agrupadas por bloco, 
+\change_deleted 239966243 1394050149
+em uma formatação padrão do 
 \begin_inset Quotes eld
 \end_inset
 
+
+\emph on
 excell
+\emph default
+
 \begin_inset Quotes erd
 \end_inset
 
-, com linhas e colunas enumeradas, permitindo um acesso rápido a alguma
- sala específica ou até a exportação das informações.
+,
+\change_unchanged
+ com linhas e colunas enumeradas
+\change_deleted 239966243 1394050164
+, permitindo um acesso rápido a alguma sala específica ou até a exportação
+ das informações
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -9650,10 +9727,34 @@ Lupa
 \end_layout
 
 \begin_layout Standard
-O botão de atualizar acessa o banco de dados do sistema e atualiza seus
- valores a fim de mostrar corretamente o número de salas disponíveis, uma
- vez que o usuário faça algum tipo de alteração com relação a ocupação de
- alguma sala.
+O botão de atualizar acessa o banco de dados do sistema e atualiza 
+\change_deleted 239966243 1394051188
+seus
+\change_inserted 239966243 1394051188
+os
+\change_unchanged
+ valores 
+\change_inserted 239966243 1394051194
+exibidos, 
+\change_unchanged
+a fim de mostrar corretamente 
+\change_deleted 239966243 1394051212
+o número de
+\change_inserted 239966243 1394051212
+as
+\change_unchanged
+ salas disponíveis, 
+\change_deleted 239966243 1394051228
+uma vez que
+\change_inserted 239966243 1394051271
+dada a constante alteração de atribuições de sala pelos usuários
+\change_deleted 239966243 1394051278
+ o usuário faça algum tipo de alteração com relação a ocupação de alguma
+ sala.
+\change_inserted 239966243 1394051278
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Section
@@ -9668,13 +9769,46 @@ Está
 Esta
 \change_unchanged
  nova aba de consultas chamada Horários de Aula, é uma ferramenta utilizada
- excepcionalmente na detecção de incoerencias relacionadas a cargas horárias
- de professores e está dividida em quatro tópicos, :
+ excepcionalmente na detecção de incoer
+\change_deleted 239966243 1394051418
+e
+\change_inserted 239966243 1394051420
+ê
+\change_unchanged
+ncias relacionadas a cargas horárias de professores e está dividida em quatro
+ tópicos
+\change_deleted 239966243 1394051433
+, 
+\change_unchanged
+:
 \end_layout
 
 \begin_layout Itemize
-Encontrar Superposições, Restrições de Carga, Indefinições, Tabela de Horários
- de Aulas
+Encontrar Superposições
+\change_deleted 239966243 1394051445
+, 
+\change_inserted 239966243 1394051445
+
+\end_layout
+
+\begin_layout Itemize
+Restrições de Carga
+\change_deleted 239966243 1394051449
+, 
+\change_inserted 239966243 1394051449
+
+\end_layout
+
+\begin_layout Itemize
+Indefinições
+\change_deleted 239966243 1394051451
+, 
+\change_inserted 239966243 1394051452
+
+\end_layout
+
+\begin_layout Itemize
+Tabela de Horários de Aulas
 \end_layout
 
 \begin_layout Standard
@@ -9731,16 +9865,59 @@ Está
 Esta
 \change_unchanged
  ferramenta é de alta importância, nela pode-se realizar consultas relacionadas
- a incoerencias de aulas, salas e professores quando há duplicação de valores
- no banco de dados.
- Dentre as opções ilustradas na 
+ a incoer
+\change_deleted 239966243 1394052045
+e
+\change_inserted 239966243 1394052046
+ê
+\change_unchanged
+ncias de aulas, salas e professores quando há 
+\change_deleted 239966243 1394052074
+duplicação 
+\change_inserted 239966243 1394052078
+conflitos 
+\change_unchanged
+de valores 
+\change_deleted 239966243 1394052090
+no
+\change_inserted 239966243 1394052174
+lançados no 
+\emph on
+Sistema Horários
+\change_deleted 239966243 1394052185
+
+\emph default
+ banco de dados
+\change_unchanged
+.
+ 
+\change_deleted 239966243 1394052309
+Dentre
+\change_inserted 239966243 1394052309
+Tais
+\change_unchanged
+ 
+\change_deleted 239966243 1394052311
+as 
+\change_unchanged
+opções 
+\change_inserted 239966243 1394052315
+são as 
+\change_unchanged
+ilustradas na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Superposições"
 
 \end_inset
 
+
+\change_inserted 239966243 1394052319
+.
+\change_deleted 239966243 1394052318
 :
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -9803,6 +9980,25 @@ Qualquer superposição encontrada, ou seja, quando uma sala ou uma aula for
  Independente da consulta selecionada, o relatório apresentará as mesmas
  informações em sua planilha, porém, cada uma com ênfase em procurar problemas
  nas áreas selecionadas.
+\change_inserted 239966243 1394052522
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394052576
+Separar os tópicos; indicar a forma de leitura (em pares); apontar os valores
+ que poderão ser filtrados.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -9855,14 +10051,31 @@ Restrições de Carga
 \end_layout
 
 \begin_layout Standard
-As restrições de carga definem a quantidade de horas máximas e mínimas em
- que cada professor pode-se trabalhar, relacionados aos tópicos
+As restrições de carga definem a quantidade de horas máximas e mínimas 
+\change_deleted 239966243 1394052747
+em que
+\change_inserted 239966243 1394052762
+para diversas situações em
+\change_unchanged
+ cada 
+\change_inserted 239966243 1394052774
+dia e semana de trabalho do 
+\change_unchanged
+professor
+\change_deleted 239966243 1394052783
+ pode-se trabalhar, relacionados aos tópicos
 \emph on
  Regime, Dia, Semana, Ano 
 \emph default
 e
 \emph on
  Descanço.
+\change_inserted 239966243 1394052784
+
+\emph default
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -9926,14 +10139,49 @@ Encontrar todas as violações das restrições
 \end_inset
 
 ,
+\change_inserted 239966243 1394052796
+ ver 
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Restrições-de-Carga"
 
 \end_inset
 
- , será gerado diversas tabelas correspondentes as violações encontradas,
- dentre elas:
+
+\change_deleted 239966243 1394052799
+ 
+\change_unchanged
+, ser
+\change_deleted 239966243 1394052807
+á
+\change_inserted 239966243 1394052808
+ão
+\change_unchanged
+ gerad
+\change_deleted 239966243 1394052811
+o
+\change_inserted 239966243 1394052812
+as 
+\change_deleted 239966243 1394052811
+ 
+\change_unchanged
+diversas tabelas correspondentes 
+\change_deleted 239966243 1394052818
+a
+\change_inserted 239966243 1394052818
+à
+\change_unchanged
+s violações encontradas
+\change_inserted 239966243 1394052827
+.
+\change_deleted 239966243 1394052831
+, dentre elas
+\change_inserted 239966243 1394052837
+ São estas
+\change_unchanged
+:
 \end_layout
 
 \begin_layout Itemize
@@ -9954,7 +10202,35 @@ cp{Máx 8h-a por Dia Excedido}
 
 \begin_layout Standard
 Por definição, um professor não deve ter mais de oito horas aula por dia
- excedido.
+\change_deleted 239966243 1394052861
+ excedido
+\change_unchanged
+.
+\change_inserted 239966243 1394053385
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394052978
+Colocar interpretações.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Violação-Máx-8h-a"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -9983,6 +10259,17 @@ status open
 
 \emph on
 Violação Máx 8h-a por Dia Excedido
+\change_inserted 239966243 1394053021
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Violação-Máx-8h-a"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10012,7 +10299,55 @@ cp{Excede Máx 6h-a Consecutivas}
 \end_layout
 
 \begin_layout Standard
-Professores no qual excede um valor de seis horas aulas por dia.
+Professores 
+\change_deleted 239966243 1394053855
+no qual
+\change_inserted 239966243 1394053856
+que
+\change_unchanged
+ excede
+\change_inserted 239966243 1394053858
+m
+\change_unchanged
+ 
+\change_deleted 239966243 1394053862
+um valor de
+\change_unchanged
+ seis horas
+\change_inserted 239966243 1394053865
+-
+\change_deleted 239966243 1394053865
+ 
+\change_unchanged
+aula
+\change_deleted 239966243 1394053867
+s
+\change_unchanged
+ por dia.
+
+\change_inserted 239966243 1394053401
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053401
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Excede-Máx-6h-a"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10041,6 +10376,17 @@ status open
 
 \emph on
 Excede Máx 6h-a Consecultivas
+\change_inserted 239966243 1394053026
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Excede-Máx-6h-a"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10070,7 +10416,37 @@ cp{Mín 11h de Descanso Não Atendido}
 \end_layout
 
 \begin_layout Standard
-Lista de professores que não atendem a onze horas de descanso diários.
+Lista de professores que não atendem a onze horas de descanso 
+\change_deleted 239966243 1394053911
+diários
+\change_inserted 239966243 1394053916
+entre um dia e outro
+\change_unchanged
+.
+
+\change_inserted 239966243 1394053435
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053435
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Mín-11h-de"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10096,6 +10472,17 @@ status open
 
 \emph on
 Mín 11h de Descanso Não Atedido
+\change_inserted 239966243 1394053032
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mín-11h-de"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10129,7 +10516,41 @@ cp{Não Atendido 40h-a TI}
 \end_layout
 
 \begin_layout Standard
-Professores em tempo integral que não cumprem quarenta horas semanais.
+Professores em tempo integral que não 
+\change_deleted 239966243 1394053931
+cumprem
+\change_inserted 239966243 1394053932
+possuem
+\change_unchanged
+ quarenta horas semanais
+\change_inserted 239966243 1394053949
+, a menos ou a mais
+\change_unchanged
+.
+
+\change_inserted 239966243 1394053626
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053626
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Não-Atendido-40h-a"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10155,6 +10576,17 @@ status open
 
 \emph on
 Não Atendido 40h-a TI
+\change_inserted 239966243 1394053039
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Não-Atendido-40h-a"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10185,11 +10617,15 @@ cp{Máx 20 h-a AD TI Excedido}
 \end_inset
 
 
+\change_inserted 239966243 1394053964
+
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 239966243 1394053959
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 ******
@@ -10197,6 +10633,30 @@ status open
 
 \end_inset
 
+
+\change_inserted 239966243 1394054001
+Professores em regime Tempo Integral que não possuem 20 horas-aula em aulas.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053679
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Máx-20-h-a"
+
+\end_inset
+
+.
+\change_unchanged
 
 \end_layout
 
@@ -10226,6 +10686,17 @@ status open
 
 \emph on
 Máx 20 h-a AD TI Excedido
+\change_inserted 239966243 1394053045
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Máx-20-h-a"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10259,7 +10730,41 @@ cp{Mín 6 h-a por Semana não Atendido}
 \end_layout
 
 \begin_layout Standard
-Mínimo de seis horas aulas por semana não atendidos.
+Mínimo de seis horas
+\change_inserted 239966243 1394054024
+-
+\change_deleted 239966243 1394054024
+ 
+\change_unchanged
+aula
+\change_deleted 239966243 1394054025
+s
+\change_unchanged
+ por semana não atendidos.
+
+\change_inserted 239966243 1394053695
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053695
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Mín-6-h-a"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10285,6 +10790,17 @@ status open
 
 \emph on
 Mín 6 h-a por Semana não Atendido
+\change_inserted 239966243 1394053050
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mín-6-h-a"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10320,6 +10836,51 @@ cp{Máx 38 h-a HR Excedido}
 \begin_layout Standard
 Professores horistas com mais de trinta e oito horas aulas excedido ao longo
  de uma semana.
+
+\change_inserted 239966243 1394054096
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053711
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Máx-38-h-a-hr"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 239966243 1394054235
+O valor de 38 horas-aula é configurável na região Dados de Referência, conforme
+ descrito na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:DR-Outros:"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "sub:DR-Outros:"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10345,6 +10906,17 @@ status open
 
 \emph on
 Máx 38 h-a HR Excedido
+\change_inserted 239966243 1394053056
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Máx-38-h-a-hr"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10378,8 +10950,58 @@ cp{Máx 38 h-a TP Excedido}
 \end_layout
 
 \begin_layout Standard
-Professores de tempo parcial com mais de trinta e seis horas aulas excedido
- ao longo de uma semana.
+Professores de tempo parcial com mais de trinta e 
+\change_deleted 239966243 1394054053
+seis
+\change_inserted 239966243 1394054055
+oito
+\change_unchanged
+ horas aulas excedido ao longo de uma semana.
+
+\change_inserted 239966243 1394054259
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053726
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Máx-38-h-a-tp"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 239966243 1394054259
+O valor de 38 horas-aula é configurável na região Dados de Referência, conforme
+ descrito na 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:DR-Outros:"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "sub:DR-Outros:"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10405,6 +11027,17 @@ status open
 
 \emph on
 Máx 38 h-a TP Excedido
+\change_inserted 239966243 1394053061
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Máx-38-h-a-tp"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10438,7 +11071,46 @@ cp{Janelas Detectadas}
 \end_layout
 
 \begin_layout Standard
-Aulas vagas.
+
+\change_deleted 239966243 1394054351
+Aulas vagas
+\change_inserted 239966243 1394054444
+Intervalo superior a 10 minutos entre aulas numa mesma parte do período;
+ entenda-se por 
+\begin_inset Quotes eld
+\end_inset
+
+parte do período
+\begin_inset Quotes erd
+\end_inset
+
+ como manhã, tarde ou noite
+\change_unchanged
+.
+
+\change_inserted 239966243 1394053754
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053754
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Janelas-Detectadas"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10467,6 +11139,17 @@ status open
 
 \emph on
 Janelas Detectadas
+\change_inserted 239966243 1394053271
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Janelas-Detectadas"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10491,7 +11174,11 @@ status open
 
 
 \backslash
-cp{Diferença QtdHa Anos Consecultivos}
+cp{Diferença QtdHa Anos Consecu
+\change_deleted 239966243 1394054730
+l
+\change_unchanged
+tivos}
 \end_layout
 
 \end_inset
@@ -10500,9 +11187,58 @@ cp{Diferença QtdHa Anos Consecultivos}
 \end_layout
 
 \begin_layout Standard
-Estatistica da diferença de quantidade de horas aulas dos professores, observado
-s anualmente.
+
+\change_deleted 239966243 1394054501
+Estatistica da d
+\change_inserted 239966243 1394054502
+D
+\change_unchanged
+iferença de quantidade de horas
+\change_inserted 239966243 1394054480
+-
+\change_deleted 239966243 1394054481
  
+\change_unchanged
+aula
+\change_deleted 239966243 1394054482
+s
+\change_unchanged
+ dos professores, observad
+\change_inserted 239966243 1394054521
+a
+\change_deleted 239966243 1394054521
+os
+\change_inserted 239966243 1394054537
+ entre o término de um ano e o início do ano seguinte.
+
+\change_deleted 239966243 1394054539
+ anualmente.
+
+\change_unchanged
+ 
+\change_inserted 239966243 1394053775
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053775
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Diferença-QtdHa-Anos"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10528,6 +11264,17 @@ status open
 
 \emph on
 Diferença QtdHa Anos Consecultivos
+\change_inserted 239966243 1394053277
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diferença-QtdHa-Anos"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10552,7 +11299,11 @@ status open
 
 
 \backslash
-cp{Redução QtdHa Anos Consecultivos}
+cp{Redução QtdHa Anos Consecu
+\change_deleted 239966243 1394054739
+l
+\change_unchanged
+tivos}
 \end_layout
 
 \end_inset
@@ -10561,18 +11312,85 @@ cp{Redução QtdHa Anos Consecultivos}
 \end_layout
 
 \begin_layout Standard
-Estatistica da redução de quantidade de horas aulas dos professores, observados
- anualmente.
+
+\change_deleted 239966243 1394054770
+Estatistica da r
+\change_inserted 239966243 1394054776
+R
+\change_unchanged
+edução de quantidade de horas
+\change_inserted 239966243 1394054779
+-
+\change_deleted 239966243 1394054780
+ 
+\change_unchanged
+aula
+\change_deleted 239966243 1394054782
+s
+\change_unchanged
+ dos professores, observados anualmente.
  
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 239966243 1394054862
 Alguns campos podem constar valores incoerentes devido ao fato de, o cálculo
  realizado para obter-se tal valor, utiliza tanto a horas de aulas normais
  e também as horas aulas compartilhadas, logo, há horas que não deveriam
  influenciar em tal valor.
  Deve-se checar se os valores exibidos estão realmente certos, caso contrário,
  será necessário contatar algum responsável pelo lançamento dos horários.
+\change_inserted 239966243 1394054862
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394054893
+REVER O PORQUÊ DESTE TEXTO: 
+\begin_inset Quotes eld
+\end_inset
+
+Alguns campos podem constar valores incoerentes devido ao fato de, o cálculo
+ realizado para obter-se tal valor, utiliza tanto a horas de aulas normais
+ e também as horas aulas compartilhadas, logo, há horas que não deveriam
+ influenciar em tal valor.
+ Deve-se checar se os valores exibidos estão realmente certos, caso contrário,
+ será necessário contatar algum responsável pelo lançamento dos horários.
+\begin_inset Quotes erd
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 239966243 1394053804
+Colocar interpretações.
+\end_layout
+
+\end_inset
+
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Redução-QtdHa-Anos"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10597,6 +11415,17 @@ status open
 
 \emph on
 Redução QtdHa Anos Consecultivos
+\change_inserted 239966243 1394053283
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Redução-QtdHa-Anos"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10618,8 +11447,15 @@ Indefinições
 \end_layout
 
 \begin_layout Standard
-Em alguns casos, quando é gerado grades horárias porém ainda com algumas
- indefinições, sejam elas dos professores ou das salas (
+Em alguns casos, 
+\change_inserted 239966243 1394055155
+aulas são lançadas com professor ou sala indefinida, pois tais não eram
+ conhecidos até aquele momento.
+ Esta função tem o objetivo de relatar quais as aulas nesta situação.
+ 
+\change_deleted 239966243 1394055171
+quando é gerado grades horárias porém ainda com algumas indefinições, sejam
+ elas dos professores ou das salas (
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Indefinições"
@@ -10627,6 +11463,18 @@ reference "fig:Indefinições"
 \end_inset
 
 ), estas então ficarão contidas no banco de dados e será exibida neste relatório.
+
+\change_inserted 239966243 1394055178
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Indefinições"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10683,9 +11531,38 @@ Indefinições de professores e salas
 \end_layout
 
 \begin_layout Standard
-O relatório possui informações como período, turma, código da disciplina,
- dia da semana, horário inicial da aula, grupo ou turma ou laboratório,
- a sala e o tipo de aula.
+O relatório possui
+\change_inserted 239966243 1394055269
+ as seguintes
+\change_unchanged
+ informações
+\change_inserted 239966243 1394055274
+:
+\change_unchanged
+ 
+\change_deleted 239966243 1394055271
+como
+\change_unchanged
+ período, turma, código da disciplina, dia da semana, horário inicial da
+ aula, grupo
+\change_inserted 239966243 1394055251
+,
+\change_deleted 239966243 1394055252
+ ou
+\change_unchanged
+ turma ou laboratório, a sala e o tipo de aula.
+
+\change_inserted 239966243 1394055379
+ Ver 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:professores-indefinidos"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10734,6 +11611,17 @@ status open
 
 \begin_layout Plain Layout
 
+\change_inserted 239966243 1394055360
+Exemplo de relatório de aulas com professores indefinidos.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:professores-indefinidos"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -10755,13 +11643,28 @@ Tabela de Horários de Aulas
 \end_layout
 
 \begin_layout Standard
-Ter acesso a informações de todas as aulas, sejam horários, turma, professor,
- número da aula, dia da semana ou entre outros, é possível a partir desta
- ferramenta do 
+
+\change_deleted 239966243 1394055407
+Ter acesso
+\change_inserted 239966243 1394055414
+Permite verificar
+\change_unchanged
+ a
+\change_inserted 239966243 1394055415
+s
+\change_unchanged
+ informações de todas as aulas
+\change_inserted 239966243 1394055435
+ do semeste e ano corrente da forma como são armazenadas no banco de dados.
+\change_deleted 239966243 1394055442
+, sejam horários, turma, professor, número da aula, dia da semana ou entre
+ outros, é possível a partir desta ferramenta do 
 \emph on
 Consulta Sistema Horários
 \emph default
 .
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10826,8 +11729,11 @@ Tabela Horário Simples
 \end_layout
 
 \begin_layout Standard
-Uma consulta rápida, com as principais informações de uma aula, como pode
- ser visto na 
+Uma consulta 
+\change_deleted 239966243 1394055500
+rápida, 
+\change_unchanged
+com as principais informações de uma aula, como pode ser visto na 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Tabela-Simples"
@@ -10888,9 +11794,22 @@ Tabela Horário Expandida
 \end_layout
 
 \begin_layout Standard
-Diferente da tabela simples, a tabela expandida exibe informações adicionais
- e disposta mais detalhadamente, afim de permitir uma busca mais profunda
- com relação as aulas.
+
+\change_deleted 239966243 1394055554
+Diferente da tabela simples, a
+\change_inserted 239966243 1394055554
+A
+\change_unchanged
+ tabela expandida exibe informações 
+\change_inserted 239966243 1394055821
+semelhantes à anterior, porém com expansão dos horários de início e término
+ de cada hora-aula e incluindo o Professor 2 como novo registro, ao invés
+ de fazer parte do mesmo registro do primeiro professor.
+\change_deleted 239966243 1394055823
+adicionais e disposta mais detalhadamente, afim de permitir uma busca mais
+ profunda com relação as aulas.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -10938,9 +11857,39 @@ CEUN
 \end_layout
 
 \begin_layout Standard
-CEUN ou Centro Universitário, possui uma opção de consulta relacionadas
- as estatísticas do IMT, a consulta permite verificar diversas informações,
- tais como:
+CEUN ou Centro Universitário, possui uma opção de consulta relacionada
+\change_deleted 239966243 1394055850
+s
+\change_unchanged
+ 
+\change_deleted 239966243 1394055854
+as
+\change_inserted 239966243 1394055854
+a
+\change_unchanged
+ estatísticas
+\change_inserted 239966243 1394055869
+ de seu interesse
+\change_deleted 239966243 1394055864
+ do
+\change_unchanged
+ 
+\change_deleted 239966243 1394055887
+IMT, a consulta p
+\change_inserted 239966243 1394055891
+Por meio dela, p
+\change_unchanged
+ermite
+\change_inserted 239966243 1394055896
+-se
+\change_unchanged
+ verificar
+\change_inserted 239966243 1394056106
+, de forma agrupada por curso ou total, entre outras informações
+\change_deleted 239966243 1394055908
+ diversas informações, tais como
+\change_unchanged
+:
 \end_layout
 
 \begin_layout Itemize
@@ -10952,17 +11901,52 @@ Quantidade de alunos.
 \end_layout
 
 \begin_layout Itemize
-Disponibilidade e a necessidade mínima e máxima de recursos (Horas aula).
+Disponibilidade e a necessidade mínima e máxima de recursos (
+\change_deleted 239966243 1394055947
+H
+\change_inserted 239966243 1394055948
+h
+\change_unchanged
+oras
+\change_inserted 239966243 1394055950
+-
+\change_deleted 239966243 1394055950
+ 
+\change_unchanged
+aula).
 \end_layout
 
 \begin_layout Itemize
-Quantidade de alunos por professor, quantidade de professor por alunos e
- entre outras relações de estatística.
+Quantidade de alunos por professor
+\change_deleted 239966243 1394055970
+,
+\change_inserted 239966243 1394055970
+ 
+\change_deleted 239966243 1394055971
+ 
+\change_inserted 239966243 1394055972
+e
+\change_deleted 239966243 1394055976
+quantidade de 
+\change_unchanged
+professor
+\change_inserted 239966243 1394055981
+es
+\change_unchanged
+ por aluno
+\change_deleted 239966243 1394055986
+s e entre outras relações de estatística
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 239966243 1394056059
 Todas as informações acima, são referêntes a uma única habilitação, ou seja,
  cada habilitação possui tais informações.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -11017,10 +12001,6 @@ name "fig:CEUN"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -11028,8 +12008,13 @@ name "fig:CEUN"
 
 \begin_layout Standard
 Por se tratar de uma tabela de estatísticas, certas linhas e colunas na
- verdade são frutos de calculos realizados a partir de colunas anteriores,
- por exemplo:
+ verdade são frutos de c
+\change_deleted 239966243 1394056426
+a
+\change_inserted 239966243 1394056426
+á
+\change_unchanged
+lculos realizados a partir de colunas anteriores, por exemplo:
 \end_layout
 
 \begin_layout Enumerate
@@ -11037,15 +12022,36 @@ O campo
 \emph on
 TODOS
 \emph default
-, localizado na última linha da tabela, possui valores que não são necessáriamen
-te a somatória das linhas acima, uma vez contabilizado um professor, ele
- não será novamente contabilizado caso o mesmo esteja presente em diferentes
- habilitações.
+, localizado na última linha da tabela, possui valores que não são necess
+\change_deleted 239966243 1394056437
+á
+\change_inserted 239966243 1394056437
+a
+\change_unchanged
+riamente a somatória das linhas acima,
+\change_inserted 239966243 1394056462
+ pois, por exemplo,
+\change_unchanged
+ uma vez contabilizado um professor, ele não será novamente contabilizado
+ caso o mesmo esteja presente em diferentes habilitações.
 \end_layout
 
 \begin_layout Enumerate
-A coluna QtdProfessores informa o número de professores nas colunas QtdHR,
- QtdTP e QtdTI, ou seja, sua somatória.
+
+\change_inserted 239966243 1394056528
+Já a
+\change_deleted 239966243 1394056529
+A
+\change_unchanged
+ coluna QtdProfessores informa 
+\change_inserted 239966243 1394056537
+a somatória d
+\change_unchanged
+o número de professores nas colunas QtdHR, QtdTP e QtdTI
+\change_deleted 239966243 1394056541
+, ou seja, sua somatória
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Section
@@ -11053,18 +12059,60 @@ CPA
 \end_layout
 
 \begin_layout Standard
-O CPA é uma ferramenta de consulta, como todas as outras, no qual apresenta
- em sua estrutura, uma listagem de todos os professores e suas respectivas
- turmas e salas nas quais leciona.
+
+\change_deleted 239966243 1394056556
+O
+\change_inserted 239966243 1394056557
+A
+\change_unchanged
+ 
+\change_inserted 239966243 1394056559
+aba 
+\change_unchanged
+CPA
+\change_inserted 239966243 1394056554
+,
+\change_unchanged
+ 
+\change_inserted 239966243 1394056573
+dedicada à Comissão Própria de Avaliação, 
+\change_deleted 239966243 1394056584
+é uma ferramenta de consulta, como todas as outras, no qual
+\change_unchanged
+ apresenta 
+\change_deleted 239966243 1394056633
+em sua estrutura, 
+\change_unchanged
+uma listagem de todos os professores e suas respectivas turmas e 
+\change_deleted 239966243 1394056642
+salas
+\change_inserted 239966243 1394056645
+disciplinas
+\change_unchanged
+ nas quais 
+\change_deleted 239966243 1394056650
+leciona
+\change_inserted 239966243 1394056671
+ministra aulas, conforme ilustrado na
+\change_deleted 239966243 1394056676
+.
  A necessidade de consultas rápidas e de fácil acesso pode ser realizada
  atravez deste recurso, a 
+\change_unchanged
+
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:CPA"
 
 \end_inset
 
+
+\change_deleted 239966243 1394056685
  representa seu leiaute:
+\change_inserted 239966243 1394056681
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -11119,7 +12167,13 @@ name "fig:CPA"
 
 \begin_layout Chapter
 \start_of_appendix
+
+\change_deleted 239966243 1394056707
 Referências de Siglas
+\change_inserted 239966243 1394056709
+Glossário
+\change_unchanged
+
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:Referências-de-Siglas"
@@ -11127,10 +12181,16 @@ name "chap:Referências-de-Siglas"
 \end_inset
 
 
+\change_deleted 239966243 1394056739
+
 \end_layout
 
 \begin_layout Section
+
+\change_deleted 239966243 1394056728
 Listagem das Siglas das Habilitações
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
