@@ -110,7 +110,7 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.1.0
+ 0.1.0+
 \end_layout
 
 \begin_layout Author
@@ -3778,6 +3778,23 @@ driver
 LatexCommand href
 name "http://turingsman.net/my-blog-list/160-part-12-using-ms-access-2010-as-a-frontend-to-oracle-database-11gr2-backend-via-odbc"
 target "http://turingsman.net/my-blog-list/160-part-12-using-ms-access-2010-as-a-frontend-to-oracle-database-11gr2-backend-via-odbc"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+o qual é acessível também por
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "artigos-referenciados/using-ms-access-2010-as-a-frontend-to-oracle-database-11gr2-backend-via-odbc.pdf"
+target "artigos-referenciados/using-ms-access-2010-as-a-frontend-to-oracle-database-11gr2-backend-via-odbc.pdf"
+type "file:"
 
 \end_inset
 
