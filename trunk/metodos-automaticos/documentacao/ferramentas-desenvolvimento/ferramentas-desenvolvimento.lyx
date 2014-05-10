@@ -2559,49 +2559,6 @@ http://www.pdfforge.org/
 
 \end_layout
 
-\begin_layout Description
-PDFArchitect
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-PDFArchitect
-\end_layout
-
-\end_inset
-
-: Gratuito, para 
-\emph on
-Windows.
- 
-\emph default
-Permite editar arquivos PDF, de forma semelhante ao 
-\emph on
-PDFSam
-\emph default
-.
- Há também a versão 2, 
-\emph on
-PDF Architect 2
-\emph default
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://download.pdfforge.org/download/pdfarchitect
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \align center
 \begin_inset ERT
