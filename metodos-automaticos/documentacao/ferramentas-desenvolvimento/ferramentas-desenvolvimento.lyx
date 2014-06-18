@@ -4070,6 +4070,54 @@ MikTeX
 .
 \end_layout
 
+\begin_layout Section
+Notas e Dicas sobre o 
+\emph on
+Windows
+\end_layout
+
+\begin_layout Standard
+Há o programa
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+services.msc
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+que permite configurar serviços do 
+\emph on
+Windows
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Sitam-se alguns:
+\end_layout
+
+\begin_layout Description
+Horário
+\begin_inset space ~
+\end_inset
+
+do
+\begin_inset space ~
+\end_inset
+
+Windows: mantém a sincronização de data e hora em todos os clientes e servidores
+ da rede.
+\end_layout
+
 \begin_layout Chapter
 Adicionais para Eletrônica
 \end_layout
