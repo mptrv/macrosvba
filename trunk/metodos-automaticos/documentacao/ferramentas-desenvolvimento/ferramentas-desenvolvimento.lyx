@@ -878,6 +878,72 @@ http://freemind.sourceforge.net/wiki/index.php/Main_Page
 
 \end_layout
 
+\begin_layout Description
+Strut
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Strut
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma (
+\emph on
+Web
+\emph default
+).
+ Construtor de apresentações com recursos de translação, rotação e 
+\emph on
+zoom
+\emph default
+.
+ Para trabalhar com o programa localmente, pode-se baixá-lo do 
+\emph on
+GitHub
+\emph default
+ como arquivo ZIP.
+ Ver também as notas em 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Strut"
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://strut.io/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/tantaman/Strut/tree/v0.6.3-built/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \align center
 \begin_inset ERT
@@ -4068,6 +4134,91 @@ O diretório
 MikTeX
 \emph default
 .
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Strut
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Strut"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Sobre as Imagens
+\end_layout
+
+\begin_layout Standard
+O 
+\emph on
+Strut 
+\emph default
+referencia imagens apenas por URL.
+ Para tanto, imagens locais são, a princípio, carregadas no servidor de
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://imgur.com/
+\end_layout
+
+\end_inset
+
+ e são tidas como públicas.
+\end_layout
+
+\begin_layout Standard
+A fim de evitar o envio de imagens locais para tal servidor, pode-se adotar
+ uma das duas soluções abaixo:
+\end_layout
+
+\begin_layout Itemize
+postar as imagens em outro servidor e referenciá-las pela correspondente
+ URL; ou
+\end_layout
+
+\begin_layout Itemize
+escrever a URL completa para o nome do arquivo local, iniciando-a com o
+ prefixo 
+\family typewriter
+file:///
+\family default
+; por exemplo:
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+file:///f:/Downloads/imagens/arquivo.png
+\emph on
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\family default
+\emph default
+Note-se que, no 
+\emph on
+Windows
+\emph default
+, as barras contrárias devem ser trocadas por barras normais e o diretório
+ deve ser fornecido.
 \end_layout
 
 \begin_layout Section
