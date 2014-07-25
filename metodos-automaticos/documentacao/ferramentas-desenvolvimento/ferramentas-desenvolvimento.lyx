@@ -3991,6 +3991,27 @@ Windows
 \end_layout
 
 \begin_layout Subsection
+LaTeX
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:LaTeX"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Instalação de Pacotes Adicionais do LaTeX
 \begin_inset CommandInset label
 LatexCommand label
@@ -4137,9 +4158,103 @@ MikTeX
 \end_layout
 
 \begin_layout Subsection
+LyX
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+LyX
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:LyX"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Conversão de Arquivos
+\end_layout
+
+\begin_layout Standard
+O LyX possui suporte para gerar arquivos do documento em diversos formatos,
+ dos quais citam-se:
+\end_layout
+
+\begin_layout Itemize
+TEX
+\end_layout
+
+\begin_layout Itemize
+PS
+\end_layout
+
+\begin_layout Itemize
+PDF
+\end_layout
+
+\begin_layout Itemize
+DVI
+\end_layout
+
+\begin_layout Itemize
+HTML
+\end_layout
+
+\begin_layout Itemize
+ODT
+\end_layout
+
+\begin_layout Standard
+Para gerar o arquivo do correspondente formato, basta acessar o menu 
+\family sans
+Arquivo \SpecialChar \menuseparator
+Exportar
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+Atualmente, experimenta-se um erro ao tentar exportar para o formato ODT
+ (
+\emph on
+Open Document Text).
+\end_layout
+
+\begin_layout Standard
+A conversão para DOCX pode ser realizada exportando-se para HTML e copiar
+ e colar no 
+\emph on
+Word
+\emph default
+ o conteúdo exibido por algum navegador, ou, ao exportar para ODT (com sucesso),
+ por meio do 
+\emph on
+OpenOffice
+\emph default
+, salvar como DOCX.
+\end_layout
+
+\begin_layout Subsection
 
 \emph on
 Strut
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Strut
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Strut"
