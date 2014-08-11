@@ -110,7 +110,7 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.1.0+
+ 0.1.1
 \end_layout
 
 \begin_layout Author
@@ -4239,6 +4239,63 @@ Word
 OpenOffice
 \emph default
 , salvar como DOCX.
+\end_layout
+
+\begin_layout Subsubsection
+Evitar Quebras de Página
+\end_layout
+
+\begin_layout Standard
+Para evitar quebra de página em um conjunto de parágrafos, pode-se utilizar
+ o ambiente 
+\family typewriter
+samepage
+\family default
+, envolvendo o conteúdo com 
+\family typewriter
+begin{samepage}\SpecialChar \ldots{}
+end{samepage}
+\family default
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\family typewriter
+refstyle 
+\family default
+-- Personalização
+\end_layout
+
+\begin_layout Standard
+Para personalizar as referências geradas pelo 
+\family typewriter
+refstyle
+\family default
+, um substituto ao 
+\family typewriter
+prettyref
+\family default
+, pode-se criar um arquivo com nome 
+\family typewriter
+refstyle.def
+\family default
+ no mesmo local do arquivo LyX/LaTeX em edição.
+ Tal arquivo pode ter como base o arquivo 
+\family typewriter
+refstyle.cfg
+\family default
+, localizado no correspondente subdiretório do diretório de instalação dos
+ pacotes LaTeX.
+\end_layout
+
+\begin_layout Standard
+Consultar o manual de 
+\family typewriter
+refstyle
+\family default
+ para outras possibilidades e descrições mais detalhadas.
 \end_layout
 
 \begin_layout Subsection
