@@ -4,6 +4,10 @@
 \begin_header
 \textclass report
 \begin_preamble
+\usepackage{draftwatermark}
+\SetWatermarkText{RASCUNHO}
+\SetWatermarkScale{3}
+
 \newcommand{\espv}{\rule{0pt}{0.7cm}}
 \end_preamble
 \use_default_options true
