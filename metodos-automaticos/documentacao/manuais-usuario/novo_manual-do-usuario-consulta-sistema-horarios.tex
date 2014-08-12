@@ -11,23 +11,34 @@
 \setcounter{tocdepth}{3}
 \setlength{\parskip}{\smallskipamount}
 \setlength{\parindent}{0pt}
+\usepackage{color}
+\usepackage{babel}
 \usepackage{array}
 \usepackage{verbatim}
 \usepackage{longtable}
+\usepackage{varioref}
 \usepackage{refstyle}
 \usepackage{float}
 \usepackage{booktabs}
+\usepackage{calc}
 \usepackage{textcomp}
 \usepackage{url}
 \usepackage{graphicx}
 \usepackage{setspace}
 \onehalfspacing
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 0},backref=false,colorlinks=true]
+ {hyperref}
+\usepackage{breakurl}
 
 \makeatletter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
 
 \AtBeginDocument{\providecommand\figref[1]{\ref{fig:#1}}}
+\AtBeginDocument{\providecommand\subref[1]{\ref{sub:#1}}}
+\AtBeginDocument{\providecommand\chapref[1]{\ref{chap:#1}}}
 \AtBeginDocument{\providecommand\tabref[1]{\ref{tab:#1}}}
 \newcommand{\noun}[1]{\textsc{#1}}
 %% Because html converters don't know tabularnewline
@@ -44,11 +55,11 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{draftcopy}
 \newcommand{\espv}{\rule{0pt}{0.7cm}}
 
 \makeatother
 
-\usepackage{babel}
 \begin{document}
 \begin{comment}
 \textcolor{magenta}{Macros para formatação padrão de textos para os
@@ -105,21 +116,27 @@ para os manuais de treinamento (a princípio, apenas para CSH).}
 \thispagestyle{empty}
 
 
+
+
 \title{Manual do Usuário ``Consulta Sistema Horários''}
 
 \maketitle
+\tableofcontents{}
+
 
 \chapter*{Apresentação}
 
-O módulo \emph{Consulta Sistema Horários}, permite ao usuário, navegar
-em diversos documentos e relatórios relacionados ao Instituto Mauá
-de Tecnologia, como, por exemplo, listas presenciais, disponibilidade
-das salas de aulas, controle da carga horária de cada professor, verificação
-de aspectos previstos em lei ou também em conjunto com o \emph{Construção
-Grade Horária, }a elaboração planejada dos horários de todos os cursos
-oferecidos no \emph{campus}. Desta maneira, o gerenciamento torna-se
-eficiente, otimizando o tempo de trabalho, tornando-o rápido e eficaz
-em comparação com métodos antigos.
+O módulo \emph{Consulta Sistema Horários} permite ao usuário consultar
+diversos dados e gerar relatórios relacionados às grades horárias
+das atividades acadêmicasdo Instituto Mauá de Tecnologia. Citam-se,
+entre outros exemplos, listas presenciais, disponibilidade das salas
+de aulas, controle da carga horária de cada professor, verificação
+de aspectos previstos em lei e a elaboração planejada dos horários
+de todos os cursos oferecidos no \emph{campus},  em conjunto com o
+\emph{Construção Grade Horária. } Desta maneira, o gerenciamento de
+tais atividades torna-se mais eficiente, otimizando o tempo de trabalho
+e os resultados obtidos quando comparados com os métodos manuais anteriormente
+praticados.
 
 
 \chapter*{Nota sobre as Versões}
@@ -131,16 +148,17 @@ aqui ou em algum material externo referenciado, poderão exibir informações
 de versão diferente da última versão existente dos módulos, ou mesmo,
 indicar que é uma versão de depuração ao invés de oficial. Contudo,
 essas diferenças de versão não há de acarretar em prejuízo para o
-entendimento da operação dos módulos.
+entendimento da operação de tais módulos.
 
 
 \chapter*{Sobre Este Manual}
 
-O capítulo~\ref{chap:Manual-de-Opera=0000E7=0000E3o} irá abordar
-o funcionamento e o manuseamento correto deste módulo, de forma que,
-o usuário ao finaliza-lo, terá compreendido todo o mecanismo, as informações
-contidas e suas funções. Uma boa leitura e interpretação deste capítulo
-otimizará o manuseio deste módulo. \vspace*{\bigskipamount}
+O capítulo~\ref{chap:Manual-de-Opera=0000E7=0000E3o-CSH} irá abordar
+o funcionamento e o manuseamento correto deste módulo, \emph{Consulta
+Sistema Horários, }de forma que o usuário, ao finalizá-lo, terá compreendido
+todo o mecanismo de operação, as funções disponíveis e as informações
+dos relatórios. Uma boa leitura e interpretação deste capítulo permitirá
+aproveitar o máximo dos recursos deste módulo. \vspace*{\bigskipamount}
 
 
 \noindent \begin{center}
@@ -159,7 +177,7 @@ acessada em%
 \par\end{center}
 
 
-\chapter{Manual de Operação\label{chap:Manual-de-Opera=0000E7=0000E3o}}
+\chapter{Manual de Operação\label{chap:Manual-de-Opera=0000E7=0000E3o-CSH}}
 
 É muito importante que o usuário de um programa conheça os seus recursos
 e a correta forma de operá-los. Desta maneira, torna-se possível aproveitar
@@ -167,8 +185,8 @@ ao máximo a ferramenta disponibilizada e, porconseguinte, aumentar
 a eficiência do trabalho. Neste capítulo, são apresentados tais recursos
 e como operá-los. Ao longo deste material, são utilizadas imagens
 extraídas do próprio módulo, para melhor demonstrar as funções e localizações
-de dados importantes, afim de facilitar o aprendizado. É recomendado
-que o leitor acompanhe a leitura deste manual junto ao software original.
+de dados importantes, a fim de facilitar o aprendizado. É recomendado
+que o leitor acompanhe a leitura deste manual junto ao programa.
 
 
 \section{Início}
@@ -176,7 +194,7 @@ que o leitor acompanhe a leitura deste manual junto ao software original.
 \noindent Este módulo, o \emph{Consulta Sistema Horários}, opera sob
 o \emph{Microsoft} \emph{Access,} utilizando como linguagem de programação
 o VBA (\emph{Visual Basic for Application}) e, como interface de usuário,
-as próprias planilhas do aplicativo e formulários internos.
+os próprios formulários e tabelas do aplicativo.
 
 \noindent O desenvolvimento atual e os correspondentes testes utilizam
 a versão 2010 do \emph{Access}. Na versão 2007, alguns recursos poderão
@@ -192,7 +210,7 @@ e garante-se o adequado funcionamento. Em versões anteriores ou posteriores,
 não são realizados testes e, por isso, não se garante o correto funcionamento.''}}
 \end{quotation}
 
-\subsection{Acesso ao Módulo\label{sub:Acesso-ao-m=0000F3dulo}}
+\section{Acesso ao Módulo\label{sub:Acesso-ao-m=0000F3dulo}}
 
 Para acessar o módulo de trabalho, uma vez executada a instalação
 padrão, deve-se localizar a pasta \textsf{Métodos Automáticos/macros/},
@@ -200,11 +218,11 @@ dentro da pasta \textsf{Documentos }do \emph{Windows}, e abrir o arquivo
 \noun{consulta-sistema-horarios-oficial.accdr}.
 
 
-\subsection{Tela inicial}
+\section{Tela inicial}
 
-Ao iniciar o módulo, conforme visto anteriormente, uma interface inicial
-será exibida. Nela, poderá observar o título, a versão atual e três
-botões, como na \figref{Tela-Inicial}:
+Ao iniciar o módulo,  uma interface inicial será exibida. Nela, poderá
+observar o nome do programa, sua versão atual e três botões, como
+apontado na \figref{Tela-Inicial}:
 
 \begin{figure}[H]
 \begin{centering}
@@ -216,19 +234,23 @@ botões, como na \figref{Tela-Inicial}:
 
 
 \noindent Para acessar a interface de gerenciamento, deve-se clicar
-no botão \emph{Gerenciador Principal}, nele está contido todos os
-recursos oferecidos pelo \emph{Consulta Sistema Horários. }Será detalhado
-o funcionamento de todas as ferramentas deste módulo nos tópicos seguintes.
+no botão \emph{Gerenciador Principal}, em qual  estão contidos todos
+os recursos oferecidos pelo \emph{Consulta Sistema Horários. }Será
+detalhado o funcionamento de todas as ferramentas  nos tópicos seguintes.
 
-\noindent Para fechar o programa, a única maneira disponível é pelo
-botão \emph{Sair}. O botão ``\emph{X}'' da janela do Access está
-desabilitado por motivos de segurança. 
+O botão \emph{Sobre\ldots{}} apresenta as informações sobre os direitos
+de uso e distribuição do programa.
+
+\noindent Por último, para fechar o programa, sendo a única maneira
+disponível, há o botão \emph{Sair}. Note-se que o botão ``\emph{X}''
+da janela do \emph{Access} está desabilitado por motivos de consistência
+de dados.
 
 
-\subsection{Gerenciador Principal}
+\section{Gerenciador Principal}
 
 Este menu permite o acesso a todas as funções disponibilizadas por
-este módulo, veja a seguir a figura \ref{fig:Gerenciador-Principal}.
+este módulo. Veja  a figura \ref{fig:Gerenciador-Principal}.
 
 \begin{figure}[H]
 \begin{centering}
@@ -239,25 +261,25 @@ este módulo, veja a seguir a figura \ref{fig:Gerenciador-Principal}.
 \end{figure}
 
 
-\noindent As regiões desta interface podem ser subdivididas em
+\noindent As regiões desta interface encontram-se subdivididas em
 \begin{itemize}
 \item \noindent \emph{Dados de Referência }
 \item \noindent \emph{Relatórios Rápidos} 
 \item \noindent \emph{Consultas}
 \end{itemize}
-\noindent Para sair e retornar a tela inicial, basta clicar no botão
+\noindent Para sair e retornar à tela inicial, basta clicar no botão
 fechar localizado na parte inferior.
 
 
-\subsubsection{Dados de Referência}
+\section{Dados de Referência\label{sub:Dados-de-Referencia}}
 
-\noindent A seleção de informações a fim de filtrar resultados, diminui
-o tempo gasto para localizar dados específicos; no caso, os \emph{Dados
-de Referência }permitem escolher diversos parâmentros com este propósito,
-tais como \emph{Ano, Período, Data }localizados na aba Data, \emph{Máx
-h. a. TP e HR e período }na aba Outros, e por fim o \emph{campus}
-de atuação dos professores, presente na aba Atuação. Todos estes campos
-são ilustrados na \figref{Dados-de-refer=0000EAncia}.
+\noindent As informações a serem consultadas passam, primeiramente,
+por um conjunto de filtros, de forma que apenas aquelas de interesse
+sejam mostradas. No caso, os \emph{Dados de Referência }permitem escolher
+diversos parâmentros com este propósito, quais sejam: \emph{Ano, Período,
+Data }localizados na aba Data; \emph{Máx. h.a. TP e HR }e\emph{ período,
+}na aba Outros; e, por fim, a frente\emph{ }de atuação dos professores,
+na aba Atuação. Todos estes campos são ilustrados na \figref{Dados-de-refer=0000EAncia}.
 
 \noindent 
 \begin{figure}[H]
@@ -269,59 +291,64 @@ são ilustrados na \figref{Dados-de-refer=0000EAncia}.
 \end{figure}
 
 
-\noindent Antes de detalhar-se cada um dos itens especificados acima,
-deve-se ter em mente o significado dos prefixos localizados ao final
-de cada informação, veja o exemplo como mostra a figura \ref{fig:Prefixos}:
+\noindent Antes de detalhar cada um dos itens especificados acima,
+deve-se ter em mente o significado dos índices localizados ao final
+de cada informação. Veja o exemplo da figura \ref{fig:Prefixos},
+conforme apontado pela seta vermelha.
 
 \noindent 
 \begin{figure}[H]
-\centering{}\includegraphics[height=4cm]{imagens/csh_dadosreferencia_data_prefixo}\caption{\emph{Prefixos \label{fig:Prefixos}}}
+\centering{}\includegraphics[height=4cm]{imagens/csh_dadosreferencia_data_prefixo}\caption{\emph{Índices de identificação dos campos. \label{fig:Prefixos}}}
 \end{figure}
 
 
-\noindent Tais prefixos sugerem que cada campo possui uma identificação,
+\noindent Tais índices sugerem que cada campo possui uma identificação,
 ou seja, um nome ou identidade que será de grande utilidade quando
-for abordado a região \emph{Consultas, }por enquanto. Cada abreviação
-corresponde a cada uma das opções encontradas na região ``\emph{Dados
-de Referencia}'', observe que a primeira letra procura identificar
-a qual aba está se referindo e a segunda letra indica a opção, por
-exemplo, Aa é uma forma de indicar que esta trabalhando-se com a aba
-``A'' (Data) e a opção ``a'' Ano , do mesmo modo que Bb indica
-que esta trabalhando-se com a aba ``B'' (Outros) e a opção ``b''
-Período.
+for abordada a região \emph{Consultas}. Cada um corresponde a cada
+uma das opções encontradas na região ``\emph{Dados de Referencia}''.
+Observe que a primeira letra procura identificar a qual aba está se
+referindo e a segunda letra indica a opção; por exemplo, \textbf{Aa}
+é uma forma de indicar que utiliza-se a informaçãoda aba ``A'' (Data),
+campo ``a'' (Ano); do mesmo modo, \textbf{Bb} indica  a aba ``B''
+(Outros), o campo ``b'' (Período).
 
 
-\paragraph{\noindent Data:}
+\subsection{\noindent Data}
 
-Está aba relaciona justamente a data no qual será utilizada como referência,
-na hora em que for gerado um relatório (Ver seção Consultas), dentre
-as opções, pode-se definir o Ano, Semestre e o dia.
-
-
-\paragraph{\noindent Outros:}
-
-Máx h.a TP e HR é um campo de significado, \emph{``Máximo de horas
-aula em Tempo Integral e Horistas''}, ele permite estabelecer um
-parâmetro importante e pode variar de 6 a 40h.a. É frequentemente
-utilizado para geração de relatórios de lista de professores, por
-exemplo. Está aba também possui um campo de período, podendo-se escolher
-entre diurno e noturno, para tal alteração, perceba que com um duplo
-clique em cima do campo é possível alterna-lo entre \emph{``D''}(diurno)
-e \emph{``N''}(noturno)\emph{.}
+Esta aba relaciona justamente a data que será utilizada como referência
+no momento em que for gerado um relatório (ver seção \nameref{sub:Consultas}).
+As opções permitem definir Ano, Semestre e data de forma sincronizada,
+ou seja, a alteração de um campo provoca a alteração nos demais de
+forma a manter a coerência entre as informações.
 
 
-\paragraph{\noindent Atuação:}
+\subsection{\noindent Outros\label{sub:DR-Outros:}}
 
-Devido ao fato de o Instituto Mauá de Técnologia possuir dois campus,
-é necessário que seja realizado uma seleção para a geração de um relatório,
-dentre as opções, pode-se escolher entre \emph{São Caetano do Sul
-}e \emph{São Paulo}, também está disponível a opção de professores
-de pós graduação ou todas as opções relacionadas.
+\emph{Nesta aba, outras informações podem ser especificadas. Máx.
+h.a. TP e HR,}  cujo significado é \emph{``Máximo de horas-aula para
+professores em regime Tempo Integral e Horista''}, permite estabelecer
+a carga horária máxima para os professores nos citados regimes, com
+efeitos observados na geração de relatórios sobre violação de restrições
+de carga horária, por exemplo; seu valor pode variar de 6 a 40 h.a.
+Esta aba também possui um campo de Período, podendo-se escolher entre
+Diurno e Noturno; para tal alteração, perceba que com um duplo clique
+em cima do campo é possível alterná-lo entre \emph{``D''} (Diurno)
+e \emph{``N''} (Noturno)\emph{; o asterisco ({*}) irá considerar
+ambos os períodos.}
 
 
-\subsubsection{Relatórios Rápidos}
+\subsection{\noindent Atuação:}
 
-Relatórios usados frequentemente ficarão a disposição, como um atalho,
+Devido ao fato de o Instituto Mauá de Técnologia possuir dois \emph{campi}
+e cursos de pós-graduação, torna-se necessário realizar uma seleção
+para a geração dosrelatórios. Dentre as opções, pode-se escolher entre
+\emph{São Caetano do Sul, } \emph{São Paulo}, \emph{Pós-Graduação,}
+ou considerar todas de uma única vez.
+
+
+\section{Relatórios Rápidos}
+
+Relatórios usados frequentemente ficarão à disposição, como um atalho,
 nesta região, como mostra a \figref{Relat=0000F3rios-R=0000E1pidos}
 
 \begin{figure}[H]
@@ -334,10 +361,10 @@ nesta região, como mostra a \figref{Relat=0000F3rios-R=0000E1pidos}
 
 
 
-\subsubsection{Consultas}
+\section{Consultas\label{sub:Consultas}}
 
 Nesta região, estão localizadas as diversas consultas que podem ser
-realizadas, veja (\figref{Consultas}).
+realizadas. Veja (\figref{Consultas}).
 
 \begin{figure}[H]
 \begin{centering}
@@ -348,7 +375,7 @@ realizadas, veja (\figref{Consultas}).
 \end{figure}
 
 \begin{enumerate}
-\item Professores: Permite que o usuário consulte informações relacionada
+\item Professores: Permite que o usuário consulte informações relacionadas
 aos professores, sendo elas:
 
 \begin{enumerate}
@@ -360,14 +387,14 @@ aos professores, sendo elas:
 \item \cp{Outras Relações}
 \item \cp{Atualizar TP e HR}
 \end{enumerate}
-\item Diciplinas: Realiza consultas referentes as diciplinas do instituto.
-\item Salas: Permite a realização de uma busca, referente a:
+\item Diciplinas: Realiza consultas referentes as diciplinas do Instituto.
+\item Salas: Permite a realização de uma busca referente a:
 
 \begin{enumerate}
 \item \cp{Ocupação das salas}
 \item \cp{Disponibilidade das salas}
 \end{enumerate}
-\item Horários de Aulas: O usuário poderá consultar informações relacionada
+\item Horários de Aulas: O usuário poderá consultar informações relacionadas
 aos horários de aulas, sendo as opções:
 
 \begin{enumerate}
@@ -376,24 +403,24 @@ aos horários de aulas, sendo as opções:
 \item \cp{Indefinições}
 \item \cp{Tabela de horários de aula}
 \end{enumerate}
-\item CEUN: Permite que o usuário consulte informações relacionada a estatísticas
-do CEUN.
-\item CPA: Permite que o usuário consulte informações relacionada a estatísticas
-do CPA.
+\item CEUN: Permite que o usuário consulte informações relacionadas a estatísticas
+do CEUN (Centro Universitário).
+\item CPA: Permite que o usuário consulte informações relacionadas a estatísticas
+da CPA (Comissão Própria de Avaliação).
 \end{enumerate}
-Será apresentado nos tópicos seguintes, a descrição detalhada do funcionamento
-de cada aba relacionada anteriormente.
+Será apresentada nos tópicos seguintes, a descrição detalhada do funcionamento
+de cada aba citada acima.
 
 
-\subsection{Professores}
+\section{Professores}
 
 
-\subsubsection{Lista de presença}
+\subsection{Lista de presença}
 
 Antes de iniciar a explicação desta seção, é importante relembrar
 o significado dos prefixos encontrados nos \emph{Dados de Referência}
-(ver seção 1.1.3.1), no caso, observe na \figref{Lista-de-Presen=0000E7a}
-a área em destaque.
+(ver \subref{Dados-de-Referencia}, \vpageref{sub:Dados-de-Referencia}),
+no caso, observe na \figref{Lista-de-Presen=0000E7a} a área em destaque.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -406,12 +433,14 @@ a área em destaque.
 
 \noindent A consulta, no caso da \emph{Lista de Presença}, necessita
 das informações: Ano (Aa), Semestre (Ab), Dia (Ac), Período (Bb) e
-Atuação (Ca).
+Frente de Atuação (Ca).
 
 Ao clicar no botão ``\emph{Lista de Presença para o Dia Selecionado'',
-}uma lista começará a ser gerada, de acordo com as informações selecionadas
-na região \emph{Dados de Referência}. Durante o processamento, o sistema
-irá perguntar se a lista é de atrasou ou não, como mostra a \figref{Janela-de-atraso}:
+}uma lista será exibida, a qual  trata-se de um documento utilizado
+para efetuar a verificação da presença de professores em determinadas
+tarefas, de acordo com as informações selecionadas na região \emph{Dados
+de Referência}. Durante o processamento, o sistema irá perguntar se
+a lista será de atraso ou não, como mostra a \figref{Janela-de-atraso}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -422,13 +451,13 @@ irá perguntar se a lista é de atrasou ou não, como mostra a \figref{Janela-de-at
 \end{figure}
 
 
-Este campo inclui uma informação adicional em sua lista, como será
-visto adiante, pode-se inserir no campo as respostas \emph{``Sim''
+Este campo inclui uma informação adicional em na lista, como será
+visto adiante. Pode-se inserir no campo as respostas \emph{``Sim''
 }ou \emph{``Não''} (é necessário escrever com a devida acentuação).
-Uma lista gerada com sucesso apresentará as caracteristicas mostradas
-na \figref{Lista-de-Presen=0000E7a_gerada}, os perídos \emph{Diurno
-}e \emph{Noturno} ou \emph{sábados} diferem de algumas formatações
-quanto as listas geradas. 
+Uma lista gerada corretamente apresentará as características mostradas
+na \figref{Lista-de-Presen=0000E7a_gerada}. Conforme o período escolhido,
+\emph{Diurno }ou \emph{Noturno,} ou \emph{sábados} algumas formatações
+da lista são alteradas, de forma a melhor adequar-se ao solicitado.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -451,16 +480,16 @@ A lista representada acima possui o parâmetro de atraso com valor
 \end{figure}
 
 
-A utilização de uma coluna extra, chamada de Horário, caracteriza
+A utilização de uma coluna extra, chamada de \emph{Horário}, caracteriza
 um relatório com atraso. No caso de uma lista para o campus São Paulo
 no período diurno, como não existe uma lista de presença, automaticamente
-o sistema irá recorrer a um preenchimento de uma nova lista. A recomendação
-é elaborar uma nova grade horária ou deixar todas as opções em branco,
-note que caso deixe em branco, a lista não será gerada.
+o sistema irá recorrer a um preenchimento de uma nova lista. Neste
+caso, a recomendação é elaborar uma nova grade horária, note que caso
+deixe em branco, a lista não será gerada.
 
-Após formatada a lista desejada, caso o usuário queira imprimi-la,
-deve-se então localizar no canto superior esquerdo, o botão chamado
-\emph{``Imprimir''} conforme a \figref{Bot=0000E3o-de-Imprimir}.
+Após formatada a lista , caso o usuário queira imprimi-la, deve-se
+localizar, no canto superior esquerdo, o botão chamado \emph{``Imprimir''}
+conforme a \figref{Bot=0000E3o-de-Imprimir}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -471,10 +500,13 @@ deve-se então localizar no canto superior esquerdo, o botão chamado
 \end{figure}
 
 
+Obs: Este procedimento poderá ser aplicado a maior parte dos relatórios
+disponíveis no \emph{Consulta Sistema Horários.}
 
-\subsubsection{Lista Dia}
 
-Este recurso possui três funções distintas (\figref{Lista-Dia}),
+\subsection{Lista Dia}
+
+Este recurso possui três funções semelhantes (\figref{Lista-Dia}),
 todas elas dependem do Ano (Aa) e do Semestre (Ab).
 
 \begin{figure}[H]
@@ -485,12 +517,19 @@ todas elas dependem do Ano (Aa) e do Semestre (Ab).
 \caption{\emph{Lista Dia\label{fig:Lista-Dia}}}
 \end{figure}
 
-\begin{enumerate}
-\item \emph{Lista Dia Completa}:
+\begin{itemize}
+\item Lista Dia Completa.
+\end{itemize}
+Forcene ao usuário uma lista com o nome de todos os professores do
+IMT, e também seguido de algumas informações que podem ser utilizadas
+para consulta posteriormente.
+
+\begin{figure}[H]
+\noindent \centering{}\includegraphics[width=1\textwidth]{imagens/csh_lista_dia_completa}\caption{\emph{Lista Dia Completa\label{fig:Lista-Dia-Completa}}}
+\end{figure}
 
 
 Dentre as informações apresentadas pela lista, temos: 
-
 
 \begin{table}[H]
 \noindent \begin{raggedright}
@@ -501,17 +540,17 @@ Nome & Descrição\tabularnewline
 \addlinespace[5bp]
 Professor & Nome do professor\tabularnewline
 \addlinespace[5bp]
-Disc. & Nome da disciplina\tabularnewline
+Disc. & Código da disciplina\tabularnewline
 \addlinespace[5bp]
 QtdHa & Quantidade de horas aula\tabularnewline
 \addlinespace[5bp]
 Tipo & Aulas de Teoria, Laboratório ou Exercícios\tabularnewline
 \addlinespace[5bp]
-Série & 1\textdegree{}, 2\textdegree{}, 3\textdegree{}, 4\textdegree{}, 5\textdegree{}
-ou 6\textdegree{} ano\tabularnewline
+Série & a série do curso\tabularnewline
 \addlinespace[5bp]
-Habilitação & PM (Produção), ET (Eletrônico), EL (Eletrotécnico), MC (Mecânica),
-QM (Química), CV (Civil), AL (Alimentos), CA (Controle e Automação)\tabularnewline
+Habilitação & PM (Produção), EN (Eletrônica), EL (Elétrica), MC (Mecânica), QM (Química),
+CV (Civil), AL (Alimentos), CA (Controle e Automação), ou Tronco ou
+Ciclo Básico.\tabularnewline
 \addlinespace[5bp]
 GTL & Grupo, Turma e Laboratório\tabularnewline
 \bottomrule
@@ -523,53 +562,52 @@ GTL & Grupo, Turma e Laboratório\tabularnewline
 \end{table}
 
 
-\item \emph{Dia em que o professor está na escola}:
-
-
-Este recurso irá gerar um documento com as seguintes caracteristicas,
+Obs: Uma tabela similar, porém com todas as informações possíveis
+presentes no \emph{Consulta Sistema Horários}, pode ser encontrada
+no \chapref{Refer=0000EAncias-de-Siglas}.
+\begin{itemize}
+\item Dia em Que o Professor Está na Escola
+\end{itemize}
+Este recurso irá gerar um documento com as seguintes características,
 conforme mostra a \figref{Dia-em-que-prof-esta-escola}:
-
 
 \begin{figure}[H]
 \noindent \begin{centering}
+\framebox{\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
 \includegraphics[height=2cm]{imagens/csh_exemplo_dia_prof_escola}
+\par\end{center}%
+\end{minipage}}
 \par\end{centering}
 
 \caption{\emph{Dia em que o professor está na escola. \label{fig:Dia-em-que-prof-esta-escola}}}
 \end{figure}
-
-
-
-A representação acima mostra que o professor Afonso estará no Instituto
-Mauá de Tecnologia nos dias exibidos, note que professores grifados
+A representação acima mostra que o referido professor  estará no Instituto
+Mauá de Tecnologia nos dias exibidos. Note-se que professores grifados
 em cores diferentes são professores de habilitações diferentes da
-engenharia, sendo Amarelo (Administração), Verde (Gestão) e Laranja
-(Design), como no caso do \emph{Lista Dia Completa}.
-
-\item \emph{Horários dos dias em quais o professor está em aula}:
-
-
+engenharia, sendo Amarelo os de Administração, Verde os de Gestão
+e Laranja os de Design -- da mesma forma como na \emph{Lista Dia Completa}.
+\begin{itemize}
+\item Horários dos Dias em Quais o Professor Está em Aula
+\end{itemize}
 A \figref{Hor=0000E1rios-dos-dias-prof-em-aula-1} mostra as informações
 contidas no relatório. Este tem como função exibir os horários de
-aula dos professores do IMT, ele contém: Nome do professor, Sala,
-Horário e Quantidade de horas aula.
-
+aula dos professores do IMT.
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics[width=0.95\textwidth,height=4cm,keepaspectratio]{imagens/csh_lista_dia_exemplo_prof_em_aula}
+\includegraphics[width=0.8\textwidth]{imagens/csh_lista_dia_exemplo_prof_em_aula}
 \par\end{centering}
 
 \caption{\emph{Horários dos dias em quais o professor está em aula.\label{fig:Hor=0000E1rios-dos-dias-prof-em-aula-1}}}
 \end{figure}
 
 
-\end{enumerate}
 
-\subsubsection{PPC}
+\subsection{PPC}
 
-O \emph{PPC}, ou Plano Pedagógico de Curso, está com seu layout mostrado
-na \figref{PPC-1}.
+O material auxiliar para o \emph{PPC}, Plano Pedagógico de Curso,
+está com seu leiaute ilustrado na \figref{PPC-1}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -581,23 +619,30 @@ na \figref{PPC-1}.
 
 
 Este relatório é dependente dos valores de Ano (Aa), Semestre (Ab),
-Dia (Ac) e do Período (Bb), é um recurso que permite visualizar todos
-os professores relacionados ao plano pedagógico de um curso específico,
-gerando uma tabela. Está pode ser editada, conforme as opções apresentadas
-em seu layout:
+Dia (Ac) e do Período (Bb). Trata-se de um recurso que permite visualizar
+todos os professores relacionados ao plano pedagógico de um curso
+específico, ou seja, os professores que ministram aulas no curso escolhido,
+gerando uma tabela com diversas informações cruzadas a respeito.
 
-A janela \emph{``Incluir Ciclo Básico''} determina se o documento
-que será gerado, irá conter disciplinas referêntes as opções marcadas,
-como existem matérias básicas de engenharia no 2\textdegree{} ano,
-ao selecionar o 1\textdegree{} ano, automaticamente será habilitado
-ambos os campos, um depende do outro, não sendo possível exibir somente
-o 1\textdegree{} ano.
+A área \emph{``Incluir Ciclo Básico''} determina se o documento
+a ser gerado, irá conter disciplinas referentes às opções marcadas.
+Como existem matérias básicas de Engenharia no 2\textdegree{} ano,
+ao selecionar o 1\textdegree{} ano, automaticamente serão habilitados
+ambos os campos, pois um depende do outro, não sendo possível exibir
+somente o 1\textdegree{} ano. Também, é possível incluir disciplinas
+de dependentes (DP) através do botão localizado na parte inferior.
+Por fim, disponibiliza-se um recurso de exportação paraplanilha do
+\emph{Excel}, com o botão localizado na parte inferior à direita.
 
-É possível incluir disciplinas de dependentes (DP) atravez do botão
-localizado na parte inferior, também é possível que seja criado uma
-versão da tabela para Excel, com o botão localizado a direita. Pelo
-fato de cada planilha conter muitas informações, a \tabref{Tabela-de-PPC-1}
-fascilitará o entendimento de cada informação contida em cada relatório:
+Exemplo de documento na \figref{PPC-Tronco-ET}:
+
+\begin{figure}[H]
+\noindent \centering{}\includegraphics[width=1\textwidth]{imagens/csh_ppc_exemplo}\caption{\emph{PPC Tronco ET\label{fig:PPC-Tronco-ET}}}
+\end{figure}
+
+
+Pelo fato de cada planilha conter muitas informações, a \tabref{Tabela-de-PPC-1}
+facilitará o entendimento de cada uma contida nos relatórios.
 
 \begin{table}[H]
 \noindent \begin{raggedright}
@@ -657,12 +702,15 @@ habilitação escolhida}}\tabularnewline
 \end{table}
 
 
+Obs: Uma tabela similar, porém com todas as informações possíveis
+do \emph{Consulta Sistema Horários}, pode ser encontrada no \chapref{Refer=0000EAncias-de-Siglas}.
 
-\subsubsection{Cargas Horárias}
+
+\subsection{Cargas Horárias}
 
 As Cargas Horárias dependem dos valores de Ano (Aa), Semestre (Ab)
-e Dia (Ac), em termos gerais, as consultas disponibilizadas são, de
-acordo com a\figref{Cargas-Hor=0000E1rias}:
+e Dia (Ac). Em termos gerais, as consultas disponibilizadas sãoas
+apresentadas na \figref{Cargas-Hor=0000E1rias}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -672,36 +720,24 @@ acordo com a\figref{Cargas-Hor=0000E1rias}:
 \caption{\emph{Cargas Horárias\label{fig:Cargas-Hor=0000E1rias}}}
 \end{figure}
 
-
-\cp{Consulta de Aulas}: Permite consultar a quais aulas um professor
-pertence, a quantidade de horas aulas, entre outros.
-
-\cp{Consultar CEUN-IMT}: Verifica a habilitação de cada professor
-(Horista, Integral ou Parcial) no CEUN-IMT e mostra a quantidade de
-horas.
-
-\cp{Lançar Atividades Outras}: É um registro aonde está informando
-o que cada professor possui de atividades extras, como atendimento
-ao aluno e treinamento moodle.
-
-\cp{Lançar Trabalho de Conslusão de Curso}: Mostra os professores
-que cuidam dos TCCs de cada modalidade.
-
-
-\paragraph{Consulta de Aulas}
+\begin{itemize}
+\item Consulta de Aulas
+\end{itemize}
+Permite consultar a quais aulas um professor pertence, a quantidade
+de horas aulas, entre outras informações.
 
 Uma nova janela será aberta ao clicar no botão ``\emph{Consulta de
-Aulas''}, está nova janela deverá ser semelhante a \figref{Menu-Consulta-de-aulas};
-O semetre e o ano que foram previamente definidos no menu ``Dados
-de referência'' serão exibidos no canto superior direito da janela.
-Está aba permite realizar uma busca completa, a fim de exibir informações
+Aulas''}. Esta nova janela é mostrada na \figref{Menu-Consulta-de-aulas};
+o semestre e o ano que foram previamente definidos no menu ``Dados
+de Referência'' serão exibidos no canto superior direito da janela.
+Esta aba permite realizar uma busca completa, a fim de exibir informações
 a respeito das aulas e dos professores que a lecionam e então, gerar
-a grade horária; Será abordado em detalhes o significado todas as
-informações inseridas e retornadas adiante.
+a grade horária. Será abordado em detalhes o significado de todas
+as informações inseridas e retornadas adiante.
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics[width=0.7\textwidth,height=4cm]{imagens/csh_consulta_de_aulas}
+\includegraphics[width=1\textwidth]{imagens/csh_consulta_de_aulas}
 \par\end{centering}
 
 \caption{\emph{Menu Consulta de Aulas\label{fig:Menu-Consulta-de-aulas}}}
@@ -709,40 +745,40 @@ informações inseridas e retornadas adiante.
 
 
 Os campos onde deverão ser inseridos os dados, estão classificados
-em, segundo a \tabref{Inser=0000E7=0000E3o-de-dados}:
+em, segundo a \tabref{Inser=0000E7=0000E3o-de-dados}.
 
-Obs: Os campos poderão ser preenchidos com qualquer tipo de caractér.
+Obs: Os campos poderão ser preenchidos com qualquer tipo de caracter.
 
 \begin{table}[H]
 \noindent \begin{raggedright}
-\begin{tabular}{|>{\raggedright}m{0.2\textwidth}|>{\raggedright}m{0.55\textwidth}|}
-\hline 
-Campos & \multicolumn{1}{>{\raggedright}m{0.55\textwidth}}{Descrição}\tabularnewline
-\hline 
-\hline 
+\begin{tabular}{>{\raggedright}m{0.2\textwidth}>{\raggedright}m{0.55\textwidth}}
+\toprule 
+Campos & Descrição\tabularnewline
+\midrule
+\addlinespace[5bp]
 Professor & Nome do Professor a ser procurado\tabularnewline
-\hline 
+\addlinespace[5bp]
 Nome Disciplina & \noindent \raggedright{}Nome da disciplina a ser procurada\tabularnewline
-\hline 
-Dia Semana & Dia da semana no qual a aula pertence\tabularnewline
-\hline 
-Habilitação & Habilitação da aula (ET, EN, MC, AL, QM, CV, PR, CO, CA)\tabularnewline
-\hline 
+\addlinespace[5bp]
+Dia Semana & Dia da semana à qual a aula pertence\tabularnewline
+\addlinespace[5bp]
+Habilitação & Habilitação da aula\tabularnewline
+\addlinespace[5bp]
 Horário Início & Horário de início da aula\tabularnewline
-\hline 
-Série & 1\textdegree{}, 2\textdegree{}, 3\textdegree{}, 4\textdegree{}, 5\textdegree{}
-e 6\textdegree{}\tabularnewline
-\hline 
+\addlinespace[5bp]
+Série & A série do curso em que ela é ministrada\tabularnewline
+\addlinespace[5bp]
 Período & Diurno (D) ou Noturno (N)\tabularnewline
-\hline 
-GTL & Grupo, Turma ou Laboratório\tabularnewline
-\hline 
-RF & Registo funcional\tabularnewline
-\hline 
-Cód. Disc. & Código da disciplina\tabularnewline
-\hline 
-Sala & Bloco e numeração da sala (H202, U23...)\tabularnewline
-\hline 
+\addlinespace[5bp]
+GTL & Divisão de Grupo, Turma ou Laboratório\tabularnewline
+\addlinespace[5bp]
+RF & Registo Funcional\tabularnewline
+\addlinespace[5bp]
+Cód. Disc. & Código da Disciplina\tabularnewline
+\addlinespace[5bp]
+Sala & Identificação da sala\tabularnewline
+\bottomrule
+\addlinespace[5bp]
 \end{tabular}
 \par\end{raggedright}
 
@@ -750,48 +786,59 @@ Sala & Bloco e numeração da sala (H202, U23...)\tabularnewline
 \end{table}
 
 
-Além destas informações, há alguns campos na parte inferior que podem
-ser selecionados ou não, no caso, \emph{``DP''} habilitará aulas
-de dependentes, \emph{``QZ''} são as aulas quinzenais e \emph{``Compartilhada''}
-são as aulas que possuem duas turmas ou mais. Para que seja possível
-preencher mais de um campo de filtro, é necessário que a opção \emph{``Todos''}
-esteja selecionado na janela \emph{``Método de Filtro''}, uma vez
-que o \emph{``Exclusivo''} esteja habilitado, somente será possível
-preencher um único campo.
+Obs: Uma tabela similar, porém com todas as informações possíveis
+encontradas no \emph{Consulta Sistema Horários}, pode ser encontrada
+no \chapref{Refer=0000EAncias-de-Siglas}.
+
+Além destas informações, há alguns campos na parte inferior que possuem
+três estados: indefinido, selecionado ou não selecionado. Por exemplo,
+para retornar aulas regulares e de dependência, o campo correspondente
+a \emph{``DP''} deverá ficar no estado indefinido; caso sejam desejadas
+apenas as aulas de dependência, este deverá ser selecionado; caso
+apenas as aulas regulares forem desejadas, o campo deverá ficar não
+selecionado. O mesmo comportamento apresenta os campos \emph{``QZ'',
+para} aulas quinzenais, e \emph{``Compartilhada'',} para as aulas
+compartilhadas.
+
+Para que seja possível preencher mais de um campo de filtro, é necessário
+que a opção \emph{``Todos''} esteja selecionada na área \emph{``Método
+de Filtro''}, uma vez que a \emph{``Exclusivo''} irá permitiro
+preenchimento de um único campo.
 
 Após o preenchimento, para realizar a busca, basta pressionar a tecla
-\emph{``Enter''}, ou então, clicando nos botões localizados ao lado
-direito da janela, veja a \tabref{Descri=0000E7=0000E3o-dos-bot=0000F5es-consulta-aulas}:
+\emph{``Enter''}, ou então, clicarno botão de filtro localizado
+ao lado direito da janela.
+
+Os demais botões possuem funções auxiliares e a\tabref{Descri=0000E7=0000E3o-dos-bot=0000F5es-consulta-aulas}
+apresenta uma descrição de tais.
 
 \begin{table}[H]
 \noindent \begin{raggedright}
-\begin{tabular}{|>{\centering}p{0.2\textwidth}|>{\raggedright}p{0.7\textwidth}|}
-\hline 
+\begin{tabular}{>{\raggedright}p{0.2\textwidth}>{\raggedright}p{0.7\textwidth}}
+\toprule 
 Ilustração & Descrição\tabularnewline
-\hline 
-\hline 
+\midrule
+\addlinespace[5bp]
 \espv\includegraphics[scale=0.7]{imagens/csh_gerar_grade} & Gera o documento da Grade Horária do professor\tabularnewline
-\hline 
+\addlinespace[5bp]
 \espv\includegraphics[scale=0.7]{imagens/csh_botao_apagar_filtro} & Limpa todos os campos de filtro\tabularnewline
-\hline 
+\addlinespace[5bp]
 \espv\includegraphics[scale=0.7]{imagens/csh_botao_filtrar} & Realiza a busca, conforme as informações inseridas\tabularnewline
-\hline 
+\addlinespace[5bp]
 \espv\includegraphics[scale=0.7]{imagens/csh_botao_consultas_X} & Fecha a página e volta para o menu principal\tabularnewline
-\hline 
+\bottomrule
+\addlinespace[5bp]
 \end{tabular}
 \par\end{raggedright}
 
 \caption{\emph{Descrição dos botões\label{tab:Descri=0000E7=0000E3o-dos-bot=0000F5es-consulta-aulas}}}
-
-
 \end{table}
 
 
-Feito a busca, a região abaixo será preenchida de acordo com os filtros
-aplicados, como exemplo, será representado a busca com os dados da
-disciplina \emph{``EFB204}'', como mostra a \figref{Resultado-consulta-aulas},
-caso fosse feito uma busca em branco, todos os professores seriam
-listados.
+Feita a busca, a região abaixo será preenchida de acordo com os filtros
+aplicados, como exemplo, será representada a busca com os dados da
+disciplina \emph{``EFB204}'', como mostra a \figref{Resultado-consulta-aulas}.Caso
+fosse realizada uma busca em branco, todos os professores seriam listados.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -805,19 +852,19 @@ listados.
 
 
 Observações a serem feitas:
-\begin{itemize}
-\item A aba consulta disponibiliza um segundo filtro localizado na parte
-inferior, em verde, que permite o usuário a buscar quaisquer informações
-dentro da consulta realizada, ou também, habilitando e desabilitando
-dados coluna a coluna, encontrados na região em vermelho. No caso,
-a região azul mostra o total de resultados encontrados e permite a
-navegação entre as linhas com as setas representadas.
-\item Para que esta planilha seja exportada para o \emph{Excel}, a origem
-da tabela no canto superior esquerdo, fará com que ela toda seja selecionada,
-agora, com o comando \texttt{Ctrl+C}, a tabela será copiada e usando
-o comando \texttt{Ctrl+V}, numa janela do \emph{Excel} aberta, a planilha
-então será exportada.
-\end{itemize}
+\begin{enumerate}
+\item A aba Consulta disponibiliza um segundo filtro localizado na parte
+inferior, destacado em verde na figura, que permite ao usuário buscar
+quaisquer informações dentro da consulta realizada, ou também, habilitando
+e desabilitando filtros coluna a coluna, na região com destaque vermelho.
+Ainda, a região azul mostra o total de registros encontrados e permite
+a navegação entre eles com as setas disponibilizadas.
+\item Para que os dados sejam exportados para o \emph{Excel}, clicando-se
+na origem da tabela, no canto superior esquerdo, fará com que ela
+toda seja selecionada;em seguida, com o comando \texttt{Ctrl+C}, a
+tabela será copiada e usando-se o comando \texttt{Ctrl+V}, numa planilha
+do \emph{Excel} aberta, os dados serão colados.
+\end{enumerate}
 Após definidos todos os parâmetros, para que seja gerado o documento
 que comprove a carga horária dos professores selecionados, deve-se
 clicar com o mouse o botão de \emph{``Grade Horária dos Professores
@@ -834,30 +881,33 @@ serão exibidas:
 \end{figure}
 
 
-As informações inseridas nestes campos estão relacionadas com a formatação
-no qual o documento será gerado, a data deverá ser inserida no formato
-(DD/MM/AA) e a oficialização deverá ser respondida \emph{``Sim''
-}ou \emph{``Não''}. A \figref{Data-da-Grade-oficial} representa
-um documento formatado com data 29/03/13, e não oficial. Caso os campos
-forem deixados em branco, o sistema irá gerar um documento com data
-no dia atual do computador e não será oficial.
+As informações inseridas nestes campos estão relacionadas com o que
+será apresentado no documento. A data deverá ser inserida no formato
+DD/MM/AAAA ou DD/MM/AA e a oficialização deverá ser respondida \emph{com
+``Sim'' }ou \emph{``Não''}. A \figref{Data-da-Grade-oficial}
+representa um documento formatado com data 29/03/13, e não oficial.
+Caso os campos forem deixados em branco, o sistema irá gerar um documento
+com a data o dia atual e não será oficial.
 
 \begin{figure}
 \noindent \begin{centering}
-\includegraphics{imagens/csh_exemplo_doc_grade_horaria}
+\framebox{\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics[width=1\textwidth]{imagens/csh_exemplo_doc_grade_horaria}
+\par\end{center}%
+\end{minipage}}
 \par\end{centering}
 
 \caption{\emph{Exemplo Documento de Grade Horária\label{fig:Exemplo-Documento-de-grade-horaria}}}
 \end{figure}
 
-
-
-\paragraph{Consulta CEUN-IMT}
-
+\begin{itemize}
+\item Consulta CEUN-IMT
+\end{itemize}
 Trata-se de uma lista, que contém diversas informações de todos os
-professores do CEUN-IMT, dentre elas, a quantidade de horas totais
-e total de horas distribuidas em outras tarefas. A \figref{Consulta-CEUN-IMT}
-ilustra a nova janela que será aberta:
+professores (Horista, Integral ou Parcial) do CEUN-IMT, dentre elas,
+a quantidade de horas em aulas  e  em atividades outras. A \figref{Consulta-CEUN-IMT}
+ilustra a nova janela que será aberta.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -870,31 +920,30 @@ ilustra a nova janela que será aberta:
 \end{figure}
 
 
-Está lista possui informações importantes quanto a quantidade de horas
-totais e distribuidas em outras tarefas de todos os professores 
+Esta lista possui informações importantes quanto à quantidade de horas
+totais e distribuidas em outras tarefas de todos os professores. 
 
 Considerações a serem feitas:
-\begin{itemize}
+\begin{enumerate}
 \item Se, por exemplo, um professor possuir horas-aula em \cp{TotHaIMT}
 e constar que ele encontra-se de licença, esta informação está incorreta.
 No caso, é um erro de lançamento dos dados, deve-se verificar as horas
 aulas atribuidas e checar o lançamento destas aulas.
 \item A coluna TotHaIMT corresponde a soma das colunas TotHaAulas, TotHaATO,
 TotHaPG , TotHaTG e TotHaATDPago (ver \tabref{Siglas}). Note-se que
-a partir de 2013, a coluna TotHaIMT ja contém os valores de Pós-Graduação
+a partir de 2013, a coluna TotHaATO já contém os valores de Pós-Graduação
 e ATDPagos, logo, estas colunas não constam de valores.
-\item Informações referêntes ao Ano de 2011, podem estar deficientes em
-algum aspecto. Tais informações não constam no banco de dados e por
-este motivo, não aparecem. 
-\item A sigla RF significa Registro Funcional, no caso, valores menores
-que 100 representam um registro temporário atribuido ao funcionário,
-enquanto seu RF definitivo não é emitido.
-\end{itemize}
+\item Informações referêntes ao Ano de 2011, podem estar plenamente consistentes
+em algum aspecto. 
+\item A sigla RF significa Registro Funcional, cujos valores menores que
+100 representam um registro temporário atribuído ao professor, enquanto
+seu RF definitivo não é emitido.
+\end{enumerate}
 Para que seja possível exibir somente informações de interesse, como
 por exemplo, o número de professores doutores, é necessário aplicar
-um filtro com as caracteristicas desejadas, no caso, a pequena seta
-localizada ao lado do nome da coluna, abrirá uma janela que disponibiliza
-a realização do filtro, como mostra a \figref{Exemplo-de-Filtro}:
+um filtro com para o que for desejado. Para essa finalidade, a pequena
+seta localizada ao lado do nome da coluna abrirá uma janela que disponibiliza
+as opções para escolha, como mostra a \figref{Exemplo-de-Filtro}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -907,12 +956,14 @@ a realização do filtro, como mostra a \figref{Exemplo-de-Filtro}:
 \end{figure}
 
 
-É possível realizar diferentes filtro em diferentes colunas, de forma
+É possível aplicar diferentes filtros nas diferentes colunas, de forma
 que seja exibido somente o que se deseja.
 
-
-\paragraph{Lançar Atividades Outras}
-
+Obs: Este procedimento poderá ser utilizado dentro de todos os relatórios
+disponibilizados no \emph{Consulta Sistema Horários}.
+\begin{itemize}
+\item Lançar Atividades Outras
+\end{itemize}
 A finalidade desta interface (\figref{Atividade-outras}) é listar
 os professores que estão exercendo funções extras, tais como atendimento
 ao aluno e treinamento moodle, ou também, acrescentar novas funções
@@ -920,119 +971,148 @@ aos professores.
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics[width=0.8\textwidth]{imagens/csh-lancar-atividade-outras}
+\includegraphics[width=1\textwidth]{imagens/csh-lancar-atividade-outras}
 \par\end{centering}
 
 \caption{\emph{Atividade outras}\label{fig:Atividade-outras}}
-
-
 \end{figure}
 
 
-Nela, pode ser inserido como informação:
+Nela, os dados a entrar são os apresentados na \tabref{Lan=0000E7ar-Atividades-Outras}.
 \begin{quotation}
-\cp{Professor}: Nome do professor.{*}
+\begin{table}[H]
+\noindent \begin{centering}
+\begin{tabular}{ll}
+\toprule 
+Nome & Descrição\tabularnewline
+\midrule
+\addlinespace[5bp]
+Professor{*} & Nome do professor\tabularnewline
+\addlinespace[5bp]
+NúmDecisão{*} & Número do registro da decisão\tabularnewline
+\addlinespace[5bp]
+DataDecisão{*} & Data no qual a decisão foi tomada\tabularnewline
+\addlinespace[5bp]
+DataInício{*} & Data de início das atividades\tabularnewline
+\addlinespace[5bp]
+DataFim{*} & Data do fim das atividades\tabularnewline
+\addlinespace[5bp]
+QtdHa{*} & Quantidades de horas para a atividade\tabularnewline
+\addlinespace[5bp]
+Observações & Informações adicionais\tabularnewline
+\bottomrule
+\addlinespace[5bp]
+\end{tabular}
+\par\end{centering}
 
-\cp{NúmDecisão}: Número do registro da decisão.
+\caption{\emph{Lançar Atividades Outras\label{tab:Lan=0000E7ar-Atividades-Outras}}}
+\end{table}
 
-\cp{DataDecisão}: Data no qual a decisão foi tomada.
-
-\cp{DataInício}: Data de início das atividades.{*}
-
-\cp{DataFim}: Data do fim das atividades.{*}
-
-\cp{QtdHa}: Quantidade de horas para a atividade.{*}
-
-\cp{Observações}: Informações adicionais.
 \end{quotation}
 As descrições marcadas com \emph{``{*}''} são campos obrigatórios
 a serem preenchidos. Para criar um novo registro, é necessário preencher
 os campos vazios localizados ao final da lista.
-
-
-\paragraph{Lançar Trabalhos de Conclusão de Curso}
-
+\begin{itemize}
+\item Lançar Trabalhos de Conclusão de Curso
+\end{itemize}
 A interface é muito semelhante a \emph{``Lançar Atividades Outras''},
 ela lista os professores que estão relacionados para exercer atividades
 com os alunos relacionados com os trabalhos de conclusão de curso.
 
-Os dados que podem ser inseridos são:
-\begin{quotation}
-\cp{Professor}: Nome do professor.{*}
+Os dados que podem ser inseridos são apresentados na \tabref{Lan=0000E7ar-TCC}.
 
-\cp{Curso}: Modalidade do grupo que o professor orienta.{*}
+\noindent \begin{center}
+\begin{table}[H]
+\noindent \begin{centering}
+\begin{tabular}{ll}
+\toprule 
+Nome & Descrição\tabularnewline
+\midrule
+\addlinespace[5bp]
+Professor{*} & Nome do professor\tabularnewline
+\addlinespace[5bp]
+Curso{*} & Modalidade do grupo que o professor orienta\tabularnewline
+\addlinespace[5bp]
+Ano{*} & Corresponde ao ano da atividade\tabularnewline
+\addlinespace[5bp]
+QtdEquipes{*} & Quantidade de equipes\tabularnewline
+\addlinespace[5bp]
+QtdHa{*} & Quantidade de horas para a atividade\tabularnewline
+\addlinespace[5bp]
+Observações & Informações adicionais\tabularnewline
+\bottomrule
+\addlinespace[5bp]
+\end{tabular}
+\par\end{centering}
 
-\cp{Ano}: Corresponde ao ano da atividade.{*}
+\caption{\emph{Lançar TCC\label{tab:Lan=0000E7ar-TCC}}}
+\end{table}
 
-\cp{QtdEquipes}: Quantidade de equipes.{*}
+\par\end{center}
 
-\cp{QtdHa}: Quantidade de horas para a atividade.{*}
-
-\cp{Observações}: Informações adicionais.
-\end{quotation}
 As descrições marcadas com \emph{``{*}''} são campos obrigatórios
 a serem preenchidos. Para criar um novo registro, é necessário preencher
 os campos vazios localizados ao final da lista.
 
 Os campos \cp{Professor} e \cp{Curso} devem ser preenchidos somente
 com os valores presentes na lista de cada um, o campo \cp{Ano} deve
-obrigatóriamente mostrar o ano decorrente, os campos \cp{QtdEquipes},
+obrigatoriamente mostrar o ano corrente, os campos \cp{QtdEquipes},
 \cp{QtdHa} e \cp{Observações} não possuem restrições.
 
 
-\subsubsection{Licenças}
+\subsection{Licenças}
 
-O campo \emph{Licenças} somente depende do Dia (Ac) como referência
-e disponibiliza de duas consultas, como ilustra a \figref{Licen=0000E7as}.
+O campo \emph{Licenças} somente depende da Data (Ac) como referência
+e disponibiliza  duas consultas, como ilustra a \figref{Licen=0000E7as}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
 \includegraphics[width=0.65\textwidth]{imagens/csh_licenças}
 \par\end{centering}
 
-\caption{\emph{Licenças \label{fig:Licen=0000E7as}}}
+\caption{\emph{Licenças.\label{fig:Licen=0000E7as}}}
 \end{figure}
 
-
-
-\paragraph{Licença dos professores}
-
-Quando um professor entrará de licença:
+\begin{itemize}
+\item Licença dos professores
+\end{itemize}
+Exibe uma relação com todas as licenças registradas dos professores.
+A \figref{Licen=0000E7a-dos-Professores} mostra um exemplo.
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics[width=0.75\textwidth]{imagens/csh_licenças_relatório}
+\includegraphics[width=1\textwidth]{imagens/csh_licenças_relatório}
 \par\end{centering}
 
-\caption{\emph{Licença dos Professores}}
+\caption{\emph{Licença dos Professores\label{fig:Licen=0000E7a-dos-Professores}}}
 \end{figure}
 
-
-
-\paragraph{Professores de Licença}
-
-Professores que estiverão de licença no dia tomado como referência:
+\begin{itemize}
+\item Professores de Licença
+\end{itemize}
+São relacionados os professores que estiveram de licença na data tomada
+como referência. A \figref{Professores-de-Licen=0000E7a} mostra um
+exemplo.
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics[width=0.75\textwidth]{imagens/csh_licença_professores}
+ .\includegraphics[width=1\textwidth]{imagens/csh_licença_professores}
 \par\end{centering}
 
-\caption{\emph{Professores de Licença}}
+\caption{\emph{Professores de Licença\label{fig:Professores-de-Licen=0000E7a}}}
 \end{figure}
 
 
-O campo ``Remunerado'' indica se o professor recebera salário enquanto
-estiver de licença, o campo pode ser verdadeiro ``Caixa em azul'',
-ou falso ``Caixa em branco''. 
+O campo ``Remunerado'' indica se o professor receberá salário enquanto
+estiver de licença.Pode ser verdadeiro (``caixa em azul''), ou falso
+(``caixa em branco''). 
 
 
-\subsubsection{Outras Relações}
+\subsection{Outras Relações}
 
-Informações adicionais a respeito dos professores cadastrados no sistema
-do \emph{Consulta Sistema Horários }estarão a disposição nesta consulta.
-Seus campos tem relação com os dados de referência de Ano (Aa), Semestre
-(Ab) e Dia (Ac).
+Informações adicionais a respeito dos professores cadastrados no \emph{Sistema
+Horários }estarão à disposição nesta consulta. Seus campos tem relação
+com os dados de referência de Ano (Aa), Semestre (Ab) e Dia (Ac).
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -1043,57 +1123,179 @@ Seus campos tem relação com os dados de referência de Ano (Aa), Semestre
 \end{figure}
 
 
-Apesar da consulta depender destes dados, no caso, eles serão somente
-utilizados nos campos em que não se aplica a Graduação ou a Pós-Graduação,
-ou seja, somente a segunda coluna.
+Apesar da consulta depender destes dados,  eles serão somente utilizados
+nos campos em que não se aplica a Graduação ou a Pós-Graduação, ou
+seja, somente a segunda coluna.
 
 De forma sucinta, as consultas disponibilizadas são:
-
-\jn{As Graduações}
-
+\begin{itemize}
+\item As Graduações
+\end{itemize}
 A consulta permite que o usuário verifique as graduações dos professores
 do IMT.
-
-\jn{Com Mais de Uma Graduação}
-
+\begin{itemize}
+\item Com Mais de Uma Graduação
+\end{itemize}
 Lista os professores que possuem duas ou mais graduações.
-
-\jn{As Pós-Graduações}
-
-Lista os professores e todas as suas graduações.
-
-\jn{A Pós-Graduação Maior}
-
-Relação da maior graduação dos professores.
-
-\jn{Disciplinas Ministradas}
-
+\begin{itemize}
+\item As Pós-Graduações
+\end{itemize}
+Lista os professores e todas as suas pós-graduações.
+\begin{itemize}
+\item A Pós-Graduação Maior
+\end{itemize}
+Relação da maior pós-graduação dos professores.
+\begin{itemize}
+\item Disciplinas Minitradas
+\end{itemize}
 Exibe as diciplinas que cada professor do CEUN-IMT leciona.
-
-\jn{Habilitações dos Professores}
-
+\begin{itemize}
+\item Habilitações dos Professores
+\end{itemize}
 Mostra a quantidade de horas aula que um professor possui e sua distribuição
 nas diferentes habilitações.
-
-\jn{Professores das Habilitações}
-
+\begin{itemize}
+\item Professores das Habilitações
+\end{itemize}
 Lista todas as habilitações e seus respectivos professores.
 
 O significado de cada prefixo usado nas colunas das consultas anteriores,
 podem ser verificadas na \tabref{Siglas}.
 
 
+\subsection{Convocações para Provas}
+
+
 \subsubsection{Convocações}
 
-{*}{*}{*}{*}{*}
+O banco de dados do \emph{Consulta Sistema Horários }possui em sua
+estrutura dados em \emph{Excel} relacionados a convocações dos professores
+para fiscalização de provas. Estas consultas realizam a leitura destes
+dados e os agrupa de acordo com a opção selecionada, conforme exibido
+pela \figref{Convoca=0000E7=0000F5es}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.65\textwidth]{imagens/csh_convocacoes}
+\par\end{centering}
+
+\caption{\emph{Convocações\label{fig:Convoca=0000E7=0000F5es}}}
 
 
-\subsubsection{Atualizar TP e HR}
+\end{figure}
+
+\begin{itemize}
+\item Professores Não Reconhecidos
+\end{itemize}
+Caso haja alguma incoerência com relação aos professores, em que o
+CSH identificou ao realizar a leitura das informações das convocações,
+estes professores seram listados em uma nova janela (\figref{Professores-N=0000E3o-Reconhecidos}).
+Assim é possível verificar problemas existentes no documento de convocação,
+no qual dever-se-á proceder com a correção da digitação dos nomes.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[height=0.15\textheight]{imagens/csh_convocacoes_prof_nao_encontrado}\caption{\emph{Professores Não Reconhecidos\label{fig:Professores-N=0000E3o-Reconhecidos}}}
+
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item Listagem Completa das Convocações
+\end{itemize}
+Os horários das convocações serão dispostos de uma maneira mais enxuta,
+de fácil exibição e entndimento, permitindo até a exportação destes
+dados, a fim de gerar documentos para impressão e disposição dos professores.
+Ver \figref{Listagem-Completa-das-convoca=0000E7=0000F5es}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_convocaçoes_completo}
+\par\end{centering}
+
+\caption{\emph{Listagem Completa das Convocações.\label{fig:Listagem-Completa-das-convoca=0000E7=0000F5es}}}
+
+
+\end{figure}
+
+
+Observações:
+\begin{enumerate}
+\item A sigla P/C tem como significado, ``Para Conhecimento'', ou seja,
+o professor foi convocado para sanar dúvidas de alunos, e não aplicar
+as provas.
+\item A sigla D/N tem como significado, ``Diurno e Noturno'', nos casos
+em que ambos realizam a mesma prova, no mesmo dia, para uma certa
+disciplina.
+\item Professores que tem como condição (coluna 5) o nome de disciplinas,
+aplicarão as provas de suas respectivas matérias.\end{enumerate}
+\begin{itemize}
+\item Listagem Linear das Convocações
+\end{itemize}
+Consulta que permite verificar a quantidade de vezes em que um professor
+foi convocado, como observa-se na \figref{Listagem-Linear-das-convoca=0000E7=0000F5es}
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.65\textwidth]{imagens/csh_convocaçoes_linear}\caption{\emph{Listagem Linear das Convocações.\label{fig:Listagem-Linear-das-convoca=0000E7=0000F5es}}}
+
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item Referência Cruzada das Convocações
+\end{itemize}
+
+
+
+\subsubsection{Taxas de Convocações}
+
+Esta ferramenta realiza um mecanismo de referências cruzadas, a fim
+de analisar, estatisticamente, a quantidade de convocações de um professor
+pela sua carga horária semanal. São apresentados dois métodos de cálculo
+das taxas, como mostra a \figref{Taxa-de-Convoca=0000E7=0000F5es}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.65\textwidth]{imagens/csh_taxa_convocacoes}
+\par\end{centering}
+
+\caption{\emph{Taxa de Convocações\label{fig:Taxa-de-Convoca=0000E7=0000F5es}}}
+
+
+\end{figure}
+
+\begin{itemize}
+\item Taxa de Convocações - Linear - Método 1
+\end{itemize}
+Referente as informações das listagens de convocações lineares.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_taxa_metodo1}\caption{\emph{Linear - Método 1\label{fig:Linear---M=0000E9todo-um}}}
+
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item Taxa de Convocações - Linear - Método 2
+\end{itemize}
+Ainda não implementado nesta versão.
+\begin{itemize}
+\item Taxa de Convocações - RefCruz - Métodos 1 e 2
+\end{itemize}
+
+
+
+\subsection{Atualizar TP e HR}
 
 Este recurso irá verificar e executar as atualizações necessárias
-feitas em cima dos dados relacionados a Tempo Parcial (TP) e Horista
-(HR) dos professores, depende do Ano (Aa), Semestre (Ab) e Dia (Ac).
-A interface da região está ilustrada na \figref{Atualizar-TP-e-HR}.
+feitas em cima dos dados relacionados aos professores em regime Tempo
+Parcial (TP) e Horista (HR). Depende do Ano (Aa), Semestre (Ab) e
+Dia (Ac). A interface da região está ilustrada na \figref{Atualizar-TP-e-HR}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -1103,23 +1305,20 @@ A interface da região está ilustrada na \figref{Atualizar-TP-e-HR}.
 \caption{\emph{Atualizar TP e HR\label{fig:Atualizar-TP-e-HR}}}
 \end{figure}
 
-
-
-\paragraph{Verificar as Atualizações}
-
-Permite a elaboração e atualização dos regimes dos professores, podendo-se
-alterar:
 \begin{itemize}
-\item TP e HR.
-\item Total de Horas-Aula, Horas-Outras e Horas no IMT.
+\item Verificar as Atualizações
 \end{itemize}
-
-\paragraph{Executar as Atualizações}
-
-Qualquer modificação no banco de dados referente ao regime dos professores,
-que tem como base a tabela \textquotedblleft{}Verificar as Atualizações\textquotedblright{},
-será atualizada caso seja clicado o botão \emph{'SIM'} , como mostra
-a \figref{Executar-as-Atualiza=0000E7=0000F5es}. 
+Permite a verificação de como a atualização dos regimes dos professores
+se procederá, sem que nenhuma alteração seja efetivada.
+\begin{enumerate}
+\item 
+\item \end{enumerate}
+\begin{itemize}
+\item Executar as Atualizações
+\end{itemize}
+Executa as atualizações do regime dos professores, conforme o que
+fora exibido por \textquotedblleft{}Verificar as Atualizações\textquotedblright{},
+assim que confirmada a pergunta da \figref{Executar-as-Atualiza=0000E7=0000F5es}. 
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -1131,34 +1330,46 @@ a \figref{Executar-as-Atualiza=0000E7=0000F5es}.
 
 
 
-\subsection{Disciplinas}
+\section{Disciplinas}
 
-{*}{*}{*}{*}{*}{*}
+Ainda não implementado nesta versão.
 
 
-\subsection{Salas}
+\section{Salas}
 
-Está nova consulta permite buscar, verificar e atualizar informações
-referentes a todas as salas encontradas no centro acadêmico, dentre
-as consultas, temos: 
-\begin{itemize}
-\item Ocupação das Salas
-\item Disponibilidade das Salas
-\end{itemize}
+Esta nova consulta permite buscar e verificar  informações referentes
+a todas as salas do Centro Universitário. Os tópicos disponíveis são:: 
+
+\cp{Ocupação das Salas}
+
+\cp{Disponibilidade das Salas}
+
 As informações relevantes a este recurso depende de Ano (Aa) e semestre
-(Ab).
+(Ab), como mostra a \figref{Salas}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.65\textwidth]{imagens/csh_salas}
+\par\end{centering}
+
+\caption{\emph{Salas} \label{fig:Salas}}
 
 
-\subsubsection{Ocupação das Salas}
+\end{figure}
 
-Cada uma das opções disponibilizadas, dentre elas:
 
-\cp{Mapa de ocupação},
-\cp{Mapa de ocupação modificado - A a H},
-\cp{Mapa de ocupação modificado - I a U},
-\cp{Mapas de ocupação modificado - Salas de Teoria},
-\cp{Taxa de ocupação}.como mostra \figref{Ocupa=0000E7=0000E3o-das-Salas}, possuem uma
-determinada função, no caso, exibem diferentes informações.
+
+\subsection{Ocupação das Salas}
+
+As consultas disponibilizadasconforme observa-se na \figref{Ocupa=0000E7=0000E3o-das-Salas},são:
+\begin{itemize}
+\item \cp{Mapa de ocupação}
+\item \cp{Mapa de ocupação modificado - A a H}
+\item \cp{Mapa de ocupação modificado - I a U}
+\item \cp{Mapas de ocupação modificado - Salas de Teoria}
+\item \cp{Taxa de ocupação}
+\end{itemize}
+
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -1166,88 +1377,6 @@ determinada função, no caso, exibem diferentes informações.
 \par\end{centering}
 
 \caption{\emph{Ocupação das Salas\label{fig:Ocupa=0000E7=0000E3o-das-Salas}}}
-\end{figure}
-
-\begin{itemize}
-\item Mapa de ocupação
-\end{itemize}
-Mapa de ocupação gera um documento aonde são exibidos a ocupação de
-todas as salas, por exemplo, a sala A01 está disponível em determinados
-horários e quando não está, exibe qual diciplina e quais horários
-ela estará ocupada.
-
-O \emph{checkbox} encontrado logo antes do botão, faz com que o relatório
-gerado seja exibido como uma janela pop-up, no caso, é interessante
-quando é necessário realizar uma comparação ou uma consulta de forma
-mais maleável e prática.
-
-\begin{figure}[H]
-\noindent \begin{centering}
-\includegraphics[width=0.65\textwidth]{imagens/csh_Ocupacao_Salas_checkbox}
-\par\end{centering}
-
-\caption{\emph{Checkbox}}
-\end{figure}
-
-
-O relatório final, terá a forma como ilustra a \figref{Janela-da-Ocupa=0000E7=0000E3o}.
-
-\begin{figure}[H]
-\noindent \begin{centering}
-\includegraphics[width=0.65\textwidth]{imagens/csh_janela_ocupacaoSalas}
-\par\end{centering}
-
-\caption{\emph{Janela da Ocupação das salas\label{fig:Janela-da-Ocupa=0000E7=0000E3o}}}
-\end{figure}
-
-
-A navegação deverá ser feita atravez de pequenos botões localizados
-no canto inferior esquerdo da janela, cada um tem determinada função,
-entre eles: Primeira página, página anterior, próxima página e última
-página.
-\begin{itemize}
-\item Mapa de ocupação modificado - A a H e Mapa de ocupação modificado
-- I a U
-\end{itemize}
-O mapa de ocupação modificado tem como característica um método de
-representação diferente do analisado no \cp{Mapa de Ocupação das Salas},
-torna-se mais prático uma consulta a fim de obter-se uma informação
-rápida. Sua estrutura é dividida em três grandes linhas, sendo elas
-em amarelo, o período Diurno e em vermelho e azul, o período Noturno.
-E também, este modelo apresenta em sua forma letras como E, D, G ou
-A, cada uma dessas letras representam o tipo de aula que é desenvolvido
-nas salas, no caso, ``E'' significa engenharia, ``D'' de Desing,
-``G'' de gestão e por fim, ``A'' de Administração respectivamente.,
-como mostra a \figref{Ocupa=0000E7=0000E3o-das-Salas-1}
-
-\begin{figure}[H]
-\noindent \begin{centering}
-\includegraphics[height=3cm]{imagens/csh_ocupacaoSalas_modificado}
-\par\end{centering}
-
-\caption{\emph{Ocupação das Salas modificado\label{fig:Ocupa=0000E7=0000E3o-das-Salas-1}}}
-\end{figure}
-
-\begin{itemize}
-\item Mapas de ocupação modificado - Salas de Teoria
-\end{itemize}
-Da mesma forma que as consultas anterioes, neste caso, salas de laboratório
-como as salas A1 e A2 seram descartadas da lista, sendo exibidos somente
-as salas destinadas a aulas de teoria.
-\begin{itemize}
-\item Taxa de ocupação
-\end{itemize}
-Trata-se de um relatório de ocupação de salas para aulas de teoria,
-exercícios, laboratório e projetos, num ponto de vista estatístico,
-aonde são apresentados valores em porcentagem de ocupação, entre outros.
-O própio relatório possui instruções e informações para seu manuseamento.
-
-\begin{figure}[H]
-\noindent \begin{centering}
-\includegraphics[width=0.9\textwidth]{imagens/csh_taxa_ocupacao}
-\par\end{centering}
-
-\caption{\emph{Taxa de ocupação\label{fig:Taxa-de-ocupa=0000E7=0000E3o}}}
 \end{figure}
 
 
@@ -1263,59 +1392,164 @@ a Taxa de Ocupação. Suas opções podem ser:
 \end{figure}
 
 
-\cp{Teoria}: Somente aulas de teoria.
+\tabref{Tipo-de-aula} de significados:
 
-\cp{Exercícios}: Somente aulas de exercícios.
+\begin{table}[H]
+\noindent \begin{centering}
+\begin{tabular}{cc}
+\toprule 
+Nome & Descrição\tabularnewline
+\midrule
+\addlinespace[5bp]
+Teoria & Somente aulas de teoria\tabularnewline
+\addlinespace[5bp]
+Exercícios & Somente aulas de exercícios\tabularnewline
+\addlinespace[5bp]
+Laboratório & Somente aulas de laboratório\tabularnewline
+\addlinespace[5bp]
+Projetos & Somente aulas de projetos\tabularnewline
+\addlinespace[5bp]
+'{*}' & Todos os tipos de aula\tabularnewline
+\bottomrule
+\addlinespace[5bp]
+\end{tabular}
+\par\end{centering}
 
-\cp{Laboratório}: Somente aulas de laboratório.
+\caption{\emph{Tipo de aula\label{tab:Tipo-de-aula}}}
+\end{table}
 
-\cp{Projetos}: Somente aulas de projetos.
+\begin{itemize}
+\item Mapa de Ocupação
+\end{itemize}
+Mapa de ocupação gera um relatório no qual são exibidas as ocupações
+de todas as salas.Por exemplo, a sala A01 está disponível em determinados
+horários e quando não está, exibe qual diciplina e quais horários
+ela encontra-se ocupada.
 
-\cp{*}: Todos os tipos de aula.
-
-
-\subsubsection{Disponibilidade das Salas}
-
-Este recurso permite realizar uma busca completa da disponibilidade
-das salas de aula. A \figref{Disponibilidade-das-Salas} ilustra o
-leiaute da pesquisa:
+O \emph{checkbox} encontrado logo antes do botão faz com que o relatório
+gerado seja exibido como uma janela \emph{pop-up}, sendo interessante
+quando for necessário realizar uma comparação ou uma consulta de forma
+mais maleável e prática.
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics[width=0.8\textwidth]{imagens/csh_disponibilidade_salas}
+\includegraphics[width=0.65\textwidth]{imagens/csh_Ocupacao_Salas_checkbox}
+\par\end{centering}
+
+\caption{\emph{Checkbox}}
+\end{figure}
+
+
+O relatório final, terá a forma como ilustra a \figref{Janela-da-Ocupa=0000E7=0000E3o}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.4\textwidth]{imagens/csh_janela_ocupacaoSalas}
+\par\end{centering}
+
+\caption{\emph{Janela da Ocupação das salas\label{fig:Janela-da-Ocupa=0000E7=0000E3o}}}
+\end{figure}
+
+
+A navegação deverá ser feita através por meio dos controles  localizados
+no canto inferior esquerdo da janela.
+\begin{itemize}
+\item Mapa de ocupação modificado - A a H e Mapa de ocupação modificado
+- I a U
+\end{itemize}
+O mapa de ocupação modificado tem como característica um método de
+representação diferente do analisado no \cp{Mapa de Ocupação das Salas}.
+Torna-se mais prático uma consulta a fim de obter-se uma informação
+rápida. Sua estrutura é dividida em três grandes linhas, sendo elas
+em amarelo, o período Diurno e em vermelho e azul, o período Noturno.
+E também, este modelo apresenta em sua forma letras como E, D, G ou
+A, cada uma dessas letras representam o tipo de aula que é desenvolvido
+nas salas, no caso, ``E'' significa engenharia, ``D'' de Desing,
+``G'' de Gestão e por fim, ``A'' de Administração, como mostra
+a \figref{Ocupa=0000E7=0000E3o-das-Salas-1}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[height=3cm]{imagens/csh_ocupacaoSalas_modificado}
+\par\end{centering}
+
+\caption{\emph{Ocupação das Salas modificado\label{fig:Ocupa=0000E7=0000E3o-das-Salas-1}}}
+\end{figure}
+
+\begin{itemize}
+\item Mapas de ocupação modificado - Salas de Teoria
+\end{itemize}
+Da mesma forma que as consultas anterioes, neste caso, as salas de
+laboratório  serão descartadas da lista, sendo exibidas somente as
+salas destinadas a aulas de teoria.
+\begin{itemize}
+\item Taxa de ocupação
+\end{itemize}
+Trata-se de um relatório de ocupação de salas para aulas de teoria,
+exercícios, laboratório e projetos, sob um ponto de vista estatístico,
+no qual são apresentados valores em porcentagem de ocupação, entre
+outros. O própio relatório possui instruções e informações para sua
+interpretação.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics[width=1\textwidth,height=0.3\textheight]{imagens/csh_taxa_ocupacao}
+\par\end{center}%
+\end{minipage}
+\par\end{centering}
+
+\caption{\emph{Taxa de ocupação\label{fig:Taxa-de-ocupa=0000E7=0000E3o}}}
+\end{figure}
+
+
+
+\subsection{Disponibilidade das Salas}
+
+Este recurso permite realizar uma busca completa da disponibilidade
+das salas de aula. A \figref{Disponibilidade-das-Salas} ilustra o
+leiaute da pesquisa.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics[width=0.6\textwidth]{imagens/csh_disponibilidade_salas}
+\par\end{center}%
+\end{minipage}
 \par\end{centering}
 
 \caption{\emph{Disponibilidade das Salas\label{fig:Disponibilidade-das-Salas}}}
 \end{figure}
 
 \begin{itemize}
-\item \cp{Dia da semana}: Deve ser peenchido com valores de SEG (Segunda-feira)
-a SEX (Sexta-feira).
-\item \cp{Horário Inicial}e \cp{Horário Final}: Deve-se obedecer necessáriamente
+\item \cp{Dia da semana}: Deve ser selecionado um dos valores de SEG (segunda-feira)
+a SAB (sábado).
+\item \cp{Horário Inicial} e \cp{Horário Final}: Deve-se obedecer necessariamente
 a formatação padrão (\_ \_ : \_ \_). 
-\item A opção \cp{Lista U/B} opção fará com que sua lista seja rearranjada
-em uma formatação padrão do ``excell'', com linhas e colunas enumeradas,
-permitindo um acesso rápido a alguma sala específica ou até a exportação
-das informações.
+\item A opção \cp{Lista U/B} fará com que a lista seja rearranjada entre
+uma relação simples de salas ou agrupadas por bloco,  com linhas e
+colunas enumeradas.
 \end{itemize}
 Após preenchidos os campos de pesquisa, ao clicar no botão representado
 por uma ``Lupa'', a consulta irá ser realizada.
 
 O botão de atualizar acessa o banco de dados do sistema e atualiza
-seus valores a fim de mostrar corretamente o número de salas disponíveis,
-uma vez que o usuário faça algum tipo de alteração com relação a ocupação
-de alguma sala.
+os valores exibidos, a fim de mostrar corretamente as salas disponíveis,
+dada a constante alteração de atribuições de sala pelos usuários.
 
 
-\subsection{Horários de Aula}
+\section{Horários de Aula}
 
-Está nova aba de consultas chamada Horários de Aula, é uma ferramenta
-utilizada excepcionalmente na detecção de incoerencias relacionadas
-a cargas horárias de professores e está dividida em quatro tópicos,
-:
+Esta nova aba de consultas chamada Horários de Aula, é uma ferramenta
+utilizada excepcionalmente na detecção de incoerências relacionadas
+a cargas horárias de professores e está dividida em quatro tópicos:
 \begin{itemize}
-\item Encontrar Superposições, Restrições de Carga, Indefinições, Tabela
-de Horários de Aulas
+\item Encontrar Superposições
+\item Restrições de Carga
+\item Indefinições
+\item Tabela de Horários de Aulas
 \end{itemize}
 \begin{figure}[H]
 \noindent \centering{}\includegraphics[width=0.65\textwidth]{imagens/csh_Horarios_aulas}\caption{\emph{Horários de Aula\label{fig:Hor=0000E1rios-de-Aula}}}
@@ -1323,20 +1557,47 @@ de Horários de Aulas
 
 
 
-\subsubsection{Encontrar Superposições}
+\subsection{Encontrar Superposições}
 
-{*}{*}{*}{*}
+Esta ferramenta é de alta importância, nela pode-se realizar consultas
+relacionadas a incoerências de aulas, salas e professores quando há
+conflitos de valores lançados no \emph{Sistema Horários}. Tais opções
+são as ilustradas na \figref{Superposi=0000E7=0000F5es}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.65\textwidth]{imagens/csh_superposicoes}
+\par\end{centering}
+
+\caption{\emph{Superposições\label{fig:Superposi=0000E7=0000F5es}}}
 
 
-\subsubsection{Restrições de Carga }
+\end{figure}
+
+\begin{itemize}
+\item Superposições de Aula, Sala e Professor
+\end{itemize}
+Qualquer superposição encontrada, ou seja, quando uma sala ou uma
+aula for utilizada mais de uma vez para diferentes atividades, de
+forma que entre em conflito com os horários, este erro será exibido
+nesta consulta. Independente da consulta selecionada, o relatório
+apresentará as mesmas informações em sua planilha, porém, cada uma
+com ênfase em procurar problemas nas áreas selecionadas.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_encontrar_superposicao}
+\par\end{centering}
+
+\caption{\emph{Encontrar Superposição\label{fig:Encontrar-Superposi=0000E7=0000E3o}}}
+\end{figure}
+
+
+
+\subsection{Restrições de Carga}
 
 As restrições de carga definem a quantidade de horas máximas e mínimas
-em que cada professor pode-se trabalhar, relacionados aos tópicos\emph{
-Regime, Dia, Semana, Ano }e\emph{ Descanço.}
-
-Ao clicar no botão ``\emph{Encontrar todas as violações das restrições}'',\figref{Restri=0000E7=0000F5es-de-Carga}
-, será gerado diversas tabelas correspondentes as violações encontradas,
-dentre elas:
+para diversas situações em cada dia e semana de trabalho do professor.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -1344,56 +1605,183 @@ dentre elas:
 \par\end{centering}
 
 \caption{\emph{Restrições de Carga}\label{fig:Restri=0000E7=0000F5es-de-Carga}}
+\end{figure}
+
+
+Ao clicar no botão ``\emph{Encontrar todas as violações das restrições}'',
+ver \figref{Restri=0000E7=0000F5es-de-Carga}, serão geradas diversas
+tabelas correspondentes às violações encontradas. São estas:
+\begin{itemize}
+\item \cp{Máx 8h-a por Dia Excedido}
+\end{itemize}
+Por definição, um professor não deve ter mais de oito horas aula por
+dia. Ver \figref{Viola=0000E7=0000E3o-M=0000E1x-8h-a}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_1}
+\par\end{centering}
+
+\caption{\emph{Violação Máx 8h-a por Dia Excedido.\label{fig:Viola=0000E7=0000E3o-M=0000E1x-8h-a}}}
+\end{figure}
+
+\begin{itemize}
+\item \cp{Excede Máx 6h-a Consecutivas}
+\end{itemize}
+Professores que excedem  seis horas-aula por dia.  Ver \figref{Excede-M=0000E1x-6h-a}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_2}
+\par\end{centering}
+
+\caption{\emph{Excede Máx 6h-a Consecultivas\label{fig:Excede-M=0000E1x-6h-a}}}
+\end{figure}
+
+\begin{itemize}
+\item \cp{Mín 11h de Descanso Não Atendido}
+\end{itemize}
+Lista de professores que não atendem a onze horas de descanso entre
+um dia e outro.  Ver \figref{M=0000EDn-11h-de}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_3}\caption{\emph{Mín 11h de Descanso Não Atedido\label{fig:M=0000EDn-11h-de}}}
+
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item \cp{Não Atendido 40h-a TI}
+\end{itemize}
+Professores em tempo integral que não possuem quarenta horas semanais,
+a menos ou a mais.  Ver \figref{N=0000E3o-Atendido-40h-a}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_4}\caption{\emph{Não Atendido 40h-a TI\label{fig:N=0000E3o-Atendido-40h-a}}}
+
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item \cp{Máx 20 h-a AD TI Excedido}
+\end{itemize}
+Professores em regime Tempo Integral que não possuem 20 horas-aula
+em aulas.  Ver \figref{M=0000E1x-20-h-a}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_5}
+\par\end{centering}
+
+\caption{\emph{Máx 20 h-a AD TI Excedido\label{fig:M=0000E1x-20-h-a}}}
 
 
 \end{figure}
 
+\begin{itemize}
+\item \cp{Mín 6 h-a por Semana não Atendido}
+\end{itemize}
+Mínimo de seis horas-aula por semana não atendidos.  Ver \figref{M=0000EDn-6-h-a}.
 
-\cp{Máx 8h-a por Dia Excedido}: Por definição, um professor não deve
-ter mais de oito horas aula por dia excedido.
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.5\textwidth]{imagens/csh_violacoes_6}\caption{\emph{Mín 6 h-a por Semana não Atendido\label{fig:M=0000EDn-6-h-a}}}
 
-\cp{Excede Máx 6h-a Consecutivas}: Professores no qual excede um
-valor de seis horas aulas por dia.
+\par\end{centering}
 
-\cp{Mín 11h de Descanso Não Atendido}: Lista de professores que não
-atendem a onze horas de descanso diários.
+\end{figure}
 
-\cp{Não Atendido 40h-a TI} : Professores em tempo integral que não
-cumprem quarenta horas semanais.
+\begin{itemize}
+\item \cp{Máx 38 h-a HR Excedido}
+\end{itemize}
+Professores horistas com mais de trinta e oito horas aulas excedido
+ao longo de uma semana.  Ver \figref{M=0000E1x-38-h-a-hr}.
 
-\cp{Máx 20 h-a AD TI Excedido} : {*}{*}{*}{*}{*}{*}
+O valor de 38 horas-aula é configurável na região Dados de Referência,
+conforme descrito na \subref{DR-Outros:}, \vpageref{sub:DR-Outros:}.
 
-\cp{Mín 6 h-a por Semana não atendido}: Mínimo de seis horas aulas
-por semana não atendidos.
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_7}\caption{\emph{Máx 38 h-a HR Excedido\label{fig:M=0000E1x-38-h-a-hr}}}
 
-\cp{Máx 38 h-a HR Excedido}: Professores horistas com mais de trinta
-e oito horas aulas excedido ao longo de uma semana.
+\par\end{centering}
 
-\cp{Máx 38 h-a TP Excedido}: Professores de tempo parcial com mais
-de trinta e seis horas aulas excedido ao longo de uma semana.
+\end{figure}
 
-\cp{Janelas Detectadas}: Aulas vagas.
+\begin{itemize}
+\item \cp{Máx 38 h-a TP Excedido}
+\end{itemize}
+Professores de tempo parcial com mais de trinta e oito horas aulas
+excedido ao longo de uma semana.  Ver \figref{M=0000E1x-38-h-a-tp}.
 
-\cp{Diferença QtdHa Anos consecutivos}: Estatistica da diferença
-de quantidade de horas aulas dos professores, observados anualmente. 
+O valor de 38 horas-aula é configurável na região Dados de Referência,
+conforme descrito na \subref{DR-Outros:}, \vpageref{sub:DR-Outros:}.
 
-\cp{Redução QtdHa Anos Consecultivos} : Estatistica da redução de
-quantidade de horas aulas dos professores, observados anualmente. 
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_8}\caption{\emph{Máx 38 h-a TP Excedido\label{fig:M=0000E1x-38-h-a-tp}}}
 
-Alguns campos podem constar valores incoerentes devido ao fato de,
-o cálculo realizado para obter-se tal valor, utiliza tanto a horas
-de aulas normais e também as horas aulas compartilhadas, logo, há
-horas que não deveriam influenciar em tal valor. Deve-se checar se
-os valores exibidos estão realmente certos, caso contrário, será necessário
-contatar algum responsável pelo lançamento dos horários.
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item \cp{Janelas Detectadas}
+\end{itemize}
+Intervalo superior a 10 minutos entre aulas numa mesma parte do período;
+entenda-se por ``parte do período'' como manhã, tarde ou noite.
+ Ver \figref{Janelas-Detectadas}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.5\textwidth]{imagens/csh_violacoes_9}
+\par\end{centering}
+
+\caption{\emph{Janelas Detectadas\label{fig:Janelas-Detectadas}}}
 
 
-\subsubsection{Indefinições}
+\end{figure}
 
-Em alguns casos, quando é gerado grades horárias porém ainda com algumas
-indefinições, sejam elas dos professores ou das salas (\figref{Indefini=0000E7=0000F5es}),
-estas então ficarão contidas no banco de dados e será exibida neste
-relatório.
+\begin{itemize}
+\item \cp{Diferença QtdHa Anos Consecutivos}
+\end{itemize}
+Diferença de quantidade de horas-aula dos professores, observada entre
+o término de um ano e o início do ano seguinte.  Ver \figref{Diferen=0000E7a-QtdHa-Anos}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_10}\caption{\emph{Diferença QtdHa Anos Consecultivos\label{fig:Diferen=0000E7a-QtdHa-Anos}}}
+
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item \cp{Redução QtdHa Anos Consecutivos}
+\end{itemize}
+Redução de quantidade de horas-aula dos professores, observados anualmente. 
+
+  Ver \figref{Redu=0000E7=0000E3o-QtdHa-Anos}.
+
+\begin{figure}
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_violacoes_11}\caption{\emph{Redução QtdHa Anos Consecultivos\label{fig:Redu=0000E7=0000E3o-QtdHa-Anos}}}
+
+\par\end{centering}
+
+\end{figure}
+
+
+
+\subsection{Indefinições}
+
+Em alguns casos, aulas são lançadas com professor ou sala indefinida,
+pois tais não eram conhecidos até aquele momento. Esta função tem
+o objetivo de relatar quais as aulas nesta situação.  Ver \figref{Indefini=0000E7=0000F5es}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
@@ -1408,74 +1796,117 @@ relatório.
 \begin{itemize}
 \item Indefinições de professores e salas
 \end{itemize}
-O relatório possui informações como período, turma, código da disciplina,
-dia da semana, horário inicial da aula, grupo ou turma ou laboratório,
-a sala e o tipo de aula.
+O relatório possui as seguintes informações:  período, turma, código
+da disciplina, dia da semana, horário inicial da aula, grupo, turma
+ou laboratório, a sala e o tipo de aula. Ver \figref{professores-indefinidos}.
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics[width=0.4\paperwidth]{imagens/csh_indefinicoes_prof}
+\framebox{\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics[width=1\textwidth,height=0.3\textheight]{imagens/csh_indefinicoes_prof}
+\par\end{center}%
+\end{minipage}}
 \par\end{centering}
 
-\caption{}
+\caption{Exemplo de relatório de aulas com professores indefinidos.\label{fig:professores-indefinidos}}
 
 
 \end{figure}
 
 
 
-\subsubsection{Tabela de Horários de Aulas}
+\subsection{Tabela de Horários de Aulas}
+
+Permite verificar as informações de todas as aulas do semeste e ano
+corrente da forma como são armazenadas no banco de dados.
+
+A Tabela de Horários (\figref{Tabela-Hor=0000E1rios}) possui duas
+opções:
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.65\textwidth]{imagens/csh_tabela_horario}\caption{\emph{Tabela-Horários\label{fig:Tabela-Hor=0000E1rios}}}
+
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item Tabela Horário Simples
+\end{itemize}
+Uma consulta com as principais informações de uma aula, como pode
+ser visto na \figref{Tabela-Simples}.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth]{imagens/csh_tabela_aula_simples}\caption{\emph{Tabela Simples\label{fig:Tabela-Simples}}}
+
+\par\end{centering}
+
+\end{figure}
+
+\begin{itemize}
+\item Tabela Horário Expandida
+\end{itemize}
+A tabela expandida exibe informações semelhantes à anterior, porém
+com expansão dos horários de início e término de cada hora-aula e
+incluindo o Professor 2 como novo registro, ao invés de fazer parte
+do mesmo registro do primeiro professor.
+
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=1\textwidth,height=0.25\textwidth]{imagens/csh_tabela_aula_expandida}\caption{\emph{Tabela Expandida}}
+
+\par\end{centering}
+
+\end{figure}
 
 
-\subsection{CEUN}
 
-CEUN ou Centro Universitário, possui uma opção de consulta relacionadas
-as estatísticas do IMT, a consulta permite verificar diversas informações,
-tais como:
+\section{CEUN}
+
+CEUN ou Centro Universitário, possui uma opção de consulta relacionada
+a estatísticas de seu interesse Por meio dela, permite-se verificar,
+de forma agrupada por curso ou total, entre outras informações:
 \begin{itemize}
 \item Quantidade de professores horistas, professores de tempo parcial e
 integral.
 \item Quantidade de alunos.
-\item Disponibilidade e a necessidade mínima e máxima de recursos (Horas
-aula).
-\item Quantidade de alunos por professor, quantidade de professor por alunos
-e entre outras relações de estatística.
+\item Disponibilidade e a necessidade mínima e máxima de recursos (horas-aula).
+\item Quantidade de alunos por professor eprofessores por aluno.
 \end{itemize}
-Todas as informações acima, são referêntes a uma única habilitação,
-ou seja, cada habilitação possui tais informações.
+
 
 A \figref{CEUN} ilustra um exemplo de tabela.
 
 \begin{figure}
 \noindent \begin{centering}
-\includegraphics[width=0.8\paperwidth]{imagens/csh_CEUN}
+\includegraphics[width=1\textwidth]{imagens/csh_CEUN}
 \par\end{centering}
 
 \caption{\emph{CEUN} \label{fig:CEUN}}
-
-
 \end{figure}
 
 
 Por se tratar de uma tabela de estatísticas, certas linhas e colunas
-na verdade são frutos de calculos realizados a partir de colunas anteriores,
+na verdade são frutos de cálculos realizados a partir de colunas anteriores,
 por exemplo:
 \begin{enumerate}
 \item O campo \emph{TODOS}, localizado na última linha da tabela, possui
-valores que não são necessáriamente a somatória das linhas acima,
-uma vez contabilizado um professor, ele não será novamente contabilizado
-caso o mesmo esteja presente em diferentes habilitações.
-\item A coluna QtdProfessores informa o número de professores nas colunas
-QtdHR, QtdTP e QtdTI, ou seja, sua somatória.
+valores que não são necessariamente a somatória das linhas acima,
+pois, por exemplo, uma vez contabilizado um professor, ele não será
+novamente contabilizado caso o mesmo esteja presente em diferentes
+habilitações.
+\item Já a coluna QtdProfessores informa a somatória do número de professores
+nas colunas QtdHR, QtdTP e QtdTI.
 \end{enumerate}
 
-\subsection{CPA}
+\section{CPA}
 
-O CPA é uma ferramenta de consulta, como todas as outras, no qual
-apresenta em sua estrutura, uma listagem de todos os professores e
-suas respectivas turmas e salas nas quais leciona. A necessidade de
-consultas rápidas e de fácil acesso pode ser realizada atravez deste
-recurso, a \figref{CPA} representa seu leiaute:
+A aba CPA, dedicada à Comissão Própria de Avaliação,  apresenta uma
+listagem de todos os professores e suas respectivas turmas e disciplinas
+nas quais ministra aulas, conforme ilustrado na\figref{CPA}.
 
 \begin{figure}
 \noindent \begin{centering}
@@ -1490,10 +1921,10 @@ recurso, a \figref{CPA} representa seu leiaute:
 
 \appendix
 
-\chapter{Referências de Siglas}
+\chapter{Glossário\label{chap:Refer=0000EAncias-de-Siglas}}
 
 
-\section{Listagem das Siglas das Habilitações}
+\section{}
 
 \begin{longtable}{l>{\raggedright}p{0.5cm}>{\raggedright}p{10cm}}
 \caption{Siglas\label{tab:Siglas}}
