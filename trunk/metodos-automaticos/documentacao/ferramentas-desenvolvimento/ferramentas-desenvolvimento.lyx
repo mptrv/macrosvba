@@ -110,7 +110,7 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.1.1
+ 0.1.1+
 \end_layout
 
 \begin_layout Author
@@ -543,7 +543,11 @@ UML
 
 \end_inset
 
-: Gratuito, com restrições mínimas, multiplataforma.
+: Gratuito (a versão 
+\emph on
+Community Edition
+\emph default
+), com restrições mínimas, multiplataforma.
  É capaz de desenhar os 13 diagramas do padrão UML 2.0, além de possuir algumas
  ferramentas de modelagem adicionais.
 \begin_inset Newline newline
@@ -556,6 +560,37 @@ status collapsed
 \begin_layout Plain Layout
 
 http://www.visual-paradigm.com/product/vpuml
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+UMLet
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+UMLet
+\end_layout
+
+\end_inset
+
+: Gratuito, multiplataforma.
+ É capaz de desenhar, ao menos, 10 dos 13 diagramas do padrão UML 2.0.
+ Interface simples e processamento leve.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.umlet.com/
 \end_layout
 
 \end_inset
