@@ -1,0 +1,5 @@
+;!@Install@!UTF-8!
+Title="Sistema Horários"
+BeginPrompt="Confirma a instalação dos módulos do Sistema Horários?"
+RunProgram="ola.cmd"
+;!@InstallEnd@!

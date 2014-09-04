@@ -1,0 +1,9 @@
+instalador.cmd
+bases\cpseg
+bases\oficial\alunos-por-disciplina-e-gtl.xlsx
+bases\oficial\convocacoes-prova.xlsx
+imagens\atualizar.ico
+macros\construcao-grade_horaria.xlsm
+macros\construcao-grade_horaria.bloqueio
+macros\consulta-sistema-horarios-oficial.accdr
+macros\servidor-sistema-horarios-oficial.dsn
