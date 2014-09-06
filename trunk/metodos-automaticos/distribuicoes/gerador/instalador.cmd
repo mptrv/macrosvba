@@ -1,36 +1,47 @@
 @echo off
 Setlocal
 
-:: Instalador de MÈtodos Autom·ticos
+:: Instalador de M√©todos Autom√°ticos
 :: ========== == ======= ===========
 ::
-:: MÈtodos Autom·ticos s„o mÛdulos que fazem parte do Sistema Hor·rios.
+:: M√©todos Autom√°ticos s√£o m√≥dulos que fazem parte do Sistema Hor√°rios.
 
 
-:: DiretÛrios de origem e destino.
+:: Diret√≥rios de origem e destino.
 
-::set dir_origem=%%T
-set dir_origem="E:\Projetos\macrosvba\metodos-automaticos\tmp\instalador"
+set dir_origem=%~dp0
 
-::set dir_dest=%HOMEPATH%\Documentos
-set dir_dest=E:\Projetos\macrosvba\metodos-automaticos\tmp\instalador\Documentos
-::if not exist %dir_dest% set dir_dest=%HOMEPATH%\Documents
-if not exist %dir_dest% set dir_dest=E:\Projetos\macrosvba\metodos-automaticos\tmp\instalador\Documents
+set dir_dest=%HOMEPATH%\Documentos
+::set dir_dest=E:\Projetos\macrosvba\metodos-automaticos\tmp\instalador\Documentos
+if not exist %dir_dest% set dir_dest=%HOMEPATH%\Documents
+::if not exist %dir_dest% set dir_dest=E:\Projetos\macrosvba\metodos-automaticos\tmp\instalador\Documents
 if not exist %dir_dest% md %dir_dest%
 
 set dir_dest="%dir_dest%\Metodos Automaticos"
-md %dir_dest%
+if not exist %dir_dest% md %dir_dest% &:: J√° existente em atualiza√ß√µes.
 
-:: CÛpia dos arquivos para o destino.
+:: C√≥pia dos arquivos para o destino.
 
-robocopy %dir_origem% %dir_dest% * /xf instalador.cmd /xd Documents /xd Documentos /e
+robocopy %dir_origem% %dir_dest% * /xf instalador.cmd /xd Documents /xd Documentos /e > nul
 
-:: CriaÁ„o de diretÛrios vazios utilizados pelas aplicaÁıes.
+:: Cria√ß√£o de diret√≥rios vazios utilizados pelas aplica√ß√µes.
 
-md %dir_dest%\relatorios
+if not exist %dir_dest%\relatorios md %dir_dest%\relatorios &:: J√° existente em atualiza√ß√µes.
 
-:: CriaÁ„o dos Ìcones na ·rea de trabalho.
+:: Cria√ß√£o dos √≠cones na √°rea de trabalho.
 :: ...
 
+:: Compartilhamento.
+:: ...
+
+:: Finaliza√ß√£o.
+
+echo.
+echo INSTALACAO CONCLUIDA!
+echo.
+echo Os atalhos encontram-se na area de trabalho.
+echo.
 pause
+
 Endlocal
+

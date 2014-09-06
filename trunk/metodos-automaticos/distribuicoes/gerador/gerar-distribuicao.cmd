@@ -7,20 +7,58 @@ Setlocal
 :: Métodos Automáticos são módulos que fazem parte do Sistema Horários.
 
 
-if [%1] == [] (
-	echo Por favor, informar o número da versão.
-	goto fim
-)
+:: Diretórios relativos.
+
+set dirbase=..\..
+set dirdist=..
+
+:: Montagem do nome da distribuição.
+
+if [%1] == [] goto sintaxe
 
 set nomedist=metodos-automaticos-%1
 
-pushd ..\..
-7z a distribuicoes\%nomedist%.7z @distribuicoes\arquivos-distribuicao.txt
+if exist %dirdist%\%nomedist%.7z goto distexistente
+if exist %dirdist%\%nomedist%.exe goto distexistente
+
+:: Compactação dos arquivos.
+
+pushd %dirbase%
+7z a distribuicoes\%nomedist%.7z @distribuicoes\gerador\arquivos-distribuicao.txt
 popd
 
-copy /b 7zS.sfx + config.txt + ..\%nomedist%.7z ..\%nomedist%.exe
+:: Adição do instalador.
 
-del ..\%nomedist%.7z
+7z a %dirdist%\%nomedist%.7z instalador.cmd > nul
+
+:: Criação do arquivo auto-extrátil.
+
+copy /b 7zS.sfx + config.txt + %dirdist%\%nomedist%.7z %dirdist%\%nomedist%.exe > nul
+
+:: Exclusão do arquivo compactado.
+
+del %dirdist%\%nomedist%.7z
+
+:: Finalização.
+
+echo.
+echo Finalizado!
+
+goto fim
+
+:: Mensagens
+
+:sintaxe
+echo.
+echo Uso: gerar-distribuicao VERSAO
+echo.
+echo Por favor, informar a versão.
+goto fim
+
+:distexistente
+echo.
+echo Distribuição existente.
+goto fim
 
 
 :fim

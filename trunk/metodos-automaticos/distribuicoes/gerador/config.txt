@@ -1,5 +1,5 @@
 ;!@Install@!UTF-8!
-Title="Sistema Hor·rios"
-BeginPrompt="Confirma a instalaÁ„o dos mÛdulos do Sistema Hor·rios?"
-RunProgram="ola.cmd"
+Title="M√©todos Autom√°ticos - Sistema Hor√°rios"
+BeginPrompt="Confirma a instala√ß√£o dos m√≥dulos 'M√©todos Autom√°ticos' do Sistema Hor√°rios?"
+RunProgram="instalador.cmd"
 ;!@InstallEnd@!
