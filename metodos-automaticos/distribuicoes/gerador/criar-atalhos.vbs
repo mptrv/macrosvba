@@ -17,11 +17,11 @@ sLinkFile = area_trab & "\Construção Grade Horária.lnk"
 WScript.Echo sLinkFile
 Set oLink = oWS.CreateShortcut(sLinkFile)
 
-oLink.TargetPath = dir_dest & "\Cronograma.txt"
+oLink.TargetPath = dir_dest & "\macros\construcao-grade_horaria.xlsm"
 	oLink.Arguments = ""
-	oLink.Description = "Este é um teste de ligação."
-	oLink.HotKey = "ALT+CTRL+C"
-	oLink.IconLocation = "E:\Projetos\macrosvba\metodos-automaticos\imagens\atualizar.ico"
+	oLink.Description = "Construção Grade Horária - Sistema de Horários"
+	oLink.HotKey = "ALT+CTRL+G"
+	oLink.IconLocation = dir_dest & "\imagens\cgh.ico"
 	oLink.WindowStyle = "1"
-	oLink.WorkingDirectory = dir_dest
+	oLink.WorkingDirectory = dir_dest & "\macros"
 oLink.Save
