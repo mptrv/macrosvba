@@ -27,9 +27,9 @@ pushd %dirbase%
 7z a distribuicoes\%nomedist%.7z @distribuicoes\gerador\arquivos-distribuicao.txt
 popd
 
-:: Adição do instalador.
+:: Adição do instalador e scripts auxiliares.
 
-7z a %dirdist%\%nomedist%.7z instalador.cmd > nul
+7z a %dirdist%\%nomedist%.7z instalador.cmd criar-atalhos.vbs > nul
 
 :: Criação do arquivo auto-extrátil.
 
@@ -41,6 +41,8 @@ del %dirdist%\%nomedist%.7z
 
 :: Finalização.
 
+echo.
+echo Distribuicao gerada: %nomedist%
 echo.
 echo Finalizado!
 
