@@ -1,0 +1,2 @@
+'sqlncli.msi' é redistribuível conforme consta em (acessado em 09-09-2014):
+   http://msdn.microsoft.com/pt-br/library/ms131321(v=sql.105).aspx
