@@ -32,7 +32,8 @@ if not exist "%dir_dest%\relatorios" md "%dir_dest%\relatorios" &:: Já existent
 :: Compartilhamento.
 :: ...
 
-:: Criação dos atalhos na área de trabalho e informação de conclusão.
+:: Criação dos atalhos na área de trabalho, tarefas mais e
+:: informação de conclusão.
  
 cscript criar-atalhos.vbs //Nologo
 

@@ -8,3 +8,4 @@ macros\construcao-grade_horaria.xlsm
 macros\construcao-grade_horaria.bloqueio
 macros\consulta-sistema-horarios-oficial.accdr
 macros\consulta-sistema-horarios-oficial.dsn
+redistribuiveis\sqlncli.msi
