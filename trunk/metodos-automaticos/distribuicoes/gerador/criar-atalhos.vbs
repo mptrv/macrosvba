@@ -47,12 +47,23 @@ Private Sub InstalarSQLNCLI()
 
 	Set oFS = WScript.CreateObject("Scripting.FileSystemObject")
 
+	' Identificação do diretório do sistema.
 	dirsystem = oWS.Environment("PROCESS").Item("SYSTEMROOT") & "\System"
 
-	if not (oFS.FileExists(dirsystem & "\sqlncli10.dll") or _
-			oFS.FileExists(dirsystem & "32\sqlncli10.dll")) then
+	' Identificação da arquitetura do processador (é a da instalação do Windows?)
+	arquitetura = "x86"
+	if (oWS.Environment("PROCESS").Item("PROCESSOR_ARCHITEW6432") = "AMD64") or _
+	   (oWS.Environment("PROCESS").Item("PROCESSOR_ARCHITECTURE") = "AMD64") then _
+	   	arquitetura = "amd64"
 
-		oWS.Run "msiexec /quiet /i " & dir_origem & "\redistribuiveis\sqlncli.msi"
+	' Instalação do 'driver' apenas se não instalado.
+	if not (oFS.FileExists(dirsystem & "\sqlncli10.dll") or _
+		oFS.FileExists(dirsystem & "32\sqlncli10.dll")) then
+
+		msgbox "A executar: " & "msiexec /quiet /i " & _
+			dir_origem & "\redistribuiveis\sqlncli_" & arquitetura & ".msi"
+		oWS.Run "msiexec /quiet /i " & _
+			dir_origem & "\redistribuiveis\sqlncli_" & arquitetura & ".msi"
 
 	end if			  	
 

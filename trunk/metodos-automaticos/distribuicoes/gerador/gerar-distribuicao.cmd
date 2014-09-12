@@ -7,37 +7,15 @@ Setlocal
 :: Métodos Automáticos são módulos que fazem parte do Sistema Horários.
 
 
-:: Diretórios relativos.
-
-set dirbase=..\..
-set dirdist=..
-
 :: Montagem do nome da distribuição.
 
 if [%1] == [] goto sintaxe
 
 set nomedist=metodos-automaticos-%1
 
-if exist %dirdist%\%nomedist%.7z goto distexistente
-if exist %dirdist%\%nomedist%.exe goto distexistente
-
-:: Compactação dos arquivos.
-
-pushd %dirbase%
-7z a distribuicoes\%nomedist%.7z @distribuicoes\gerador\arquivos-distribuicao.txt
-popd
-
-:: Adição do instalador e scripts auxiliares.
-
-7z a %dirdist%\%nomedist%.7z instalador.cmd criar-atalhos.vbs > nul
-
-:: Criação do arquivo auto-extrátil.
-
-copy /b 7zS.sfx + config.txt + %dirdist%\%nomedist%.7z %dirdist%\%nomedist%.exe > nul
-
-:: Exclusão do arquivo compactado.
-
-del %dirdist%\%nomedist%.7z
+call :construir_distribuicao %nomedist% i &:: distribuição de instalação
+if %_result% EQU 0 call :construir_distribuicao %nomedist% a &:: distribuição de atualização
+if %_result% EQU 1 goto distexistente
 
 :: Finalização.
 
@@ -48,6 +26,62 @@ echo Finalizado!
 
 goto fim
 
+:: ========================================================
+:: Construir Distribuição
+::    Parâmetros:
+::      %1 : nome da distribuição
+::      %2 : modo de distribuição: i - instalação; a - atualização
+::    Retornos:
+::       0 : sucesso
+::       1 : distribuição existente
+:construir_distribuicao
+
+SetLocal
+
+:: Interpretação dos parâmetros.
+
+set nomedist=%1-%2
+if [%2] == [i] set modo=instalacao
+if [%2] == [a] set modo=atualizacao
+
+:: Diretórios relativos.
+
+set dirbase=..\..
+set dirdist=..
+
+:: Verifica se a distribuição já existe.
+
+if not exist %dirdist%\%nomedist%.7z if not exist %dirdist%\%nomedist%.exe goto continua
+
+set _result=1
+goto fim_construir_distribuicao
+
+:continua
+
+:: Compactação dos arquivos.
+
+pushd %dirbase%
+7z a distribuicoes\%nomedist%.7z @distribuicoes\gerador\arquivos-distribuicao-%modo%.txt
+popd
+
+:: Adição do instalador e scripts auxiliares.
+
+if [%modo%] == [instalacao] 7z a %dirdist%\%nomedist%.7z instalador.cmd criar-atalhos.vbs > nul
+if [%modo%] == [atualizacao] 7z a %dirdist%\%nomedist%.7z atualizador.cmd > nul
+
+:: Criação do arquivo auto-extrátil.
+
+copy /b 7zS.sfx + config-%modo%.txt + %dirdist%\%nomedist%.7z %dirdist%\%nomedist%.exe > nul
+
+:: Exclusão do arquivo compactado.
+
+del %dirdist%\%nomedist%.7z
+
+:fim_construir_distribuicao
+EndLocal & set _result=%_result%
+goto :eof
+
+:: ========================================================
 :: Mensagens
 
 :sintaxe
@@ -62,6 +96,7 @@ echo.
 echo Distribuição existente.
 goto fim
 
-
+:: ========================================================
+:: Fim do 'script'
 :fim
 Endlocal

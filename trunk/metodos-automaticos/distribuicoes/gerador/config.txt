@@ -1,5 +1,0 @@
-;!@Install@!UTF-8!
-Title="Métodos Automáticos - Sistema Horários"
-BeginPrompt="Confirma a instalação/atualização dos módulos 'Métodos Automáticos' do Sistema Horários?"
-RunProgram="instalador.cmd"
-;!@InstallEnd@!
