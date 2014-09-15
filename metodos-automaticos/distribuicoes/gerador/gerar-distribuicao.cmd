@@ -15,6 +15,7 @@ set nomedist=metodos-automaticos-%1
 
 call :construir_distribuicao %nomedist% i &:: distribuição de instalação
 if %_result% EQU 0 call :construir_distribuicao %nomedist% a &:: distribuição de atualização
+
 if %_result% EQU 1 goto distexistente
 
 :: Finalização.
@@ -53,6 +54,7 @@ set dirdist=..
 
 if not exist %dirdist%\%nomedist%.7z if not exist %dirdist%\%nomedist%.exe goto continua
 
+:: Retorno com código de erro.
 set _result=1
 goto fim_construir_distribuicao
 
@@ -61,7 +63,13 @@ goto fim_construir_distribuicao
 :: Compactação dos arquivos.
 
 pushd %dirbase%
+
+pushd macros
+call gerar-accdr.cmd
+popd
+
 7z a distribuicoes\%nomedist%.7z @distribuicoes\gerador\arquivos-distribuicao-%modo%.txt
+
 popd
 
 :: Adição do instalador e scripts auxiliares.
@@ -76,6 +84,9 @@ copy /b 7zS.sfx + config-%modo%.txt + %dirdist%\%nomedist%.7z %dirdist%\%nomedis
 :: Exclusão do arquivo compactado.
 
 del %dirdist%\%nomedist%.7z
+
+:: Retorno com sucesso.
+set _result=0
 
 :fim_construir_distribuicao
 EndLocal & set _result=%_result%
