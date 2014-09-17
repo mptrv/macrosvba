@@ -1,5 +1,5 @@
 ;!@Install@!UTF-8!
 Title="Métodos Automáticos - Sistema Horários"
-BeginPrompt="Confirma a atualização dos módulos 'Métodos Automáticos' do Sistema Horários?"
+BeginPrompt="Confirma a ATUALIZAÇÃO dos módulos 'Métodos Automáticos' do Sistema Horários?"
 RunProgram="atualizador.cmd"
 ;!@InstallEnd@!
