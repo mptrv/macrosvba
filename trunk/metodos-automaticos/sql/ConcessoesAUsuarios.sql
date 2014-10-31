@@ -41,7 +41,7 @@ grant
 	
 grant
 	insert,
-	update (Nome, Nome_Formatado, IMT_Categoria, IMT_Regime, IMT_Data_Desligamento, Observacoes),
+	update (Nome, Nome_Formatado, IMT_Categoria, IMT_Regime, MagSup_DataIni, IMT_Data_Desligamento, Observacoes),
 	select
 	on dbo.Professores
 	to "sch";
