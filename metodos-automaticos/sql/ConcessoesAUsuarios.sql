@@ -14,6 +14,7 @@
 --	order by 2;
 
 use [sistema-horarios-oficial]
+--use [sistema-horarios-depuracao]
 go
 
 -- Se ainda não criado, descomentar:
@@ -51,6 +52,13 @@ grant
 	update,
 	select
 	on dbo.PG_Professores
+	to "sch";
+
+grant
+	insert,
+	update (Motivo, Observacoes),
+	select
+	on dbo.IMT_Licenca_Afastamento
 	to "sch";
 
 go
