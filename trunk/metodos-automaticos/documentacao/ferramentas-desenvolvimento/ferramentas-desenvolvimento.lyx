@@ -119,7 +119,7 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.1.1++
+ 0.1.2
 \end_layout
 
 \begin_layout Author
@@ -4042,6 +4042,119 @@ Windows
 .
  Realizando uma busca com o nome da conexão é suficiente para encontrar
  o local de sua definição.
+\end_layout
+
+\begin_layout Enumerate
+Para edição das conexões, pode-se utilizar o programa 
+\family sans
+odbcad32.exe
+\family default
+.
+\end_layout
+
+\begin_layout Enumerate
+É possível conectar ao 
+\emph on
+Banco de Dados Oracle 10g
+\emph default
+ por meio do 
+\emph on
+Instant Client 
+\emph default
+mais recente, como o 
+\emph on
+11g 
+\emph default
+e
+\emph on
+ 12c
+\emph default
+.
+ Testes foram feitos com sucesso.
+\end_layout
+
+\begin_layout Enumerate
+Aconselha-se a utilizar o 
+\emph on
+Instant Client 12c
+\emph default
+, pois os anteriores podem apresentar problemas em versões mais recentes
+ do 
+\emph on
+Windows
+\emph default
+.
+ Salienta-se que o 
+\emph on
+Instant Client
+\emph default
+ faz uso do 
+\emph on
+Microsoft Visual C++ Redistributable
+\emph default
+.
+ Em máquinas de 64 bits, se utilizado algum aplicativo de 32 bits, como
+ 
+\emph on
+Access 
+\emph default
+ou 
+\emph on
+Excel
+\emph default
+, deve-se instalar a versão de 32 do 
+\emph on
+Instant Client
+\emph default
+ e do 
+\emph on
+Microsoft Visual C++ Redistributable
+\emph default
+ (versão 2010).
+ Neste caso, o gerenciamento das conexões deve ser feito com o 
+\family sans
+odbcad32.exe
+\family default
+, localizado em 
+\family sans
+%windir%
+\backslash
+syswow64
+\family default
+, pois, caso contrário, o 
+\emph on
+driver
+\emph default
+ não será listado.
+\end_layout
+
+\begin_layout Enumerate
+Não há necessidade de instalar o 
+\emph on
+Oracle Client 
+\emph default
+para utilizar o 
+\emph on
+Instant Client
+\emph default
+.
+ O arquivo 
+\family sans
+ODBC_IC_Readme_Win.html 
+\family default
+possui mais informações para este caso.
+\end_layout
+
+\begin_layout Enumerate
+A versão 
+\emph on
+12c 
+\emph default
+do 
+\emph on
+Instant Client 
+\emph default
+possui arquivos HTML de ajuda, com informações gerais e técnicas.
 \end_layout
 
 \begin_layout Subsection
