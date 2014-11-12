@@ -10,3 +10,4 @@ macros\consulta-sistema-horarios-oficial.accdr
 macros\consulta-sistema-horarios-oficial.dsn
 redistribuiveis\sqlncli_amd64.msi
 redistribuiveis\sqlncli_x86.msi
+redistribuiveis\instantclient_12_1
