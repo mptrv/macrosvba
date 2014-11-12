@@ -69,6 +69,17 @@ Private Sub InstalarSQLNCLI()
 
 End Sub
 
+Private Sub InstalarInstantClient()
+
+	' TODO: Depurar.
+
+	oWS.Run "robocopy " & dir_origem & "\redistribuiveis\instantclient_12_1 " & _
+		"c:\oracle\instantclient_12_1" & "/e > nul"
+
+		' TODO: Configurar ODBC: instalar, ajustar PATH, criar conexão de sistema.
+			  
+End Sub		
+
 ' ---------------------------------------------------
 ' Programa Principal
 
@@ -82,8 +93,8 @@ dir_dest = oWS.Environment("PROCESS").Item("DIR_DEST")
 ' Instalações
 
 CriarAtalhos
-
 InstalarSQLNCLI
+InstalarInstantClient
 
 ' Mensagem de conclusão.
 
