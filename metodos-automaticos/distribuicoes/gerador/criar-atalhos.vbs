@@ -74,7 +74,7 @@ Private Sub InstalarInstantClient()
 	' TODO: Depurar.
 
 	oWS.Run "robocopy " & dir_origem & "\redistribuiveis\instantclient_12_1 " & _
-		"c:\oracle\instantclient_12_1" & "/e > nul"
+		"c:\oracle\instantclient_12_1 " & "* /e > nul"
 
 		' TODO: Configurar ODBC: instalar, ajustar PATH, criar conexão de sistema.
 			  
