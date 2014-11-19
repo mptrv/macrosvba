@@ -7,16 +7,22 @@ Setlocal
 :: Métodos Automáticos são módulos que fazem parte do Sistema Horários.
 
 
-:: Montagem do nome da distribuição.
+:: Montagem do nome da distribuição e diretórios.
 
-if [%1] == [] goto sintaxe
+set versao=%1
+if [%1] == [] goto pedirversao
 
-set nomedist=metodos-automaticos-%1
+:continuar_de_pedirversao
+set nomedist=metodos-automaticos-%versao%
 
 call :construir_distribuicao %nomedist% i &:: distribuição de instalação
 if %_result% EQU 0 call :construir_distribuicao %nomedist% a &:: distribuição de atualização
 
 if %_result% EQU 1 goto distexistente
+
+:: Cópia para o diretório de distribuição da rede.
+
+call republicar.cmd %versao%
 
 :: Finalização.
 
@@ -93,21 +99,30 @@ EndLocal & set _result=%_result%
 goto :eof
 
 :: ========================================================
+:: Entradas de usuário
+
+:pedirversao
+set /p versao=Por favor, informar a versao: 
+if errorlevel 1 goto sintaxe
+goto continuar_de_pedirversao
+
+:: ========================================================
 :: Mensagens
 
 :sintaxe
 echo.
 echo Uso: gerar-distribuicao VERSAO
 echo.
-echo Por favor, informar a versão.
+echo Por favor, informar a versao.
 goto fim
 
 :distexistente
 echo.
-echo Distribuição existente.
+echo Distribuicao existente.
 goto fim
 
 :: ========================================================
 :: Fim do 'script'
 :fim
+if [%1] == [] echo. & pause
 Endlocal
