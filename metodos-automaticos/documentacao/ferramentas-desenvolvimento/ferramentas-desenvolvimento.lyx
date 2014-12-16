@@ -119,7 +119,7 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.1.2
+ 0.1.2+
 \end_layout
 
 \begin_layout Author
@@ -3262,6 +3262,52 @@ sumir
 
 \begin_layout Chapter
 Adicionais para Tecnologia da Informação
+\end_layout
+
+\begin_layout Section
+Conceitos
+\end_layout
+
+\begin_layout Subsection
+Prototipação de Páginas 
+\emph on
+Web
+\end_layout
+
+\begin_layout Standard
+Conceitos sobre prototipação de páginas 
+\emph on
+Web
+\emph default
+ podem ser obtidos por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.webdesignerdepot.com/2009/07/using-wireframes-to-streamline-your-development-process/"
+target "http://www.webdesignerdepot.com/2009/07/using-wireframes-to-streamline-your-development-process/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+ou, alternativamente, por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "artigos-referenciados/using-wireframes-to-streamline-your-development-process-webdesigner-depot.pdf"
+target "artigos-referenciados/using-wireframes-to-streamline-your-development-process-webdesigner-depot.pdf"
+type "file:"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
