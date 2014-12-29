@@ -60,10 +60,11 @@ Private Sub InstalarSQLNCLI()
 	if not (oFS.FileExists(dirsystem & "\sqlncli10.dll") or _
 		oFS.FileExists(dirsystem & "32\sqlncli10.dll")) then
 
-		msgbox "A executar: " & "msiexec /quiet /i " & _
+		msgbox "A executar: " & "msiexec /quiet IACCEPTSQLNCLILICENSETERMS=YES /i " & _
 			dir_origem & "\redistribuiveis\sqlncli_" & arquitetura & ".msi"
-		oWS.Run "msiexec /quiet /i " & _
+		oWS.Run "msiexec /quiet IACCEPTSQLNCLILICENSETERMS=YES /i " & _
 			dir_origem & "\redistribuiveis\sqlncli_" & arquitetura & ".msi"
+		'TODO: depurar o efeito de se inserir "IACCEPTSQLNCLILICENSETERMS=YES".
 
 	end if			  	
 
