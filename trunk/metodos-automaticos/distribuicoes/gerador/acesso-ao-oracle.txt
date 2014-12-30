@@ -1,0 +1,6 @@
+Configurar uma variáveis de ambiente:
+  * ORACLE_HOME: apontar para diretório do cliente
+  * TNS_ADMIN: apontar para diretório do Instant Client
+
+Criar "Fonte de dados do sistema":
+  * Oracle 10g - Produção
