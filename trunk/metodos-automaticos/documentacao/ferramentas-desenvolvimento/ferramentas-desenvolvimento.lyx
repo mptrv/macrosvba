@@ -119,7 +119,7 @@ Ferramentas de Desenvolvimento
 
 \size normal
 v.
- 0.1.2+
+ 0.1.3
 \end_layout
 
 \begin_layout Author
@@ -4607,9 +4607,17 @@ Windows
 \end_layout
 
 \begin_layout Section
-Notas e Dicas sobre o 
+
 \emph on
 Windows
+\emph default
+ -- Notas e Dicas
+\end_layout
+
+\begin_layout Subsection
+
+\family typewriter
+services.msc
 \end_layout
 
 \begin_layout Standard
@@ -4652,6 +4660,133 @@ do
 
 Windows: mantém a sincronização de data e hora em todos os clientes e servidores
  da rede.
+\end_layout
+
+\begin_layout Subsection
+Código de Página para Nomes de Arquivos
+\end_layout
+
+\begin_layout Standard
+O código de página para nomes de arquivo no Windows é
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\family typewriter
+cp850
+\family default
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O NTFS utiliza Unicode como conjunto de caracteres para os nomes dos arquivos.
+ Entretanto, o 
+\emph on
+Console do Windows
+\emph default
+ não dá suporte ao Unicode e, portanto, os
+\emph on
+ scripts 
+\emph default
+devem ser salvos com a codificação de página 
+\family typewriter
+cp850
+\family default
+, a fim de que referências a arquivos com nomes acentuados sejam válidas.
+\end_layout
+
+\begin_layout Standard
+No 
+\emph on
+Vim
+\emph default
+, pode-se editar o arquivo em 
+\family typewriter
+utf-8
+\family default
+ e, ao salvá-lo, convertê-lo para 
+\family typewriter
+cp850
+\family default
+.
+ Os comandos para esta tarefa são:
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+:set fenc=cp850
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+:w
+\family default
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ver também os artigos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://msdn.microsoft.com/en-us/library/windows/desktop/dd317752(v=vs.85).aspx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://msdn.microsoft.com/en-us/library/windows/desktop/dd317748(v=vs.85).aspx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://viniciuscanto.blogspot.com.br/2007/02/acentos-em-arquivos-bat.html
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
