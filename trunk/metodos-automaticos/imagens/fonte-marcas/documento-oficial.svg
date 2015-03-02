@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.3971066"
-     inkscape:cx="208.26261"
-     inkscape:cy="823.53937"
+     inkscape:zoom="3.617114"
+     inkscape:cx="170.83836"
+     inkscape:cy="830.49765"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -132,7 +132,7 @@
        sodipodi:type="arc" />
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;opacity:0.25221239"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.2522124;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="231.634"
        y="224.14899"
        id="text4195"
@@ -141,11 +141,11 @@
          id="tspan4197"
          x="231.634"
          y="224.14899"
-         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Book Antiqua;-inkscape-font-specification:Book Antiqua">IMT</tspan><tspan
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Book Antiqua;-inkscape-font-specification:Book Antiqua">CEUN</tspan><tspan
          sodipodi:role="line"
          x="231.634"
          y="234.14899"
          id="tspan4199"
-         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Book Antiqua;-inkscape-font-specification:Book Antiqua">CEUN</tspan></text>
+         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Book Antiqua;-inkscape-font-specification:Book Antiqua">IMT</tspan></text>
   </g>
 </svg>
