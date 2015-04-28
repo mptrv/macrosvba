@@ -60,9 +60,9 @@ Private Sub InstalarSQLNCLI()
 	if not (oFS.FileExists(dirsystem & "\sqlncli10.dll") or _
 		oFS.FileExists(dirsystem & "32\sqlncli10.dll")) then
 
-		msgbox "A executar: " & "msiexec /quiet IACCEPTSQLNCLILICENSETERMS=YES /i " & _
+		msgbox "A executar: " & "msiexec IACCEPTSQLNCLILICENSETERMS=YES /i " & _
 			dir_origem & "\redistribuiveis\sqlncli_" & arquitetura & ".msi"
-		oWS.Run "msiexec /quiet IACCEPTSQLNCLILICENSETERMS=YES /i " & _
+		oWS.Run "msiexec IACCEPTSQLNCLILICENSETERMS=YES /i " & _
 			dir_origem & "\redistribuiveis\sqlncli_" & arquitetura & ".msi"
 		'TODO: depurar o efeito de se inserir "IACCEPTSQLNCLILICENSETERMS=YES".
 
@@ -77,7 +77,10 @@ Private Sub InstalarInstantClient()
 	oWS.Run "robocopy " & dir_origem & "\redistribuiveis\instantclient_12_1 " & _
 		"c:\oracle\instantclient_12_1 " & "* /e > nul"
 
-		' TODO: Configurar ODBC: instalar, ajustar PATH, criar conexão de sistema.
+	oWS.Run "c:\oracle\instantclient_12_1\odbc_install.exe"
+
+		' TODO: Configurar ODBC: instalar, ajustar PATH, criar conexão de sistema,
+		' criar TNSNAMES.ora.
 			  
 End Sub		
 
