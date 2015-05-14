@@ -13,6 +13,21 @@
 --	select user_name(role_principal_id), user_name(member_principal_id) from sys.database_role_members
 --	order by 2;
 
+------------------------------------------------------
+-- INFORMAÇÕES
+------------------------------------------------------
+
+use [sistema-horarios-oficial]
+--use [sistema-horarios-depuracao]
+go
+
+exec sp_helprolemember sch;
+go
+
+------------------------------------------------------
+-- DEFINIÇÕES
+------------------------------------------------------
+
 use [sistema-horarios-oficial]
 --use [sistema-horarios-depuracao]
 go
