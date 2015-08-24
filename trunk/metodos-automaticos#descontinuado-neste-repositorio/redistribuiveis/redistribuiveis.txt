@@ -1,5 +1,0 @@
-'sqlncli.msi' é redistribuível conforme consta em (acessado em 09-09-2014):
-   http://msdn.microsoft.com/pt-br/library/ms131321(v=sql.105).aspx
-
-'instantclient-12.1.0.2.0.zip': confirmar contrato para saber se é
-redistribuível (e, se for, adicionar ao repositório).
