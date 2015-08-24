@@ -1,2 +1,0 @@
-macros\construcao-grade_horaria.xlsm
-macros\consulta-sistema-horarios-oficial.accdr
