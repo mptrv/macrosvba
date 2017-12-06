@@ -25,6 +25,8 @@ Public Const MOUSEEVENTF_LEFTDOWN = &H2
 Public Const MOUSEEVENTF_LEFTUP = &H4
 Public Const MOUSEEVENTF_RIGHTDOWN As Long = &H8
 Public Const MOUSEEVENTF_RIGHTUP As Long = &H10
+Public Const MOUSEEVENTF_MIDDLEDOWN As Long = &H20
+Public Const MOUSEEVENTF_MIDDLEUP As Long = &H40
 
 Public Sub SingleClick()
   'Single click
